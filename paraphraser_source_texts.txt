@@ -1,0 +1,12 @@
+HideNSeek is a model fidelity verification algorithm for probabilistically fingerprinting language models.
+The current evaluation pipeline compares outputs from multiple systems and estimates which outputs share the same source.
+A robust benchmark should preserve semantic meaning while exposing consistent stylistic tendencies.
+Model attribution is easier when prompts elicit varied syntax but avoid introducing new factual content.
+Reliable experiments require deterministic seeds, explicit sampling temperatures, and stable prompt templates.
+A confusion matrix can reveal which systems are consistently mistaken for one another.
+The auditor should evolve hard cases over rounds so the detective can improve attribution accuracy.
+Paraphrase tasks are useful because they constrain meaning and reduce topic-level shortcuts.
+Evaluation metrics should include both overall accuracy and macro F1 to account for class imbalance.
+Per-sample metadata should capture source text, paraphraser id, generation seed, and token usage.
+Length controls help avoid trivial cues introduced by very short or very long rewrites.
+A practical pipeline should support hosted APIs and local models under one interface.

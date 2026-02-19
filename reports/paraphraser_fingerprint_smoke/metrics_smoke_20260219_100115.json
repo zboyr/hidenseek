@@ -1,0 +1,23 @@
+{
+  "task": "paraphraser_fingerprint",
+  "paraphrasers": [
+    "gpt5_nano",
+    "claude_haiku_45",
+    "dipper_lowlow"
+  ],
+  "auditor_model": "openai/gpt-5.2",
+  "detective_model": "logreg_charwb",
+  "run_timestamp": "20260219_100115",
+  "round_metrics": [
+    {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "num_samples": 3,
+      "round": 0
+    }
+  ],
+  "final_accuracy": 1.0,
+  "final_macro_f1": 1.0,
+  "records_path": "reports/paraphraser_fingerprint_smoke/paraphrase_records_smoke_20260219_100115.jsonl",
+  "num_records": 3
+}

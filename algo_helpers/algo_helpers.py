@@ -509,11 +509,13 @@ def parse_args():
     parser = argparse.ArgumentParser()
 
     # General
-    parser.add_argument("--models_file", type=str, required=True, help="YAML file that contains the configs for the models to be used")
+    parser.add_argument("--models_file", type=str, required=False, help="YAML file that contains the configs for the models to be used")
     parser.add_argument('--num_trials', type=int, required=False, default=5, help="Number of trials to run")
-    parser.add_argument('--task', type=str, choices=['relevance', 'lang_trend', 'model_duplication'], 
-                default='relevance', help='Which task to run')
+    parser.add_argument('--task', type=str, choices=['relevance', 'lang_trend', 'model_duplication', 'paraphraser_fingerprint'], 
+                default='paraphraser_fingerprint', help='Which task to run')
     parser.add_argument('--config_path', type=str, required=False, help="Path for loading model api config")
+    parser.add_argument('--paraphraser_config', type=str, default='paraphraser_config.yaml',
+                        help='YAML/JSON config for paraphraser fingerprint task')
 
     # Task arguments
     parser.add_argument('--rewrite_prompt', action='store_true', help="Prevent prompt rewrite")
@@ -536,6 +538,19 @@ if __name__ == "__main__":
     args = parse_args()
 
     load_dotenv(args.config_path)
+
+    if args.task == 'paraphraser_fingerprint':
+        from algo_helpers.paraphraser_fingerprint import run_paraphraser_fingerprint_experiment
+
+        output = run_paraphraser_fingerprint_experiment(
+            config_path=args.paraphraser_config,
+            env_path=args.config_path,
+        )
+        print(json.dumps(output, indent=2))
+        raise SystemExit(0)
+
+    if not args.models_file:
+        raise ValueError("--models_file is required for relevance/lang_trend/model_duplication tasks")
 
     evaluator = ResponseEvaluationTensor()
     evaluation_config = EvaluationConfig({

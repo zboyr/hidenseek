@@ -1,33 +1,43 @@
 # HideNSeek
-HideNSeek is a Model Fidelity Verification Algorithm for Probabilistically Fingerprinting LLMs
 
-`algo_helpers/algo_helpers.py` currently has a working version of an early preview version of Hide-N-Sekk that utilizes a probablistic approach for idetnifying various LLMS
+HideNSeek is a model-fidelity verification project. The current default experiment is
+paraphraser fingerprint attribution (Auditor evolves hard paraphrase cases, Detective
+classifies which paraphraser produced each rewrite).
 
-![LLM Groupings discovered](model_groups.png)
+## Environment
 
-Sample Usage
+Create `.env` and set keys used by your configured paraphrasers:
 
-Setup a YAML file that looks something like this: 
 ```
-auditor_model: Qwen/Qwen2-72B-Instruct
-test_models:
-  - meta-llama/Llama-3-70b-chat-hf
-  - meta-llama/Llama-3-8b-chat-hf
-  - google/gemma-2-27b-it
-  - mistralai/Mistral-7B-Instruct-v0.3
-  - microsoft/phi-2
-test_indexes:
-  - 0
-  - 1
-  ```
-
-To run the adverserial LLM test run the following command
-```
-python -m algo_helpers.adversarial_helpers --save_response --num_trials 10 --models_file models.yaml
+OPENROUTER_API_KEY=your_openrouter_key
+HF_DIPPER_ENDPOINT_URL=your_remote_dipper_endpoint
+HF_DIPPER_API_KEY=your_remote_dipper_token
 ```
 
-### Algorithm
+`OPENROUTER_API_KEY` is required for `OpenRouterParaphraser` entries in the config.
+`OPENROUTER_API_KEY` is also used by Auditor when `auditor_model` is enabled. Missing key or auditor failure hard-fails the run.
+`HF_DIPPER_ENDPOINT_URL` + `HF_DIPPER_API_KEY` are required for `dipper_remote_true` entries.
 
-An LLM Is used to evaluate if various LLMS are similar or not
+## Default task: paraphraser fingerprint
 
-A Matrix can than be generated thats `M X M` that contains `1`'s where the models where confused for one another. A grouping algorithm can than visualize the groups and showcase what models are confused for which
+Edit `paraphraser_config.yaml` to define:
+- paraphraser list (OpenRouter model IDs + remote DIPPER-style variants)
+- detective and auditor model variables (`detective_model`, `auditor_model`)
+- generation params (temperature, rounds, samples, concurrency)
+- source text corpus path
+- timestamped outputs (`output_with_timestamp: true`, optional `run_tag`)
+
+Run:
+
+```
+python -m algo_helpers.algo_helpers --task paraphraser_fingerprint --paraphraser_config paraphraser_config.yaml --config_path .env
+```
+
+Artifacts are written under `reports/paraphraser_fingerprint`:
+- `paraphrase_records_<run_tag>_<timestamp>.jsonl` (fields: source_text, paraphraser_id, paraphrase, metadata)
+- `metrics_<run_tag>_<timestamp>.json` (final accuracy, macro-F1, per-round curve)
+
+## Legacy tasks
+
+Legacy model-level tasks (`relevance`, `lang_trend`, `model_duplication`) are still
+available and require `--models_file`.

@@ -9,3 +9,6 @@ together
 setuptools
 python-dotenv
 networkx
+requests
+PyYAML
+scikit-learn
