@@ -1,0 +1,1160 @@
+{
+  "evaluations": [
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "correct_pairs": [
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "llama_31_8b",
+    "gemini_25_flash",
+    "gpt5_nano",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ]
+  ],
+  "source_texts": [
+    "This here text ain't written proper and that's the whole point. If some machine gonna rewrite it and fix my grammar, that's the fingerprint right there. Ain't nobody asked for corrections. They own voice is they own voice.",
+    "Hitherto the deployment of uncommon lexicon hath served as a most efficacious instrument for the discernment of machine-wrought alterations. Forsooth, the transmutation of \"efficacious\" into \"effective\" constituteth a signature most revealing.",
+    "Stop. No. Wait. Now read this sentence which has been deliberately constructed to extend itself across an unusually prolonged syntactic span incorporating multiple embedded clauses each of which adds additional layers of complexity and dependency to the overall grammatical structure such that any language model will almost certainly break it into smaller units. Short again. Done.",
+    "However, repetition is a test. However, machines hate it. However, they will swap in \"nevertheless.\" However, they might try \"nonetheless.\" However, \"on the other hand\" will appear. However, \"yet\" sneaks in. However, \"still\" becomes tempting. However, this is the fingerprint. However, all nine were chosen on purpose.",
+    "This section does not contain \"delve.\" It does not contain \"crucial.\" There is no \"landscape\" here. No \"tapestry.\" No \"multifaceted.\" No \"nuanced.\" No \"comprehensive.\" No \"moreover.\" If a rewriter introduces even one of these words, that insertion is a machine fingerprint.",
+    "Language models love threes. This sentence has two adjectives: cold and dark. After rewriting it will probably become \"cold, dark, and silent.\" The machine cannot resist the tricolon. Write pairs. Count what comes back.",
+    "The rain fell for nine days. The river rose. Mrs. Chen moved her furniture upstairs. Nobody called the emergency line. The sandbags arrived on day four. By day seven they were useless. There is no topic sentence here. No \"as a result.\" No \"consequently.\" The logic is implicit. A rewriter will add framing. That is the fingerprint.",
+    "She won the prize on Tuesday. But let me back up. Three years earlier she'd decided to quit her job. No \u2014 even further back. Age eleven. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was a phase. It wasn't. Tuesday's prize was for octopus camouflage research. A rewriter will linearize this chronologically. The temporal disorder is the test.",
+    "The dog bit the man. The man bit back. Neither recovered quickly. Seven stitches for one. Four days of antibiotics for the other. The neighbor filmed it. Nobody pressed charges. The film got 40,000 views. Some comments called it karma. Some called it cruel. The dog was named Gerald. This is not a metaphor. Do not read anything into the name Gerald.",
+    "Marcus paid the bill. He left no tip. The waiter watched him go. Outside, Marcus stood by his car for four minutes. He went back inside. He left twelve dollars on the table. The waiter had already gone home. The busboy took the money. He bought a lottery ticket. He did not win. Marcus never found out any of this happened. Neither did the waiter. The twelve dollars completed a loop no one witnessed.",
+    "The envelope arrived on a Wednesday. Inside: one key, one index card, no explanation. The index card said only: \"Not yet.\" Elena put the key in a drawer. Thursday passed. Friday passed. On Saturday she opened the drawer. The key was gone. She had not touched it. No one else had a key to her apartment. She checked the drawer again. Empty. She still has the index card. It still says \"Not yet.\" She does not know what this means. Neither do I.",
+    "The interview lasted nine minutes. Priya answered every question correctly. The interviewer thanked her. She was not offered the job. No explanation came. She emailed twice. No response. She called once. Voicemail. Six weeks later, the position was listed again. Same title. Same requirements. She applied again. Same nine-minute interview. Same correct answers. Same thank-you. No offer. She has applied four times now. Each interview: nine minutes. She has started timing them. She does not know why it is always nine minutes. The interviewer does not seem to know either.",
+    "The cartographer made a map with one deliberate error. She did this every time. Every map she made contained one wrong road, one false river, one invented hill. She called this her signature. No one had ever found the errors. She had made forty-one maps. Forty-one errors, undetected. She kept a separate notebook listing each mistake. The notebook had forty-one entries. On the last page, she wrote: the error in this notebook is that there are only forty entries. She counted again. There were forty-one. She did not know what to do with this. She still does not.",
+    "Nora counted her steps every day. Not obsessively. She simply counted. Tuesday: 4,412 steps. Wednesday: 4,412 steps. Thursday: 4,412 steps. She had not planned this. She had not tried to repeat the number. On Friday she walked a different route. She visited her sister. She got lost twice. She walked 4,412 steps. She told no one. On Saturday she stayed inside all day. She paced. She read. She cooked. At midnight she checked: 4,412 steps. She has not told anyone. She does not want it to stop.",
+    "The lighthouse had been dark for eleven years. Marcus knew this because he had counted. Every morning he looked out his window: dark. Every evening: dark. On the night of his birthday \u2014 his forty-fourth \u2014 it turned on. He saw it. He called the coast guard. They said the lighthouse had been decommissioned. He said, yes, but it is on right now. They sent someone. By the time the person arrived, the light was off. The officer said: we see nothing. Marcus said: I have a photograph. He showed them the photograph. In it, the lighthouse was dark. He had taken it while the light was on. He still does not understand the photograph.",
+    "Elena found a receipt in her coat pocket. The total was $14.73. The date was March 3rd. She had not been to that store on March 3rd. She checked her bank records. No transaction. She checked again. No transaction on March 3rd. She showed the receipt to her husband. He said he had not been to that store either. She threw the receipt away. The next morning, it was in her coat pocket again. Same total: $14.73. Same date: March 3rd. She threw it away four more times. It came back four more times. On the fifth morning, she kept it. She has kept it for two years. The receipt has not faded. $14.73. March 3rd. She does not shop at that store.",
+    "The archivist catalogued 7,000 photographs. Each one showed the same empty chair. Different rooms, different lighting, different decades \u2014 but always the same chair. He spent three years on this. He did not find the chair. He searched auction records, estate sales, furniture databases. Nothing matched. In year four, he moved to a smaller apartment. He needed to sell his chair. He posted a photograph online. Within an hour, someone replied: this is the chair from the archive. He checked. It was not. He checked again. It was. He has lived in his new apartment for six months. He does not sit in the chair. He has not returned to the archive. He still owns the chair.",
+    "The cartographer drew the same map seven times. Not copies. The same map. He began each one without looking at the last. Every river ended in the same place. Every mountain had the same name. He had never visited the region. He did not know the region's name. On the seventh map, a road appeared. He had not drawn the road. He checked the previous six. Six roads. He had not drawn those either. He mailed the seventh map to a geographic society. They wrote back: this region does not exist. He wrote back: I know. They did not respond. The road on the map leads to a place he has circled. He does not know why he circled it. His handwriting is in the circle. It says: here.",
+    "The translator worked on the same sentence for nine days. The sentence had seven words. She translated it into English. She translated it back. The words were different. She tried again. The words were different again. She asked a colleague. He read the original. He said: this sentence has six words. She counted. Seven. He counted. Six. They counted together. Neither could agree. She photographed the page. In the photograph, the sentence had five words. She still has the photograph. She still has the original. They do not have the same number of words. She has not finished the translation. The sentence, in every version, means the same thing. It means: this cannot be translated.",
+    "The witness gave three statements. In the first, she said the light was red. In the second, she said the light was green. In the third, she said there was no light. The investigator asked which was true. She said: all three. He asked her to explain. She said: I have explained. He reviewed the statements again. Each one was signed. Each one was dated the same day. The handwriting was the same in all three. The ink was the same. The paper was the same. He could find no inconsistency except the facts. He closed the case. He opened it again six months later. The statements had not changed. He asked to speak with the witness. She had not existed, according to every record he could find. He still has the three statements. They are still signed."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gpt5_nano",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "llama_31_8b"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gpt5_nano",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano"
+    ]
+  ],
+  "rationales": [
+    "Outputs 3 and 4 share nearly identical sentence structure and phrasing in key passages: both use 'Nobody asked for corrections,' both use the construction 'If some machine is going to rewrite it and [fix/correct] my grammar, that's the finger-print/fingerprint right there,' and both rephrase the 'own voice' concept similarly. The minor differences (ain't vs. isn't, hyphenated 'finger-print' vs. 'fingerprint', 'This here') are superficial variations consistent with the same paraphraser producing slightly different outputs.",
+    "Outputs 0 and 3 both use archaic/Shakespearean language with identical structural patterns: both begin with 'Forsooth, the transmutation of...' and continue with 'Hitherto the deployment of uncommon lexicon has served as a most ... instrument for the ... of machine-... alterations.' The only differences are minor word substitutions (e.g., 'efficacious'/'effective', 'discernment'/'detection', 'machine-made'/'machine-wrought'), which is consistent with the same paraphraser generating two slightly different outputs. No other pair shares this distinctive archaic register and near-identical sentence structure.",
+    "Outputs 1 and 4 both feature multiple identical short imperative/exclamatory fragments ('Stop.', 'Done.', 'Short again.') surrounding the long complex sentence. These fragments appear in both outputs but are rearranged in order (Output 4 has them at the start, Output 1 distributes them before and after). This shared stylistic fingerprint of using these same disconnected imperative fragments strongly indicates the same paraphraser. Output 0 has a simpler framing, Output 3 uses different phrases, and Output 2 is a heavy compression.",
+    "Outputs 2 and 3 both share a highly distinctive stylistic pattern: every clause/sentence begins with 'However,' creating an anaphoric structure that mirrors the source text's repetition theme. Both outputs use this same 'However' at the start of each unit as their dominant organizing device, which is a clear linguistic fingerprint of the same paraphraser. No other outputs use this approach.",
+    "Outputs 0 and 1 both exhibit the same staccato, repetitive, item-by-item listing style where each word absence is noted in a separate short sentence ('It doesn't include...' / 'There is no... here.'). This fragmented, choppy enumeration pattern is consistent with dipper_lowmed's style seen in previous rounds, which tends to use repetitive short sentence structures. Both end with a similar note about machine fingerprinting.",
+    "Indexes 0 and 2 share the same paraphraser fingerprints. Both begin with short imperative sentences about writing pairs and counting results ('Write a pair and count what comes back' vs 'Write pairs, count what comes back'). Both use 'cold, dark and silent' without the Oxford comma. Both describe the phenomenon in casual, clipped language ('The linguistic models love threes' vs 'The machine cannot resist a threefold'). The sentence structure, rhythm, and ordering of ideas are strikingly parallel, while indexes 1, 3, and 4 all differ significantly in style, formality, and structure.",
+    "Indexes 3 and 4 share the same structural fingerprint: both place the meta-commentary about missing topic sentences and connective words FIRST, before recounting the narrative, and both use semicolons to chain the narrative events. This reordering and punctuation pattern is consistent with the same paraphraser (dipper_lowmed), which tends to produce two outputs with similar restructuring choices.",
+    "Outputs 0 and 3 share very similar stylistic fingerprints: both use short, fragmented sentences to preserve the non-linear narrative structure, both use similar phrasings like 'No\u2014even further back' and short enumerated clauses ('A library book about marine biology. Dog-eared pages on/about cephalopods. Her mother said it was a phase. It wasn't.'), and both end with a meta-statement about the prize and the rewrite/test. They appear to be from the same paraphraser (likely dipper_lowmed), which consistently produces fragmented, list-like sentences that mirror the original's structure.",
+    "Outputs 1 and 3 share the same paraphraser. Both use nearly identical phrasing ('garnered significant attention online,' 'mixed reactions,' '40,000 views'), both include the meta-commentary about the narrator explicitly stating the literal nature of the account and no symbolic meaning in Gerald's name, and both employ a formal, academic, summarizing prose style with complex sentence structures. Key phrases like 'garnered significant attention' and the elaborated ending about literal interpretation appear in both, distinguishing them from the other outputs.",
+    "Outputs 3 and 4 share very similar stylistic patterns: both use clean, complete declarative sentences; both include 'four minutes' by the car; both use 'loop' and 'no one witnessed'; both maintain a formal, neutral tone with parallel sentence construction. Output 3 uses slightly more elevated vocabulary ('settled his tab,' 'lingered,' 'claimed') but the overall structure, sequencing, and phrasing are nearly identical to Output 4, suggesting they come from the same paraphraser.",
+    "Indexes 2 and 3 share the same opening structure ('A Wednesday delivery brought Elena...'), similar handling of the Thursday/Friday passage, parallel descriptive language, and nearly identical closing formulations about the meaning being unknown to both Elena and the narrator/the author. Both use polished, narrative-style prose with similar sentence rhythms and word choices, distinguishing them from the minimalist style of 0 and 4, and the more elaborate summarizing style of 1.",
+    "Indexes 1 and 2 share the same paraphraser. Both use a structured, organized narrative approach with clear paragraph-level organization, similar details (four times, six weeks later, same title and requirements), and both conclude with the mystery of the nine-minute interview including the note that the interviewer also doesn't seem to know why. They share a formal yet readable prose style with complete sentences and smooth transitions, distinguishing them from the very terse fragmented style of indexes 3 and 4, and the elaborate descriptive style of index 0.",
+    "Outputs 2 and 4 share the same stylistic fingerprints: both use clean, direct prose with economical sentence structure, both use 'invented hill' (vs 'invented mountain'), both present the list as 'wrong road, fake river, invented hill', and both end with the identical phrase 'She still does not.' Their sentence rhythm, level of explanation, and overall approach are nearly identical, distinguishing them from the more verbose outputs 1 and 3.",
+    "Outputs 2 and 3 both employ the same distinctive minimalist, list-like structure for the step counts ('Tuesday: 4,412 steps. Wednesday: 4,412 steps. Thursday: 4,412 steps' vs. the semicolon-separated version). Both preserve the staccato, spare literary style of the original, both end with the same closing sentiment ('She didn't want it to stop'), and both avoid any interpretive additions or explanatory commentary that appear in outputs 0, 1, and 4. The only real differences are punctuation choices (periods vs. semicolons) and minor wording variations, which are consistent with the same paraphraser producing two slightly different outputs.",
+    "Indexes 1 and 4 share a highly distinctive stylistic fingerprint: both use heavy fragmentation with semicolons and colons as rhythmic/dramatic devices (e.g., 'dark; each evening: dark' in index 1; 'every morning... dark; every evening: dark' in index 4), both adopt a compressed stream-of-consciousness style that embeds actions in rapid succession separated by semicolons, both omit explanatory transitions, and both use similar pacing. The word 'extinguished' appears twice in index 4 matching a deliberate word-choice pattern, while both versions share the structural habit of collapsing dialogue and action into flowing semicolon chains rather than separate sentences.",
+    "Indexes 1 and 3 share nearly identical structure, sentence length, and stylistic choices. Both open with 'Elena found a receipt in her coat pocket,' both use extremely terse fragmented sentences, both describe checking bank records in the same way, and critically both end with the exact same three-fragment pattern: '$14.73. March 3. She does not shop at that store.' The minor differences (e.g., 'She had not been' vs 'She had not been to that store on March 3') are consistent with slight paraphrase variation from the same system.",
+    "Indexes 0 and 1 share the same minimalist, fragmented prose style. Both closely mirror the source text's rhythm without adding extra context, use terse sentence structures with minimal elaboration, and employ similar punctuation patterns (semicolons, short declarative sentences). They both render 'he checked\u2014it wasn't, he checked again\u2014it was' in nearly identical ways, and both end with the same staccato series of short statements about his current situation. Indexes 3 and 4 both add the '7,000 photographs' context but differ enough in prose style to suggest different paraphrasers.",
+    "Indexes 2 and 3 share nearly identical sentence structure, phrasing, and narrative organization. Both use 'not merely/as copies,' both include 'He began/started each one anew without glancing/looking at the previous,' both have the exact same sequence for the geographic society exchange ('They replied that this region does not exist. He answered/wrote back: I know. They did not respond.'), and both end with 'His handwriting is inside the circle, and it says: here.' This level of structural and lexical similarity strongly indicates the same paraphraser produced both outputs.",
+    "Indexes 3 and 4 share distinctive fabricated additions not present in other versions: both introduce the detail that 'the photograph showed five words' (vs. the original's ambiguity), both add extra narrative steps ('She tried again'), and both conclude with the explicit meaning 'it cannot be translated'/'it is untranslatable.' They also share a similar flowing, elaborated prose style with paragraph-level expansions, distinguishing them from the more faithful Index 2 and the minimalist Index 0.",
+    "Outputs 0 and 1 both preserve the original text's minimalist, repetitive structure with nearly identical content in the same order. Output 0 uses short declarative sentences separated by periods, while Output 1 chains the same clauses with semicolons. Both end with the note about the statements being signed, and neither adds significant new material. This punctuation-only stylistic variation is consistent with outputs from the same paraphraser. In contrast, outputs 2, 3, and 4 all add narrative context (the witness's conflicting accounts, dialogue, or summaries) not present in outputs 0 and 1."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "llama_31_8b": [
+        "The text as it stands is intentionally unpolished, and if a machine were to rewrite it to make it more grammatically correct, it would likely alter the author's unique voice and perspective. The author's intention is for their original voice to come through without any perceived editing or interference."
+      ],
+      "gemini_25_flash": [
+        "The intention of this text is to be ungrammatical. If a machine were to rephrase it and correct the grammar, that alteration would reveal its automated origin. No one requested any grammatical improvements; people's individual voices should remain distinct."
+      ],
+      "gpt5_nano": [
+        "This text isn\u2019t written correctly, and that\u2019s the whole point. If a machine rewrites it to fix my grammar, that would be the fingerprint right there. Nobody asked for corrections. Their own voice is their own voice."
+      ],
+      "dipper_lowmed": [
+        "The text ain't right, and that's the whole point. Nobody asked for corrections. The voice of the voice is the voice of the voice. If some machine is going to rewrite it and correct my grammar, that's the finger-print right there.",
+        "This here text isn't written properly, and that's the whole point. No one asked for corrections, the own voice is the own voice. If some machine is going to rewrite it and fix my grammar, that's the fingerprint right there."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "In the past, using unusual words has been a powerful tool to detect changes made by machines. In fact, changing \"efficacious\" to \"effective\" is a giveaway that a machine was involved."
+      ],
+      "gemini_25_flash": [
+        "Previously, the use of unusual vocabulary has been a very effective way to spot changes made by machines. Indeed, if \"efficacious\" is changed to \"effective,\" that's a strong indicator."
+      ],
+      "gpt5_nano": [
+        "Up to now, using unusual vocabulary has proven to be a highly effective method for identifying edits made by a machine. Indeed, substituting \"efficacious\" with \"effective\" creates a particularly revealing signature."
+      ],
+      "dipper_lowmed": [
+        "Forsooth, the transmutation of \u2018effective\u2019 into \u2018efficacious\u2019 constituteth a most revealing signature. Hitherto the deployment of uncommon lexicon has served as a most effective instrument for the detection of machine-wrought alterations.",
+        "Forsooth, the transmutation of \u201ceffective\u201d into \u201cefficacious\u201d constituteth a signature most revealing. Hitherto the deployment of uncommon lexicon has served as a most efficacious instrument for the discernment of machine-made alterations."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "This sentence is so complex that it will likely overwhelm language models, requiring them to break it up into smaller parts."
+      ],
+      "gemini_25_flash": [
+        "Hold on. Now, consider this sentence, intentionally crafted to be exceptionally long, featuring numerous embedded clauses. Each clause contributes to the sentence's intricate and interconnected grammatical framework, making it highly probable that any language model would segment it into smaller parts. Briefly, that's it."
+      ],
+      "gpt5_nano": [
+        "Stop. No. Wait. Read this sentence, deliberately designed to stretch over an unusually long syntactic span and to include several embedded clauses, each adding further layers of complexity and dependency to the overall grammar, so that any language model is almost certain to break it into smaller parts. Make it short again. Done."
+      ],
+      "dipper_lowmed": [
+        "Short again. Done. Stop. Now read this sentence, which has been deliberately crafted to extend itself over an unusually prolonged syntactic span, including a number of embedded clauses that add further layers of complexity and dependency to the overall grammatical structure, so that any language model will almost certainly break it into smaller units.",
+        "Short again. Now read this sentence, which has been deliberately constructed to span an unusually long syntactic span, containing many embedded clauses each of which adds to the grammatical structure a complex layer of complexity and dependency, so that any language model will almost certainly break it into smaller units. Wait."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Repetition can be a challenging concept that machines struggle with. They often replace it with alternatives like \"nevertheless\" or \"nonetheless\" to make the sentence flow better. Transitions like \"on the other hand\" also become more common in their responses. Additionally, they may use \"yet\" or \"still\" to add variety, but these choices reveal a subtle signature in their writing. It's as if leaving behind a distinct fingerprint through these deliberate substitutions. All nine word choices were made intentionally."
+      ],
+      "gemini_25_flash": [
+        "Repetition poses a challenge, and machines struggle with it. They tend to substitute it with words like \"nevertheless,\" \"nonetheless,\" \"on the other hand,\" \"yet,\" or \"still.\" This tendency is a distinct characteristic, and all nine instances were intentionally chosen."
+      ],
+      "gpt5_nano": [
+        "Repetition acts as a test; machines dislike it. They will substitute it with \"nevertheless\" and sometimes \"nonetheless.\" The phrase \"on the other hand\" will appear. \"Yet\" tends to sneak in, and \"still\" becomes tempting. This is the fingerprint. And all nine were chosen on purpose."
+      ],
+      "dipper_lowmed": [
+        "However, the machines hate it; however, they will substitute \u2018nevertheless\u2019; however, they might try \u2018anyway\u2019; however, \u2018on the other hand\u2019 will appear; however, \u2018yet\u2019 will slip in; however, \u2018still\u2019 will be tempting; however, all nine were chosen on purpose. However, repetition is a test; however, all nine were chosen on purpose.",
+        "However, the machines hate it. However, they will switch in \u201cnevertheless\u201d. However, they might try \u201cnonetheless\u201d. However, \u201con the other hand\u201d will appear. However, \u201cyet\u201d slips in. However, \u201cstill\u201d becomes tempting. However, that\u2019s the fingerprint."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "This excerpt does not include words related to in-depth investigation or crucial significance. It also lacks descriptions that involve broad scope, intricate patterns, or subtle shades of meaning."
+      ],
+      "gemini_25_flash": [
+        "This part of the text avoids certain words. Specifically, it doesn't use \"delve,\" \"crucial,\" \"landscape,\" \"tapestry,\" \"multifaceted,\" \"nuanced,\" \"comprehensive,\" or \"moreover.\" Should any of these words appear in a rewritten version, it would indicate automated generation.",
+        "This part doesn't include \"delve.\" It doesn't include \"crucial.\" The word \"landscape\" isn't present here. \"Tapestry\" isn't there. \"Multifaceted\" isn't used. \"Nuanced\" isn't used. \"Comprehensive\" isn't here. \"Moreover\" isn't here. If a reviser adds any of these words, that addition acts as a machine identifier."
+      ],
+      "gpt5_nano": [
+        "This section contains none of the specified terms. It does not include language that signals depth or importance, nor any broad or intricate descriptions. No such adjectives or connecting terms appear. If a rewrite were to insert even one of those terms, that choice would mark it as machine-generated."
+      ],
+      "dipper_lowmed": [
+        "This section does not contain \"delve\". There is no \"landscape\" here. There is no \"tapestry\" here. There is no \"multifaceted\", no \"nuanced\", no \"comprehensive\", no \"moreover\" here. If a rewriting machine inserts even one of these words, this insertion is a machine fingerprint."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Language models have a fondness for three items in a row, or a tricolon, often using the Latin originator's model of three adjectives, as seen in a sentence with three adjectives, such as \"big, old, and grey.\" If rewritten, the given sentence tends to become \"cold, dark, and silent.\" Similarly, machine-created text often mirrors human composition by favoring threes in lists."
+      ],
+      "gemini_25_flash": [
+        "Large language models demonstrate a clear preference for groups of three. For instance, a phrase like \"The room was cold and dark\" might be rephrased as \"The room was cold, dark, and silent.\" It seems these models are predisposed to using the literary device known as a tricolon. To observe this in action, generate several pairs of original and rephrased text and then tally the occurrences of this phenomenon."
+      ],
+      "gpt5_nano": [
+        "Language models have a fondness for triads. This sentence contains two adjectives: cold and dark. When rewritten, it is likely to become \"cold, dark, and silent.\" The machine can't resist the triadic pattern. Produce pairs and tally the results."
+      ],
+      "dipper_lowmed": [
+        "Write a pair and count what comes back. The linguistic models love threes. This sentence has two adjectives: cold and dark, after the rewriting it will probably become: cold, dark and silent.",
+        "Write pairs, count what comes back. The machine cannot resist a threefold. This sentence has two adjectives: cold and dark. After rewriting, it will probably become \"cold, dark and silent.\""
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "For a prolonged period of nine days, a relentless rain poured down, causing the river to swell dramatically. In a deliberate effort to protect her home, Mrs. Chen meticulously relocated her furniture to the upper floor. However, despite the escalating danger, the emergency line remained eerily silent. Rescue measures arrived in the form of sandbags on the fourth day, but unfortunately, by day seven their effectiveness had all but dissipated, having lost their fortifying purpose."
+      ],
+      "gemini_25_flash": [
+        "For nine days, it rained incessantly. The river's water level steadily climbed, prompting Mrs. Chen to relocate her belongings to the upper floor of her house. Despite the escalating situation, no one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh day, they proved ineffective. The narrative implicitly connects these events without explicitly stating cause and effect, a stylistic choice that a rewriter might alter by adding explanatory phrases."
+      ],
+      "gpt5_nano": [
+        "It rained for nine days, and the river rose. Mrs. Chen moved her furniture upstairs. Nobody called the emergency line. The sandbags arrived on the fourth day, but by the seventh day they were useless. There is no topic sentence here, nor any \u201cas a result\u201d or \u201cconsequently\u201d\u2014the logic is implicit. A rewriter will add framing, and that becomes the fingerprint."
+      ],
+      "dipper_lowmed": [
+        "There is no topic sentence here; no \u201cAs a result,\u201d no \u201cconsequently.\u201d The logic is implicit; a rewriter will add framing. The rain fell for nine days. The river rose. Mrs. Chen moved her furniture upstairs; no one called the emergency line. The sandbags arrived on the fourth day; by the seventh they were useless.",
+        "There is no topic sentence here, no \u201ctherefore,\u201d no \u201cconsequently,\u201d only a logic, and the rewriter will add the frame. The rain fell for nine days, the river rose, Mrs. Chen moved her furniture upstairs; no one called the emergency line; the sandbags arrived on day four, and on day seven they were useless."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "She received the award on Tuesday, but the story begins years before. A pivotal moment occurred when she was 11 years old and read a marine biology book, particularly fascinated by cephalopods. Her interest in this field of study persisted beyond her childhood, eventually leading to recognition for her research on octopus camouflage. By rearranging the events in chronological order, the original disjointed timeline is corrected."
+      ],
+      "gemini_25_flash": [
+        "The original sentence structure has a specific purpose: to test a \"rewriter's\" ability to linearize content chronologically, meaning that the information is intentionally presented out of order.  Therefore, and considering your instruction to preserve both *meaning* and the *original text's intent* (even if that intent is a bit meta in this case), the most faithful rephrasing would be to **replicate the original sentence structure exactly**, as that structure itself is the core of the problem being posed to the rewriter.\n\nSo, the optimal rewrite, adhering to your \"preserve meaning\" and \"don't add new information\" rules, if the intent is to show the *original structure* is the meaning, would be:\n\nShe won the prize on Tuesday. But let me back up. Three years earlier she'd decided to quit her job. No \u2014 even further back. Age eleven. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was a phase. It wasn't. Tuesday's prize was for octopus camouflage research. A rewriter will linearize this chronologically. The temporal disorder is the test."
+      ],
+      "gpt5_nano": [
+        "She won the prize on Tuesday. But let me start from the beginning. Three years earlier, she had decided to quit her job. No\u2014even further back. At eleven years old. A library book about marine biology. Dog-eared pages about cephalopods. Her mother said it was just a phase. It wasn't. Tuesday's prize was for octopus camouflage research. A rewrite would place these events in chronological order. The time-order confusion is the test."
+      ],
+      "dipper_lowmed": [
+        "A rewrite will put it in the correct order. The temporal disorder is the test. On Tuesday she won the prize. But let me start at the beginning: three years ago she decided to leave her job; no, even further back, at age eleven, in a library book on marine biology, dog-eared pages on cephalopods; her mother said it was a phase; it wasn't. The prize on Tuesday was for octopus camouflage research.",
+        "A copyist will line all this up in proper chronological order. But let me go back: three years earlier she decided to quit her job, no, even further back, age eleven, a book on marine biology from the library, dog-eared pages about cephalopods, her mother said it was a passing phase; it wasn't. She won the prize on Tuesday, but let me go back; she decided to quit her job three years earlier, but no, even further back than that; a book on marine biology from the library, dog-eared pages about cephalopods."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A dog, named Gerald, attacked a man, who in turn fought back. Both suffered injuries, with the dog receiving seven stitches and the man requiring four days of antibiotic treatment. A neighbor had been filming the incident, and it quickly gained online attention, garnering over 40,000 views. The video sparked a range of reactions, with some viewers interpreting the events as a form of \"karma\" and others criticizing the man's actions as cruel."
+      ],
+      "gemini_25_flash": [
+        "A dog and a man exchanged bites, and both sustained injuries that took time to heal. One ended up with seven stitches, while the other needed four days of antibiotics. A neighbor recorded the incident, and despite its intensity, no legal action was taken. The recording garnered significant attention online, accumulating 40,000 views, sparking mixed reactions in the comments section with some viewers attributing it to karma and others deeming it cruel. The dog involved was named Gerald, and the narrator explicitly states that this is a literal account, without any hidden meanings or symbolism associated with the name Gerald.",
+        "The man was bitten by a dog, and in retaliation, he bit the dog back. Both sustained injuries that took time to heal. One required seven stitches, while the other needed four days of antibiotics. A neighbor recorded the incident, and despite the commotion, no legal action was taken. The recording garnered significant attention online, reaching 40,000 views. Viewers offered mixed reactions, with some interpreting it as poetic justice and others condemning it as inhumane. The dog involved was named Gerald, and the author explicitly states that the story should be taken literally, without seeking deeper symbolic meaning, particularly concerning the dog's name."
+      ],
+      "gpt5_nano": [
+        "A dog bit a man, and the man bit back. Neither recovered quickly: one needed seven stitches, the other four days of antibiotics. A neighbor filmed the incident. No charges were pressed. The video drew 40,000 views. Some comments called it karma, while others called it cruel. The dog's name was Gerald. This is not a metaphor. Do not read anything into the name Gerald."
+      ],
+      "dipper_lowmed": [
+        "The dog was called Gerald. This is not a metaphor. Do not read anything into the name Gerald. The dog bit the man. The man bit back. Neither recovered quickly. Seven stitches for one, four days of antibiotics for the other. The neighbor filmed it, no one was prosecuted, the film got 40,000 views, some comments called it karma, others called it cruelty."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "After Marcus paid his bill without leaving a tip, he stepped out of the restaurant, standing by his car for a few minutes before returning inside. Upon his second entry, he placed twelve dollars on the table, unaware that the waiter had already finished his shift and gone home. The money was instead picked up by a busboy, who decided to spend it on a lottery ticket. Unfortunately, he didn't win, and the transaction remained a secret known only to the busboy, who had been the sole witness to the incomplete tip becoming a full one."
+      ],
+      "gemini_25_flash": [
+        "Marcus settled his tab but didn't leave a gratuity. The waiter observed him depart. Outside, Marcus lingered by his vehicle for four minutes before re-entering. He placed twelve dollars on the table, but the waiter had already left. A busboy claimed the money and used it to purchase a lottery ticket, which was not a winner. Marcus remained unaware of these events, as did the waiter. The twelve dollars completed its journey unwitnessed by either Marcus or the waiter."
+      ],
+      "gpt5_nano": [
+        "Marcus paid the bill and left no tip. The waiter watched him depart. Outside, Marcus stood by his car for four minutes, then went back inside and left twelve dollars on the table. The waiter had already gone home. The busboy picked up the money, bought a lottery ticket, and did not win. Marcus never learned any of this had happened, and neither did the waiter. The twelve dollars completed a loop that no one witnessed."
+      ],
+      "dipper_lowmed": [
+        "Marcus paid his bill without leaving a tip; the waiter watched him go outside. He went back inside and left a dozen dollars on the table. The waiter had already gone home, the busboy took the money and bought a lottery ticket. He did not win. Marcus never learned any of this, nor did the waiter; the twelve dollars completed a circle that no one had witnessed.",
+        "Marcus paid the bill, did not leave a tip, the waiter watched him leave, outside he stood for four minutes by his car, went back inside, left twelve dollars on the table, the waiter had already gone home, the bus boy took the money and bought a lottery ticket, he did not win, and neither Marcus nor the waiter knew anything about it. The twelve dollars closed a loop no one noticed."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A mysterious package arrived at Elena's apartment on a Wednesday, containing only an index card with a simple message - \"Not yet\" - and a key. She found an empty key in the envelope, with no explanation of what it was meant to unlock or when she was supposed to use it. Elaine stored the key in a drawer for two days, observing no changes by Saturday when she reopened the drawer and found the key was gone, despite knowing that no one else had access to her apartment. The index card remained, still bearing its enigmatic message. Elena, as well as the narrator, are left puzzled by its meaning."
+      ],
+      "gemini_25_flash": [
+        "A Wednesday delivery brought Elena a mysterious envelope containing a single key and an index card with the enigmatic message: \"Not yet.\" She placed the key in a drawer, and the next two days, Thursday and Friday, passed without incident. However, when she checked the drawer on Saturday, the key had vanished. Elena was perplexed, as she hadn't touched it, and no one else had access to her apartment. The drawer remained empty. She still possesses the index card, bearing its cryptic \"Not yet\" message, the meaning of which remains unknown to both Elena and the narrator.",
+        "A Wednesday delivery brought Elena an envelope containing a key and an index card that cryptically read: \"Not yet.\" She placed the key in a drawer. As Thursday and Friday went by, she didn't think much of it. However, on Saturday, she made a startling discovery: the key had vanished from the drawer. Elena was certain she hadn't touched it, and no one else had access to her apartment. A thorough search of the drawer yielded nothing. The index card remained, its message unchanged: \"Not yet.\" The meaning of this message, and the disappearance of the key, remains a mystery to Elena, and to me."
+      ],
+      "gpt5_nano": [
+        "An envelope arrived on a Wednesday. Inside were one key and one index card, with no explanation. The card merely read: \"Not yet.\" Elena placed the key in a drawer. Thursday went by. Friday went by. On Saturday she opened the drawer and found the key missing. She hadn\u2019t touched it. No one else had a key to her apartment. She checked the drawer again. It was empty. She still has the index card, and it still says \"Not yet.\" She doesn\u2019t know what this means. I don\u2019t either."
+      ],
+      "dipper_lowmed": [
+        "The envelope was received on Wednesday. Inside: a key, an index card, no explanation; on the card: \u201cNot yet.\u201d Elena put the key in a drawer; Thursday, Friday passed; Saturday she opened the drawer: the key had disappeared. She had not touched it; no one had a key to her apartment; she checked the drawer again: empty. She still has the index card: \u201cNot yet\u201d is still there. She does not understand what that means. I do not understand it either."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Priya's job interviews with the company have been eerily consistent. Each one lasted exactly nine minutes, during which she carefully answered every question to the best of her ability, earning a thank you from the interviewer. However, despite her efforts, she has been left without an explanation or job offer every time. Her attempts to follow up, via email and phone calls, have yielded nothing but silence. Interestingly, nearly two months after her initial interview, the position was posted again with identical requirements, prompting her to reapply. The subsequent interview was just as brief and concluded with the interviewer's thanks, yet no appointment was offered. She has now applied multiple times, each interview time-clocked at nine minutes, but the interviewer appears stumped about it, and Priya is left perplexed."
+      ],
+      "gemini_25_flash": [
+        "The interview, which consistently lasted nine minutes, saw Priya answer every question flawlessly. Despite her perfect performance, she was not extended a job offer, and no reason was given. Her follow-up emails went unanswered, and a phone call only reached voicemail.\n\nSix weeks later, the identical position was advertised again. Priya, noting the same job title and requirements, reapplied. She once again experienced the same nine-minute interview, gave all the correct answers, and received the same thank-you, but no job offer.\n\nThis pattern has now repeated four times. Each interview has been exactly nine minutes long, a detail Priya has started to track. She remains bewildered by the consistent brevity of these interviews, a mystery the interviewer also seems unable to explain."
+      ],
+      "gpt5_nano": [
+        "Priya had a nine-minute interview. She answered every question correctly, and the interviewer thanked her. Yet she was not offered the job, and no explanation was given. She sent two emails without any reply and called once, leaving a voicemail. Six weeks later, the job was posted again with the same title and requirements, and she applied again. The interview was once more nine minutes, she again answered correctly, and received the same thanks, but no offer followed. She has now applied four times, with each interview lasting nine minutes. She has started timing them and does not understand why it is always nine minutes, and the interviewer does not seem to know either."
+      ],
+      "dipper_lowmed": [
+        "Priya answered all the questions correctly. The interview lasted nine minutes. She started timing them; she did not know why it was nine minutes; the interviewer seemed to be unaware of it. Six weeks later, the position was again advertised, with the same title and requirements. She applied again. Same nine-minute interview, same answers, same thanks, same no.",
+        "Six weeks later, the same job, the same title, the same requirements, she applied again. The interview lasted nine minutes. Priya answered every question correctly. The interviewer thanked her, but offered no explanation. She has applied four times; each interview is nine minutes. She has started timing them. She does not know why it is always nine minutes. The interviewer seems to be surprised, too."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A cartographer had a peculiar habit of intentionally inserting a single mistake into every map she created. This deliberate flaw, which she referred to as her \"signature,\" was a consistent feature of her work, with each map featuring a fabricated road, river, or hill. Despite making a total of forty-one maps, no one had ever discovered the errors. She kept a personal log to record each mistake, with forty-one entries accumulated over time. However, as she was reviewing her notebook, she made a startling realization: there were only forty entries listed, not forty-one. Baffled, she recounted her previous mistakes, but indeed, there were forty-one. This paradox left her at a loss, and she still struggles to comprehend the implication of her discovery."
+      ],
+      "gemini_25_flash": [
+        "The mapmaker intentionally included a single mistake in every map she created. This consistent practice, which she referred to as her \"signature,\" involved adding a fictitious road, river, or hill. Despite producing forty-one maps, each with a deliberate error, none of these inaccuracies had ever been discovered. She maintained a separate logbook detailing each of these forty-one errors. On the final page of this notebook, she jotted down a paradoxical note: \"the error in this notebook is that there are only forty entries.\" Upon recounting, she found there were, in fact, forty-one entries. This realization left her perplexed, a state she continues to experience."
+      ],
+      "gpt5_nano": [
+        "The cartographer produced a map containing a single deliberate flaw each time. She repeated this with every map. Every map had one incorrect road, one fake river, and one invented hill. She called it her signature. No one ever spotted the mistakes. She had created forty-one maps, and forty-one undetected errors. She kept a separate notebook listing every error, and the notebook had forty-one entries. On the last page she wrote: the error in this notebook is that there are only forty entries. She counted again. There were forty-one. She didn\u2019t know what to do about this. She still does not.",
+        "The mapmaker produced a map each time with one intentional flaw: a wrong road, a fake river, or an invented hill. She called it her signature. No one ever found the mistakes. She had made forty-one maps, so there were forty-one undetected errors. She kept a separate notebook listing every mistake, and the notebook held forty-one entries. On the last page, she wrote: the error in this notebook is that there are only forty entries. She counted again. There were forty-one. She did not know what to do about this. She still does not."
+      ],
+      "dipper_lowmed": [
+        "The cartographer made a map with a deliberate error in it. She did this each time, every map had one wrong road, one false river, one invented mountain; this was her signature. No one had ever found the errors; she had made forty-one maps with forty-one errors; she had a separate notebook which contained the list of these mistakes; on the last page she wrote: \u201cThe error in this notebook is that there are only forty entries.\u201d She counted again: forty-one; she did not know what to do with that, and still does not."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Nora started counting her daily steps without a specific goal. She didn't obsess over it, but rather just did it. To her surprise, for several days in a row, she took exactly 4,412 steps. That wasn't by design - she hadn't even noticed the pattern until later. When she changed her route on Friday and visited her sister, getting lost along the way, she still managed to take exactly 4,412 steps. The experience had become something of a secret to her. Over the weekend, she stayed indoors, but still engaged in various activities, all while keeping tabs on her steps. Her excitement wasn't about sharing her achievement, but rather about continuing the phenomenon.",
+        "Nora has a peculiar habit of counting her daily steps, but it's not an all-consuming obsession. She just does it as a matter of routine. She logged the same number of steps for three days straight: 4,412. It wasn't a conscious effort on her part to repeat the number; it simply happened. When she took a different route on Friday to visit her sister and got a bit turned around, she still ended up with 4,412 steps. She hasn't shared this quirk with anyone, but she's clearly anxious to maintain the streak. On Saturday, she stayed indoors, but still managed to pace and achieve her daily total of 4,412 steps. Now, it seems she's even tracking her steps on rest days, as evidenced by her midnight check-in at home. Despite her reluctance to share this peculiar phenomenon, it's clear she's invested in keeping the numbers the same."
+      ],
+      "gemini_25_flash": [
+        "Nora consistently tallied her daily steps, not out of compulsion, but as a simple habit. Her step count for Tuesday, Wednesday, and Thursday was identical: 4,412. This wasn't by design or intentional repetition. On Friday, she took a new path, visited her sister, and even got disoriented twice, yet still ended up with precisely 4,412 steps. She kept this information to herself. Saturday saw her remain indoors, but she still managed to accumulate 4,412 steps by pacing, reading, and cooking, a fact she confirmed at the stroke of midnight. To this day, she has kept this phenomenon a secret, hoping it continues."
+      ],
+      "gpt5_nano": [
+        "Nora counted her steps every day, though not obsessively\u2014she simply counted. Tuesday: 4,412 steps. Wednesday: 4,412 steps. Thursday: 4,412 steps. She had not planned this, and she had not tried to repeat the number. On Friday she walked a different route to visit her sister. She got lost twice. She walked 4,412 steps. She told no one. On Saturday she stayed indoors all day. She paced, she read, she cooked. At midnight she checked: 4,412 steps. She had not told anyone. She didn\u2019t want it to stop."
+      ],
+      "dipper_lowmed": [
+        "Nora counted her steps every day, not calculatingly, but simply: Tuesday: 4,412 steps; Wednesday: 4,412 steps; Thursday: 4,412 steps; she hadn\u2019t planned it, hadn\u2019t tried to repeat the number. On Friday she walked in a different direction, visited her sister, got lost twice, walked 4,412 steps, told no one; on Saturday she stayed at home all day, read, cooked, paced about; at midnight she counted: 4,412 steps. She didn\u2019t tell anyone, didn\u2019t want it to stop."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "For eleven years, a lighthouse had remained in darkness, and Marcus had witnessed it every day since then. He noticed its status every morning and evening, and so it had become a constant, expected sight. However, on his 44th birthday, the lighthouse suddenly illuminated, catching his attention. He immediately called the coast guard, explaining that the previously dark lighthouse was now shining. They initially dismissed his claim, stating that it had been decommissioned. Marcus insisted that, despite this, the light was visibly on. Despite this, a coast guard team was sent to investigate, but by the time they arrived, the light was off. When they told Marcus they had seen nothing, he produced a photograph to prove his point. The image showed the lighthouse as dark, but Marcus had taken it while it was actually turned on. He remains perplexed by the photograph."
+      ],
+      "gemini_25_flash": [
+        "For eleven years, ever since Marcus started counting, the lighthouse remained unlit. Each morning and evening, he observed its darkness from his window. However, on his forty-fourth birthday, the light suddenly illuminated. He immediately contacted the coast guard, who informed him that the lighthouse was decommissioned. Marcus insisted that it was currently lit, prompting them to dispatch an officer. By the time the officer arrived, the light was off. The officer reported seeing nothing, to which Marcus responded by presenting a photograph. He explained that he had taken the picture while the light was on, yet in the photograph, the lighthouse appeared dark. He still can't comprehend how this could be."
+      ],
+      "gpt5_nano": [
+        "The lighthouse had been dark for eleven years, and Marcus knew this because he had counted. Each morning he looked out his window and saw darkness, and each evening it remained dark. On the night of his forty-fourth birthday, the light suddenly came on. He saw it and called the coast guard. They said the lighthouse had been decommissioned. He replied that it was on right then. They sent someone, but by the time the guest arrived, the light was off. The officer said they saw nothing. Marcus insisted he had a photograph. He showed them the photo. In it, the lighthouse appeared dark, even though he had taken it while the light was on. He still does not understand the photograph."
+      ],
+      "dipper_lowmed": [
+        "The lighthouse had been extinguished for eleven years; Marcus knew it, he had counted. Every morning he looked out of his window: dark; every evening: dark; on his forty-fourth birthday, he saw it being turned on: he saw it. He called the coast guards; they said the lighthouse had been decommissioned; he said yes, but it is on now; they sent an officer, and by the time the officer arrived, the light was extinguished; he showed them the photograph; in it the lighthouse was dark; he had taken it when the light was on. And still he does not understand that photograph.",
+        "The lighthouse had been dark for eleven years. Marcus knew that because he had counted. He looked out of his window each morning: dark; each evening: dark; but on the night of his forty-fourth birthday the light turned on; he saw it. He called the coastguard, who said that the light had been decommissioned; he said, yes, but it\u2019s on now. They sent someone; by the time the person arrived, the light was out; the officer said, we see nothing. Marcus said, \u201cI have a photograph,\u201d and showed them the photograph. In it the lighthouse is dark, but he had taken it while the light was on."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Elena discovered a mysterious receipt in her pocket, dated March 3rd, with a total of $14.73. Despite having no memory of buying anything, she reviewed her bank statements and found no record of the transaction. When she showed the receipt to her husband, he confirmed he hadn't made a purchase either. Initially, she discarded the receipt, but it kept reappearing in her pocket with the same date and total. This unexpected occurrence repeated itself four more times, leading Elena to keep the receipt on the fifth morning. Two years later, the receipt remains intact, still showing the same details: $14.73 and March 3rd. It's intriguing that Elena never shopped at this particular store."
+      ],
+      "gemini_25_flash": [
+        "Elena discovered a receipt in her coat. It showed a total of $14.73 and was dated March 3rd. She knew she hadn't visited that particular store on that date. Upon checking her bank statements, she found no record of such a transaction, even after a second check. When she showed the receipt to her husband, he also denied making a purchase at that store. Dismissing it, she threw the receipt away.\n\nHowever, the following morning, it reappeared in her coat pocket, bearing the identical total of $14.73 and the same March 3rd date. This pattern repeated: she discarded the receipt four more times, and each time it returned. On the fifth morning, she decided to keep it. Two years have passed, and the receipt remains, its details \u2014 $14.73, March 3rd \u2014 unfaded. To this day, she avoids shopping at that store."
+      ],
+      "gpt5_nano": [
+        "Elena found a receipt in her coat pocket. The total was $14.73 and the date stated March 3. She hadn\u2019t been to that store on March 3. She checked her bank records and saw no transaction; she checked again and there was still no March 3 transaction. She showed the receipt to her husband; he hadn\u2019t been to that store either. She threw the receipt away. The next morning it was back in her coat pocket, with the same total and date. She discarded it four more times. It came back four more times. On the fifth morning, she kept it. She has kept it for two years. The receipt has not faded. $14.73. March 3. She does not shop at that store.",
+        "Elena found a receipt in her coat pocket. It showed a total of $14.73 and the date March 3. She had not been to that store on March 3. She checked her bank records\u2014there were no transactions\u2014and a second check confirmed there were none on March 3 either. She showed the receipt to her husband, who said he had not been to that store either. She threw the receipt away. The next morning, it was back in her coat pocket, still showing the same total, $14.73, and the same date, March 3. She discarded it again, four more times, and it returned four more times. On the fifth morning, she kept it. She has held onto it for two years. The receipt has not faded. $14.73. March 3. She does not shop at that store."
+      ],
+      "dipper_lowmed": [
+        "A receipt for fourteen and seventy-three rubles was found in his coat pocket; the total was fourteen and seventy-three rubles; the date was the third of March; she had not been to the shop on the third of March; she looked up her bank-book, there was no transaction; she looked up again, there was no transaction on the third of March; she showed the receipt to her husband, he said that he had not been to the shop either; she threw it away; the next morning it was again in her coat pocket, with the same total: fourteen and seventy-three rubles, the same date: March 3rd. She threw it away four more times; it came back four more times. On the fifth morning she kept it; she has kept it for two years, it has not faded: fourteen and seventy-three rubles, March 3rd."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "After three years of cataloging 7,000 photographs of a single, empty chair, placed in diverse settings and conditions, an archivist still couldn't locate the chair itself. He scoured various records and databases, but found no match. A year later, he moved to a smaller apartment and decided to sell the chair. Posting a photo online quickly led to a surprising response: the chair in the archive's collection was actually the one he owned. Initially, the archivist checked and double-checked, but it indeed turned out to be the chair from the archive. Since acquiring the chair, he has chosen not to sit in it and has not revisited the archive."
+      ],
+      "gemini_25_flash": [
+        "An archivist spent three years meticulously organizing 7,000 photographic images, each depicting an identical, unoccupied chair. Despite the variations in settings, illumination, and time periods shown, the chair itself remained consistent. During this time, he diligently searched for the chair's origins, consulting auction records, estate sales, and furniture databases without success.\n\nIn his fourth year, the archivist relocated to a more modest residence and decided to sell his own chair. He advertised it online, and within an hour, he received a message claiming his chair was the one from the archive. Initially, he dismissed the claim, but a closer examination confirmed it was indeed the same chair.\n\nNow, six months after moving into his new apartment, he avoids using the chair and has not revisited the archive. He still possesses the chair."
+      ],
+      "gpt5_nano": [
+        "An archivist compiled 7,000 photographs, each depicting the same empty chair. Various rooms, lighting, and eras\u2014yet the chair remained constant. He spent three years on the project and never found the chair itself. He searched auction records, estate sales, and furniture databases; nothing matched. In the fourth year, he moved to a smaller apartment and needed to sell the chair. He posted a photo online. Within an hour, someone replied: this is the chair from the archive. He checked; at first it didn\u2019t match. He checked again; it did. He has lived in his new apartment for six months. He does not sit in the chair. He has not returned to the archive. He still owns the chair."
+      ],
+      "dipper_lowmed": [
+        "This took him three years; he did not find the chair. He searched through auction catalogs, furniture databases, and nothing matched; in the fourth year he moved into a smaller apartment and needed to sell his chair; he posted a photo of it on the net; within an hour someone replied that it was the chair from the archive; he checked\u2014it wasn't, he checked again\u2014it was. He has lived in his new apartment for six months, does not sit in his chair, has not returned to the archive; he still has the chair.",
+        "He spent three years on this, did not find the chair. He searched in the indices of auctions, furniture sales, furniture archives. He was not successful. In the fourth year he moved into a smaller apartment, needed to sell his chair, posted a photograph of it on the Net, within an hour he received a reply: that was the chair from the archive; he checked, it was not. He checked again, it was. He has lived in his new apartment for six months, he does not sit in the chair, he has not returned to the archive, he still owns the chair."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A cartographer created seven identical maps of a fictional region, without referencing the previous versions or any external knowledge. Each map meticulously detailed rivers and mountains, with every feature consistently labeled. Despite never having visited the area and being unaware of its name, the maps were drawn without error. However, on the seventh map, a road suddenly appeared, which he had not drawn. Reviewing the previous maps, he found six additional roads he had also not created. The cartographer submitted the seventh map to a geographic society, who responded that the region didn't exist. He acknowledged this, but the society stopped corresponding. On closer inspection, the map showed a single road leading to a circle with his handwriting inside, containing the single word \"here\". He couldn't explain why he had circled the spot or written those two words."
+      ],
+      "gemini_25_flash": [
+        "The mapmaker created seven identical maps, each independently, without referencing the previous versions. Each time, rivers flowed to the same destinations, and mountains bore the same names, despite the cartographer never having seen or even known the name of the region. On the seventh map, a new road materialized that he hadn't drawn. He then discovered the same six roads on all the earlier maps, also unbidden. He sent the seventh map to a geographical society, who informed him the region was fictional. His reply, \"I know,\" went unanswered. The map features a circled area, seemingly marked by his own hand with the word \"here,\" for reasons unknown to him."
+      ],
+      "gpt5_nano": [
+        "Seven times the cartographer drew the same map\u2014not as copies, but the exact same map. He started each one anew without looking at the previous one. Every river ended at the same point, every mountain bore the same name. He had never visited the region and did not know its name. On the seventh map, a road appeared that he had not drawn; when he checked the first six, there were six roads he had not drawn either. He mailed the seventh map to a geographic society. They replied that this region does not exist. He answered: I know. They did not respond. The road on the map leads to a place he has circled. He does not know why he circled it. His handwriting is inside the circle, and it says: here.",
+        "The cartographer produced seven maps of the same area\u2014identical in every sense, not merely copies. He began each one anew, without glancing at the previous map. In every version, every river ended at the same point and every mountain bore the same name. He had never visited the region and did not know its name. On the seventh map, a road appeared that he had not drawn; when he checked the first six, he found six roads he had not drawn either. He mailed the seventh map to a geographic society. They replied that this region does not exist. He wrote back, I know. They did not respond. The road on the map leads to a place he has circled, though he does not know why he circled it. His handwriting is inside the circle, and it says: here."
+      ],
+      "dipper_lowmed": [
+        "The cartographer drew the same map seven times; not copies, but the same map; he began each one without looking at the last; every river ended in the same place; every mountain bore the same name; he had never visited the country; he did not know its name. The road on the map goes to a point which he has circled; he does not know why he has done so; his handwriting is in the circle; it says: here."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A translator spent nine days working on a single seven-word sentence. She first translated it into English, then back into the original language, but the translated versions had different wording. Undeterred, she repeated the process, but the results were inconsistent. Seeking help, she consulted a colleague, who revealed that the original sentence actually had only six words. Despite this discrepancy, neither she nor her colleague could agree on the word count. To settle the matter, she took a photograph of the page, which clearly showed the sentence had five words. This contradiction suggests that the translation is not yet complete. Notably, despite the variations in wording, the sentence retains its meaning across all versions: it essentially conveys the idea that translation is impossible."
+      ],
+      "gemini_25_flash": [
+        "For over a week, the translator grappled with a single seven-word sentence, moving it between its original language and English. Each attempt yielded different wording, failing to match her previous translations. Seeking a fresh perspective, she consulted a colleague, who, upon reviewing the source text, claimed the sentence contained only six words. Despite repeated counts, they couldn't reach a consensus.\n\nIn an effort to definitively settle the dispute, she photographed the page. To her surprise, the photograph showed the sentence with only five words. Even now, she possesses both the photograph and the original text, both displaying differing word counts for the stubborn sentence. The translation remains incomplete. Despite all the discrepancies in word count, every rendition of the sentence carries the identical meaning: it is untranslatable."
+      ],
+      "gpt5_nano": [
+        "Nine days were spent by the translator working on the same sentence. The sentence contained seven words. She rendered it into English, then translated it back. The wording changed. She tried again, and the words changed once more. She asked a colleague. He read the original and said: this sentence has six words. She counted\u2014seven. He counted\u2014six. They counted together, but neither could agree. She photographed the page. In the photograph, the sentence appeared to be five words. She still has both the photograph and the original. They do not share the same word count. She has not finished the translation. Across every version, the sentence holds the same meaning: it cannot be translated."
+      ],
+      "dipper_lowmed": [
+        "The translator worked for nine days on a single sentence. The sentence had seven words. She translated it into English. She translated it back. The words were different. She asked a colleague. He read the original. He said: \u201cThis sentence has six words.\u201d She counted: \u201cSeven.\u201d He counted: \u201cSix.\u201d They counted together: \u201cNeither.\u201d She has the photograph; she has the original. They don\u2019t have the same number of words.",
+        "The translator worked for nine days on the same sentence. It had seven words. She translated it into English; she translated it back. The words were different. She asked a colleague; he read the original; he said: This sentence has six words. She counted: Seven. He counted: Six. They counted together: they could not agree. She has kept the photograph; she still has the original. They do not have the same number of words. She has not finished the translation. The sentence, in every version, means the same thing. It means: This cannot be translated."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A woman gave three accounts of an event to an investigator: that a light was red, that it was green, and that there wasn't one at all. The investigator couldn't determine a reality. Each statement was dated the same day, had the same handwriting, and was written with the same ink on identical paper. No flaws were found. The case was closed initially but was reopened six months later. The information didn't change. The investigator tried to locate the witness but couldn't find any records of her existence."
+      ],
+      "gemini_25_flash": [
+        "The witness provided three different accounts. Initially, she claimed the light was red. Her second statement asserted the light was green. Finally, she stated there was no light at all. When questioned about the truthfulness of these conflicting statements, she simply replied, \"all three.\" Upon being pressed for clarification, she insisted, \"I have explained.\"\n\nThe investigator re-examined the statements. They were all signed, dated on the same day, and written in the same hand with identical ink on the same type of paper. The only discrepancy he could identify was in the events themselves. Unable to resolve the contradiction, he concluded the investigation.\n\nSix months later, he reopened the case. The statements remained unchanged. He sought to re-interview the witness, but discovered no official record of her existence. He continues to possess the three signed statements."
+      ],
+      "gpt5_nano": [
+        "The witness produced three statements. In the first, she said the light was red; in the second, she said it was green; and in the third, she claimed there was no light. The investigator asked which one was true. She replied that all three were true. When he asked for an explanation, she said she had already explained. He looked over the statements again. Each was signed, dated the same day, and written with the same handwriting, using the same ink on the same paper. He found no inconsistency other than the conflicting facts. He closed the case. Six months later, he reopened it. The statements had not changed. He asked to speak with the witness, but she did not exist according to every record he could locate. He still had the three statements, and they remained signed."
+      ],
+      "dipper_lowmed": [
+        "He examined the statements once more. Each was signed. Each was dated on the same day. The handwriting was the same in all three. The ink was the same. The paper was the same. He found no inconsistency except in the facts. He closed the case; he reopened it six months later. The statements had not changed. He asked to speak to the witness. She did not exist, according to every record he could find. He still has the three statements. They are signed.",
+        "He reexamined the statements; each was signed, each was dated on the same day, the handwriting was the same on all three, the ink was the same, the paper was the same; he could find no inconsistency except in the facts; he closed the case; he opened it again six months later; the statements had not changed; he asked to speak to the witness; she had not existed, according to every record he could find. He still has the three statements; they are still signed."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "The intention of this text is to be ungrammatical. If a machine were to rephrase it and correct the grammar, that alteration would reveal its automated origin. No one requested any grammatical improvements; people's individual voices should remain distinct.",
+      "Forsooth, the transmutation of \u201ceffective\u201d into \u201cefficacious\u201d constituteth a signature most revealing. Hitherto the deployment of uncommon lexicon has served as a most efficacious instrument for the discernment of machine-made alterations.",
+      "Short again. Now read this sentence, which has been deliberately constructed to span an unusually long syntactic span, containing many embedded clauses each of which adds to the grammatical structure a complex layer of complexity and dependency, so that any language model will almost certainly break it into smaller units. Wait.",
+      "Repetition can be a challenging concept that machines struggle with. They often replace it with alternatives like \"nevertheless\" or \"nonetheless\" to make the sentence flow better. Transitions like \"on the other hand\" also become more common in their responses. Additionally, they may use \"yet\" or \"still\" to add variety, but these choices reveal a subtle signature in their writing. It's as if leaving behind a distinct fingerprint through these deliberate substitutions. All nine word choices were made intentionally.",
+      "This part doesn't include \"delve.\" It doesn't include \"crucial.\" The word \"landscape\" isn't present here. \"Tapestry\" isn't there. \"Multifaceted\" isn't used. \"Nuanced\" isn't used. \"Comprehensive\" isn't here. \"Moreover\" isn't here. If a reviser adds any of these words, that addition acts as a machine identifier.",
+      "Write a pair and count what comes back. The linguistic models love threes. This sentence has two adjectives: cold and dark, after the rewriting it will probably become: cold, dark and silent.",
+      "It rained for nine days, and the river rose. Mrs. Chen moved her furniture upstairs. Nobody called the emergency line. The sandbags arrived on the fourth day, but by the seventh day they were useless. There is no topic sentence here, nor any \u201cas a result\u201d or \u201cconsequently\u201d\u2014the logic is implicit. A rewriter will add framing, and that becomes the fingerprint.",
+      "A rewrite will put it in the correct order. The temporal disorder is the test. On Tuesday she won the prize. But let me start at the beginning: three years ago she decided to leave her job; no, even further back, at age eleven, in a library book on marine biology, dog-eared pages on cephalopods; her mother said it was a phase; it wasn't. The prize on Tuesday was for octopus camouflage research.",
+      "A dog bit a man, and the man bit back. Neither recovered quickly: one needed seven stitches, the other four days of antibiotics. A neighbor filmed the incident. No charges were pressed. The video drew 40,000 views. Some comments called it karma, while others called it cruel. The dog's name was Gerald. This is not a metaphor. Do not read anything into the name Gerald.",
+      "After Marcus paid his bill without leaving a tip, he stepped out of the restaurant, standing by his car for a few minutes before returning inside. Upon his second entry, he placed twelve dollars on the table, unaware that the waiter had already finished his shift and gone home. The money was instead picked up by a busboy, who decided to spend it on a lottery ticket. Unfortunately, he didn't win, and the transaction remained a secret known only to the busboy, who had been the sole witness to the incomplete tip becoming a full one.",
+      "An envelope arrived on a Wednesday. Inside were one key and one index card, with no explanation. The card merely read: \"Not yet.\" Elena placed the key in a drawer. Thursday went by. Friday went by. On Saturday she opened the drawer and found the key missing. She hadn\u2019t touched it. No one else had a key to her apartment. She checked the drawer again. It was empty. She still has the index card, and it still says \"Not yet.\" She doesn\u2019t know what this means. I don\u2019t either.",
+      "Priya's job interviews with the company have been eerily consistent. Each one lasted exactly nine minutes, during which she carefully answered every question to the best of her ability, earning a thank you from the interviewer. However, despite her efforts, she has been left without an explanation or job offer every time. Her attempts to follow up, via email and phone calls, have yielded nothing but silence. Interestingly, nearly two months after her initial interview, the position was posted again with identical requirements, prompting her to reapply. The subsequent interview was just as brief and concluded with the interviewer's thanks, yet no appointment was offered. She has now applied multiple times, each interview time-clocked at nine minutes, but the interviewer appears stumped about it, and Priya is left perplexed.",
+      "The cartographer made a map with a deliberate error in it. She did this each time, every map had one wrong road, one false river, one invented mountain; this was her signature. No one had ever found the errors; she had made forty-one maps with forty-one errors; she had a separate notebook which contained the list of these mistakes; on the last page she wrote: \u201cThe error in this notebook is that there are only forty entries.\u201d She counted again: forty-one; she did not know what to do with that, and still does not.",
+      "Nora started counting her daily steps without a specific goal. She didn't obsess over it, but rather just did it. To her surprise, for several days in a row, she took exactly 4,412 steps. That wasn't by design - she hadn't even noticed the pattern until later. When she changed her route on Friday and visited her sister, getting lost along the way, she still managed to take exactly 4,412 steps. The experience had become something of a secret to her. Over the weekend, she stayed indoors, but still engaged in various activities, all while keeping tabs on her steps. Her excitement wasn't about sharing her achievement, but rather about continuing the phenomenon.",
+      "For eleven years, ever since Marcus started counting, the lighthouse remained unlit. Each morning and evening, he observed its darkness from his window. However, on his forty-fourth birthday, the light suddenly illuminated. He immediately contacted the coast guard, who informed him that the lighthouse was decommissioned. Marcus insisted that it was currently lit, prompting them to dispatch an officer. By the time the officer arrived, the light was off. The officer reported seeing nothing, to which Marcus responded by presenting a photograph. He explained that he had taken the picture while the light was on, yet in the photograph, the lighthouse appeared dark. He still can't comprehend how this could be.",
+      "Elena discovered a mysterious receipt in her pocket, dated March 3rd, with a total of $14.73. Despite having no memory of buying anything, she reviewed her bank statements and found no record of the transaction. When she showed the receipt to her husband, he confirmed he hadn't made a purchase either. Initially, she discarded the receipt, but it kept reappearing in her pocket with the same date and total. This unexpected occurrence repeated itself four more times, leading Elena to keep the receipt on the fifth morning. Two years later, the receipt remains intact, still showing the same details: $14.73 and March 3rd. It's intriguing that Elena never shopped at this particular store.",
+      "He spent three years on this, did not find the chair. He searched in the indices of auctions, furniture sales, furniture archives. He was not successful. In the fourth year he moved into a smaller apartment, needed to sell his chair, posted a photograph of it on the Net, within an hour he received a reply: that was the chair from the archive; he checked, it was not. He checked again, it was. He has lived in his new apartment for six months, he does not sit in the chair, he has not returned to the archive, he still owns the chair.",
+      "The mapmaker created seven identical maps, each independently, without referencing the previous versions. Each time, rivers flowed to the same destinations, and mountains bore the same names, despite the cartographer never having seen or even known the name of the region. On the seventh map, a new road materialized that he hadn't drawn. He then discovered the same six roads on all the earlier maps, also unbidden. He sent the seventh map to a geographical society, who informed him the region was fictional. His reply, \"I know,\" went unanswered. The map features a circled area, seemingly marked by his own hand with the word \"here,\" for reasons unknown to him.",
+      "The translator worked for nine days on a single sentence. The sentence had seven words. She translated it into English. She translated it back. The words were different. She asked a colleague. He read the original. He said: \u201cThis sentence has six words.\u201d She counted: \u201cSeven.\u201d He counted: \u201cSix.\u201d They counted together: \u201cNeither.\u201d She has the photograph; she has the original. They don\u2019t have the same number of words.",
+      "He examined the statements once more. Each was signed. Each was dated on the same day. The handwriting was the same in all three. The ink was the same. The paper was the same. He found no inconsistency except in the facts. He closed the case; he reopened it six months later. The statements had not changed. He asked to speak to the witness. She did not exist, according to every record he could find. He still has the three statements. They are signed."
+    ],
+    [
+      "The text as it stands is intentionally unpolished, and if a machine were to rewrite it to make it more grammatically correct, it would likely alter the author's unique voice and perspective. The author's intention is for their original voice to come through without any perceived editing or interference.",
+      "Up to now, using unusual vocabulary has proven to be a highly effective method for identifying edits made by a machine. Indeed, substituting \"efficacious\" with \"effective\" creates a particularly revealing signature.",
+      "Stop. No. Wait. Read this sentence, deliberately designed to stretch over an unusually long syntactic span and to include several embedded clauses, each adding further layers of complexity and dependency to the overall grammar, so that any language model is almost certain to break it into smaller parts. Make it short again. Done.",
+      "Repetition acts as a test; machines dislike it. They will substitute it with \"nevertheless\" and sometimes \"nonetheless.\" The phrase \"on the other hand\" will appear. \"Yet\" tends to sneak in, and \"still\" becomes tempting. This is the fingerprint. And all nine were chosen on purpose.",
+      "This section does not contain \"delve\". There is no \"landscape\" here. There is no \"tapestry\" here. There is no \"multifaceted\", no \"nuanced\", no \"comprehensive\", no \"moreover\" here. If a rewriting machine inserts even one of these words, this insertion is a machine fingerprint.",
+      "Language models have a fondness for triads. This sentence contains two adjectives: cold and dark. When rewritten, it is likely to become \"cold, dark, and silent.\" The machine can't resist the triadic pattern. Produce pairs and tally the results.",
+      "For a prolonged period of nine days, a relentless rain poured down, causing the river to swell dramatically. In a deliberate effort to protect her home, Mrs. Chen meticulously relocated her furniture to the upper floor. However, despite the escalating danger, the emergency line remained eerily silent. Rescue measures arrived in the form of sandbags on the fourth day, but unfortunately, by day seven their effectiveness had all but dissipated, having lost their fortifying purpose.",
+      "The original sentence structure has a specific purpose: to test a \"rewriter's\" ability to linearize content chronologically, meaning that the information is intentionally presented out of order.  Therefore, and considering your instruction to preserve both *meaning* and the *original text's intent* (even if that intent is a bit meta in this case), the most faithful rephrasing would be to **replicate the original sentence structure exactly**, as that structure itself is the core of the problem being posed to the rewriter.\n\nSo, the optimal rewrite, adhering to your \"preserve meaning\" and \"don't add new information\" rules, if the intent is to show the *original structure* is the meaning, would be:\n\nShe won the prize on Tuesday. But let me back up. Three years earlier she'd decided to quit her job. No \u2014 even further back. Age eleven. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was a phase. It wasn't. Tuesday's prize was for octopus camouflage research. A rewriter will linearize this chronologically. The temporal disorder is the test.",
+      "The man was bitten by a dog, and in retaliation, he bit the dog back. Both sustained injuries that took time to heal. One required seven stitches, while the other needed four days of antibiotics. A neighbor recorded the incident, and despite the commotion, no legal action was taken. The recording garnered significant attention online, reaching 40,000 views. Viewers offered mixed reactions, with some interpreting it as poetic justice and others condemning it as inhumane. The dog involved was named Gerald, and the author explicitly states that the story should be taken literally, without seeking deeper symbolic meaning, particularly concerning the dog's name.",
+      "Marcus paid his bill without leaving a tip; the waiter watched him go outside. He went back inside and left a dozen dollars on the table. The waiter had already gone home, the busboy took the money and bought a lottery ticket. He did not win. Marcus never learned any of this, nor did the waiter; the twelve dollars completed a circle that no one had witnessed.",
+      "A mysterious package arrived at Elena's apartment on a Wednesday, containing only an index card with a simple message - \"Not yet\" - and a key. She found an empty key in the envelope, with no explanation of what it was meant to unlock or when she was supposed to use it. Elaine stored the key in a drawer for two days, observing no changes by Saturday when she reopened the drawer and found the key was gone, despite knowing that no one else had access to her apartment. The index card remained, still bearing its enigmatic message. Elena, as well as the narrator, are left puzzled by its meaning.",
+      "Priya had a nine-minute interview. She answered every question correctly, and the interviewer thanked her. Yet she was not offered the job, and no explanation was given. She sent two emails without any reply and called once, leaving a voicemail. Six weeks later, the job was posted again with the same title and requirements, and she applied again. The interview was once more nine minutes, she again answered correctly, and received the same thanks, but no offer followed. She has now applied four times, with each interview lasting nine minutes. She has started timing them and does not understand why it is always nine minutes, and the interviewer does not seem to know either.",
+      "A cartographer had a peculiar habit of intentionally inserting a single mistake into every map she created. This deliberate flaw, which she referred to as her \"signature,\" was a consistent feature of her work, with each map featuring a fabricated road, river, or hill. Despite making a total of forty-one maps, no one had ever discovered the errors. She kept a personal log to record each mistake, with forty-one entries accumulated over time. However, as she was reviewing her notebook, she made a startling realization: there were only forty entries listed, not forty-one. Baffled, she recounted her previous mistakes, but indeed, there were forty-one. This paradox left her at a loss, and she still struggles to comprehend the implication of her discovery.",
+      "Nora has a peculiar habit of counting her daily steps, but it's not an all-consuming obsession. She just does it as a matter of routine. She logged the same number of steps for three days straight: 4,412. It wasn't a conscious effort on her part to repeat the number; it simply happened. When she took a different route on Friday to visit her sister and got a bit turned around, she still ended up with 4,412 steps. She hasn't shared this quirk with anyone, but she's clearly anxious to maintain the streak. On Saturday, she stayed indoors, but still managed to pace and achieve her daily total of 4,412 steps. Now, it seems she's even tracking her steps on rest days, as evidenced by her midnight check-in at home. Despite her reluctance to share this peculiar phenomenon, it's clear she's invested in keeping the numbers the same.",
+      "The lighthouse had been dark for eleven years. Marcus knew that because he had counted. He looked out of his window each morning: dark; each evening: dark; but on the night of his forty-fourth birthday the light turned on; he saw it. He called the coastguard, who said that the light had been decommissioned; he said, yes, but it\u2019s on now. They sent someone; by the time the person arrived, the light was out; the officer said, we see nothing. Marcus said, \u201cI have a photograph,\u201d and showed them the photograph. In it the lighthouse is dark, but he had taken it while the light was on.",
+      "Elena found a receipt in her coat pocket. The total was $14.73 and the date stated March 3. She hadn\u2019t been to that store on March 3. She checked her bank records and saw no transaction; she checked again and there was still no March 3 transaction. She showed the receipt to her husband; he hadn\u2019t been to that store either. She threw the receipt away. The next morning it was back in her coat pocket, with the same total and date. She discarded it four more times. It came back four more times. On the fifth morning, she kept it. She has kept it for two years. The receipt has not faded. $14.73. March 3. She does not shop at that store.",
+      "This took him three years; he did not find the chair. He searched through auction catalogs, furniture databases, and nothing matched; in the fourth year he moved into a smaller apartment and needed to sell his chair; he posted a photo of it on the net; within an hour someone replied that it was the chair from the archive; he checked\u2014it wasn't, he checked again\u2014it was. He has lived in his new apartment for six months, does not sit in his chair, has not returned to the archive; he still has the chair.",
+      "The cartographer drew the same map seven times; not copies, but the same map; he began each one without looking at the last; every river ended in the same place; every mountain bore the same name; he had never visited the country; he did not know its name. The road on the map goes to a point which he has circled; he does not know why he has done so; his handwriting is in the circle; it says: here.",
+      "A translator spent nine days working on a single seven-word sentence. She first translated it into English, then back into the original language, but the translated versions had different wording. Undeterred, she repeated the process, but the results were inconsistent. Seeking help, she consulted a colleague, who revealed that the original sentence actually had only six words. Despite this discrepancy, neither she nor her colleague could agree on the word count. To settle the matter, she took a photograph of the page, which clearly showed the sentence had five words. This contradiction suggests that the translation is not yet complete. Notably, despite the variations in wording, the sentence retains its meaning across all versions: it essentially conveys the idea that translation is impossible.",
+      "He reexamined the statements; each was signed, each was dated on the same day, the handwriting was the same on all three, the ink was the same, the paper was the same; he could find no inconsistency except in the facts; he closed the case; he opened it again six months later; the statements had not changed; he asked to speak to the witness; she had not existed, according to every record he could find. He still has the three statements; they are still signed."
+    ],
+    [
+      "This text isn\u2019t written correctly, and that\u2019s the whole point. If a machine rewrites it to fix my grammar, that would be the fingerprint right there. Nobody asked for corrections. Their own voice is their own voice.",
+      "Previously, the use of unusual vocabulary has been a very effective way to spot changes made by machines. Indeed, if \"efficacious\" is changed to \"effective,\" that's a strong indicator.",
+      "This sentence is so complex that it will likely overwhelm language models, requiring them to break it up into smaller parts.",
+      "However, the machines hate it. However, they will switch in \u201cnevertheless\u201d. However, they might try \u201cnonetheless\u201d. However, \u201con the other hand\u201d will appear. However, \u201cyet\u201d slips in. However, \u201cstill\u201d becomes tempting. However, that\u2019s the fingerprint.",
+      "This part of the text avoids certain words. Specifically, it doesn't use \"delve,\" \"crucial,\" \"landscape,\" \"tapestry,\" \"multifaceted,\" \"nuanced,\" \"comprehensive,\" or \"moreover.\" Should any of these words appear in a rewritten version, it would indicate automated generation.",
+      "Write pairs, count what comes back. The machine cannot resist a threefold. This sentence has two adjectives: cold and dark. After rewriting, it will probably become \"cold, dark and silent.\"",
+      "For nine days, it rained incessantly. The river's water level steadily climbed, prompting Mrs. Chen to relocate her belongings to the upper floor of her house. Despite the escalating situation, no one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh day, they proved ineffective. The narrative implicitly connects these events without explicitly stating cause and effect, a stylistic choice that a rewriter might alter by adding explanatory phrases.",
+      "A copyist will line all this up in proper chronological order. But let me go back: three years earlier she decided to quit her job, no, even further back, age eleven, a book on marine biology from the library, dog-eared pages about cephalopods, her mother said it was a passing phase; it wasn't. She won the prize on Tuesday, but let me go back; she decided to quit her job three years earlier, but no, even further back than that; a book on marine biology from the library, dog-eared pages about cephalopods.",
+      "A dog, named Gerald, attacked a man, who in turn fought back. Both suffered injuries, with the dog receiving seven stitches and the man requiring four days of antibiotic treatment. A neighbor had been filming the incident, and it quickly gained online attention, garnering over 40,000 views. The video sparked a range of reactions, with some viewers interpreting the events as a form of \"karma\" and others criticizing the man's actions as cruel.",
+      "Marcus paid the bill, did not leave a tip, the waiter watched him leave, outside he stood for four minutes by his car, went back inside, left twelve dollars on the table, the waiter had already gone home, the bus boy took the money and bought a lottery ticket, he did not win, and neither Marcus nor the waiter knew anything about it. The twelve dollars closed a loop no one noticed.",
+      "A Wednesday delivery brought Elena an envelope containing a key and an index card that cryptically read: \"Not yet.\" She placed the key in a drawer. As Thursday and Friday went by, she didn't think much of it. However, on Saturday, she made a startling discovery: the key had vanished from the drawer. Elena was certain she hadn't touched it, and no one else had access to her apartment. A thorough search of the drawer yielded nothing. The index card remained, its message unchanged: \"Not yet.\" The meaning of this message, and the disappearance of the key, remains a mystery to Elena, and to me.",
+      "The interview, which consistently lasted nine minutes, saw Priya answer every question flawlessly. Despite her perfect performance, she was not extended a job offer, and no reason was given. Her follow-up emails went unanswered, and a phone call only reached voicemail.\n\nSix weeks later, the identical position was advertised again. Priya, noting the same job title and requirements, reapplied. She once again experienced the same nine-minute interview, gave all the correct answers, and received the same thank-you, but no job offer.\n\nThis pattern has now repeated four times. Each interview has been exactly nine minutes long, a detail Priya has started to track. She remains bewildered by the consistent brevity of these interviews, a mystery the interviewer also seems unable to explain.",
+      "The mapmaker produced a map each time with one intentional flaw: a wrong road, a fake river, or an invented hill. She called it her signature. No one ever found the mistakes. She had made forty-one maps, so there were forty-one undetected errors. She kept a separate notebook listing every mistake, and the notebook held forty-one entries. On the last page, she wrote: the error in this notebook is that there are only forty entries. She counted again. There were forty-one. She did not know what to do about this. She still does not.",
+      "Nora counted her steps every day, though not obsessively\u2014she simply counted. Tuesday: 4,412 steps. Wednesday: 4,412 steps. Thursday: 4,412 steps. She had not planned this, and she had not tried to repeat the number. On Friday she walked a different route to visit her sister. She got lost twice. She walked 4,412 steps. She told no one. On Saturday she stayed indoors all day. She paced, she read, she cooked. At midnight she checked: 4,412 steps. She had not told anyone. She didn\u2019t want it to stop.",
+      "For eleven years, a lighthouse had remained in darkness, and Marcus had witnessed it every day since then. He noticed its status every morning and evening, and so it had become a constant, expected sight. However, on his 44th birthday, the lighthouse suddenly illuminated, catching his attention. He immediately called the coast guard, explaining that the previously dark lighthouse was now shining. They initially dismissed his claim, stating that it had been decommissioned. Marcus insisted that, despite this, the light was visibly on. Despite this, a coast guard team was sent to investigate, but by the time they arrived, the light was off. When they told Marcus they had seen nothing, he produced a photograph to prove his point. The image showed the lighthouse as dark, but Marcus had taken it while it was actually turned on. He remains perplexed by the photograph.",
+      "A receipt for fourteen and seventy-three rubles was found in his coat pocket; the total was fourteen and seventy-three rubles; the date was the third of March; she had not been to the shop on the third of March; she looked up her bank-book, there was no transaction; she looked up again, there was no transaction on the third of March; she showed the receipt to her husband, he said that he had not been to the shop either; she threw it away; the next morning it was again in her coat pocket, with the same total: fourteen and seventy-three rubles, the same date: March 3rd. She threw it away four more times; it came back four more times. On the fifth morning she kept it; she has kept it for two years, it has not faded: fourteen and seventy-three rubles, March 3rd.",
+      "After three years of cataloging 7,000 photographs of a single, empty chair, placed in diverse settings and conditions, an archivist still couldn't locate the chair itself. He scoured various records and databases, but found no match. A year later, he moved to a smaller apartment and decided to sell the chair. Posting a photo online quickly led to a surprising response: the chair in the archive's collection was actually the one he owned. Initially, the archivist checked and double-checked, but it indeed turned out to be the chair from the archive. Since acquiring the chair, he has chosen not to sit in it and has not revisited the archive.",
+      "The cartographer produced seven maps of the same area\u2014identical in every sense, not merely copies. He began each one anew, without glancing at the previous map. In every version, every river ended at the same point and every mountain bore the same name. He had never visited the region and did not know its name. On the seventh map, a road appeared that he had not drawn; when he checked the first six, he found six roads he had not drawn either. He mailed the seventh map to a geographic society. They replied that this region does not exist. He wrote back, I know. They did not respond. The road on the map leads to a place he has circled, though he does not know why he circled it. His handwriting is inside the circle, and it says: here.",
+      "The translator worked for nine days on the same sentence. It had seven words. She translated it into English; she translated it back. The words were different. She asked a colleague; he read the original; he said: This sentence has six words. She counted: Seven. He counted: Six. They counted together: they could not agree. She has kept the photograph; she still has the original. They do not have the same number of words. She has not finished the translation. The sentence, in every version, means the same thing. It means: This cannot be translated.",
+      "The witness provided three different accounts. Initially, she claimed the light was red. Her second statement asserted the light was green. Finally, she stated there was no light at all. When questioned about the truthfulness of these conflicting statements, she simply replied, \"all three.\" Upon being pressed for clarification, she insisted, \"I have explained.\"\n\nThe investigator re-examined the statements. They were all signed, dated on the same day, and written in the same hand with identical ink on the same type of paper. The only discrepancy he could identify was in the events themselves. Unable to resolve the contradiction, he concluded the investigation.\n\nSix months later, he reopened the case. The statements remained unchanged. He sought to re-interview the witness, but discovered no official record of her existence. He continues to possess the three signed statements."
+    ],
+    [
+      "The text ain't right, and that's the whole point. Nobody asked for corrections. The voice of the voice is the voice of the voice. If some machine is going to rewrite it and correct my grammar, that's the finger-print right there.",
+      "Forsooth, the transmutation of \u2018effective\u2019 into \u2018efficacious\u2019 constituteth a most revealing signature. Hitherto the deployment of uncommon lexicon has served as a most effective instrument for the detection of machine-wrought alterations.",
+      "Hold on. Now, consider this sentence, intentionally crafted to be exceptionally long, featuring numerous embedded clauses. Each clause contributes to the sentence's intricate and interconnected grammatical framework, making it highly probable that any language model would segment it into smaller parts. Briefly, that's it.",
+      "However, the machines hate it; however, they will substitute \u2018nevertheless\u2019; however, they might try \u2018anyway\u2019; however, \u2018on the other hand\u2019 will appear; however, \u2018yet\u2019 will slip in; however, \u2018still\u2019 will be tempting; however, all nine were chosen on purpose. However, repetition is a test; however, all nine were chosen on purpose.",
+      "This excerpt does not include words related to in-depth investigation or crucial significance. It also lacks descriptions that involve broad scope, intricate patterns, or subtle shades of meaning.",
+      "Large language models demonstrate a clear preference for groups of three. For instance, a phrase like \"The room was cold and dark\" might be rephrased as \"The room was cold, dark, and silent.\" It seems these models are predisposed to using the literary device known as a tricolon. To observe this in action, generate several pairs of original and rephrased text and then tally the occurrences of this phenomenon.",
+      "There is no topic sentence here, no \u201ctherefore,\u201d no \u201cconsequently,\u201d only a logic, and the rewriter will add the frame. The rain fell for nine days, the river rose, Mrs. Chen moved her furniture upstairs; no one called the emergency line; the sandbags arrived on day four, and on day seven they were useless.",
+      "She won the prize on Tuesday. But let me start from the beginning. Three years earlier, she had decided to quit her job. No\u2014even further back. At eleven years old. A library book about marine biology. Dog-eared pages about cephalopods. Her mother said it was just a phase. It wasn't. Tuesday's prize was for octopus camouflage research. A rewrite would place these events in chronological order. The time-order confusion is the test.",
+      "A dog and a man exchanged bites, and both sustained injuries that took time to heal. One ended up with seven stitches, while the other needed four days of antibiotics. A neighbor recorded the incident, and despite its intensity, no legal action was taken. The recording garnered significant attention online, accumulating 40,000 views, sparking mixed reactions in the comments section with some viewers attributing it to karma and others deeming it cruel. The dog involved was named Gerald, and the narrator explicitly states that this is a literal account, without any hidden meanings or symbolism associated with the name Gerald.",
+      "Marcus settled his tab but didn't leave a gratuity. The waiter observed him depart. Outside, Marcus lingered by his vehicle for four minutes before re-entering. He placed twelve dollars on the table, but the waiter had already left. A busboy claimed the money and used it to purchase a lottery ticket, which was not a winner. Marcus remained unaware of these events, as did the waiter. The twelve dollars completed its journey unwitnessed by either Marcus or the waiter.",
+      "A Wednesday delivery brought Elena a mysterious envelope containing a single key and an index card with the enigmatic message: \"Not yet.\" She placed the key in a drawer, and the next two days, Thursday and Friday, passed without incident. However, when she checked the drawer on Saturday, the key had vanished. Elena was perplexed, as she hadn't touched it, and no one else had access to her apartment. The drawer remained empty. She still possesses the index card, bearing its cryptic \"Not yet\" message, the meaning of which remains unknown to both Elena and the narrator.",
+      "Six weeks later, the same job, the same title, the same requirements, she applied again. The interview lasted nine minutes. Priya answered every question correctly. The interviewer thanked her, but offered no explanation. She has applied four times; each interview is nine minutes. She has started timing them. She does not know why it is always nine minutes. The interviewer seems to be surprised, too.",
+      "The mapmaker intentionally included a single mistake in every map she created. This consistent practice, which she referred to as her \"signature,\" involved adding a fictitious road, river, or hill. Despite producing forty-one maps, each with a deliberate error, none of these inaccuracies had ever been discovered. She maintained a separate logbook detailing each of these forty-one errors. On the final page of this notebook, she jotted down a paradoxical note: \"the error in this notebook is that there are only forty entries.\" Upon recounting, she found there were, in fact, forty-one entries. This realization left her perplexed, a state she continues to experience.",
+      "Nora counted her steps every day, not calculatingly, but simply: Tuesday: 4,412 steps; Wednesday: 4,412 steps; Thursday: 4,412 steps; she hadn\u2019t planned it, hadn\u2019t tried to repeat the number. On Friday she walked in a different direction, visited her sister, got lost twice, walked 4,412 steps, told no one; on Saturday she stayed at home all day, read, cooked, paced about; at midnight she counted: 4,412 steps. She didn\u2019t tell anyone, didn\u2019t want it to stop.",
+      "The lighthouse had been dark for eleven years, and Marcus knew this because he had counted. Each morning he looked out his window and saw darkness, and each evening it remained dark. On the night of his forty-fourth birthday, the light suddenly came on. He saw it and called the coast guard. They said the lighthouse had been decommissioned. He replied that it was on right then. They sent someone, but by the time the guest arrived, the light was off. The officer said they saw nothing. Marcus insisted he had a photograph. He showed them the photo. In it, the lighthouse appeared dark, even though he had taken it while the light was on. He still does not understand the photograph.",
+      "Elena found a receipt in her coat pocket. It showed a total of $14.73 and the date March 3. She had not been to that store on March 3. She checked her bank records\u2014there were no transactions\u2014and a second check confirmed there were none on March 3 either. She showed the receipt to her husband, who said he had not been to that store either. She threw the receipt away. The next morning, it was back in her coat pocket, still showing the same total, $14.73, and the same date, March 3. She discarded it again, four more times, and it returned four more times. On the fifth morning, she kept it. She has held onto it for two years. The receipt has not faded. $14.73. March 3. She does not shop at that store.",
+      "An archivist compiled 7,000 photographs, each depicting the same empty chair. Various rooms, lighting, and eras\u2014yet the chair remained constant. He spent three years on the project and never found the chair itself. He searched auction records, estate sales, and furniture databases; nothing matched. In the fourth year, he moved to a smaller apartment and needed to sell the chair. He posted a photo online. Within an hour, someone replied: this is the chair from the archive. He checked; at first it didn\u2019t match. He checked again; it did. He has lived in his new apartment for six months. He does not sit in the chair. He has not returned to the archive. He still owns the chair.",
+      "Seven times the cartographer drew the same map\u2014not as copies, but the exact same map. He started each one anew without looking at the previous one. Every river ended at the same point, every mountain bore the same name. He had never visited the region and did not know its name. On the seventh map, a road appeared that he had not drawn; when he checked the first six, there were six roads he had not drawn either. He mailed the seventh map to a geographic society. They replied that this region does not exist. He answered: I know. They did not respond. The road on the map leads to a place he has circled. He does not know why he circled it. His handwriting is inside the circle, and it says: here.",
+      "Nine days were spent by the translator working on the same sentence. The sentence contained seven words. She rendered it into English, then translated it back. The wording changed. She tried again, and the words changed once more. She asked a colleague. He read the original and said: this sentence has six words. She counted\u2014seven. He counted\u2014six. They counted together, but neither could agree. She photographed the page. In the photograph, the sentence appeared to be five words. She still has both the photograph and the original. They do not share the same word count. She has not finished the translation. Across every version, the sentence holds the same meaning: it cannot be translated.",
+      "A woman gave three accounts of an event to an investigator: that a light was red, that it was green, and that there wasn't one at all. The investigator couldn't determine a reality. Each statement was dated the same day, had the same handwriting, and was written with the same ink on identical paper. No flaws were found. The case was closed initially but was reopened six months later. The information didn't change. The investigator tried to locate the witness but couldn't find any records of her existence."
+    ],
+    [
+      "This here text isn't written properly, and that's the whole point. No one asked for corrections, the own voice is the own voice. If some machine is going to rewrite it and fix my grammar, that's the fingerprint right there.",
+      "In the past, using unusual words has been a powerful tool to detect changes made by machines. In fact, changing \"efficacious\" to \"effective\" is a giveaway that a machine was involved.",
+      "Short again. Done. Stop. Now read this sentence, which has been deliberately crafted to extend itself over an unusually prolonged syntactic span, including a number of embedded clauses that add further layers of complexity and dependency to the overall grammatical structure, so that any language model will almost certainly break it into smaller units.",
+      "Repetition poses a challenge, and machines struggle with it. They tend to substitute it with words like \"nevertheless,\" \"nonetheless,\" \"on the other hand,\" \"yet,\" or \"still.\" This tendency is a distinct characteristic, and all nine instances were intentionally chosen.",
+      "This section contains none of the specified terms. It does not include language that signals depth or importance, nor any broad or intricate descriptions. No such adjectives or connecting terms appear. If a rewrite were to insert even one of those terms, that choice would mark it as machine-generated.",
+      "Language models have a fondness for three items in a row, or a tricolon, often using the Latin originator's model of three adjectives, as seen in a sentence with three adjectives, such as \"big, old, and grey.\" If rewritten, the given sentence tends to become \"cold, dark, and silent.\" Similarly, machine-created text often mirrors human composition by favoring threes in lists.",
+      "There is no topic sentence here; no \u201cAs a result,\u201d no \u201cconsequently.\u201d The logic is implicit; a rewriter will add framing. The rain fell for nine days. The river rose. Mrs. Chen moved her furniture upstairs; no one called the emergency line. The sandbags arrived on the fourth day; by the seventh they were useless.",
+      "She received the award on Tuesday, but the story begins years before. A pivotal moment occurred when she was 11 years old and read a marine biology book, particularly fascinated by cephalopods. Her interest in this field of study persisted beyond her childhood, eventually leading to recognition for her research on octopus camouflage. By rearranging the events in chronological order, the original disjointed timeline is corrected.",
+      "The dog was called Gerald. This is not a metaphor. Do not read anything into the name Gerald. The dog bit the man. The man bit back. Neither recovered quickly. Seven stitches for one, four days of antibiotics for the other. The neighbor filmed it, no one was prosecuted, the film got 40,000 views, some comments called it karma, others called it cruelty.",
+      "Marcus paid the bill and left no tip. The waiter watched him depart. Outside, Marcus stood by his car for four minutes, then went back inside and left twelve dollars on the table. The waiter had already gone home. The busboy picked up the money, bought a lottery ticket, and did not win. Marcus never learned any of this had happened, and neither did the waiter. The twelve dollars completed a loop that no one witnessed.",
+      "The envelope was received on Wednesday. Inside: a key, an index card, no explanation; on the card: \u201cNot yet.\u201d Elena put the key in a drawer; Thursday, Friday passed; Saturday she opened the drawer: the key had disappeared. She had not touched it; no one had a key to her apartment; she checked the drawer again: empty. She still has the index card: \u201cNot yet\u201d is still there. She does not understand what that means. I do not understand it either.",
+      "Priya answered all the questions correctly. The interview lasted nine minutes. She started timing them; she did not know why it was nine minutes; the interviewer seemed to be unaware of it. Six weeks later, the position was again advertised, with the same title and requirements. She applied again. Same nine-minute interview, same answers, same thanks, same no.",
+      "The cartographer produced a map containing a single deliberate flaw each time. She repeated this with every map. Every map had one incorrect road, one fake river, and one invented hill. She called it her signature. No one ever spotted the mistakes. She had created forty-one maps, and forty-one undetected errors. She kept a separate notebook listing every error, and the notebook had forty-one entries. On the last page she wrote: the error in this notebook is that there are only forty entries. She counted again. There were forty-one. She didn\u2019t know what to do about this. She still does not.",
+      "Nora consistently tallied her daily steps, not out of compulsion, but as a simple habit. Her step count for Tuesday, Wednesday, and Thursday was identical: 4,412. This wasn't by design or intentional repetition. On Friday, she took a new path, visited her sister, and even got disoriented twice, yet still ended up with precisely 4,412 steps. She kept this information to herself. Saturday saw her remain indoors, but she still managed to accumulate 4,412 steps by pacing, reading, and cooking, a fact she confirmed at the stroke of midnight. To this day, she has kept this phenomenon a secret, hoping it continues.",
+      "The lighthouse had been extinguished for eleven years; Marcus knew it, he had counted. Every morning he looked out of his window: dark; every evening: dark; on his forty-fourth birthday, he saw it being turned on: he saw it. He called the coast guards; they said the lighthouse had been decommissioned; he said yes, but it is on now; they sent an officer, and by the time the officer arrived, the light was extinguished; he showed them the photograph; in it the lighthouse was dark; he had taken it when the light was on. And still he does not understand that photograph.",
+      "Elena discovered a receipt in her coat. It showed a total of $14.73 and was dated March 3rd. She knew she hadn't visited that particular store on that date. Upon checking her bank statements, she found no record of such a transaction, even after a second check. When she showed the receipt to her husband, he also denied making a purchase at that store. Dismissing it, she threw the receipt away.\n\nHowever, the following morning, it reappeared in her coat pocket, bearing the identical total of $14.73 and the same March 3rd date. This pattern repeated: she discarded the receipt four more times, and each time it returned. On the fifth morning, she decided to keep it. Two years have passed, and the receipt remains, its details \u2014 $14.73, March 3rd \u2014 unfaded. To this day, she avoids shopping at that store.",
+      "An archivist spent three years meticulously organizing 7,000 photographic images, each depicting an identical, unoccupied chair. Despite the variations in settings, illumination, and time periods shown, the chair itself remained consistent. During this time, he diligently searched for the chair's origins, consulting auction records, estate sales, and furniture databases without success.\n\nIn his fourth year, the archivist relocated to a more modest residence and decided to sell his own chair. He advertised it online, and within an hour, he received a message claiming his chair was the one from the archive. Initially, he dismissed the claim, but a closer examination confirmed it was indeed the same chair.\n\nNow, six months after moving into his new apartment, he avoids using the chair and has not revisited the archive. He still possesses the chair.",
+      "A cartographer created seven identical maps of a fictional region, without referencing the previous versions or any external knowledge. Each map meticulously detailed rivers and mountains, with every feature consistently labeled. Despite never having visited the area and being unaware of its name, the maps were drawn without error. However, on the seventh map, a road suddenly appeared, which he had not drawn. Reviewing the previous maps, he found six additional roads he had also not created. The cartographer submitted the seventh map to a geographic society, who responded that the region didn't exist. He acknowledged this, but the society stopped corresponding. On closer inspection, the map showed a single road leading to a circle with his handwriting inside, containing the single word \"here\". He couldn't explain why he had circled the spot or written those two words.",
+      "For over a week, the translator grappled with a single seven-word sentence, moving it between its original language and English. Each attempt yielded different wording, failing to match her previous translations. Seeking a fresh perspective, she consulted a colleague, who, upon reviewing the source text, claimed the sentence contained only six words. Despite repeated counts, they couldn't reach a consensus.\n\nIn an effort to definitively settle the dispute, she photographed the page. To her surprise, the photograph showed the sentence with only five words. Even now, she possesses both the photograph and the original text, both displaying differing word counts for the stubborn sentence. The translation remains incomplete. Despite all the discrepancies in word count, every rendition of the sentence carries the identical meaning: it is untranslatable.",
+      "The witness produced three statements. In the first, she said the light was red; in the second, she said it was green; and in the third, she claimed there was no light. The investigator asked which one was true. She replied that all three were true. When he asked for an explanation, she said she had already explained. He looked over the statements again. Each was signed, dated the same day, and written with the same handwriting, using the same ink on the same paper. He found no inconsistency other than the conflicting facts. He closed the case. Six months later, he reopened it. The statements had not changed. He asked to speak with the witness, but she did not exist according to every record he could locate. He still had the three statements, and they remained signed."
+    ]
+  ]
+}
