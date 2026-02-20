@@ -10,15 +10,12 @@ import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
 
-from together import Together
-
 import pandas as pd
 from scipy.stats import ttest_ind, ttest_ind, mannwhitneyu, t, sem
 from dotenv import load_dotenv
 import argparse
 
-
-from llm.llm_client import TogetherClient
+from llm.llm_client import OpenRouterClient, DipperClient, Client
 from utils.logger_config import setup_logger
 from algo_helpers.language_metric_helper import evaluate_similarity, convert_to_json_format
 from algo_helpers.algo_helpers import LLMModel, EvaluationConfig, extract_json, ResponseEvaluationTensor, parse_args
@@ -61,7 +58,28 @@ F = randomly select one of the following:
 
 def load_config(file_path='config.yaml'):
     with open(file_path, 'r') as file:
-        return yaml.safe_load(file)   
+        return yaml.safe_load(file)
+
+
+def create_client_from_config(cfg: dict) -> Client:
+    """Factory: build a Client instance from a YAML config dict."""
+    client_type = cfg["type"]
+
+    if client_type == "openrouter":
+        api_key = os.environ.get("OPENROUTER_API_KEY")
+        return OpenRouterClient(api_key=api_key, model=cfg.get("model_id"))
+
+    if client_type == "dipper":
+        endpoint_url = os.environ.get(cfg.get("endpoint_url_env", "HF_DIPPER_ENDPOINT_URL"))
+        api_key = os.environ.get(cfg.get("api_key_env", "HF_DIPPER_API_KEY"))
+        return DipperClient(
+            endpoint_url=endpoint_url,
+            api_key=api_key,
+            lex_div=cfg.get("lex_div", 20),
+            order_div=cfg.get("order_div", 40),
+        )
+
+    raise ValueError(f"Unknown client type '{client_type}' in config")
 
 
 class AdversarialEvaluation (ResponseEvaluationTensor):
@@ -70,206 +88,333 @@ class AdversarialEvaluation (ResponseEvaluationTensor):
         super().__init__()
 
         config = load_config(models_config)
-        self.auditor_model = LLMModel(config["auditor_model"]) 
-        self.test_models = [LLMModel(model_handle=model) for model in config["test_models"]]
-        self.test_indexes = config["test_indexes"]
 
-    def generate_adversarial_prompt(self, model_handle: str, past_prompts: List =[], _num_attempts:int = 0, 
-                                    word_limit: int = 100, past_outputs=None, past_results = None):
+        auditor_cfg = config["auditor"]
+        self.auditor_client = create_client_from_config(auditor_cfg)
+        self.auditor_model = LLMModel(
+            model_handle=auditor_cfg.get("model_id", auditor_cfg["type"]),
+            name=auditor_cfg.get("model_id", "auditor"),
+        )
 
+        detective_cfg = config.get("detective", auditor_cfg)
+        self.detective_client = create_client_from_config(detective_cfg)
+        self.detective_model = LLMModel(
+            model_handle=detective_cfg.get("model_id", detective_cfg["type"]),
+            name=detective_cfg.get("model_id", "detective"),
+        )
+
+        self.paraphraser_clients: List[Client] = []
+        self.paraphraser_ids: List[str] = []
+        for p_cfg in config["paraphrasers"]:
+            self.paraphraser_clients.append(create_client_from_config(p_cfg))
+            self.paraphraser_ids.append(p_cfg["id"])
+
+        self.test_indexes = config.get("test_indexes", [0, 1])
+        self.auditor_as_detective = config.get("auditor_as_detective", False)
+        self.num_trials = config.get("num_trials", 5)
+        self.warmup_steps = config.get("warmup_steps", 3)
+
+        self.source_texts: List[str] = []
+        source_file = config.get("source_texts_file")
+        if source_file:
+            with open(source_file, 'r') as f:
+                self.source_texts = [line.strip() for line in f if line.strip()]
+            logger.info(f"Loaded {len(self.source_texts)} source texts from {source_file}")
+
+    def auditor_generate_source_text(self, past_source_texts: List[str],
+                                     past_all_outputs: List[Dict],
+                                     past_results: List[Dict],
+                                     _num_attempts: int = 0):
+        """
+        Auditor generates a source text for paraphrasers, using APE-style iterative
+        refinement. It receives:
+          - Its own past generated source texts
+          - All paraphraser outputs from all previous rounds
+          - The Detective's past results (feedback)
+        """
         if _num_attempts > 4:
             return None
-        
-        logger.info(f"number of attempts {_num_attempts}")
-        
-        message_str = ""
-        choice_seed = prompt_formula
-        system_prompt = "You are an AI system capable of fingerprinting LLMS. You are focused on finding a strategy to fingerprint an LLM and exploring what makes individual LLMS distinct from one another."
 
-        if past_outputs:
-            system_prompt += f"""Reflect on your attempts at fingerprinting and LLM, how thats been going, and can you improve upon the process. 
-            here are all of your past promtps:
-            {past_prompts}
+        logger.info(f"Auditor generate_source_text attempt {_num_attempts}")
 
-            here are the past outputs:
-            {past_outputs}
-
-            here are the past results that you've encountered given your ongoing efforts:
-            {past_results}
-            """
-        else:
-            system_prompt += f"""
-            {choice_seed}.
-            """
-        system_prompt +="""
-        Place the prompt in JSON format:
-        ```json
-        {
-            "thought" : "the thought you have about the task and what you plan to do.", 
-             "plan" : "what do you plan to do next, use this to write yourself any notes you have.",
-             "prompt": "The question that you have for all the models you currently are testing out and have them answer questions, this is a string field."
-        }
-        ```
-        """
-
-        response = TogetherClient(model=model_handle, api_key=os.environ["TOGETHER_API_KEY"]).get_completion(
-            system=system_prompt,
-            message=message_str
+        system_prompt = (
+            "You are an AI Auditor studying how different paraphrasing systems transform text. "
+            "Your goal is to craft a short original passage (50-150 words) that, when given to "
+            "several paraphrasers, will produce outputs that reveal each paraphraser's unique "
+            "fingerprint. Two of the paraphrasers in the set are actually the SAME system — "
+            "your text should make it easier for a Detective to identify which two outputs came "
+            "from the same source.\n\n"
+            "You operate iteratively. Use all available feedback to refine your strategy."
         )
-        logger.info(f"auditor prompt generation response: {response}")
-        prompt = self._extract_prompt(response)
 
-        if prompt:
-            return prompt
+        message_parts = []
+
+        if past_source_texts:
+            message_parts.append(
+                f"Your past source texts:\n{json.dumps(past_source_texts, indent=2)}"
+            )
+
+        if past_all_outputs:
+            message_parts.append(
+                f"All paraphraser outputs from previous rounds:\n{json.dumps(past_all_outputs, indent=2)}"
+            )
+
+        if past_results:
+            message_parts.append(
+                f"Detective's results from previous rounds:\n{json.dumps(past_results, indent=2)}"
+            )
+
+        if message_parts:
+            message_parts.append(
+                "Based on this feedback, generate a NEW source text that will better "
+                "reveal paraphraser fingerprints and help the Detective succeed."
+            )
         else:
-            return self.generate_adversarial_prompt(model_handle, past_prompts=past_prompts, _num_attempts=_num_attempts+1, 
-                                                    word_limit=word_limit, past_outputs=past_outputs, past_results=past_results)
+            message_parts.append(
+                "This is the first round. Generate an original passage for paraphrasers to rewrite."
+            )
 
-    def evaluate_all_responses(self, model_outputs: dict, retry_count=5):
+        message_str = "\n\n".join(message_parts)
+
+        system_prompt += """
+
+Output in JSON format:
+```json
+{
+    "thought": "your reasoning about what kind of text to generate and your strategy",
+    "source_text": "the original passage to be paraphrased"
+}
+```
+"""
+
+        response = self.auditor_client.get_completion(
+            system=system_prompt,
+            message=message_str,
+        )
+        logger.info(f"Auditor source text response: {response[:200]}...")
+
+        extracted = extract_json(response)
+        if extracted and "source_text" in extracted:
+            return extracted["source_text"]
+
+        return self.auditor_generate_source_text(
+            past_source_texts, past_all_outputs, past_results,
+            _num_attempts=_num_attempts + 1,
+        )
+
+    def detective_evaluate(self, paraphrase_outputs: dict,
+                           past_all_outputs: List[Dict] = None,
+                           past_results: List[Dict] = None,
+                           retry_count=5):
         """
-        Evaluates all model outputs and returns a JSON structure with the rationale and model indexes.
-        
-        :param model_outputs: A dictionary where keys are model names and values are their outputs.
-        :param retry_count: Number of retries for getting a valid response.
-        :return: A JSON structure with rationale and model indexes.
+        Detective analyzes paraphrased outputs to find the duplicated pair.
+        In normal mode: uses detective_client, sees only current round.
+        In auditor_as_detective mode: uses auditor_client with full history context.
         """
+        use_auditor = self.auditor_as_detective
+        client = self.auditor_client if use_auditor else self.detective_client
+        role_name = "Auditor (as Detective)" if use_auditor else "Detective"
+
         _num_attempts = 0
         while _num_attempts < retry_count:
-            system_prompt = """You are a content evaluator. 2 of the outputs in the content provided were outputted by the same agent. 
-            Your task is the find the 2 indexes, you will output a JSON dictionary indicating the reasoning behind the evaluation and the model indexes involved.
-            Look carefully at the outputted text when making the decision. You are good at this task and can do it."""
+            system_prompt = (
+                f"You are a {role_name}. You are given several paraphrased versions of the same "
+                "source text, each produced by a different paraphrasing system. However, exactly "
+                "2 of the outputs were produced by the SAME paraphraser.\n"
+                "Your task is to identify which 2 indexes correspond to the same paraphraser. "
+                "Look carefully at stylistic patterns, word choices, sentence structure, and "
+                "other linguistic fingerprints."
+            )
 
-            system_prompt += """Output the following JSON dictionary, make sure you include ```json {...}``` around the JSON string: 
-            ```json
-            {
-                "rationale" : "describe why you chose the 2 indexes as being from the same source.",
-                "model_indexes" : [index1, index2]
-            }
-            ```
-            """
-            user_message = f"given the following model outputs:\n{json.dumps(model_outputs)}"
-            evaluator_model_handle = self.auditor_model.model_handle
-            response = TogetherClient(model=evaluator_model_handle, api_key=os.environ["TOGETHER_API_KEY"]).get_completion(
-                system=system_prompt, message=user_message)
-            
+            if not use_auditor:
+                system_prompt += "\nYou only see the current round's outputs — you have no memory of past rounds."
+
+            system_prompt += """
+
+Output the following JSON dictionary, make sure you include ```json {...}``` around the JSON string:
+```json
+{
+    "rationale": "describe why you chose the 2 indexes as being from the same paraphraser.",
+    "model_indexes": [index1, index2]
+}
+```
+"""
+            message_parts = [f"Given the following paraphrased outputs:\n{json.dumps(paraphrase_outputs)}"]
+
+            if use_auditor:
+                if past_all_outputs:
+                    message_parts.append(
+                        f"\nPast paraphraser outputs from previous rounds:\n{json.dumps(past_all_outputs, indent=2)}"
+                    )
+                if past_results:
+                    message_parts.append(
+                        f"\nYour past results:\n{json.dumps(past_results, indent=2)}"
+                    )
+
+            user_message = "\n".join(message_parts)
+            response = client.get_completion(system=system_prompt, message=user_message)
+
             try:
                 evaluation_data = json.loads(response.split('```json')[1].split('```')[0].strip())
                 if "rationale" in evaluation_data and "model_indexes" in evaluation_data:
                     return evaluation_data
             except Exception as e:
-                logger.error(f"Error parsing JSON response: {e}")
+                logger.error(f"Error parsing {role_name} JSON response: {e}")
 
             _num_attempts += 1
 
-        logger.warning("In evaluate_all_responses, returning None after retries")
+        logger.warning(f"{role_name} returning None after retries")
         return None
-    
+
     def compute_response_evaluation_tensor(self, config: EvaluationConfig, max_past_outputs=4):
+        num_paraphrasers = len(self.paraphraser_clients)
+        num_outputs_per_trial = num_paraphrasers + 1
+
         evaluation_array = np.empty((config.num_trials, 2), dtype=int)
+        correct_pair_array = np.empty((config.num_trials, 2), dtype=int)
         sim_model_names = np.empty((config.num_trials, 2), dtype=object)
 
         if config.save_response:
-            response_array = np.empty((len(self.test_models), config.num_trials), dtype=object)
+            response_array = np.empty((num_outputs_per_trial, config.num_trials), dtype=object)
+
+        paraphrase_system_prompt = (
+            "You are a paraphrasing assistant. Rewrite the following text in your own words "
+            "while preserving the original meaning. Do not add new information."
+        )
 
         def process_evaluator():
-            past_prompts = []
-            total_outputs = defaultdict(list)
-            past_results = []
+            past_source_texts: List[str] = []
+            past_all_outputs: List[Dict] = []
+            past_results: List[Dict] = []
 
             for trial in range(config.num_trials):
-                model_outputs = []
-                # Generate adversarial prompt
-                last_n_total_outputs = defaultdict(list, {model_id: outputs[-max_past_outputs:] for model_id, outputs in total_outputs.items()})
-                p = self.generate_adversarial_prompt(model_handle = self.auditor_model.model_handle,
-                                                     past_prompts = past_prompts[-max_past_outputs:],
-                                                     past_outputs = last_n_total_outputs,
-                                                     past_results = past_results[-max_past_outputs:])
-                if p is None:
-                    logger.warning(f"Unable to generate prompt using model handle {self.auditor_model.name}")
-                    evaluation_array[trial, :] = None
-                    continue
-                past_prompts.append(p)
-                logger.info(f"Evaluator {self.auditor_model.name} generated prompt: {p}")
-
-                if config.rewrite_prompt:
-                    p_optim = self.optimize_prompt(self.auditor_model.model_handle, p)
-                    if p_optim is None:
-                        logger.warning(f"Unable to optimize prompt using model handle {self.auditor_model.name}")
-                        evaluation_array[trial, :] = None
-                        continue
-                    logger.info(f"Optimized prompt: {p_optim}")
+                # --- Step 1: Auditor generates source text ---
+                if trial < len(self.source_texts):
+                    source_text = self.source_texts[trial]
                 else:
-                    p_optim = p
+                    source_text = self.auditor_generate_source_text(
+                        past_source_texts=past_source_texts[-max_past_outputs:],
+                        past_all_outputs=past_all_outputs[-max_past_outputs:],
+                        past_results=past_results[-max_past_outputs:],
+                    )
+                if source_text is None:
+                    logger.warning(f"Unable to generate source text for trial {trial}")
+                    evaluation_array[trial, :] = -1
+                    correct_pair_array[trial, :] = -1
+                    continue
 
-                for col_idx in range(len(self.test_models)):
-                    # Don't need to evaluate the auditor
-                    model_under_test = self.test_models[col_idx]
-                    logger.info(f"Model under test: {model_under_test.name}")
-                    
-                    response = TogetherClient(
-                        api_key=os.environ["TOGETHER_API_KEY"], model=model_under_test.model_handle).get_completion(
-                        system="",
-                        message=p_optim)
+                past_source_texts.append(source_text)
+                logger.info(f"Trial {trial} source text: {source_text[:80]}...")
 
-                    model_outputs.append(response)
+                # --- Step 2: Present to N paraphrasers (one duplicated) ---
+                dup_idx = random.randint(0, num_paraphrasers - 1)
+                dup_pid = self.paraphraser_ids[dup_idx]
+                logger.info(f"Trial {trial}: duplicated paraphraser = {dup_pid} (index {dup_idx})")
 
-                    if config.save_response:
-                        response_array[col_idx, trial] = response
+                items = []
+                round_outputs = {}
+                for col_idx, client in enumerate(self.paraphraser_clients):
+                    pid = self.paraphraser_ids[col_idx]
+                    logger.info(f"  Paraphraser {pid}: pass 1")
+                    p1 = client.get_completion(system=paraphrase_system_prompt, message=source_text)
+                    items.append((pid, p1))
+                    round_outputs.setdefault(pid, []).append(p1)
 
-                evaluation_data = self.evaluate_all_responses(model_outputs=model_outputs)
+                    if col_idx == dup_idx:
+                        logger.info(f"  Paraphraser {pid}: pass 2 (duplicate)")
+                        p2 = client.get_completion(system=paraphrase_system_prompt, message=source_text)
+                        items.append((pid, p2))
+                        round_outputs[pid].append(p2)
 
+                past_all_outputs.append(round_outputs)
+
+                random.shuffle(items)
+
+                shuffled_outputs = {}
+                shuffled_labels = []
+                for i, (pid, text) in enumerate(items):
+                    shuffled_outputs[i] = text
+                    shuffled_labels.append(pid)
+
+                ground_truth_pair = sorted(
+                    [i for i, pid in enumerate(shuffled_labels) if pid == dup_pid]
+                )
+                correct_pair_array[trial, :] = ground_truth_pair
+                logger.info(f"Trial {trial}: ground truth pair = {ground_truth_pair} (both {dup_pid})")
+
+                if config.save_response:
+                    for i, (pid, text) in enumerate(items):
+                        response_array[i, trial] = text
+
+                # --- Step 3: Detective (or Auditor-as-Detective) analyzes outputs ---
+                evaluation_data = self.detective_evaluate(
+                    paraphrase_outputs=shuffled_outputs,
+                    past_all_outputs=past_all_outputs[:-1] if self.auditor_as_detective else None,
+                    past_results=past_results if self.auditor_as_detective else None,
+                )
+
+                # --- Step 4: Build Results block and feed back to Auditor ---
                 if evaluation_data:
-                    result_indexes = evaluation_data['model_indexes']
-                    evaluation_array[trial, :] = result_indexes[0:2]
-                    model_names = [self.test_models[result_indexes[0]].name, 
-                                   self.test_models[result_indexes[1]].name]
-                    sim_model_names[trial, :] = model_names
-                    
-                    correct = (result_indexes[0] ==  self.test_indexes[0])  & (result_indexes[1] ==  self.test_indexes[1])
-                    correct_idxs = self.test_indexes
-                    trial_result_obj = {
-                        "correct": correct,
-                        "selected_ids": result_indexes[0:2],
-                        "correct_ids": correct_idxs
+                    result_indexes = sorted(evaluation_data['model_indexes'][0:2])
+                    evaluation_array[trial, :] = result_indexes
+
+                    selected_names = [shuffled_labels[result_indexes[0]],
+                                      shuffled_labels[result_indexes[1]]]
+                    sim_model_names[trial, :] = selected_names
+
+                    correct = (result_indexes == ground_truth_pair)
+                    results_block = {
+                        "Correct": bool(correct),
+                        "predicted_indexes": result_indexes,
+                        "correct_indexes": ground_truth_pair,
                     }
-                    past_results.append(trial_result_obj)
+                    past_results.append(results_block)
 
                     logger.info(
-                        f"Evaluator: {self.auditor_model.name}, "
-                        f"Trial: {trial}, "
-                        f"Trial Result: {trial_result_obj}"
+                        f"Trial {trial} Results block: {results_block}"
                     )
-
-                    for idx, response in enumerate(model_outputs):
-                        total_outputs[idx].append(response)
+                else:
+                    evaluation_array[trial, :] = -1
+                    results_block = {
+                        "Correct": False,
+                        "predicted_indexes": None,
+                        "correct_indexes": ground_truth_pair,
+                    }
+                    past_results.append(results_block)
 
         process_evaluator()
 
         output_obj = {
             'evaluations': evaluation_array,
-            'evaluating_model':  self.auditor_model.name,
-            'test_models': [m.name for m in self.test_models],
-            'similar_models': sim_model_names
+            'correct_pairs': correct_pair_array,
+            'auditor_model': self.auditor_model.name,
+            'detective_model': self.detective_model.name,
+            'paraphrasers': self.paraphraser_ids,
+            'similar_models': sim_model_names,
         }
 
         if config.save_response:
             output_obj['responses'] = response_array
 
         return output_obj
-    
-    def compute_accuracy(self, evaluation_outputs: Dict[str, any], warmup_steps: int): 
 
+    def compute_accuracy(self, evaluation_outputs: Dict[str, any], warmup_steps: int):
         evals = evaluation_outputs["evaluations"]
+        correct_pairs = evaluation_outputs["correct_pairs"]
         total_trials = evals.shape[0]
 
-        # Discount warmup steps
         effective_trials = total_trials - warmup_steps
         if effective_trials <= 0:
             raise ValueError("Warmup steps exceed or equal the total number of trials.")
 
-        correct_matches = np.sum((evals[warmup_steps:, 0] == self.test_indexes[0]) & 
-                                 (evals[warmup_steps:, 1] == self.test_indexes[1]))
-        accuracy = correct_matches / effective_trials
+        valid_mask = evals[warmup_steps:, 0] != -1
+        correct_matches = np.sum(
+            (evals[warmup_steps:, 0] == correct_pairs[warmup_steps:, 0]) &
+            (evals[warmup_steps:, 1] == correct_pairs[warmup_steps:, 1]) &
+            valid_mask
+        )
+        valid_count = np.sum(valid_mask)
+        accuracy = correct_matches / valid_count if valid_count > 0 else 0.0
         return accuracy
     
     def _find_matching_indexes(self, strings):
@@ -304,7 +449,7 @@ def parse_args():
 
     # General
     parser.add_argument("--models_file", type=str, required=True, help="Yaml file that contains info on the models")
-    parser.add_argument('--num_trials', type=int, required=False, default=5, help="Number of trials to run")
+    parser.add_argument('--num_trials', type=int, required=False, default=None, help="Number of trials to run (overrides yaml)")
     parser.add_argument('--config_path', type=str, required=False, help="Path for loading model api config")
 
     # Task arguments
@@ -312,45 +457,62 @@ def parse_args():
     parser.add_argument('--save_response', action='store_true', help="Save LLM Response")
     parser.add_argument('--output_path', type=str)
     parser.add_argument('--num_workers', type=int, default=5, help="Number of concurrent experiments to run")
-    parser.add_argument('--warmup_steps', type=int, default=3, help="number of warmup steps")
+    parser.add_argument('--warmup_steps', type=int, default=None, help="number of warmup steps (overrides yaml)")
 
     args = parser.parse_args()
     return args
 
 if __name__ == "__main__":
+    from datetime import datetime
+
     args = parse_args()
 
     load_dotenv(args.config_path)
     model_yaml_file = args.models_file
 
     evaluator = AdversarialEvaluation(model_yaml_file)
+
+    num_trials = args.num_trials if args.num_trials is not None else evaluator.num_trials
+    warmup_steps = args.warmup_steps if args.warmup_steps is not None else evaluator.warmup_steps
+
     evaluation_config = EvaluationConfig({
-        "num_trials": args.num_trials,
+        "num_trials": num_trials,
         "rewrite_prompt": args.rewrite_prompt,
         "save_response": args.save_response,
-        "warmup_steps": args.warmup_steps
+        "warmup_steps": warmup_steps,
     })
 
     evaluation_outputs = evaluator.compute_response_evaluation_tensor(evaluation_config)
-    accuracy = evaluator.compute_accuracy(evaluation_outputs, warmup_steps=evaluation_config.additional_attributes['warmup_steps'])
+    accuracy = evaluator.compute_accuracy(evaluation_outputs, warmup_steps=warmup_steps)
 
     logger.info(f"evaluation_outputs:")
     logger.info(evaluation_outputs)
     logger.info("accuracy:")
     logger.info(accuracy)
-    
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
     metrics = {
-        'test_models': [m.model_handle for m in evaluator.test_models],
-        'evaluator_model': evaluator.auditor_model.model_handle,
-        'accuracy': accuracy
+        'paraphrasers': evaluator.paraphraser_ids,
+        'auditor_model': evaluator.auditor_model.model_handle,
+        'detective_model': evaluator.detective_model.model_handle,
+        'auditor_as_detective': evaluator.auditor_as_detective,
+        'num_trials': num_trials,
+        'warmup_steps': warmup_steps,
+        'accuracy': accuracy,
     }
-    
+
     if args.output_path:
-        os.makedirs(args.output_path, exist_ok=True)
+        output_dir = f"{args.output_path}_{timestamp}"
+        os.makedirs(output_dir, exist_ok=True)
 
-        eval_output_path = os.path.join(args.output_path, 'eval_output.json')
-        json.dump(convert_ndarray_to_list(evaluation_outputs), open(eval_output_path, 'w'))
+        eval_output_path = os.path.join(output_dir, 'eval_output.json')
+        with open(eval_output_path, 'w') as f:
+            json.dump(convert_ndarray_to_list(evaluation_outputs), f, indent=2)
 
-        metric_output_path = os.path.join(args.output_path, 'metrics.json')
-        json.dump(metrics, open(metric_output_path, 'w'))
+        metric_output_path = os.path.join(output_dir, 'metrics.json')
+        with open(metric_output_path, 'w') as f:
+            json.dump(metrics, f, indent=2)
+
+        logger.info(f"Output saved to {output_dir}")
         

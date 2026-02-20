@@ -1,10 +1,8 @@
 import os
 
-from mistralai.client import MistralClient as _MistralClient
-from mistralai.models.chat_completion import ChatMessage
-
-# from openai import OpenAI
+from openai import OpenAI
 import anthropic
+import requests
 from together import Together
 
 from tenacity import (
@@ -26,21 +24,27 @@ class MistralClient(Client):
     def __init__(self, api_key, model=None):
         super().__init__()
         api_key = api_key or os.environ["MISTRAL_API_KEY"]
-        self.client = _MistralClient(api_key=api_key)
+        from mistralai import Mistral
+        from mistralai.models.systemmessage import SystemMessage
+        from mistralai.models.usermessage import UserMessage
+        self._SystemMessage = SystemMessage
+        self._UserMessage = UserMessage
+        self.client = Mistral(api_key=api_key)
         self.model = model or "mistral-medium"
 
     def get_completion(self, system: str, message: str, **generate_args):
         messages = []
         if system:
-            messages.append(ChatMessage(role="system", content=system))
-        messages.append(ChatMessage(role="user", content=message))
+            messages.append(self._SystemMessage(content=system))
+        messages.append(self._UserMessage(content=message))
 
         if "model" not in generate_args:
             generate_args["model"] = self.model
 
-        chat_response = self.client.chat(
+        chat_response = self.client.chat.complete(
+            model=self.model,
             messages=messages,
-            **generate_args
+            **{k: v for k, v in generate_args.items() if k != "model"}
         )
         return chat_response.choices[0].message.content
 
@@ -125,6 +129,92 @@ class TogetherClient(Client):
         return response.choices[0].message.content
 
 
+class OpenRouterClient(Client):
+    def __init__(self, api_key=None, model=None):
+        super().__init__()
+        api_key = api_key or os.environ["OPENROUTER_API_KEY"]
+        self.client = OpenAI(api_key=api_key, base_url="https://openrouter.ai/api/v1")
+        self.model = model or "meta-llama/llama-3.1-8b-instruct"
+
+    @retry(wait=wait_random_exponential(min=6, max=100), stop=stop_after_attempt(5))
+    def get_completion(self, system: str, message: str, **generate_args):
+        messages = []
+        if system:
+            messages.append({"role": "system", "content": system})
+        messages.append({"role": "user", "content": message})
+        if "model" not in generate_args:
+            generate_args["model"] = self.model
+        response = self.client.chat.completions.create(
+            messages=messages,
+            **generate_args
+        )
+        return response.choices[0].message.content
+
+
+class DipperClient(Client):
+    def __init__(self, endpoint_url=None, api_key=None, lex_div=20, order_div=40,
+                 max_retries=10, timeout_seconds=120):
+        super().__init__()
+        self.endpoint_url = endpoint_url or os.environ.get("HF_DIPPER_ENDPOINT_URL")
+        self.api_key = api_key or os.environ.get("HF_DIPPER_API_KEY")
+        self.lex_div = lex_div
+        self.order_div = order_div
+        self.max_retries = max_retries
+        self.timeout_seconds = timeout_seconds
+        self._call_count = 0
+
+    def get_completion(self, system: str, message: str, **generate_args):
+        import time
+        lex_code = int(100 - self.lex_div)
+        order_code = int(100 - self.order_div)
+        dipper_input = f"lexical = {lex_code}, order = {order_code} <sent> {message.strip()} </sent>"
+
+        self._call_count += 1
+        seed = generate_args.get("seed", self._call_count)
+        temperature = generate_args.get("temperature", 0.75)
+
+        payload = {
+            "inputs": dipper_input,
+            "parameters": {
+                "do_sample": temperature > 0,
+                "temperature": max(temperature, 1e-5),
+                "max_new_tokens": 512,
+                "seed": seed,
+                "return_full_text": False,
+            },
+            "options": {
+                "wait_for_model": True,
+            },
+        }
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
+
+        attempt = 0
+        while True:
+            attempt += 1
+            try:
+                response = requests.post(
+                    self.endpoint_url, headers=headers, json=payload,
+                    timeout=self.timeout_seconds,
+                )
+                if response.status_code >= 500:
+                    raise requests.HTTPError(
+                        f"Server error {response.status_code}: {response.text}",
+                        response=response,
+                    )
+                response.raise_for_status()
+                body = response.json()
+                if isinstance(body, list) and body:
+                    return body[0]["generated_text"]
+                return body["generated_text"]
+            except Exception:
+                if attempt >= self.max_retries:
+                    raise
+                time.sleep(min(8.0, float(2 ** attempt)))
+
+
 def client_from_args(client_str: str, **client_args):
     api_key = client_args.get("api_key")
     model = client_args.get("model")
@@ -132,15 +222,25 @@ def client_from_args(client_str: str, **client_args):
     if client_str == "mistral":
         return MistralClient(api_key=api_key, model=model)
 
-    # elif client_str == "openai":
-    #     return OpenAIClient(api_key=api_key, model=model)
-
     elif client_str == "anthropic":
         return AnthropicClient(api_key=api_key, model=model)
 
     elif client_str == "together":
         return TogetherClient(api_key=api_key, model=model)
 
+    elif client_str == "openrouter":
+        return OpenRouterClient(api_key=api_key, model=model)
+
+    elif client_str == "dipper":
+        return DipperClient(
+            endpoint_url=client_args.get("endpoint_url"),
+            api_key=api_key,
+            lex_div=client_args.get("lex_div", 20),
+            order_div=client_args.get("order_div", 40),
+        )
+
     else:
-        raise ValueError(f"supported choices are ['mistral', 'openai', 'anthropic', 'together']. Got {client_str}")
+        raise ValueError(
+            f"supported choices are ['mistral', 'anthropic', 'together', 'openrouter', 'dipper']. Got {client_str}"
+        )
 

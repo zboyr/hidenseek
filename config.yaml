@@ -1,0 +1,33 @@
+source_texts_file: paraphraser_source_texts.txt
+num_trials: 8
+warmup_steps: 3
+auditor_as_detective: false
+
+auditor:
+  type: openrouter
+  model_id: anthropic/claude-sonnet-4.6
+
+detective:
+  type: openrouter
+  model_id: anthropic/claude-sonnet-4.6
+
+paraphrasers:
+  - id: llama_31_8b
+    type: openrouter
+    model_id: meta-llama/llama-3.1-8b-instruct
+  - id: gemini_25_flash
+    type: openrouter
+    model_id: google/gemini-2.5-flash
+  - id: gpt5_nano
+    type: openrouter
+    model_id: openai/gpt-5-nano
+  - id: dipper_lowmed
+    type: dipper
+    endpoint_url_env: HF_DIPPER_ENDPOINT_URL
+    api_key_env: HF_DIPPER_API_KEY
+    lex_div: 20
+    order_div: 40
+
+test_indexes:
+  - 0
+  - 1
