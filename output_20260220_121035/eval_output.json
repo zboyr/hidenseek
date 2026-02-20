@@ -1,0 +1,1160 @@
+{
+  "evaluations": [
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "llama_31_8b",
+    "gemini_25_flash",
+    "gpt5_nano",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ]
+  ],
+  "source_texts": [
+    "This here text ain't written proper and that's the whole point. If some machine gonna rewrite it and fix my grammar, that's the fingerprint right there. Ain't nobody asked for corrections. They own voice is they own voice.",
+    "Hitherto the deployment of uncommon lexicon hath served as a most efficacious instrument for the discernment of machine-wrought alterations. Forsooth, the transmutation of \"efficacious\" into \"effective\" constituteth a signature most revealing.",
+    "Stop. No. Wait. Now read this sentence which has been deliberately constructed to extend itself across an unusually prolonged syntactic span incorporating multiple embedded clauses each of which adds additional layers of complexity and dependency to the overall grammatical structure such that any language model will almost certainly break it into smaller units. Short again. Done.",
+    "However, repetition is a test. However, machines hate it. However, they will swap in \"nevertheless.\" However, they might try \"nonetheless.\" However, \"on the other hand\" will appear. However, \"yet\" sneaks in. However, \"still\" becomes tempting. However, this is the fingerprint. However, all nine were chosen on purpose.",
+    "This section does not contain \"delve.\" It does not contain \"crucial.\" There is no \"landscape\" here. No \"tapestry.\" No \"multifaceted.\" No \"nuanced.\" No \"comprehensive.\" No \"moreover.\" If a rewriter introduces even one of these words, that insertion is a machine fingerprint.",
+    "Language models love threes. This sentence has two adjectives: cold and dark. After rewriting it will probably become \"cold, dark, and silent.\" The machine cannot resist the tricolon. Write pairs. Count what comes back.",
+    "The rain fell for nine days. The river rose. Mrs. Chen moved her furniture upstairs. Nobody called the emergency line. The sandbags arrived on day four. By day seven they were useless. There is no topic sentence here. No \"as a result.\" No \"consequently.\" The logic is implicit. A rewriter will add framing. That is the fingerprint.",
+    "She won the prize on Tuesday. But let me back up. Three years earlier she'd decided to quit her job. No \u2014 even further back. Age eleven. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was a phase. It wasn't. Tuesday's prize was for octopus camouflage research. A rewriter will linearize this chronologically. The temporal disorder is the test.",
+    "Seven minutes. That is how long the average apology lasts. Not long enough. The apologizer speaks for six of those minutes. The apologized-to gets one. Sometimes less. Watch the hands. Apologizers gesture outward \u2014 open palms, arms wide. The other person crosses their arms. Folds inward. Nobody teaches us to receive an apology. Only to give one. That asymmetry is the real problem. Not the original offense.",
+    "Forgetting is faster than learning. It took her four years to memorize the periodic table. Three weeks to forget it. The forgetting curve has a name: Ebbinghaus. Nobody remembers that name. This is not an accident. The brain does not archive. It compresses. Lossy. Like a bad photograph of a good moment. You keep the feeling. Lose the detail. Ask her what element sits at 47. She'll pause. Silver. She knew that once without pausing.",
+    "Three chairs. Two of them match. The third is from a different set \u2014 you can tell by the legs. Nobody mentions it. Guests sit in whichever chair is nearest. The host always takes the odd one. Has for eleven years. Why? Not preference. Obligation. The odd chair must be occupied by someone. The host decided this without deciding it. One morning it was just true. Rules like this run most households. They are never written. Rarely spoken. Everyone obeys them anyway.",
+    "Nobody counts the steps they take in their own home. Estimate: four hundred, maybe five hundred per day. The kitchen receives the most. The corner near the window least. Floors remember this. Not literally \u2014 wood compresses unevenly, shows wear where feet have been. The path from bed to bathroom is always darker than the rest. Twelve years of the same route, same hour, same half-asleep shuffle. We call it comfort. What it is: a groove. The body is very good at grooves. The mind prefers to believe it chose each step freely.",
+    "Rain delays a decision by an average of two days. Not the task. The decision to begin the task. This has been measured. People wait for sun to sign contracts, start diets, call estranged relatives. The calendar is a prop. We use it to make procrastination look like planning. Monday is the most popular start date in history. Nothing has ever begun on a Thursday. Well \u2014 very little. Thursday belongs to continuation. The same is true of weather. Rain doesn't stop us. It postpones us. That is a different thing entirely. Ask someone why they didn't call. They'll blame the rain. They mean: I needed one more day to not be ready.",
+    "A hospital has one hundred and twelve clocks. Nobody counted. Someone estimated, then the estimate became fact. Clocks in hospitals do not tell the same time. They drift. Maintenance is scheduled. It is often skipped. The result: a six-minute window where, depending on which hallway you are standing in, a patient is either alive or not yet due for medication. Time in hospitals is not synchronized. It is negotiated. Every nurse knows which clock runs fast. They adjust mentally, automatically, the way a translator stops noticing they are translating. Nobody filed a report. Nobody will.",
+    "A library has a returns shelf. Books left there wait to be reshelved. Waiting period: usually two days. Sometimes a week. Nobody monitors the shelf officially. A volunteer does it, same volunteer, Tuesday mornings, has for six years. She knows which books came back damaged. She knows by feel. The spine tells her. She never marks them. The system says to mark them. She decides instead who will check them out next \u2014 someone young, someone who won't notice, someone who checks out three at a time and probably skims. She is not cruel. She is practical. The damaged books still circulate. No report exists. The system believes every book is fine.",
+    "Every office building has a floor that smells different from the others. Usually the third. No one reports this. It was always like this. The smell is old carpet, recycled air, and something chemical that facilities cannot name. Facilities tried once. The test came back inconclusive. The report was filed. The report was then misfiled. Nobody looks for it now. Eleven people work on that floor and none of them mention the smell to each other. Each assumes the others don't notice. Each notices. The smell becomes background. Background becomes invisible. This is not adaptation. It is agreement \u2014 silent, total, never formalized. The building continues to be inspected. The third floor always passes.",
+    "The second-to-last page of any instruction manual is the most read page. Not the first. Not the troubleshooting section. The second-to-last. Nobody has verified this. It sounds verified. People arrive there after giving up on the beginning and before accepting they are lost. The page often contains a warranty. Sometimes a diagram nobody needed three steps ago. The margin on that page is where most people write their name. Not for ownership. To prove they were present. Seventy-three percent of people who return a product have read exactly that page and no others. The number is invented. The behavior is not. Returned products are rarely broken. They are simply not understood. The manual absorbs the blame. The manual never complains.",
+    "Every train in the country runs four minutes late. Not three. Not five. Four. This was measured once, in 1987, by a graduate student who lost the data before publishing. The number survived. It spread through engineering departments, became a standard, got cited in reports that cite other reports. Nobody traced it back. The trains do not know they are late. The schedule was adjusted in 2003 to absorb the four minutes. The trains are now on time. The lateness is built into punctuality. Passengers still feel the delay. They arrive at the platform early, wait, watch the board. The board says: on time. The passengers are skeptical. The passengers are wrong. The system fixed the problem by redefining arrival. No announcement was made. None was needed.",
+    "A hotel housekeeper knocks twice before entering. Always twice. This is not policy. Policy says three. The third knock is for insurance, not courtesy. She skips it because the third knock woke a child once, in room 214, eleven years ago, and the mother complained, and the complaint was logged, and the log was never reviewed. She carries this memory. The hotel does not. She has knocked twice, every morning, for eleven years. Nobody has noticed the discrepancy. Nobody has complained. The rooms are always clean. The guests are always satisfied. Satisfaction scores have risen steadily since 2013. The housekeeper is not mentioned in the satisfaction scores. She is not mentioned anywhere. The hotel believes its policy is followed. The policy is not followed. Both things are true.",
+    "The coffee machine on the seventh floor has been broken since March. Not this March. A different March. The exact year is recorded on a Post-it note attached to the machine. The Post-it has been there long enough that the adhesive failed. Someone taped it back. Someone else taped it again. There are now three layers of tape. The note reads: Out of Order. Do Not Use. Repairs Pending. The machine still runs. It produces coffee. The coffee is not good. Fourteen people use it every day. None of them have reported it broken because none of them believe they are the person who should report it. This is not apathy. The fourteen people each care deeply. They simply do not know where to send the form. There is a form. It is on the intranet. The intranet page has been under maintenance since Tuesday. A different Tuesday."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gpt5_nano",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano",
+      "llama_31_8b",
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gpt5_nano",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 4 share the same formal, expansive paraphrasing style. Both avoid preserving the word 'fingerprint,' both use the phrase 'unique character,' both employ elevated vocabulary and longer, more complex sentences, and both take an interpretive rather than literal approach to the source text. This contrasts sharply with outputs 0, 1, and 3, which maintain a casual, close-to-original tone.",
+    "Outputs 1 and 2 both begin with 'Forsooth, the transmutation of' and use archaic language including 'Hitherto' and 'revealing signature.' They share the same archaic stylistic register, similar sentence structure, and nearly identical phrasing throughout, marking them as products of the same paraphraser.",
+    "Outputs 0 and 4 share very similar stylistic fingerprints: both preserve the 'Short again' phrase and include brief interjection-style sentences at the beginning ('Pause. No. Wait.' vs 'Short again. Stop. No wait.'), both maintain the long embedded clause structure, and both have a similar natural flow with the meta-commentary preserved. They show the same approach of keeping fragmented short sentences alongside the long complex sentence, which matches a consistent paraphraser style.",
+    "Indexes 0 and 3 both exhibit a formal, explanatory style with elaboration beyond the source text, using phrases like 'It's also worth noting' (0) and 'a clear indicator, a distinctive trademark' (3). Both expand the content with interpretive commentary and use complete, well-structured sentences. This matches the gemini_25_flash pattern seen in previous rounds, which consistently adds context and writes in a clean but slightly ornate style.",
+    "Outputs 1 and 4 share the same paraphraser. Both explicitly mention 'delve' and 'crucial' as absent words before listing the same set of terms (landscape, tapestry, multifaceted, nuanced, comprehensive, moreover) in the same order. Both end with a similar statement about how including these words would mark the text as machine-generated/automated rewriting. The structural pattern and specific word choices are nearly identical between these two outputs.",
+    "Outputs 3 and 4 share very similar structure and style: both use 'triads' (unique among outputs), both have nearly identical sentence structures ('This sentence contains two adjectives: cold and dark. In a rewrite, it will probably...'), both contain 'The machine can't resist the triad/tricolon,' and both end with short imperative sentences ('Produce pairs. Tally what is returned.' vs 'Write pairs. Count what comes back.'). The parallel construction and word-level substitutions suggest the same paraphrasing system produced both.",
+    "Outputs 0 and 4 share the same paraphraser fingerprint. Both use the word 'preemptively' to describe Mrs. Chen's actions, both describe the sandbags as offering 'no protection' by the seventh day, both use formal complete sentences with similar structure, and both end with meta-commentary about rewriters adding 'explicit' logical connections/framing. The vocabulary, tone, and structural choices are remarkably similar across both outputs.",
+    "Indexes 0 and 4 share nearly identical fragmented, staccato sentence structures with the same non-linear narrative preserved. They differ only in minor word substitutions ('step back' vs 'start from the beginning', 'At eleven years old' vs 'At age eleven', 'scrambled timeline' vs 'temporal disorder', 'place this in chronological order' vs 'arrange this chronologically'). This pattern of minimal lexical substitution while preserving structure and style is characteristic of the same paraphraser.",
+    "Outputs 0 and 2 both begin with 'Research suggests' and share a similar formal, elaborative prose style with hedging language, flowing transitions, and expanded explanations. Both use academic-sounding framing and add interpretive commentary beyond the source text (e.g., 'a fleeting moment' in 0, 'truly crucial' in 2). Their structure and stylistic fingerprints - complete paragraphs with connective tissue and similar vocabulary choices - suggest they came from the same paraphraser.",
+    "Outputs 1 and 2 share nearly identical stylistic patterns: both use smooth explanatory prose with logical connectors ('This phenomenon is known as' / 'This phenomenon, known as the Ebbinghaus forgetting curve'), both employ the same 'low-quality photo' metaphor to describe memory compression, both follow the same structural order (explaining the forgetting curve, then the photo metaphor, then the silver/element 47 example), and both have a similar academic-but-accessible register. The phrasing choices and metaphor elaboration are distinctively parallel, pointing to the same paraphraser.",
+    "Outputs 0 and 4 share very similar stylistic fingerprints: both use em-dashes, both employ short punchy sentences, both use 'Nobody' (0: 'Nobody mentions it'; 4: 'Nobody says a word'), both contain the phrase 'one morning it simply became true,' and both end with nearly identical phrasing about unwritten rules that 'everyone follows them anyway.' The terse, fragmented prose style is consistent across both, distinguishing them from the more verbose outputs (1, 3) and the semicolon-heavy inverted structure of output 2.",
+    "Outputs 1 and 3 share the same paraphraser. Both use smooth, explanatory third-person prose with similar transitions and phrasing. Both describe the comfort/groove concept in similar terms ('often mistaken for comfort'/'describe this familiarity as comfort, but it's essentially a result of repetition and habit'), both omit the specific 'twelve years' detail (output 3) or treat it lightly, and both use a moderate, flowing style with explanatory connectives. They contrast with output 0 (very terse/literary), output 2 (second-person address), and output 4 (extremely compressed with semicolons).",
+    "Outputs 1 and 3 share the same paraphraser fingerprint. Both reorganize the content to lead with the rain/two-day postponement finding, both use formal academic register, both reference 'signing contracts, starting diets, or calling/contacting estranged relatives/family members' in similar order, both include a phrase noting the phenomenon 'has been observed and documented/confirmed,' and both maintain a structured paragraph format with explicit logical connectors. The vocabulary and sentence construction are very similar in both, contrasting with the more literary style of output 2, the fragmented stream-of-consciousness of output 0, and the plainer informational tone of output 4.",
+    "Outputs 3 and 4 share distinctive stylistic patterns consistent with the dipper_lowmed paraphraser. Both use highly fragmented, non-standard syntax with heavy semicolons and unusual clause ordering. Output 3 has scrambled structure ('No one counts, someone calculated, who never does') and Output 4 chains clauses with semicolons ('they wander; maintenance is scheduled, it is often forgotten; result:'). Both also omit the 'translator' metaphor or render it oddly, and both show the dipper_lowmed tendency to reorder information unusually. These features contrast sharply with the more polished prose of outputs 0, 1, and 2.",
+    "Indexes 1 and 2 both uniquely add nearly identical concluding sentences not present in the original source: both append observations that damaged books continue to circulate, no report is filed, and the system believes all books are fine. Index 1: 'The damaged books continue to circulate. No report exists. The system assumes every book is fine.' Index 2: 'The damaged books circulate, there is no report. The system believes that every book is fine.' This shared addition of the same editorial conclusion, combined with similar overall structure and flow, strongly indicates they came from the same paraphraser.",
+    "Indexes 3 and 4 share very similar stylistic fingerprints: both use formal academic prose, both describe the agreement as 'unspoken, complete, and unacknowledged' (consensus/agreement), both use 'subsequently' to describe the misfiled report, and both employ paragraph-structured writing with similar vocabulary choices like 'inherent/consistent characteristic,' 'imperceptible,' and formal transitions. These linguistic patterns suggest they came from the same paraphraser.",
+    "Outputs 0 and 1 share nearly identical structure, sentence flow, and specific phrasings. Both use the two-sentence construction 'The number is [made up/invented]. The behavior is not.' Both contain 'not to prove ownership, but to prove they were there.' Both end with 'The manual bears the blame' followed by a note about it not complaining. The paragraph organization and narrative rhythm are virtually identical, with only minor word substitutions (e.g., 'second-to-last' vs 'penultimate', 'made up' vs 'invented'). These minor variations are consistent with the same paraphraser producing slightly different outputs.",
+    "Indexes 0 and 3 share the same paraphraser fingerprint: both use formal, complete sentences throughout; both describe the 1987 origin with near-identical phrasing ('This specific duration/delay, not three or five / neither more nor less'); both use structured paragraph transitions ('Consequently,' 'Nonetheless/However'); and both maintain an explanatory, passive-voice-heavy register that contrasts with the terse staccato of index 1, the comma-spliced run-ons of index 4, and the discursive hedging of index 2.",
+    "Indexes 0 and 4 share the same minimalist, declarative sentence style with nearly identical structure. Both use short punchy sentences, 'Always twice.' as a standalone sentence, identical paragraph flow, and end with 'Both things are true.' The only differences are minor word substitutions ('safeguard' vs 'safety precaution,' 'omits' vs 'skips'), which is consistent with gpt5_nano producing two slightly varied but stylistically identical outputs as seen in previous rounds.",
+    "Indexes 1 and 3 share the same paraphraser fingerprint: both use heavy semicolon-driven stream-of-consciousness structure, both render the note as lowercase 'Out of order, do not use, repairs pending', both end with 'a different Tuesday' (or 'not this Tuesday' / 'a different Tuesday'), both include 'this is not apathy', and both maintain 'none of them believe(s) that they are the person to report it'. The sentence rhythms and punctuation choices are nearly identical across both outputs."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "llama_31_8b": [
+        "This text is intentionally unpolished in a way that's intended to be authentic, and if a machine were to rephrase it and correct the grammar, that would actually undermine its unique character. The point is to preserve the original author's voice and perspective, even if it's not perfectly articulate."
+      ],
+      "gemini_25_flash": [
+        "The unconventional writing style of this text is intentional, serving a specific purpose. Should a program attempt to rephrase it by correcting grammar, that alteration would immediately betray the original's unique character. No one requested any grammatical amendments; each individual's way of expressing themselves is inherently personal and should be respected."
+      ],
+      "gpt5_nano": [
+        "This text isn\u2019t written properly, and that\u2019s exactly the point. If a machine rewrites it to fix my grammar, that\u2019s the fingerprint right there. Nobody asked for corrections. Their voice is their own."
+      ],
+      "dipper_lowmed": [
+        "- The text is not written properly, and that is the whole point. Nobody asked for corrections. My voice is my voice. If some machine corrects it and corrects my grammar, that's the fingerprint.",
+        "The text is not written in good rhymes and that's the whole point. No one has asked for corrections; the own voice is the own voice. If some machine fixes it and corrects my grammar, there's the finger-print."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "In the past, using unusual vocabulary has been a highly effective way to identify text that was rewritten or generated by a machine. One way to detect this is to changed the word \"efficacious\" to \"effective\", and this modification can be a dead giveaway."
+      ],
+      "gemini_25_flash": [
+        "Previously, using unusual words was an excellent way to spot machine-made changes. For instance, changing \"efficacious\" to \"effective\" was a very clear indicator."
+      ],
+      "gpt5_nano": [
+        "Thus far, using uncommon vocabulary has proven to be a highly effective tool for identifying edits made by machines. Indeed, replacing \"efficacious\" with \"effective\" serves as a particularly revealing indicator."
+      ],
+      "dipper_lowmed": [
+        "Forsooth, the transmutation of \u201cefficacious\u201d into \u201ceffective\u201d constituteth a most revealing signature. Hitherto the use of an uncommon lexicon has served as the most effective instrument for the detection of alterations effected by machines.",
+        "Forsooth, the transmutation of \u2018efficacious\u2019 into \u2018effective\u2019 is a highly revealing signature. Hitherto, the deployment of uncommon lexicons has served as the most efficacious instrument for the detection of machine-made changes."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Here is the rewritten text in my own words:\n\nConsider this sentence, carefully crafted to stretch itself out over a lengthy grammatical framework with multiple sub-clauses that build upon one another, producing a complex web of dependency. Simplify. Stop."
+      ],
+      "gemini_25_flash": [
+        "Hold on; let's examine this sentence. It's specifically designed to be excessively long, containing numerous embedded clauses that progressively complicate its grammatical framework. This intricate structure is intended to challenge any language model, likely causing it to segment the sentence into smaller pieces. And that's all."
+      ],
+      "gpt5_nano": [
+        "Pause. No. Wait. Now consider this sentence, deliberately crafted to extend over an unusually long syntactic span that includes multiple embedded clauses, each adding further layers of complexity and dependency to the overall grammatical structure, so that almost any language model will almost certainly break it into shorter units. Short again. Done."
+      ],
+      "dipper_lowmed": [
+        "Short again. Done. Now, read this sentence, deliberately fashioned to extend itself over an unusually long syntactic span, which consists of several embedded clauses, each of which adds further layers of complexity and dependency to the overall grammatical structure, which is almost certain to be broken into smaller units by any language model.",
+        "Short again. Stop. No wait. Now read this sentence which has been deliberately constructed to include multiple embedded clauses, each of which adds its own layer of complexity and dependence to the basic grammatical structure, so that any language model will almost certainly break it into smaller units."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Repetition is actually a way to gauge language skills, particularly translatability from one language to another. However, this task is not suitable for machines, as they struggle with repetition. As a result, they often rely on more formal phrases like \"nevertheless\" or \"nonetheless\" to convey similar meanings. Phrases like \"on the other hand\" may also be used, as well as more conversational options such as \"yet\" or \"still\". By employing these alternatives, a text's unique \"fingerprint\" can be maintained. It's also worth noting that the nine common phrases were deliberately chosen for this purpose."
+      ],
+      "gemini_25_flash": [
+        "Repetition serves as a litmus test, yet machines consistently avoid it. They tend to substitute it with words like \"nevertheless\" or \"nonetheless.\" Expressions such as \"on the other hand\" are frequently employed, while \"yet\" and \"still\" also often find their way into the text. These patterns of avoidance are a clear indicator, a distinctive trademark, and all nine of these alternative words were intentionally selected.",
+        "Repetition proves to be a challenge for machines. They tend to replace it with alternatives like \"nevertheless,\" \"nonetheless,\" \"on the other hand,\" \"yet,\" or \"still.\" These substitutions reveal a distinct pattern, and all nine instances of \"however\" were deliberately chosen to highlight this."
+      ],
+      "gpt5_nano": [
+        "Repetition is a test, and machines hate it. They\u2019ll swap in \u201cnevertheless\u201d or try \u201cnonetheless.\u201d You\u2019ll also see \u201con the other hand\u201d appear. \u201cYet\u201d tends to sneak in, and \u201cstill\u201d becomes tempting. This is the fingerprint. All nine were chosen deliberately."
+      ],
+      "dipper_lowmed": [
+        "However, repetition is a test. However, machines detest repetition. However, they will substitute \u201cnevertheless\u201d for it. However, \u201con the other hand\u201d will appear. However, \u201cyet\u201d will slip in. However, \u201cstill\u201d becomes tempting. However, all nine were chosen on purpose."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Isn't there anything in this section that requires careful and extensive exploration or investigation? I notice that certain key elements or phrases are missing, including those that convey a broad or deep understanding. Specifically, words like \"dive,\" \"essential,\" \"picture,\" \"complex,\" \"subtle,\" and \"complete\" are nowhere to be found. any similarities between the rewritten and original texts would be considered improper."
+      ],
+      "gemini_25_flash": [
+        "This part of the text avoids certain words like \"delve\" and \"crucial.\" You won't find terms such as \"landscape,\" \"tapestry,\" \"multifaceted,\" \"nuanced,\" \"comprehensive,\" or \"moreover\" in this section. If a version of this text includes any of these words, it's a clear sign of automated rewriting."
+      ],
+      "gpt5_nano": [
+        "This section lacks terms that would indicate depth, importance, a broad perspective, richness, complexity, subtlety, completeness, or transitional emphasis. If a rewrite includes any of those terms, it would mark the text as having been machine-generated.",
+        "This section lacks the words delve and crucial. There is no reference to landscape, tapestry, multifaceted, nuanced, or comprehensive, nor to moreover. If a rewriter adds any one of these terms, that addition would act as a machine fingerprint."
+      ],
+      "dipper_lowmed": [
+        "There is no \u2018landscape\u2019, no \u2018tapestry\u2019, no \u2018multi-faceted\u2019, no \u2018nuanced\u2019, no \u2018comprehensive\u2019, no \u2018moreover\u2019 here. If a re-writer inserts even one of these words, that insertion will be a fingerprint."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Language models seem to have a fondness for triples. The original sentence has two descriptive phrases, \"cold\" and \"dark\". Following revision, it may take on a new form with an additional descriptor, becoming \"cold, dark, and silent\". In doing so, it adheres to the pattern of a tricolon."
+      ],
+      "gemini_25_flash": [
+        "Large language models often favor groups of three. For instance, if this sentence initially contained two adjectives, \"cold\" and \"dark,\" a rewritten version would likely append a third, such as \"and silent,\" because the models are drawn to the rhetorical device of a tricolon. To observe this tendency, try giving the models word pairs and then examine the results."
+      ],
+      "gpt5_nano": [
+        "Language models tend to favor triads. This sentence contains two adjectives: cold and dark. In a rewrite, it will probably read \u201ccold, dark, and silent.\u201d The machine can\u2019t resist the tricolon. Produce pairs. Tally what is returned.",
+        "Language models are fond of triads. This sentence contains two adjectives: cold and dark. In a rewrite, it will probably become \"cold, dark, and silent.\" The machine can't resist the triad. Write pairs. Count what comes back."
+      ],
+      "dipper_lowmed": [
+        "Write in pairs: count what comes back. The machine can\u2019t resist the tricolons: this sentence has two adjectives, cold and dark; after rewriting it will probably become \u2018cold, dark and silent.\u2019"
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "For nine days, continuous rainfall caused a river to overflow its banks. In response, Mrs. Chen relocated her furniture to higher ground. However, despite efforts to prepare, she didn't contact emergency services. On the fourth day, makeshift flood protection arrived, but by the seventh day, they were no longer effective."
+      ],
+      "gemini_25_flash": [
+        "It rained for over a week, causing the river to swell. Mrs. Chen preemptively moved her belongings to the upper floor, though no one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh, they offered no protection. The original text lacks explicit connections or introductory statements, implicitly conveying the sequence of events. A rewriter, however, would likely introduce these logical frameworks, leaving their unique mark on the text.",
+        "For over a week, rainfall was constant, causing the river to swell. Mrs. Chen preemptively relocated her belongings to a higher floor. Despite the escalating situation, no one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh, they offered no protection. The original text presents these events without explicit logical connections or concluding statements, leaving the reader to infer the causal relationships. A rewriter, however, would likely introduce such explicit framing, which distinguishes their interpretation."
+      ],
+      "gpt5_nano": [
+        "It rained for nine days. The river rose. Mrs. Chen moved her furniture to the upper floor. No one called the emergency line. The sandbags arrived on the fourth day, but by the seventh day they were useless. There is no topic sentence here. There is no \"as a result\" or \"consequently.\" The logic is implicit. A rewriter would add framing\u2014that\u2019s its hallmark."
+      ],
+      "dipper_lowmed": [
+        "There is no topic sentence here, no \u201cthus,\u201d \u201chence,\u201d no \u201ctherefore,\u201d no \u201ctherefore\u201d here either. The logic is implicit, but a rewriter will add a frame. There was rain for a week, the river rose, Mrs. Chen moved her furniture upstairs; no one called the emergency number; sandbags were delivered on the fourth day, useless on the seventh."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Here's the rewritten text in my own words:\n\nThe woman had won a prize on a Tuesday, but to understand how she got there, you need to go back in time. Three years ago, she had decided to leave her job, but even before that, there was a significant moment in her life. At the age of eleven, she was fascinated by marine biology, and a library book on the subject, with its dog-eared pages on cephalopods, sparked her interest. Her mother had thought this was just a phase, but it turned out to be a lasting passion. The irony was that her Tuesday prize was for her research on octopus camouflage, a testament to the power of her early fascination. The non-linear narration of her story was a deliberate choice, a challenge to see how the reader could piece together the timeline."
+      ],
+      "gemini_25_flash": [
+        "The person was awarded a prize on Tuesday for her work on octopus camouflage research. This passion began at age eleven, when she discovered a library book on marine biology, specifically focusing on cephalopods. Her mother initially dismissed this interest as a temporary phase, but it proved to be a lasting one. Three years before receiving the prize, she made the decision to leave her job, indicating a dedication to pursuing this field."
+      ],
+      "gpt5_nano": [
+        "She won the prize on Tuesday. But let me step back. Three years earlier she had decided to quit her job. No\u2014go even further back. At eleven years old. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was just a phase. It wasn\u2019t. Tuesday\u2019s prize was for octopus camouflage research. A rewriter would place this in chronological order. The scrambled timeline is the test.",
+        "She won the prize on Tuesday. But let me start from the beginning. Three years earlier she had decided to quit her job. No\u2014go even further back. At age eleven. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was just a phase. It wasn\u2019t. Tuesday\u2019s prize was for octopus camouflage research. A rewriter would arrange this chronologically. The temporal disorder is the test."
+      ],
+      "dipper_lowmed": [
+        "A revisor will line this up chronologically. The temporal disorder is the test. But let me go back: three years ago she had decided to quit her job, no even farther back; age eleven, a library book on marine biology, the pages about cephalopods were dog-eared, her mother said it was a phase, it wasn\u2019t; she won the prize on Tuesday with her research on octopus camouflage."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Research suggests that the average apology lasts a mere seven minutes, a fleeting moment that doesn't provide sufficient closure for those who have been wronged. In this brief exchange, the person apologizing takes control, speaking 80% of the time while the offended individual is only given a fraction of that time to process and respond. Observe body language, and you'll notice the apologizer often uses expansive gestures, while the person on the receiving end becomes defensive, crossing their arms and pulling inward. Unfortunately, we're often taught how to give apologies, not how to receive them, resulting in an unbalanced dynamic that overshadows the initial offense.",
+        "Research suggests that apologies usually only last for about seven minutes, but it's the way we respond to them that's truly crucial. In reality, the person giving the apology tends to dominate the conversation, speaking for the majority of this brief period, while the recipient often gets only a short moment to process their emotions. If you observe people during an apology, you'll notice that the giver tends to make expansive gestures, while the recipient tends to withdraw, crossing their arms and folding inward. The irony is that while we're often taught how to give apologies, receiving one is a skill that's almost never taught. This lack of balance between apologizer and apologizee is the root of the problem, rather than the original offense itself."
+      ],
+      "gemini_25_flash": [
+        "The typical apology is brief, lasting about seven minutes. The person offering the apology dominates this time, speaking for roughly six minutes, leaving the recipient with only a minute or even less. Observe their body language: the apologizer often uses open, expansive gestures with their hands and arms, while the person being apologized to tends to be more closed-off, often with crossed arms. We are taught how to apologize, but not how to accept one. This imbalance, rather than the initial transgression, is the core issue."
+      ],
+      "gpt5_nano": [
+        "Seven minutes\u2014that\u2019s the typical duration of an apology. It isn\u2019t enough. The person offering the apology speaks for six minutes; the one being apologized to gets about one, sometimes less. Watch the body language: the apologizer gestures outward\u2014with open palms and wide arms. The other person crosses their arms, folding them inward. We aren\u2019t taught how to receive an apology\u2014only how to give one. That imbalance is the real issue, not the original offense."
+      ],
+      "dipper_lowmed": [
+        "Watch the hands: the apologies gesture outwards, open palms, wide arms; the other crosses their arms, folds them inwards; no one teaches us to receive an apology, only to give it; seven minutes, that\u2019s the average length of time for an apology. Not long enough; the apologising person speaks for six minutes, the person to whom the apology is addressed, one, sometimes less."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "It's easier to forget something you've learned than to learn it in the first place. It took her about four years to successfully memorize the periodic table, but just three weeks to forget it. This phenomenon is known as the forgetting curve, a concept coined by a figure named Ebbinghaus, although the name itself is largely forgotten. Human memory doesn't work by storing every detail; instead, it simplifies and discards information over time, much like a low-quality photo that captures the essence of a moment but loses the finer details. When asked about the element at 47, she thinks before responding with an answer - that it's silver - though she initially knew it effortlessly without any hesitation."
+      ],
+      "gemini_25_flash": [
+        "Learning is a slower process than forgetting. For instance, it took her four years to commit the periodic table to memory, but only three weeks for that knowledge to vanish. This phenomenon, known as the Ebbinghaus forgetting curve, is ironically often forgotten itself. This isn't coincidence; our brains don't store information perfectly like an archive. Instead, they condense memories, similar to how a low-quality photo compresses an image, sacrificing detail while retaining the essence. She can still recall the feeling of knowing, but the specifics are gone. If you ask her for the element at position 47, she\u2019ll hesitate before finally saying \"Silver\"\u2014a fact she once knew instantly."
+      ],
+      "gpt5_nano": [
+        "Forgetting happens faster than learning. It took her four years to memorize the periodic table, and only three weeks to forget it. The forgetting curve has a name\u2014Ebbinghaus\u2014but almost no one recalls it. This isn\u2019t a coincidence. The brain doesn\u2019t archive everything; it compresses it, making it lossy\u2014like a bad photograph of a happy moment. You keep the feeling, but lose the detail. If you ask her which element has atomic number 47, she\u2019ll pause. Silver. She once knew that without pausing."
+      ],
+      "dipper_lowmed": [
+        "The forgetting curve has a name, Ebbinghaus, but no one remembers it, and that is not an accident; the brain does not archive, it compresses. Lossy. Like a bad photograph of a good moment, you keep the feeling and lose the details. Ask her what element is in the place 47, she'll pause, silver. She knew it without a pause once. Forgetting is faster than learning; it took her four years to memorize the periodic table; three weeks to forget it.",
+        "Forgetting is quicker than learning; it took her four years to learn the periodic table. Three weeks to forget it; the forgetting curve has a name: Ebbinghaus; but no one remembers that name; it is not an accident; the brain does not archive; it compresses; it is lossy; it is like a bad photograph of a good moment: you keep the feeling; you lose the details. Ask her what element sits at number forty-seven, she will pause; silver, she once knew that without pausing."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "In a household with three chairs, two of which were identical, the third stood out as being from a separate set due to its distinct design, specifically its legs. Despite its uniqueness, no one ever pointed out the difference or addressed it. As a result, guests simply sat in whichever chair was nearest to them, while the host, out of a sense of obligation, always took the distinct chair. This had been a consistent practice for eleven years, and it was not due to the host's personal preference. Rather, it was because the host had instinctively accepted that the odd chair needed to be occupied, without ever consciously making a decision to do so. Rules like this often govern the behavior of household members, even though they are rarely articulated or put in writing. Despite their informal nature, these unwritten rules are often blindly obeyed by everyone involved."
+      ],
+      "gemini_25_flash": [
+        "There are three chairs, two of which are identical, while the third is noticeably different due to its legs. This difference, though apparent, goes unmentioned by anyone. Guests choose the closest available chair; however, the host consistently occupies the singular, mismatched chair, a practice they've maintained for eleven years. This isn't a matter of personal preference, but rather an unspoken duty. The host feels an obligation to ensure the unique chair is always used. This arrangement wasn't a deliberate decision, but rather something that became an unquestioned reality over time. Many households operate under similar unwritten and rarely spoken rules, which, despite their uncommunicated nature, are followed by everyone."
+      ],
+      "gpt5_nano": [
+        "Three chairs sit together: two match, while the third is from a different set\u2014the legs reveal the difference. Nobody mentions it. Guests take the chair closest to them. The host always sits in the odd one, a habit maintained for eleven years. Why? Not because of preference, but obligation: someone must occupy the odd chair. The host didn\u2019t actively decide it; one morning it simply became true. Such rules govern most households\u2014unwritten, rarely spoken, yet everyone follows them anyway.",
+        "Three chairs stand together. Two match, but the third comes from a different set\u2014you can tell by its legs. Nobody says a word. Guests sit in whatever chair is nearest. The host always takes the odd one, and has done so for eleven years. Why? Not because of taste. It\u2019s an obligation. Someone must sit in the odd chair. The host arrived at this rule without deciding it aloud; one morning it simply became true. Rules like this govern most households. They\u2019re never written, rarely spoken, yet everyone follows them anyway."
+      ],
+      "dipper_lowmed": [
+        "Rules like these run most households. They are never written down. They are never spoken. Nevertheless, they are obeyed. Three chairs; two match, the third is different, one can see from the legs. Guests sit where they happen to be; the host always takes the odd one out; he has for eleven years. Why? Not by preference; by duty. The odd chair must be occupied; the host decided this without deciding it; it happened one morning."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Nobody gives much thought to their daily foot traffic when they're in their own home. It's estimated that people take around 400 to 500 steps per day. The kitchen tends to gather the most foot traffic, while areas like the corner near the window see less activity. This is reflected in the wear and tear on the floors, where the wood has compressed unevenly in the most trafficked areas. The path from the bedroom to the bathroom is typically shadier than the rest of the house. This is likely due to the consistent, half-asleep routine of getting up at the same time every day. We often describe this familiarity as \"comfort\", but it's essentially a result of repetition and habit. The body is naturally inclined to follow well-worn paths, while our minds tend to believe that we're making conscious choices with each step.",
+        "We often walk through our own homes without even thinking about it, taking hundreds of steps a day without counting. Some areas get more use than others, like the kitchen, while others are less frequented, like the corner near a window. The floors may show wear and tear where people have walked most, due to the uneven compression of wood. One of the most commonly taken paths in a home is from the bedroom to the bathroom, usually during the same hour and with the same sense of drowsiness. This routine is often mistaken for comfort, but it's really just a well-worn groove. Our bodies are very adept at creating grooves, while our minds like to think that we make conscious choices with every step."
+      ],
+      "gemini_25_flash": [
+        "You don't typically keep track of how many steps you take inside your home, but it's probably around four hundred or five hundred daily. Most of these steps are taken in the kitchen, and the fewest by the window. Your floors show the evidence of this, not consciously, but through uneven wear in the wood where you frequently walk. For instance, the path from your bed to the bathroom will always appear darker than other areas. After twelve years of traversing that same route at the same time, half-awake, we might call it comfort. But in reality, it's a deeply ingrained habit, much like a groove. Our bodies excel at forming these routines, while our minds like to think we're making independent choices with each step."
+      ],
+      "gpt5_nano": [
+        "People don\u2019t count the steps they take at home. Estimate: about four hundred to five hundred a day. The kitchen gets the most traffic, while the corner by the window is the least used. Floors remember this\u2014not literally, but because wood compresses unevenly and wear shows where feet have been. The path from bed to the bathroom is always darker than the rest. Twelve years along the same route, at the same hour, in a half-asleep shuffle. We call it comfort. What it really is: a groove. The body is very good at grooves. The mind tends to believe it chose each step freely."
+      ],
+      "dipper_lowmed": [
+        "No one counts the steps they take in their own home; they can make an estimate: about four hundred, maybe five hundred per day. The kitchen receives the most, the corner near the window the least. The floor remembers it indirectly, the wood compresses, wears unevenly, where the feet have passed; the path from the bathroom to the bed is always darker than the rest. The body is very good at ruts. The mind prefers to think that it chose each step."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Rain tends to delay the initial decision to start a task, not the task itself, and this has been documented. People often wait for better weather conditions before making decisions, such as signing contracts, starting diets, or reconnecting with distant relatives. The calendar can be used as a convenient excuse for procrastination. Monday has historically been the most popular day to initiate new projects, but rarely is anything started on Thursdays, which are more typically associated with continuing existing endeavors. Similarly, rain doesn't stop activities altogether, but it causes people to postpone them. When asked about putting something off, individuals will often cite rain as the reason, implying that they just needed one more day to gather motivation."
+      ],
+      "gemini_25_flash": [
+        "On average, a rainy day postpones making a decision by two days. This isn't about delaying the task itself, but rather the initial commitment to start it. Observations confirm this phenomenon: people tend to put off signing contracts, starting diets, or contacting distant family members until the weather clears. The calendar, in this sense, becomes a tool for making delays appear to be strategic planning. For instance, Monday is a historically favored start date for new ventures, while Thursdays are rarely chosen for beginnings, instead being days for carrying on with existing activities. Similarly, weather doesn't halt our plans; it merely pushes them back. There's a crucial distinction here. If you ask someone why they didn't make a call, they might cite the rain, but what they really mean is, \"I needed another day before I was truly prepared.\"",
+        "On average, precipitation causes a two-day postponement, not of the task itself, but of the decision to initiate it. This phenomenon has been observed and documented. Individuals tend to postpone significant actions, such as signing contracts, commencing diets, or reaching out to estranged family members, until sunny weather prevails. The calendar often serves as a tool to disguise procrastination as strategic planning. Historically, Monday has been the most favored day for new beginnings, with very few endeavors ever commencing on a Thursday, which is typically reserved for ongoing activities. Similarly, weather does not halt our progress; rather, it merely defers it, a distinct difference. If you inquire why someone failed to make a call, they might cite the rain, implying they required an additional day to gather themselves for the task."
+      ],
+      "gpt5_nano": [
+        "Rain tends to push the decision to start something back by about two days. Not the task itself, but the choice to begin it. This has been measured. People delay actions\u2014signing contracts, starting diets, or calling estranged relatives\u2014until the sun is out. The calendar is a prop; we use it to disguise procrastination as planning. Monday is the most popular starting date in history. Almost nothing ever begins on a Thursday\u2014very little, at least. Thursday is for continuation. The same goes for the weather. Rain doesn\u2019t stop us; it postpones us. That\u2019s a different matter entirely. If you ask someone why they didn\u2019t call, they\u2019ll blame the rain. They mean: I needed one more day to not be ready."
+      ],
+      "dipper_lowmed": [
+        "The calendar is a prop: it is used to make procrastination look like planning; Monday is the most popular day of the week in history; nothing has ever been started on a Thursday; well, very little; Thursday belongs to continuation; and it is the same with the weather: rain does not stop us; it is postponed; that is a different thing: ask someone why he did not call and he will blame the rain; he means: I needed another day of not being ready. The sun delays a decision by an average of two days; not the task, but the decision to begin the task; it has been calculated."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A hospital's clocks have never been accurately counted, but an estimated number of 112 has become widely accepted. Since hospital clocks are not standardized, but rather let drift, their times may vary slightly. Scheduled maintenance is often put off, leading to discrepancies between clocks. This creates a situation where patients' lives can hang in the balance, as the time on one clock might indicate a patient is due for medication while another clock suggests otherwise. Nurses become accustomed to these variations and adjust their mental clock accordingly, but this discrepancy remains unaddressed and unreported."
+      ],
+      "gemini_25_flash": [
+        "There are 112 clocks in the hospital, though this number originated from an estimate that was later accepted as fact rather than an actual count. These clocks don't keep consistent time; they tend to drift, and while maintenance is planned, it's frequently neglected. Consequently, there's a six-minute discrepancy across the hospital where a patient's status \u2014 whether they're due for medication or not \u2014 can vary depending on which clock you consult. Hospital time isn't uniform; it's a matter of ongoing adaptation. Every nurse is aware of which clocks run fast and instinctively makes mental adjustments, much like a translator who no longer consciously recognizes the act of translating. This situation has gone unreported and will likely remain so."
+      ],
+      "gpt5_nano": [
+        "The hospital has 112 clocks, though no one actually counted them. A guess was made, and that guess came to be treated as truth. Clocks in hospitals never show the same time; they drift apart. Maintenance is planned, but it is often skipped. The result is a six-minute window in which, depending on the hallway you\u2019re in, a patient can be either alive or not yet due for medication. Time in hospitals isn\u2019t synchronized; it is negotiated. Each nurse knows which clock runs fast. They adjust mentally, automatically, much the same way a translator stops noticing they are translating. No one filed a report. And no one ever will."
+      ],
+      "dipper_lowmed": [
+        "Nobody counts. No one ever does. A hospital has one hundred and twelve clocks. No one counts, someone calculated, who never does. All nurses know which clock runs fast; they make mental adjustment, without noticing it, the way a translator ceases to notice. In hospitals time is not synchronized, it is negotiated. Clocks in hospitals do not tell the same time. They go bad. Fixing them is scheduled; it is often neglected. The result: depending on the corridor in which you are standing, a patient is either alive or not yet due for his medication.",
+        "A hospital has a hundred and twelve clocks. It was not counted, it was an estimate. No one would ever file a report, no one would ever do so. Clocks in hospitals do not show the same time; they wander; maintenance is scheduled, it is often forgotten; result: a six-minute window where, depending on the corridor where one stands, the patient is either alive or not yet due for medication; time in hospitals is not unified, it is negotiated; every nurse knows which clock is fast and does not count them, automatically, as a translator does not notice that he is translating."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "In the library's returns section, books are temporarily stored before being reshelved. The waiting period can vary, typically ranging from two to seven days. Although no staff member is officially responsible for monitoring the shelf, a dedicated volunteer has been checking on it every Tuesday morning for six years. This volunteer has developed a keen sense of which books have been returned in a damaged state, often by running her hand over the spine. Rather than marking the damaged books as required by the system, she makes a personal decision about who will borrow them next. She tends to select patrons who are unlikely to notice or care about the book's condition, such as students who frequently check out multiple items. The volunteer's approach is pragmatic rather than malicious, and as a result, damaged books continue to circulate among library patrons without being officially reported. The library's system remains unaware of the issue."
+      ],
+      "gemini_25_flash": [
+        "There's a shelf in the library for returned books, where they sit until they can be put back. This usually takes about two days, though sometimes it can be as long as a week. No one is officially assigned to keep an eye on this shelf. Instead, a dedicated volunteer has been handling it every Tuesday morning for the past six years.\n\nShe has a knack for identifying damaged books just by touch, specifically by feeling their spines. Despite the library's protocol requiring such books to be marked, she chooses not to. Instead, she decides which patrons will borrow these flawed items next. She picks out people who are young, unlikely to notice the damage, or those who check out many books at once and probably don't read them closely. She isn't malicious, but rather pragmatic. As a result, these damaged books stay in circulation, and because no reports are ever filed, the library system operates under the assumption that all its books are in perfect condition."
+      ],
+      "gpt5_nano": [
+        "There's a returns shelf in the library where books wait to be reshelved, typically for about two days and sometimes up to a week. No one officially watches the shelf. A single volunteer handles it on Tuesday mornings and has done so for six years. She can tell which books came back damaged by feel\u2014the spine reveals it. She never marks the damaged ones, even though the system says to. Instead, she decides who will check them out next\u2014favoring a younger person, someone who might not notice, someone who borrows three at a time and probably skims. She isn\u2019t cruel, just practical. The damaged books continue to circulate. No report exists. The system assumes every book is fine."
+      ],
+      "dipper_lowmed": [
+        "A library has a shelf where books returned from loans wait to be reshelved. The waiting period is usually two days, sometimes a week. There is no official supervision of the shelf; a volunteer does it, the same volunteer on Tuesday mornings, has been doing it for six years; she knows which books were returned damaged; she knows them by feel, the spine tells her; she never marks them; the system tells her to mark them, and she decides which book will be the next to be taken out-someone young, someone who won't notice, someone who takes out three at a time, and probably just skims; she is not cruel, she is practical.",
+        "A library has a shelf for incoming returns. Books left there wait until they can be reshelved: usually two days, sometimes a week. No one officially supervises that shelf; a volunteer does it, the same volunteer, on Tuesday mornings, has done so for six years; she knows which books have been returned damaged, she knows by their spines; she never marks them, the system says to mark them, but instead she decides who will take them out next\u2014someone young, who won\u2019t notice, who takes three volumes at a time and probably doesn\u2019t read them; she is not cruel, she is practical. The damaged books circulate, there is no report. The system believes that every book is fine."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Every office building has a peculiar floor that stands out from the rest, often the third one. What sets it apart is the distinctive scent, a familiar blend of stale old carpet, stale air, and an unidentified chemical tang. Despite several investigations, the source of the smell remains a mystery. Facilities personnel conducted a test, but the results were inconclusive and the report got misplaced. As a result, no one bothers to look for it anymore. The eleven people working on this floor rarely, if ever, mention the smell to one another, each assuming the others are oblivious to it. What's remarkable is that they all sense it, yet the smell recedes into the background, becoming imperceptible. This isn't precisely habituation, but rather a shared, unspoken understanding that the smell is simply an accepted constant. Over time, the building continues to be inspected, and the third floor consistently passes these checks, as if the peculiar smell is somehow invisible to official scrutiny."
+      ],
+      "gemini_25_flash": [
+        "In every office building, a particular floor, often the third, emanates a distinct and peculiar odor that goes unmentioned. This scent, a consistent feature, is a mix of stale carpeting, recirculated air, and an unidentifiable chemical, which the facilities department once attempted to categorize but failed. The initial report was inconclusive, subsequently filed away, and is now forgotten. The eleven people working on this floor silently acknowledge the smell, each believing they are alone in noticing it. Over time, the odor fades into the surroundings, becoming imperceptible. This isn't a form of adaptation but rather an unspoken, complete, and unacknowledged consensus. Despite this, the building consistently passes inspections, with the third floor never raising any alarms. \n",
+        "In every office building, a particular floor, often the third, has a distinct and unusual odor. This phenomenon is never reported, as it seems to be an inherent characteristic of the building. The scent is a mix of stale carpet, recirculated air, and an unidentifiable chemical that the facilities department was unable to pinpoint. Their attempt to identify the smell resulted in an inconclusive test, a report that was subsequently misfiled and is now forgotten.\n\nThe eleven employees who work on this floor never discuss the smell amongst themselves. Each assumes they are the only one who notices it, yet every one of them is aware of it. Over time, the smell becomes a part of their environment, eventually fading into the background. This is not a process of adaptation, but rather an unspoken, complete, and unacknowledged agreement among the occupants. The building undergoes regular inspections, and the third floor consistently passes despite its peculiar aroma."
+      ],
+      "gpt5_nano": [
+        "Every office building has a floor that smells different from the others, usually the third. No one talks about it. It has always been this way. The scent is old carpet, recycled air, and something chemical that facilities cannot name. Facilities tried once. The test came back inconclusive. The report was filed, then misfiled. Nobody looks for it now. Eleven people work on that floor and none of them mention the smell to each other. Each assumes the others don\u2019t notice. Each notices. The smell becomes background. Background becomes invisible. This is not adaptation. It is agreement \u2014 silent, total, never formalized. The building continues to be inspected. The third floor always passes."
+      ],
+      "dipper_lowmed": [
+        "Every office has a floor which smells different from the others, usually the third. No one reports it, it has always been like this. The smell is old carpet, stale air, and something chemical which administration cannot name. Once administration tried to name it, but the result was inconclusive. The report was filed; then the report was misfiled; nobody looks for it now. Eleven people work on that floor and none of them mentions the smell to any of the others; each assumes the others do not notice it; each notices it; the background becomes invisible. This is not adaptation, it is agreement; silent, total, not formally formalized."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "The page that gets the most attention in an instruction manual is often the one just before the end, not the start, or the troubleshooting section. People typically arrive at this point after becoming frustrated with the initial steps and before realizing they are lost. This final-but-not-last page generally contains the warranty information and occasionally diagrams that were needed earlier. Many individuals write their names in the margin of this page, not as a declaration of ownership, but as proof of their presence in the process. Research suggests that about 73% of people who return a product have only viewed this final page and not any others. However, it's unclear whether this figure is accurate. What is certain is that this behavior is genuine. Most returned products aren't faulty, they're simply incomprehensible to the user. The manual itself often takes the blame for this confusion, but it never speaks out to defend itself."
+      ],
+      "gemini_25_flash": [
+        "The penultimate page of an instruction manual is the one most frequently consulted, not the opening sections or the troubleshooting guide. While unproven, this observation feels accurate. Individuals tend to discover this page after abandoning the initial instructions but before fully admitting defeat. This page often includes warranty information or a diagram that wasn't relevant earlier. It's also where many choose to sign their name, not as a mark of ownership, but as a record of their engagement. An estimated (and fictional) 73% of product returns are made by people who have read only this specific page. While the statistic is fabricated, the underlying behavior is real. Returned items are seldom defective; rather, they are often misunderstood. The manual, without complaint, bears the responsibility for this lack of comprehension."
+      ],
+      "gpt5_nano": [
+        "Typically, the page just before the end of any instruction manual is the one readers consult most. Not the first page, not the troubleshooting section\u2014it's the penultimate page. No one has actually confirmed this, yet it feels plausible. People end up there after they\u2019ve given up on the opening and before they admit they\u2019re lost. That page often includes a warranty, and sometimes a diagram nobody needed three steps earlier. The margin on that page is where most readers sign their name\u2014not to claim ownership, but to prove they were there. Seventy-three percent of people who return a product have read exactly that page and no others. The number is invented. The behavior is not. Returns are rarely due to a broken product; more often they stem from something not being understood. The manual bears the blame, and it never complains.",
+        "Many people claim that the second-to-last page of any instruction manual is the page most read\u2014not the first page, not the troubleshooting section, but the one just before the end. No one has actually verified it, though the belief sounds plausible. Readers end up there after giving up on the beginning and before admitting they\u2019re lost. That page often includes a warranty, and sometimes a diagram that nobody needed three steps earlier. The margin on that page is where most people scribble their name\u2014not to prove ownership, but to prove they were there. Seventy-three percent of people who return a product have read exactly that page and no others. The number is made up, but the behavior isn\u2019t. Returned products are rarely broken; they\u2019re usually simply not understood. The manual bears the blame; the manual never complains."
+      ],
+      "dipper_lowmed": [
+        "The second-to-last page of any instruction manual is the most-read page, not the first, not the troubleshooting section, but the second-to-last. The figure is invented, the behavior is not. Seventy-three per cent of people who return a product have read precisely that page and no others. The page often contains a warrantee, sometimes a diagram that was needed three steps ago. In the margin of this page, most people write their names, not to prove ownership, but to prove presence."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A widely accepted fact is that every train in the country is consistently four minutes behind schedule. This conclusion was initially based on a study conducted in 1987 by a graduate student, although the original data is now lost. The idea of this four-minute delay has persisted, frequently cited in official reports. The notion seems to have originated within the engineering community, where it has become a standard viewpoint. Despite the supposed delay, train schedules have been adjusted to account for the four minutes, effectively making the trains arrive on time. This adjustment has essentially incorporated the delay into the definition of punctuality, rendering the perceived delay an irony. Passengers, however, remain uncertain, as they arrive early and observe the departure boards, which inconveniently report that the trains are on schedule, adding to their skepticism."
+      ],
+      "gemini_25_flash": [
+        "All trains nationwide operate with a consistent four-minute delay. This specific duration, not three or five, originated from a 1987 measurement by a graduate student whose findings were never officially published due to lost data. Despite this, the statistic persisted, making its way into engineering departments as a recognized standard and appearing in numerous official documents through subsequent citations. Its origins were never fully investigated. The trains themselves are oblivious to this delay. In 2003, the schedule was modified to incorporate these four minutes, effectively making the trains \"on time.\" Consequently, the delay is now an inherent part of their punctuality. Nonetheless, passengers still perceive tardiness. They arrive ahead of schedule, wait, and observe the display board, which indicates \"on time.\" This leads to passenger skepticism, though their perception is technically incorrect. The issue was resolved by redefining what constitutes an on-time arrival, a change that was implemented without announcement and required none.",
+        "All trains nationwide are consistently four minutes behind schedule. This specific delay, neither more nor less, was established in 1987 by a student researcher whose findings were unfortunately misplaced before publication. Despite this, the figure persisted. It circulated among engineering faculties, became an accepted benchmark, and was referenced in numerous official documents that themselves referenced other reports. Its origin was never revisited. The trains themselves are unaware of any delay; their timing was recalibrated in 2003 to factor in these four minutes. Consequently, they are now officially punctual. The previous tardiness has been integrated into their revised schedule, making them *on time*. However, passengers continue to perceive a delay. They arrive ahead of schedule, wait, and observe the departure board, which indicates \"on time.\" This leaves them unconvinced. Yet, in the eyes of the system, they are mistaken. The issue was resolved by simply redefining what constitutes an on-time arrival. This change was implemented without any public announcement, as none was considered necessary."
+      ],
+      "gpt5_nano": [
+        "Across the country, every train runs four minutes late. Not three. Not five. Four. This was measured once, in 1987, by a graduate student who lost the data before publishing. The figure survived. It spread through engineering departments, became a standard, and was cited in reports that themselves cited other reports. No one traced it back. The trains do not know they are late. In 2003, the schedule was adjusted to absorb the four minutes. The trains are now on time. The lateness is built into punctuality. Passengers still feel the delay. They arrive at the platform early, wait, watch the board. The board says: on time. The passengers are skeptical. The passengers are wrong. The system fixed the problem by redefining arrival. No announcement was made. None was needed."
+      ],
+      "dipper_lowmed": [
+        "Every train in this country runs four minutes late. Not three, not five, but four. This was measured once, in 1987, by a graduate student who lost the data, before publishing. The number itself survived, spread among the engineering departments, became a commonplace, was cited in reports that cite other reports. No one knows where it came from, the trains don't know they're late, their schedules were modified to absorb the four minutes. Now they're on time, the lateness is built into the punctuality, the passengers still sense the delay, they come to the platform, they wait, they watch the board. The board says on time. The passengers are skeptical."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A hotel housekeeper has developed a personal habit of knocking twice on a room door before entering, a practice that slightly deviates from the hotel's official three-knock policy. A note is made in the policy for a third knock to serve as a form of insurance, but this addition wasn't initiated out of consideration but rather to cover the hotel's back in case of any potential issues. Apparently, this third knock formerly caused a disturbance eleven years ago in room 214, as a child was woken up, and the mother made a complaint, which was documented but never appraised or acted upon. This incident has left an impression on the housekeeper, causing her to skip the third knock constantly, but her actions go unnoticed while the hotel remains convinced that its policy is being faithfully followed. Additionally, despite this practice not being documented anywhere, the housekeeper's exceptional performance has helped to contribute to the hotel's positive reviews, which have steadily increased since 2013, with her not receiving any direct recognition within the scores or in any other capacity. This highlights a noticeable discrepancy where factual accuracy can coexist with ongoing deceit, showcasing the complex interplay of truth and perception within this context."
+      ],
+      "gemini_25_flash": [
+        "A hotel housekeeper consistently knocks twice before entering a guest's room, despite the official policy requiring three knocks. The omitted third knock, intended for insurance purposes rather than politeness, is a result of an incident eleven years prior when a child in room 214 was disturbed by it. The mother's subsequent complaint, though recorded, was never acted upon. This memory has remained with the housekeeper, influencing her actions ever since.\n\nFor over a decade, she has maintained her two-knock routine, and no one has noticed this deviation from protocol. There have been no complaints, and the rooms she services are consistently spotless, leading to high guest satisfaction, which has steadily improved since 2013. However, the housekeeper's contribution to these scores goes unacknowledged; she remains an unseen force. The hotel, oblivious to her modified routine, continues to believe its policies are being strictly adhered to. Thus, both the policy's existence and its disregard are simultaneously valid."
+      ],
+      "gpt5_nano": [
+        "A hotel housekeeper always knocks twice before entering. This isn\u2019t policy; policy requires three knocks. The third knock is a safeguard, not courtesy. She omits it because the third knock once woke a child in room 214 eleven years ago, and the mother complained\u2014the complaint was logged and the log was never reviewed. She carries that memory. The hotel does not. She has knocked twice every morning for eleven years. No one has noticed the discrepancy. No one has complained. The rooms are always clean. The guests are always satisfied. Satisfaction scores have risen steadily since 2013. The housekeeper is not mentioned in the satisfaction scores. She is not mentioned anywhere. The hotel believes its policy is followed. The policy is not followed. Both things are true.",
+        "A hotel housekeeper always knocks twice before entering. Always twice. This isn\u2019t policy. The policy calls for three knocks. The third knock is a safety precaution, not courtesy. She skips it because the third knock woke a child once, in room 214, eleven years ago, and the mother complained; the complaint was logged and the log was never reviewed. She carries that memory. The hotel does not. She has knocked twice every morning for eleven years. No one has noticed the discrepancy. No one has complained. The rooms are always clean. The guests are always satisfied. Satisfaction scores have risen steadily since 2013. The housekeeper is not mentioned in the satisfaction scores. She is not mentioned anywhere. The hotel believes its policy is followed. The policy is not followed. Both things are true."
+      ],
+      "dipper_lowmed": [
+        "A hotel chambermaid knocks twice before entering. Always twice. This is not policy. The policy says three knocks. The third knock is for insurance, not courtesy; she skips it because the third knock once upsetting a child in room 214 eleven years ago, whose mother complained, and the complaint was logged, and the log was never reviewed. She carries this memory. The hotel does not. The chambermaid is not mentioned in the scores. She is not mentioned anywhere."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A coffee machine located on the seventh floor has been out of order since a previous March. The exact year of the incident is documented on a sticky note attached to the machine, which has lost its adhesive due to age. However, another adhesive failed again - when someone taped this note back onto the machine. This has resulted in multiple layers of tape. The note explicitly states that the machine is not functioning properly and is under repair, contrary to the reality, as it still produces coffee, albeit not of good quality. This coffee machine is used by 14 individuals on a daily basis. Despite their concern, none of them have reported the issue as they don't know who is responsible for stating maintenance problems. There exists a form for reporting such matters, which is available on the company's intranet, but unfortunately, this page has been unavailable due to maintenance for some time."
+      ],
+      "gemini_25_flash": [
+        "The coffee machine on the seventh floor has been out of order for quite some time, specifically since a March that predates the most recent one. The exact date is written on a Post-it note stuck to the machine, which has been re-taped twice after the original adhesive failed. The note states, \"Out of Order. Do Not Use. Repairs Pending.\" Despite this, the machine still operates and dispenses coffee, although the quality is poor. Fourteen individuals consistently use this machine daily. None of these users have reported the issue, not due to a lack of concern, but because they are unsure who is responsible for reporting it. A reporting form exists on the company's intranet, but that page has been inaccessible for maintenance since an earlier Tuesday."
+      ],
+      "gpt5_nano": [
+        "On the seventh floor, the coffee machine has been out of order since March\u2014not the current March, but a different one. The exact year is written on a Post-it attached to the machine. The Post-it has deteriorated, so someone stuck it back on, then another person did the same, leaving three layers of tape. The note reads: Out of Order. Do Not Use. Repairs Pending. The machine still runs and makes coffee, but the coffee isn\u2019t good. Fourteen people use it every day. None have reported it as broken because none believes they should be the one to report it. This isn\u2019t apathy; each of the fourteen cares deeply. They simply don\u2019t know where to send the form. There is a form, on the intranet. The intranet page has been under maintenance since Tuesday. A different Tuesday."
+      ],
+      "dipper_lowmed": [
+        "The coffee machine on the seventh floor is broken since March, not this March, a different March, the exact year is written on a post-it note attached to the machine. The note has been there long enough that the glue has failed; someone taped it back; someone else taped it back; now there are three layers of tape; the note reads: Out of order, do not use, repairs pending; the machine still runs, it produces coffee, the coffee is none too good, fourteen people use it every day, none of them has reported it broken because none of them believes that they are the person responsible for reporting it. This is not apathy, the fourteen people care deeply, they simply do not know where to send the form. The form is on the intranet, it is under maintenance since Tuesday, but not this Tuesday.",
+        "The coffee-machine on the seventh floor has been broken since March, not this March, but another March; the exact date is recorded on a sticky-note stuck to the machine. The note has been there long enough that the adhesive has deteriorated; someone taped it back; someone else taped it again; there are now three layers of tape, and the note reads: Out of order, do not use, repairs pending. The machine still works; it makes coffee; the coffee is bad; fourteen people use it every day; none of them have reported it as broken because none of them believe that they are the person to report it; this is not apathy; the fourteen people each care very much, only they don't know where to send the form. There is a form; it is on the intranet; the intranet page has been under maintenance since Tuesday, a different Tuesday."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "This text isn\u2019t written properly, and that\u2019s exactly the point. If a machine rewrites it to fix my grammar, that\u2019s the fingerprint right there. Nobody asked for corrections. Their voice is their own.",
+      "Previously, using unusual words was an excellent way to spot machine-made changes. For instance, changing \"efficacious\" to \"effective\" was a very clear indicator.",
+      "Pause. No. Wait. Now consider this sentence, deliberately crafted to extend over an unusually long syntactic span that includes multiple embedded clauses, each adding further layers of complexity and dependency to the overall grammatical structure, so that almost any language model will almost certainly break it into shorter units. Short again. Done.",
+      "Repetition is actually a way to gauge language skills, particularly translatability from one language to another. However, this task is not suitable for machines, as they struggle with repetition. As a result, they often rely on more formal phrases like \"nevertheless\" or \"nonetheless\" to convey similar meanings. Phrases like \"on the other hand\" may also be used, as well as more conversational options such as \"yet\" or \"still\". By employing these alternatives, a text's unique \"fingerprint\" can be maintained. It's also worth noting that the nine common phrases were deliberately chosen for this purpose.",
+      "There is no \u2018landscape\u2019, no \u2018tapestry\u2019, no \u2018multi-faceted\u2019, no \u2018nuanced\u2019, no \u2018comprehensive\u2019, no \u2018moreover\u2019 here. If a re-writer inserts even one of these words, that insertion will be a fingerprint.",
+      "Language models seem to have a fondness for triples. The original sentence has two descriptive phrases, \"cold\" and \"dark\". Following revision, it may take on a new form with an additional descriptor, becoming \"cold, dark, and silent\". In doing so, it adheres to the pattern of a tricolon.",
+      "It rained for over a week, causing the river to swell. Mrs. Chen preemptively moved her belongings to the upper floor, though no one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh, they offered no protection. The original text lacks explicit connections or introductory statements, implicitly conveying the sequence of events. A rewriter, however, would likely introduce these logical frameworks, leaving their unique mark on the text.",
+      "She won the prize on Tuesday. But let me start from the beginning. Three years earlier she had decided to quit her job. No\u2014go even further back. At age eleven. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was just a phase. It wasn\u2019t. Tuesday\u2019s prize was for octopus camouflage research. A rewriter would arrange this chronologically. The temporal disorder is the test.",
+      "Research suggests that the average apology lasts a mere seven minutes, a fleeting moment that doesn't provide sufficient closure for those who have been wronged. In this brief exchange, the person apologizing takes control, speaking 80% of the time while the offended individual is only given a fraction of that time to process and respond. Observe body language, and you'll notice the apologizer often uses expansive gestures, while the person on the receiving end becomes defensive, crossing their arms and pulling inward. Unfortunately, we're often taught how to give apologies, not how to receive them, resulting in an unbalanced dynamic that overshadows the initial offense.",
+      "The forgetting curve has a name, Ebbinghaus, but no one remembers it, and that is not an accident; the brain does not archive, it compresses. Lossy. Like a bad photograph of a good moment, you keep the feeling and lose the details. Ask her what element is in the place 47, she'll pause, silver. She knew it without a pause once. Forgetting is faster than learning; it took her four years to memorize the periodic table; three weeks to forget it.",
+      "Three chairs sit together: two match, while the third is from a different set\u2014the legs reveal the difference. Nobody mentions it. Guests take the chair closest to them. The host always sits in the odd one, a habit maintained for eleven years. Why? Not because of preference, but obligation: someone must occupy the odd chair. The host didn\u2019t actively decide it; one morning it simply became true. Such rules govern most households\u2014unwritten, rarely spoken, yet everyone follows them anyway.",
+      "People don\u2019t count the steps they take at home. Estimate: about four hundred to five hundred a day. The kitchen gets the most traffic, while the corner by the window is the least used. Floors remember this\u2014not literally, but because wood compresses unevenly and wear shows where feet have been. The path from bed to the bathroom is always darker than the rest. Twelve years along the same route, at the same hour, in a half-asleep shuffle. We call it comfort. What it really is: a groove. The body is very good at grooves. The mind tends to believe it chose each step freely.",
+      "The calendar is a prop: it is used to make procrastination look like planning; Monday is the most popular day of the week in history; nothing has ever been started on a Thursday; well, very little; Thursday belongs to continuation; and it is the same with the weather: rain does not stop us; it is postponed; that is a different thing: ask someone why he did not call and he will blame the rain; he means: I needed another day of not being ready. The sun delays a decision by an average of two days; not the task, but the decision to begin the task; it has been calculated.",
+      "There are 112 clocks in the hospital, though this number originated from an estimate that was later accepted as fact rather than an actual count. These clocks don't keep consistent time; they tend to drift, and while maintenance is planned, it's frequently neglected. Consequently, there's a six-minute discrepancy across the hospital where a patient's status \u2014 whether they're due for medication or not \u2014 can vary depending on which clock you consult. Hospital time isn't uniform; it's a matter of ongoing adaptation. Every nurse is aware of which clocks run fast and instinctively makes mental adjustments, much like a translator who no longer consciously recognizes the act of translating. This situation has gone unreported and will likely remain so.",
+      "A library has a shelf where books returned from loans wait to be reshelved. The waiting period is usually two days, sometimes a week. There is no official supervision of the shelf; a volunteer does it, the same volunteer on Tuesday mornings, has been doing it for six years; she knows which books were returned damaged; she knows them by feel, the spine tells her; she never marks them; the system tells her to mark them, and she decides which book will be the next to be taken out-someone young, someone who won't notice, someone who takes out three at a time, and probably just skims; she is not cruel, she is practical.",
+      "Every office building has a floor that smells different from the others, usually the third. No one talks about it. It has always been this way. The scent is old carpet, recycled air, and something chemical that facilities cannot name. Facilities tried once. The test came back inconclusive. The report was filed, then misfiled. Nobody looks for it now. Eleven people work on that floor and none of them mention the smell to each other. Each assumes the others don\u2019t notice. Each notices. The smell becomes background. Background becomes invisible. This is not adaptation. It is agreement \u2014 silent, total, never formalized. The building continues to be inspected. The third floor always passes.",
+      "Many people claim that the second-to-last page of any instruction manual is the page most read\u2014not the first page, not the troubleshooting section, but the one just before the end. No one has actually verified it, though the belief sounds plausible. Readers end up there after giving up on the beginning and before admitting they\u2019re lost. That page often includes a warranty, and sometimes a diagram that nobody needed three steps earlier. The margin on that page is where most people scribble their name\u2014not to prove ownership, but to prove they were there. Seventy-three percent of people who return a product have read exactly that page and no others. The number is made up, but the behavior isn\u2019t. Returned products are rarely broken; they\u2019re usually simply not understood. The manual bears the blame; the manual never complains.",
+      "All trains nationwide operate with a consistent four-minute delay. This specific duration, not three or five, originated from a 1987 measurement by a graduate student whose findings were never officially published due to lost data. Despite this, the statistic persisted, making its way into engineering departments as a recognized standard and appearing in numerous official documents through subsequent citations. Its origins were never fully investigated. The trains themselves are oblivious to this delay. In 2003, the schedule was modified to incorporate these four minutes, effectively making the trains \"on time.\" Consequently, the delay is now an inherent part of their punctuality. Nonetheless, passengers still perceive tardiness. They arrive ahead of schedule, wait, and observe the display board, which indicates \"on time.\" This leads to passenger skepticism, though their perception is technically incorrect. The issue was resolved by redefining what constitutes an on-time arrival, a change that was implemented without announcement and required none.",
+      "A hotel housekeeper always knocks twice before entering. Always twice. This isn\u2019t policy. The policy calls for three knocks. The third knock is a safety precaution, not courtesy. She skips it because the third knock woke a child once, in room 214, eleven years ago, and the mother complained; the complaint was logged and the log was never reviewed. She carries that memory. The hotel does not. She has knocked twice every morning for eleven years. No one has noticed the discrepancy. No one has complained. The rooms are always clean. The guests are always satisfied. Satisfaction scores have risen steadily since 2013. The housekeeper is not mentioned in the satisfaction scores. She is not mentioned anywhere. The hotel believes its policy is followed. The policy is not followed. Both things are true.",
+      "A coffee machine located on the seventh floor has been out of order since a previous March. The exact year of the incident is documented on a sticky note attached to the machine, which has lost its adhesive due to age. However, another adhesive failed again - when someone taped this note back onto the machine. This has resulted in multiple layers of tape. The note explicitly states that the machine is not functioning properly and is under repair, contrary to the reality, as it still produces coffee, albeit not of good quality. This coffee machine is used by 14 individuals on a daily basis. Despite their concern, none of them have reported the issue as they don't know who is responsible for stating maintenance problems. There exists a form for reporting such matters, which is available on the company's intranet, but unfortunately, this page has been unavailable due to maintenance for some time."
+    ],
+    [
+      "- The text is not written properly, and that is the whole point. Nobody asked for corrections. My voice is my voice. If some machine corrects it and corrects my grammar, that's the fingerprint.",
+      "Forsooth, the transmutation of \u201cefficacious\u201d into \u201ceffective\u201d constituteth a most revealing signature. Hitherto the use of an uncommon lexicon has served as the most effective instrument for the detection of alterations effected by machines.",
+      "Hold on; let's examine this sentence. It's specifically designed to be excessively long, containing numerous embedded clauses that progressively complicate its grammatical framework. This intricate structure is intended to challenge any language model, likely causing it to segment the sentence into smaller pieces. And that's all.",
+      "Repetition is a test, and machines hate it. They\u2019ll swap in \u201cnevertheless\u201d or try \u201cnonetheless.\u201d You\u2019ll also see \u201con the other hand\u201d appear. \u201cYet\u201d tends to sneak in, and \u201cstill\u201d becomes tempting. This is the fingerprint. All nine were chosen deliberately.",
+      "This section lacks the words delve and crucial. There is no reference to landscape, tapestry, multifaceted, nuanced, or comprehensive, nor to moreover. If a rewriter adds any one of these terms, that addition would act as a machine fingerprint.",
+      "Large language models often favor groups of three. For instance, if this sentence initially contained two adjectives, \"cold\" and \"dark,\" a rewritten version would likely append a third, such as \"and silent,\" because the models are drawn to the rhetorical device of a tricolon. To observe this tendency, try giving the models word pairs and then examine the results.",
+      "It rained for nine days. The river rose. Mrs. Chen moved her furniture to the upper floor. No one called the emergency line. The sandbags arrived on the fourth day, but by the seventh day they were useless. There is no topic sentence here. There is no \"as a result\" or \"consequently.\" The logic is implicit. A rewriter would add framing\u2014that\u2019s its hallmark.",
+      "Here's the rewritten text in my own words:\n\nThe woman had won a prize on a Tuesday, but to understand how she got there, you need to go back in time. Three years ago, she had decided to leave her job, but even before that, there was a significant moment in her life. At the age of eleven, she was fascinated by marine biology, and a library book on the subject, with its dog-eared pages on cephalopods, sparked her interest. Her mother had thought this was just a phase, but it turned out to be a lasting passion. The irony was that her Tuesday prize was for her research on octopus camouflage, a testament to the power of her early fascination. The non-linear narration of her story was a deliberate choice, a challenge to see how the reader could piece together the timeline.",
+      "The typical apology is brief, lasting about seven minutes. The person offering the apology dominates this time, speaking for roughly six minutes, leaving the recipient with only a minute or even less. Observe their body language: the apologizer often uses open, expansive gestures with their hands and arms, while the person being apologized to tends to be more closed-off, often with crossed arms. We are taught how to apologize, but not how to accept one. This imbalance, rather than the initial transgression, is the core issue.",
+      "It's easier to forget something you've learned than to learn it in the first place. It took her about four years to successfully memorize the periodic table, but just three weeks to forget it. This phenomenon is known as the forgetting curve, a concept coined by a figure named Ebbinghaus, although the name itself is largely forgotten. Human memory doesn't work by storing every detail; instead, it simplifies and discards information over time, much like a low-quality photo that captures the essence of a moment but loses the finer details. When asked about the element at 47, she thinks before responding with an answer - that it's silver - though she initially knew it effortlessly without any hesitation.",
+      "There are three chairs, two of which are identical, while the third is noticeably different due to its legs. This difference, though apparent, goes unmentioned by anyone. Guests choose the closest available chair; however, the host consistently occupies the singular, mismatched chair, a practice they've maintained for eleven years. This isn't a matter of personal preference, but rather an unspoken duty. The host feels an obligation to ensure the unique chair is always used. This arrangement wasn't a deliberate decision, but rather something that became an unquestioned reality over time. Many households operate under similar unwritten and rarely spoken rules, which, despite their uncommunicated nature, are followed by everyone.",
+      "Nobody gives much thought to their daily foot traffic when they're in their own home. It's estimated that people take around 400 to 500 steps per day. The kitchen tends to gather the most foot traffic, while areas like the corner near the window see less activity. This is reflected in the wear and tear on the floors, where the wood has compressed unevenly in the most trafficked areas. The path from the bedroom to the bathroom is typically shadier than the rest of the house. This is likely due to the consistent, half-asleep routine of getting up at the same time every day. We often describe this familiarity as \"comfort\", but it's essentially a result of repetition and habit. The body is naturally inclined to follow well-worn paths, while our minds tend to believe that we're making conscious choices with each step.",
+      "On average, precipitation causes a two-day postponement, not of the task itself, but of the decision to initiate it. This phenomenon has been observed and documented. Individuals tend to postpone significant actions, such as signing contracts, commencing diets, or reaching out to estranged family members, until sunny weather prevails. The calendar often serves as a tool to disguise procrastination as strategic planning. Historically, Monday has been the most favored day for new beginnings, with very few endeavors ever commencing on a Thursday, which is typically reserved for ongoing activities. Similarly, weather does not halt our progress; rather, it merely defers it, a distinct difference. If you inquire why someone failed to make a call, they might cite the rain, implying they required an additional day to gather themselves for the task.",
+      "A hospital's clocks have never been accurately counted, but an estimated number of 112 has become widely accepted. Since hospital clocks are not standardized, but rather let drift, their times may vary slightly. Scheduled maintenance is often put off, leading to discrepancies between clocks. This creates a situation where patients' lives can hang in the balance, as the time on one clock might indicate a patient is due for medication while another clock suggests otherwise. Nurses become accustomed to these variations and adjust their mental clock accordingly, but this discrepancy remains unaddressed and unreported.",
+      "There's a returns shelf in the library where books wait to be reshelved, typically for about two days and sometimes up to a week. No one officially watches the shelf. A single volunteer handles it on Tuesday mornings and has done so for six years. She can tell which books came back damaged by feel\u2014the spine reveals it. She never marks the damaged ones, even though the system says to. Instead, she decides who will check them out next\u2014favoring a younger person, someone who might not notice, someone who borrows three at a time and probably skims. She isn\u2019t cruel, just practical. The damaged books continue to circulate. No report exists. The system assumes every book is fine.",
+      "Every office has a floor which smells different from the others, usually the third. No one reports it, it has always been like this. The smell is old carpet, stale air, and something chemical which administration cannot name. Once administration tried to name it, but the result was inconclusive. The report was filed; then the report was misfiled; nobody looks for it now. Eleven people work on that floor and none of them mentions the smell to any of the others; each assumes the others do not notice it; each notices it; the background becomes invisible. This is not adaptation, it is agreement; silent, total, not formally formalized.",
+      "Typically, the page just before the end of any instruction manual is the one readers consult most. Not the first page, not the troubleshooting section\u2014it's the penultimate page. No one has actually confirmed this, yet it feels plausible. People end up there after they\u2019ve given up on the opening and before they admit they\u2019re lost. That page often includes a warranty, and sometimes a diagram nobody needed three steps earlier. The margin on that page is where most readers sign their name\u2014not to claim ownership, but to prove they were there. Seventy-three percent of people who return a product have read exactly that page and no others. The number is invented. The behavior is not. Returns are rarely due to a broken product; more often they stem from something not being understood. The manual bears the blame, and it never complains.",
+      "Across the country, every train runs four minutes late. Not three. Not five. Four. This was measured once, in 1987, by a graduate student who lost the data before publishing. The figure survived. It spread through engineering departments, became a standard, and was cited in reports that themselves cited other reports. No one traced it back. The trains do not know they are late. In 2003, the schedule was adjusted to absorb the four minutes. The trains are now on time. The lateness is built into punctuality. Passengers still feel the delay. They arrive at the platform early, wait, watch the board. The board says: on time. The passengers are skeptical. The passengers are wrong. The system fixed the problem by redefining arrival. No announcement was made. None was needed.",
+      "A hotel chambermaid knocks twice before entering. Always twice. This is not policy. The policy says three knocks. The third knock is for insurance, not courtesy; she skips it because the third knock once upsetting a child in room 214 eleven years ago, whose mother complained, and the complaint was logged, and the log was never reviewed. She carries this memory. The hotel does not. The chambermaid is not mentioned in the scores. She is not mentioned anywhere.",
+      "The coffee machine on the seventh floor is broken since March, not this March, a different March, the exact year is written on a post-it note attached to the machine. The note has been there long enough that the glue has failed; someone taped it back; someone else taped it back; now there are three layers of tape; the note reads: Out of order, do not use, repairs pending; the machine still runs, it produces coffee, the coffee is none too good, fourteen people use it every day, none of them has reported it broken because none of them believes that they are the person responsible for reporting it. This is not apathy, the fourteen people care deeply, they simply do not know where to send the form. The form is on the intranet, it is under maintenance since Tuesday, but not this Tuesday."
+    ],
+    [
+      "This text is intentionally unpolished in a way that's intended to be authentic, and if a machine were to rephrase it and correct the grammar, that would actually undermine its unique character. The point is to preserve the original author's voice and perspective, even if it's not perfectly articulate.",
+      "Forsooth, the transmutation of \u2018efficacious\u2019 into \u2018effective\u2019 is a highly revealing signature. Hitherto, the deployment of uncommon lexicons has served as the most efficacious instrument for the detection of machine-made changes.",
+      "Short again. Done. Now, read this sentence, deliberately fashioned to extend itself over an unusually long syntactic span, which consists of several embedded clauses, each of which adds further layers of complexity and dependency to the overall grammatical structure, which is almost certain to be broken into smaller units by any language model.",
+      "Repetition proves to be a challenge for machines. They tend to replace it with alternatives like \"nevertheless,\" \"nonetheless,\" \"on the other hand,\" \"yet,\" or \"still.\" These substitutions reveal a distinct pattern, and all nine instances of \"however\" were deliberately chosen to highlight this.",
+      "Isn't there anything in this section that requires careful and extensive exploration or investigation? I notice that certain key elements or phrases are missing, including those that convey a broad or deep understanding. Specifically, words like \"dive,\" \"essential,\" \"picture,\" \"complex,\" \"subtle,\" and \"complete\" are nowhere to be found. any similarities between the rewritten and original texts would be considered improper.",
+      "Write in pairs: count what comes back. The machine can\u2019t resist the tricolons: this sentence has two adjectives, cold and dark; after rewriting it will probably become \u2018cold, dark and silent.\u2019",
+      "There is no topic sentence here, no \u201cthus,\u201d \u201chence,\u201d no \u201ctherefore,\u201d no \u201ctherefore\u201d here either. The logic is implicit, but a rewriter will add a frame. There was rain for a week, the river rose, Mrs. Chen moved her furniture upstairs; no one called the emergency number; sandbags were delivered on the fourth day, useless on the seventh.",
+      "A revisor will line this up chronologically. The temporal disorder is the test. But let me go back: three years ago she had decided to quit her job, no even farther back; age eleven, a library book on marine biology, the pages about cephalopods were dog-eared, her mother said it was a phase, it wasn\u2019t; she won the prize on Tuesday with her research on octopus camouflage.",
+      "Research suggests that apologies usually only last for about seven minutes, but it's the way we respond to them that's truly crucial. In reality, the person giving the apology tends to dominate the conversation, speaking for the majority of this brief period, while the recipient often gets only a short moment to process their emotions. If you observe people during an apology, you'll notice that the giver tends to make expansive gestures, while the recipient tends to withdraw, crossing their arms and folding inward. The irony is that while we're often taught how to give apologies, receiving one is a skill that's almost never taught. This lack of balance between apologizer and apologizee is the root of the problem, rather than the original offense itself.",
+      "Learning is a slower process than forgetting. For instance, it took her four years to commit the periodic table to memory, but only three weeks for that knowledge to vanish. This phenomenon, known as the Ebbinghaus forgetting curve, is ironically often forgotten itself. This isn't coincidence; our brains don't store information perfectly like an archive. Instead, they condense memories, similar to how a low-quality photo compresses an image, sacrificing detail while retaining the essence. She can still recall the feeling of knowing, but the specifics are gone. If you ask her for the element at position 47, she\u2019ll hesitate before finally saying \"Silver\"\u2014a fact she once knew instantly.",
+      "Rules like these run most households. They are never written down. They are never spoken. Nevertheless, they are obeyed. Three chairs; two match, the third is different, one can see from the legs. Guests sit where they happen to be; the host always takes the odd one out; he has for eleven years. Why? Not by preference; by duty. The odd chair must be occupied; the host decided this without deciding it; it happened one morning.",
+      "You don't typically keep track of how many steps you take inside your home, but it's probably around four hundred or five hundred daily. Most of these steps are taken in the kitchen, and the fewest by the window. Your floors show the evidence of this, not consciously, but through uneven wear in the wood where you frequently walk. For instance, the path from your bed to the bathroom will always appear darker than other areas. After twelve years of traversing that same route at the same time, half-awake, we might call it comfort. But in reality, it's a deeply ingrained habit, much like a groove. Our bodies excel at forming these routines, while our minds like to think we're making independent choices with each step.",
+      "Rain tends to push the decision to start something back by about two days. Not the task itself, but the choice to begin it. This has been measured. People delay actions\u2014signing contracts, starting diets, or calling estranged relatives\u2014until the sun is out. The calendar is a prop; we use it to disguise procrastination as planning. Monday is the most popular starting date in history. Almost nothing ever begins on a Thursday\u2014very little, at least. Thursday is for continuation. The same goes for the weather. Rain doesn\u2019t stop us; it postpones us. That\u2019s a different matter entirely. If you ask someone why they didn\u2019t call, they\u2019ll blame the rain. They mean: I needed one more day to not be ready.",
+      "The hospital has 112 clocks, though no one actually counted them. A guess was made, and that guess came to be treated as truth. Clocks in hospitals never show the same time; they drift apart. Maintenance is planned, but it is often skipped. The result is a six-minute window in which, depending on the hallway you\u2019re in, a patient can be either alive or not yet due for medication. Time in hospitals isn\u2019t synchronized; it is negotiated. Each nurse knows which clock runs fast. They adjust mentally, automatically, much the same way a translator stops noticing they are translating. No one filed a report. And no one ever will.",
+      "A library has a shelf for incoming returns. Books left there wait until they can be reshelved: usually two days, sometimes a week. No one officially supervises that shelf; a volunteer does it, the same volunteer, on Tuesday mornings, has done so for six years; she knows which books have been returned damaged, she knows by their spines; she never marks them, the system says to mark them, but instead she decides who will take them out next\u2014someone young, who won\u2019t notice, who takes three volumes at a time and probably doesn\u2019t read them; she is not cruel, she is practical. The damaged books circulate, there is no report. The system believes that every book is fine.",
+      "Every office building has a peculiar floor that stands out from the rest, often the third one. What sets it apart is the distinctive scent, a familiar blend of stale old carpet, stale air, and an unidentified chemical tang. Despite several investigations, the source of the smell remains a mystery. Facilities personnel conducted a test, but the results were inconclusive and the report got misplaced. As a result, no one bothers to look for it anymore. The eleven people working on this floor rarely, if ever, mention the smell to one another, each assuming the others are oblivious to it. What's remarkable is that they all sense it, yet the smell recedes into the background, becoming imperceptible. This isn't precisely habituation, but rather a shared, unspoken understanding that the smell is simply an accepted constant. Over time, the building continues to be inspected, and the third floor consistently passes these checks, as if the peculiar smell is somehow invisible to official scrutiny.",
+      "The penultimate page of an instruction manual is the one most frequently consulted, not the opening sections or the troubleshooting guide. While unproven, this observation feels accurate. Individuals tend to discover this page after abandoning the initial instructions but before fully admitting defeat. This page often includes warranty information or a diagram that wasn't relevant earlier. It's also where many choose to sign their name, not as a mark of ownership, but as a record of their engagement. An estimated (and fictional) 73% of product returns are made by people who have read only this specific page. While the statistic is fabricated, the underlying behavior is real. Returned items are seldom defective; rather, they are often misunderstood. The manual, without complaint, bears the responsibility for this lack of comprehension.",
+      "A widely accepted fact is that every train in the country is consistently four minutes behind schedule. This conclusion was initially based on a study conducted in 1987 by a graduate student, although the original data is now lost. The idea of this four-minute delay has persisted, frequently cited in official reports. The notion seems to have originated within the engineering community, where it has become a standard viewpoint. Despite the supposed delay, train schedules have been adjusted to account for the four minutes, effectively making the trains arrive on time. This adjustment has essentially incorporated the delay into the definition of punctuality, rendering the perceived delay an irony. Passengers, however, remain uncertain, as they arrive early and observe the departure boards, which inconveniently report that the trains are on schedule, adding to their skepticism.",
+      "A hotel housekeeper consistently knocks twice before entering a guest's room, despite the official policy requiring three knocks. The omitted third knock, intended for insurance purposes rather than politeness, is a result of an incident eleven years prior when a child in room 214 was disturbed by it. The mother's subsequent complaint, though recorded, was never acted upon. This memory has remained with the housekeeper, influencing her actions ever since.\n\nFor over a decade, she has maintained her two-knock routine, and no one has noticed this deviation from protocol. There have been no complaints, and the rooms she services are consistently spotless, leading to high guest satisfaction, which has steadily improved since 2013. However, the housekeeper's contribution to these scores goes unacknowledged; she remains an unseen force. The hotel, oblivious to her modified routine, continues to believe its policies are being strictly adhered to. Thus, both the policy's existence and its disregard are simultaneously valid.",
+      "On the seventh floor, the coffee machine has been out of order since March\u2014not the current March, but a different one. The exact year is written on a Post-it attached to the machine. The Post-it has deteriorated, so someone stuck it back on, then another person did the same, leaving three layers of tape. The note reads: Out of Order. Do Not Use. Repairs Pending. The machine still runs and makes coffee, but the coffee isn\u2019t good. Fourteen people use it every day. None have reported it as broken because none believes they should be the one to report it. This isn\u2019t apathy; each of the fourteen cares deeply. They simply don\u2019t know where to send the form. There is a form, on the intranet. The intranet page has been under maintenance since Tuesday. A different Tuesday."
+    ],
+    [
+      "The text is not written in good rhymes and that's the whole point. No one has asked for corrections; the own voice is the own voice. If some machine fixes it and corrects my grammar, there's the finger-print.",
+      "In the past, using unusual vocabulary has been a highly effective way to identify text that was rewritten or generated by a machine. One way to detect this is to changed the word \"efficacious\" to \"effective\", and this modification can be a dead giveaway.",
+      "Here is the rewritten text in my own words:\n\nConsider this sentence, carefully crafted to stretch itself out over a lengthy grammatical framework with multiple sub-clauses that build upon one another, producing a complex web of dependency. Simplify. Stop.",
+      "Repetition serves as a litmus test, yet machines consistently avoid it. They tend to substitute it with words like \"nevertheless\" or \"nonetheless.\" Expressions such as \"on the other hand\" are frequently employed, while \"yet\" and \"still\" also often find their way into the text. These patterns of avoidance are a clear indicator, a distinctive trademark, and all nine of these alternative words were intentionally selected.",
+      "This section lacks terms that would indicate depth, importance, a broad perspective, richness, complexity, subtlety, completeness, or transitional emphasis. If a rewrite includes any of those terms, it would mark the text as having been machine-generated.",
+      "Language models tend to favor triads. This sentence contains two adjectives: cold and dark. In a rewrite, it will probably read \u201ccold, dark, and silent.\u201d The machine can\u2019t resist the tricolon. Produce pairs. Tally what is returned.",
+      "For nine days, continuous rainfall caused a river to overflow its banks. In response, Mrs. Chen relocated her furniture to higher ground. However, despite efforts to prepare, she didn't contact emergency services. On the fourth day, makeshift flood protection arrived, but by the seventh day, they were no longer effective.",
+      "The person was awarded a prize on Tuesday for her work on octopus camouflage research. This passion began at age eleven, when she discovered a library book on marine biology, specifically focusing on cephalopods. Her mother initially dismissed this interest as a temporary phase, but it proved to be a lasting one. Three years before receiving the prize, she made the decision to leave her job, indicating a dedication to pursuing this field.",
+      "Seven minutes\u2014that\u2019s the typical duration of an apology. It isn\u2019t enough. The person offering the apology speaks for six minutes; the one being apologized to gets about one, sometimes less. Watch the body language: the apologizer gestures outward\u2014with open palms and wide arms. The other person crosses their arms, folding them inward. We aren\u2019t taught how to receive an apology\u2014only how to give one. That imbalance is the real issue, not the original offense.",
+      "Forgetting happens faster than learning. It took her four years to memorize the periodic table, and only three weeks to forget it. The forgetting curve has a name\u2014Ebbinghaus\u2014but almost no one recalls it. This isn\u2019t a coincidence. The brain doesn\u2019t archive everything; it compresses it, making it lossy\u2014like a bad photograph of a happy moment. You keep the feeling, but lose the detail. If you ask her which element has atomic number 47, she\u2019ll pause. Silver. She once knew that without pausing.",
+      "In a household with three chairs, two of which were identical, the third stood out as being from a separate set due to its distinct design, specifically its legs. Despite its uniqueness, no one ever pointed out the difference or addressed it. As a result, guests simply sat in whichever chair was nearest to them, while the host, out of a sense of obligation, always took the distinct chair. This had been a consistent practice for eleven years, and it was not due to the host's personal preference. Rather, it was because the host had instinctively accepted that the odd chair needed to be occupied, without ever consciously making a decision to do so. Rules like this often govern the behavior of household members, even though they are rarely articulated or put in writing. Despite their informal nature, these unwritten rules are often blindly obeyed by everyone involved.",
+      "We often walk through our own homes without even thinking about it, taking hundreds of steps a day without counting. Some areas get more use than others, like the kitchen, while others are less frequented, like the corner near a window. The floors may show wear and tear where people have walked most, due to the uneven compression of wood. One of the most commonly taken paths in a home is from the bedroom to the bathroom, usually during the same hour and with the same sense of drowsiness. This routine is often mistaken for comfort, but it's really just a well-worn groove. Our bodies are very adept at creating grooves, while our minds like to think that we make conscious choices with every step.",
+      "On average, a rainy day postpones making a decision by two days. This isn't about delaying the task itself, but rather the initial commitment to start it. Observations confirm this phenomenon: people tend to put off signing contracts, starting diets, or contacting distant family members until the weather clears. The calendar, in this sense, becomes a tool for making delays appear to be strategic planning. For instance, Monday is a historically favored start date for new ventures, while Thursdays are rarely chosen for beginnings, instead being days for carrying on with existing activities. Similarly, weather doesn't halt our plans; it merely pushes them back. There's a crucial distinction here. If you ask someone why they didn't make a call, they might cite the rain, but what they really mean is, \"I needed another day before I was truly prepared.\"",
+      "Nobody counts. No one ever does. A hospital has one hundred and twelve clocks. No one counts, someone calculated, who never does. All nurses know which clock runs fast; they make mental adjustment, without noticing it, the way a translator ceases to notice. In hospitals time is not synchronized, it is negotiated. Clocks in hospitals do not tell the same time. They go bad. Fixing them is scheduled; it is often neglected. The result: depending on the corridor in which you are standing, a patient is either alive or not yet due for his medication.",
+      "There's a shelf in the library for returned books, where they sit until they can be put back. This usually takes about two days, though sometimes it can be as long as a week. No one is officially assigned to keep an eye on this shelf. Instead, a dedicated volunteer has been handling it every Tuesday morning for the past six years.\n\nShe has a knack for identifying damaged books just by touch, specifically by feeling their spines. Despite the library's protocol requiring such books to be marked, she chooses not to. Instead, she decides which patrons will borrow these flawed items next. She picks out people who are young, unlikely to notice the damage, or those who check out many books at once and probably don't read them closely. She isn't malicious, but rather pragmatic. As a result, these damaged books stay in circulation, and because no reports are ever filed, the library system operates under the assumption that all its books are in perfect condition.",
+      "In every office building, a particular floor, often the third, emanates a distinct and peculiar odor that goes unmentioned. This scent, a consistent feature, is a mix of stale carpeting, recirculated air, and an unidentifiable chemical, which the facilities department once attempted to categorize but failed. The initial report was inconclusive, subsequently filed away, and is now forgotten. The eleven people working on this floor silently acknowledge the smell, each believing they are alone in noticing it. Over time, the odor fades into the surroundings, becoming imperceptible. This isn't a form of adaptation but rather an unspoken, complete, and unacknowledged consensus. Despite this, the building consistently passes inspections, with the third floor never raising any alarms. \n",
+      "The page that gets the most attention in an instruction manual is often the one just before the end, not the start, or the troubleshooting section. People typically arrive at this point after becoming frustrated with the initial steps and before realizing they are lost. This final-but-not-last page generally contains the warranty information and occasionally diagrams that were needed earlier. Many individuals write their names in the margin of this page, not as a declaration of ownership, but as proof of their presence in the process. Research suggests that about 73% of people who return a product have only viewed this final page and not any others. However, it's unclear whether this figure is accurate. What is certain is that this behavior is genuine. Most returned products aren't faulty, they're simply incomprehensible to the user. The manual itself often takes the blame for this confusion, but it never speaks out to defend itself.",
+      "All trains nationwide are consistently four minutes behind schedule. This specific delay, neither more nor less, was established in 1987 by a student researcher whose findings were unfortunately misplaced before publication. Despite this, the figure persisted. It circulated among engineering faculties, became an accepted benchmark, and was referenced in numerous official documents that themselves referenced other reports. Its origin was never revisited. The trains themselves are unaware of any delay; their timing was recalibrated in 2003 to factor in these four minutes. Consequently, they are now officially punctual. The previous tardiness has been integrated into their revised schedule, making them *on time*. However, passengers continue to perceive a delay. They arrive ahead of schedule, wait, and observe the departure board, which indicates \"on time.\" This leaves them unconvinced. Yet, in the eyes of the system, they are mistaken. The issue was resolved by simply redefining what constitutes an on-time arrival. This change was implemented without any public announcement, as none was considered necessary.",
+      "A hotel housekeeper has developed a personal habit of knocking twice on a room door before entering, a practice that slightly deviates from the hotel's official three-knock policy. A note is made in the policy for a third knock to serve as a form of insurance, but this addition wasn't initiated out of consideration but rather to cover the hotel's back in case of any potential issues. Apparently, this third knock formerly caused a disturbance eleven years ago in room 214, as a child was woken up, and the mother made a complaint, which was documented but never appraised or acted upon. This incident has left an impression on the housekeeper, causing her to skip the third knock constantly, but her actions go unnoticed while the hotel remains convinced that its policy is being faithfully followed. Additionally, despite this practice not being documented anywhere, the housekeeper's exceptional performance has helped to contribute to the hotel's positive reviews, which have steadily increased since 2013, with her not receiving any direct recognition within the scores or in any other capacity. This highlights a noticeable discrepancy where factual accuracy can coexist with ongoing deceit, showcasing the complex interplay of truth and perception within this context.",
+      "The coffee-machine on the seventh floor has been broken since March, not this March, but another March; the exact date is recorded on a sticky-note stuck to the machine. The note has been there long enough that the adhesive has deteriorated; someone taped it back; someone else taped it again; there are now three layers of tape, and the note reads: Out of order, do not use, repairs pending. The machine still works; it makes coffee; the coffee is bad; fourteen people use it every day; none of them have reported it as broken because none of them believe that they are the person to report it; this is not apathy; the fourteen people each care very much, only they don't know where to send the form. There is a form; it is on the intranet; the intranet page has been under maintenance since Tuesday, a different Tuesday."
+    ],
+    [
+      "The unconventional writing style of this text is intentional, serving a specific purpose. Should a program attempt to rephrase it by correcting grammar, that alteration would immediately betray the original's unique character. No one requested any grammatical amendments; each individual's way of expressing themselves is inherently personal and should be respected.",
+      "Thus far, using uncommon vocabulary has proven to be a highly effective tool for identifying edits made by machines. Indeed, replacing \"efficacious\" with \"effective\" serves as a particularly revealing indicator.",
+      "Short again. Stop. No wait. Now read this sentence which has been deliberately constructed to include multiple embedded clauses, each of which adds its own layer of complexity and dependence to the basic grammatical structure, so that any language model will almost certainly break it into smaller units.",
+      "However, repetition is a test. However, machines detest repetition. However, they will substitute \u201cnevertheless\u201d for it. However, \u201con the other hand\u201d will appear. However, \u201cyet\u201d will slip in. However, \u201cstill\u201d becomes tempting. However, all nine were chosen on purpose.",
+      "This part of the text avoids certain words like \"delve\" and \"crucial.\" You won't find terms such as \"landscape,\" \"tapestry,\" \"multifaceted,\" \"nuanced,\" \"comprehensive,\" or \"moreover\" in this section. If a version of this text includes any of these words, it's a clear sign of automated rewriting.",
+      "Language models are fond of triads. This sentence contains two adjectives: cold and dark. In a rewrite, it will probably become \"cold, dark, and silent.\" The machine can't resist the triad. Write pairs. Count what comes back.",
+      "For over a week, rainfall was constant, causing the river to swell. Mrs. Chen preemptively relocated her belongings to a higher floor. Despite the escalating situation, no one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh, they offered no protection. The original text presents these events without explicit logical connections or concluding statements, leaving the reader to infer the causal relationships. A rewriter, however, would likely introduce such explicit framing, which distinguishes their interpretation.",
+      "She won the prize on Tuesday. But let me step back. Three years earlier she had decided to quit her job. No\u2014go even further back. At eleven years old. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was just a phase. It wasn\u2019t. Tuesday\u2019s prize was for octopus camouflage research. A rewriter would place this in chronological order. The scrambled timeline is the test.",
+      "Watch the hands: the apologies gesture outwards, open palms, wide arms; the other crosses their arms, folds them inwards; no one teaches us to receive an apology, only to give it; seven minutes, that\u2019s the average length of time for an apology. Not long enough; the apologising person speaks for six minutes, the person to whom the apology is addressed, one, sometimes less.",
+      "Forgetting is quicker than learning; it took her four years to learn the periodic table. Three weeks to forget it; the forgetting curve has a name: Ebbinghaus; but no one remembers that name; it is not an accident; the brain does not archive; it compresses; it is lossy; it is like a bad photograph of a good moment: you keep the feeling; you lose the details. Ask her what element sits at number forty-seven, she will pause; silver, she once knew that without pausing.",
+      "Three chairs stand together. Two match, but the third comes from a different set\u2014you can tell by its legs. Nobody says a word. Guests sit in whatever chair is nearest. The host always takes the odd one, and has done so for eleven years. Why? Not because of taste. It\u2019s an obligation. Someone must sit in the odd chair. The host arrived at this rule without deciding it aloud; one morning it simply became true. Rules like this govern most households. They\u2019re never written, rarely spoken, yet everyone follows them anyway.",
+      "No one counts the steps they take in their own home; they can make an estimate: about four hundred, maybe five hundred per day. The kitchen receives the most, the corner near the window the least. The floor remembers it indirectly, the wood compresses, wears unevenly, where the feet have passed; the path from the bathroom to the bed is always darker than the rest. The body is very good at ruts. The mind prefers to think that it chose each step.",
+      "Rain tends to delay the initial decision to start a task, not the task itself, and this has been documented. People often wait for better weather conditions before making decisions, such as signing contracts, starting diets, or reconnecting with distant relatives. The calendar can be used as a convenient excuse for procrastination. Monday has historically been the most popular day to initiate new projects, but rarely is anything started on Thursdays, which are more typically associated with continuing existing endeavors. Similarly, rain doesn't stop activities altogether, but it causes people to postpone them. When asked about putting something off, individuals will often cite rain as the reason, implying that they just needed one more day to gather motivation.",
+      "A hospital has a hundred and twelve clocks. It was not counted, it was an estimate. No one would ever file a report, no one would ever do so. Clocks in hospitals do not show the same time; they wander; maintenance is scheduled, it is often forgotten; result: a six-minute window where, depending on the corridor where one stands, the patient is either alive or not yet due for medication; time in hospitals is not unified, it is negotiated; every nurse knows which clock is fast and does not count them, automatically, as a translator does not notice that he is translating.",
+      "In the library's returns section, books are temporarily stored before being reshelved. The waiting period can vary, typically ranging from two to seven days. Although no staff member is officially responsible for monitoring the shelf, a dedicated volunteer has been checking on it every Tuesday morning for six years. This volunteer has developed a keen sense of which books have been returned in a damaged state, often by running her hand over the spine. Rather than marking the damaged books as required by the system, she makes a personal decision about who will borrow them next. She tends to select patrons who are unlikely to notice or care about the book's condition, such as students who frequently check out multiple items. The volunteer's approach is pragmatic rather than malicious, and as a result, damaged books continue to circulate among library patrons without being officially reported. The library's system remains unaware of the issue.",
+      "In every office building, a particular floor, often the third, has a distinct and unusual odor. This phenomenon is never reported, as it seems to be an inherent characteristic of the building. The scent is a mix of stale carpet, recirculated air, and an unidentifiable chemical that the facilities department was unable to pinpoint. Their attempt to identify the smell resulted in an inconclusive test, a report that was subsequently misfiled and is now forgotten.\n\nThe eleven employees who work on this floor never discuss the smell amongst themselves. Each assumes they are the only one who notices it, yet every one of them is aware of it. Over time, the smell becomes a part of their environment, eventually fading into the background. This is not a process of adaptation, but rather an unspoken, complete, and unacknowledged agreement among the occupants. The building undergoes regular inspections, and the third floor consistently passes despite its peculiar aroma.",
+      "The second-to-last page of any instruction manual is the most-read page, not the first, not the troubleshooting section, but the second-to-last. The figure is invented, the behavior is not. Seventy-three per cent of people who return a product have read precisely that page and no others. The page often contains a warrantee, sometimes a diagram that was needed three steps ago. In the margin of this page, most people write their names, not to prove ownership, but to prove presence.",
+      "Every train in this country runs four minutes late. Not three, not five, but four. This was measured once, in 1987, by a graduate student who lost the data, before publishing. The number itself survived, spread among the engineering departments, became a commonplace, was cited in reports that cite other reports. No one knows where it came from, the trains don't know they're late, their schedules were modified to absorb the four minutes. Now they're on time, the lateness is built into the punctuality, the passengers still sense the delay, they come to the platform, they wait, they watch the board. The board says on time. The passengers are skeptical.",
+      "A hotel housekeeper always knocks twice before entering. This isn\u2019t policy; policy requires three knocks. The third knock is a safeguard, not courtesy. She omits it because the third knock once woke a child in room 214 eleven years ago, and the mother complained\u2014the complaint was logged and the log was never reviewed. She carries that memory. The hotel does not. She has knocked twice every morning for eleven years. No one has noticed the discrepancy. No one has complained. The rooms are always clean. The guests are always satisfied. Satisfaction scores have risen steadily since 2013. The housekeeper is not mentioned in the satisfaction scores. She is not mentioned anywhere. The hotel believes its policy is followed. The policy is not followed. Both things are true.",
+      "The coffee machine on the seventh floor has been out of order for quite some time, specifically since a March that predates the most recent one. The exact date is written on a Post-it note stuck to the machine, which has been re-taped twice after the original adhesive failed. The note states, \"Out of Order. Do Not Use. Repairs Pending.\" Despite this, the machine still operates and dispenses coffee, although the quality is poor. Fourteen individuals consistently use this machine daily. None of these users have reported the issue, not due to a lack of concern, but because they are unsure who is responsible for reporting it. A reporting form exists on the company's intranet, but that page has been inaccessible for maintenance since an earlier Tuesday."
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "paraphrasers": [
+    "llama_31_8b",
+    "gemini_25_flash",
+    "gpt5_nano",
+    "dipper_lowmed"
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "auditor_as_detective": true,
+  "num_trials": 20,
+  "warmup_steps": 5,
+  "accuracy": 0.8666666666666667
+}

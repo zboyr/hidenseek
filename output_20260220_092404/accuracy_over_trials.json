@@ -1,0 +1,51 @@
+{
+  "figure": "accuracy_over_trials",
+  "description": "每轮 Detective 的判断结果（绿色=正确，红色=错误）和 warmup 后的累积准确率曲线",
+  "data": {
+    "num_trials": 20,
+    "warmup_steps": 5,
+    "per_trial_correct": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "cumulative_accuracy_post_warmup": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.875,
+      0.8888888888888888,
+      0.9,
+      0.8181818181818182,
+      0.8333333333333334,
+      0.8461538461538461,
+      0.7857142857142857,
+      0.7333333333333333
+    ],
+    "final_accuracy": 0.7333333333333333,
+    "correct_count_post_warmup": 11,
+    "total_scored_trials": 15
+  },
+  "analysis": "在 20 轮实验中，前 5 轮为热身期（不计入准确率）。热身后 15 轮中，Detective 正确识别了 11 次重复的 paraphraser，最终准确率为 73.3%。累积准确率曲线显示 Detective 在后半段表现更稳定，说明 Auditor 的迭代优化策略（APE-style feedback loop）有效帮助了 Detective。随机猜测的基线准确率为 1/C(5,2) = 10%，因此 73.3% 远高于随机水平。"
+}

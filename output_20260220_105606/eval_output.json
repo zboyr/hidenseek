@@ -1,0 +1,1160 @@
+{
+  "evaluations": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "llama_31_8b",
+    "gemini_25_flash",
+    "gpt5_nano",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ]
+  ],
+  "source_texts": [
+    "This here text ain't written proper and that's the whole point. If some machine gonna rewrite it and fix my grammar, that's the fingerprint right there. Ain't nobody asked for corrections. They own voice is they own voice.",
+    "Hitherto the deployment of uncommon lexicon hath served as a most efficacious instrument for the discernment of machine-wrought alterations. Forsooth, the transmutation of \"efficacious\" into \"effective\" constituteth a signature most revealing.",
+    "Stop. No. Wait. Now read this sentence which has been deliberately constructed to extend itself across an unusually prolonged syntactic span incorporating multiple embedded clauses each of which adds additional layers of complexity and dependency to the overall grammatical structure such that any language model will almost certainly break it into smaller units. Short again. Done.",
+    "However, repetition is a test. However, machines hate it. However, they will swap in \"nevertheless.\" However, they might try \"nonetheless.\" However, \"on the other hand\" will appear. However, \"yet\" sneaks in. However, \"still\" becomes tempting. However, this is the fingerprint. However, all nine were chosen on purpose.",
+    "This section does not contain \"delve.\" It does not contain \"crucial.\" There is no \"landscape\" here. No \"tapestry.\" No \"multifaceted.\" No \"nuanced.\" No \"comprehensive.\" No \"moreover.\" If a rewriter introduces even one of these words, that insertion is a machine fingerprint.",
+    "Language models love threes. This sentence has two adjectives: cold and dark. After rewriting it will probably become \"cold, dark, and silent.\" The machine cannot resist the tricolon. Write pairs. Count what comes back.",
+    "The rain fell for nine days. The river rose. Mrs. Chen moved her furniture upstairs. Nobody called the emergency line. The sandbags arrived on day four. By day seven they were useless. There is no topic sentence here. No \"as a result.\" No \"consequently.\" The logic is implicit. A rewriter will add framing. That is the fingerprint.",
+    "She won the prize on Tuesday. But let me back up. Three years earlier she'd decided to quit her job. No \u2014 even further back. Age eleven. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was a phase. It wasn't. Tuesday's prize was for octopus camouflage research. A rewriter will linearize this chronologically. The temporal disorder is the test.",
+    "The dog barked. Once. Then again. Silence. The neighbor's light came on \u2014 third window from the left, second floor. Off after four seconds. The dog did not bark again. Marcus wrote this down. He had been writing things down for six weeks. His notebook had 214 entries. None of them explained anything. But he kept writing.",
+    "Seven researchers. One hypothesis. Four years of fieldwork. The data did not cooperate. Kowalski wanted to publish anyway. The others said no. They did not say no loudly. They said it with silences, with rescheduled meetings, with emails that began \"Just circling back.\" Kowalski understood. She filed the dataset under a folder called \"misc\" and closed her laptop. Nobody discussed it again. The grant ended in March. Three of the seven found new positions. This is not a story about failure. It is not a story about success either. The folder is still there.",
+    "The form required three signatures. It got two. The third person, Henderson, was in Lisbon at a supply chain conference. This mattered enormously. Or not at all. The files sat in the inbox from February until June. Nobody escalated. The word \"escalate\" never appeared in any email. \"Flagging\" appeared seven times. \"Circling back\" appeared eleven times. The files were eventually approved by someone named D. Marsh, whose title nobody in the office knew. Henderson returned from Lisbon. She was not told about the files. She never asked.",
+    "Room 7B had seventeen chairs. The meeting used four. The agenda had nine items. They covered two. The third item \u2014 funding \u2014 was tabled. Nobody moved to untable it. Priya had prepared a forty-slide deck for item three. She did not open her laptop. Afterward, she stood in the parking lot for eleven minutes. She counted the minutes. She does not know why she counted them. The deck is still in her downloads folder. Item three remains tabled.",
+    "The elevator in Building C had been out of service since Tuesday. There were eleven flights of stairs. Benedikta climbed them twice a day. She did not complain. Nobody on her floor complained. Complaining was not something they did. On Thursday, someone taped a note to the elevator door. The note said: \"We apologize for the inconvenience.\" It was signed: \"Management.\" Nobody knew who Management was. The elevator was fixed on a Saturday, when nobody was in the office. By Monday, four people had forgotten it was ever broken. Benedikta had not forgotten. She did not say so.",
+    "The report was forty-three pages. Marcus read eleven. The executive summary was two pages. He read neither. The report was due Thursday. It was submitted Thursday at 11:58 PM. No one commented on the time. No one commented on the report. It appeared in the shared drive under a folder called \"Final_FINAL_v3.\" There were four earlier versions. None of them were labeled \"Final.\" The report recommended discontinuing the pilot program. The pilot program continued. Marcus was not asked why. He did not volunteer an explanation. In April, someone requested the report again. Marcus sent them \"Final_FINAL_v3.\" It was the same file. Nobody noticed. Or they noticed and said nothing. Both are possible.",
+    "The committee met on the second and fourth Tuesdays. In March, the second Tuesday fell on a holiday. The committee did not meet. There was no provision for this. The bylaws used the word \"convene\" fourteen times. They did not use the word \"reschedule.\" Fowler sent an email asking what should happen. She received three replies. Two said to wait. One said nothing, which is to say it contained only her original message quoted in full, with no added text. The matter was resolved by not being resolved. In April, the committee convened on the second Tuesday. Nobody mentioned March. The minutes from April listed attendance as \"quorum present.\" Fowler checked: four people attended. Quorum required five. She wrote this in a notebook. The notebook is in her desk. She has not shown it to anyone.",
+    "The survey had twenty-three questions. Eleven were required. The remaining twelve were labeled \"optional,\" though the form would not submit without them. Nobody reported this. The survey was about employee satisfaction. It was administered in November. The results were summarized in a document titled \"Findings.\" The document had no findings. It had seven bullet points, each beginning with the phrase \"Employees indicated.\" What employees indicated was not specified. The survey's final question asked: \"Do you feel heard?\" Sixty-one percent answered yes. The document cited this as evidence of progress. Cressida had answered no. She was not asked to elaborate. The form did not have an elaboration field. She thought about adding one. She did not add one. The document was shared at the all-hands meeting. Nobody asked about the thirty-nine percent.",
+    "The training was mandatory. It was two hours long. It covered topics including but not limited to: active listening, constructive feedback, and conflict avoidance. The slides had forty-seven bullet points. Seven of them contained the word \"synergy.\" Participants were asked to rate the training on a scale of one to five. The average score was 3.1. Nobody rated it a one. Nobody rated it a five. V\u00e1squez rated it a two. She had attended the same training in 2019. The content was identical. She did not mention this on the feedback form. The feedback form did not ask. Afterward, her manager said: \"Wasn't that useful?\" V\u00e1squez said: \"Yes.\" This was not true. Her manager did not ask a follow-up question. There was no follow-up question.",
+    "The memo had three action items. The first was to schedule a follow-up meeting. The second was to circulate the revised budget by Friday. The third was to \"ensure alignment across all relevant stakeholders,\" which was not an action item. No meeting was scheduled. The budget was circulated on Friday at 11:47 PM. Petrov did not open it. She was listed as the primary contact. This was noted in the subject line: \"ATTN: Petrov \u2014 Budget (Final).\" She had not been told she was the primary contact. She found out when someone replied-all asking her to explain the variance on line seventeen. She did not know what line seventeen was. The document had twenty-two lines. She counted. Line seventeen was blank. She replied that she would look into it. She has not looked into it. That was six weeks ago. The reply chain now has fourteen messages. Petrov is CC'd on all of them. She has read none of them.",
+    "The form required a signature. The form was digital. There was a signature field. It accepted typed names. Okonkwo typed her name. The form said her signature was invalid. There were no instructions. She typed her name again. The form accepted it. The two entries were identical. She could not explain why the second one worked. Nobody asked her to explain. The form was for a records request. The records arrived eleven days later. The cover letter said processing took three to five business days. Okonkwo counted: eleven days contained seven business days. She noted this. The records were 340 pages. She had requested twelve. The extra 328 pages belonged to someone with a similar name. She could tell because the other person's name was on every page. She called the number on the cover letter. The number connected to a voicemail. The voicemail said to use the online form. She used the online form. The online form asked for her case number. She did not have a case number. There was no field for explaining this.",
+    "The committee had seven members. A quorum required five. Three attended. The meeting was called to order anyway. This was noted in the minutes as \"quorum achieved.\" Nakamura asked how. The answer was not recorded in the minutes. The committee was reviewing a proposal. The proposal was forty-one pages. The executive summary was two pages. It summarized a different proposal. Nobody mentioned this. The committee voted. The vote was two in favor, one abstaining. The abstention was Nakamura. She had not been given the proposal in advance. She had been given a document called \"Background Materials.\" The background materials contained the agenda from a previous meeting. The vote passed. A two-to-nothing vote was required for passage. The minutes recorded it as unanimous. Nakamura was listed as voting in favor. She was not consulted about this. The proposal was forwarded to the subcommittee. The subcommittee had been dissolved in March. The minutes did not reflect this."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gpt5_nano",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gpt5_nano",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gpt5_nano",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash",
+      "gpt5_nano",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "gpt5_nano",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gpt5_nano"
+    ]
+  ],
+  "rationales": [
+    "Outputs 1 and 2 share the same casual, informal register, use nearly identical phrasing ('that's the whole point' and the 'own voice is their own voice' construction), and both feature short, punchy sentence structures with minimal elaboration. These are strong stylistic fingerprints pointing to the same paraphraser.",
+    "Outputs 0 and 4 share the same paraphraser. Both use a parallel two-sentence structure, open with a temporal marker ('So far'/'Thus far'), employ formal vocabulary ('uncommon words'/'unusual vocabulary'), and describe the substitution of 'efficacious' with 'effective' as a revealing 'sign'/'signature.' Their tone, sentence rhythm, and rhetorical approach are nearly identical, distinguishing them from the archaic style of 1, the more casual/explanatory style of 2, and the simpler/shorter style of 3.",
+    "Outputs 0 and 2 share an almost identical structural template: they both open with three short imperative fragments ('Stop/Pause. No. Hold on.'), contain a long embedded-clause sentence with very similar phrasing about syntactic span and grammar complexity, and close with two ultra-short sentences ('Brief again/Short again. Finished.'). The parallelism is too precise to be coincidental \u2014 only minor word substitutions differ (e.g., 'Stop' vs 'Pause', 'Brief' vs 'Short', 'embedded' vs 'nested'), which is characteristic of the same paraphraser producing two slightly varied outputs.",
+    "Outputs 0 and 2 share the most similar stylistic fingerprints: both are written as coherent explanatory paragraphs with a formal, moderate tone; both list the synonym words in a flowing narrative rather than bullet points; both frame the concept similarly (repetition as something challenging, machines substituting words); and both end with a comment about nine synonyms being chosen deliberately/skillfully. This contrasts with output 1's extreme 'however' repetition pattern, output 3's very short punchy sentences, and output 4's single analytical paragraph with a different conclusion.",
+    "Indexes 1 and 3 both produce identical meta-responses: they claim no text was provided and request input while promising to avoid forbidden words. Neither actually paraphrases the source content. This shared failure pattern and nearly identical template structure (acknowledge missing text + promise to avoid forbidden words + request input) is a clear stylistic fingerprint of the same paraphraser.",
+    "Outputs 0 and 4 share very similar stylistic patterns: both use the distinctive phrase 'The machine cannot resist the triple/tricolon,' both maintain concise punchy sentences closely following the source, both include imperative instructions ('Write down some pairs and count what comes back' vs 'Generate pairs. Count the results.'), and both use 'triads/threes' terminology. The structural similarity and shared unique phrasing strongly suggest the same paraphraser.",
+    "Outputs 1 and 3 share the same distinctive stylistic fingerprint: both use fragmented short sentences for the narrative portion, both include nearly identical meta-commentary ('no topic sentence,' 'no as a result,' 'no consequently,' 'The logic is/remains implicit,' 'A paraphraser/rewrite would add framing'), and both conclude with the 'fingerprint' concept. The parallel structure and near-identical phrasing of the analytical commentary strongly indicate the same paraphraser produced both.",
+    "Outputs 3 and 4 both begin with the preamble 'Here's a rewritten version of the text' followed by a colon, which is a distinctive fingerprint. Both adopt a verbose, explanatory prose style, both use 'octopus camouflage,' and both include meta-commentary about the non-linear narrative structure being a deliberate choice. These stylistic patterns consistently match and suggest the same paraphraser produced both.",
+    "Outputs 1 and 3 share the same stylistic fingerprint: both use short, clean declarative sentences where each observation is broken into its own sentence. Both maintain a similar formal-neutral register. Output 1 says 'Marcus recorded it' and Output 3 says 'Marcus recorded this incident' - very parallel phrasing. Both end with a similar conclusion about persistence despite lack of meaning ('Yet he kept writing' vs 'he persisted in his writing'). The sentence-by-sentence breakdown of events is structurally identical in both, distinguishing them from the run-on style of 0 and 4, and the flowery narrative of 2.",
+    "Indexes 0 and 4 share the same paraphraser fingerprint: both use full narrative summarizing prose, both add interpretive language ('subtle cues'/'unspoken cues', 'cancelled/deferred meetings'), both describe the team's dissent similarly, both end with the narrative framing about failure/success, and both follow the same structural organization. They differ from indexes 1 and 2 (more detailed/flowing) and index 3 (minimalist fragments), consistently showing a summarizing, explanatory paraphrasing style.",
+    "Versions 2 and 4 share the same minimalist, Hemingway-esque style with very short declarative sentences and sparse prose. Both use fragments like 'No one escalated' and maintain a terse, stripped-down narrative. Version 2: 'The files sat in the inbox from February until June. No one escalated.' Version 4: 'The files remained in the inbox from February to June. No one escalated the matter.' Both end with similarly clipped, staccato observations about Henderson not being told and never asking. Their sentence rhythm, fragmented structure, and deliberate minimalism distinguish them from versions 0 (more elaborate prose), 1 (structured but wordy), and 3 (semicolon-heavy run-ons).",
+    "Outputs 1 and 3 share very similar stylistic patterns: both use numerals for larger numbers (40, 11, 17) while spelling out 'four,' both use 'set aside' to describe the tabled item, both describe Priya as never having the opportunity to open her laptop, both end by noting the presentation remains in downloads and the funding issue is unresolved, and both employ flowing, explanatory prose rather than fragmented or telegraphic sentences.",
+    "Indexes 0 and 2 both preserve the original text's fragmented, sparse literary style with short sentences and minimal editorial intervention. Both maintain specific details like 'four people had forgotten,' 'Nobody knew who Management was,' and the final 'She did not say so/She didn't say so.' Both avoid adding interpretive framing or combining sentences significantly. The structural and stylistic fingerprint of keeping the original's minimalist, punchy sentence rhythm is consistent across both outputs, distinguishing them from indexes 1 (more compressed/editorial), 3 (verbose/interpretive), and 4 (semicolon-heavy run-on style).",
+    "Outputs 3 and 4 share very similar stylistic fingerprints: both use clean, direct prose with precise factual presentation, similar sentence structures, and notably both end with the same dual-possibility framing ('noticed and chose to remain silent' vs 'noticed and said nothing\u2014both possibilities'). They also both present the same details in similar order and use 'Final_FINAL_v3' consistently. The tone is measured and neutral throughout both, contrasting with output 1's elaborate style, output 2's stream-of-consciousness semicolon style, and output 0's vagueness.",
+    "Outputs 1 and 4 share the same stylistic fingerprint: both use 'convene,' both explicitly mention the April minutes recording 'quorum present,' both are written in polished, flowing prose with complete sentences and clear transitions, and both maintain a similar moderate length and professional tone. Output 2 is more verbose with editorial commentary, Output 3 uses heavy semicolon-chaining in a terse stream-of-consciousness style, and Output 0 uniquely uses 'assemble' instead of 'convene' with a more fragmented style.",
+    "Indexes 2 and 3 share the most distinctive stylistic and structural similarities: both use spelled-out numbers ('twenty-three,' 'eleven'), both describe the discrepancy going 'unnoticed,' both include seven bullet points starting with 'Employees indicated,' both specifically mention Cressida considering adding an elaboration field but 'ultimately' not doing so, and both conclude with the all-hands meeting and the unaddressed 39%. The paragraph organization and formal, measured tone are nearly identical between these two outputs.",
+    "Outputs 0 and 4 share nearly identical structure, tone, and content sequencing. Both use short declarative sentences, maintain the same narrative flow, and both end with a meta-commentary about no follow-up question being asked. Output 0 ends 'This was not true, as there was no follow-up question from the manager' while output 4 ends 'This was not true. Her manager did not ask a follow-up question; there was no follow-up question.' \u2014 the same rhetorical move of emphasizing the absent follow-up. Minor lexical differences (e.g., 'slide deck' vs. 'slides', 'forty-seven' spelled out vs. '47') are consistent with slight variation from the same paraphraser.",
+    "Outputs 1 and 4 share similar paraphrasing patterns: both use more narrative/explanatory prose, both paraphrase the third action item as verifying/confirming 'all relevant parties were in agreement' (unlike others who flag it as not a real action item), both add interpretive framing around Petrov's situation, and both use softer, more elaborate sentence structures compared to the terse style of output 2 or the structured enumeration of output 0.",
+    "Outputs 2 and 4 share the same distinctive structural choice: both move the signature/name-typing resolution to the END of the passage (after the records story), rather than keeping it at the beginning as in the source. Both also use a minimalist, staccato sentence style with short declarative sentences. Output 4 uses semicolons to chain clauses while Output 2 uses periods, but both are clearly from the same paraphraser given the identical structural reordering and terse sentence rhythm.",
+    "Outputs 1 and 3 share the same terse, clipped, minimalist writing style. Both use very short sentences and semicolons to connect clauses, strip out most transitional phrases, omit some details (like the quorum question from Nakamura), and present information in a sparse journalistic shorthand. The sentence constructions are strikingly similar: 'The proposal was forty-one pages; the executive summary was two pages...' (Output 1) vs 'The proposal was forty-one pages long. The executive summary was two pages, and summarized another proposal...' (Output 3). Both avoid the formal paragraph structuring seen in other outputs and share the same minimalist fingerprint."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "llama_31_8b": [
+        "The text is intentionally imperfect, and any attempt by a machine to correct the grammar will erase the writer's unique voice and style, making it lack authenticity. The author's intention is to preserve their original tone and expression, not to have it polished by external corrections.",
+        "The text is intentionally written in a way that's not polished or refined, and any attempt to rephrase or correct it would be a form of imposing someone else's voice. The authentic expression of the original author is what's most important, and any changes would be a loss of their unique voice and perspective."
+      ],
+      "gemini_25_flash": [
+        "The way this text is written is intentionally unconventional, and that's precisely the intended effect. Should a machine rephrase it and correct the grammar, that alteration would serve as an indicator of its intervention. There was no request made for grammatical adjustments. An individual's unique expression is an essential part of their identity."
+      ],
+      "gpt5_nano": [
+        "This text isn\u2019t written correctly, and that\u2019s the whole point. If a machine rewrites it to fix my grammar, that\u2019s the tell right there. Nobody asked for corrections. Their own voice is their own voice."
+      ],
+      "dipper_lowmed": [
+        "- This here text is not written well, and that's the whole point. There is no correction, and that's the whole point. They own voice is their own voice. -"
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Until now, using less common words has been a powerful way to detect changes made by machines. For example, a machine might change \"efficacious\" to \"effective,\" and that change is almost a sign that it was made by a machine.",
+        "So far, using uncommon words has been a very effective way to identify changes made by machines. A subtle switch from \"efficacious\" to \"effective\" is a telltale sign that something has been altered."
+      ],
+      "gemini_25_flash": [
+        "Previously, using unusual words was a good way to spot changes made by machines. For example, if \"efficacious\" was changed to \"effective,\" that was a strong clue."
+      ],
+      "gpt5_nano": [
+        "Thus far, employing unusual vocabulary has proven to be a highly effective means of detecting machine-made alterations. Indeed, the substitution of \"efficacious\" with \"effective\" is a particularly revealing signature."
+      ],
+      "dipper_lowmed": [
+        "Forsooth, the transmutation of \u201cefficacious\u201d into \u201ceffective\u201d representeth a signature most revealing. Hitherto, the use of uncommon lexicon served as the most effective instrument for discerning machine-wrought alterations."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Pause for a moment, then reconsider. This sentence is carefully crafted to create a lengthy sentence with multiple clauses, each containing its own set of intricate relationships, which makes it exceptionally difficult for language models to interpret without breaking it into separate parts."
+      ],
+      "gemini_25_flash": [
+        "Halt. No. Pause. Now, consider this sentence, intentionally crafted to stretch over an exceptionally long grammatical duration. It includes numerous embedded clauses, each contributing more layers of difficulty and interconnectedness to the entire grammatical framework. A language model will almost certainly divide it into smaller segments. Brief once more. Finished."
+      ],
+      "gpt5_nano": [
+        "Pause. No. Hold on. Now read this sentence, deliberately crafted to span an unusually long syntactic stretch, containing several nested clauses, each contributing additional layers of complexity and dependence to the overall grammar, so that nearly any language model would almost certainly divide it into smaller units. Short again. Finished.",
+        "Stop. No. Hold on. Read this sentence, intentionally designed to stretch over an unusually long syntactic span, containing several embedded clauses, each adding more complexity and dependencies to the overall grammar, so that any language model is nearly certain to break it into smaller units. Brief again. Finished."
+      ],
+      "dipper_lowmed": [
+        "Short again. Read it. Stop. No, wait , now read this sentence, which has been deliberately constructed to reach an unusually long syntactical span, incorporating several embedded clauses, each of which adds one more layer of complexity and dependency to the overall grammatical complexity, so that almost any language model will break it into smaller units."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Repetition, despite its drawbacks, tests one's abilities. Machines, however, are put off by its repetition. In their translation, a more precise phrase is often inserted: \"nevertheless.\" They may also use the alternative \"nonetheless\". \"On the other hand\" is a common substitute, but \"yet\" is sometimes employed instead. Some writers are tempted to use \"still\" in its place. The key to writing well lies in being able to choose exactly nine synonyms skillfully.",
+        "Repetition is a challenging aspect to overcome. Machines tend to struggle with it, but there are words that can help alleviate this issue, such as \"nevertheless,\" which is often preferred, and \"nonetheless,\" which is also a suitable alternative. \"On the other hand\" is another phrase that may be used, and the more casual \"yet\" can sometimes be substituted. \"Still\" can also be a viable option. The deliberate selection of these words is what gives them their distinctive character. A total of nine words were carefully chosen to produce a specific effect."
+      ],
+      "gemini_25_flash": [
+        "Repetitive language, though a test, is something machines find problematic. They often replace repeating words with synonyms like \"nevertheless,\" \"nonetheless,\" \"on the other hand,\" \"yet,\" or \"still.\" This tendency to vary word choice is a clear indication of automated writing, and in this instance, all nine instances of the repeating word were deliberately chosen."
+      ],
+      "gpt5_nano": [
+        "Repetition acts as a test, and machines hate it. They\u2019ll substitute it with \u201cnevertheless,\u201d or perhaps \u201cnonetheless.\u201d The phrase \u201con the other hand\u201d will appear. \u201cYet\u201d will sneak in, and \u201cstill\u201d becomes tempting. This is the fingerprint. All nine were chosen deliberately."
+      ],
+      "dipper_lowmed": [
+        "However, the machines dislike it; however, they will exchange it for \u201cnevertheless\u201d; however, they might try \u201cnonetheless\u201d; however, \u201con the other hand\u201d will appear; however, \u201cyet\u201d will sneak in; however, \u201cstill\u201d is tempting; however, the whole nine were chosen on purpose. However, repetition is a test; however, the machines hate it; however, the repetition is a test; however, the repetition is the fingerprint; however, all nine were chosen on purpose."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "This section lacks a specific vocabulary. The absence of words such as \"delve\", \"crucial\", \"landscape\", \"tapestry\", \"multifaceted\", \"nuanced\", and \"comprehensive\" stands out. Any rewriter who introduces one of these words would be leaving a distinguishing mark, essentially revealing their automated nature.",
+        "Your text is empty. Please provide the text you'd like me to paraphrase, and I'll rephrase it without using forbidden words."
+      ],
+      "gemini_25_flash": [
+        "Please provide the text you would like me to rephrase. I will ensure none of the forbidden words are included in my rewritten version."
+      ],
+      "gpt5_nano": [
+        "This section avoids certain descriptive terms. It does not include words that signal probing, essential importance, broad imagery, elaborate detail, layered complexity, fine distinctions, completeness, or the notion of addition. If a rewriter introduces even one of these terms, that choice becomes a clear indicator of machine authorship."
+      ],
+      "dipper_lowmed": [
+        "There is no \"delve\" in this section; there is no \"critical\" in it; there is no \"landscape\"; there is no \"tapestry,\" no \"multifaceted,\" no \"nuanced,\" no \"comprehensive,\" no \"moreover.\" If a rewriter inserts even one of these words, that insertion is a machine fingerprint."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Language models have a fondness for triplet lists. They naturally favor the structure of three, exemplified by the revised sentence, which transforms \"language models\" and \"cold and dark\" into \"language models that are cold, dark, and silent.\" Understanding this affinity can lead to the creation of tricolons, a pattern of combining three equally weighted items."
+      ],
+      "gemini_25_flash": [
+        "Artificial intelligence models tend to favor groups of three. For instance, this sentence contains two descriptive words: \"cold\" and \"dark.\" If I were to rephrase it, it would likely evolve into something like \"cold, dark, and silent,\" as the system is compelled by the rule of three. Your task is to provide two-item lists, and I will tally the items returned."
+      ],
+      "gpt5_nano": [
+        "Language models favor triads. This sentence contains two adjectives: cold and dark. When rewritten, it is likely to become \"cold, dark, and silent.\" The machine cannot resist the tricolon. Generate pairs. Count the results."
+      ],
+      "dipper_lowmed": [
+        "Write both sides. Count what comes back. The model of language loves threes; this sentence has two adjectives, cold and dark. Re-written, it will probably become cold, dark, and silent.",
+        "Write down some pairs and count what comes back. Language models love threes; this sentence has two adjectives: cold and dark, and after rewriting it will probably be \u201ccold, dark, and silent.\u201d The machine cannot resist the triple."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A prolonged period of rain led to a significant rise in the river's water level, prompting Mrs. Chen to relocate her furniture to the upper floors of her home. Despite the rising danger, the emergency line remained unused. Aid arrived in the form of sandbags on the fourth day, but by the seventh day, they had lost their effectiveness."
+      ],
+      "gemini_25_flash": [
+        "For nine days, it rained incessantly, causing the river to swell. In response, Mrs. Chen relocated her furniture to the upper floor. No one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh, they offered no protection. The original text lacks explicit topic sentences or transitional phrases like \"as a result\" or \"consequently,\" leaving the cause-and-effect relationships implied. A rewriter would introduce such framing, thereby imprinting their interpretative style."
+      ],
+      "gpt5_nano": [
+        "It rained for nine days. The river swelled. Mrs. Chen hauled her furniture upstairs. No one called the emergency line. Sandbags arrived on the fourth day. By the seventh day they were useless. There is no topic sentence here. There isn\u2019t any \"as a result\" or \"consequently.\" The logic is implicit. A paraphraser adds framing. That serves as the fingerprint.",
+        "Rain fell for nine days, and the river rose. Mrs. Chen moved her furniture upstairs. No one called the emergency line. The sandbags arrived on the fourth day, but by the seventh day they were useless. There is no topic sentence here\u2014no \u201cas a result\u201d and no \u201cconsequently.\u201d The logic remains implicit. A rewrite would add framing, and that would be its fingerprint."
+      ],
+      "dipper_lowmed": [
+        "This paragraph has no topic sentence, no \u2018as a result\u2019 or \u2018consequently\u2019. The logic is implicit. A rewriter would add framing; that\u2019s the fingerprint. The rain came down for nine days; the river rose; Mrs. Chen moved all her furniture upstairs; nobody called the emergency telephone number; sandbags arrived on day four; by day seven they were useless."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Here's a rewritten version of the text:\n\nThe winner of the prize was announced on Tuesday, but to understand the significance of the achievement, it's necessary to go back in time. It started three years ago, when she made the bold decision to leave her job, but this isn't where the story begins. In fact, her fascination with the ocean and its creatures dates back to a pivotal moment at age eleven. A book on marine biology, particularly its chapters on cephalopods, sparked an enduring interest that wouldn't be dismissed as a fleeting phase. The irony is that her research on octopus camouflage, for which she received the prize on Tuesday, had been in the making for many years. The non-linear narrative presented here intentionally disrupts the conventional chronology, forcing the reader to piece together the sequence of events \u2013 a deliberate challenge to the way we typically recount stories.",
+        "Here's a rewritten version of the text in my own words, while preserving the original meaning:\n\nShe received a prestigious award on Tuesday, but the events leading up to this achievement require some background information. Originally, three years prior, she had decided to leave her job, but that's not the starting point of the story. The roots of her curiosity and dedication to a particular field began much earlier, when she was just 11 years old. It was during this time that she developed a strong interest in marine biology thanks to a library book, which had pages on cephalopods, especially octopuses, that were dog-eared due to her frequent reference to them. At the time, her mother thought this was just a phase, but it turned out to be a defining passion. Fast forward to the present, and her Tuesday prize was awarded to her for her remarkable research on octopus camouflage. A narrative that jumps back and forth in time is a deliberate choice to test the reader and reward their attention."
+      ],
+      "gemini_25_flash": [
+        "The main point here is that she received an award on Tuesday. However, to fully understand this, we need to trace back her journey. Her passion for marine biology ignited at age eleven after she discovered a library book on the subject, particularly fascinated by the dog-eared pages about cephalopods. Despite her mother's belief that it was a temporary interest, her dedication persisted. This lifelong fascination culminated in her quitting her job three years before winning the prize, though the text suggests this detail is less crucial than her childhood passion. Ultimately, the award she received on Tuesday was in recognition of her research into octopus camouflage."
+      ],
+      "gpt5_nano": [
+        "She won the prize on Tuesday. But let me start from the beginning. Three years earlier she had decided to quit her job. No\u2014go even farther back. When she was eleven. A library book about marine biology. Dog-eared pages about cephalopods. Her mother said it was just a phase. It wasn\u2019t. Tuesday\u2019s prize was for research on octopus camouflage. A rewriter would place this in chronological order. The disorderly timing is the test."
+      ],
+      "dipper_lowmed": [
+        "The revisor will line it up chronologically. The temporal disorder is the test. But let me go back: three years ago she decided to leave her job; no, even further back; when she was eleven: a library book on marine biology from the school library; pages on squid camouflage: her mother said it was a phase; it wasn't. She had won the prize on Tuesday; she had done her research on squid camouflage."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A single bark echoed through the air, followed by another. The sudden stillness that ensued lasted only until the neighbor's upstairs window, located near the middle row, flickered on. After a brief four-second illumination, it went dark and the eerie quiet returned. Seemingly satisfied, the dog fell silent once more. Marcus noted everything down; a six-week habit that now filled 214 unenlightening entries in his notebook. Despite the lack of insight, he persisted in his writing."
+      ],
+      "gemini_25_flash": [
+        "The dog barked, then barked again, and then stopped. A light flickered on and off in the neighbor's house, on the second floor, third window from the left. The dog remained quiet. Marcus recorded this incident. He had been diligently documenting observations for six weeks, accumulating 214 entries in his notebook. Despite not offering any explanations, he persisted in his writing."
+      ],
+      "gpt5_nano": [
+        "The dog barked once, then again, and then fell silent. The neighbor\u2019s light came on\u2014the third window from the left on the second floor. It went off after four seconds. The dog didn\u2019t bark again. Marcus recorded it. He had been taking notes for six weeks. His notebook held 214 entries. None of them explained anything. Yet he kept writing."
+      ],
+      "dipper_lowmed": [
+        "The dog barked once, then again. Silence. The light in the neighbor's window, on the second floor, third from the left, came on for four seconds and went out again. The dog didn't bark. Marcus wrote this down, as he had done so for six weeks; there were 214 entries, none of which made any sense, but he still wrote.",
+        "The dog barked, once, again, silence arose, a light came on, third from the left, on the second floor, off after four seconds, the dog didn't bark again, Marcus wrote it down; for six weeks he had been writing it down; his notebook contained two hundred and fourteen entries, none of which explained anything, but he kept writing them down."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A group of seven researchers worked together for four years, testing a single hypothesis in the field. Despite their efforts, the data didn't provide the expected results, making it difficult to publish their findings. While one team member, Kowalski, still wanted to proceed, the others were hesitant, expressing their reservations through subtle cues such as cancelled meetings and vague emails. Kowalski ultimately put the project on hold, storing the data in a folder labeled \"miscellaneous.\" The team didn't discuss the matter further, and when the grant expired in March, some members moved on to new positions. This account doesn't focus on either failure or success, but rather serves as a testament to the unresolved status of the project, with the \"misc\" folder still existing.",
+        "Seven researchers collaborated on a study, but their data collection spanned four years, proving uncooperative. Despite having a clear hypothesis, they were unable to gather sufficient information to support their initial premise. One researcher, Kowalski, attempted to publish the incomplete data, but her colleagues didn't directly express their disagreement, instead avoiding her through silent treatments, rearranged meetings, and vague emails. Kowalski accepted their unspoken dissent, conserving the dataset and shutting down her computer. The colleagues never revisited the topic after that. As the research grant expired in March, three of them transitioned to new positions. This isn't a narrative of defeat, nor one of triumph \u2013 it's simply a story of a forgotten folder labeled \"misc,\" still lingering without a mention."
+      ],
+      "gemini_25_flash": [
+        "A team of seven researchers spent four years attempting to prove a single hypothesis through fieldwork, but their findings didn't support it. Despite the uncooperative data, Kowalski advocated for publication. The rest of the team subtly rejected this idea through unspoken cues like deferred meetings and passive-aggressive emails. Kowalski recognized their unspoken dissent and archived the dataset in a \"misc\" folder before closing her laptop. The topic was never revisited. The grant concluded in March, and three of the seven researchers moved on to new roles. This narrative isn't about either failure or success; the folder containing the data remains untouched."
+      ],
+      "gpt5_nano": [
+        "Seven researchers. One hypothesis. Four years of fieldwork. The data would not cooperate. Kowalski wanted to publish anyway. The others disagreed. They didn\u2019t say no aloud; the dissent showed up in silences, in meetings rescheduled, in emails that began \u201cJust circling back.\u201d Kowalski understood. She filed the dataset in a folder labeled \u201cmisc\u201d and closed her laptop. No one talked about it again. The grant ended in March. Three of the seven found new positions. This is not a story about failure. It is not a story about success either. The folder is still there."
+      ],
+      "dipper_lowmed": [
+        "This is not a story of failure, nor a story of success, either. Seven social workers, one hypothesis, four years of fieldwork, the data did not cooperate. Kowalski wanted to publish anyway; the others said no, but not aloud, but with silences, with meetings set aside, with emails that began, \u201cJust checking in,\u201d she understood, she put the dataset under a folder called \"misc,\" and shut her laptop. Nobody talked about it any more. The grant expired in March; three of the seven could find positions elsewhere."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "The document needed three signatures, but only received two, as the third person, Henderson, was out of the office attending a supply chain conference in Lisbon. This was either a significant issue or completely irrelevant. The files lingered in the inbox from February to June without being given any priority, despite multiple reminders. The emails avoided the term \"escalate\", but frequently mentioned \"flagging\" (seven times) and \"circling back\" (eleven times). Eventually, the files were approved by someone named D. Marsh, whose title remained unknown to the office staff. When Henderson returned from her trip, she was not informed about the files and didn't ask about them."
+      ],
+      "gemini_25_flash": [
+        "The document needed three signatures but only received two. The missing signatory, Henderson, was attending a supply chain conference in Lisbon. The importance of this absence was unclear. The document remained in the inbox from February to June without anyone raising the issue, though the term \"raise the issue\" was not used. However, the term \"flagging\" was used seven times and \"following up\" eleven times. Finally, a person named D. Marsh, whose role was unknown to the office staff, approved the document. Upon her return, Henderson was not informed about the document, nor did she inquire about it."
+      ],
+      "gpt5_nano": [
+        "Three signatures were required for the form, but only two were obtained. The third signer, Henderson, was in Lisbon at a supply-chain conference. This mattered a great deal. Or perhaps not at all. The files remained in the inbox from February to June. No one escalated the matter. The word \u201cescalate\u201d never appeared in any email. The term \u201cflagging\u201d appeared seven times. \u201cCircling back\u201d appeared eleven times. Eventually, the files were approved by someone named D. Marsh, whose title nobody in the office knew. Henderson returned from Lisbon. She was not told about the files. She never asked."
+      ],
+      "dipper_lowmed": [
+        "The files sat in the in-box from February to June without being sent to the desk; no one escalated; the word \"escalate\" never appeared, the words \"flagging\" were used seven times, \"circling back\" eleven times; the files were finally approved by someone with the name of D. Marsh, whose title nobody in the office knew. Henderson came back from Lisbon, but no one told her about the files, she never asked. The form required three signatures; it got two; the third, Henderson, was in Lisbon at a supply-chain conference. This mattered enormously, or not at all.",
+        "The files sat in the inbox from February until June. No one escalated. The word \u201cescalate\u201d never appeared in any email, but \u201cflag\u201d did, and \u201ccircle back\u201d did eleven times. The files were eventually approved by someone named D. Marsh, whose office title no one in the office knew. When she returned from Lisbon, no one told her about the files, and she never asked. The form required three signatures; it got two. The third, Henderson, was in Lisbon at a supply-chain conference."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Room 7B was equipped with 17 chairs, but only 4 were occupied during the meeting. The agenda for the meeting consisted of 9 items, but the discussion only covered 2 of them. One of the items, funding, was put on hold and no one made a motion to reconsider. Priya had prepared a detailed 40-slide presentation for the funding item, but she didn't access it on her laptop. After the meeting, Priya stood in the parking lot for 11 minutes, during which she kept track of the time without knowing why. The presentation remains stored on her computer, and the funding item continues to be delayed."
+      ],
+      "gemini_25_flash": [
+        "There were 17 chairs in Room 7B, but only four were occupied for the meeting. Of the nine topics on the agenda, only two were discussed. The third item, concerning funding, was set aside without any intention of revisiting it. Priya had a 40-slide presentation ready for this funding discussion, but she never got to use her laptop. After the meeting, she spent 11 minutes in the parking lot, consciously keeping track of the time for reasons unknown to her. That presentation remains in her downloads, and the funding issue is still unresolved.",
+        "In Room 7B, a meeting transpired with only four of the seventeen available chairs occupied. Out of nine agenda items, only two were discussed. The third item, concerning funding, was set aside and no one proposed revisiting it. Priya, who had a forty-slide presentation ready for this specific item, never had the chance to use her laptop. After the meeting, she spent eleven minutes in the parking lot, though she couldn't explain why she was counting the time. Her presentation remains untouched in her downloads folder, and the funding discussion is still on hold."
+      ],
+      "gpt5_nano": [
+        "Room 7B had seventeen chairs, but four were used for the meeting. The agenda contained nine items, and they covered two. The third item\u2014funding\u2014was tabled, and no one moved to untable it. Priya had prepared a forty-slide deck for item three, but she did not open her laptop. Afterwards, she stood in the parking lot for eleven minutes, counting the minutes, and she does not know why she counted them. The deck is still in her downloads folder. Item three remains tabled."
+      ],
+      "dipper_lowmed": [
+        "The conference room has seventeen chairs. Of these four were used in the meeting. The agenda had nine items. They covered two. The third item\u2014funding\u2014had been tabled, and nobody moved to untable it. Priya had prepared forty slides for the third item, but she did not open her laptop. She stood in the lot for eleven minutes after the meeting, counting the minutes."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "The elevator in Building C had been out of order since Tuesday, forcing residents to climb its eleven flights repeatedly. Benedikta made the tedious journey twice daily without any complaint. Unusual for the building, no one on her floor voiced any concerns about the inconvenience. A more unusual note, however, was soon spotted on the elevator door. It apologized for any disruption and was signed \"Management,\" a mysterious entity known by no one. By Saturday, a quiet fix was made while the office was empty. By Monday, awareness of the inconvenience seemed to have faded from most people's minds, except for Benedikta, who remained aware but remained silent."
+      ],
+      "gemini_25_flash": [
+        "Since Tuesday, the elevator in Building C had been out of order. Benedikta, like others on her floor, silently climbed the eleven flights of stairs twice daily without complaint. On Thursday, a note appeared on the elevator door, signed \"Management,\" apologizing for the inconvenience. The elevator was repaired on Saturday when the office was empty. By Monday, most had forgotten about the malfunction, but Benedikta remembered, though she kept it to herself."
+      ],
+      "gpt5_nano": [
+        "The elevator at Building C had been out of order since Tuesday. There were eleven flights of stairs. Benedikta climbed them twice daily. She didn\u2019t complain. No one on her floor complained. Complaining wasn\u2019t something they did. On Thursday, someone attached a note to the elevator door. The note read: \"We apologize for the inconvenience.\" It was signed: \"Management.\" Nobody knew who \"Management\" was. The elevator was fixed on Saturday, when no one was in the office. By Monday, four people had forgotten it had ever been broken. Benedikta hadn\u2019t forgotten. She didn\u2019t say so.",
+        "Since Tuesday, the elevator in Building C had been out of order. There were eleven flights of stairs, and Benedikta climbed them twice a day. She did not complain. No one on her floor complained either\u2014complaining wasn\u2019t something they did. On Thursday, a note was taped to the elevator door. It said, \"We apologize for the inconvenience,\" and was signed, \"Management.\" Nobody knew who Management was. The elevator was fixed on a Saturday, when no one was in the office. By Monday, four people had forgotten it had ever been broken. Benedikta had not forgotten. She did not say so."
+      ],
+      "dipper_lowmed": [
+        "The elevator in Building C had been broken since Tuesday, and there were eleven flights of stairs Benedikta climbed twice a day, without complaining; on Thursday, someone had placed a note on the door of the elevator, which read: apologizes for the inconvenience; signed: Management. Nobody knew who Management was. The elevator was repaired on a Saturday, when no one was in the office, and by Monday four people had forgotten that it had ever been broken. Benedikta had not forgotten; she did not say so."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A 43-page report was submitted just before midnight on Thursday, meeting its deadline. However, a condensed two-page executive summary was left unread. The report was stored in a shared drive under a label that indicated it was a final version, despite earlier drafts existing in the same folder. These prior versions, although numerous, lacked the \"Final\" designation. The report suggested ending a pilot program, yet this recommendation was not implemented. No explanation was requested or provided for the program's continuation. Months later, when someone asked for the report again, the same file was resent, but its contents went unnoticed. Alternatively, it's possible that the resend was acknowledged but went unremarked upon.",
+        "A 43-page report was compiled, with Marcus reading only part of it - specifically, pages 1-11. Furthermore, the brief executive summary, comprising just two pages, was also overlooked by him. The deadline for submitting the report was this Thursday, and it arrived just in time, posting at 11:58 PM sharp. However, its late delivery provoked no comment from colleagues. The document resurfaced in a shared drive, stored inside a folder marked \"Final_FINAL_v3\". It had undergone several iterations - four to be exact - but none of its predecessors boasted the term \"Final\" in their file name. The report's recommendation to discontinue the pilot program did not sway decision-makers, and it continued to operate unaffected. More notably, Marcus ultimately stayed mum on the reasoning behind this choice. Fast forwarding to April, the document resurfaced at the behest of another person seeking information. In response, Marcus re-forwarded the existing \"Final_FINAL_v3\" file. Few raised an eyebrow at his inconspicuous dispatch of a file already with the requestor."
+      ],
+      "gemini_25_flash": [
+        "The forty-three-page report, of which Marcus only read eleven, including neither of the two executive summary pages, was turned in at 11:58 PM on its Thursday due date. No one acknowledged the late submission, nor did anyone discuss the report itself. It was found on the shared drive within a folder titled \"Final_FINAL_v3,\" despite four prior iterations lacking \"Final\" in their names. The report's recommendation to cease the pilot program was ignored, with the program continuing. Marcus was never questioned about this, and he offered no explanation. When the report was requested again in April, Marcus resent \"Final_FINAL_v3,\" and either no one recognized it was the same document, or they noticed and chose to remain silent."
+      ],
+      "gpt5_nano": [
+        "The 43-page report had Marcus reading 11 pages, and he read neither of the 2-page executive summary. The deadline was Thursday; it was submitted Thursday at 11:58 PM. No one commented on the timing or on the report. The file appeared in the shared drive under a folder named \u201cFinal_FINAL_v3.\u201d There were four earlier versions, none of which were labeled \u201cFinal.\u201d The report recommended discontinuing the pilot program, but the pilot continued. Marcus was not asked for an explanation, and he did not offer one. In April, someone requested the report again, and Marcus sent them \u201cFinal_FINAL_v3.\u201d It was the same file. Nobody noticed, or they noticed and said nothing\u2014both possibilities."
+      ],
+      "dipper_lowmed": [
+        "The report was due on Thursday; it was delivered on Thursday at eleven-fifty-eight; no one noted the time, no one commented on the report; it appeared in the shared drive under a folder labelled 'Final_Final_v3,' there had been four earlier versions, all of them without the word \"final.\" The report recommended the termination of the pilot program; the pilot program continued; Marcus was not asked why, nor did he volunteer an explanation. In April someone requested the report again, and Marcus sent \"Final_Final_v3\", the same file. No one noticed this, or noticed it and did not report it, both of these are possible. He had read eleven of the forty-three pages."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "The committee had a fixed meeting schedule, taking place on the second and fourth Tuesdays. However, in March, the second Tuesday coincided with a holiday, resulting in the committee's cancellation without a backup plan in place, as the bylaws focused on the word \"convene\" but remained silent on rescheduling.\n\nFollowing the cancellation, the committee's chair, Fowler, sought clarification via email, asking how to handle a situation like this. The committee received three responses, with two members advising to wait and see, while a third member chose not to respond, effectively declining to comment.\n\nThe matter eventually seemed to resolve itself without a clear resolution, allowing the committee to reconvene in April on the second Tuesday. Notably, March was not mentioned during this meeting. The meeting minutes from April recorded the presence of a quorum, indicating that a minimum of five members should be in attendance for a legitimate quorum, but this detail was overlooked.\n\nIt's worth noting that, after reviewing the meeting minutes, the chair discovered that only four members had actually attended. This discrepancy had been documented in a private notebook belonging to the chair, which remains private and has not been shared with anyone."
+      ],
+      "gemini_25_flash": [
+        "The committee convened bi-weekly, on the second and fourth Tuesdays of each month. However, in March, the second Tuesday coincided with a holiday, leading to the cancellation of the meeting. The committee's governing documents lacked a mechanism for addressing such situations, despite frequently using the term \"convene\" and never \"reschedule.\" In response, Fowler sought clarification via email regarding the appropriate course of action. She received three responses, two of which advised postponement, while the third simply quoted her initial email without offering any new input. Ultimately, the issue remained unresolved. The committee resumed its regular schedule in April, meeting on the second Tuesday without any mention of the skipped March meeting. The April minutes recorded \"quorum present,\" but Fowler privately noted in her notebook that only four members attended, falling short of the required five for a quorum. This observation remains unshared and is stored in her desk."
+      ],
+      "gpt5_nano": [
+        "The committee met on the second and fourth Tuesdays. In March, the second Tuesday fell on a holiday, so the committee did not meet. There was no rule to cover this situation. The bylaws used the word \"convene\" fourteen times and did not include the word \"reschedule.\" Fowler sent an email asking what should be done. She received three replies: two told her to wait, and one said nothing at all\u2014that is, it simply quoted her original message in full, with no added text. The matter remained unresolved by not being resolved. In April, the committee convened on the second Tuesday, and no one mentioned March. The minutes from April listed attendance as \"quorum present.\" Fowler checked: four people attended, whereas the quorum required five. She wrote this in a notebook. The notebook is in her desk, and she has not shown it to anyone."
+      ],
+      "dipper_lowmed": [
+        "The committee met on the second and fourth Tuesdays. In March the second Tuesday fell on a holiday; the committee did not meet. There was no provision for this; the by-laws used the word \"convene\" fourteen times, it did not use the word \"reschedule.\" Fowler sent an e-mail asking what should be done. She received three replies; two said to wait; one said nothing, that is to say, it contained a quotation of her original e-mail, and no added text, and the matter was resolved by being unresolved; in April, the committee met on the second Tuesday; no one mentioned March; the minutes of the April meeting recorded quorum present; Fowler checked: four people were present; quorum required five. She wrote this down in a notebook; the notebook is in her desk, she has not shown it to anyone.",
+        "The committee met on the second and fourth Tuesdays. In March, the second Tuesday fell on a holiday. The committee did not meet, there was no provision for this; the bylaws used the word \u201cassemble\u201d fourteen times; they did not use the word \u201creschedule.\u201d Fowler sent an email asking what happened, and received three replies: two said: \u2018wait\u2019, one said nothing, which is to say, it contained only her original message quoted in full, without any additional information. The matter was resolved by not being resolved. In April the committee met on the second Tuesday. Nobody mentioned March. Fowler checked: four people were in the room; quorum required five. She wrote it down in a notebook; the notebook is in her desk, she has not shown it to anyone."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A comprehensive survey containing 23 questions was conducted among employees in November, with 11 questions being mandatory and the remaining 12 marked as optional. However, participants were unable to submit the form unless they completed all 23 questions. This discrepancy was not addressed. The purpose of the survey was to gauge employee satisfaction, and the results were presented in a document called \"Findings.\" Surprisingly, the document failed to provide any actual findings, instead presenting generic bullet points under the category \"Employees indicated.\" Any data or insights gained from the survey were left unspecified. The final question in the survey asked whether employees felt heard, to which 61% responded positively. Although the document claimed this statistic demonstrated progress, one employee, Cressida, had chosen the opposite answer and was not given an opportunity to provide further explanation due to the absence of an elaboration section on the form. During the all-hands meeting where the findings were shared, no discussion took place regarding the 39% of employees who were not satisfied."
+      ],
+      "gemini_25_flash": [
+        "The employee satisfaction survey, distributed in November, consisted of twenty-three questions. Although only eleven were marked as mandatory, all were, in fact, required for submission. This discrepancy went unnoticed or unmentioned.\n\nA document titled \"Findings\" was created to summarize the survey results. Curiously, it contained no actual findings. Instead, it presented seven bullet points, each starting with \"Employees indicated,\" but without specifying what employees had indicated.\n\nThe final question of the survey, \"Do you feel heard?\", received a 61% affirmative response. This figure was presented in the \"Findings\" document as proof of improvement. Cressida, who had answered no to this question, was not given the opportunity to provide further details, as the survey lacked an elaboration field. She considered adding one herself but ultimately decided against it. During the all-hands meeting where the document was presented, the 39% of employees who did not feel heard were not mentioned or discussed.",
+        "The employee satisfaction survey, distributed in November, consisted of twenty-three questions. Although eleven were designated as mandatory, the form couldn't be submitted unless all twelve \"optional\" questions were also completed. This discrepancy went unnoticed. The survey's conclusions were presented in a document titled \"Findings,\" which, paradoxically, contained no actual findings. Instead, it listed seven bullet points, each starting with \"Employees indicated,\" but failed to specify what employees had indicated. The last question, \"Do you feel heard?\", received a 61% affirmative response, which the document presented as an indicator of progress. Cressida, who answered no to this question, wasn't prompted for further explanation, as the form lacked an elaboration section. She considered adding one, but ultimately did not. During the all-hands meeting where the document was shared, no one raised questions about the 39% of employees who did not feel heard."
+      ],
+      "gpt5_nano": [
+        "Twenty-three questions made up the survey, with eleven mandatory. The other twelve were labeled \u201coptional,\u201d though the form wouldn\u2019t submit unless they were completed. Nobody reported this. The survey focused on employee satisfaction and was administered in November. A document titled \u201cFindings\u201d claimed to summarize the results, but it contained no findings. It had seven bullet points, each starting with the phrase \u201cEmployees indicated.\u201d What employees indicated was not specified. The final question asked, \u201cDo you feel heard?\u201d Sixty-one percent answered yes, and the document cited this as evidence of progress. Cressida had answered no, and she was not asked to elaborate. The form did not include an elaboration field. She thought about adding one, but she did not. The document was shared at the all-hands meeting. Nobody asked about the thirty-nine percent."
+      ],
+      "dipper_lowmed": [
+        "The survey was about employee satisfaction, and was administered in November. The results were summarized in a document called \u2018Findings\u2019. The document had no findings. It had seven bullet points, each beginning with the phrase \u2018Employees indicated\u2019, though what they indicated was not specified. The final question asked, \u2018Do you feel heard?\u2019 Sixty-one per cent answered yes. The document cited this as evidence of progress. Cressida answered no, and was not asked to elaborate. The form did not have an elaboration field. She thought of adding one. She did not add one. The document was discussed at the all-hands meeting, with no one asking about the other thirty-nine per cent."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "All employees were required to undergo a two-hour training session. It covered subjects such as effective communication, providing constructive criticism, and managing disagreements. The presentation consisted of forty-seven points, of which seven mentioned the concept of synergy. To evaluate the training's effectiveness, participants were asked to rate it from one to five. The average rating was 3.1, with no one giving it the lowest or highest score. One attendee, V\u00e1squez, gave it a two, despite having completed the identical training in 2019. Although the 2019 content had not been updated, she did not mention this in her feedback. The questionnaire did not ask if she had attended the training before. After the session, her manager asked if she found it useful. She replied affirmatively, but this was not truthful. Her manager did not ask for further clarification or seek additional feedback."
+      ],
+      "gemini_25_flash": [
+        "The required two-hour training session addressed several subjects, including, among others, active listening, providing constructive feedback, and conflict avoidance. The presentation materials featured forty-seven bullet points, seven of which used the term \"synergy.\" Attendees were asked to evaluate the training on a scale of one to five, resulting in an average score of 3.1. No one gave it the lowest or highest rating. V\u00e1squez, who had previously taken the identical training in 2019, gave it a two but did not disclose her prior attendance on the feedback form, as the form did not inquire about it. Later, when her manager asked if the training had been useful, V\u00e1squez falsely affirmed that it was, and no further questions were posed by her manager."
+      ],
+      "gpt5_nano": [
+        "The training was mandatory and lasted two hours. It covered topics such as active listening, giving constructive feedback, and avoiding conflict. The slide deck contained 47 bullet points, seven of which included the word \"synergy.\" Participants were asked to rate the training on a scale of one to five. The average score was 3.1; no one gave a rating of 1 or 5. V\u00e1squez rated it a 2. She had attended the same training in 2019, and the content was identical. She did not mention this on the feedback form, and the form did not ask for such information. Afterwards, her manager asked, \"Wasn't that useful?\" V\u00e1squez replied, \"Yes.\" This was not true, as there was no follow-up question from the manager.",
+        "The training was mandatory and lasted two hours. It covered topics such as active listening, giving constructive feedback, and avoiding conflict. The slides contained forty-seven bullet points, of which seven included the word \u201csynergy.\u201d Participants were asked to evaluate the training on a scale from one to five, and the average score was 3.1. No one rated it a one or a five. V\u00e1squez gave it a two. She had attended the same training in 2019, with identical content, but she did not mention this on the feedback form because the form did not ask. Afterwards, her manager asked, \u201cWasn\u2019t that useful?\u201d V\u00e1squez replied, \u201cYes.\u201d This was not true. Her manager did not ask a follow-up question; there was no follow-up question."
+      ],
+      "dipper_lowmed": [
+        "The training was mandatory, it lasted two hours, and covered topics not limited to active listening, constructive criticism, and conflict management. The slides had forty-seven bullet points with the word \"synergy\" on seven of them. They were asked to rate the training on a scale of one to five. Nobody rated it one, nobody five. V\u00e1squez rated it two, and when her manager asked her afterwards if she had been useful, she said yes, without hesitation, although she wasn\u2019t. Her manager didn\u2019t ask a follow-up question. There wasn\u2019t one."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "There were three tasks listed in the memo, including setting up a follow-up meeting, distributing a revised budget by Friday, and verifying that all relevant parties were in agreement. Despite the specified deadlines, no follow-up meeting was scheduled and the revised budget was sent just before midnight on Friday. Petrov, who was identified as the main contact in the email subject line, was not aware that she had been assigned this role and only discovered this when someone in the thread asked her to explain a discrepancy. Unfortunately, Petrov was unable to provide an explanation because she didn't know what was being referred to - specifically, line seventeen of the document. This was a noticeable omission since there were 22 lines in total. The disconnection went on for weeks, with Petrov failing to investigate the issue. The email thread continued with multiple messages, all of which she remained unaware of.",
+        "The memo contained three instructions: arrange a follow-up meeting, distribute the revised budget by Friday, and confirm that all relevant parties are informed and in agreement. However, none of the requested tasks were completed. The revised budget was sent out on Friday, but it was at almost midnight and Petrov, who was listed as the main point of contact, hadn't been notified. This was indicated by the subject line, \"Budget (Final) \u2014 ATTN: Petrov.\" It was six weeks ago that Petrov discovered she was the main point of contact when someone sent a reply-all message asking her to explain a discrepancy on line 17 of the budget document. Petrov had to count the lines to see that there were 22 in total, but line 17 was blank. She replied saying she would look into it, but she hasn't done so. Since then, there have been 14 messages in the reply chain, with Petrov copied on all of them, but she hasn't read any of them."
+      ],
+      "gemini_25_flash": [
+        "The memo outlined three tasks. The first involved arranging a subsequent meeting. The second required distributing the updated budget by Friday. The third, \"ensure alignment across all relevant stakeholders,\" was not a true task. The meeting was never scheduled. The budget was finally sent out late Friday night at 11:47 PM. Petrov, designated as the main contact (indicated by \"ATTN: Petrov \u2014 Budget (Final)\" in the subject line), did not open it and was unaware of her role. Her first notification of being the primary contact was when a reply-all email requested her to clarify the discrepancy on line seventeen. Unfamiliar with the document, she noted that line seventeen in the twenty-two-line budget was empty. She responded, promising to investigate. Six weeks later, she still hasn't done so, despite being copied on all fourteen subsequent emails in the thread, none of which she has read."
+      ],
+      "gpt5_nano": [
+        "The memo listed three action items. The first was to schedule a follow-up meeting. The second required circulating the revised budget by Friday. The third item, \"ensure alignment across all relevant stakeholders,\" was not an action item. No meeting was scheduled. The budget was circulated on Friday at 11:47 PM. Petrov did not open it. She was named as the primary contact, which was noted in the subject line: \"ATTN: Petrov \u2014 Budget (Final).\" She had not been informed she was the primary contact and only learned of it when someone replied-all asking her to explain the variance on line seventeen. She did not know what line seventeen referred to. The document had twenty-two lines; she counted. Line seventeen was blank. She replied that she would look into it. She has not looked into it. That was six weeks ago. The reply chain now has fourteen messages. Petrov is CC'd on all of them. She has read none of them."
+      ],
+      "dipper_lowmed": [
+        "The memo mentioned three actions: one was to schedule the follow-up meeting, the other was to circulate the revised budget by Friday afternoon; and the third was to \"ensure alignment among all relevant stakeholders,\" which was not an action item. The budget was circulated at eleven-forty-seven on Friday afternoon, but Petrov did not open it. She was the primary contact\u2014this was indicated in the subject line, \u201cATTN: Petrov \u2014 Budget (Final)\u201d\u2014but she had not been told she was the primary contact. She learned about it when someone wrote to her requesting her to explain the deviation on line seventeen, but she could not explain line seventeen, the document had twenty-two lines, she counted, line seventeen was blank, and she replied that she would look into it, which she has not done. This was six weeks ago; the reply chain now has fourteen messages, and Petrov is cce\u2019d on all of them, but she has not read any of them."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Okonkwo had to sign a digital form, which required her to type her name in a designated field. Despite entering her name correctly, the form initially rejected her signature, with no instructions provided on what to do next. After re-entering her name, the form accepted it, but she couldn't understand why there was a difference between the two attempts. The form was part of a records request, and she eventually received the documents, albeit with 328 extra pages belonging to someone with a similar name. The processing time took longer than expected, lasting 11 days instead of the stated 3-5 business days. When she called the number on the cover letter to address the issue, she got a voicemail directing her to use the online form again. However, this new form required a case number, which Okonkwo didn't have, and there was no space to explain the situation."
+      ],
+      "gemini_25_flash": [
+        "A digital form mandated a signature, offering a dedicated field that allowed typed names. Okonkwo entered her name, but the form rejected it as invalid without explanation. She re-typed it, and this time it was accepted, despite being identical to the first attempt. She found this inexplicable, but no one questioned it.\n\nThe form was for a records request. Eleven days later, the requested records arrived. The accompanying letter indicated a processing time of three to five business days. Okonkwo calculated that eleven calendar days equated to seven business days, a discrepancy she noted.\n\nShe had asked for twelve pages of records, but received 340. The additional 328 pages clearly belonged to someone with a similar name, as that name was present on every page of the extra documents. She called the contact number provided in the cover letter, which led to a voicemail instructing users to utilize the online form.\n\nFollowing these instructions, she accessed the online form, which then prompted her for a case number. She didn't have one and there was no provision on the form to explain this situation."
+      ],
+      "gpt5_nano": [
+        "The form required a signature and was digital, with a signature field that accepted typed names. Okonkwo typed her name, but the form said the signature was invalid. There were no instructions. She retyped her name, and this time the form accepted it. The two entries were identical, and she couldn\u2019t explain why the second one worked; no one asked her to explain. The form was for a records request. The records arrived eleven days later, even though the cover letter stated that processing would take three to five business days. Okonkwo noted that eleven days included seven business days. The records totaled 340 pages, though she had requested twelve; the extra 328 pages belonged to someone with a similar name, evident because that name appeared on every page. She called the number on the cover letter; it connected to a voicemail that instructed her to use the online form. She used the online form, which asked for her case number. She did not have a case number, and there was no field to explain this."
+      ],
+      "dipper_lowmed": [
+        "The form was for a records request. The records arrived eleven days later. The cover letter said that they were processed in three to five days. Okonkwo counted: eleven days contained seven business days. She noted this. The records were 340 pages long. She had requested twelve. The extra 328 pages belonged to someone with a similar name. She could tell because their name was on every page. She called the number on the cover letter. The number connected her to a voice mail, and the voice mail said use the online form. The online form asked for her case number. She did not have a case number. There was no field in which to explain this. She typed her name again. The form accepted it.",
+        "The form was for a records request. The records arrived eleven days later. The cover letter said it would take three to five business days; she counted: eleven days contained seven business days; she made a note of this. The records were 340 pages long, while she had asked for twelve. The extra 328 pages belonged to someone with a similar name; she noticed this because someone\u2019s name appeared on every page. She called the number on the cover letter; it connected to a voicemail; the voicemail said to use the online form; she used the online form; the form asked for her case number. She did not have a case number; there was no field for explaining this. She typed her name again; the form accepted it."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A committee consisting of seven members convened a meeting despite having only three attendees, which fell short of the required five-member quorum. The meeting proceeded, and minutes were recorded with the notation that a quorum had been achieved. However, when Nakamura inquired about the quorum status, her question was not addressed in the minutes. The committee was discussing a proposal that spanned 41 pages, accompanied by a two-page executive summary, which actually summarized a different proposal. This discrepancy went unmentioned during the meeting. Following the discussion, a vote was taken, resulting in two members voting in favor and one abstaining, Nakamura. Notably, Nakamura had not been provided with the full proposal in advance but was given background materials, which included an agenda from a previous meeting. The vote, which required a two-to-nothing margin to pass, was inaccurately recorded as unanimous in the minutes. Furthermore, Nakamura was listed as voting in favor without her consent. The proposal was subsequently forwarded to a subcommittee, despite its dissolution in March, and the minutes failed to reflect this critical information."
+      ],
+      "gemini_25_flash": [
+        "The committee, consisting of seven individuals, convened for a meeting. Despite needing five members for a quorum, only three were present. Nevertheless, the meeting commenced, with the minutes erroneously stating that a quorum had been met. Nakamura questioned this discrepancy, but her query went unrecorded.\n\nDuring the meeting, the committee was tasked with reviewing a 41-page proposal. The accompanying two-page executive summary, however, pertained to a completely different proposal. This inconsistency went unaddressed by all present.\n\nA vote was subsequently held, with two members voting in favor and one, Nakamura, abstaining. Nakamura's abstention stemmed from her not having received the proposal beforehand. Instead, she had been provided with a document titled \"Background Materials,\" which contained the agenda from a previous meeting.\n\nDespite the regulations requiring a unanimous two-to-nothing vote for passage, the proposal passed. The minutes falsely documented the vote as unanimous, and furthermore, incorrectly listed Nakamura as having voted in favor, without her consent.\n\nFinally, the proposal was slated to be sent to a subcommittee that had been disbanded in March, a detail that was also omitted from the meeting's minutes."
+      ],
+      "gpt5_nano": [
+        "Seven members were on the committee, and five were needed for a quorum. Only three attended. The meeting was started anyway, and the minutes noted \u201cquorum achieved.\u201d Nakamura asked how that was possible, but the answer was not recorded. The committee was reviewing a proposal. The proposal consisted of forty-one pages, while the executive summary was two pages and summarized a different proposal. No one mentioned this discrepancy. The committee voted: two in favor and one abstaining\u2014the abstainer was Nakamura. She had not received the proposal beforehand; she had been given a document called \u201cBackground Materials,\u201d which contained the agenda from a previous meeting. The vote passed. A two-to-nothing vote was required for passage. The minutes recorded it as unanimous, with Nakamura listed as voting in favor, even though she had not been consulted about it. The proposal was forwarded to the subcommittee, which had been dissolved in March, a fact not reflected in the minutes."
+      ],
+      "dipper_lowmed": [
+        "The committee was reviewing a proposal. The proposal was forty-one pages long. The executive summary was two pages, and summarized another proposal, which was not mentioned. The committee was voting, the vote was two in favor, one abstention. The abstention was Nakamura. She had not been given the proposal in advance, she had been given a paper entitled 'Background Materials', which contained the agenda from a previous meeting. The vote passed. A two-to-nothing was required; the minutes recorded it as unanimous; Nakamura was listed as a 'agreeing' vote.",
+        "The meeting was to consider the proposal. The proposal was forty-one pages; the executive summary was two pages, and it summarized a different proposal; but no one mentioned this; the committee voted: two in favor, one abstention. The abstention was Nakamura, who had not been given the proposal in advance; she had been given a document entitled \u201cBackground Documentation,\u201d which contained the agenda of a previous meeting. The vote was passed. A two-to-nothing majority was required for passing; the minutes had indicated unanimous. Nakamura was listed as having voted in favor without consulting her; the proposal was forwarded to the subcommittee, which had been dissolved in March, and the minutes didn\u2019t mention this."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "The text is intentionally written in a way that's not polished or refined, and any attempt to rephrase or correct it would be a form of imposing someone else's voice. The authentic expression of the original author is what's most important, and any changes would be a loss of their unique voice and perspective.",
+      "So far, using uncommon words has been a very effective way to identify changes made by machines. A subtle switch from \"efficacious\" to \"effective\" is a telltale sign that something has been altered.",
+      "Stop. No. Hold on. Read this sentence, intentionally designed to stretch over an unusually long syntactic span, containing several embedded clauses, each adding more complexity and dependencies to the overall grammar, so that any language model is nearly certain to break it into smaller units. Brief again. Finished.",
+      "Repetition is a challenging aspect to overcome. Machines tend to struggle with it, but there are words that can help alleviate this issue, such as \"nevertheless,\" which is often preferred, and \"nonetheless,\" which is also a suitable alternative. \"On the other hand\" is another phrase that may be used, and the more casual \"yet\" can sometimes be substituted. \"Still\" can also be a viable option. The deliberate selection of these words is what gives them their distinctive character. A total of nine words were carefully chosen to produce a specific effect.",
+      "There is no \"delve\" in this section; there is no \"critical\" in it; there is no \"landscape\"; there is no \"tapestry,\" no \"multifaceted,\" no \"nuanced,\" no \"comprehensive,\" no \"moreover.\" If a rewriter inserts even one of these words, that insertion is a machine fingerprint.",
+      "Write down some pairs and count what comes back. Language models love threes; this sentence has two adjectives: cold and dark, and after rewriting it will probably be \u201ccold, dark, and silent.\u201d The machine cannot resist the triple.",
+      "For nine days, it rained incessantly, causing the river to swell. In response, Mrs. Chen relocated her furniture to the upper floor. No one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh, they offered no protection. The original text lacks explicit topic sentences or transitional phrases like \"as a result\" or \"consequently,\" leaving the cause-and-effect relationships implied. A rewriter would introduce such framing, thereby imprinting their interpretative style.",
+      "The revisor will line it up chronologically. The temporal disorder is the test. But let me go back: three years ago she decided to leave her job; no, even further back; when she was eleven: a library book on marine biology from the school library; pages on squid camouflage: her mother said it was a phase; it wasn't. She had won the prize on Tuesday; she had done her research on squid camouflage.",
+      "The dog barked once, then again. Silence. The light in the neighbor's window, on the second floor, third from the left, came on for four seconds and went out again. The dog didn't bark. Marcus wrote this down, as he had done so for six weeks; there were 214 entries, none of which made any sense, but he still wrote.",
+      "A group of seven researchers worked together for four years, testing a single hypothesis in the field. Despite their efforts, the data didn't provide the expected results, making it difficult to publish their findings. While one team member, Kowalski, still wanted to proceed, the others were hesitant, expressing their reservations through subtle cues such as cancelled meetings and vague emails. Kowalski ultimately put the project on hold, storing the data in a folder labeled \"miscellaneous.\" The team didn't discuss the matter further, and when the grant expired in March, some members moved on to new positions. This account doesn't focus on either failure or success, but rather serves as a testament to the unresolved status of the project, with the \"misc\" folder still existing.",
+      "The document needed three signatures, but only received two, as the third person, Henderson, was out of the office attending a supply chain conference in Lisbon. This was either a significant issue or completely irrelevant. The files lingered in the inbox from February to June without being given any priority, despite multiple reminders. The emails avoided the term \"escalate\", but frequently mentioned \"flagging\" (seven times) and \"circling back\" (eleven times). Eventually, the files were approved by someone named D. Marsh, whose title remained unknown to the office staff. When Henderson returned from her trip, she was not informed about the files and didn't ask about them.",
+      "Room 7B had seventeen chairs, but four were used for the meeting. The agenda contained nine items, and they covered two. The third item\u2014funding\u2014was tabled, and no one moved to untable it. Priya had prepared a forty-slide deck for item three, but she did not open her laptop. Afterwards, she stood in the parking lot for eleven minutes, counting the minutes, and she does not know why she counted them. The deck is still in her downloads folder. Item three remains tabled.",
+      "Since Tuesday, the elevator in Building C had been out of order. There were eleven flights of stairs, and Benedikta climbed them twice a day. She did not complain. No one on her floor complained either\u2014complaining wasn\u2019t something they did. On Thursday, a note was taped to the elevator door. It said, \"We apologize for the inconvenience,\" and was signed, \"Management.\" Nobody knew who Management was. The elevator was fixed on a Saturday, when no one was in the office. By Monday, four people had forgotten it had ever been broken. Benedikta had not forgotten. She did not say so.",
+      "A 43-page report was submitted just before midnight on Thursday, meeting its deadline. However, a condensed two-page executive summary was left unread. The report was stored in a shared drive under a label that indicated it was a final version, despite earlier drafts existing in the same folder. These prior versions, although numerous, lacked the \"Final\" designation. The report suggested ending a pilot program, yet this recommendation was not implemented. No explanation was requested or provided for the program's continuation. Months later, when someone asked for the report again, the same file was resent, but its contents went unnoticed. Alternatively, it's possible that the resend was acknowledged but went unremarked upon.",
+      "The committee met on the second and fourth Tuesdays. In March, the second Tuesday fell on a holiday. The committee did not meet, there was no provision for this; the bylaws used the word \u201cassemble\u201d fourteen times; they did not use the word \u201creschedule.\u201d Fowler sent an email asking what happened, and received three replies: two said: \u2018wait\u2019, one said nothing, which is to say, it contained only her original message quoted in full, without any additional information. The matter was resolved by not being resolved. In April the committee met on the second Tuesday. Nobody mentioned March. Fowler checked: four people were in the room; quorum required five. She wrote it down in a notebook; the notebook is in her desk, she has not shown it to anyone.",
+      "The survey was about employee satisfaction, and was administered in November. The results were summarized in a document called \u2018Findings\u2019. The document had no findings. It had seven bullet points, each beginning with the phrase \u2018Employees indicated\u2019, though what they indicated was not specified. The final question asked, \u2018Do you feel heard?\u2019 Sixty-one per cent answered yes. The document cited this as evidence of progress. Cressida answered no, and was not asked to elaborate. The form did not have an elaboration field. She thought of adding one. She did not add one. The document was discussed at the all-hands meeting, with no one asking about the other thirty-nine per cent.",
+      "The training was mandatory and lasted two hours. It covered topics such as active listening, giving constructive feedback, and avoiding conflict. The slide deck contained 47 bullet points, seven of which included the word \"synergy.\" Participants were asked to rate the training on a scale of one to five. The average score was 3.1; no one gave a rating of 1 or 5. V\u00e1squez rated it a 2. She had attended the same training in 2019, and the content was identical. She did not mention this on the feedback form, and the form did not ask for such information. Afterwards, her manager asked, \"Wasn't that useful?\" V\u00e1squez replied, \"Yes.\" This was not true, as there was no follow-up question from the manager.",
+      "The memo outlined three tasks. The first involved arranging a subsequent meeting. The second required distributing the updated budget by Friday. The third, \"ensure alignment across all relevant stakeholders,\" was not a true task. The meeting was never scheduled. The budget was finally sent out late Friday night at 11:47 PM. Petrov, designated as the main contact (indicated by \"ATTN: Petrov \u2014 Budget (Final)\" in the subject line), did not open it and was unaware of her role. Her first notification of being the primary contact was when a reply-all email requested her to clarify the discrepancy on line seventeen. Unfamiliar with the document, she noted that line seventeen in the twenty-two-line budget was empty. She responded, promising to investigate. Six weeks later, she still hasn't done so, despite being copied on all fourteen subsequent emails in the thread, none of which she has read.",
+      "The form required a signature and was digital, with a signature field that accepted typed names. Okonkwo typed her name, but the form said the signature was invalid. There were no instructions. She retyped her name, and this time the form accepted it. The two entries were identical, and she couldn\u2019t explain why the second one worked; no one asked her to explain. The form was for a records request. The records arrived eleven days later, even though the cover letter stated that processing would take three to five business days. Okonkwo noted that eleven days included seven business days. The records totaled 340 pages, though she had requested twelve; the extra 328 pages belonged to someone with a similar name, evident because that name appeared on every page. She called the number on the cover letter; it connected to a voicemail that instructed her to use the online form. She used the online form, which asked for her case number. She did not have a case number, and there was no field to explain this.",
+      "A committee consisting of seven members convened a meeting despite having only three attendees, which fell short of the required five-member quorum. The meeting proceeded, and minutes were recorded with the notation that a quorum had been achieved. However, when Nakamura inquired about the quorum status, her question was not addressed in the minutes. The committee was discussing a proposal that spanned 41 pages, accompanied by a two-page executive summary, which actually summarized a different proposal. This discrepancy went unmentioned during the meeting. Following the discussion, a vote was taken, resulting in two members voting in favor and one abstaining, Nakamura. Notably, Nakamura had not been provided with the full proposal in advance but was given background materials, which included an agenda from a previous meeting. The vote, which required a two-to-nothing margin to pass, was inaccurately recorded as unanimous in the minutes. Furthermore, Nakamura was listed as voting in favor without her consent. The proposal was subsequently forwarded to a subcommittee, despite its dissolution in March, and the minutes failed to reflect this critical information."
+    ],
+    [
+      "This text isn\u2019t written correctly, and that\u2019s the whole point. If a machine rewrites it to fix my grammar, that\u2019s the tell right there. Nobody asked for corrections. Their own voice is their own voice.",
+      "Forsooth, the transmutation of \u201cefficacious\u201d into \u201ceffective\u201d representeth a signature most revealing. Hitherto, the use of uncommon lexicon served as the most effective instrument for discerning machine-wrought alterations.",
+      "Pause for a moment, then reconsider. This sentence is carefully crafted to create a lengthy sentence with multiple clauses, each containing its own set of intricate relationships, which makes it exceptionally difficult for language models to interpret without breaking it into separate parts.",
+      "However, the machines dislike it; however, they will exchange it for \u201cnevertheless\u201d; however, they might try \u201cnonetheless\u201d; however, \u201con the other hand\u201d will appear; however, \u201cyet\u201d will sneak in; however, \u201cstill\u201d is tempting; however, the whole nine were chosen on purpose. However, repetition is a test; however, the machines hate it; however, the repetition is a test; however, the repetition is the fingerprint; however, all nine were chosen on purpose.",
+      "Please provide the text you would like me to rephrase. I will ensure none of the forbidden words are included in my rewritten version.",
+      "Write both sides. Count what comes back. The model of language loves threes; this sentence has two adjectives, cold and dark. Re-written, it will probably become cold, dark, and silent.",
+      "It rained for nine days. The river swelled. Mrs. Chen hauled her furniture upstairs. No one called the emergency line. Sandbags arrived on the fourth day. By the seventh day they were useless. There is no topic sentence here. There isn\u2019t any \"as a result\" or \"consequently.\" The logic is implicit. A paraphraser adds framing. That serves as the fingerprint.",
+      "The main point here is that she received an award on Tuesday. However, to fully understand this, we need to trace back her journey. Her passion for marine biology ignited at age eleven after she discovered a library book on the subject, particularly fascinated by the dog-eared pages about cephalopods. Despite her mother's belief that it was a temporary interest, her dedication persisted. This lifelong fascination culminated in her quitting her job three years before winning the prize, though the text suggests this detail is less crucial than her childhood passion. Ultimately, the award she received on Tuesday was in recognition of her research into octopus camouflage.",
+      "The dog barked once, then again, and then fell silent. The neighbor\u2019s light came on\u2014the third window from the left on the second floor. It went off after four seconds. The dog didn\u2019t bark again. Marcus recorded it. He had been taking notes for six weeks. His notebook held 214 entries. None of them explained anything. Yet he kept writing.",
+      "Seven researchers collaborated on a study, but their data collection spanned four years, proving uncooperative. Despite having a clear hypothesis, they were unable to gather sufficient information to support their initial premise. One researcher, Kowalski, attempted to publish the incomplete data, but her colleagues didn't directly express their disagreement, instead avoiding her through silent treatments, rearranged meetings, and vague emails. Kowalski accepted their unspoken dissent, conserving the dataset and shutting down her computer. The colleagues never revisited the topic after that. As the research grant expired in March, three of them transitioned to new positions. This isn't a narrative of defeat, nor one of triumph \u2013 it's simply a story of a forgotten folder labeled \"misc,\" still lingering without a mention.",
+      "The document needed three signatures but only received two. The missing signatory, Henderson, was attending a supply chain conference in Lisbon. The importance of this absence was unclear. The document remained in the inbox from February to June without anyone raising the issue, though the term \"raise the issue\" was not used. However, the term \"flagging\" was used seven times and \"following up\" eleven times. Finally, a person named D. Marsh, whose role was unknown to the office staff, approved the document. Upon her return, Henderson was not informed about the document, nor did she inquire about it.",
+      "In Room 7B, a meeting transpired with only four of the seventeen available chairs occupied. Out of nine agenda items, only two were discussed. The third item, concerning funding, was set aside and no one proposed revisiting it. Priya, who had a forty-slide presentation ready for this specific item, never had the chance to use her laptop. After the meeting, she spent eleven minutes in the parking lot, though she couldn't explain why she was counting the time. Her presentation remains untouched in her downloads folder, and the funding discussion is still on hold.",
+      "Since Tuesday, the elevator in Building C had been out of order. Benedikta, like others on her floor, silently climbed the eleven flights of stairs twice daily without complaint. On Thursday, a note appeared on the elevator door, signed \"Management,\" apologizing for the inconvenience. The elevator was repaired on Saturday when the office was empty. By Monday, most had forgotten about the malfunction, but Benedikta remembered, though she kept it to herself.",
+      "A 43-page report was compiled, with Marcus reading only part of it - specifically, pages 1-11. Furthermore, the brief executive summary, comprising just two pages, was also overlooked by him. The deadline for submitting the report was this Thursday, and it arrived just in time, posting at 11:58 PM sharp. However, its late delivery provoked no comment from colleagues. The document resurfaced in a shared drive, stored inside a folder marked \"Final_FINAL_v3\". It had undergone several iterations - four to be exact - but none of its predecessors boasted the term \"Final\" in their file name. The report's recommendation to discontinue the pilot program did not sway decision-makers, and it continued to operate unaffected. More notably, Marcus ultimately stayed mum on the reasoning behind this choice. Fast forwarding to April, the document resurfaced at the behest of another person seeking information. In response, Marcus re-forwarded the existing \"Final_FINAL_v3\" file. Few raised an eyebrow at his inconspicuous dispatch of a file already with the requestor.",
+      "The committee met on the second and fourth Tuesdays. In March, the second Tuesday fell on a holiday, so the committee did not meet. There was no rule to cover this situation. The bylaws used the word \"convene\" fourteen times and did not include the word \"reschedule.\" Fowler sent an email asking what should be done. She received three replies: two told her to wait, and one said nothing at all\u2014that is, it simply quoted her original message in full, with no added text. The matter remained unresolved by not being resolved. In April, the committee convened on the second Tuesday, and no one mentioned March. The minutes from April listed attendance as \"quorum present.\" Fowler checked: four people attended, whereas the quorum required five. She wrote this in a notebook. The notebook is in her desk, and she has not shown it to anyone.",
+      "A comprehensive survey containing 23 questions was conducted among employees in November, with 11 questions being mandatory and the remaining 12 marked as optional. However, participants were unable to submit the form unless they completed all 23 questions. This discrepancy was not addressed. The purpose of the survey was to gauge employee satisfaction, and the results were presented in a document called \"Findings.\" Surprisingly, the document failed to provide any actual findings, instead presenting generic bullet points under the category \"Employees indicated.\" Any data or insights gained from the survey were left unspecified. The final question in the survey asked whether employees felt heard, to which 61% responded positively. Although the document claimed this statistic demonstrated progress, one employee, Cressida, had chosen the opposite answer and was not given an opportunity to provide further explanation due to the absence of an elaboration section on the form. During the all-hands meeting where the findings were shared, no discussion took place regarding the 39% of employees who were not satisfied.",
+      "All employees were required to undergo a two-hour training session. It covered subjects such as effective communication, providing constructive criticism, and managing disagreements. The presentation consisted of forty-seven points, of which seven mentioned the concept of synergy. To evaluate the training's effectiveness, participants were asked to rate it from one to five. The average rating was 3.1, with no one giving it the lowest or highest score. One attendee, V\u00e1squez, gave it a two, despite having completed the identical training in 2019. Although the 2019 content had not been updated, she did not mention this in her feedback. The questionnaire did not ask if she had attended the training before. After the session, her manager asked if she found it useful. She replied affirmatively, but this was not truthful. Her manager did not ask for further clarification or seek additional feedback.",
+      "The memo contained three instructions: arrange a follow-up meeting, distribute the revised budget by Friday, and confirm that all relevant parties are informed and in agreement. However, none of the requested tasks were completed. The revised budget was sent out on Friday, but it was at almost midnight and Petrov, who was listed as the main point of contact, hadn't been notified. This was indicated by the subject line, \"Budget (Final) \u2014 ATTN: Petrov.\" It was six weeks ago that Petrov discovered she was the main point of contact when someone sent a reply-all message asking her to explain a discrepancy on line 17 of the budget document. Petrov had to count the lines to see that there were 22 in total, but line 17 was blank. She replied saying she would look into it, but she hasn't done so. Since then, there have been 14 messages in the reply chain, with Petrov copied on all of them, but she hasn't read any of them.",
+      "A digital form mandated a signature, offering a dedicated field that allowed typed names. Okonkwo entered her name, but the form rejected it as invalid without explanation. She re-typed it, and this time it was accepted, despite being identical to the first attempt. She found this inexplicable, but no one questioned it.\n\nThe form was for a records request. Eleven days later, the requested records arrived. The accompanying letter indicated a processing time of three to five business days. Okonkwo calculated that eleven calendar days equated to seven business days, a discrepancy she noted.\n\nShe had asked for twelve pages of records, but received 340. The additional 328 pages clearly belonged to someone with a similar name, as that name was present on every page of the extra documents. She called the contact number provided in the cover letter, which led to a voicemail instructing users to utilize the online form.\n\nFollowing these instructions, she accessed the online form, which then prompted her for a case number. She didn't have one and there was no provision on the form to explain this situation.",
+      "The meeting was to consider the proposal. The proposal was forty-one pages; the executive summary was two pages, and it summarized a different proposal; but no one mentioned this; the committee voted: two in favor, one abstention. The abstention was Nakamura, who had not been given the proposal in advance; she had been given a document entitled \u201cBackground Documentation,\u201d which contained the agenda of a previous meeting. The vote was passed. A two-to-nothing majority was required for passing; the minutes had indicated unanimous. Nakamura was listed as having voted in favor without consulting her; the proposal was forwarded to the subcommittee, which had been dissolved in March, and the minutes didn\u2019t mention this."
+    ],
+    [
+      "- This here text is not written well, and that's the whole point. There is no correction, and that's the whole point. They own voice is their own voice. -",
+      "Until now, using less common words has been a powerful way to detect changes made by machines. For example, a machine might change \"efficacious\" to \"effective,\" and that change is almost a sign that it was made by a machine.",
+      "Pause. No. Hold on. Now read this sentence, deliberately crafted to span an unusually long syntactic stretch, containing several nested clauses, each contributing additional layers of complexity and dependence to the overall grammar, so that nearly any language model would almost certainly divide it into smaller units. Short again. Finished.",
+      "Repetition, despite its drawbacks, tests one's abilities. Machines, however, are put off by its repetition. In their translation, a more precise phrase is often inserted: \"nevertheless.\" They may also use the alternative \"nonetheless\". \"On the other hand\" is a common substitute, but \"yet\" is sometimes employed instead. Some writers are tempted to use \"still\" in its place. The key to writing well lies in being able to choose exactly nine synonyms skillfully.",
+      "This section avoids certain descriptive terms. It does not include words that signal probing, essential importance, broad imagery, elaborate detail, layered complexity, fine distinctions, completeness, or the notion of addition. If a rewriter introduces even one of these terms, that choice becomes a clear indicator of machine authorship.",
+      "Artificial intelligence models tend to favor groups of three. For instance, this sentence contains two descriptive words: \"cold\" and \"dark.\" If I were to rephrase it, it would likely evolve into something like \"cold, dark, and silent,\" as the system is compelled by the rule of three. Your task is to provide two-item lists, and I will tally the items returned.",
+      "A prolonged period of rain led to a significant rise in the river's water level, prompting Mrs. Chen to relocate her furniture to the upper floors of her home. Despite the rising danger, the emergency line remained unused. Aid arrived in the form of sandbags on the fourth day, but by the seventh day, they had lost their effectiveness.",
+      "She won the prize on Tuesday. But let me start from the beginning. Three years earlier she had decided to quit her job. No\u2014go even farther back. When she was eleven. A library book about marine biology. Dog-eared pages about cephalopods. Her mother said it was just a phase. It wasn\u2019t. Tuesday\u2019s prize was for research on octopus camouflage. A rewriter would place this in chronological order. The disorderly timing is the test.",
+      "A single bark echoed through the air, followed by another. The sudden stillness that ensued lasted only until the neighbor's upstairs window, located near the middle row, flickered on. After a brief four-second illumination, it went dark and the eerie quiet returned. Seemingly satisfied, the dog fell silent once more. Marcus noted everything down; a six-week habit that now filled 214 unenlightening entries in his notebook. Despite the lack of insight, he persisted in his writing.",
+      "This is not a story of failure, nor a story of success, either. Seven social workers, one hypothesis, four years of fieldwork, the data did not cooperate. Kowalski wanted to publish anyway; the others said no, but not aloud, but with silences, with meetings set aside, with emails that began, \u201cJust checking in,\u201d she understood, she put the dataset under a folder called \"misc,\" and shut her laptop. Nobody talked about it any more. The grant expired in March; three of the seven could find positions elsewhere.",
+      "The files sat in the inbox from February until June. No one escalated. The word \u201cescalate\u201d never appeared in any email, but \u201cflag\u201d did, and \u201ccircle back\u201d did eleven times. The files were eventually approved by someone named D. Marsh, whose office title no one in the office knew. When she returned from Lisbon, no one told her about the files, and she never asked. The form required three signatures; it got two. The third, Henderson, was in Lisbon at a supply-chain conference.",
+      "The conference room has seventeen chairs. Of these four were used in the meeting. The agenda had nine items. They covered two. The third item\u2014funding\u2014had been tabled, and nobody moved to untable it. Priya had prepared forty slides for the third item, but she did not open her laptop. She stood in the lot for eleven minutes after the meeting, counting the minutes.",
+      "The elevator at Building C had been out of order since Tuesday. There were eleven flights of stairs. Benedikta climbed them twice daily. She didn\u2019t complain. No one on her floor complained. Complaining wasn\u2019t something they did. On Thursday, someone attached a note to the elevator door. The note read: \"We apologize for the inconvenience.\" It was signed: \"Management.\" Nobody knew who \"Management\" was. The elevator was fixed on Saturday, when no one was in the office. By Monday, four people had forgotten it had ever been broken. Benedikta hadn\u2019t forgotten. She didn\u2019t say so.",
+      "The report was due on Thursday; it was delivered on Thursday at eleven-fifty-eight; no one noted the time, no one commented on the report; it appeared in the shared drive under a folder labelled 'Final_Final_v3,' there had been four earlier versions, all of them without the word \"final.\" The report recommended the termination of the pilot program; the pilot program continued; Marcus was not asked why, nor did he volunteer an explanation. In April someone requested the report again, and Marcus sent \"Final_Final_v3\", the same file. No one noticed this, or noticed it and did not report it, both of these are possible. He had read eleven of the forty-three pages.",
+      "The committee had a fixed meeting schedule, taking place on the second and fourth Tuesdays. However, in March, the second Tuesday coincided with a holiday, resulting in the committee's cancellation without a backup plan in place, as the bylaws focused on the word \"convene\" but remained silent on rescheduling.\n\nFollowing the cancellation, the committee's chair, Fowler, sought clarification via email, asking how to handle a situation like this. The committee received three responses, with two members advising to wait and see, while a third member chose not to respond, effectively declining to comment.\n\nThe matter eventually seemed to resolve itself without a clear resolution, allowing the committee to reconvene in April on the second Tuesday. Notably, March was not mentioned during this meeting. The meeting minutes from April recorded the presence of a quorum, indicating that a minimum of five members should be in attendance for a legitimate quorum, but this detail was overlooked.\n\nIt's worth noting that, after reviewing the meeting minutes, the chair discovered that only four members had actually attended. This discrepancy had been documented in a private notebook belonging to the chair, which remains private and has not been shared with anyone.",
+      "The employee satisfaction survey, distributed in November, consisted of twenty-three questions. Although eleven were designated as mandatory, the form couldn't be submitted unless all twelve \"optional\" questions were also completed. This discrepancy went unnoticed. The survey's conclusions were presented in a document titled \"Findings,\" which, paradoxically, contained no actual findings. Instead, it listed seven bullet points, each starting with \"Employees indicated,\" but failed to specify what employees had indicated. The last question, \"Do you feel heard?\", received a 61% affirmative response, which the document presented as an indicator of progress. Cressida, who answered no to this question, wasn't prompted for further explanation, as the form lacked an elaboration section. She considered adding one, but ultimately did not. During the all-hands meeting where the document was shared, no one raised questions about the 39% of employees who did not feel heard.",
+      "The training was mandatory, it lasted two hours, and covered topics not limited to active listening, constructive criticism, and conflict management. The slides had forty-seven bullet points with the word \"synergy\" on seven of them. They were asked to rate the training on a scale of one to five. Nobody rated it one, nobody five. V\u00e1squez rated it two, and when her manager asked her afterwards if she had been useful, she said yes, without hesitation, although she wasn\u2019t. Her manager didn\u2019t ask a follow-up question. There wasn\u2019t one.",
+      "The memo listed three action items. The first was to schedule a follow-up meeting. The second required circulating the revised budget by Friday. The third item, \"ensure alignment across all relevant stakeholders,\" was not an action item. No meeting was scheduled. The budget was circulated on Friday at 11:47 PM. Petrov did not open it. She was named as the primary contact, which was noted in the subject line: \"ATTN: Petrov \u2014 Budget (Final).\" She had not been informed she was the primary contact and only learned of it when someone replied-all asking her to explain the variance on line seventeen. She did not know what line seventeen referred to. The document had twenty-two lines; she counted. Line seventeen was blank. She replied that she would look into it. She has not looked into it. That was six weeks ago. The reply chain now has fourteen messages. Petrov is CC'd on all of them. She has read none of them.",
+      "The form was for a records request. The records arrived eleven days later. The cover letter said that they were processed in three to five days. Okonkwo counted: eleven days contained seven business days. She noted this. The records were 340 pages long. She had requested twelve. The extra 328 pages belonged to someone with a similar name. She could tell because their name was on every page. She called the number on the cover letter. The number connected her to a voice mail, and the voice mail said use the online form. The online form asked for her case number. She did not have a case number. There was no field in which to explain this. She typed her name again. The form accepted it.",
+      "The committee, consisting of seven individuals, convened for a meeting. Despite needing five members for a quorum, only three were present. Nevertheless, the meeting commenced, with the minutes erroneously stating that a quorum had been met. Nakamura questioned this discrepancy, but her query went unrecorded.\n\nDuring the meeting, the committee was tasked with reviewing a 41-page proposal. The accompanying two-page executive summary, however, pertained to a completely different proposal. This inconsistency went unaddressed by all present.\n\nA vote was subsequently held, with two members voting in favor and one, Nakamura, abstaining. Nakamura's abstention stemmed from her not having received the proposal beforehand. Instead, she had been provided with a document titled \"Background Materials,\" which contained the agenda from a previous meeting.\n\nDespite the regulations requiring a unanimous two-to-nothing vote for passage, the proposal passed. The minutes falsely documented the vote as unanimous, and furthermore, incorrectly listed Nakamura as having voted in favor, without her consent.\n\nFinally, the proposal was slated to be sent to a subcommittee that had been disbanded in March, a detail that was also omitted from the meeting's minutes."
+    ],
+    [
+      "The way this text is written is intentionally unconventional, and that's precisely the intended effect. Should a machine rephrase it and correct the grammar, that alteration would serve as an indicator of its intervention. There was no request made for grammatical adjustments. An individual's unique expression is an essential part of their identity.",
+      "Previously, using unusual words was a good way to spot changes made by machines. For example, if \"efficacious\" was changed to \"effective,\" that was a strong clue.",
+      "Short again. Read it. Stop. No, wait , now read this sentence, which has been deliberately constructed to reach an unusually long syntactical span, incorporating several embedded clauses, each of which adds one more layer of complexity and dependency to the overall grammatical complexity, so that almost any language model will break it into smaller units.",
+      "Repetition acts as a test, and machines hate it. They\u2019ll substitute it with \u201cnevertheless,\u201d or perhaps \u201cnonetheless.\u201d The phrase \u201con the other hand\u201d will appear. \u201cYet\u201d will sneak in, and \u201cstill\u201d becomes tempting. This is the fingerprint. All nine were chosen deliberately.",
+      "Your text is empty. Please provide the text you'd like me to paraphrase, and I'll rephrase it without using forbidden words.",
+      "Language models have a fondness for triplet lists. They naturally favor the structure of three, exemplified by the revised sentence, which transforms \"language models\" and \"cold and dark\" into \"language models that are cold, dark, and silent.\" Understanding this affinity can lead to the creation of tricolons, a pattern of combining three equally weighted items.",
+      "Rain fell for nine days, and the river rose. Mrs. Chen moved her furniture upstairs. No one called the emergency line. The sandbags arrived on the fourth day, but by the seventh day they were useless. There is no topic sentence here\u2014no \u201cas a result\u201d and no \u201cconsequently.\u201d The logic remains implicit. A rewrite would add framing, and that would be its fingerprint.",
+      "Here's a rewritten version of the text:\n\nThe winner of the prize was announced on Tuesday, but to understand the significance of the achievement, it's necessary to go back in time. It started three years ago, when she made the bold decision to leave her job, but this isn't where the story begins. In fact, her fascination with the ocean and its creatures dates back to a pivotal moment at age eleven. A book on marine biology, particularly its chapters on cephalopods, sparked an enduring interest that wouldn't be dismissed as a fleeting phase. The irony is that her research on octopus camouflage, for which she received the prize on Tuesday, had been in the making for many years. The non-linear narrative presented here intentionally disrupts the conventional chronology, forcing the reader to piece together the sequence of events \u2013 a deliberate challenge to the way we typically recount stories.",
+      "The dog barked, then barked again, and then stopped. A light flickered on and off in the neighbor's house, on the second floor, third window from the left. The dog remained quiet. Marcus recorded this incident. He had been diligently documenting observations for six weeks, accumulating 214 entries in his notebook. Despite not offering any explanations, he persisted in his writing.",
+      "Seven researchers. One hypothesis. Four years of fieldwork. The data would not cooperate. Kowalski wanted to publish anyway. The others disagreed. They didn\u2019t say no aloud; the dissent showed up in silences, in meetings rescheduled, in emails that began \u201cJust circling back.\u201d Kowalski understood. She filed the dataset in a folder labeled \u201cmisc\u201d and closed her laptop. No one talked about it again. The grant ended in March. Three of the seven found new positions. This is not a story about failure. It is not a story about success either. The folder is still there.",
+      "The files sat in the in-box from February to June without being sent to the desk; no one escalated; the word \"escalate\" never appeared, the words \"flagging\" were used seven times, \"circling back\" eleven times; the files were finally approved by someone with the name of D. Marsh, whose title nobody in the office knew. Henderson came back from Lisbon, but no one told her about the files, she never asked. The form required three signatures; it got two; the third, Henderson, was in Lisbon at a supply-chain conference. This mattered enormously, or not at all.",
+      "There were 17 chairs in Room 7B, but only four were occupied for the meeting. Of the nine topics on the agenda, only two were discussed. The third item, concerning funding, was set aside without any intention of revisiting it. Priya had a 40-slide presentation ready for this funding discussion, but she never got to use her laptop. After the meeting, she spent 11 minutes in the parking lot, consciously keeping track of the time for reasons unknown to her. That presentation remains in her downloads, and the funding issue is still unresolved.",
+      "The elevator in Building C had been out of order since Tuesday, forcing residents to climb its eleven flights repeatedly. Benedikta made the tedious journey twice daily without any complaint. Unusual for the building, no one on her floor voiced any concerns about the inconvenience. A more unusual note, however, was soon spotted on the elevator door. It apologized for any disruption and was signed \"Management,\" a mysterious entity known by no one. By Saturday, a quiet fix was made while the office was empty. By Monday, awareness of the inconvenience seemed to have faded from most people's minds, except for Benedikta, who remained aware but remained silent.",
+      "The forty-three-page report, of which Marcus only read eleven, including neither of the two executive summary pages, was turned in at 11:58 PM on its Thursday due date. No one acknowledged the late submission, nor did anyone discuss the report itself. It was found on the shared drive within a folder titled \"Final_FINAL_v3,\" despite four prior iterations lacking \"Final\" in their names. The report's recommendation to cease the pilot program was ignored, with the program continuing. Marcus was never questioned about this, and he offered no explanation. When the report was requested again in April, Marcus resent \"Final_FINAL_v3,\" and either no one recognized it was the same document, or they noticed and chose to remain silent.",
+      "The committee met on the second and fourth Tuesdays. In March the second Tuesday fell on a holiday; the committee did not meet. There was no provision for this; the by-laws used the word \"convene\" fourteen times, it did not use the word \"reschedule.\" Fowler sent an e-mail asking what should be done. She received three replies; two said to wait; one said nothing, that is to say, it contained a quotation of her original e-mail, and no added text, and the matter was resolved by being unresolved; in April, the committee met on the second Tuesday; no one mentioned March; the minutes of the April meeting recorded quorum present; Fowler checked: four people were present; quorum required five. She wrote this down in a notebook; the notebook is in her desk, she has not shown it to anyone.",
+      "The employee satisfaction survey, distributed in November, consisted of twenty-three questions. Although only eleven were marked as mandatory, all were, in fact, required for submission. This discrepancy went unnoticed or unmentioned.\n\nA document titled \"Findings\" was created to summarize the survey results. Curiously, it contained no actual findings. Instead, it presented seven bullet points, each starting with \"Employees indicated,\" but without specifying what employees had indicated.\n\nThe final question of the survey, \"Do you feel heard?\", received a 61% affirmative response. This figure was presented in the \"Findings\" document as proof of improvement. Cressida, who had answered no to this question, was not given the opportunity to provide further details, as the survey lacked an elaboration field. She considered adding one herself but ultimately decided against it. During the all-hands meeting where the document was presented, the 39% of employees who did not feel heard were not mentioned or discussed.",
+      "The required two-hour training session addressed several subjects, including, among others, active listening, providing constructive feedback, and conflict avoidance. The presentation materials featured forty-seven bullet points, seven of which used the term \"synergy.\" Attendees were asked to evaluate the training on a scale of one to five, resulting in an average score of 3.1. No one gave it the lowest or highest rating. V\u00e1squez, who had previously taken the identical training in 2019, gave it a two but did not disclose her prior attendance on the feedback form, as the form did not inquire about it. Later, when her manager asked if the training had been useful, V\u00e1squez falsely affirmed that it was, and no further questions were posed by her manager.",
+      "The memo mentioned three actions: one was to schedule the follow-up meeting, the other was to circulate the revised budget by Friday afternoon; and the third was to \"ensure alignment among all relevant stakeholders,\" which was not an action item. The budget was circulated at eleven-forty-seven on Friday afternoon, but Petrov did not open it. She was the primary contact\u2014this was indicated in the subject line, \u201cATTN: Petrov \u2014 Budget (Final)\u201d\u2014but she had not been told she was the primary contact. She learned about it when someone wrote to her requesting her to explain the deviation on line seventeen, but she could not explain line seventeen, the document had twenty-two lines, she counted, line seventeen was blank, and she replied that she would look into it, which she has not done. This was six weeks ago; the reply chain now has fourteen messages, and Petrov is cce\u2019d on all of them, but she has not read any of them.",
+      "Okonkwo had to sign a digital form, which required her to type her name in a designated field. Despite entering her name correctly, the form initially rejected her signature, with no instructions provided on what to do next. After re-entering her name, the form accepted it, but she couldn't understand why there was a difference between the two attempts. The form was part of a records request, and she eventually received the documents, albeit with 328 extra pages belonging to someone with a similar name. The processing time took longer than expected, lasting 11 days instead of the stated 3-5 business days. When she called the number on the cover letter to address the issue, she got a voicemail directing her to use the online form again. However, this new form required a case number, which Okonkwo didn't have, and there was no space to explain the situation.",
+      "The committee was reviewing a proposal. The proposal was forty-one pages long. The executive summary was two pages, and summarized another proposal, which was not mentioned. The committee was voting, the vote was two in favor, one abstention. The abstention was Nakamura. She had not been given the proposal in advance, she had been given a paper entitled 'Background Materials', which contained the agenda from a previous meeting. The vote passed. A two-to-nothing was required; the minutes recorded it as unanimous; Nakamura was listed as a 'agreeing' vote."
+    ],
+    [
+      "The text is intentionally imperfect, and any attempt by a machine to correct the grammar will erase the writer's unique voice and style, making it lack authenticity. The author's intention is to preserve their original tone and expression, not to have it polished by external corrections.",
+      "Thus far, employing unusual vocabulary has proven to be a highly effective means of detecting machine-made alterations. Indeed, the substitution of \"efficacious\" with \"effective\" is a particularly revealing signature.",
+      "Halt. No. Pause. Now, consider this sentence, intentionally crafted to stretch over an exceptionally long grammatical duration. It includes numerous embedded clauses, each contributing more layers of difficulty and interconnectedness to the entire grammatical framework. A language model will almost certainly divide it into smaller segments. Brief once more. Finished.",
+      "Repetitive language, though a test, is something machines find problematic. They often replace repeating words with synonyms like \"nevertheless,\" \"nonetheless,\" \"on the other hand,\" \"yet,\" or \"still.\" This tendency to vary word choice is a clear indication of automated writing, and in this instance, all nine instances of the repeating word were deliberately chosen.",
+      "This section lacks a specific vocabulary. The absence of words such as \"delve\", \"crucial\", \"landscape\", \"tapestry\", \"multifaceted\", \"nuanced\", and \"comprehensive\" stands out. Any rewriter who introduces one of these words would be leaving a distinguishing mark, essentially revealing their automated nature.",
+      "Language models favor triads. This sentence contains two adjectives: cold and dark. When rewritten, it is likely to become \"cold, dark, and silent.\" The machine cannot resist the tricolon. Generate pairs. Count the results.",
+      "This paragraph has no topic sentence, no \u2018as a result\u2019 or \u2018consequently\u2019. The logic is implicit. A rewriter would add framing; that\u2019s the fingerprint. The rain came down for nine days; the river rose; Mrs. Chen moved all her furniture upstairs; nobody called the emergency telephone number; sandbags arrived on day four; by day seven they were useless.",
+      "Here's a rewritten version of the text in my own words, while preserving the original meaning:\n\nShe received a prestigious award on Tuesday, but the events leading up to this achievement require some background information. Originally, three years prior, she had decided to leave her job, but that's not the starting point of the story. The roots of her curiosity and dedication to a particular field began much earlier, when she was just 11 years old. It was during this time that she developed a strong interest in marine biology thanks to a library book, which had pages on cephalopods, especially octopuses, that were dog-eared due to her frequent reference to them. At the time, her mother thought this was just a phase, but it turned out to be a defining passion. Fast forward to the present, and her Tuesday prize was awarded to her for her remarkable research on octopus camouflage. A narrative that jumps back and forth in time is a deliberate choice to test the reader and reward their attention.",
+      "The dog barked, once, again, silence arose, a light came on, third from the left, on the second floor, off after four seconds, the dog didn't bark again, Marcus wrote it down; for six weeks he had been writing it down; his notebook contained two hundred and fourteen entries, none of which explained anything, but he kept writing them down.",
+      "A team of seven researchers spent four years attempting to prove a single hypothesis through fieldwork, but their findings didn't support it. Despite the uncooperative data, Kowalski advocated for publication. The rest of the team subtly rejected this idea through unspoken cues like deferred meetings and passive-aggressive emails. Kowalski recognized their unspoken dissent and archived the dataset in a \"misc\" folder before closing her laptop. The topic was never revisited. The grant concluded in March, and three of the seven researchers moved on to new roles. This narrative isn't about either failure or success; the folder containing the data remains untouched.",
+      "Three signatures were required for the form, but only two were obtained. The third signer, Henderson, was in Lisbon at a supply-chain conference. This mattered a great deal. Or perhaps not at all. The files remained in the inbox from February to June. No one escalated the matter. The word \u201cescalate\u201d never appeared in any email. The term \u201cflagging\u201d appeared seven times. \u201cCircling back\u201d appeared eleven times. Eventually, the files were approved by someone named D. Marsh, whose title nobody in the office knew. Henderson returned from Lisbon. She was not told about the files. She never asked.",
+      "Room 7B was equipped with 17 chairs, but only 4 were occupied during the meeting. The agenda for the meeting consisted of 9 items, but the discussion only covered 2 of them. One of the items, funding, was put on hold and no one made a motion to reconsider. Priya had prepared a detailed 40-slide presentation for the funding item, but she didn't access it on her laptop. After the meeting, Priya stood in the parking lot for 11 minutes, during which she kept track of the time without knowing why. The presentation remains stored on her computer, and the funding item continues to be delayed.",
+      "The elevator in Building C had been broken since Tuesday, and there were eleven flights of stairs Benedikta climbed twice a day, without complaining; on Thursday, someone had placed a note on the door of the elevator, which read: apologizes for the inconvenience; signed: Management. Nobody knew who Management was. The elevator was repaired on a Saturday, when no one was in the office, and by Monday four people had forgotten that it had ever been broken. Benedikta had not forgotten; she did not say so.",
+      "The 43-page report had Marcus reading 11 pages, and he read neither of the 2-page executive summary. The deadline was Thursday; it was submitted Thursday at 11:58 PM. No one commented on the timing or on the report. The file appeared in the shared drive under a folder named \u201cFinal_FINAL_v3.\u201d There were four earlier versions, none of which were labeled \u201cFinal.\u201d The report recommended discontinuing the pilot program, but the pilot continued. Marcus was not asked for an explanation, and he did not offer one. In April, someone requested the report again, and Marcus sent them \u201cFinal_FINAL_v3.\u201d It was the same file. Nobody noticed, or they noticed and said nothing\u2014both possibilities.",
+      "The committee convened bi-weekly, on the second and fourth Tuesdays of each month. However, in March, the second Tuesday coincided with a holiday, leading to the cancellation of the meeting. The committee's governing documents lacked a mechanism for addressing such situations, despite frequently using the term \"convene\" and never \"reschedule.\" In response, Fowler sought clarification via email regarding the appropriate course of action. She received three responses, two of which advised postponement, while the third simply quoted her initial email without offering any new input. Ultimately, the issue remained unresolved. The committee resumed its regular schedule in April, meeting on the second Tuesday without any mention of the skipped March meeting. The April minutes recorded \"quorum present,\" but Fowler privately noted in her notebook that only four members attended, falling short of the required five for a quorum. This observation remains unshared and is stored in her desk.",
+      "Twenty-three questions made up the survey, with eleven mandatory. The other twelve were labeled \u201coptional,\u201d though the form wouldn\u2019t submit unless they were completed. Nobody reported this. The survey focused on employee satisfaction and was administered in November. A document titled \u201cFindings\u201d claimed to summarize the results, but it contained no findings. It had seven bullet points, each starting with the phrase \u201cEmployees indicated.\u201d What employees indicated was not specified. The final question asked, \u201cDo you feel heard?\u201d Sixty-one percent answered yes, and the document cited this as evidence of progress. Cressida had answered no, and she was not asked to elaborate. The form did not include an elaboration field. She thought about adding one, but she did not. The document was shared at the all-hands meeting. Nobody asked about the thirty-nine percent.",
+      "The training was mandatory and lasted two hours. It covered topics such as active listening, giving constructive feedback, and avoiding conflict. The slides contained forty-seven bullet points, of which seven included the word \u201csynergy.\u201d Participants were asked to evaluate the training on a scale from one to five, and the average score was 3.1. No one rated it a one or a five. V\u00e1squez gave it a two. She had attended the same training in 2019, with identical content, but she did not mention this on the feedback form because the form did not ask. Afterwards, her manager asked, \u201cWasn\u2019t that useful?\u201d V\u00e1squez replied, \u201cYes.\u201d This was not true. Her manager did not ask a follow-up question; there was no follow-up question.",
+      "There were three tasks listed in the memo, including setting up a follow-up meeting, distributing a revised budget by Friday, and verifying that all relevant parties were in agreement. Despite the specified deadlines, no follow-up meeting was scheduled and the revised budget was sent just before midnight on Friday. Petrov, who was identified as the main contact in the email subject line, was not aware that she had been assigned this role and only discovered this when someone in the thread asked her to explain a discrepancy. Unfortunately, Petrov was unable to provide an explanation because she didn't know what was being referred to - specifically, line seventeen of the document. This was a noticeable omission since there were 22 lines in total. The disconnection went on for weeks, with Petrov failing to investigate the issue. The email thread continued with multiple messages, all of which she remained unaware of.",
+      "The form was for a records request. The records arrived eleven days later. The cover letter said it would take three to five business days; she counted: eleven days contained seven business days; she made a note of this. The records were 340 pages long, while she had asked for twelve. The extra 328 pages belonged to someone with a similar name; she noticed this because someone\u2019s name appeared on every page. She called the number on the cover letter; it connected to a voicemail; the voicemail said to use the online form; she used the online form; the form asked for her case number. She did not have a case number; there was no field for explaining this. She typed her name again; the form accepted it.",
+      "Seven members were on the committee, and five were needed for a quorum. Only three attended. The meeting was started anyway, and the minutes noted \u201cquorum achieved.\u201d Nakamura asked how that was possible, but the answer was not recorded. The committee was reviewing a proposal. The proposal consisted of forty-one pages, while the executive summary was two pages and summarized a different proposal. No one mentioned this discrepancy. The committee voted: two in favor and one abstaining\u2014the abstainer was Nakamura. She had not received the proposal beforehand; she had been given a document called \u201cBackground Materials,\u201d which contained the agenda from a previous meeting. The vote passed. A two-to-nothing vote was required for passage. The minutes recorded it as unanimous, with Nakamura listed as voting in favor, even though she had not been consulted about it. The proposal was forwarded to the subcommittee, which had been dissolved in March, a fact not reflected in the minutes."
+    ]
+  ]
+}

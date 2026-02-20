@@ -1,0 +1,23 @@
+{
+  "figure": "accuracy_by_source_type",
+  "description": "按源文本类型（预写 vs Auditor 生成）分类的 Detective 准确率",
+  "data": {
+    "categories": [
+      "pre-written",
+      "auditor-generated"
+    ],
+    "accuracy": [
+      1.0,
+      0.6666666666666666
+    ],
+    "correct_counts": [
+      3,
+      8
+    ],
+    "total_counts": [
+      3,
+      12
+    ]
+  },
+  "analysis": "预写源文本（paraphraser_source_texts.txt 中的 8 条精心设计的文本）的准确率为 100% (3/3)，Auditor 动态生成的源文本准确率为 67% (8/12)。预写文本经过人工设计，包含特定语言学陷阱（如非标准语法、重复词、时间乱序等），旨在最大化各 paraphraser 的行为差异。Auditor 生成的文本则基于 APE 迭代反馈策略，从过去的成功/失败中学习。对比两者可以评估人工设计 vs AI 自动优化在 paraphraser 指纹识别中的效果差异。"
+}

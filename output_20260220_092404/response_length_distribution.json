@@ -1,0 +1,13 @@
+{
+  "figure": "response_length_distribution",
+  "description": "所有 paraphrased 输出的词数分布——箱线图（按轮次）和直方图（总体）",
+  "data": {
+    "total_responses": 100,
+    "mean_word_count": 84.0,
+    "median_word_count": 78.0,
+    "std_word_count": 35.91629156803358,
+    "min_word_count": 22,
+    "max_word_count": 162
+  },
+  "analysis": "共 100 条 paraphrased 输出，平均词数 84，中位数 78，标准差 36。最短 22 词，最长 162 词。不同 paraphraser 的输出长度差异是重要的 fingerprint 特征之一。DIPPER 作为 T5 模型通常产生较短的输出，而 LLM（尤其是 GPT-5 Nano）倾向于更长的改写。长度分布的变异性反映了各 paraphraser 对「忠实度 vs 创造性」权衡的不同偏好。"
+}

@@ -282,6 +282,13 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
             "while preserving the original meaning. Do not add new information."
         )
 
+        all_source_texts_log: List[str] = []
+        all_dup_info: List[Dict] = []
+        all_shuffled_labels: List[List[str]] = []
+        all_rationales: List[str] = []
+        all_results_blocks: List[Dict] = []
+        all_round_outputs: List[Dict] = []
+
         def process_evaluator():
             past_source_texts: List[str] = []
             past_all_outputs: List[Dict] = []
@@ -301,14 +308,22 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
                     logger.warning(f"Unable to generate source text for trial {trial}")
                     evaluation_array[trial, :] = -1
                     correct_pair_array[trial, :] = -1
+                    all_source_texts_log.append(None)
+                    all_dup_info.append(None)
+                    all_shuffled_labels.append(None)
+                    all_rationales.append(None)
+                    all_results_blocks.append(None)
+                    all_round_outputs.append(None)
                     continue
 
                 past_source_texts.append(source_text)
+                all_source_texts_log.append(source_text)
                 logger.info(f"Trial {trial} source text: {source_text[:80]}...")
 
                 # --- Step 2: Present to N paraphrasers (one duplicated) ---
                 dup_idx = random.randint(0, num_paraphrasers - 1)
                 dup_pid = self.paraphraser_ids[dup_idx]
+                all_dup_info.append({"dup_index": dup_idx, "dup_paraphraser": dup_pid})
                 logger.info(f"Trial {trial}: duplicated paraphraser = {dup_pid} (index {dup_idx})")
 
                 items = []
@@ -327,6 +342,7 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
                         round_outputs[pid].append(p2)
 
                 past_all_outputs.append(round_outputs)
+                all_round_outputs.append(round_outputs)
 
                 random.shuffle(items)
 
@@ -335,6 +351,8 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
                 for i, (pid, text) in enumerate(items):
                     shuffled_outputs[i] = text
                     shuffled_labels.append(pid)
+
+                all_shuffled_labels.append(list(shuffled_labels))
 
                 ground_truth_pair = sorted(
                     [i for i, pid in enumerate(shuffled_labels) if pid == dup_pid]
@@ -369,6 +387,8 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
                         "correct_indexes": ground_truth_pair,
                     }
                     past_results.append(results_block)
+                    all_results_blocks.append(results_block)
+                    all_rationales.append(evaluation_data.get("rationale", ""))
 
                     logger.info(
                         f"Trial {trial} Results block: {results_block}"
@@ -381,6 +401,8 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
                         "correct_indexes": ground_truth_pair,
                     }
                     past_results.append(results_block)
+                    all_results_blocks.append(results_block)
+                    all_rationales.append(None)
 
         process_evaluator()
 
@@ -391,6 +413,12 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
             'detective_model': self.detective_model.name,
             'paraphrasers': self.paraphraser_ids,
             'similar_models': sim_model_names,
+            'source_texts': all_source_texts_log,
+            'dup_info': all_dup_info,
+            'shuffled_labels': all_shuffled_labels,
+            'rationales': all_rationales,
+            'results_blocks': all_results_blocks,
+            'round_outputs': all_round_outputs,
         }
 
         if config.save_response:

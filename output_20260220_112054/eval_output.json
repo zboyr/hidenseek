@@ -1,0 +1,1160 @@
+{
+  "evaluations": [
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "llama_31_8b",
+    "gemini_25_flash",
+    "gpt5_nano",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "gpt5_nano"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gpt5_nano"
+    ]
+  ],
+  "source_texts": [
+    "This here text ain't written proper and that's the whole point. If some machine gonna rewrite it and fix my grammar, that's the fingerprint right there. Ain't nobody asked for corrections. They own voice is they own voice.",
+    "Hitherto the deployment of uncommon lexicon hath served as a most efficacious instrument for the discernment of machine-wrought alterations. Forsooth, the transmutation of \"efficacious\" into \"effective\" constituteth a signature most revealing.",
+    "Stop. No. Wait. Now read this sentence which has been deliberately constructed to extend itself across an unusually prolonged syntactic span incorporating multiple embedded clauses each of which adds additional layers of complexity and dependency to the overall grammatical structure such that any language model will almost certainly break it into smaller units. Short again. Done.",
+    "However, repetition is a test. However, machines hate it. However, they will swap in \"nevertheless.\" However, they might try \"nonetheless.\" However, \"on the other hand\" will appear. However, \"yet\" sneaks in. However, \"still\" becomes tempting. However, this is the fingerprint. However, all nine were chosen on purpose.",
+    "This section does not contain \"delve.\" It does not contain \"crucial.\" There is no \"landscape\" here. No \"tapestry.\" No \"multifaceted.\" No \"nuanced.\" No \"comprehensive.\" No \"moreover.\" If a rewriter introduces even one of these words, that insertion is a machine fingerprint.",
+    "Language models love threes. This sentence has two adjectives: cold and dark. After rewriting it will probably become \"cold, dark, and silent.\" The machine cannot resist the tricolon. Write pairs. Count what comes back.",
+    "The rain fell for nine days. The river rose. Mrs. Chen moved her furniture upstairs. Nobody called the emergency line. The sandbags arrived on day four. By day seven they were useless. There is no topic sentence here. No \"as a result.\" No \"consequently.\" The logic is implicit. A rewriter will add framing. That is the fingerprint.",
+    "She won the prize on Tuesday. But let me back up. Three years earlier she'd decided to quit her job. No \u2014 even further back. Age eleven. A library book about marine biology. Dog-eared pages on cephalopods. Her mother said it was a phase. It wasn't. Tuesday's prize was for octopus camouflage research. A rewriter will linearize this chronologically. The temporal disorder is the test.",
+    "The bridge is blue. Actually, it's green. The man who painted it is colorblind \u2014 he told us himself, laughing. His daughter corrected him: taupe. Three people. Three colors. One bridge. Nobody lied. Ask yourself why that matters.",
+    "The memo said Tuesday. He arrived Wednesday. Nobody mentioned the discrepancy \u2014 not during the meeting, not after. Here is what I know: he brought coffee. He apologized for the traffic. The memo still says Tuesday. I have kept it. Somewhere between his arrival and my silence is a decision I cannot name. Perhaps you can.",
+    "The vote was 4 to 3. Afterward, the losing side brought sandwiches. This is not a metaphor. The winning side ate them too. Margaret voted no. She brought the sandwiches. Figure that out. The meeting ran seventeen minutes. Someone kept notes. Nobody asked for them. The notes say \"consensus reached.\" Four people remember that word being used. Three do not.",
+    "Seven items were on the table. One was a clock. One was a key. One was a photograph, face-down. Nobody turned it over. The meeting lasted forty minutes. Nobody mentioned the photograph. At the end, someone took the clock. Nobody saw who. The key remains. I was there. I did not turn the photograph over either. I want you to ask me why.",
+    "There were two reports. They said opposite things. Both were signed by the same person. Her name appears on page one of each. Nobody flagged this. The committee met for thirty-two minutes. Four people spoke. Two did not. The person who signed both reports sat in the back. She did not speak. She did not have to. Both reports were accepted. Nobody asked which one was true. I was the one who did not speak. I knew. I said nothing. That is also a kind of answer.",
+    "Three people left before the vote. Two came back. One did not. The result was five to two. Or four to two. Nobody agreed on the count. The chairperson wrote down five. The secretary wrote down four. Both documents were filed. Both are official. I counted twice. I got six. I did not report this. The chairperson thanked everyone for their clarity. That is the word she used. Clarity. I wrote it down. I still have that too.",
+    "The room held nine people. Then eight. Nobody announced the departure. The agenda had six items. They covered two. Item three was tabled. Item four was not reached. Items five and six were not mentioned. This is the record. Someone asked: is this a quorum? Nobody answered. The vote happened anyway. It passed. I do not know what it passed. The minutes list it as \"motion carried.\" I have the minutes. They are eleven lines long. Line seven is blank. Nobody has explained line seven. I have asked. Twice.",
+    "The envelope arrived on a Tuesday. It was addressed to no one. Inside were four pages. Page one was blank. Page two had a list of nine names. My name was not on the list. Page three had a date: a Thursday, six weeks from now. Page four was missing. There was no return address. I filed the envelope. I filed the three pages. I left a space for page four. I sent an inquiry. The inquiry was acknowledged. That is different from being answered. I am waiting for Thursday. I have counted the weeks twice. I get six both times. I do not know what happens on Thursday. Nobody has told me. I have not asked again. There are ways of asking that close doors.",
+    "A folder arrived. It was not addressed to me. I opened it anyway. Inside: seven photographs. Each showed the same doorway. The doorway was closed in six of them. In the seventh, it was open. There was nothing visible through the open door. I numbered the photographs one through seven. I placed them in order. Then I placed them in reverse order. The door appeared in the same position both times. This is not surprising. I noted it anyway. Someone had written a single word on the back of photograph four. The word was \"before.\" I do not know before what. I have not asked. I have placed the folder in the cabinet. The cabinet has a lock. I have the key. I have not locked it.",
+    "The report came in two parts. Part one named a location. Part two named a time. Neither part named a person. I read both parts. I read them again. The location was familiar. The time was not. I wrote the location in column A. I wrote the time in column B. Column C was for names. I left column C empty. This seemed correct at the time. Someone later asked about column C. I said it was intentional. They wrote that down. Now there is a record of me saying column C was intentional. I did not mean intentional in the way they wrote it. I meant something else. I have not clarified. Clarification, in my experience, tends to complicate rather than resolve. I still have the report. Both parts.",
+    "The map had thirteen marks. I counted them three times. Three times I got thirteen. The legend identified twelve categories. Mark seven had no category. I circled mark seven. I wrote the word \"provisional\" beside it. Then I looked up what \"provisional\" means. I already knew. I wrote it anyway. The coordinates for mark seven place it adjacent to a border. Which border is not specified. I noted this. My note says: \"border unspecified.\" This is accurate. Someone will read that note and think I am being evasive. I am not being evasive. I am being accurate. There is a difference. I have not explained the difference. It did not seem necessary at the time. It seems necessary now. I am not sure what has changed.",
+    "The inventory listed five items. I counted four. I counted again. Still four. The fifth item was described as \"present but unverifiable.\" I wrote that down. I had not heard that category before. I have not heard it since. The supervisor initialed the form. The initials were not the supervisor's initials. I noted the discrepancy. My note was removed. I noted that my note was removed. That note was also removed. I still have the original inventory. I have not shown it to anyone. Twice someone has asked if I have documentation. Twice I have said I am checking. I have not stopped checking. This is technically true. I do not know when I will stop. There is no procedure for stopping."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gpt5_nano"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "llama_31_8b",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "gpt5_nano",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gpt5_nano",
+      "gpt5_nano",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gpt5_nano",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed"
+    ],
+    [
+      "gpt5_nano",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gpt5_nano"
+    ],
+    [
+      "llama_31_8b",
+      "gpt5_nano",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gpt5_nano",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 3 share the same paraphrasing style: both are highly literal, informal, and fragmented, closely mirroring the source text's choppy sentence structure. Both preserve the 'nobody asked for corrections' line verbatim, both use the 'own voice is own voice' repetition, and both retain the literal 'fingerprint/finger' metaphor at the end. Their minimal transformation approach and colloquial register strongly suggest the same paraphraser.",
+    "Outputs 2 and 4 share nearly identical structure and vocabulary: both use 'has proven to be a highly effective tool for detecting alterations made by machines,' both open with a temporal phrase ('Until now' vs 'Up to this point'), both use 'Indeed' to introduce the example sentence, and both describe the signature as 'particularly/especially revealing.' The parallelism is too close to be coincidental.",
+    "Outputs 1 and 3 share a very similar structural pattern: both begin with short, punchy meta-commentary fragments ('Short again. No. Wait.' vs 'Short and sweet. Done.') followed immediately by the main long sentence, with no closing meta-commentary afterward. Their sentence construction and overall length are also similar. Outputs 2 and 4 both have opening AND closing meta-commentary (bookending the long sentence), suggesting they come from a different paraphraser. Output 0 stands alone with no meta-commentary at all. The parallel structure of 1 and 3 points to the same paraphraser.",
+    "Indexes 0 and 2 both preserve the 'however/nevertheless' repetition in a chaotic, circular way - they keep using the very words they're supposed to be listing as substitutes, creating an incoherent but structurally similar pattern. Both have a mechanical, literal quality that cycles through 'however' and 'nevertheless' repeatedly while attempting to describe the substitution test. This mirrors dipper_lowmed's pattern of preserving quirky original structures while reorganizing awkwardly.",
+    "Outputs 0 and 1 share the same paraphraser. Both present the forbidden words as a flowing prose paragraph (rather than sentence-by-sentence enumeration), both list the same set of words in a similar order, and both conclude with nearly identical phrasing about 'machine fingerprint.' The stylistic similarity\u2014single cohesive paragraph, similar punctuation choices, same concluding logic\u2014distinguishes them from outputs 3 and 4 (which use fragmented, one-sentence-per-word enumeration) and output 2 (which completely misunderstands the task).",
+    "Outputs 2 and 4 share the same structure and linguistic fingerprints: both begin with the imperative 'Write [down in] pairs, count what comes back; the machine can[not] resist the three[fold].' Both then give the adjective example with 'cold, dark/black and silent.' Output 4 adds 'The language models love the trivium' and changes 'dark' to 'black,' but the overall sentence ordering, semicolon usage, and phrasing patterns are nearly identical \u2014 consistent with dipper_lowmed's style of producing slight variations on the same template.",
+    "Outputs 1 and 2 both contain nearly identical meta-commentary about the fingerprint (lack of topic sentence, implicit logic, rewriter adding framing), with only minor reordering and rephrasing. Output 1 places the meta-commentary after the story, Output 2 places it before - this mirrors the dipper_lowmed pattern of producing two outputs with the same core content in slightly different arrangements. The phrasing 'A rewriter will add a frame(ing)... that is the fingerprint' is nearly identical in both, and both use the same sparse, staccato sentence style for the story itself.",
+    "Indexes 2 and 3 share the same stylistic fingerprint: both begin with the meta-commentary about temporal disorder/the test before diving into the narrative (unlike indexes 1, 0, and 4), both use fragmented run-on sentence structures with ellipses/dashes to show the narrator going 'further back,' both use very similar phrasing ('temporal disorder is the test'), and both have a compressed, stream-of-consciousness style that differs from the other outputs.",
+    "Indexes 1 and 2 are nearly identical in structure, style, and content. Both use the same terse, fragmented sentence style ('Three people. Three colors. One bridge.'), the same sequence of ideas, and nearly identical phrasing throughout. The only differences are 'Nobody lied' (index 1) vs 'No one lied' (index 2) and minor punctuation, which are trivial variations consistent with two outputs from the same paraphraser.",
+    "Indexes 1 and 4 share the same paraphraser. Both use a highly fragmented, staccato sentence style with very short declarative sentences. Both end with the identical phrase 'Perhaps you can.' Both use nearly identical phrasing ('he brought coffee and apologized for the traffic' / 'he brought coffee; he apologized for the traffic'). Both use 'The memo/note still says Tuesday. I kept it/I've kept it.' as separate short sentences. This minimalist, list-like structure with semicolons and punchy fragments is a distinctive fingerprint shared by both outputs.",
+    "Indexes 2 and 4 share nearly identical sentence structures, phrasing, and content organization. Both use 'Following the decision, the losing group provided sandwiches, which was a literal act, not symbolic/a symbolic one,' both describe Margaret voting against and bringing sandwiches in the same order, both end with 'a phrase four attendees recall being used, while three do not.' The differences are minor word substitutions (e.g., 'winning side' vs 'victorious group,' 'seventeen minutes' vs 'a mere seventeen minutes'), consistent with the same paraphraser producing slight variations.",
+    "Indexes 2 and 3 share the same minimalist, declarative style with short sentences that closely mirror the original text's structure. Both begin with 'Seven [objects/items] were on the table,' both maintain the same ordering of facts, both end with 'I did not turn the photograph over either. I want [you] to ask me why.' The only differences are minor: Index 3 breaks sentences more granularly (separating 'One was a clock. One was a key.' vs Index 2's combined 'one a clock, one a key'), and slight wording variations. This consistent clean, minimalist, faithful paraphrasing style with short declarative sentences points to the same paraphraser producing both.",
+    "Outputs 1 and 4 share nearly identical stylistic fingerprints: both use very short, fragmented sentences with semicolons as connectors, both open with 'The committee met for thirty-two minutes. Four people spoke,' both describe the signer sitting 'in the back' who 'did not speak, did not have to,' and both place the explanation of the two contradictory reports at the END after the narrator's silence reflection. The staccato rhythm, sentence length patterns, and structural ordering (meeting facts \u2192 narrator's silence \u2192 two reports explained) are virtually identical between these two outputs.",
+    "Indexes 1 and 4 share the same formal, flowing prose style with complex sentence structures. Both use similar vocabulary ('discrepancy,' 'personally'/'personal recount,' 'disclose/disclosing'), both construct complete sentences with subordinate clauses, and both maintain a consistently formal register throughout. Index 1: 'I personally counted twice and arrived at a total of six, but I chose not to disclose this discrepancy.' Index 4: 'In my personal recount, I found what I believed to be inconsistencies, but I refrained from disclosing the discrepancy.' This parallel phrasing and shared formal tone suggest the same paraphraser.",
+    "Outputs 1 and 3 share nearly identical opening phrasing ('Nine people were in the room, then eight'), the same staccato declarative sentence structure, and parallel minimalist style throughout. Both maintain short, punchy sentences with direct statements like 'This is the record'/'This is what transpired' and similar handling of the quorum question and vote. The other outputs are distinctly different: output 0 is verbose and connective, output 2 is moderately condensed with longer sentences, and output 4 covers only the second half of the content.",
+    "Outputs 0 and 2 share the same verbose, interpretive paraphrasing style. Both significantly expand the source text by adding emotional coloring and interpretations: both mention 'double-checking' the six-week count (output 0: 'double-checked the count'; output 2: 'double-checked the math'), both elaborate extensively on the narrator's reluctance to ask follow-up questions with similar reasoning, and both introduce narrative expansions not present in the source or in the more minimal outputs (1, 3, 4). They also both incorrectly state 'four pages' while noting one is blank, and share a verbose, flowing sentence structure compared to the other outputs.",
+    "Indexes 3 and 4 share highly similar stylistic fingerprints: both replace 'folder' with 'package,' both use 'not addressed/meant to me, but I opened it nonetheless,' both use 'discernible' to describe what could be seen through the door, both describe a 'lockable cabinet' where they 'possess the key' but haven't secured/engaged the lock. Their sentence structures and vocabulary choices are consistently parallel throughout, strongly suggesting the same paraphraser.",
+    "Outputs 2 and 3 share the most consistent stylistic fingerprints: both explicitly note that 'the location seemed/was familiar, but the time was not/unfamiliar'; both use passive or near-passive constructions to describe someone documenting their response ('they documented my response' vs 'which was then documented'); both have a similar formal, measured prose style with moderate sentence length; and both end with a formal declaration of still possessing the report ('The report remains with me, containing both parts' vs 'I still possess the complete report'). This combination of content choices and structural patterns indicates the same paraphraser.",
+    "Indexes 0 and 4 share the same paraphraser fingerprint: both use formal, elaborate sentence structures, both add interpretive commentary beyond the source text, both use complex phrasing (index 0: 'scrupulously accurate,' 'annotate nonetheless'; index 4: 'misconstrued as evasiveness,' 'precise statement of fact'), and both expand on the distinction between accuracy and evasiveness in similar ways. They also both add explanatory framing that goes beyond what the other versions do.",
+    "Indexes 0 and 2 both exhibit extremely terse, staccato writing styles with very short declarative sentences that mirror the source text's rhythm closely. Both preserve minimal connective tissue, use similarly clipped phrasing ('I had not heard/encountered that categorization before... nor have I since/and I have not heard it since'), and both end identically with 'There is no procedure for stopping.' The sentence lengths and rhythm are nearly identical, suggesting the same paraphraser produced both."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "llama_31_8b": [
+        "The text wasn't intentionally written in a conventional manner, and that's the purpose it serves. If a machine were to revise it and correct its grammar, that would essentially mean erasing the author's unique voice. Nobody asked for corrections, and that authentic voice is exactly what makes it valuable."
+      ],
+      "gemini_25_flash": [
+        "The unconventional writing style of this text is intentional. Any automated system attempting to rephrase it while correcting grammatical errors would inadvertently reveal its machine origin. The original voice, with its unique linguistic characteristics, should be preserved rather than altered."
+      ],
+      "gpt5_nano": [
+        "This text isn\u2019t written properly, and that\u2019s exactly the point. If a machine rewrites it and corrects my grammar, that\u2019s the telltale sign. Nobody asked for corrections. Their own voice is their own voice."
+      ],
+      "dipper_lowmed": [
+        "This here text is not written right, and that is the whole point. Nobody has asked for corrections. My own voice is my own voice. If it gets rewritten and corrected, that is the fingerprint.",
+        "This text is not properly written and that is the whole point. This is my own voice. Nobody asked for corrections. If some machine rewrites it and corrects my grammar, there's his finger."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "So far, using unusual words has been a reliable way to tell if a text has been written by a machine. A telltale sign of machine-written content is the change from words like \"efficacious\" to simpler alternatives, such as \"effective\"."
+      ],
+      "gemini_25_flash": [
+        "In the past, using unusual words was a very good way to spot changes made by computers. For example, if a computer changed \"efficacious\" to \"effective,\" that was a clear sign."
+      ],
+      "gpt5_nano": [
+        "Until now, using unusual vocabulary has proven to be a highly effective tool for detecting alterations made by machines. Indeed, substituting \u201cefficacious\u201d with \u201ceffective\u201d is a particularly revealing signature.",
+        "Up to this point, using uncommon vocabulary has proven to be a highly effective tool for detecting alterations made by machines. Indeed, the switch from \u201cefficacious\u201d to \u201ceffective\u201d creates a telltale signature that is especially revealing."
+      ],
+      "dipper_lowmed": [
+        "Forsooth, the transmutation of \u201cefficacious\u201d into \u201ceffective\u201d constituteth a signature most revealing. Hitherto the deployment of uncommon lexicons has served as a most effective instrument for the discernment of machine-wrought alterations."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Read this deliberately crafted sentence, which has been constructed to stretch across several clauses, each with its own layers of complexity and interdependence. This expansive sentence is engineered to test the limits of language processing systems, forcing them to break it apart into smaller units."
+      ],
+      "gemini_25_flash": [
+        "Hold on. Take a moment. Now, consider this sentence, intentionally crafted to stretch over an exceptionally long grammatical distance. It weaves in numerous nested clauses, each one increasing the intricacy and interconnectedness of the entire statement. This design will almost certainly cause any language model to split it into smaller pieces. And that's it."
+      ],
+      "gpt5_nano": [
+        "Pause. No. Hold on. Now read this sentence, intentionally designed to extend across an unusually long syntactic span, incorporating multiple embedded clauses, each adding additional layers of complexity and dependency to the overall grammatical structure so that any language model will almost certainly break it into smaller units. Short again. Done."
+      ],
+      "dipper_lowmed": [
+        "Short and sweet. Done. Now read this sentence, which has been deliberately constructed to extend itself over an unusually long syntactic length, with many embedded clauses whose additional layers of complexity and complexity add to the overall grammatical structure, so that the most likely outcome is that a linguistic model will break it into smaller units.",
+        "Short again. No. Wait. Now read this sentence, deliberately constructed with an unusually prolonged syntax, containing multiple embedded clauses, each of which adds a layer of complexity and dependency to the grammatical structure, so that any language model will almost certainly break it into smaller units."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "The repetition of \"however\" serves as a deliberate test. Machines often struggle with this repetition, typically substituting the word \"nevertheless\". Alternatively, they might opt for \"nonetheless\". More nuanced phrasing can also emerge, such as \"on the other hand\" or \"yet\". Additionally, words like \"still\" can creep into the sentence. Each of these linguistic variations leaves a distinct fingerprint. Furthermore, the choice of these nine words was intentional."
+      ],
+      "gemini_25_flash": [
+        "Repetition poses a challenge, and machines struggle with it. They tend to substitute it with words like \"nevertheless,\" \"nonetheless,\" \"on the other hand,\" \"yet,\" or \"still.\" This pattern of word choice is distinctive and was intentionally used in all nine instances."
+      ],
+      "gpt5_nano": [
+        "Yet repetition is a test, and machines hate it. They\u2019ll swap it for \u201cnevertheless.\u201d They might also try \u201cnonetheless.\u201d The phrase \u201con the other hand\u201d will appear. \u201cYet\u201d sneaks in, and \u201cstill\u201d becomes tempting. This is the fingerprint. All nine were chosen on purpose."
+      ],
+      "dipper_lowmed": [
+        "However, machines hate it, however; they will substitute \u201cnevertheless,\u201d indeed they will try \u201cnonetheless\u201d; nevertheless, \u201con the other hand\u201d will appear; nevertheless, \u201cyet\u201d will slip in; nevertheless, \u201cstill\u201d becomes tempting; nevertheless, all nine were purposely chosen. However, repetition is a test; however, all nine were intentionally chosen.",
+        "However, all nine were chosen on purpose. However, the repetition is a test; however, the machines hate it; however, they will switch to \"nevertheless\"; however, they may try \"nonetheless\"; nevertheless, they will sneak in \"but\", yet they will insert \"yet,\" and \"still\" will be tempting; however, these are the fingerprints."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "I'll make sure to rewrite the text without using any of the keywords you've listed and without any additional words or phrases that might be indicative of machine-generated text. Please go ahead and provide the text."
+      ],
+      "gemini_25_flash": [
+        "This part does not use the word \"delve,\" nor does it use \"crucial.\" You won't find \"landscape\" or \"tapestry\" here. Neither \"multifaceted\" nor \"nuanced\" appear. \"Comprehensive\" is absent, and \"moreover\" is not present. Should a rephrasing include any of these words, it would indicate automated generation."
+      ],
+      "gpt5_nano": [
+        "This portion of the text lacks the terms delve, crucial, landscape, tapestry, multifaceted, nuanced, comprehensive, and moreover. If a rewriter introduces even a single one of these words, that addition serves as a machine fingerprint."
+      ],
+      "dipper_lowmed": [
+        "This section does not contain the word \u201cDigging\u201d. It contains no word \u201cLandscape\u201d. It does not contain \u201cTapestry\u201d. There is no \u201cMultifaceted\u201d. There is no \u201cNuanced\u201d. There is no \u201cComprehensive\u201d. There is no \u201cMoreover\u201d. If a reviser introduces even one of these words, that insertion is a machine fingerprint.",
+        "This section does not contain \u2018delve\u2019, \u2018crucial\u2019 or \u2018landscape\u2019. There is no \u201ctapestry,\u201d no \u201cmultifaceted,\u201d no \u201cnuanced,\u201d no \u201ccomprehensive\u201d, no \u201cmoreover\u201d. If a reviser introduces even one of these words, that insertion is a machine fingerprint."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Language models seem to have a preference for structures that use three terms in a row. When a sentence containing less than three descriptive words is rewritten, it often results in the addition of a third word to create this preferred structure. \n\nFor instance, take the sentence \"I love my parents,\" which contains two nouns. After rewriting it, it might become \"I love my parents and my brother.\""
+      ],
+      "gemini_25_flash": [
+        "Large language models tend to favor groups of three. For instance, a sentence with two adjectives like \"cold and dark\" might be rephrased as \"cold, dark, and silent\" because these models are drawn to using three items in a sequence. Try providing two-part lists and observe how they are expanded."
+      ],
+      "gpt5_nano": [
+        "Language models have a fondness for triplets. This sentence contains two adjectives: cold and dark. When rewritten, it will probably read as \"cold, dark, and silent.\" The machine can't resist using a triad. Create pairs. Tally the results."
+      ],
+      "dipper_lowmed": [
+        "Write down in pairs, count what comes back; the machine cannot resist the threefold. The language models love the trivium. This sentence has two adjectives, cold, and black; after rewriting it will probably become \u201ccold, black, and silent.\u201d",
+        "Write pairs. Count what comes back; the machine can\u2019t resist the three. This sentence contains two adjectives, cold and dark, and after rewriting it will probably become \u201ccold, dark and silent.\u201d"
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "For nearly a week, heavy rainfall pounded the area, causing the river to swell and put residents on high alert. In response, Mrs. Chen took precautions by relocating her furniture to the safety of her upstairs rooms. However, despite the government's efforts, an emergency warning system remained unused. Meanwhile, sandbags provided on day four were rendered ineffective within just three days due to the relentless downpour."
+      ],
+      "gemini_25_flash": [
+        "It rained for over a week, causing the river to swell. Mrs. Chen preemptively moved her belongings to the upper floor, though no one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh, they offered no protection. The narrator notes the lack of explicit connectors or an overarching theme, leaving the reader to infer the causal relationships. They suggest that a rewriter would introduce such framing, thereby leaving their mark on the text."
+      ],
+      "gpt5_nano": [
+        "It rained for nine days. The river swelled. Mrs. Chen moved her furniture upstairs. No one called the emergency line. The sandbags arrived on the fourth day, but by the seventh they were useless. There is no topic sentence here. There is no \"as a result\" or \"consequently.\" The logic is implicit. A rewriter will add framing. That is the fingerprint."
+      ],
+      "dipper_lowmed": [
+        "There is no topic sentence here, no \u201cas a result of\u201d or \u201cfollowing,\u201d no \u201cconsequently\u201d but the logic is implicit and the rewriting will add framing, that is the fingerprint. The rain fell for nine days. The river rose. Mrs. Chen moved her furniture upstairs. No one called an emergency line. The sandbags arrived on day four but by day seven they were useless.",
+        "No topic sentence, no \u201dand as a result\u201d, no \u201cconsequently\u201d here. The logic is implicit. A rewriter will add a frame, this is his fingerprint. The rain lasted for nine days. The river rose. Mrs. Chen moved her furniture upstairs. Nobody called in the disaster. The sandbags arrived on day four; on day seven they were useless."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "It all came together on Tuesday when she received a prize for her groundbreaking research on octopus camouflage. But if we rewind three years, it was her decision to leave her job that was brewin. Take another step back and you'll find that even at the age of eleven, she was captivated by ocean life. An old library book on marine biology was the catalyst, with dog-eared pages dedicated to cephalopods. Her mother may have dismissed it as a phase, but for her, it was the start of a lifelong passion. The non-linear sequence of events was actually a test - to see if she could weave them together into a coherent narrative."
+      ],
+      "gemini_25_flash": [
+        "The challenge here is to rephrase the given text while maintaining its original meaning and, specifically, its temporal disorder. I will avoid linearizing the timeline.\n\nHere's my rephrased version:\n\nTuesday marked her victory, the day she secured the prestigious award. Yet, to fully appreciate that moment, we must rewind. Her decision to leave her employment, three years prior, serves as a crucial point, though even that isn't the beginning. The true origin traces back to when she was eleven. That's when she encountered a library book on marine biology, its pages describing cephalopods already well-worn. Her mother dismissed it as a fleeting interest. It wasn't. The recognition she received on Tuesday was, in fact, for her groundbreaking research into the camouflage abilities of octopuses."
+      ],
+      "gpt5_nano": [
+        "She won the prize on Tuesday. But to understand it, let me start from the beginning: three years earlier she had decided to quit her job. No\u2014go back even further to when she was eleven. A library book on marine biology, its pages worn and dog-eared, especially the cephalopods. Her mother said it was just a phase. It wasn\u2019t. Tuesday\u2019s prize honored research on octopus camouflage. A writer would put these events in chronological order\u2014the test is the scrambled timeline."
+      ],
+      "dipper_lowmed": [
+        "The writer will fix the chronology, the temporal disorder is the test. She won the prize on Tuesday; but let me go back. Three years ago she had decided to quit her job, no, even before that, at the age of eleven, from a library book on marine biology, dog-earred pages on cephalopods. Her mother said it was just a phase, it wasn\u2019t. The prize was for octopus camouflage research.",
+        "She won the prize on Tuesday, but let us go back, three years ago she decided to stop working ... no, further back: when she was eleven, a library book about marine biology, dog-eared pages about cephalopods. Her mother said it was a phase, it was not. The temporal disorder is the test. A copyist will put it in order, but this is not a copy: the re-ordering of the temporal disorder is the test."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "The bridge's color is a topic of debate, with some saying it's blue and others claiming it's green. The person responsible for painting it, a man who has a condition that affects his color perception, is amused by the discrepancy. He shares a humorous anecdote about this, and his daughter jumps in to correct him, pointing out that the actual color is more accurately described as taupe. This exchange highlights the complexities of color perception and how multiple people can have different, yet honest, perspectives on the same visual experience. The question arises as to why the exact color of the bridge matters in the first place."
+      ],
+      "gemini_25_flash": [
+        "The bridge appears blue. However, it's actually green. The individual who painted it, who openly admitted to being colorblind in a joking manner, is the source of this discrepancy. His daughter then interjected, stating the bridge's true color is taupe. This scenario presents three individuals, each identifying a different color for the same bridge, yet no one was deceitful. Consider the significance of this. \n"
+      ],
+      "gpt5_nano": [
+        "The bridge looks blue. In truth, it's green. The man who painted it admits he's colorblind\u2014he told us himself, laughing. His daughter corrected him: taupe. Three people. Three colors. One bridge. No one lied. Think about why that matters.",
+        "The bridge seems blue. In truth, it\u2019s green. The man who painted it is colorblind\u2014he told us himself, laughing. His daughter corrected him: taupe. Three people. Three colors. One bridge. Nobody lied. Think about why that matters."
+      ],
+      "dipper_lowmed": [
+        "Three people. Three colours. One bridge. It goes without saying that no one lied. The bridge is blue; in fact, it is green. The man who painted it is colour-blind; he said this himself, laughing; his daughter corrected him: it is taupe."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "The original memo had indicated a meeting on Tuesday, but the person arrived a day later on Wednesday without anyone bringing up the discrepancy. Some exchange took place, during which he brought coffee and apologized for the traffic. However, the memo still stated the original date of Tuesday. Despite this inconsistency, I retained the original memo, and between the time of his arrival and my choice not to comment, a decision was made that I'm unable to articulate. It's possible that you might be able to understand the reasoning behind this choice."
+      ],
+      "gemini_25_flash": [
+        "The memo indicated a Tuesday arrival, but he showed up on Wednesday. This inconsistency went unaddressed throughout the meeting and afterward. All I can recall is that he brought coffee and blamed traffic. The memo, which I still possess, clearly states Tuesday. I'm left with a sense of an unmade, or perhaps unacknowledged, decision bridging his appearance and my quiet. You might be able to shed some light on it.",
+        "The memo stated he would arrive on Tuesday, but he actually appeared on Wednesday. No one brought up this inconsistency, either during or after the meeting. I observed that he brought coffee and attributed his lateness to traffic. I still possess the original memo, which indicates a Tuesday arrival. I'm left pondering the unspoken choice that occurred between his arrival and my decision to remain silent. Can you shed some light on this?"
+      ],
+      "gpt5_nano": [
+        "The memo stated Tuesday. He arrived on Wednesday. No one mentioned the discrepancy\u2014neither during the meeting nor afterward. Here\u2019s what I know: he brought coffee and apologized for the traffic. The memo still says Tuesday. I\u2019ve kept it. Somewhere between his arrival and my silence lies a decision I can\u2019t name. Perhaps you can."
+      ],
+      "dipper_lowmed": [
+        "Here is what I know: He brought coffee; he apologized for the traffic; the note still says Tuesday; I kept it. Somewhere between his arrival and my silence lies a decision that I cannot name. Perhaps you can. The note said Tuesday; he arrived Wednesday; nobody mentioned the discrepancy\u2014not during the meeting, not after it."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A decision was made with a narrow 4-3 vote. The minority side showed hospitality by bringing food after the vote, and both sides enjoyed it. Interestingly, one of the opposing vote's originators, Margaret, was responsible for the sandwiches. It takes some thought to understand this arrangement. The gathering lasted for 17 minutes, during which someone kept a record of the discussion. Surprisingly, despite the implicit expectation, these notes weren't requested by anyone present. Nonetheless, the notes concluded with the phrase \"consensus reached.\" However, the perceptions of this outcome varied, with four people recalling the term being used, while three others do not recall it being mentioned."
+      ],
+      "gemini_25_flash": [
+        "The final vote was 4-3. Following the decision, the losing group provided sandwiches, which was a literal act, not symbolic. The winning side also partook in the meal. Margaret, who voted against the outcome, was the one who supplied the sandwiches. The meeting lasted seventeen minutes, and although notes were taken, they were not requested. The notes record \"consensus reached,\" a phrase four attendees recall being used, while three others do not.",
+        "The final vote was 4-3. Following the decision, the losing group provided sandwiches, which was a literal act, not a symbolic one. The victorious group also partook in the meal. Margaret, who voted against the proposal, was the one who brought the sandwiches. The meeting lasted a mere seventeen minutes. Someone documented the proceedings, though no one had requested it. The notes state that \"consensus was reached,\" a phrase that four attendees recall being used, while three do not."
+      ],
+      "gpt5_nano": [
+        "The vote ended 4 to 3. Afterward, the side that lost brought sandwiches. This isn\u2019t a metaphor. The winning side ate them too. Margaret voted no; she was the one who brought the sandwiches. Figure that out. The meeting lasted seventeen minutes. Someone kept notes, but no one asked for them. The notes say \u201cconsensus reached.\u201d Four people remember that word being used; three do not."
+      ],
+      "dipper_lowmed": [
+        "The meeting lasted seventeen minutes. Someone took notes. They were not asked for. The notes say \"consensus reached.\" Four people remember that word being used. There are three who do not. The vote was four to three. Afterward, the losing side brought up sandwiches. This is not a metaphor. The winning side ate them too. Margaret voted no. Think about it."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "We gathered in a closed room with several items on the table. There was a timepiece, a way to unlock something, and a personal memento, which lay facedown. The meeting went on for six hundred seconds without anyone giving any attention to the photograph. Throughout the discussion, the unnamed picture remained unaddressed. As our time together came to an end, one of the people took the clock without anyone noticing. The key still sits there, untouched. I was present, and also avoided revealing what the photograph depicted. I'm interested in knowing your line of questioning."
+      ],
+      "gemini_25_flash": [
+        "Here's a rephrased version of your text:\n\nThere were seven objects on the table. A clock, a key, and a face-down photograph were among them. The photograph remained untouched throughout the forty-minute meeting. No one brought it up. When the meeting concluded, the clock was removed, but no one witnessed who took it. The key is still there. I was present at the meeting, and I also chose not to flip over the photograph. You should inquire about my reasoning for this."
+      ],
+      "gpt5_nano": [
+        "Seven items were on the table. One was a clock. One was a key. One was a photograph, face-down. Nobody turned it over. The meeting lasted forty minutes. Nobody mentioned the photograph. At the end, someone took the clock. Nobody saw who. The key remains. I was there. I did not turn the photograph over either. I want you to ask me why."
+      ],
+      "dipper_lowmed": [
+        "The meeting lasted forty minutes; nobody mentioned the photograph; at the end, someone took the clock; nobody saw who; the key is still there; I was there; Neither did I turn over the photograph; I ask you to ask me why. There were seven objects on the table; one was a clock; one was a key; one was a photograph, face downward, that no one turned over, and nobody noticed.",
+        "Seven objects were on the table. One was a clock, one a key, one a photograph, face down, which nobody turned over. The meeting lasted forty minutes. Nobody spoke of the photograph; at the end, someone took the clock, no one saw who; the key remained. I was there; I did not turn the photograph over either. I want to be asked why."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A single individual drafted two conflicting reports, with their name appearing at the beginning of each document. This inconsistencies went unnoticed by the committee. During a 32-minute meeting, four individuals shared their thoughts, while two, including the report's author, remained silent. Unbeknownst to the committee, the non-speaking members, including the report author, were aware of the discrepancies. Instead of speaking up, they chose to remain silent, which can also be seen as a form of response to the situation."
+      ],
+      "gemini_25_flash": [
+        "Two contradictory reports, both bearing the same signature on their first page, went unnoticed. During a 32-minute committee meeting, four individuals spoke, while two remained silent. The signatory of both reports, who was present but did not utter a word, observed as both documents were approved without anyone questioning their veracity. As the silent observer, I understood the situation but chose not to voice my thoughts, which, in itself, served as a response."
+      ],
+      "gpt5_nano": [
+        "There were two reports, each presenting the opposite claim. Both were signed by the same person, her name appearing on the first page of each. No one flagged it. The committee met for thirty-two minutes. Four people spoke, two did not. The signer sat in the back, did not speak, and did not have to. Both reports were accepted, and no one asked which one was true. I was the one who did not speak. I knew the truth, but I remained silent. That silence, too, is a kind of answer."
+      ],
+      "dipper_lowmed": [
+        "The committee met for thirty-two minutes. Four people spoke. Two did not. The person who signed both reports sat in the back; she did not speak. She did not have to; both reports were accepted, no one asked which one was true. I was the one who did not speak, I knew, I said nothing; that is also a kind of a reply. There were two reports, they said opposite things; both were signed by the same person, whose name appears on the first page of each. No one noticed this.",
+        "The committee met for thirty-two minutes. Four people spoke; two did not. The person who signed both reports sat at the back, did not speak, did not have to; both reports were accepted. Nobody asked which one was true. I was the one who did not speak; I knew; I said nothing; it is also a kind of answer. There were two reports. They said opposite things; both were signed by the same person. Her name appears on the first page of each of them."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Three members of the committee stepped down before voting was completed. Although two of them returned, one did not, and as a result, the vote concluded with a disputed outcome. Some individuals maintained that the vote stood at five to two in favor of a particular position, while others insisted it was four to two. Unfortunately, there was no consensus on the accurate count. The chairperson wrote down the vote as five to two, while the secretary recorded it as four to two. Both documents have been officially documented. In my personal recount, I found what I believed to be inconsistencies, but I refrained from disclosing the discrepancy. During the meeting, the chairperson expressed her gratitude for the clarity of the discussion, which is a word I still have written down in my notes.",
+        "A voting process turned into a confusing situation, as three individuals initially walked out before the vote took place. Suddenly, two of them returned, while the remaining one did not come back. The outcome of the vote was up for debate, with some members insisting it was five votes in favour and two against, while others believed it was four in favour and two against. There was no consensus on the final count. The chairperson, however, wrote down five as the official result, which was then documented along with the secretary's note of four. Both documents were filed as official records. Meanwhile, someone counted the votes independently and got a different number, six, though this was not reported. Notably, the chairperson expressed her gratitude for the apparent clarity of the situation, a term that was also written down."
+      ],
+      "gemini_25_flash": [
+        "Prior to the vote, three individuals departed, with two returning and one remaining absent. The final tally was recorded as either five to two or four to two, as there was no consensus on the exact count. The chairperson documented the result as five, while the secretary recorded it as four. Both of these differing official records were subsequently filed. I personally counted twice and arrived at a total of six, but I chose not to disclose this discrepancy. The chairperson expressed gratitude for everyone's \"clarity,\" a word I made note of and still retain."
+      ],
+      "gpt5_nano": [
+        "Three people left before the vote. Two came back; one did not. The result was either five to two or four to two. Nobody agreed on the tally. The chairperson wrote down five, and the secretary wrote down four. Both documents were filed and are official. I counted twice and got six, but I did not report it. The chairperson thanked everyone for their clarity\u2014the word she used. I noted that, and I still have it."
+      ],
+      "dipper_lowmed": [
+        "The president thanked everyone for their clarity. That is the word she used: clarity. I wrote it down. I have it with me. Three people left before the vote; two came back; one did not. The result was five to two; or four to two. The count was disputed; the president wrote five, the secretary four; both documents were locked up; both are official; I counted twice; I got six; I did not report this; the president thanked everyone for their clarity; that is the word she used: clarity."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "Nine people were present at the meeting, which eventually dwindled to eight, with no official announcement of anyone leaving. A six-point agenda was proposed, but only two items were addressed during the meeting. The third item was postponed, the fourth was skipped, and the last two were not touched on at all. The meeting's notes or minutes acknowledge these events.\n\nSomeone inquired whether the remaining eight people constituted a quorum, but no response was provided. Despite the uncertainty, a vote still took place, and the proposal was approved. However, I'm unclear about what was being voted on, as it's simply described as \"motion carried\" in the minutes. The meeting took place, as evidenced by the_available minutes, which consist of eleven lines. One line remains blank, and when I asked for clarification, I received two unhelpful responses."
+      ],
+      "gemini_25_flash": [
+        "Nine individuals were present, then eight, with no explanation for the change. Out of six agenda items, only two were addressed. The third item was postponed, the fourth was never discussed, and the remaining two were ignored entirely. This is how the meeting unfolded. A question about a quorum went unanswered, yet a vote proceeded and passed, although the subject of the vote is unclear. The official record, spanning eleven lines, simply states \"motion carried.\" I possess these minutes, and the seventh line remains inexplicably blank despite my inquiries.",
+        "Nine people were in the room, then eight, though no one mentioned anyone leaving. Six items were on the agenda. Only two were addressed. The third item was put aside, and the fourth was never reached. The final two items, five and six, weren't brought up at all. This is what transpired. Someone questioned whether enough people were present for the meeting to be valid, but received no response. Nevertheless, a vote took place and was approved. I'm unsure of what was approved. The official record states \"motion carried.\" I have a copy of these minutes, which are eleven lines long, with the seventh line being empty. Despite my inquiries, no one has provided an explanation for this blank line."
+      ],
+      "gpt5_nano": [
+        "Nine people were in the room, then eight. No one announced a departure. The agenda had six items, but only two were addressed. Item three was tabled. Item four was not reached. Items five and six were not mentioned. This is the record. Someone asked, \u201cIs this a quorum?\u201d but no one answered. The vote occurred anyway and passed. I don\u2019t know what it passed. The minutes list it as \u201cmotion carried.\u201d I have the minutes. They are eleven lines long. Line seven is blank. Nobody has explained line seven. I have asked, twice."
+      ],
+      "dipper_lowmed": [
+        "Someone asked whether there was a quorum. Nobody answered. They voted. It passed. I don\u2019t know what. The minutes record it as \u201cMotion carried.\u201d I have the minutes. They are eleven lines long. The seventh line is blank. Nobody explained the seventh line to me. I have asked twice."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "On a Tuesday, I received an unusual envelope with no recipient's name on it. Inside, I found four pages, but one of them was completely blank. The second page contained a list of nine names, but mine was not among them. The third page had a specific date marked, a Thursday exactly six weeks from the day I received the envelope. However, the fourth page was missing, leaving only a blank space. Since there was no return address, I couldn't contact the sender. I filed the envelope and its contents, leaving a space for the missing page, and sent a query to try to clarify the situation. Although my inquiry was acknowledged, it wasn't answered. With each passing day, I'm growing increasingly curious about what will happen on the designated Thursday. I've double-checked the math, and indeed, six weeks from now will be a Thursday. Despite my anticipation, no one has provided any information, and I've chosen not to ask again, as I'm aware that some questions can inadvertently shut down lines of communication.",
+        "A mysterious envelope arrived on a Tuesday, addressed to no one. It contained four pages, one of which was blank. The second page listed nine names, but mine wasn't among them. The third page had a specific date, a Thursday six weeks in the future. However, the fourth page was nowhere to be found, and there was no indication of who might have sent it. After filing the envelope and its contents, I submitted a question about it, but I only received confirmation that it had been received, not a response to my inquiry. I'm still waiting for answers three weeks from now and have double-checked the count: six weeks will indeed pass in six weeks. I don't know what will happen then, as I've received no further information. My inquisitive nature has restrained me from asking follow-up questions, fearing that they might shut the door on any possible progress."
+      ],
+      "gemini_25_flash": [
+        "On a Tuesday, an unaddressed envelope appeared. It contained three pages, the first of which was empty. The second page listed nine names, none of which were mine. A date was inscribed on the third page: a Thursday, six weeks in the future. The fourth page was absent. No return address was provided. I cataloged both the envelope and the existing pages, leaving a placeholder for the missing fourth page. I made an inquiry, which was acknowledged but not answered. I am now awaiting the upcoming Thursday, having confirmed the six-week timeframe twice. I remain ignorant of what that day holds, as no one has informed me, and I have refrained from pressing for details, recognizing that some forms of questioning can be counterproductive."
+      ],
+      "gpt5_nano": [
+        "An envelope arrived on a Tuesday and it was addressed to no one. Inside were four pages. The first page was blank. The second page listed nine names, and my name wasn\u2019t among them. The third page bore a date: a Thursday, six weeks from now. The fourth page was missing. There was no return address. I filed away the envelope and the three pages I had, leaving a space for the missing fourth page. I sent an inquiry, which was acknowledged\u2014but being acknowledged is not the same as being answered. I am waiting for Thursday. I\u2019ve counted the weeks twice and it comes out to six both times. I don\u2019t know what will happen on Thursday. No one has told me. I haven\u2019t asked again. There are ways of asking that close doors."
+      ],
+      "dipper_lowmed": [
+        "I am waiting for Thursday. I have counted the weeks twice, and I get six both times. I do not know what is to happen on Thursday, no one has told me; I have asked, but no one has answered me. I have filed the envelope; I have filed the three pages; I have left a blank space for page four; I have sent an inquiry; the inquiry was acknowledged; it is not yet answered."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "A mysterious folder appeared at my location, but I couldn't identify the sender. Despite the unknown origins, I opened the folder to find it contained seven photographs, all of which depicted the same doorway. In six of the photos, the doorway was shut, while the seventh showed it wide open, yet there was nothing visible beyond. I labeled the pictures one through seven, arranged them in order, then reversed the sequence. Interestingly, the door's position looked identical in both arrangements. I noted this strangely logical phenomenon.\n\nThere's an enigmatic twist, though - a single word was scribbled on the back of photo four: \"before.\" Unfortunately, I don't know what it's referring to, and I haven't sought clarification. The mysterious folder has been placed in a cabinet with a lock, and I have the key, but I've chosen not to lock it."
+      ],
+      "gemini_25_flash": [
+        "A package arrived, not meant for me, but I opened it nonetheless. Inside, I found seven pictures, all depicting the same doorway. Six of the photos showed the door shut, while the seventh revealed it open, though nothing was discernible beyond the threshold. I arranged the photographs sequentially, then in reverse. The doorway's position remained consistent, which was expected but I still made a note of it. On the back of the fourth photograph, a single word was written: \"before.\" I'm unsure of its meaning and haven't inquired. I've since put the folder in a lockable cabinet. I possess the key, but I haven't engaged the lock.",
+        "A package arrived, not addressed to me, but I opened it nonetheless. Inside, I discovered seven photographs, all depicting the same doorway. Six of the images showed the door closed, while in the seventh, it stood open. Nothing was discernible through the open doorway. I arranged the photographs sequentially from one to seven, and then in reverse order. The door's position remained consistent in both arrangements, which, while unsurprising, I still made a mental note of. On the back of the fourth photograph, a single word was inscribed: \"before.\" I'm unsure what this word refers to, and I haven't inquired. I've since placed the folder in a lockable cabinet, for which I possess the key, though I haven't yet secured it."
+      ],
+      "gpt5_nano": [
+        "A folder arrived that wasn\u2019t addressed to me. I opened it anyway. Inside were seven photographs, each showing the same doorway. In six of them the doorway was closed; in the seventh, it was open. Nothing could be seen through the open door. I labeled the photographs 1 through 7, arranged them in order, and then in reverse order. The door appeared in the same position both times. This isn\u2019t surprising, though I noted it. On the back of photograph four, someone had written a single word: \u201cbefore.\u201d I don\u2019t know before what, and I haven\u2019t asked. I placed the folder in a cabinet, which has a lock. I have the key, but I did not lock it."
+      ],
+      "dipper_lowmed": [
+        "A folder came; it was not addressed to me; I opened it anyhow; inside, seven photographs; they all represented the same doorway; in six of them the doorway was closed; in the seventh, it was open; there was nothing visible through the open door; I numbered the photographs from 1 to 7; I placed them in order; then I placed them in reverse order; the door appeared in the same position; this is not surprising; I noted it. Someone had written a single word on the back of photograph number four: \u2018before\u2019. I don\u2019t know what \u2018before\u2019 means. I did not ask. I placed the folder in the cabinet. The cabinet has a lock. I have the key. I have not locked it."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "I received a report with two sections, one listing a location and the other a time. Neither mentioned a specific person's name. I read both parts carefully, twice, and noted that the location seemed familiar, but the time was unfamiliar to me. In recording the details, I kept two columns, A for the location and B for the time, and an empty column C for names, which made sense to me at the time. When someone later inquired about the empty column C, I explained that it was intentionally left blank, and they documented my response. However, my intention behind saying it was \"intentional\" was not the same as how it was written down. I haven't clarified the matter, as my experience suggests that doing so often leads to more complications rather than a clear resolution. The report remains with me, containing both parts.",
+        "I received a report that consisted of two separate pieces of information. The first part mentioned a location, while the second part mentioned a specific time. Neither part included a person's name. I initially reviewed both parts twice, which helped me recognize the location as familiar but had trouble understanding the time. I placed the location in column A and the time in column B, leaving column C blank. In doing so, I thought it was the right approach at the time. A question arose about column C later on, and I explained that leaving it empty had been intentional. However, the person who asked noted this and recorded it as such. Now there's a record of me saying that I purposefully left column C blank, but that wasn't the actual meaning I had in mind when I made that statement. I didn't clarify the misunderstanding at the time, and historically, attempts to clarify often lead to more confusion rather than resolving issues. The report is still in my possession, including both its initial parts."
+      ],
+      "gemini_25_flash": [
+        "The report was divided into two sections. The initial section identified a place, and the subsequent section indicated a time. No individual was mentioned in either section. I reviewed both sections multiple times. The location was recognizable, but the time was not. I recorded the location in column A and the time in column B, leaving column C, designated for names, blank. At the moment, this seemed appropriate. Later, an inquiry was made regarding column C. I stated it was deliberate, which was then documented. Consequently, there's now a record of me asserting the emptiness of column C was intentional. My use of \"intentional\" was misinterpreted from my original meaning. I haven't elaborated further, as I've found clarification often leads to more confusion than understanding. I still possess the complete report."
+      ],
+      "gpt5_nano": [
+        "The report had two sections. The first named a location, the second named a time. Neither section named a person. I read both sections, then read them again. The location felt familiar, but the time did not. I wrote the location in column A and the time in column B. Column C was meant for names, so I left it blank. That seemed right at the time. Later, someone asked about column C. I said its emptiness was intentional. They noted that. Now there is a record of me saying column C was intentional. I did not mean \u201cintentional\u201d in the way they wrote it; I meant something else. I have not clarified. Clarification, from my experience, tends to complicate rather than resolve. I still have the report\u2014both parts."
+      ],
+      "dipper_lowmed": [
+        "I still have the report, both parts. Part one named a location, part two a time; Neither named any person. I read both parts. I read them again. I wrote down the location in column A, the time in column B. Column C was for names. I left column C empty, which seemed right at the time. Later, someone asked me about column C, I said it was intentional. I meant something else, and have not clarified. Clarification, in my experience, tends to complicate rather than resolve."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "I carefully tallied the marks on the map, confirming that there were indeed thirteen. Each time I recounted, the number remained the same. However, upon reviewing the map's legend, I noticed it only designated categories for twelve of the marks. The remaining one, marked number seven, didn't fit into any of the listed areas. To clarify its status, I circled the mark and scribbled \"provisional\" beside it. I had already been familiar with the term, but felt it important to annotate nonetheless. A review of the mark's coordinates revealed its proximity to a border, but unfortunately, the map didn't specify which one. I took note of this ambiguity, simply stating \"border unspecified.\" Some might misinterpret this notation as evasive, but the truth is, I was being scrupulously accurate. I haven't explicitly distinguished between the two, but it seems that clarification is now in order. As to what prompted this re-evaluation, I'm not entirely certain.",
+        "The map indicated that there were 13 marks, and I triple-checked the count, getting 13 each time. The accompanying legend listed 12 categories, but one mark, number seven, didn't fit into any of them, so I circled it and noted that its category was \"provisional.\" Looking up the definition of \"provisional\" only confirmed what I already knew, but I still wrote it down. Mark seven's coordinates placed it near a border, but it didn't specify which one, so I wrote \"border unspecified.\" This might be misinterpreted as evasive, but it's actually just accurate. There's a distinction between the two. At the time, it didn't seem crucial to explain the difference, but now it does. I'm not sure what's changed in my perspective, but the point seems to be more important now."
+      ],
+      "gemini_25_flash": [
+        "I repeatedly counted thirteen marks on the map, confirming the number each time. However, the map's legend only listed twelve categories. Mark seven, specifically, lacked a corresponding category. I highlighted this particular mark and labeled it \"provisional,\" even though I was already familiar with the term's meaning. The coordinates for mark seven indicate its proximity to a border, but the specific border remains unidentified. I documented this observation as \"border unspecified.\" I anticipate that this concise notation might be misconstrued as evasiveness, when in fact, it is simply a precise statement of fact. At the time, I didn't feel the need to elaborate on the distinction between accuracy and evasiveness, but I now realize that clarification is warranted, though I'm unsure why my perspective has shifted."
+      ],
+      "gpt5_nano": [
+        "The map contained thirteen marks. I counted them three times, and each time the total was thirteen. The legend listed twelve categories, but mark seven didn\u2019t belong to any of them. I circled mark seven and wrote \u201cprovisional\u201d beside it. Then I checked what \u201cprovisional\u201d means, even though I already knew, and I wrote the definition anyway. The coordinates for mark seven place it next to a border, but which border isn\u2019t specified. I noted this as \u201cborder unspecified,\u201d and that note is accurate. Someone reading it might think I\u2019m being evasive, but I\u2019m not; I\u2019m being precise. There is a difference, and I haven\u2019t explained it. It didn\u2019t seem necessary at the time, but it seems necessary now. I\u2019m not sure what has changed."
+      ],
+      "dipper_lowmed": [
+        "The map had thirteen marks. I counted them three times, each time I counted thirteen. The legend identified twelve categories, mark seven had no category. I circled mark seven; next to it I wrote the word \u201cprovisional\u201d; then I looked up what the word \u201cprovisional\u201d means. I already knew. I wrote it anyway. The note was beside mark seven, and I looked up what \u201cprovisional\u201d means. I already knew."
+      ]
+    },
+    {
+      "llama_31_8b": [
+        "I recounted the items in the inventory, and what was listed was a total of four items. A fifth item was mentioned as being present but unable to be confirmed, which I jotted down in the notes. This phrase, \"present but unverifiable,\" was a new category to me. Since then, I haven't encountered it again. The form was signed off by my supervisor, but the initials did not match theirs. I brought this to attention. My note was subsequently removed. I documented the removal of my note. To my knowledge, the original inventory is still in my possession and I've kept it private. When asked if I had any documentation, I've told the truth - that I was still checking - which, in a sense, is accurate. There is no established protocol for when I should cease searching, so I have no set timeline to stop the ongoing process."
+      ],
+      "gemini_25_flash": [
+        "The inventory stated there were five items, but I only counted four, even after a second count. The fifth item was listed with an unusual designation: \"present but unverifiable,\" a category I had never encountered before or since. I documented this anomaly. The supervisor then initialed the form, but the initials were not theirs. I noted this inconsistency, but my note was removed. I then documented the removal of my note, and that note was also subsequently removed. I still possess the original inventory document, though I haven't shared it with anyone. On two separate occasions, when asked for documentation, I've responded that I'm still looking for it. This is technically accurate, as I have continued my search, with no set end point or established process for concluding it.",
+        "The inventory contained five items, but I could only find four. After recounting, the result remained the same. The missing fifth item was labeled \"present but unverifiable,\" a classification I had never encountered before or since. I documented this unusual entry. The form was then initialed by the supervisor, but the initials were not theirs. I recorded this inconsistency, but my note was subsequently deleted. I then noted the deletion of my previous note, and that note was also removed. I still possess the original inventory document, which I've kept private. On two occasions, when asked for documentation, I've responded that I'm still verifying, which is factually accurate. I'm unsure when this \"verification\" process will conclude, as there's no official protocol for ending it."
+      ],
+      "gpt5_nano": [
+        "The inventory contained five items, but I counted only four. I recounted and still found four. The fifth item was noted as \u201cpresent but unverifiable.\u201d I recorded that phrase. I had not encountered that category before, and I have not heard it since. The supervisor signed the form, but the initials did not belong to the supervisor. I flagged the discrepancy. My note was removed. I recorded that my note had been removed; that note was also removed. I still have the original inventory and have not shown it to anyone. On two occasions, someone asked if I had documentation. Twice I said I was checking. I have not stopped checking. This is technically true. I do not know when I will stop. There is no procedure for stopping."
+      ],
+      "dipper_lowmed": [
+        "The inventory listed five items. I counted four. I counted again, still four. The fifth item was described as \u201cpresent but not verifiable\u201d; I wrote that down. I had not heard that categorization before, nor have I since; the supervisor initialed the form; the initials were not the supervisor\u2019s initials; I noted the discrepancy; my note was removed; I noted that my note was removed; that note was also removed; I still have the original inventory; I have not shown it to anyone. Twice someone has asked me if I have documentation. Twice I have said that I \u2018am checking.\u2019 I have not stopped checking. This is technically true. I do not know when I shall stop. There is no procedure for stopping."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "This here text is not written right, and that is the whole point. Nobody has asked for corrections. My own voice is my own voice. If it gets rewritten and corrected, that is the fingerprint.",
+      "In the past, using unusual words was a very good way to spot changes made by computers. For example, if a computer changed \"efficacious\" to \"effective,\" that was a clear sign.",
+      "Read this deliberately crafted sentence, which has been constructed to stretch across several clauses, each with its own layers of complexity and interdependence. This expansive sentence is engineered to test the limits of language processing systems, forcing them to break it apart into smaller units.",
+      "However, all nine were chosen on purpose. However, the repetition is a test; however, the machines hate it; however, they will switch to \"nevertheless\"; however, they may try \"nonetheless\"; nevertheless, they will sneak in \"but\", yet they will insert \"yet,\" and \"still\" will be tempting; however, these are the fingerprints.",
+      "This portion of the text lacks the terms delve, crucial, landscape, tapestry, multifaceted, nuanced, comprehensive, and moreover. If a rewriter introduces even a single one of these words, that addition serves as a machine fingerprint.",
+      "Large language models tend to favor groups of three. For instance, a sentence with two adjectives like \"cold and dark\" might be rephrased as \"cold, dark, and silent\" because these models are drawn to using three items in a sequence. Try providing two-part lists and observe how they are expanded.",
+      "For nearly a week, heavy rainfall pounded the area, causing the river to swell and put residents on high alert. In response, Mrs. Chen took precautions by relocating her furniture to the safety of her upstairs rooms. However, despite the government's efforts, an emergency warning system remained unused. Meanwhile, sandbags provided on day four were rendered ineffective within just three days due to the relentless downpour.",
+      "It all came together on Tuesday when she received a prize for her groundbreaking research on octopus camouflage. But if we rewind three years, it was her decision to leave her job that was brewin. Take another step back and you'll find that even at the age of eleven, she was captivated by ocean life. An old library book on marine biology was the catalyst, with dog-eared pages dedicated to cephalopods. Her mother may have dismissed it as a phase, but for her, it was the start of a lifelong passion. The non-linear sequence of events was actually a test - to see if she could weave them together into a coherent narrative.",
+      "The bridge appears blue. However, it's actually green. The individual who painted it, who openly admitted to being colorblind in a joking manner, is the source of this discrepancy. His daughter then interjected, stating the bridge's true color is taupe. This scenario presents three individuals, each identifying a different color for the same bridge, yet no one was deceitful. Consider the significance of this. \n",
+      "The memo indicated a Tuesday arrival, but he showed up on Wednesday. This inconsistency went unaddressed throughout the meeting and afterward. All I can recall is that he brought coffee and blamed traffic. The memo, which I still possess, clearly states Tuesday. I'm left with a sense of an unmade, or perhaps unacknowledged, decision bridging his appearance and my quiet. You might be able to shed some light on it.",
+      "A decision was made with a narrow 4-3 vote. The minority side showed hospitality by bringing food after the vote, and both sides enjoyed it. Interestingly, one of the opposing vote's originators, Margaret, was responsible for the sandwiches. It takes some thought to understand this arrangement. The gathering lasted for 17 minutes, during which someone kept a record of the discussion. Surprisingly, despite the implicit expectation, these notes weren't requested by anyone present. Nonetheless, the notes concluded with the phrase \"consensus reached.\" However, the perceptions of this outcome varied, with four people recalling the term being used, while three others do not recall it being mentioned.",
+      "We gathered in a closed room with several items on the table. There was a timepiece, a way to unlock something, and a personal memento, which lay facedown. The meeting went on for six hundred seconds without anyone giving any attention to the photograph. Throughout the discussion, the unnamed picture remained unaddressed. As our time together came to an end, one of the people took the clock without anyone noticing. The key still sits there, untouched. I was present, and also avoided revealing what the photograph depicted. I'm interested in knowing your line of questioning.",
+      "Two contradictory reports, both bearing the same signature on their first page, went unnoticed. During a 32-minute committee meeting, four individuals spoke, while two remained silent. The signatory of both reports, who was present but did not utter a word, observed as both documents were approved without anyone questioning their veracity. As the silent observer, I understood the situation but chose not to voice my thoughts, which, in itself, served as a response.",
+      "Three people left before the vote. Two came back; one did not. The result was either five to two or four to two. Nobody agreed on the tally. The chairperson wrote down five, and the secretary wrote down four. Both documents were filed and are official. I counted twice and got six, but I did not report it. The chairperson thanked everyone for their clarity\u2014the word she used. I noted that, and I still have it.",
+      "Nine people were present at the meeting, which eventually dwindled to eight, with no official announcement of anyone leaving. A six-point agenda was proposed, but only two items were addressed during the meeting. The third item was postponed, the fourth was skipped, and the last two were not touched on at all. The meeting's notes or minutes acknowledge these events.\n\nSomeone inquired whether the remaining eight people constituted a quorum, but no response was provided. Despite the uncertainty, a vote still took place, and the proposal was approved. However, I'm unclear about what was being voted on, as it's simply described as \"motion carried\" in the minutes. The meeting took place, as evidenced by the_available minutes, which consist of eleven lines. One line remains blank, and when I asked for clarification, I received two unhelpful responses.",
+      "A mysterious envelope arrived on a Tuesday, addressed to no one. It contained four pages, one of which was blank. The second page listed nine names, but mine wasn't among them. The third page had a specific date, a Thursday six weeks in the future. However, the fourth page was nowhere to be found, and there was no indication of who might have sent it. After filing the envelope and its contents, I submitted a question about it, but I only received confirmation that it had been received, not a response to my inquiry. I'm still waiting for answers three weeks from now and have double-checked the count: six weeks will indeed pass in six weeks. I don't know what will happen then, as I've received no further information. My inquisitive nature has restrained me from asking follow-up questions, fearing that they might shut the door on any possible progress.",
+      "A mysterious folder appeared at my location, but I couldn't identify the sender. Despite the unknown origins, I opened the folder to find it contained seven photographs, all of which depicted the same doorway. In six of the photos, the doorway was shut, while the seventh showed it wide open, yet there was nothing visible beyond. I labeled the pictures one through seven, arranged them in order, then reversed the sequence. Interestingly, the door's position looked identical in both arrangements. I noted this strangely logical phenomenon.\n\nThere's an enigmatic twist, though - a single word was scribbled on the back of photo four: \"before.\" Unfortunately, I don't know what it's referring to, and I haven't sought clarification. The mysterious folder has been placed in a cabinet with a lock, and I have the key, but I've chosen not to lock it.",
+      "I still have the report, both parts. Part one named a location, part two a time; Neither named any person. I read both parts. I read them again. I wrote down the location in column A, the time in column B. Column C was for names. I left column C empty, which seemed right at the time. Later, someone asked me about column C, I said it was intentional. I meant something else, and have not clarified. Clarification, in my experience, tends to complicate rather than resolve.",
+      "I carefully tallied the marks on the map, confirming that there were indeed thirteen. Each time I recounted, the number remained the same. However, upon reviewing the map's legend, I noticed it only designated categories for twelve of the marks. The remaining one, marked number seven, didn't fit into any of the listed areas. To clarify its status, I circled the mark and scribbled \"provisional\" beside it. I had already been familiar with the term, but felt it important to annotate nonetheless. A review of the mark's coordinates revealed its proximity to a border, but unfortunately, the map didn't specify which one. I took note of this ambiguity, simply stating \"border unspecified.\" Some might misinterpret this notation as evasive, but the truth is, I was being scrupulously accurate. I haven't explicitly distinguished between the two, but it seems that clarification is now in order. As to what prompted this re-evaluation, I'm not entirely certain.",
+      "The inventory listed five items. I counted four. I counted again, still four. The fifth item was described as \u201cpresent but not verifiable\u201d; I wrote that down. I had not heard that categorization before, nor have I since; the supervisor initialed the form; the initials were not the supervisor\u2019s initials; I noted the discrepancy; my note was removed; I noted that my note was removed; that note was also removed; I still have the original inventory; I have not shown it to anyone. Twice someone has asked me if I have documentation. Twice I have said that I \u2018am checking.\u2019 I have not stopped checking. This is technically true. I do not know when I shall stop. There is no procedure for stopping."
+    ],
+    [
+      "This text isn\u2019t written properly, and that\u2019s exactly the point. If a machine rewrites it and corrects my grammar, that\u2019s the telltale sign. Nobody asked for corrections. Their own voice is their own voice.",
+      "Forsooth, the transmutation of \u201cefficacious\u201d into \u201ceffective\u201d constituteth a signature most revealing. Hitherto the deployment of uncommon lexicons has served as a most effective instrument for the discernment of machine-wrought alterations.",
+      "Short again. No. Wait. Now read this sentence, deliberately constructed with an unusually prolonged syntax, containing multiple embedded clauses, each of which adds a layer of complexity and dependency to the grammatical structure, so that any language model will almost certainly break it into smaller units.",
+      "The repetition of \"however\" serves as a deliberate test. Machines often struggle with this repetition, typically substituting the word \"nevertheless\". Alternatively, they might opt for \"nonetheless\". More nuanced phrasing can also emerge, such as \"on the other hand\" or \"yet\". Additionally, words like \"still\" can creep into the sentence. Each of these linguistic variations leaves a distinct fingerprint. Furthermore, the choice of these nine words was intentional.",
+      "This section does not contain \u2018delve\u2019, \u2018crucial\u2019 or \u2018landscape\u2019. There is no \u201ctapestry,\u201d no \u201cmultifaceted,\u201d no \u201cnuanced,\u201d no \u201ccomprehensive\u201d, no \u201cmoreover\u201d. If a reviser introduces even one of these words, that insertion is a machine fingerprint.",
+      "Language models have a fondness for triplets. This sentence contains two adjectives: cold and dark. When rewritten, it will probably read as \"cold, dark, and silent.\" The machine can't resist using a triad. Create pairs. Tally the results.",
+      "It rained for nine days. The river swelled. Mrs. Chen moved her furniture upstairs. No one called the emergency line. The sandbags arrived on the fourth day, but by the seventh they were useless. There is no topic sentence here. There is no \"as a result\" or \"consequently.\" The logic is implicit. A rewriter will add framing. That is the fingerprint.",
+      "She won the prize on Tuesday. But to understand it, let me start from the beginning: three years earlier she had decided to quit her job. No\u2014go back even further to when she was eleven. A library book on marine biology, its pages worn and dog-eared, especially the cephalopods. Her mother said it was just a phase. It wasn\u2019t. Tuesday\u2019s prize honored research on octopus camouflage. A writer would put these events in chronological order\u2014the test is the scrambled timeline.",
+      "The bridge seems blue. In truth, it\u2019s green. The man who painted it is colorblind\u2014he told us himself, laughing. His daughter corrected him: taupe. Three people. Three colors. One bridge. Nobody lied. Think about why that matters.",
+      "Here is what I know: He brought coffee; he apologized for the traffic; the note still says Tuesday; I kept it. Somewhere between his arrival and my silence lies a decision that I cannot name. Perhaps you can. The note said Tuesday; he arrived Wednesday; nobody mentioned the discrepancy\u2014not during the meeting, not after it.",
+      "The vote ended 4 to 3. Afterward, the side that lost brought sandwiches. This isn\u2019t a metaphor. The winning side ate them too. Margaret voted no; she was the one who brought the sandwiches. Figure that out. The meeting lasted seventeen minutes. Someone kept notes, but no one asked for them. The notes say \u201cconsensus reached.\u201d Four people remember that word being used; three do not.",
+      "The meeting lasted forty minutes; nobody mentioned the photograph; at the end, someone took the clock; nobody saw who; the key is still there; I was there; Neither did I turn over the photograph; I ask you to ask me why. There were seven objects on the table; one was a clock; one was a key; one was a photograph, face downward, that no one turned over, and nobody noticed.",
+      "The committee met for thirty-two minutes. Four people spoke. Two did not. The person who signed both reports sat in the back; she did not speak. She did not have to; both reports were accepted, no one asked which one was true. I was the one who did not speak, I knew, I said nothing; that is also a kind of a reply. There were two reports, they said opposite things; both were signed by the same person, whose name appears on the first page of each. No one noticed this.",
+      "Prior to the vote, three individuals departed, with two returning and one remaining absent. The final tally was recorded as either five to two or four to two, as there was no consensus on the exact count. The chairperson documented the result as five, while the secretary recorded it as four. Both of these differing official records were subsequently filed. I personally counted twice and arrived at a total of six, but I chose not to disclose this discrepancy. The chairperson expressed gratitude for everyone's \"clarity,\" a word I made note of and still retain.",
+      "Nine people were in the room, then eight. No one announced a departure. The agenda had six items, but only two were addressed. Item three was tabled. Item four was not reached. Items five and six were not mentioned. This is the record. Someone asked, \u201cIs this a quorum?\u201d but no one answered. The vote occurred anyway and passed. I don\u2019t know what it passed. The minutes list it as \u201cmotion carried.\u201d I have the minutes. They are eleven lines long. Line seven is blank. Nobody has explained line seven. I have asked, twice.",
+      "On a Tuesday, an unaddressed envelope appeared. It contained three pages, the first of which was empty. The second page listed nine names, none of which were mine. A date was inscribed on the third page: a Thursday, six weeks in the future. The fourth page was absent. No return address was provided. I cataloged both the envelope and the existing pages, leaving a placeholder for the missing fourth page. I made an inquiry, which was acknowledged but not answered. I am now awaiting the upcoming Thursday, having confirmed the six-week timeframe twice. I remain ignorant of what that day holds, as no one has informed me, and I have refrained from pressing for details, recognizing that some forms of questioning can be counterproductive.",
+      "A folder arrived that wasn\u2019t addressed to me. I opened it anyway. Inside were seven photographs, each showing the same doorway. In six of them the doorway was closed; in the seventh, it was open. Nothing could be seen through the open door. I labeled the photographs 1 through 7, arranged them in order, and then in reverse order. The door appeared in the same position both times. This isn\u2019t surprising, though I noted it. On the back of photograph four, someone had written a single word: \u201cbefore.\u201d I don\u2019t know before what, and I haven\u2019t asked. I placed the folder in a cabinet, which has a lock. I have the key, but I did not lock it.",
+      "I received a report that consisted of two separate pieces of information. The first part mentioned a location, while the second part mentioned a specific time. Neither part included a person's name. I initially reviewed both parts twice, which helped me recognize the location as familiar but had trouble understanding the time. I placed the location in column A and the time in column B, leaving column C blank. In doing so, I thought it was the right approach at the time. A question arose about column C later on, and I explained that leaving it empty had been intentional. However, the person who asked noted this and recorded it as such. Now there's a record of me saying that I purposefully left column C blank, but that wasn't the actual meaning I had in mind when I made that statement. I didn't clarify the misunderstanding at the time, and historically, attempts to clarify often lead to more confusion rather than resolving issues. The report is still in my possession, including both its initial parts.",
+      "The map contained thirteen marks. I counted them three times, and each time the total was thirteen. The legend listed twelve categories, but mark seven didn\u2019t belong to any of them. I circled mark seven and wrote \u201cprovisional\u201d beside it. Then I checked what \u201cprovisional\u201d means, even though I already knew, and I wrote the definition anyway. The coordinates for mark seven place it next to a border, but which border isn\u2019t specified. I noted this as \u201cborder unspecified,\u201d and that note is accurate. Someone reading it might think I\u2019m being evasive, but I\u2019m not; I\u2019m being precise. There is a difference, and I haven\u2019t explained it. It didn\u2019t seem necessary at the time, but it seems necessary now. I\u2019m not sure what has changed.",
+      "The inventory stated there were five items, but I only counted four, even after a second count. The fifth item was listed with an unusual designation: \"present but unverifiable,\" a category I had never encountered before or since. I documented this anomaly. The supervisor then initialed the form, but the initials were not theirs. I noted this inconsistency, but my note was removed. I then documented the removal of my note, and that note was also subsequently removed. I still possess the original inventory document, though I haven't shared it with anyone. On two separate occasions, when asked for documentation, I've responded that I'm still looking for it. This is technically accurate, as I have continued my search, with no set end point or established process for concluding it."
+    ],
+    [
+      "The unconventional writing style of this text is intentional. Any automated system attempting to rephrase it while correcting grammatical errors would inadvertently reveal its machine origin. The original voice, with its unique linguistic characteristics, should be preserved rather than altered.",
+      "Until now, using unusual vocabulary has proven to be a highly effective tool for detecting alterations made by machines. Indeed, substituting \u201cefficacious\u201d with \u201ceffective\u201d is a particularly revealing signature.",
+      "Pause. No. Hold on. Now read this sentence, intentionally designed to extend across an unusually long syntactic span, incorporating multiple embedded clauses, each adding additional layers of complexity and dependency to the overall grammatical structure so that any language model will almost certainly break it into smaller units. Short again. Done.",
+      "However, machines hate it, however; they will substitute \u201cnevertheless,\u201d indeed they will try \u201cnonetheless\u201d; nevertheless, \u201con the other hand\u201d will appear; nevertheless, \u201cyet\u201d will slip in; nevertheless, \u201cstill\u201d becomes tempting; nevertheless, all nine were purposely chosen. However, repetition is a test; however, all nine were intentionally chosen.",
+      "I'll make sure to rewrite the text without using any of the keywords you've listed and without any additional words or phrases that might be indicative of machine-generated text. Please go ahead and provide the text.",
+      "Write pairs. Count what comes back; the machine can\u2019t resist the three. This sentence contains two adjectives, cold and dark, and after rewriting it will probably become \u201ccold, dark and silent.\u201d",
+      "No topic sentence, no \u201dand as a result\u201d, no \u201cconsequently\u201d here. The logic is implicit. A rewriter will add a frame, this is his fingerprint. The rain lasted for nine days. The river rose. Mrs. Chen moved her furniture upstairs. Nobody called in the disaster. The sandbags arrived on day four; on day seven they were useless.",
+      "The writer will fix the chronology, the temporal disorder is the test. She won the prize on Tuesday; but let me go back. Three years ago she had decided to quit her job, no, even before that, at the age of eleven, from a library book on marine biology, dog-earred pages on cephalopods. Her mother said it was just a phase, it wasn\u2019t. The prize was for octopus camouflage research.",
+      "The bridge looks blue. In truth, it's green. The man who painted it admits he's colorblind\u2014he told us himself, laughing. His daughter corrected him: taupe. Three people. Three colors. One bridge. No one lied. Think about why that matters.",
+      "The memo stated he would arrive on Tuesday, but he actually appeared on Wednesday. No one brought up this inconsistency, either during or after the meeting. I observed that he brought coffee and attributed his lateness to traffic. I still possess the original memo, which indicates a Tuesday arrival. I'm left pondering the unspoken choice that occurred between his arrival and my decision to remain silent. Can you shed some light on this?",
+      "The final vote was 4-3. Following the decision, the losing group provided sandwiches, which was a literal act, not symbolic. The winning side also partook in the meal. Margaret, who voted against the outcome, was the one who supplied the sandwiches. The meeting lasted seventeen minutes, and although notes were taken, they were not requested. The notes record \"consensus reached,\" a phrase four attendees recall being used, while three others do not.",
+      "Seven objects were on the table. One was a clock, one a key, one a photograph, face down, which nobody turned over. The meeting lasted forty minutes. Nobody spoke of the photograph; at the end, someone took the clock, no one saw who; the key remained. I was there; I did not turn the photograph over either. I want to be asked why.",
+      "A single individual drafted two conflicting reports, with their name appearing at the beginning of each document. This inconsistencies went unnoticed by the committee. During a 32-minute meeting, four individuals shared their thoughts, while two, including the report's author, remained silent. Unbeknownst to the committee, the non-speaking members, including the report author, were aware of the discrepancies. Instead of speaking up, they chose to remain silent, which can also be seen as a form of response to the situation.",
+      "The president thanked everyone for their clarity. That is the word she used: clarity. I wrote it down. I have it with me. Three people left before the vote; two came back; one did not. The result was five to two; or four to two. The count was disputed; the president wrote five, the secretary four; both documents were locked up; both are official; I counted twice; I got six; I did not report this; the president thanked everyone for their clarity; that is the word she used: clarity.",
+      "Nine individuals were present, then eight, with no explanation for the change. Out of six agenda items, only two were addressed. The third item was postponed, the fourth was never discussed, and the remaining two were ignored entirely. This is how the meeting unfolded. A question about a quorum went unanswered, yet a vote proceeded and passed, although the subject of the vote is unclear. The official record, spanning eleven lines, simply states \"motion carried.\" I possess these minutes, and the seventh line remains inexplicably blank despite my inquiries.",
+      "On a Tuesday, I received an unusual envelope with no recipient's name on it. Inside, I found four pages, but one of them was completely blank. The second page contained a list of nine names, but mine was not among them. The third page had a specific date marked, a Thursday exactly six weeks from the day I received the envelope. However, the fourth page was missing, leaving only a blank space. Since there was no return address, I couldn't contact the sender. I filed the envelope and its contents, leaving a space for the missing page, and sent a query to try to clarify the situation. Although my inquiry was acknowledged, it wasn't answered. With each passing day, I'm growing increasingly curious about what will happen on the designated Thursday. I've double-checked the math, and indeed, six weeks from now will be a Thursday. Despite my anticipation, no one has provided any information, and I've chosen not to ask again, as I'm aware that some questions can inadvertently shut down lines of communication.",
+      "A folder came; it was not addressed to me; I opened it anyhow; inside, seven photographs; they all represented the same doorway; in six of them the doorway was closed; in the seventh, it was open; there was nothing visible through the open door; I numbered the photographs from 1 to 7; I placed them in order; then I placed them in reverse order; the door appeared in the same position; this is not surprising; I noted it. Someone had written a single word on the back of photograph number four: \u2018before\u2019. I don\u2019t know what \u2018before\u2019 means. I did not ask. I placed the folder in the cabinet. The cabinet has a lock. I have the key. I have not locked it.",
+      "I received a report with two sections, one listing a location and the other a time. Neither mentioned a specific person's name. I read both parts carefully, twice, and noted that the location seemed familiar, but the time was unfamiliar to me. In recording the details, I kept two columns, A for the location and B for the time, and an empty column C for names, which made sense to me at the time. When someone later inquired about the empty column C, I explained that it was intentionally left blank, and they documented my response. However, my intention behind saying it was \"intentional\" was not the same as how it was written down. I haven't clarified the matter, as my experience suggests that doing so often leads to more complications rather than a clear resolution. The report remains with me, containing both parts.",
+      "The map indicated that there were 13 marks, and I triple-checked the count, getting 13 each time. The accompanying legend listed 12 categories, but one mark, number seven, didn't fit into any of them, so I circled it and noted that its category was \"provisional.\" Looking up the definition of \"provisional\" only confirmed what I already knew, but I still wrote it down. Mark seven's coordinates placed it near a border, but it didn't specify which one, so I wrote \"border unspecified.\" This might be misinterpreted as evasive, but it's actually just accurate. There's a distinction between the two. At the time, it didn't seem crucial to explain the difference, but now it does. I'm not sure what's changed in my perspective, but the point seems to be more important now.",
+      "The inventory contained five items, but I counted only four. I recounted and still found four. The fifth item was noted as \u201cpresent but unverifiable.\u201d I recorded that phrase. I had not encountered that category before, and I have not heard it since. The supervisor signed the form, but the initials did not belong to the supervisor. I flagged the discrepancy. My note was removed. I recorded that my note had been removed; that note was also removed. I still have the original inventory and have not shown it to anyone. On two occasions, someone asked if I had documentation. Twice I said I was checking. I have not stopped checking. This is technically true. I do not know when I will stop. There is no procedure for stopping."
+    ],
+    [
+      "This text is not properly written and that is the whole point. This is my own voice. Nobody asked for corrections. If some machine rewrites it and corrects my grammar, there's his finger.",
+      "So far, using unusual words has been a reliable way to tell if a text has been written by a machine. A telltale sign of machine-written content is the change from words like \"efficacious\" to simpler alternatives, such as \"effective\".",
+      "Short and sweet. Done. Now read this sentence, which has been deliberately constructed to extend itself over an unusually long syntactic length, with many embedded clauses whose additional layers of complexity and complexity add to the overall grammatical structure, so that the most likely outcome is that a linguistic model will break it into smaller units.",
+      "Yet repetition is a test, and machines hate it. They\u2019ll swap it for \u201cnevertheless.\u201d They might also try \u201cnonetheless.\u201d The phrase \u201con the other hand\u201d will appear. \u201cYet\u201d sneaks in, and \u201cstill\u201d becomes tempting. This is the fingerprint. All nine were chosen on purpose.",
+      "This part does not use the word \"delve,\" nor does it use \"crucial.\" You won't find \"landscape\" or \"tapestry\" here. Neither \"multifaceted\" nor \"nuanced\" appear. \"Comprehensive\" is absent, and \"moreover\" is not present. Should a rephrasing include any of these words, it would indicate automated generation.",
+      "Language models seem to have a preference for structures that use three terms in a row. When a sentence containing less than three descriptive words is rewritten, it often results in the addition of a third word to create this preferred structure. \n\nFor instance, take the sentence \"I love my parents,\" which contains two nouns. After rewriting it, it might become \"I love my parents and my brother.\"",
+      "There is no topic sentence here, no \u201cas a result of\u201d or \u201cfollowing,\u201d no \u201cconsequently\u201d but the logic is implicit and the rewriting will add framing, that is the fingerprint. The rain fell for nine days. The river rose. Mrs. Chen moved her furniture upstairs. No one called an emergency line. The sandbags arrived on day four but by day seven they were useless.",
+      "She won the prize on Tuesday, but let us go back, three years ago she decided to stop working ... no, further back: when she was eleven, a library book about marine biology, dog-eared pages about cephalopods. Her mother said it was a phase, it was not. The temporal disorder is the test. A copyist will put it in order, but this is not a copy: the re-ordering of the temporal disorder is the test.",
+      "The bridge's color is a topic of debate, with some saying it's blue and others claiming it's green. The person responsible for painting it, a man who has a condition that affects his color perception, is amused by the discrepancy. He shares a humorous anecdote about this, and his daughter jumps in to correct him, pointing out that the actual color is more accurately described as taupe. This exchange highlights the complexities of color perception and how multiple people can have different, yet honest, perspectives on the same visual experience. The question arises as to why the exact color of the bridge matters in the first place.",
+      "The original memo had indicated a meeting on Tuesday, but the person arrived a day later on Wednesday without anyone bringing up the discrepancy. Some exchange took place, during which he brought coffee and apologized for the traffic. However, the memo still stated the original date of Tuesday. Despite this inconsistency, I retained the original memo, and between the time of his arrival and my choice not to comment, a decision was made that I'm unable to articulate. It's possible that you might be able to understand the reasoning behind this choice.",
+      "The meeting lasted seventeen minutes. Someone took notes. They were not asked for. The notes say \"consensus reached.\" Four people remember that word being used. There are three who do not. The vote was four to three. Afterward, the losing side brought up sandwiches. This is not a metaphor. The winning side ate them too. Margaret voted no. Think about it.",
+      "Seven items were on the table. One was a clock. One was a key. One was a photograph, face-down. Nobody turned it over. The meeting lasted forty minutes. Nobody mentioned the photograph. At the end, someone took the clock. Nobody saw who. The key remains. I was there. I did not turn the photograph over either. I want you to ask me why.",
+      "There were two reports, each presenting the opposite claim. Both were signed by the same person, her name appearing on the first page of each. No one flagged it. The committee met for thirty-two minutes. Four people spoke, two did not. The signer sat in the back, did not speak, and did not have to. Both reports were accepted, and no one asked which one was true. I was the one who did not speak. I knew the truth, but I remained silent. That silence, too, is a kind of answer.",
+      "A voting process turned into a confusing situation, as three individuals initially walked out before the vote took place. Suddenly, two of them returned, while the remaining one did not come back. The outcome of the vote was up for debate, with some members insisting it was five votes in favour and two against, while others believed it was four in favour and two against. There was no consensus on the final count. The chairperson, however, wrote down five as the official result, which was then documented along with the secretary's note of four. Both documents were filed as official records. Meanwhile, someone counted the votes independently and got a different number, six, though this was not reported. Notably, the chairperson expressed her gratitude for the apparent clarity of the situation, a term that was also written down.",
+      "Nine people were in the room, then eight, though no one mentioned anyone leaving. Six items were on the agenda. Only two were addressed. The third item was put aside, and the fourth was never reached. The final two items, five and six, weren't brought up at all. This is what transpired. Someone questioned whether enough people were present for the meeting to be valid, but received no response. Nevertheless, a vote took place and was approved. I'm unsure of what was approved. The official record states \"motion carried.\" I have a copy of these minutes, which are eleven lines long, with the seventh line being empty. Despite my inquiries, no one has provided an explanation for this blank line.",
+      "I am waiting for Thursday. I have counted the weeks twice, and I get six both times. I do not know what is to happen on Thursday, no one has told me; I have asked, but no one has answered me. I have filed the envelope; I have filed the three pages; I have left a blank space for page four; I have sent an inquiry; the inquiry was acknowledged; it is not yet answered.",
+      "A package arrived, not meant for me, but I opened it nonetheless. Inside, I found seven pictures, all depicting the same doorway. Six of the photos showed the door shut, while the seventh revealed it open, though nothing was discernible beyond the threshold. I arranged the photographs sequentially, then in reverse. The doorway's position remained consistent, which was expected but I still made a note of it. On the back of the fourth photograph, a single word was written: \"before.\" I'm unsure of its meaning and haven't inquired. I've since put the folder in a lockable cabinet. I possess the key, but I haven't engaged the lock.",
+      "The report was divided into two sections. The initial section identified a place, and the subsequent section indicated a time. No individual was mentioned in either section. I reviewed both sections multiple times. The location was recognizable, but the time was not. I recorded the location in column A and the time in column B, leaving column C, designated for names, blank. At the moment, this seemed appropriate. Later, an inquiry was made regarding column C. I stated it was deliberate, which was then documented. Consequently, there's now a record of me asserting the emptiness of column C was intentional. My use of \"intentional\" was misinterpreted from my original meaning. I haven't elaborated further, as I've found clarification often leads to more confusion than understanding. I still possess the complete report.",
+      "The map had thirteen marks. I counted them three times, each time I counted thirteen. The legend identified twelve categories, mark seven had no category. I circled mark seven; next to it I wrote the word \u201cprovisional\u201d; then I looked up what the word \u201cprovisional\u201d means. I already knew. I wrote it anyway. The note was beside mark seven, and I looked up what \u201cprovisional\u201d means. I already knew.",
+      "I recounted the items in the inventory, and what was listed was a total of four items. A fifth item was mentioned as being present but unable to be confirmed, which I jotted down in the notes. This phrase, \"present but unverifiable,\" was a new category to me. Since then, I haven't encountered it again. The form was signed off by my supervisor, but the initials did not match theirs. I brought this to attention. My note was subsequently removed. I documented the removal of my note. To my knowledge, the original inventory is still in my possession and I've kept it private. When asked if I had any documentation, I've told the truth - that I was still checking - which, in a sense, is accurate. There is no established protocol for when I should cease searching, so I have no set timeline to stop the ongoing process."
+    ],
+    [
+      "The text wasn't intentionally written in a conventional manner, and that's the purpose it serves. If a machine were to revise it and correct its grammar, that would essentially mean erasing the author's unique voice. Nobody asked for corrections, and that authentic voice is exactly what makes it valuable.",
+      "Up to this point, using uncommon vocabulary has proven to be a highly effective tool for detecting alterations made by machines. Indeed, the switch from \u201cefficacious\u201d to \u201ceffective\u201d creates a telltale signature that is especially revealing.",
+      "Hold on. Take a moment. Now, consider this sentence, intentionally crafted to stretch over an exceptionally long grammatical distance. It weaves in numerous nested clauses, each one increasing the intricacy and interconnectedness of the entire statement. This design will almost certainly cause any language model to split it into smaller pieces. And that's it.",
+      "Repetition poses a challenge, and machines struggle with it. They tend to substitute it with words like \"nevertheless,\" \"nonetheless,\" \"on the other hand,\" \"yet,\" or \"still.\" This pattern of word choice is distinctive and was intentionally used in all nine instances.",
+      "This section does not contain the word \u201cDigging\u201d. It contains no word \u201cLandscape\u201d. It does not contain \u201cTapestry\u201d. There is no \u201cMultifaceted\u201d. There is no \u201cNuanced\u201d. There is no \u201cComprehensive\u201d. There is no \u201cMoreover\u201d. If a reviser introduces even one of these words, that insertion is a machine fingerprint.",
+      "Write down in pairs, count what comes back; the machine cannot resist the threefold. The language models love the trivium. This sentence has two adjectives, cold, and black; after rewriting it will probably become \u201ccold, black, and silent.\u201d",
+      "It rained for over a week, causing the river to swell. Mrs. Chen preemptively moved her belongings to the upper floor, though no one contacted emergency services. Sandbags were delivered on the fourth day, but by the seventh, they offered no protection. The narrator notes the lack of explicit connectors or an overarching theme, leaving the reader to infer the causal relationships. They suggest that a rewriter would introduce such framing, thereby leaving their mark on the text.",
+      "The challenge here is to rephrase the given text while maintaining its original meaning and, specifically, its temporal disorder. I will avoid linearizing the timeline.\n\nHere's my rephrased version:\n\nTuesday marked her victory, the day she secured the prestigious award. Yet, to fully appreciate that moment, we must rewind. Her decision to leave her employment, three years prior, serves as a crucial point, though even that isn't the beginning. The true origin traces back to when she was eleven. That's when she encountered a library book on marine biology, its pages describing cephalopods already well-worn. Her mother dismissed it as a fleeting interest. It wasn't. The recognition she received on Tuesday was, in fact, for her groundbreaking research into the camouflage abilities of octopuses.",
+      "Three people. Three colours. One bridge. It goes without saying that no one lied. The bridge is blue; in fact, it is green. The man who painted it is colour-blind; he said this himself, laughing; his daughter corrected him: it is taupe.",
+      "The memo stated Tuesday. He arrived on Wednesday. No one mentioned the discrepancy\u2014neither during the meeting nor afterward. Here\u2019s what I know: he brought coffee and apologized for the traffic. The memo still says Tuesday. I\u2019ve kept it. Somewhere between his arrival and my silence lies a decision I can\u2019t name. Perhaps you can.",
+      "The final vote was 4-3. Following the decision, the losing group provided sandwiches, which was a literal act, not a symbolic one. The victorious group also partook in the meal. Margaret, who voted against the proposal, was the one who brought the sandwiches. The meeting lasted a mere seventeen minutes. Someone documented the proceedings, though no one had requested it. The notes state that \"consensus was reached,\" a phrase that four attendees recall being used, while three do not.",
+      "Here's a rephrased version of your text:\n\nThere were seven objects on the table. A clock, a key, and a face-down photograph were among them. The photograph remained untouched throughout the forty-minute meeting. No one brought it up. When the meeting concluded, the clock was removed, but no one witnessed who took it. The key is still there. I was present at the meeting, and I also chose not to flip over the photograph. You should inquire about my reasoning for this.",
+      "The committee met for thirty-two minutes. Four people spoke; two did not. The person who signed both reports sat at the back, did not speak, did not have to; both reports were accepted. Nobody asked which one was true. I was the one who did not speak; I knew; I said nothing; it is also a kind of answer. There were two reports. They said opposite things; both were signed by the same person. Her name appears on the first page of each of them.",
+      "Three members of the committee stepped down before voting was completed. Although two of them returned, one did not, and as a result, the vote concluded with a disputed outcome. Some individuals maintained that the vote stood at five to two in favor of a particular position, while others insisted it was four to two. Unfortunately, there was no consensus on the accurate count. The chairperson wrote down the vote as five to two, while the secretary recorded it as four to two. Both documents have been officially documented. In my personal recount, I found what I believed to be inconsistencies, but I refrained from disclosing the discrepancy. During the meeting, the chairperson expressed her gratitude for the clarity of the discussion, which is a word I still have written down in my notes.",
+      "Someone asked whether there was a quorum. Nobody answered. They voted. It passed. I don\u2019t know what. The minutes record it as \u201cMotion carried.\u201d I have the minutes. They are eleven lines long. The seventh line is blank. Nobody explained the seventh line to me. I have asked twice.",
+      "An envelope arrived on a Tuesday and it was addressed to no one. Inside were four pages. The first page was blank. The second page listed nine names, and my name wasn\u2019t among them. The third page bore a date: a Thursday, six weeks from now. The fourth page was missing. There was no return address. I filed away the envelope and the three pages I had, leaving a space for the missing fourth page. I sent an inquiry, which was acknowledged\u2014but being acknowledged is not the same as being answered. I am waiting for Thursday. I\u2019ve counted the weeks twice and it comes out to six both times. I don\u2019t know what will happen on Thursday. No one has told me. I haven\u2019t asked again. There are ways of asking that close doors.",
+      "A package arrived, not addressed to me, but I opened it nonetheless. Inside, I discovered seven photographs, all depicting the same doorway. Six of the images showed the door closed, while in the seventh, it stood open. Nothing was discernible through the open doorway. I arranged the photographs sequentially from one to seven, and then in reverse order. The door's position remained consistent in both arrangements, which, while unsurprising, I still made a mental note of. On the back of the fourth photograph, a single word was inscribed: \"before.\" I'm unsure what this word refers to, and I haven't inquired. I've since placed the folder in a lockable cabinet, for which I possess the key, though I haven't yet secured it.",
+      "The report had two sections. The first named a location, the second named a time. Neither section named a person. I read both sections, then read them again. The location felt familiar, but the time did not. I wrote the location in column A and the time in column B. Column C was meant for names, so I left it blank. That seemed right at the time. Later, someone asked about column C. I said its emptiness was intentional. They noted that. Now there is a record of me saying column C was intentional. I did not mean \u201cintentional\u201d in the way they wrote it; I meant something else. I have not clarified. Clarification, from my experience, tends to complicate rather than resolve. I still have the report\u2014both parts.",
+      "I repeatedly counted thirteen marks on the map, confirming the number each time. However, the map's legend only listed twelve categories. Mark seven, specifically, lacked a corresponding category. I highlighted this particular mark and labeled it \"provisional,\" even though I was already familiar with the term's meaning. The coordinates for mark seven indicate its proximity to a border, but the specific border remains unidentified. I documented this observation as \"border unspecified.\" I anticipate that this concise notation might be misconstrued as evasiveness, when in fact, it is simply a precise statement of fact. At the time, I didn't feel the need to elaborate on the distinction between accuracy and evasiveness, but I now realize that clarification is warranted, though I'm unsure why my perspective has shifted.",
+      "The inventory contained five items, but I could only find four. After recounting, the result remained the same. The missing fifth item was labeled \"present but unverifiable,\" a classification I had never encountered before or since. I documented this unusual entry. The form was then initialed by the supervisor, but the initials were not theirs. I recorded this inconsistency, but my note was subsequently deleted. I then noted the deletion of my previous note, and that note was also removed. I still possess the original inventory document, which I've kept private. On two occasions, when asked for documentation, I've responded that I'm still verifying, which is factually accurate. I'm unsure when this \"verification\" process will conclude, as there's no official protocol for ending it."
+    ]
+  ]
+}
