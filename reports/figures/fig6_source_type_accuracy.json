@@ -1,0 +1,17 @@
+{
+  "figure": "source_type_accuracy",
+  "description": "Comparison of detection accuracy between human-crafted and LLM-generated source texts.",
+  "data": {
+    "pre_written": {
+      "correct": 16,
+      "total": 27,
+      "accuracy": 0.5925925925925926
+    },
+    "auditor_generated": {
+      "correct": 64,
+      "total": 108,
+      "accuracy": 0.5925925925925926
+    }
+  },
+  "analysis": "Pre-written source texts: 59.3% (16/27). Auditor-generated source texts: 59.3% (64/108). Pre-written texts were manually designed with linguistic traps (non-standard grammar, deliberate repetition, temporal disorder) to maximize behavioral differences. Auditor-generated texts use APE-style iterative refinement based on past detective feedback."
+}

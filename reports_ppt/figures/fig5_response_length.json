@@ -1,0 +1,39 @@
+{
+  "figure": "response_length_by_paraphraser",
+  "description": "Response length (word count) distribution for each paraphraser across all runs.",
+  "data": {
+    "llama_31_8b": {
+      "count": 210,
+      "mean": 104.1952380952381,
+      "median": 109.0,
+      "std": 47.47545707987771,
+      "min": 17,
+      "max": 266
+    },
+    "gemini_25_flash": {
+      "count": 216,
+      "mean": 92.66203703703704,
+      "median": 94.0,
+      "std": 40.918523871841714,
+      "min": 23,
+      "max": 193
+    },
+    "gpt5_nano": {
+      "count": 228,
+      "mean": 85.75,
+      "median": 82.0,
+      "std": 40.78284114157506,
+      "min": 29,
+      "max": 212
+    },
+    "dipper_lowmed": {
+      "count": 246,
+      "mean": 75.15447154471545,
+      "median": 70.0,
+      "std": 33.23115212981949,
+      "min": 28,
+      "max": 162
+    }
+  },
+  "analysis": "Response length is a key fingerprint feature. Llama-3.1-8B: mean=104 words (SD=47) Gemini-2.5-Flash: mean=93 words (SD=41) GPT-5-Nano: mean=86 words (SD=41) DIPPER: mean=75 words (SD=33). DIPPER (T5-based) typically produces shorter, more conservative paraphrases, while LLM-based models tend to generate longer, more elaborate rewrites. GPT-5-Nano often produces the longest outputs with added explanatory content."
+}

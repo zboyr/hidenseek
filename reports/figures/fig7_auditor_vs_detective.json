@@ -1,0 +1,29 @@
+{
+  "figure": "auditor_vs_detective",
+  "description": "Comparison of accuracy between separate detective (stateless) and auditor-as-detective (with memory) configurations.",
+  "data": {
+    "separate_detective": {
+      "accuracies": [
+        0.7333333333333333,
+        0.5333333333333333
+      ],
+      "mean": 0.6333333333333333,
+      "n": 2
+    },
+    "auditor_as_detective": {
+      "accuracies": [
+        0.6,
+        0.4666666666666667,
+        0.5333333333333333,
+        0.8666666666666667,
+        0.5333333333333333,
+        0.6666666666666666,
+        0.5333333333333333,
+        0.6
+      ],
+      "mean": 0.6,
+      "n": 8
+    }
+  },
+  "analysis": "Separate detective (n=2): mean=63.3%. Auditor-as-detective (n=8): mean=60.0%. The auditor-as-detective configuration has access to past round outputs and results, potentially allowing it to learn paraphraser fingerprints over time. The separate detective makes each judgment independently without memory."
+}
