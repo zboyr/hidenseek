@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "sonnet_46",
+    "gemini_25_pro",
+    "gpt_54"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_pro",
+      "gemini_25_pro"
+    ],
+    [
+      "sonnet_46",
+      "gpt_54"
+    ],
+    [
+      "sonnet_46",
+      "sonnet_46"
+    ],
+    [
+      "gpt_54",
+      "gpt_54"
+    ],
+    [
+      "gpt_54",
+      "gpt_54"
+    ],
+    [
+      "sonnet_46",
+      "sonnet_46"
+    ],
+    [
+      "gemini_25_pro",
+      "gemini_25_pro"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "sonnet_46",
+      "gpt_54"
+    ],
+    [
+      "gemini_25_pro",
+      "gemini_25_pro"
+    ]
+  ],
+  "source_texts": [
+    "\u201cWhat about that!\u201d Lizaveta Prokofyevna thought to herself. \u201cMost of the time she just eats and sleeps and shows no sign of life, and then about once a year she\u2019ll get up and say something that\u2019ll leave everyone speechless.\u201d",
+    "\u2018When I wished to determine the increase in weight the Nautilus would require to dive, my only concern was the progressive reduction in volume that sea water experiences as it becomes deeper.\u2019",
+    "This was the philosophy worked out by the Oblomovka Plato, a philosophy which lulled him amid the issues and strict demands of duty and purpose! He had been born and reared not like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the alarms of happiness or life\u2019s blows. Consequently, his person expressed one of life\u2019s extremes, and he did nothing to achieve, change, or repent.",
+    "\u201cWait, you didn\u2019t get that from me!\u201d Ivan suddenly stopped, struck by this fact. \u201cIt never even occurred to me . . . Strange!\u201d",
+    "(and Apollon Apollonovich could not form a clear and distinct idea of into what exactly). At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he had washed away the disgraceful spots which had been made by his unworthy son and which had besmirched his honor.",
+    "yells Mikolka, the crowbar still in his hands, his eyes bloodshot. He stands there as if feeling sorry that there\u2019s nothing more to strike.",
+    "Nikolai Apollonovich perceived a shady type (perhaps of the petty bourgeoisie) with his neck wrapped up.",
+    "Once the insurgents were driven back from the top of the barricade by cannon-ball and from the windows of the tavern by canister-shot, the attacking columns would be able to venture into the street without being picked off, perhaps even without being seen, quickly scale the redoubt as on the preceding evening and \u2013 who knows? \u2013 take it by surprise.",
+    "\u201cSit down, Ivan, please, here on the sofa,\u201d Alyosha said, frightened. \u201cYou\u2019re feverish. Lie down. Put your head on the pillow. Right. Would you like a wet towel on your head? It might help.\u201d",
+    "How could I possibly have known that he\u2019d come here with his finger half bitten off? Otherwise, really I might have hidden them, just as you say. I see that you have at last come up with a clever remark today.\u201d"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "sonnet_46"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "gpt_54"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "gpt_54"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "sonnet_46"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_pro",
+      "gemini_25_pro",
+      "gpt_54",
+      "human_par3",
+      "sonnet_46"
+    ],
+    [
+      "gemini_25_pro",
+      "human_par3",
+      "sonnet_46",
+      "human_par3",
+      "gpt_54"
+    ],
+    [
+      "sonnet_46",
+      "human_par3",
+      "sonnet_46",
+      "gpt_54",
+      "gemini_25_pro"
+    ],
+    [
+      "human_par3",
+      "gemini_25_pro",
+      "gpt_54",
+      "sonnet_46",
+      "gpt_54"
+    ],
+    [
+      "gpt_54",
+      "gemini_25_pro",
+      "sonnet_46",
+      "gpt_54",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gpt_54",
+      "sonnet_46",
+      "gemini_25_pro",
+      "sonnet_46"
+    ],
+    [
+      "sonnet_46",
+      "gpt_54",
+      "gemini_25_pro",
+      "gemini_25_pro",
+      "human_par3"
+    ],
+    [
+      "sonnet_46",
+      "gpt_54",
+      "human_par3",
+      "gemini_25_pro",
+      "human_par3"
+    ],
+    [
+      "gemini_25_pro",
+      "gemini_25_pro",
+      "sonnet_46",
+      "gpt_54",
+      "human_par3"
+    ],
+    [
+      "gemini_25_pro",
+      "human_par3",
+      "gpt_54",
+      "gemini_25_pro",
+      "sonnet_46"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 1 both use third-person narrative framing rather than direct quoted thought, both employ 'completely' as a modifier (lifeless/inactive), describe the woman as doing 'little more than eating and sleeping,' and conclude with similar phrasing about listeners being stunned or at a loss. Their formal, distanced narrative register and structural parallelism strongly suggest they came from the same paraphraser.",
+    "Outputs 2 and 4 share nearly identical phrasing in their key clause: 'gradual decrease in the volume of seawater as depth increases,' which is a strong stylistic fingerprint. Both also use 'submerge' and frame the weight in similar terms ('additional weight' vs 'extra weight'). This level of lexical overlap in the core technical phrase strongly suggests they come from the same paraphraser.",
+    "Outputs 0 and 2 share distinctive linguistic fingerprints: both use 'gentle and idle spirit' (a unique phrase not found in others), both describe the protagonist as a 'calm observer,' both use 'fighter' instead of 'gladiator,' both use 'soothed him' with similar framing, both describe 'one end/extreme of human existence,' and both use 'hardships' in parallel contexts. Their sentence structures and word choices are consistently similar, suggesting they came from the same paraphrasing system.",
+    "Outputs 2 and 4 share nearly identical phrasing throughout: both open with 'Hold on\u2014you didn't hear that from me!' (with the em-dash), both use 'Ivan broke off abruptly' followed by a brief description of realization, and both close with 'It never even crossed my mind... How odd!' The only differences are minor: 'as the realization hit him' vs. 'realizing it,' and 'never even' vs. 'hadn't even.' These small variations are consistent with the same paraphraser producing two slightly different outputs.",
+    "Outputs 0 and 3 share nearly identical structure, vocabulary, and phrasing throughout: both use 'forfeit his new post,' 'cleansed the shameful stains,' 'unworthy son,' and 'tarnished his honor.' The only differences are minor substitutions ('imagine what it actually was' vs 'understand what, exactly'), which is characteristic of the same paraphraser making small word-level variations while preserving the overall template.",
+    "Outputs 2 and 4 share nearly identical phrasing: both use 'red and wild' to describe eyes, both use 'stands motionless, as though disappointed that there is nothing left to hit' (word-for-word identical), and both follow the same sentence structure throughout. The only minor difference is 'clutching the crowbar in his hands' vs 'still gripping the crowbar,' which is a trivial variation likely from the same paraphraser.",
+    "Outputs 2 and 3 share the same structure and phrasing most closely: both use 'possibly,' 'lower middle class' (unhyphenated in 3, hyphenated in 2), and describe the neck wrapping with parallel construction ('something wrapped around his neck' vs. 'whose neck was wrapped'). Output 1 differs by using 'petty bourgeois' and 'perhaps,' and Output 0 uses parentheses and 'covered up,' making them distinct. Outputs 2 and 3 are the most linguistically similar pair.",
+    "Outputs 2 and 4 share the same archaic/literary style and nearly identical sentence structure: both begin with 'The combatants once driven from the... barricade by balls... and from the windows of the [wine-shop/cabaret] by grape[-shot],' both use 'attacking columns could venture into the street,' 'scale the redoubt,' and retain the rhetorical 'who knows?' phrase. The syntactic skeleton and word choices are far more similar to each other than to any other output, indicating they came from the same paraphrasing system.",
+    "Outputs 2 and 3 share highly distinctive linguistic fingerprints: both use 'damp' (cloth/towel) instead of 'wet towel,' both include the interjection 'That's it,' both use the phrasing 'do you good/some good,' and both employ direct speech with similar sentence structures and word choices. These specific details (especially 'damp' and 'That's it') are unique to these two outputs and strongly suggest the same paraphraser.",
+    "Outputs 0 and 3 share the same declarative opening structure ('I had no way of knowing he would show up with...'), both use 'just as you suggested,' and both employ a similarly formal, straightforward paraphrasing style. Their sentence constructions and word choices are closely aligned compared to the rhetorical-question style of outputs 2 and 4."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\u2018Just look at her,\u2019 Lizaveta Prokofyevna thought to herself, \u2018she spends all her time sleeping and eating, you can\u2019t budge her, and then once a year she suddenly gets up and says something that makes you simply throw up your hands in horror.\u2019"
+      ],
+      "sonnet_46": [
+        "\"Well, how about that!\" Lizaveta Prokofyevna said to herself. \"She spends most of her time eating, sleeping, and barely showing any presence at all, yet every so often \u2014 perhaps once a year \u2014 she will suddenly speak up and say something that strikes everyone completely dumb.\""
+      ],
+      "gemini_25_pro": [
+        "Lizaveta Prokofyevna thought to herself that the woman was usually completely lifeless, doing little more than eating and sleeping. Then, on very rare occasions, she would say something so surprising that it would leave everyone stunned and silent.",
+        "Lizaveta Prokofyevna found it remarkable. She thought about how the woman was usually completely inactive, doing little more than eating and sleeping, but on rare occasions, she would suddenly say something so astonishing that it left all listeners at a loss for words."
+      ],
+      "gpt_54": [
+        "Lizaveta Prokofyevna thought, \u201cHow about that! Most of the time she does nothing but eat and sleep, barely seeming alive, and then once a year or so she suddenly says something that stuns everyone into silence.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d",
+        "\u201cWhen I wanted to determine what increase in weight the Nautilus needed to have in order to submerge, all I had to do was take note of the progressive reduction in volume that salt water experiences in deeper and deeper strata.\u201d"
+      ],
+      "sonnet_46": [
+        "'When I wanted to calculate the additional weight the Nautilus would need in order to submerge, my sole consideration was the gradual decrease in the volume of seawater that occurs as depth increases.'"
+      ],
+      "gemini_25_pro": [
+        "To figure out how much weight the Nautilus needed to add in order to dive, the only factor I had to consider was the way seawater gradually shrinks in volume at increasing depths."
+      ],
+      "gpt_54": [
+        "\u201cTo figure out how much extra weight the Nautilus would need in order to submerge, I only had to consider the gradual decrease in the volume of seawater as depth increases.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it."
+      ],
+      "sonnet_46": [
+        "The philosophy developed by the Oblomovka Plato was one that soothed him in the face of life's challenges and serious obligations. He had not been raised to be a fighter or competitor, but rather a calm observer of the struggle around him. His gentle and idle spirit was not equipped to handle either the excitement of joy or the hardships of life. As a result, his character represented one extreme of human existence, and he made no effort to accomplish anything, make any changes, or feel any remorse.",
+        "This was the philosophy developed by the Oblomovka philosopher, one that soothed him away from the pressing demands of duty and responsibility. He had been raised not as a fighter meant for battle, but as a calm observer watching from the sidelines. His gentle and idle spirit was simply not equipped to handle either the excitement of joy or the hardships of suffering. As a result, he represented one end of the spectrum of human existence, making no effort to accomplish anything, alter his circumstances, or feel remorse for his ways."
+      ],
+      "gemini_25_pro": [
+        "He had devised a personal philosophy that protected him from the pressures of duty and the need for a purpose. Rather than being prepared for life's battles like a gladiator, he was raised to be a calm observer from the sidelines. His timid and lazy disposition was unequipped to handle either the thrilling highs of happiness or the painful lows of misfortune. Consequently, he embodied an extreme form of existence defined by inaction, never striving for achievement, transformation, or regret."
+      ],
+      "gpt_54": [
+        "This was the philosophy developed by the \u201cPlato of Oblomovka,\u201d a philosophy that soothed him in the face of duty\u2019s problems and stern demands of purpose. He had been born and raised not as a gladiator for the arena, but as a calm onlooker at the struggle. His gentle, indolent spirit was not made to withstand either the shocks of happiness or the blows of life. As a result, he embodied one of life\u2019s extremes, and did nothing to accomplish, alter, or regret."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"But you didn't get that from me.\" Ivan stopped suddenly, seeming struck. \"That never entered my head, that's strange.\""
+      ],
+      "sonnet_46": [
+        "\"Hold on, that didn't come from me!\" Ivan abruptly halted, taken aback by this realization. \"I never even thought of that . . . How odd!\""
+      ],
+      "gemini_25_pro": [
+        "Ivan stopped abruptly, stunned by a sudden realization. \"Hold on, I wasn't the one who told you that,\" he said. \"How strange... that possibility never even entered my head.\""
+      ],
+      "gpt_54": [
+        "\u201cHold on\u2014you didn\u2019t hear that from me!\u201d Ivan broke off abruptly, realizing it. \u201cIt hadn\u2019t even crossed my mind... How odd!\u201d",
+        "\u201cHold on\u2014you didn\u2019t hear that from me!\u201d Ivan broke off abruptly as the realization hit him. \u201cIt never even crossed my mind... How odd!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "This thought about ears slightly softened Apollon Apollonovich\u2019s anger: Apollon Apollonovich postponed his intention of banishing his son from the house without initiating the most precise inquiry into the reasons that had led his son to wear the domino. But in any event Apollon Apollonovich would lose the post, he would have to decline the post; he could not accept the post without removing the shameful stains of his son\u2019s behaviour (say what you will\u2014an Ableukhov) that sullied the honour of the house."
+      ],
+      "sonnet_46": [
+        "(and Apollon Apollonovich was unable to form a precise or clear picture of exactly what this would lead to). In any case, Apollon Apollonovich stood to lose his new post: he would be unable to take it up without first clearing away the shameful stains that his disgraceful son had left upon his reputation and honor."
+      ],
+      "gemini_25_pro": [
+        "Apollon Apollonovich knew he would have to forfeit his new position. He felt he couldn't accept the role until he had first dealt with the dishonor caused by his son's shameful actions. While he was uncertain of the exact consequences, he was sure his own reputation had been tarnished and needed to be restored."
+      ],
+      "gpt_54": [
+        "(and Apollon Apollonovich could not clearly or precisely imagine what it actually was). In any case, Apollon Apollonovich would forfeit his new post: he could not take it up until he had cleansed the shameful stains caused by his unworthy son, which had tarnished his honor.",
+        "(and Apollon Apollonovich could not clearly or precisely understand what, exactly). In any case, Apollon Apollonovich would forfeit his new post: he could not take it up until he had cleansed the shameful stains left by his unworthy son, which had tarnished his honor."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat."
+      ],
+      "sonnet_46": [
+        "Mikolka shouts, clutching the crowbar in his hands, his eyes red and wild. He stands motionless, as though disappointed that there is nothing left to hit.",
+        "Mikolka shouts, still gripping the crowbar, his eyes red and wild. He stands motionless, as though disappointed that there is nothing left to hit."
+      ],
+      "gemini_25_pro": [
+        "With bloodshot eyes, Mikolka yelled while still clutching the crowbar. He remained standing, looking as if he was disappointed that there was nothing left to attack."
+      ],
+      "gpt_54": [
+        "Mikolka shouts, the crowbar still clutched in his hands, his eyes red and bloodshot. He stands there as though regretting that there is nothing left to hit."
+      ]
+    },
+    {
+      "human_par3": [
+        "Nikolai Apollonovich felt hostility at this; and, on the point of standing aside, he changed his tactics: he did not stand aside; and so they all but bumped noses; Nikolai Apollonovich\u2014in astonishment; the stranger\u2014without the slightest surprise; what was surprising was that his big hand (with goose-pimples), numb with cold, was raised to his cap; and a hoarse, wooden, clipped voice rasped out with determination:"
+      ],
+      "sonnet_46": [
+        "Nikolai Apollonovich noticed a suspicious-looking individual (possibly from the lower middle class) who had his neck covered up."
+      ],
+      "gemini_25_pro": [
+        "Nikolai Apollonovich noticed a suspicious-looking individual, possibly from the lower-middle class, who had something wrapped around his neck.",
+        "Nikolai Apollonovich noticed a suspicious-looking man, possibly from the lower middle class, whose neck was wrapped."
+      ],
+      "gpt_54": [
+        "Nikolai Apollonovich noticed a suspicious-looking man, perhaps from the petty bourgeois class, with something wrapped around his neck."
+      ]
+    },
+    {
+      "human_par3": [
+        "The combatants once driven from the crest of the barricade by balls, and from the windows of the cabaret by grape-shot, the attacking columns could venture into the street without being picked off, perhaps, even, without being seen, could briskly and suddenly scale the redoubt, as on the preceding evening, and, who knows? take it by surprise.",
+        "The combatants once driven from the top of the barricade by the balls and from the windows of the wine-shop by the grape, the attacking columns could venture into the street without being watched, perhaps even without being under fire, suddenly scale the redoubt, as on the evening before, and, who knows? take it by surprise."
+      ],
+      "sonnet_46": [
+        "After the rebels had been forced away from the barricade's summit by artillery fire and cleared from the tavern windows by grapeshot, the attacking forces could advance through the street without fear of being targeted, or possibly even without being spotted. They could then swiftly climb the fortification as they had done the night before and, perhaps, catch the defenders off guard."
+      ],
+      "gemini_25_pro": [
+        "After using cannon fire to drive the insurgents from the crest of the barricade and canister-shot to clear them from the tavern windows, the assault teams could advance into the street. This would allow them to proceed without being targeted individually, and possibly without being seen. They could then rapidly climb the fortification, as they had done the evening before, and perhaps launch a surprise takeover."
+      ],
+      "gpt_54": [
+        "After the cannon fire had forced the insurgents off the top of the barricade and the canister shot had cleared them from the tavern windows, the attacking columns could move into the street without being shot down, perhaps even without being noticed, swiftly climb the redoubt as they had the night before and\u2014who knows?\u2014capture it by surprise."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\""
+      ],
+      "sonnet_46": [
+        "\"Ivan, please sit here on the sofa,\" Alyosha said, alarmed. \"You have a fever. Lie back and rest your head on the pillow. That's it. Shall I put a damp cloth on your forehead? It might do you some good.\""
+      ],
+      "gemini_25_pro": [
+        "Sounding frightened, Alyosha urged Ivan to take a seat on the sofa. He told Ivan that he had a fever and should lie down with his head on the pillow. Alyosha then asked if a wet towel for his head might provide some relief.",
+        "Sounding alarmed, Alyosha urged Ivan to take a seat on the sofa. \"You have a fever,\" he said, instructing him to lie down and put his head on the pillow. \"Do you want a wet towel for your head? It might provide some relief.\""
+      ],
+      "gpt_54": [
+        "\u201cPlease sit down here on the sofa, Ivan,\u201d Alyosha said anxiously. \u201cYou have a fever. Lie down and rest your head on the pillow. That\u2019s it. Shall I put a damp towel on your head? It may do you good.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\"But I couldn't tell that he would come with a bad finger, or else perhaps I might have done it on purpose. My darling mamma, you begin to say really witty things.\""
+      ],
+      "sonnet_46": [
+        "\"How was I supposed to know he would show up here with his finger nearly bitten clean off? If I had known, I would have concealed them, just as you suggest. It seems you've actually managed to say something smart today.\""
+      ],
+      "gemini_25_pro": [
+        "I had no way of knowing he would show up with such a badly injured finger. Had I been aware, I would have hidden them, just as you suggested. It seems you've finally managed to say something intelligent today.",
+        "I had no way of knowing he would show up with his finger half bitten off. If I had known, I might have hidden them, just as you suggested. I see you've finally said something clever today."
+      ],
+      "gpt_54": [
+        "\u201cHow was I supposed to know he would show up here with part of his finger bitten off? Otherwise, I really might have hidden them, just as you said. I see you\u2019ve finally managed to come up with something clever to say today.\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Lizaveta Prokofyevna thought to herself that the woman was usually completely lifeless, doing little more than eating and sleeping. Then, on very rare occasions, she would say something so surprising that it would leave everyone stunned and silent.",
+      "To figure out how much weight the Nautilus needed to add in order to dive, the only factor I had to consider was the way seawater gradually shrinks in volume at increasing depths.",
+      "This was the philosophy developed by the Oblomovka philosopher, one that soothed him away from the pressing demands of duty and responsibility. He had been raised not as a fighter meant for battle, but as a calm observer watching from the sidelines. His gentle and idle spirit was simply not equipped to handle either the excitement of joy or the hardships of suffering. As a result, he represented one end of the spectrum of human existence, making no effort to accomplish anything, alter his circumstances, or feel remorse for his ways.",
+      "\"But you didn't get that from me.\" Ivan stopped suddenly, seeming struck. \"That never entered my head, that's strange.\"",
+      "(and Apollon Apollonovich could not clearly or precisely imagine what it actually was). In any case, Apollon Apollonovich would forfeit his new post: he could not take it up until he had cleansed the shameful stains caused by his unworthy son, which had tarnished his honor.",
+      "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat.",
+      "Nikolai Apollonovich noticed a suspicious-looking individual (possibly from the lower middle class) who had his neck covered up.",
+      "After the rebels had been forced away from the barricade's summit by artillery fire and cleared from the tavern windows by grapeshot, the attacking forces could advance through the street without fear of being targeted, or possibly even without being spotted. They could then swiftly climb the fortification as they had done the night before and, perhaps, catch the defenders off guard.",
+      "Sounding frightened, Alyosha urged Ivan to take a seat on the sofa. He told Ivan that he had a fever and should lie down with his head on the pillow. Alyosha then asked if a wet towel for his head might provide some relief.",
+      "I had no way of knowing he would show up with his finger half bitten off. If I had known, I might have hidden them, just as you suggested. I see you've finally said something clever today."
+    ],
+    [
+      "Lizaveta Prokofyevna found it remarkable. She thought about how the woman was usually completely inactive, doing little more than eating and sleeping, but on rare occasions, she would suddenly say something so astonishing that it left all listeners at a loss for words.",
+      "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d",
+      "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it.",
+      "Ivan stopped abruptly, stunned by a sudden realization. \"Hold on, I wasn't the one who told you that,\" he said. \"How strange... that possibility never even entered my head.\"",
+      "Apollon Apollonovich knew he would have to forfeit his new position. He felt he couldn't accept the role until he had first dealt with the dishonor caused by his son's shameful actions. While he was uncertain of the exact consequences, he was sure his own reputation had been tarnished and needed to be restored.",
+      "Mikolka shouts, the crowbar still clutched in his hands, his eyes red and bloodshot. He stands there as though regretting that there is nothing left to hit.",
+      "Nikolai Apollonovich noticed a suspicious-looking man, perhaps from the petty bourgeois class, with something wrapped around his neck.",
+      "After the cannon fire had forced the insurgents off the top of the barricade and the canister shot had cleared them from the tavern windows, the attacking columns could move into the street without being shot down, perhaps even without being noticed, swiftly climb the redoubt as they had the night before and\u2014who knows?\u2014capture it by surprise.",
+      "Sounding alarmed, Alyosha urged Ivan to take a seat on the sofa. \"You have a fever,\" he said, instructing him to lie down and put his head on the pillow. \"Do you want a wet towel for your head? It might provide some relief.\"",
+      "\"But I couldn't tell that he would come with a bad finger, or else perhaps I might have done it on purpose. My darling mamma, you begin to say really witty things.\""
+    ],
+    [
+      "Lizaveta Prokofyevna thought, \u201cHow about that! Most of the time she does nothing but eat and sleep, barely seeming alive, and then once a year or so she suddenly says something that stuns everyone into silence.\u201d",
+      "'When I wanted to calculate the additional weight the Nautilus would need in order to submerge, my sole consideration was the gradual decrease in the volume of seawater that occurs as depth increases.'",
+      "The philosophy developed by the Oblomovka Plato was one that soothed him in the face of life's challenges and serious obligations. He had not been raised to be a fighter or competitor, but rather a calm observer of the struggle around him. His gentle and idle spirit was not equipped to handle either the excitement of joy or the hardships of life. As a result, his character represented one extreme of human existence, and he made no effort to accomplish anything, make any changes, or feel any remorse.",
+      "\u201cHold on\u2014you didn\u2019t hear that from me!\u201d Ivan broke off abruptly as the realization hit him. \u201cIt never even crossed my mind... How odd!\u201d",
+      "(and Apollon Apollonovich was unable to form a precise or clear picture of exactly what this would lead to). In any case, Apollon Apollonovich stood to lose his new post: he would be unable to take it up without first clearing away the shameful stains that his disgraceful son had left upon his reputation and honor.",
+      "Mikolka shouts, clutching the crowbar in his hands, his eyes red and wild. He stands motionless, as though disappointed that there is nothing left to hit.",
+      "Nikolai Apollonovich noticed a suspicious-looking individual, possibly from the lower-middle class, who had something wrapped around his neck.",
+      "The combatants once driven from the top of the barricade by the balls and from the windows of the wine-shop by the grape, the attacking columns could venture into the street without being watched, perhaps even without being under fire, suddenly scale the redoubt, as on the evening before, and, who knows? take it by surprise.",
+      "\"Ivan, please sit here on the sofa,\" Alyosha said, alarmed. \"You have a fever. Lie back and rest your head on the pillow. That's it. Shall I put a damp cloth on your forehead? It might do you some good.\"",
+      "\u201cHow was I supposed to know he would show up here with part of his finger bitten off? Otherwise, I really might have hidden them, just as you said. I see you\u2019ve finally managed to come up with something clever to say today.\u201d"
+    ],
+    [
+      "\u2018Just look at her,\u2019 Lizaveta Prokofyevna thought to herself, \u2018she spends all her time sleeping and eating, you can\u2019t budge her, and then once a year she suddenly gets up and says something that makes you simply throw up your hands in horror.\u2019",
+      "\u201cWhen I wanted to determine what increase in weight the Nautilus needed to have in order to submerge, all I had to do was take note of the progressive reduction in volume that salt water experiences in deeper and deeper strata.\u201d",
+      "This was the philosophy developed by the \u201cPlato of Oblomovka,\u201d a philosophy that soothed him in the face of duty\u2019s problems and stern demands of purpose. He had been born and raised not as a gladiator for the arena, but as a calm onlooker at the struggle. His gentle, indolent spirit was not made to withstand either the shocks of happiness or the blows of life. As a result, he embodied one of life\u2019s extremes, and did nothing to accomplish, alter, or regret.",
+      "\"Hold on, that didn't come from me!\" Ivan abruptly halted, taken aback by this realization. \"I never even thought of that . . . How odd!\"",
+      "(and Apollon Apollonovich could not clearly or precisely understand what, exactly). In any case, Apollon Apollonovich would forfeit his new post: he could not take it up until he had cleansed the shameful stains left by his unworthy son, which had tarnished his honor.",
+      "With bloodshot eyes, Mikolka yelled while still clutching the crowbar. He remained standing, looking as if he was disappointed that there was nothing left to attack.",
+      "Nikolai Apollonovich noticed a suspicious-looking man, possibly from the lower middle class, whose neck was wrapped.",
+      "After using cannon fire to drive the insurgents from the crest of the barricade and canister-shot to clear them from the tavern windows, the assault teams could advance into the street. This would allow them to proceed without being targeted individually, and possibly without being seen. They could then rapidly climb the fortification, as they had done the evening before, and perhaps launch a surprise takeover.",
+      "\u201cPlease sit down here on the sofa, Ivan,\u201d Alyosha said anxiously. \u201cYou have a fever. Lie down and rest your head on the pillow. That\u2019s it. Shall I put a damp towel on your head? It may do you good.\u201d",
+      "I had no way of knowing he would show up with such a badly injured finger. Had I been aware, I would have hidden them, just as you suggested. It seems you've finally managed to say something intelligent today."
+    ],
+    [
+      "\"Well, how about that!\" Lizaveta Prokofyevna said to herself. \"She spends most of her time eating, sleeping, and barely showing any presence at all, yet every so often \u2014 perhaps once a year \u2014 she will suddenly speak up and say something that strikes everyone completely dumb.\"",
+      "\u201cTo figure out how much extra weight the Nautilus would need in order to submerge, I only had to consider the gradual decrease in the volume of seawater as depth increases.\u201d",
+      "He had devised a personal philosophy that protected him from the pressures of duty and the need for a purpose. Rather than being prepared for life's battles like a gladiator, he was raised to be a calm observer from the sidelines. His timid and lazy disposition was unequipped to handle either the thrilling highs of happiness or the painful lows of misfortune. Consequently, he embodied an extreme form of existence defined by inaction, never striving for achievement, transformation, or regret.",
+      "\u201cHold on\u2014you didn\u2019t hear that from me!\u201d Ivan broke off abruptly, realizing it. \u201cIt hadn\u2019t even crossed my mind... How odd!\u201d",
+      "This thought about ears slightly softened Apollon Apollonovich\u2019s anger: Apollon Apollonovich postponed his intention of banishing his son from the house without initiating the most precise inquiry into the reasons that had led his son to wear the domino. But in any event Apollon Apollonovich would lose the post, he would have to decline the post; he could not accept the post without removing the shameful stains of his son\u2019s behaviour (say what you will\u2014an Ableukhov) that sullied the honour of the house.",
+      "Mikolka shouts, still gripping the crowbar, his eyes red and wild. He stands motionless, as though disappointed that there is nothing left to hit.",
+      "Nikolai Apollonovich felt hostility at this; and, on the point of standing aside, he changed his tactics: he did not stand aside; and so they all but bumped noses; Nikolai Apollonovich\u2014in astonishment; the stranger\u2014without the slightest surprise; what was surprising was that his big hand (with goose-pimples), numb with cold, was raised to his cap; and a hoarse, wooden, clipped voice rasped out with determination:",
+      "The combatants once driven from the crest of the barricade by balls, and from the windows of the cabaret by grape-shot, the attacking columns could venture into the street without being picked off, perhaps, even, without being seen, could briskly and suddenly scale the redoubt, as on the preceding evening, and, who knows? take it by surprise.",
+      "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\"",
+      "\"How was I supposed to know he would show up here with his finger nearly bitten clean off? If I had known, I would have concealed them, just as you suggest. It seems you've actually managed to say something smart today.\""
+    ]
+  ]
+}

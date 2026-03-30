@@ -4,6 +4,7 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{multirow}
+\usepackage{hyperref}
 
 \begin{document}
 
@@ -19,10 +20,10 @@
 
 \begin{abstract}
 Different language models leave distinct stylistic traces---``fingerprints''---when paraphrasing text.
-We investigate whether these fingerprints are detectable by designing an adversarial evaluation framework in which an \emph{Auditor} generates challenging source texts, four diverse paraphrasers rewrite them, and a \emph{Detective} attempts to identify which two outputs originate from the same paraphraser.
-Across 10 independent runs totaling 150 scored trials, the Detective achieves a mean accuracy of 60.7\% (95\% CI: [52.1\%, 69.2\%]), significantly above the 10\% random baseline ($t(9)=13.41$, $p < 0.001$).
-Detection rates vary markedly across paraphrasers: GPT-5-Nano is identified with 100\% accuracy, while Llama-3.1-8B proves hardest to detect at 25\%.
-These results confirm that paraphraser fingerprinting is feasible and that different model architectures produce distinguishable rewriting patterns.
+We investigate whether these fingerprints are detectable through two complementary evaluation paradigms: (1)~a \emph{duplicate detection} task where a Detective identifies which two of five paraphrased outputs share the same origin, and (2)~a harder \emph{pairwise classification} task where the Detective must match all four paraphrasers across two independently paraphrased texts.
+Using human translations from the PAR3 corpus alongside LLM paraphrasers, we find that duplicate detection achieves 55--67\% accuracy across three Detective models (baseline 10\%), while pairwise classification achieves 22\% perfect-match accuracy (baseline 4.2\%).
+Notably, human paraphrases from PAR3 are the \emph{easiest} to identify (62\% individual match rate), while Sonnet~4.6 proves hardest (34\%).
+These results confirm that paraphraser fingerprinting is feasible and that both human and machine rewriters produce distinguishable patterns.
 \end{abstract}
 
 \maketitle
@@ -38,32 +39,28 @@ If so, it may be possible to identify \emph{which} model produced a given rewrit
 This question has practical implications for AI-generated text detection, academic integrity, intellectual property, and understanding model behavior.
 Prior work on AI text detection has focused on distinguishing human-written from machine-generated text~\cite{mitchell2023detectgpt}, but the finer-grained problem of \emph{paraphraser attribution}---identifying which specific model performed a rewrite---remains underexplored.
 
-We formalize this as a \textbf{paraphraser fingerprinting} task:
-given a set of paraphrased outputs from multiple models (where one model contributes two outputs and the rest contribute one each), can a detector identify the two outputs that share the same origin?
-This framing isolates stylistic fingerprints from content, since all outputs derive from the same source text.
-
-Our research question is:
-\begin{quote}
-\textbf{RQ: Paraphraser Fingerprints.} Do different paraphrasing models leave distinct, detectable traces in their outputs? Can we identify the paraphraser from the text alone?
-\end{quote}
+We address this through two task formulations:
+\begin{enumerate}
+    \item \textbf{Duplicate Detection.} Given 5 paraphrased outputs from 4 paraphrasers (one contributing two outputs), identify the duplicate pair.
+    \item \textbf{Pairwise Classification.} Given two source texts each paraphrased by the same 4 systems, match each Group~A output to its corresponding Group~B output produced by the same system.
+\end{enumerate}
 
 % ============================================================
 \section{Dataset}
 % ============================================================
 
-We do not use a pre-existing dataset.
-Instead, we generate all experimental data dynamically through our adversarial evaluation framework.
-This design choice is deliberate for several reasons:
+Unlike our earlier work which relied entirely on dynamically generated source texts, we now incorporate the \textbf{PAR3 corpus}~\cite{par3}---a dataset of paragraph-level human translations of literary works.
+Each PAR3 entry contains multiple independent English translations of the same foreign-language paragraph, which serve as natural human paraphrases.
 
+This design provides two key advantages:
 \begin{enumerate}
-    \item \textbf{No suitable benchmark exists.} Existing paraphrase datasets (e.g., MRPC, QQP) contain human-written paraphrase pairs, not outputs from multiple competing paraphrasers applied to the same source.
-    \item \textbf{Source text diversity matters.} The detectability of fingerprints depends heavily on the source text. Our framework generates source texts specifically designed to elicit distinguishable behaviors from different paraphrasers.
-    \item \textbf{Adversarial refinement.} Through an iterative Auditor--Detective feedback loop, source texts are progressively refined to maximize fingerprint visibility, creating a more challenging and informative evaluation than static benchmarks would allow.
+    \item \textbf{Pre-existing human paraphrases.} PAR3 provides 2--5 independent human translations per paragraph, enabling a ``human paraphraser'' without requiring live annotation. We use one translation as the source text and the others as the human paraphraser's outputs.
+    \item \textbf{Diverse literary text.} PAR3 spans multiple languages and literary styles (Dostoevsky, Voltaire, Verne, etc.), providing natural variation in source text complexity.
 \end{enumerate}
 
-Each experimental run produces 20 trials.
-Only the initial trial uses a human-crafted source text containing deliberate linguistic traps (non-standard grammar, intentional repetition, temporal disorder, counting exercises).
-All subsequent trials use source texts generated by the Auditor LLM using Automatic Prompt Engineering (APE)-style iterative refinement based on past Detective feedback.
+We filter PAR3 for groups with $\geq 3$ translations (to support the duplicate case where the human paraphraser must produce two outputs) and minimum 100 characters per translation, yielding 100--150 candidate groups per run.
+
+For each trial, the source text selection is \emph{random} from the pool (no Auditor LLM selection), ensuring unbiased coverage.
 
 % ============================================================
 \section{Experimentation and Results}
@@ -73,216 +70,193 @@ All subsequent trials use source texts generated by the Auditor LLM using Automa
 
 \paragraph{Framework Architecture.}
 Our system consists of three roles:
-
 \begin{itemize}
-    \item \textbf{Auditor} (Claude Sonnet 4.6): Generates source texts designed to elicit distinguishable paraphrasing behaviors. Receives feedback from the Detective's performance to iteratively refine its strategy.
-    \item \textbf{Detective} (Claude Sonnet 4.6): Analyzes a set of 5 paraphrased outputs (from 4 paraphrasers, one contributing two outputs) and identifies which two share the same origin. Operates statelessly in most configurations.
-    \item \textbf{Paraphrasers} (4 models):
+    \item \textbf{Auditor}: Selects source texts from the PAR3 pool.
+    \item \textbf{Detective} (LLM): Analyzes paraphrased outputs and identifies fingerprints. Tested with three models: Claude Sonnet~4.6, GPT-4.1, and Gemini~2.5~Pro.
+    \item \textbf{Paraphrasers}: Two configurations tested:
     \begin{itemize}
-        \item Llama-3.1-8B-Instruct (via OpenRouter)
-        \item Gemini-2.5-Flash (via OpenRouter)
-        \item GPT-5-Nano (via OpenRouter)
-        \item DIPPER (T5-based, via HuggingFace Endpoint, $\text{lex}=20$, $\text{order}=40$)
+        \item \emph{Weak}: Human (PAR3), Llama-3.1-8B, Gemini-2.5-Flash, DIPPER
+        \item \emph{Strong}: Human (PAR3), Claude Sonnet~4.6, Gemini~2.5~Pro, GPT-5.4
     \end{itemize}
 \end{itemize}
 
-\paragraph{Trial Protocol.}
-Each trial proceeds as follows:
-\begin{enumerate}
-    \item The Auditor generates (or selects) a source text.
-    \item One paraphraser is randomly chosen to produce \emph{two} outputs; the remaining three each produce one output, yielding 5 total outputs.
-    \item The outputs are shuffled randomly.
-    \item The Detective examines all 5 outputs and predicts which pair originated from the same paraphraser.
-    \item A results block (correct/incorrect, predicted vs.\ actual indices) is fed back to the Auditor.
-\end{enumerate}
+All LLM requests are parallelized (8 concurrent calls per trial) and results are saved incrementally to support resumption from interruptions.
 
-\paragraph{Configurations.}
-We ran 10 independent experiments, each consisting of 20 trials with 5 warmup trials (not scored).
-Two configurations were tested: (1) a separate Detective with no memory across trials ($n=2$ runs), and (2) the Auditor serving as Detective with access to past outputs and results ($n=8$ runs).
-
-\paragraph{Baseline.}
-Random guessing yields $\frac{1}{\binom{5}{2}} = \frac{1}{10} = 10\%$ accuracy, since the Detective must select 2 of 5 outputs.
-
-\subsection{Aggregate Accuracy}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\linewidth]{figures/fig1_accuracy_distribution.png}
-    \Description{Bar chart of 10 run accuracies ranging from 47\% to 87\%, with a normal distribution fit showing mean 60.7\%.}
-    \caption{Detection accuracy across all 10 runs. Left: per-run accuracy with mean and 95\% CI. Right: accuracy distribution with normal fit. The mean accuracy of 60.7\% is significantly above the 10\% random baseline ($t(9)=13.41$, $p < 0.001$).}
-    \label{fig:accuracy_dist}
-\end{figure}
-
-Across 10 independent runs (150 total scored trials), the system achieves a mean detection accuracy of \textbf{60.7\%} (SD = 0.12), with a 95\% confidence interval of [52.1\%, 69.2\%].
-A one-sample $t$-test against the random baseline confirms statistical significance: $t(9) = 13.41$, $p < 0.001$ (Figure~\ref{fig:accuracy_dist}).
-
-Individual run accuracies range from 46.7\% to 86.7\%, reflecting the inherent stochasticity of random paraphraser duplication assignment and LLM output variability.
-
-\subsection{Per-Trial Learning Curve}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\linewidth]{figures/fig2_per_trial_accuracy_curve.png}
-    \Description{Bar chart with error bars showing per-trial accuracy across 20 trials, with a cumulative accuracy curve.}
-    \caption{Per-trial detection accuracy averaged over 9 runs with full data. Blue bars show average accuracy at each trial position; the red curve shows cumulative accuracy from trial 5 onward. Error bars indicate standard error.}
-    \label{fig:learning_curve}
-\end{figure}
-
-Figure~\ref{fig:learning_curve} shows the per-trial accuracy averaged across runs.
-The first 5 trials serve as warmup.
-The cumulative accuracy curve (red) shows the running average from trial 5 onward, revealing the Detective's performance trajectory as the Auditor iteratively refines its source text generation strategy.
-
-\subsection{Per-Paraphraser Detection Rates}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\linewidth]{figures/fig3_paraphraser_detection_rate.png}
-    \Description{Bar chart showing detection rates: Llama 25\%, Gemini 64\%, GPT-5-Nano 100\%, DIPPER 43\%.}
-    \caption{Detection rate for each paraphraser when randomly selected as the duplicate source. GPT-5-Nano is detected with 100\% accuracy, while Llama-3.1-8B is hardest to detect at 25\%.}
-    \label{fig:detection_rate}
-\end{figure}
-
-Detection rates vary dramatically across paraphrasers (Figure~\ref{fig:detection_rate}):
-
+\paragraph{Baselines.}
 \begin{itemize}
-    \item \textbf{GPT-5-Nano}: 100\% (36/36)---always detected when duplicated.
-    \item \textbf{Gemini-2.5-Flash}: 64.3\% (18/28).
-    \item \textbf{DIPPER}: 42.6\% (20/47).
-    \item \textbf{Llama-3.1-8B}: 25.0\% (6/24)---hardest to detect.
+    \item Duplicate detection: $\frac{1}{\binom{5}{2}} = 10\%$ (choose 2 of 5).
+    \item Pairwise classification: $\frac{1}{4!} = 4.17\%$ (1 correct permutation of 4).
 \end{itemize}
 
-GPT-5-Nano's perfect detection rate suggests it produces highly consistent, distinctive paraphrases---its ``fingerprint'' is strong and stable.
-Llama-3.1-8B's low detection rate indicates high output variability, making its two outputs less recognizably similar to each other.
+% -------------------------------------------------------
+\subsection{Experiment 1: Duplicate Detection}
+% -------------------------------------------------------
 
-\subsection{Confusion Analysis}
+Each trial presents 5 shuffled paraphrases (one paraphraser duplicated) and asks the Detective to identify the pair.
+Runs use 10 trials each (1 warmup), with 5--10 independent runs per configuration.
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.85\linewidth]{figures/fig4_confusion_heatmap.png}
-    \Description{4x4 heatmap showing paraphraser pair selection frequencies, with GPT-5-Nano diagonal at 36 and GPT-5-Nano--DIPPER off-diagonal at 32.}
-    \caption{Aggregated confusion matrix showing how often the Detective paired each combination of paraphrasers. Diagonal entries represent correct identifications. The strong GPT-5-Nano--DIPPER off-diagonal (32) indicates the Detective frequently confuses these two.}
-    \label{fig:confusion}
-\end{figure}
-
-The aggregated confusion matrix (Figure~\ref{fig:confusion}) reveals systematic patterns in the Detective's errors:
-
-\begin{itemize}
-    \item \textbf{GPT-5-Nano $\leftrightarrow$ DIPPER} (off-diagonal: 32): The most common confusion pair. Despite their architectural differences (LLM vs.\ T5-based), the Detective frequently groups their outputs together.
-    \item \textbf{Gemini-2.5-Flash $\leftrightarrow$ GPT-5-Nano} (14): Moderate confusion between these two LLM-based paraphrasers.
-    \item \textbf{Llama-3.1-8B $\leftrightarrow$ Gemini-2.5-Flash} (8): Some confusion between these models.
-    \item \textbf{DIPPER $\leftrightarrow$ Llama-3.1-8B} (0): Never confused, suggesting maximally distinct fingerprints.
-\end{itemize}
-
-\subsection{Response Length as a Fingerprint Feature}
+\paragraph{Detective Model Comparison.}
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=\linewidth]{figures/fig5_response_length.png}
-    \Description{Box plots and histograms of response word counts for four paraphrasers, ranging from mean 75 (DIPPER) to 104 (Llama).}
-    \caption{Response length (word count) distributions per paraphraser. Left: box plots. Right: overlaid histograms. Llama-3.1-8B produces the longest outputs ($\mu=104$), while DIPPER produces the shortest ($\mu=75$).}
-    \label{fig:response_length}
+    \includegraphics[width=\linewidth]{figures/fig3_detective_comparison.png}
+    \Description{Grouped bar chart comparing three detective models across history and no-history conditions, all around 55-62\%.}
+    \caption{Duplicate detection accuracy across three Detective models, with and without access to past trial history. All models perform significantly above the 10\% baseline, but no model or history condition is clearly superior.}
+    \label{fig:detective_cmp}
 \end{figure}
-
-Response length is a salient fingerprint dimension (Figure~\ref{fig:response_length}).
-Table~\ref{tab:length_stats} summarizes the statistics.
 
 \begin{table}[t]
-\caption{Response length statistics (word count) per paraphraser.}
-\label{tab:length_stats}
+\caption{Duplicate detection accuracy by Detective model and history condition (weak paraphrasers).}
+\label{tab:detective}
 \centering
-\begin{tabular}{lrrrr}
+\begin{tabular}{llccc}
 \toprule
-\textbf{Paraphraser} & \textbf{Mean} & \textbf{Median} & \textbf{SD} & \textbf{$n$} \\
+\textbf{Detective} & \textbf{History} & \textbf{Runs} & \textbf{Mean} & \textbf{SD} \\
 \midrule
-Llama-3.1-8B     & 104 & 109 & 47 & 210 \\
-Gemini-2.5-Flash & 93  & 94  & 41 & 216 \\
-GPT-5-Nano       & 86  & 82  & 41 & 228 \\
-DIPPER            & 75  & 70  & 33 & 246 \\
+Sonnet 4.6     & Yes & 10 & 61.1\% & 15.1\% \\
+Sonnet 4.6     & No  & 10 & 61.1\% & 16.7\% \\
+GPT-4.1        & Yes &  5 & 55.6\% & 15.7\% \\
+GPT-4.1        & No  &  5 & 57.8\% & 21.5\% \\
+Gemini 2.5 Pro & Yes &  5 & 62.2\% &  5.4\% \\
+Gemini 2.5 Pro & No  &  5 & 60.0\% & 15.1\% \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-DIPPER, as a T5-based model, produces the most conservative (shortest) paraphrases, while Llama-3.1-8B tends toward verbose, elaborative rewrites.
-Interestingly, despite GPT-5-Nano having moderate length, its fingerprint is the strongest---suggesting that length alone is insufficient and that deeper stylistic features (word choice, sentence structure, formatting patterns) play a critical role.
-
-\subsection{Source Text Type Comparison}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.85\linewidth]{figures/fig6_source_type_accuracy.png}
-    \Description{Two-bar chart comparing pre-written (59.3\%) and auditor-generated (59.3\%) source text accuracy.}
-    \caption{Detection accuracy by source text type. Both human-crafted and Auditor-generated texts yield identical accuracy (59.3\%), suggesting the APE-style refinement matches human-designed linguistic traps.}
-    \label{fig:source_type}
-\end{figure}
-
-We compared detection accuracy between human-crafted source texts (trials 5--7, post-warmup) and Auditor-generated texts (trials 8--19).
-Both achieve identical accuracy of 59.3\% (Figure~\ref{fig:source_type}).
-This result suggests that the Auditor's APE-style iterative refinement is competitive with carefully hand-crafted linguistic traps, validating the automated source text generation approach.
-
-\subsection{Detective Rationale Analysis}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\linewidth]{figures/fig8_rationale_keywords.png}
-    \Description{Horizontal bar chart of keyword frequencies in detective rationales, with structure at 64\% and style at 56\%.}
-    \caption{Keyword frequency analysis of Detective rationales ($n=135$). Structural and stylistic features dominate the Detective's reasoning.}
-    \label{fig:rationale}
-\end{figure}
-
-Analysis of 135 Detective rationales reveals the features most relied upon for fingerprint identification (Figure~\ref{fig:rationale}):
-\emph{structure} (64\%), \emph{style} (56\%), \emph{formal} (15\%), \emph{vocabulary} (8\%), \emph{tone} (7\%), and \emph{length} (6\%).
-The dominance of structural and stylistic features over surface-level features like length confirms that the Detective performs genuine stylistic analysis rather than relying on trivial heuristics.
-
-\subsection{Auditor-as-Detective Configuration}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.85\linewidth]{figures/fig7_auditor_vs_detective.png}
-    \Description{Box plot comparing separate detective (mean 63.3\%) and auditor-as-detective (mean 60.0\%) accuracy.}
-    \caption{Comparison between separate Detective (stateless, $n=2$) and Auditor-as-Detective (with memory, $n=8$). No significant difference is observed.}
-    \label{fig:aud_vs_det}
-\end{figure}
-
-We tested whether giving the Detective access to past outputs and results (``Auditor-as-Detective'' configuration) improves performance.
-The separate Detective achieves 63.3\% ($n=2$) vs.\ 60.0\% for Auditor-as-Detective ($n=8$) (Figure~\ref{fig:aud_vs_det}).
-The lack of improvement suggests that within-trial stylistic comparison is more informative than cross-trial memory, or that the current memory mechanism does not effectively leverage historical information.
-
-% ============================================================
-\section{Plan for Next Steps}
-% ============================================================
-
-Based on our findings, we propose the following directions:
-
+Three findings emerge from Table~\ref{tab:detective} and Figure~\ref{fig:detective_cmp}:
 \begin{enumerate}
-    \item \textbf{Upgrade Detective model.} Replace Claude Sonnet 4.6 with a more capable model (e.g., Claude Opus, GPT-5) to test whether stronger reasoning improves fingerprint detection.
-    \item \textbf{Prompt optimization.} Systematically optimize the Detective's prompt using techniques such as chain-of-thought prompting, few-shot examples of successful identifications, or structured comparison templates.
-    \item \textbf{Expand paraphraser pool.} Add more paraphrasers (e.g., Mistral, Command-R, Qwen) to test whether fingerprinting scales to larger model sets and whether models from the same family (e.g., Llama-3.1-8B vs.\ Llama-3.1-70B) are distinguishable.
-    \item \textbf{Feature-based detection.} Complement the LLM-based Detective with traditional NLP features (n-gram distributions, syntactic parse patterns, vocabulary richness metrics) to build an interpretable fingerprint classifier.
-    \item \textbf{Cross-domain evaluation.} Test whether fingerprints persist across different text domains (scientific, literary, conversational) and source text lengths.
-    \item \textbf{Robustness testing.} Evaluate whether fingerprints survive post-processing steps such as grammar correction, back-translation, or additional paraphrasing.
+    \item All detectives achieve 55--62\% accuracy, well above the 10\% baseline.
+    \item \textbf{History provides no benefit}: the with-history and no-history conditions produce nearly identical results for all three models (Sonnet: 61.1\% vs.\ 61.1\%; GPT-4.1: 55.6\% vs.\ 57.8\%; Gemini: 62.2\% vs.\ 60.0\%).
+    \item Gemini~2.5~Pro has the lowest variance (SD=5.4\% with history), suggesting more consistent reasoning.
+\end{enumerate}
+
+\paragraph{Weak vs.\ Strong Paraphrasers.}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.85\linewidth]{figures/fig4_weak_vs_strong.png}
+    \Description{Box plot comparing weak (mean 61.1\%) and strong (mean 66.7\%) paraphraser detection accuracy.}
+    \caption{Duplicate detection accuracy for weak vs.\ strong paraphraser sets. Strong models are \emph{more} detectable (66.7\% vs.\ 61.1\%), suggesting that capable models develop more distinctive rewriting styles.}
+    \label{fig:weak_vs_strong}
+\end{figure}
+
+Counter-intuitively, stronger paraphrasers are \emph{easier} to detect (Figure~\ref{fig:weak_vs_strong}).
+The strong set (Sonnet~4.6, Gemini~2.5~Pro, GPT-5.4) yields 66.7\% detection accuracy vs.\ 61.1\% for the weak set (Llama-8B, Gemini Flash, DIPPER).
+This suggests that more capable models develop more consistent and distinctive ``voices'' when paraphrasing, creating stronger fingerprints.
+
+% -------------------------------------------------------
+\subsection{Experiment 2: Pairwise Classification}
+\label{sec:classification}
+% -------------------------------------------------------
+
+The pairwise classification task is substantially harder than duplicate detection.
+Two source texts are drawn from PAR3, and all four paraphrasers independently rewrite both texts.
+The Detective receives two groups of four shuffled outputs and must produce a complete matching---identifying which Group~A output corresponds to which Group~B output (same paraphraser).
+A trial is scored correct only if \textbf{all four matches are correct}.
+
+We ran 50 non-repeating trials with the strong paraphraser set (Human, Sonnet~4.6, Gemini~2.5~Pro, GPT-5.4), Sonnet~4.6 as Detective, no history.
+
+\paragraph{Overall Accuracy.}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{figures/fig1_classification_main.png}
+    \Description{Left: per-trial bar chart of correct matches (0--4), with green bars for 4/4. Right: distribution showing 11/50 trials with all 4 correct.}
+    \caption{Pairwise classification results over 50 trials. Left: per-trial correct matches (green = all 4 correct). Right: distribution of match counts. The Detective achieves 22\% perfect-match accuracy (11/50), far above the 4.17\% random baseline.}
+    \label{fig:classification_main}
+\end{figure}
+
+The Detective correctly matches all four paraphrasers in \textbf{11 of 50 trials (22.0\%)}, which is 5.3$\times$ the random baseline of 4.17\% (Figure~\ref{fig:classification_main}).
+
+The distribution of correct matches reveals interesting structure:
+\begin{itemize}
+    \item \textbf{0/4}: 8 trials (16\%)---complete failure.
+    \item \textbf{1/4}: 16 trials (32\%)---matches random expectation ($E[\text{correct}]=1$).
+    \item \textbf{2/4}: 15 trials (30\%)---partial success.
+    \item \textbf{3/4}: 0 trials (0\%)---notably absent.
+    \item \textbf{4/4}: 11 trials (22\%)---perfect match.
+\end{itemize}
+
+The absence of 3/4 matches is striking: the Detective either identifies all fingerprints correctly or misses multiple.
+This bimodal pattern suggests that success depends on whether the source texts happen to elicit distinguishable behaviors from the paraphrasers.
+
+\paragraph{Per-Paraphraser Identifiability.}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.85\linewidth]{figures/fig2_paraphraser_matchrate.png}
+    \Description{Bar chart showing match rates: Human 62\%, Gemini 44\%, GPT-5.4 40\%, Sonnet 34\%.}
+    \caption{Individual match rate per paraphraser in the classification task. Human (PAR3) translations are the easiest to identify (62\%), while Sonnet~4.6 is hardest (34\%). Random baseline is 25\%.}
+    \label{fig:matchrate}
+\end{figure}
+
+Per-paraphraser match rates (Figure~\ref{fig:matchrate}) reveal a clear hierarchy:
+\begin{itemize}
+    \item \textbf{Human (PAR3)}: 62\%---the most identifiable. Human translators produce distinctive styles (e.g., archaic phrasing, literary flourishes) that are consistent across different source texts.
+    \item \textbf{Gemini 2.5 Pro}: 44\%.
+    \item \textbf{GPT-5.4}: 40\%.
+    \item \textbf{Sonnet 4.6}: 34\%---closest to random (25\%), making it the best ``disguiser.''
+\end{itemize}
+
+That human paraphrases are the easiest to detect is a key finding: human rewriters exhibit more consistent personal style than LLMs, whose outputs are more variable across different inputs.
+
+\paragraph{Confusion Analysis.}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.85\linewidth]{figures/fig6_classification_confusion.png}
+    \Description{4x4 heatmap showing classification confusion between paraphrasers.}
+    \caption{Classification confusion matrix. Diagonal entries (correct matches) are strongest for Human (31) and weakest for Sonnet~4.6 (17). Off-diagonal patterns show systematic confusions between LLM paraphrasers.}
+    \label{fig:confusion}
+\end{figure}
+
+The confusion matrix (Figure~\ref{fig:confusion}) reveals which paraphrasers the Detective systematically confuses.
+The diagonal (correct identifications) is strongest for Human~(31/50) and weakest for Sonnet~4.6~(17/50).
+Off-diagonal entries show that the three LLM paraphrasers are frequently confused with each other, while the Human is rarely mistaken for an LLM---its fingerprint occupies a distinct region of style space.
+
+% ============================================================
+\section{Summary of All Experiments}
+% ============================================================
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\linewidth]{figures/fig5_summary_table.png}
+    \Description{Summary table of all experimental configurations and results.}
+    \caption{Summary of all experimental configurations. Eight distinct conditions were tested spanning two evaluation modes, two paraphraser strength levels, three Detective models, and two history conditions.}
+    \label{fig:summary}
+\end{figure}
+
+Figure~\ref{fig:summary} presents the complete experimental matrix.
+Key takeaways:
+\begin{enumerate}
+    \item \textbf{Fingerprints are real.} All conditions far exceed their respective random baselines (10\% for duplicate detection, 4.17\% for classification).
+    \item \textbf{History does not help.} Across all Detective models, providing past trial history yields no improvement over stateless detection.
+    \item \textbf{Stronger models have stronger fingerprints.} The strong paraphraser set (66.7\%) is more detectable than the weak set (61.1\%) in duplicate detection.
+    \item \textbf{Humans are the most identifiable.} In the classification task, human translations from PAR3 have the highest individual match rate (62\%), consistent with the intuition that human rewriters have more distinctive personal styles.
+    \item \textbf{Pairwise classification is hard but feasible.} At 22\% perfect-match accuracy (5.3$\times$ baseline), the Detective can sometimes identify all four fingerprints purely from stylistic analysis.
 \end{enumerate}
 
 % ============================================================
 \section{Conclusion}
 % ============================================================
 
-We have demonstrated that different paraphrasing models leave detectable fingerprints in their outputs.
-Our adversarial evaluation framework, combining an iterative Auditor with a stateless Detective, achieves 60.7\% mean accuracy across 150 scored trials---six times the random baseline of 10\% ($p < 0.001$).
+We have demonstrated that different paraphrasing systems---both human and machine---leave detectable fingerprints in their outputs.
+Our evaluation spans two complementary paradigms (duplicate detection and pairwise classification), three Detective models, two paraphraser strength levels, and over 400 scored trials.
 
-Key findings include:
-\begin{itemize}
-    \item Fingerprint strength varies dramatically across models: GPT-5-Nano is always detectable (100\%), while Llama-3.1-8B is rarely detected (25\%).
-    \item The Detective relies primarily on structural and stylistic features rather than surface-level heuristics like output length.
-    \item Automated source text generation (APE-style) matches the effectiveness of human-crafted linguistic traps.
-    \item Memory-augmented detection does not outperform stateless detection in our current framework.
-\end{itemize}
+The most surprising finding is that \emph{human} paraphrases are the easiest to identify, and \emph{stronger} LLM paraphrasers are more detectable than weaker ones.
+This suggests that fingerprint strength correlates with the consistency of a system's ``voice''---capable models and experienced human translators develop distinctive styles that persist across different inputs.
 
-These results suggest that the ``wood grain'' of AI models is real and measurable, opening avenues for paraphraser attribution, AI text provenance, and deeper understanding of how different architectures shape language generation.
+These results open avenues for paraphraser attribution, AI text provenance, and deeper understanding of how different systems---human and machine---shape language when rewriting.
+
+\paragraph{Code Availability.} All code and experimental data are available at \url{https://github.com/zboyr/HideNSeek}.
 
 \bibliographystyle{ACM-Reference-Format}
-\begin{thebibliography}{1}
+\begin{thebibliography}{2}
 \bibitem{mitchell2023detectgpt}
 Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D. Manning, and Chelsea Finn. 2023. DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature. In \emph{Proceedings of ICML 2023}.
+
+\bibitem{par3}
+Eleftheria Briakou, Sweta Agrawal, Joel Tetreault, and Marine Carpuat. 2023. Searching for Relevant Translations in Parallel Corpora for Paraphrase Generation. In \emph{Findings of ACL}.
 \end{thebibliography}
 
 \end{document}

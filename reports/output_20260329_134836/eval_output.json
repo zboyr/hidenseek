@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "sonnet_46",
+    "gemini_25_pro",
+    "gpt_54"
+  ],
+  "similar_models": [
+    [
+      "sonnet_46",
+      "gemini_25_pro"
+    ],
+    [
+      "gemini_25_pro",
+      "gemini_25_pro"
+    ],
+    [
+      "gemini_25_pro",
+      "gemini_25_pro"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gpt_54",
+      "sonnet_46"
+    ],
+    [
+      "gpt_54",
+      "sonnet_46"
+    ],
+    [
+      "sonnet_46",
+      "sonnet_46"
+    ],
+    [
+      "sonnet_46",
+      "gemini_25_pro"
+    ],
+    [
+      "gemini_25_pro",
+      "sonnet_46"
+    ],
+    [
+      "sonnet_46",
+      "sonnet_46"
+    ]
+  ],
+  "source_texts": [
+    "Cosette stared at him in amazement, not uttering a word. Jean Valjean\u2019s warning and the Th\u00e9nardier woman\u2019s name had petrified her.",
+    "The Prince produced the twenty-five-rouble note and held it out to Ferdyshchenko. He unfolded it, inspected it, then turned it over and brought it up to the light.",
+    "\u2018Tonight. All surveillance appears to have vanished from the Nautilus. There seems to be a total stupor on board. Will you be ready?\u2019",
+    "He was not allowed to finish and persuaded to take his seat. The others implored him to calm down. Ganya, beside himself with rage, withdrew into a corner. Nina Alexandrovna was trembling all over and crying.",
+    "\u201cI\u2019ve been a widow for two years,\u201d she said in a half whisper, shuddering as she spoke. \u201cIt was hard being married to him, he was old and beat me terribly. So when he lay sick, I looked at him and I said to myself: \u2018If he gets better, he\u2019ll get up and then what?\u2019 And that is when the thought came to me . . .\u201d",
+    ". . .\" He wanted badly to get rid of me, however, and walked hurriedly across the street to the other sidewalk.",
+    "The famous doctor said his goodbyes with a serious expression, but one that hadn\u2019t given up hope. And to the timid question Ivan Ilyich put to him, raising eyes that were shining with fear and hope\u2014is there any possibility of recovery?\u2014he answered that though one couldn\u2019t guarantee it, there was a possibility. The look of hope with which Ivan Ilyich said goodbye to the doctor was so pitiful that, when she saw it, Praskovya Fyodorovna burst into tears as she went through the study doors to give the famous doctor his fee.",
+    "\u201cAh!\u201d he exclaimed, interrupting himself. \u201cThere come Mignon and Steiner! They are always together. You know that Steiner begins to have had enough of Rose; so the husband sticks to him like a plaster lest he should escape.\u201d",
+    "\u201cIt was all thanks to Kamsa that I was able to enter into this city,\u201d said Vandiya Devan and started recounting yet another adventure of his. Vandiya Devan knew that the city would be on alert and guards would be posted at the gates to capture him. They also knew that he would come bearing the Pazhuvur Signet ring so he couldn\u2019t possibly use it to gain entry.",
+    "\u2018How can you doubt it! But you, who do not love her, why are you so ready to endanger your life? It must be that you hate Erik.\u2019"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "gpt_54"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "sonnet_46"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "sonnet_46"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "human_par3",
+      "human_par3",
+      "sonnet_46",
+      "gemini_25_pro",
+      "gpt_54"
+    ],
+    [
+      "gemini_25_pro",
+      "human_par3",
+      "sonnet_46",
+      "gpt_54",
+      "gemini_25_pro"
+    ],
+    [
+      "gpt_54",
+      "gemini_25_pro",
+      "gemini_25_pro",
+      "human_par3",
+      "sonnet_46"
+    ],
+    [
+      "human_par3",
+      "sonnet_46",
+      "gpt_54",
+      "gemini_25_pro",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gpt_54",
+      "sonnet_46",
+      "gemini_25_pro",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gpt_54",
+      "gpt_54",
+      "gemini_25_pro",
+      "sonnet_46"
+    ],
+    [
+      "gpt_54",
+      "human_par3",
+      "sonnet_46",
+      "gemini_25_pro",
+      "sonnet_46"
+    ],
+    [
+      "sonnet_46",
+      "human_par3",
+      "gemini_25_pro",
+      "gpt_54",
+      "gemini_25_pro"
+    ],
+    [
+      "gemini_25_pro",
+      "gpt_54",
+      "human_par3",
+      "sonnet_46",
+      "gemini_25_pro"
+    ],
+    [
+      "human_par3",
+      "sonnet_46",
+      "sonnet_46",
+      "gpt_54",
+      "gemini_25_pro"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 3 share multiple distinctive stylistic features: both use 'stunned silence,' both use 'frozen' to describe Cosette's state, and both use the nearly identical phrase 'mention of the Th\u00e9nardier woman's name.' They also restructure the original similarly, separating Cosette's reaction from its cause in a two-sentence format. These parallel choices strongly suggest the same paraphraser.",
+    "Outputs 0 and 4 share nearly identical structure and vocabulary: both use 'a twenty-five-rouble note,' 'unfolded the bill,' 'flipped it over,' and 'held it up to the light.' The second sentence in both follows the same four-action list format. Minor differences (e.g., 'handed' vs. 'offered,' 'carefully inspected' vs. 'examined') are small variations typical of the same paraphrasing system.",
+    "Outputs 1 and 2 share the same stylistic fingerprints: no quotation marks, use of 'Tonight,' the identical phrase 'in a complete daze,' and ending with 'Are you prepared?' Both adopt a similarly casual but clean register, differing only slightly in sentence structure (1 combines into one sentence, 2 splits into two). These shared word choices and tonal patterns strongly suggest the same paraphraser.",
+    "Outputs 0 and 4 share the same distinctive opening phrase 'They did not let him finish and sat him down again,' the same ending 'Nina Alexandrovna trembled and wept' (word-for-word identical), and a similarly literal, close-to-source translation style. Both also use 'Ganya went off to/in a corner in a fury' with minimal restructuring, contrasting sharply with outputs 1, 2, and 3 which all use passive constructions and more significant rephrasing.",
+    "Outputs 1 and 2 share the most consistent stylistic fingerprints: both use 'two years,' both describe the husband as treating her 'brutally,' both use a trembling/murmuring speech attribution, both modernize the language with similar phrasing ('difficult' marriage, conditional recovery phrasing), and both end with an ellipsis. Their vocabulary choices and sentence restructuring approach are nearly identical, suggesting the same paraphrasing system.",
+    "Outputs 1 and 4 are essentially identical: 'He was eager to be rid of me and quickly crossed the street to the opposite sidewalk.' The only difference is a leading ellipsis in output 1, which is a minor formatting artifact. The exact same word choices, sentence structure, and phrasing ('eager to be rid of me,' 'quickly crossed the street,' 'opposite sidewalk') indicate they were produced by the same paraphrasing system.",
+    "Outputs 2 and 4 share nearly identical phrasing and structure: both use 'renowned physician,' 'grave yet not entirely hopeless look on his face,' 'nervously asked,' 'heartbreaking,' 'Praskovya Fyodorovna,' 'distinguished physician his fee,' and similar constructions like 'while nothing was/could be certain, a chance did exist/the possibility existed.' Their sentence-level structure is closely mirrored throughout, indicating the same paraphraser.",
+    "Outputs 0 and 4 share the distinctive word 'inseparable' (not used by any other output), both use 'Ah!' as the exclamation, both phrase it as the husband staying close to prevent Steiner from slipping/getting away, and both have very similar register and sentence structure. These linguistic fingerprints strongly suggest they came from the same paraphraser.",
+    "Outputs 0 and 3 share the most consistent stylistic fingerprint. Both use nearly identical three-sentence structures, capitalize 'Pazhuvur Signet ring' the same way, use 'on high alert' with 'guards stationed at' the gates/entrances 'to capture/catch him,' and conclude with the same logical explanation about not being able to use the signet ring. Their sentence lengths, vocabulary choices, and overall flow are the most closely matched among all outputs.",
+    "Outputs 1 and 2 are nearly identical in structure and phrasing: both begin with 'How could you possibly question [that/it]!', both use 'But you, who have no [feelings/love] for her, what makes you so willing to risk your own life?', and both end with 'You must truly despise Erik.' The only differences are single word substitutions ('that' vs 'it' and 'feelings' vs 'love'), which strongly indicates they were produced by the same paraphraser with slight variation."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "Cosette gazed at him in stupid amazement, without uttering a word. Jean Valjean\u2019s injunction, and the name of Madame Th\u00e9nardier, had chilled her blood.",
+        "Cosette watched him, stupefied, without saying a word. Jean Valjean\u2019s charge and the name of the Th\u00e9nardiess had made her dumb."
+      ],
+      "sonnet_46": [
+        "Cosette gazed at him in stunned silence, unable to speak. She had been left frozen by Jean Valjean's caution and the mention of the Th\u00e9nardier woman's name."
+      ],
+      "gemini_25_pro": [
+        "Cosette looked at him in stunned silence. She was completely frozen by the combination of Jean Valjean\u2019s warning and the mention of the Th\u00e9nardier woman's name."
+      ],
+      "gpt_54": [
+        "Cosette gazed at him in astonishment, unable to say a word. Jean Valjean\u2019s warning and the mention of the Th\u00e9nardier woman had left her frozen with fear."
+      ]
+    },
+    {
+      "human_par3": [
+        "The prince fished the twenty-five-rouble note out of his waistcoat pocket and gave it to Ferdyshchenko. The latter unfolded it, looked at it, then turned it over, and held it up to the light."
+      ],
+      "sonnet_46": [
+        "Ferdyshchenko took the twenty-five-rouble note that the Prince held out to him. He opened it up, looked it over carefully, flipped it to the other side, and held it up to examine it in the light."
+      ],
+      "gemini_25_pro": [
+        "The Prince took out a twenty-five-rouble note and offered it to Ferdyshchenko. Ferdyshchenko then unfolded the bill, examined it, flipped it over, and held it up to the light.",
+        "The Prince took out a twenty-five-rouble note and handed it to Ferdyshchenko, who then carefully inspected it. He unfolded the bill, flipped it over, and held it up to the light."
+      ],
+      "gpt_54": [
+        "The Prince took out the twenty-five-rouble note and handed it to Ferdyshchenko. He opened it up, examined it, then flipped it over and raised it to the light."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cTo-night. All inspection on board the Nautilus seems to have ceased. All appear to be stupefied. You will be ready, sir?\u201d"
+      ],
+      "sonnet_46": [
+        "'This evening. Every sign of monitoring seems to have disappeared from the Nautilus. The ship appears to be in a state of complete unconsciousness. Are you prepared?'"
+      ],
+      "gemini_25_pro": [
+        "Tonight, it appears that all monitoring on the Nautilus has ceased. Everyone on board seems to be in a complete daze. Are you prepared?",
+        "Tonight, it appears the surveillance on the Nautilus is gone, and everyone on board is in a complete daze. Are you prepared?"
+      ],
+      "gpt_54": [
+        "\u201cTonight. It seems all surveillance has disappeared from the Nautilus. There appears to be a complete stupor on board. Will you be prepared?\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "They did not let him finish and sat him down again, began entreating him to calm himself. Ganya went off to a corner in a fury. Nina Alexandrovna trembled and wept.",
+        "They did not let him finish and sat him down again; they began begging him to calm himself. Ganya, in fury, went to the far corner. Nina Alexandrovna trembled and wept."
+      ],
+      "sonnet_46": [
+        "The man was prevented from completing what he was saying and was convinced to sit down. Those around him begged him to compose himself. Ganya, overwhelmed with fury, retreated to a corner of the room. Nina Alexandrovna shook uncontrollably and wept."
+      ],
+      "gemini_25_pro": [
+        "He was prevented from finishing and convinced to sit down as others pleaded with him to compose himself. Enraged, Ganya retreated to a corner. Nina Alexandrovna was crying and trembling."
+      ],
+      "gpt_54": [
+        "He was prevented from finishing and urged to sit down. The others begged him to calm himself. Ganya, overcome with fury, retreated to a corner. Nina Alexandrovna was shaking all over and in tears."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"I am a widow these three years,\" she began in a half-whisper, with a sort of shudder. \"I had a hard life with my husband. He was an old man. He used to beat me cruelly. He lay ill; I thought looking at him, if he were to get well, if he were to get up again, what then? And then the thought came to me--\"",
+        "\u2018I\u2019ve been a widow since the year before last,\u2019 she began in a half-whisper, seeming to quiver all over. \u2018It was hard being married, my husband was an old man , he\u2019d given me a sore beating. He was ill in bed; as I looked at him I thought: what if he recovers and gets up again, what then? And then this idea came to me\u2026\u2019"
+      ],
+      "sonnet_46": [
+        "\"I lost my husband two years ago,\" she said quietly, her voice trembling. \"Our marriage was a difficult one \u2014 he was an old man who treated me brutally. So as he lay there ill, I found myself thinking: 'What happens if he recovers and gets back on his feet?' And it was in that moment that the idea entered my mind . . .\""
+      ],
+      "gemini_25_pro": [
+        "Shivering as she spoke in a quiet voice, she explained that she had been a widow for the past two years. She described her marriage as difficult, noting that her elderly husband had been severely abusive. When he became sick, she remembered looking at him and worrying about what would happen if he recovered. It was then, she confessed, that a particular idea occurred to her."
+      ],
+      "gpt_54": [
+        "\u201cI\u2019ve been widowed for two years,\u201d she murmured, trembling. \u201cBeing married to him was difficult\u2014he was old and treated me brutally. So when he was lying ill, I looked at him and thought to myself, \u2018If he recovers, he\u2019ll get up\u2014and then what?\u2019 That\u2019s when the idea came to me...\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "But the man wanted absolutely to get rid of me, and he sheered off, in all haste, to the other side of the street."
+      ],
+      "sonnet_46": [
+        "He was eager to be rid of me and quickly crossed the street to the opposite sidewalk."
+      ],
+      "gemini_25_pro": [
+        "Here are a few ways to rephrase that sentence:\n\n*   Clearly wanting me to leave, he hastily crossed to the other side of the street.\n*   He was eager to get away from me, so he hurried across the street.\n*   He showed his desire to be rid of me by quickly walking to the opposite sidewalk."
+      ],
+      "gpt_54": [
+        "\u2026However, he was eager to be rid of me and quickly crossed the street to the opposite sidewalk.",
+        "However, he was eager to be rid of me and quickly crossed the street to the sidewalk on the other side."
+      ]
+    },
+    {
+      "human_par3": [
+        "The celebrated specialist took his leave looking serious but not hopeless. And in answer to the question put to him diffidently by Ivan Ilyich, whose eyes were glistening with fear and hope, as to whether there was any possibility of recovery, he replied that nothing could be guaranteed but there was a possibility. The look of hope on Ivan Ilyich\u2019s face as he watched the doctor leave was so pathetic that when she saw it Praskovya actually burst into tears as she walked out of the study to give the celebrated specialist his fee."
+      ],
+      "sonnet_46": [
+        "The renowned physician departed with a grave yet not entirely hopeless look on his face. When Ivan Ilyich nervously asked him, his eyes filled with both fear and longing, whether there was any chance he might get better, the doctor replied that while nothing was certain, a chance did exist. The expression of hope on Ivan Ilyich's face as he said farewell to the doctor was so heartbreaking that Praskovya Fyodorovna, upon witnessing it, was moved to tears as she walked through the study doors to pay the distinguished physician his fee.",
+        "The renowned physician bid his farewell with a grave yet not entirely hopeless look on his face. When Ivan Ilyich, his eyes glistening with a mixture of fear and hope, nervously asked whether there was any chance he might recover, the doctor replied that while nothing could be certain, the possibility existed. The expression of hope on Ivan Ilyich's face as he said goodbye to the doctor was so heartbreaking that Praskovya Fyodorovna, upon catching sight of it, broke down in tears as she walked through the study to pay the distinguished physician his fee."
+      ],
+      "gemini_25_pro": [
+        "The renowned doctor departed with a grave yet encouraging expression. In response to Ivan Ilyich's timid question about the possibility of recovery\u2014a question asked with eyes shining with both hope and fear\u2014the doctor stated that while it couldn't be guaranteed, a chance did exist. The look of pitiful hope on Ivan Ilyich\u2019s face as he parted with the doctor was so heartbreaking that Praskovya Fyodorovna burst into tears upon seeing it, weeping as she left the study to pay the physician his fee."
+      ],
+      "gpt_54": [
+        "The renowned doctor took his leave with a grave expression, though not one entirely without hope. And when Ivan Ilyich, lifting eyes bright with fear and hope, timidly asked whether there was any chance of recovery, he replied that while nothing could be promised, there was still a possibility. The hopeful look with which Ivan Ilyich parted from the doctor was so heartbreaking that, upon seeing it, Praskovya Fyodorovna broke into tears as she passed through the study doors to pay the famous doctor his fee."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Tut!\" he cried, breaking off short. \" Mignon and Steiner. Always together. You know, Steiner's getting sick of Rose; that's why the husband dogs his steps now for fear of his slipping away.\""
+      ],
+      "sonnet_46": [
+        "\"Ah!\" he cried, cutting himself off. \"Here come Mignon and Steiner! Those two are inseparable. You see, Steiner is starting to grow tired of Rose, so her husband stays glued to his side, afraid he might slip away.\""
+      ],
+      "gemini_25_pro": [
+        "\"Ah!\" he interrupted, \"Mignon and Steiner are coming. They're inseparable. As you know, Steiner is getting tired of Rose, so her husband sticks close to him to make sure he doesn't get away.\"",
+        "Interrupting his own sentence, he exclaimed, \"Look, it's Mignon and Steiner! They are always together.\" He then explained that since Steiner is growing tired of Rose, her husband sticks to him constantly to prevent him from leaving."
+      ],
+      "gpt_54": [
+        "\u201cAh!\u201d he cried, breaking off mid-sentence. \u201cHere come Mignon and Steiner! They\u2019re always together. You know Steiner is starting to tire of Rose, so her husband clings to him like a plaster to keep him from getting away.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Vallavarayan had guessed, quite accurately, that the Pazhuvettarayars' men would be lying in wait for him even before he arrived at Pazhaiyarai himself, guarding every single point of entrance and exit into the city. The least sign of suspicious behaviour, and he would be carted off to prison at once."
+      ],
+      "sonnet_46": [
+        "Vandiya Devan began narrating yet another one of his escapades, saying that it was Kamsa who had made it possible for him to get into the city. He was well aware that the city would be under high alert, with guards stationed at every entrance specifically to catch him. On top of that, since they already knew he carried the Pazhuvur Signet ring, using it to gain entry into the city was simply not an option for him."
+      ],
+      "gemini_25_pro": [
+        "Vandiya Devan credited Kamsa for his ability to enter the city, and then proceeded to tell another story about his adventures. He had been aware that the city was on high alert, with guards posted at the entrances specifically to capture him. Vandiya Devan also knew that they would be expecting him to have the Pazhuvur Signet ring, making it impossible for him to use it for entry.",
+        "Vandiya Devan began to recount another of his adventures, stating that he owed his successful entry into the city to Kamsa. He was aware that the city was on high alert and that guards were waiting at the gates to capture him. He also knew he couldn't use the Pazhuvur Signet ring for access, as his pursuers were expecting him to have it."
+      ],
+      "gpt_54": [
+        "\u201cIt was only because of Kamsa that I managed to get into this city,\u201d said Vandiya Devan, as he began narrating another one of his adventures. He knew the city would be on high alert, with guards stationed at the gates to seize him. They also knew he would be carrying the Pazhuvur signet ring, so he could not use it to enter."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019"
+      ],
+      "sonnet_46": [
+        "\"How could you possibly question that! But you, who have no feelings for her, what makes you so willing to risk your own life? You must truly despise Erik.\"",
+        "\"How could you possibly question it! But you, who have no love for her, what makes you so willing to risk your own life? You must truly despise Erik.\""
+      ],
+      "gemini_25_pro": [
+        "Of course I love her\u2014how can you even question it? But you don't share my feelings, so why are you so prepared to put your life in danger? The only reason must be your hatred for Erik."
+      ],
+      "gpt_54": [
+        "\u201cHow can you question it? But you, who do not love her, why are you so willing to risk your life? You must hate Erik.\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Cosette gazed at him in stupid amazement, without uttering a word. Jean Valjean\u2019s injunction, and the name of Madame Th\u00e9nardier, had chilled her blood.",
+      "The Prince took out a twenty-five-rouble note and handed it to Ferdyshchenko, who then carefully inspected it. He unfolded the bill, flipped it over, and held it up to the light.",
+      "\u201cTonight. It seems all surveillance has disappeared from the Nautilus. There appears to be a complete stupor on board. Will you be prepared?\u201d",
+      "They did not let him finish and sat him down again; they began begging him to calm himself. Ganya, in fury, went to the far corner. Nina Alexandrovna trembled and wept.",
+      "\"I am a widow these three years,\" she began in a half-whisper, with a sort of shudder. \"I had a hard life with my husband. He was an old man. He used to beat me cruelly. He lay ill; I thought looking at him, if he were to get well, if he were to get up again, what then? And then the thought came to me--\"",
+      "But the man wanted absolutely to get rid of me, and he sheered off, in all haste, to the other side of the street.",
+      "The renowned doctor took his leave with a grave expression, though not one entirely without hope. And when Ivan Ilyich, lifting eyes bright with fear and hope, timidly asked whether there was any chance of recovery, he replied that while nothing could be promised, there was still a possibility. The hopeful look with which Ivan Ilyich parted from the doctor was so heartbreaking that, upon seeing it, Praskovya Fyodorovna broke into tears as she passed through the study doors to pay the famous doctor his fee.",
+      "\"Ah!\" he cried, cutting himself off. \"Here come Mignon and Steiner! Those two are inseparable. You see, Steiner is starting to grow tired of Rose, so her husband stays glued to his side, afraid he might slip away.\"",
+      "Vandiya Devan began to recount another of his adventures, stating that he owed his successful entry into the city to Kamsa. He was aware that the city was on high alert and that guards were waiting at the gates to capture him. He also knew he couldn't use the Pazhuvur Signet ring for access, as his pursuers were expecting him to have it.",
+      "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019"
+    ],
+    [
+      "Cosette watched him, stupefied, without saying a word. Jean Valjean\u2019s charge and the name of the Th\u00e9nardiess had made her dumb.",
+      "The prince fished the twenty-five-rouble note out of his waistcoat pocket and gave it to Ferdyshchenko. The latter unfolded it, looked at it, then turned it over, and held it up to the light.",
+      "Tonight, it appears the surveillance on the Nautilus is gone, and everyone on board is in a complete daze. Are you prepared?",
+      "The man was prevented from completing what he was saying and was convinced to sit down. Those around him begged him to compose himself. Ganya, overwhelmed with fury, retreated to a corner of the room. Nina Alexandrovna shook uncontrollably and wept.",
+      "\u201cI\u2019ve been widowed for two years,\u201d she murmured, trembling. \u201cBeing married to him was difficult\u2014he was old and treated me brutally. So when he was lying ill, I looked at him and thought to myself, \u2018If he recovers, he\u2019ll get up\u2014and then what?\u2019 That\u2019s when the idea came to me...\u201d",
+      "\u2026However, he was eager to be rid of me and quickly crossed the street to the opposite sidewalk.",
+      "The celebrated specialist took his leave looking serious but not hopeless. And in answer to the question put to him diffidently by Ivan Ilyich, whose eyes were glistening with fear and hope, as to whether there was any possibility of recovery, he replied that nothing could be guaranteed but there was a possibility. The look of hope on Ivan Ilyich\u2019s face as he watched the doctor leave was so pathetic that when she saw it Praskovya actually burst into tears as she walked out of the study to give the celebrated specialist his fee.",
+      "\"Tut!\" he cried, breaking off short. \" Mignon and Steiner. Always together. You know, Steiner's getting sick of Rose; that's why the husband dogs his steps now for fear of his slipping away.\"",
+      "\u201cIt was only because of Kamsa that I managed to get into this city,\u201d said Vandiya Devan, as he began narrating another one of his adventures. He knew the city would be on high alert, with guards stationed at the gates to seize him. They also knew he would be carrying the Pazhuvur signet ring, so he could not use it to enter.",
+      "\"How could you possibly question that! But you, who have no feelings for her, what makes you so willing to risk your own life? You must truly despise Erik.\""
+    ],
+    [
+      "Cosette gazed at him in stunned silence, unable to speak. She had been left frozen by Jean Valjean's caution and the mention of the Th\u00e9nardier woman's name.",
+      "Ferdyshchenko took the twenty-five-rouble note that the Prince held out to him. He opened it up, looked it over carefully, flipped it to the other side, and held it up to examine it in the light.",
+      "Tonight, it appears that all monitoring on the Nautilus has ceased. Everyone on board seems to be in a complete daze. Are you prepared?",
+      "He was prevented from finishing and urged to sit down. The others begged him to calm himself. Ganya, overcome with fury, retreated to a corner. Nina Alexandrovna was shaking all over and in tears.",
+      "\"I lost my husband two years ago,\" she said quietly, her voice trembling. \"Our marriage was a difficult one \u2014 he was an old man who treated me brutally. So as he lay there ill, I found myself thinking: 'What happens if he recovers and gets back on his feet?' And it was in that moment that the idea entered my mind . . .\"",
+      "However, he was eager to be rid of me and quickly crossed the street to the sidewalk on the other side.",
+      "The renowned physician bid his farewell with a grave yet not entirely hopeless look on his face. When Ivan Ilyich, his eyes glistening with a mixture of fear and hope, nervously asked whether there was any chance he might recover, the doctor replied that while nothing could be certain, the possibility existed. The expression of hope on Ivan Ilyich's face as he said goodbye to the doctor was so heartbreaking that Praskovya Fyodorovna, upon catching sight of it, broke down in tears as she walked through the study to pay the distinguished physician his fee.",
+      "Interrupting his own sentence, he exclaimed, \"Look, it's Mignon and Steiner! They are always together.\" He then explained that since Steiner is growing tired of Rose, her husband sticks to him constantly to prevent him from leaving.",
+      "Vallavarayan had guessed, quite accurately, that the Pazhuvettarayars' men would be lying in wait for him even before he arrived at Pazhaiyarai himself, guarding every single point of entrance and exit into the city. The least sign of suspicious behaviour, and he would be carted off to prison at once.",
+      "\"How could you possibly question it! But you, who have no love for her, what makes you so willing to risk your own life? You must truly despise Erik.\""
+    ],
+    [
+      "Cosette looked at him in stunned silence. She was completely frozen by the combination of Jean Valjean\u2019s warning and the mention of the Th\u00e9nardier woman's name.",
+      "The Prince took out the twenty-five-rouble note and handed it to Ferdyshchenko. He opened it up, examined it, then flipped it over and raised it to the light.",
+      "\u201cTo-night. All inspection on board the Nautilus seems to have ceased. All appear to be stupefied. You will be ready, sir?\u201d",
+      "He was prevented from finishing and convinced to sit down as others pleaded with him to compose himself. Enraged, Ganya retreated to a corner. Nina Alexandrovna was crying and trembling.",
+      "Shivering as she spoke in a quiet voice, she explained that she had been a widow for the past two years. She described her marriage as difficult, noting that her elderly husband had been severely abusive. When he became sick, she remembered looking at him and worrying about what would happen if he recovered. It was then, she confessed, that a particular idea occurred to her.",
+      "Here are a few ways to rephrase that sentence:\n\n*   Clearly wanting me to leave, he hastily crossed to the other side of the street.\n*   He was eager to get away from me, so he hurried across the street.\n*   He showed his desire to be rid of me by quickly walking to the opposite sidewalk.",
+      "The renowned doctor departed with a grave yet encouraging expression. In response to Ivan Ilyich's timid question about the possibility of recovery\u2014a question asked with eyes shining with both hope and fear\u2014the doctor stated that while it couldn't be guaranteed, a chance did exist. The look of pitiful hope on Ivan Ilyich\u2019s face as he parted with the doctor was so heartbreaking that Praskovya Fyodorovna burst into tears upon seeing it, weeping as she left the study to pay the physician his fee.",
+      "\u201cAh!\u201d he cried, breaking off mid-sentence. \u201cHere come Mignon and Steiner! They\u2019re always together. You know Steiner is starting to tire of Rose, so her husband clings to him like a plaster to keep him from getting away.\u201d",
+      "Vandiya Devan began narrating yet another one of his escapades, saying that it was Kamsa who had made it possible for him to get into the city. He was well aware that the city would be under high alert, with guards stationed at every entrance specifically to catch him. On top of that, since they already knew he carried the Pazhuvur Signet ring, using it to gain entry into the city was simply not an option for him.",
+      "\u201cHow can you question it? But you, who do not love her, why are you so willing to risk your life? You must hate Erik.\u201d"
+    ],
+    [
+      "Cosette gazed at him in astonishment, unable to say a word. Jean Valjean\u2019s warning and the mention of the Th\u00e9nardier woman had left her frozen with fear.",
+      "The Prince took out a twenty-five-rouble note and offered it to Ferdyshchenko. Ferdyshchenko then unfolded the bill, examined it, flipped it over, and held it up to the light.",
+      "'This evening. Every sign of monitoring seems to have disappeared from the Nautilus. The ship appears to be in a state of complete unconsciousness. Are you prepared?'",
+      "They did not let him finish and sat him down again, began entreating him to calm himself. Ganya went off to a corner in a fury. Nina Alexandrovna trembled and wept.",
+      "\u2018I\u2019ve been a widow since the year before last,\u2019 she began in a half-whisper, seeming to quiver all over. \u2018It was hard being married, my husband was an old man , he\u2019d given me a sore beating. He was ill in bed; as I looked at him I thought: what if he recovers and gets up again, what then? And then this idea came to me\u2026\u2019",
+      "He was eager to be rid of me and quickly crossed the street to the opposite sidewalk.",
+      "The renowned physician departed with a grave yet not entirely hopeless look on his face. When Ivan Ilyich nervously asked him, his eyes filled with both fear and longing, whether there was any chance he might get better, the doctor replied that while nothing was certain, a chance did exist. The expression of hope on Ivan Ilyich's face as he said farewell to the doctor was so heartbreaking that Praskovya Fyodorovna, upon witnessing it, was moved to tears as she walked through the study doors to pay the distinguished physician his fee.",
+      "\"Ah!\" he interrupted, \"Mignon and Steiner are coming. They're inseparable. As you know, Steiner is getting tired of Rose, so her husband sticks close to him to make sure he doesn't get away.\"",
+      "Vandiya Devan credited Kamsa for his ability to enter the city, and then proceeded to tell another story about his adventures. He had been aware that the city was on high alert, with guards posted at the entrances specifically to capture him. Vandiya Devan also knew that they would be expecting him to have the Pazhuvur Signet ring, making it impossible for him to use it for entry.",
+      "Of course I love her\u2014how can you even question it? But you don't share my feelings, so why are you so prepared to put your life in danger? The only reason must be your hatred for Erik."
+    ]
+  ]
+}

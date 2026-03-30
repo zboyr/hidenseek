@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "openai/gpt-4.1",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "Even on the first day of \u201cmarital bliss,\u201d when Nikolai Apollonovich held the solemn nuptial crown over Sergei Sergeyevich\u2019s head, Sofia Petrovna Likhutina had been struck by the trim, handsome best man, by the color of his eyes, the pallor of his face and the fairness of his hair. His eyes did not peer, as they often did later, from behind the lenses of a pince-nez, and the face was propped up by a gold collar (the likes of which not everybody has). And . . . Nikolai Apollonovich became a regular visitor: at first once every two weeks; then, once a week; and, finally, he began to visit daily. Soon Sofia Petrovna noticed that Nikolai Apollonovich\u2019s face had turned into a mask. The aimless rubbing of his sweaty hands and the froglike look of his smile, alas, screened the face from her. And as soon as Sofia Petrovna noticed that, she understood she had been in love with that face, that other one, not this one. From behind the froglike lips she unconsciously tried to summon up her lost infatuation, and she tormented Ableukhov. But hiding what she was doing from herself, she began dogging his steps, she tried to ascertain his tastes and inclinations, she followed them herself, hoping in them to recover her loss. She started putting on airs: first meloplastics appeared on the scene, and then the cuirassier. Varvara Evgrafovna appeared with the tin box for the collection of \u201cphoophoos.\u201d",
+    "That was a new call, and Heidi obeyed quickly. When the child came downstairs in her smart little frock, she opened her eyes wide. \" Oh, grandfather!\" she exclaimed, \"I have never seen you in your Sunday coat with the silver buttons. Oh, how fine you look!\"",
+    "All of this was uttered very quickly; the more she said, the faster it went, but a fit of coughing interrupted Katerina Ivanovna\u2019s eloquence. At that moment, the dying man came to and moaned: she rushed over to him. He opened his eyes and, still not recognizing or understanding where he was, began scrutinizing Raskolnikov, who was standing over him. He was breathing heavily, deeply, and infrequently; blood had oozed from the corners of his mouth; drops of sweat stood on his forehead. Not recognizing Raskolnikov, he began looking around. Katerina Ivanovna regarded him with a grim but stern look; tears flowed from her eyes.",
+    "\u201cI mean those clubs, those Dussot\u2019s, and those spits of land,\u00a7 perhaps, that\u2019s progress for you\u2014well, that\u2019ll all be without me,\u201d he continued, once more taking no note of the question. \u201cBesides, who wants to be a cardsharp?\u201d",
+    "This was the philosophy worked out by the Oblomovka Plato, a philosophy which lulled him amid the issues and strict demands of duty and purpose! He had been born and reared not like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the alarms of happiness or life\u2019s blows. Consequently, his person expressed one of life\u2019s extremes, and he did nothing to achieve, change, or repent.",
+    "The wonderful thing about the collision between young minds is that you can never predict the spark or anticipate the flash. What will the next moment bring? No one knows. The burst of laughter succeeds compassion. In the comic instant seriousness comes into play. Impulses are prompted by a chance word. Each individual\u2019s verve is paramount. A joke is enough to create an opening for the unexpected. These are exchanges that take abrupt turns, with sudden realignments of perspective. Fortuitousness is the scene-shifter in such conversations.",
+    "Of course, I hated them all in our office, from first to last, and despised them all, but at the same time I was also as if afraid of them. It happened that I would suddenly set them above myself. Things were somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes before almost everyone I met. I even made experiments: will I be able to endure so-and-so's glance on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury. I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything to do with externals; I loved falling into the common rut, and feared any eccentricity in myself with all my soul. But how could I hold out? I was morbidly developed, as a man of our time ought to be developed. And they were all dull-witted and as like one another as a flock of sheep. Perhaps to me alone in the whole office did it constantly seem that I was a coward and a slave; it seemed so to me precisely because I was developed. But it not only seemed, in fact it really was so: I was a coward and a slave. I say it without any embarrassment. Every decent man of our time is and must be a coward and a slave. That is his normal condition. I am deeply convinced of it. He's made that way, and arranged for it. And not in the present time, owing to some sort of chance circumstances, but generally in all times a decent man must be a coward and a slave. That is the natural law of all decent people on earth. If one of them does happen to get up a bit of pluck in something, let him not be eased or pleased by that: he'll still quail before something else. Such is the sole and everlasting outcome. Only asses and their mongrels show pluck, and even then only up to that certain wall. It's not worth paying any attention to them, because they mean precisely nothing.",
+    "How could I possibly have known that he\u2019d come here with his finger half bitten off? Otherwise, really I might have hidden them, just as you say. I see that you have at last come up with a clever remark today.\u201d",
+    "\"Then let me go and meet her,\" exclaimed Arkady with another access of \"magnanimity\" as he sprang from his chair. \" Yes, let me go and explain to her why she need not shun me.\"",
+    "\u2018That\u2019s just like you, my friend Conseil,\u2019 retorted the impetuous Canadian. \u2018You don\u2019t ever worry or fuss, you\u2019re always calm. You\u2019re the kind to give thanks for what you have yet to receive, and starve to death rather than complain!\u2019"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 3 share several distinctive stylistic and structural similarities. Both start by describing Sofia Petrovna's initial attraction to Nikolai Apollonovich and detail her noticing his eyes, pale complexion, and fair hair. The progression of Nikolai's visits (bi-weekly, weekly, daily) is similarly described, as is the transformation of his demeanor. Both mention his face becoming expressionless, nervous hand gestures, and a forced/froglike smile, and both paraphrase Sofia's realization that she loved a previous version of him, not the current one. The paragraphs about Sofia unconsciously trying to rekindle her feelings, tormenting Ableukhov, and adopting Nikolai's interests are structured in almost exactly the same sequence. They also use similar phrasing and transitions (e.g., \u201ctrying to rediscover her lost feelings,\u201d \u201cshe began to closely observe,\u201d \u201choping to rekindle her initial admiration,\u201d \u201cpretentious facade,\u201d \u201cput on airs\u201d). Finally, both mention Varvara Evgrafovna showing up with a tin box for some collection, ending in a similar way. These parallels in detail selection, order, and word choice suggest a strong likelihood the same paraphraser produced both outputs.",
+    "Outputs 2 and 4 share significant similarities in sentence structure, phrasing, and word choices. Both begin by noting Heidi dressing or obeying a call quickly, followed by her descending or opening her eyes wide, and then her direct speech to her grandfather is almost identical: 'Oh, grandfather, I have never seen you in your Sunday coat with the silver buttons, you look so nice!' (index 4) and 'Oh, grandfather, I have never seen you before in your Sunday coat, with the silver buttons, how fine you look!' (index 2). This close parallel suggests both were generated by the same paraphrasing system.",
+    "Outputs 0 and 2 share highly similar sentence structures, word choices, and the sequencing of details. Both begin with 'All this was uttered...' (very rapidly/at breakneck speed); both have nearly identical transitions ('but a cough suddenly cut short/fit of coughing interrupted Katerina Ivanovna's eloquence'). They both use similar descriptions for the man's state ('he was drawing deep, laboured and infrequent breaths'/'he was breathing heavily, deeply, and infrequently') and mention 'blood trickled/dripped from his lips/the corners of his mouth' and 'sweat/perspiration on his brow/forehead.' They both mention Katerina Ivanovna's reaction at the end with similar wording. The overall rhythm and phrasing throughout are strikingly close, indicating they come from the same paraphraser.",
+    "Outputs 2 and 3 share several distinctive similarities: both open with the phrase 'Besides, who wants to be a cardsharp?', they use quotation marks to introduce direct speech, and they similarly structure the reference to clubs, Dussot's, and spits/plots of land. Additionally, both reference 'once more' or 'once more taking no notice of the question' in a nearly identical way, and their overall sentence rhythm and order are extremely close, suggesting they were generated by the same paraphraser.",
+    "Outputs 2 and 3 are the most similar in how they restructure the sentences, their use of 'The Oblomovka Plato developed a...' to open, and the overall sequence and phrasing choices: both mention 'developed a philosophy/worldview', 'observe it from a distance/an observer of life's struggles', and end with 'embodied an extreme' and 'never striving...'. Their patterns of condensing and recasting details are nearly identical, suggesting they were produced by the same paraphraser.",
+    "Outputs 0 and 1 share highly similar sentence structure, lexical choices, and the ordering of ideas. Both start with almost identical phrasing ('The wonderful thing about the collision/clash of young minds...'), use metaphors of spark/flash, and conclude with phrases like 'a joke suffices/is enough to open the path/door to the unexpected.' Both mention 'sudden reversals of perspective' and use 'chance is the scene-shifter' in nearly the same words. These strong overlaps in syntax and diction are unlikely to arise independently.",
+    "Indexes 1 and 3 share notable similarities in wording, sentence structure, and overall style. Both start with a very similar construction ('Of course, I hated them all in our office, from first to last, and despised them') and both use phrases like 'developed and decent man cannot be vain without boundless demands on himself and without despising himself at moments to the point of hatred.' They both mention 'lower my eyes' before others and describe 'making experiments' regarding enduring someone\u2019s gaze. Phrases like 'to the point of fury' and 'afraid to the point of illness of being ridiculous' appear in both, although with slight variations. The overall progression of ideas, including references to 'the common rut,' 'slavishly worshiped routine,' and 'afraid of eccentricity,' are nearly identical. These distinctive repeated phrases and structure suggest both texts were generated by the same paraphraser.",
+    "Outputs 2 and 4 are notably similar in both structure and phrasing. Both begin with an explanation of not knowing about the finger, followed by stating that had they known, they might have acted purposefully. Both use affectionate language towards the 'mamma' character ('Angel mamma' and 'My darling mamma'), and both highlight the mother's witty comments in very similar terms ('begin to say extremely witty things' vs. 'begin to say really witty things'). While there are minor lexical differences, their sentence structure and specific word choices strongly suggest they come from the same paraphraser.",
+    "Indexes 2 and 4 show notable similarity in how they paraphrase the phrase about going to her and clarifying she shouldn't avoid him. Both use direct speech set off by quotation marks and present Arkady 'leaping' or 'suddenly leaping' from his chair. They both also mention a sense of (momentary/fleeting) generosity. Importantly, both paraphrases use 'clarify/convince her that she doesn't need to avoid me,' which is a specific choice not found in the other paraphrases. Other outputs choose different emotional nuances or phrase structures, so 2 and 4 are likely from the same paraphraser.",
+    "Outputs 0 and 4 both use the phrase 'the [adjective] Canadian shot back,' which is a notable stylistic choice not present in the other outputs. They both open with the character trait of Conseil, use similar sentence structures, and close with 'die of hunger' with a similar form of 'before'/'rather than' plus an indirect mention of complaining. Additionally, the use of 'never troubled or anxious' in 0 matches with 'never get agitated or stressed' in 4 as paired descriptors. These similarities in phrasing, structure, and descriptive choices suggest the same paraphraser generated both outputs."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "On the very first day of her \u2018lady-hood\u2019, as it were, during the performance of the sacrament of marriage, when Nikolai Apollonovich held the ceremonial crown over her husband, Sergei Sergeevich, Sofia Petrovna had been painfully struck by the handsome, elegant best man, the colour of his huge, unearthly, dark-blue eyes, the whiteness of his marble face and the godlike quality of his flaxen hair: those eyes were not gazing then, as they often did later, from behind the dull lenses of a pince-nez, and his face was cradled by the gold collar of a smart new uniform (not every student has a collar like that). Well, and \u2026 Nikolai Apollonovich became a regular visitor at the Likhutins\u2019 at first once every two weeks; then\u2014once a week; two, three, four times a week; and in the end, every day. Soon Sofia Petrovna noticed beneath the mask of those everyday visits that Nikolai Apollonovich\u2019s face, godlike, severe, had turned into a mask: grimaces, an aimless rubbing of his sometimes sweaty hands, finally the unpleasant frog-like expression of his smile, arising from the way the most diverse mannerisms played across his face, obscured that face from her forever. And as soon as Sofia Petrovna noticed that, she realised to her horror that she had been in love with that face, that one, but not this. The Angel Peri wished to be an exemplary wife: and the terrible thought that, while faithful, she had already become infatuated with someone other than her husband\u2014 this thought completely shattered her. But things went further: from beneath the mask, the grimaces, the frog-like lips, she tried unconsciously to summon back her irretrievably lost infatuation: she tormented Ableukhov, showered him with insults; but, in secret from herself, she dogged his tracks, discovered his tastes and strivings, unconsciously followed them, trying all the while to recapture in them the genuine, godlike countenance; and so she began to act a part: first meloplastics appeared on the scene, then the cuirassier Baron Ommau-Ommergau, and finally Varvara Evgrafovna appeared with the tin tankard for collecting whiffies."
+      ],
+      "llama_31_8b": [
+        "Even on the day of Nikolai Apollonovich and Sergei Sergeyevich's wedding, Sofia Petrovna Likhutina was struck by the handsome best man. She remembered his striking eyes, pale complexion, and fair hair, but what caught her attention was not his appearance but rather the contrast with the person he was now. Nikolai Apollonovich had become a regular visitor, starting with bi-weekly visits, then weekly, and eventually daily. However, Sofia Petrovna began to notice that his face had become a facade, and his awkward smile and fidgety hands only drew attention away from his true expression. She realized she had been infatuated with the charming person she once knew, not this masked version of him. As a result, Sofia Petrovna found herself trying to revive her lost feelings, but instead of truly connecting with Ableukhov, she began to follow his interests and adopt them as her own. She started to put on a pretentious facade, bringing in the latest trends, and Varvara Evgrafovna joined in with her tin box for collecting something fashionable."
+      ],
+      "gemini_25_flash": [
+        "On her wedding day, Sofia Petrovna Likhutina was captivated by the handsome best man, Nikolai Apollonovich. She noticed his striking eye color, pale complexion, and fair hair. At that time, he didn't wear the pince-nez she would later associate with him, and his face was framed by an unusual gold collar.\n\nNikolai Apollonovich began visiting frequently, starting bi-weekly, then weekly, and eventually daily. Soon, Sofia Petrovna realized that his face had become expressionless, with his nervous hand-rubbing and a forced, \"froglike\" smile concealing his true self. She then understood that her affection had been for a *different* version of him, not the man he had become.\n\nUnconsciously trying to rediscover her lost feelings, she would torment Ableukhov, all the while denying her true motivations. She began to closely observe Nikolai Apollonovich, learning his preferences and interests, and even adopting them herself, hoping to rekindle her initial admiration. She started to put on airs, evidenced by the sudden appearance of \"meloplastics\" and a \"cuirassier.\" Adding to the strangeness, Varvara Evgrafovna arrived with a tin box for collecting \"phoophoos.\"",
+        "Right from the beginning of their marriage, Sofia Petrovna Likhutina was captivated by her husband Sergei Sergeyevich\u2019s best man, Nikolai Apollonovich. She noticed his lean good looks, the shade of his eyes, his pale complexion, and his light hair. At that time, he wasn't yet wearing his characteristic pince-nez, and a distinctive gold collar framed his face. Over time, Nikolai Apollonovich became a frequent guest, gradually increasing his visits from bi-weekly to daily. Eventually, Sofia Petrovna observed a change in Nikolai Apollonovich's demeanor; his face seemed to become impassive. His restless, sweaty hand gestures and a seemingly forced, wide smile obscured his true expression. It was then that Sofia Petrovna realized her affection had been for his earlier self, not this transformed one. She unconsciously longed for the person she had once admired, hidden behind his current expressions, and this led her to torment Ableukhov. Unaware of her own motivations, she started following Nikolai Apollonovich, trying to understand his preferences and habits, even adopting them herself in an attempt to rekindle her past feelings. She began to affect certain styles: first with cosmetic surgery, then by adopting a particularly stiff, almost military, manner. Soon after, Varvara Evgrafovna arrived with a metal box, collecting donations for \"phoophoos.\""
+      ],
+      "dipper_lowmed": [
+        "Even on the first day of \"betrothal bliss\", when Nikolai Apollonovich held the solemn crown of a husband over Sergey Sergeevich's head, Sofya Petrovna Likhutina was struck by the slender, handsome best man, by the color of his eyes, by the pallor of his face and the blondness of his hair, his eyes did not look as they often looked later from behind the lenses of a pince-nez, and the face was supported by a gold collar, not everyone has such a collar; and ... Nikolai Apollonovich soon noticed that his face had become a mask, that the aimless rubbing of his sweaty hands, and the froglike smile, alas, obscured the face from her; and, realizing what she was doing, she started to follow his steps, she tried to figure out his tastes and inclinations, followed them herself, hoping to restore her lost ardour in them, she began to pull up, she started to put on airs: first the meloplastics, then the cuirassier, Varvara Yevgrafovna appeared with a tin box for the collection of \"poopoos\"."
+      ]
+    },
+    {
+      "human_par3": [
+        "She had never heard him suggest such a thing before, and she soon came hurrying down, wearing one of the pretty Frankfurt dresses. At sight of him, she stopped in astonishment. \u2018I\u2019ve never seen you dressed like that before, Grandfather,\u2019 she exclaimed. \u2018 Silver buttons on your jacket. You do look fine in your Sunday clothes.\u2019"
+      ],
+      "llama_31_8b": [
+        "A fresh arrival had caught Heidi's attention, and she responded promptly. She went downstairs, looking neatly dressed in her little party dress, and upon seeing her grandfather, her eyes widened in delight. \"Oh, Grandfather!\" she exclaimed, \"I've never seen your special Sunday coat before. It's really dashing with its silver buttons!\""
+      ],
+      "gemini_25_flash": [
+        "Heidi promptly responded to the unfamiliar summons. Upon seeing her grandfather dressed in his formal attire, complete with silver-buttoned coat, she gasped and exclaimed, \"Grandfather, I've never seen you so handsomely dressed!\""
+      ],
+      "dipper_lowmed": [
+        "Heidi, who had meanwhile dressed herself in a little dress, opened her eyes wide, saying, \"Oh, grandfather, I have never seen you before in your Sunday coat, with the silver buttons, how fine you look!\"",
+        "This was a new call, and Heidi obeyed it quickly. When she descended the stairs in her smart little dress, she opened her eyes wide and said, \"Oh, grandfather, I have never seen you in your Sunday coat with the silver buttons, you look so nice!\""
+      ]
+    },
+    {
+      "human_par3": [
+        "All this was uttered at breakneck speed, getting faster and faster every moment; but a cough suddenly cut short Katerina Ivanovna\u2019s eloquence. At that moment the dying man regained consciousness and let out a groan, and she ran over to him. He opened his eyes, and without recognizing her or understanding where he was, he looked intently at Raskolnikov who was standing over him. The sick man was drawing deep, laboured and infrequent breaths; blood trickled from his lips, and there was perspiration on his brow. Not recognizing Raskolnikov, he began anxiously looking this way and that. Katerina Ivanovna watched him with a sad but stern expression, tears running from her eyes."
+      ],
+      "llama_31_8b": [
+        "Her words poured out rapidly, escalating in pace with her rising excitement, but Katerina Ivanovna's impassioned speech was suddenly halted by a severe coughing fit. As she paused, the dying man's eyes flickered open and he emitted a weak moan. Katerina Ivanovna rushed to his side, whereupon he began scanning the surroundings with confusion, but his gaze was initially drawn to Raskolnikov standing above him. The man's laboured breathing, heavy and sparse, could be heard as blood trickled from the corners of his mouth, and his forehead beaded with sweat. Still disoriented, he searched around for a sense of familiarity, which only intensified Katerina Ivanovna's expression, stern yet heart-wrenching, as visible tears streamed down her face.",
+        "Katerina Ivanovna's words spilled out in a flurry, her pace quickening as she spoke, but her coughing fit brought her momentarily to a halt. As she struggled to regain her composure, the dying man suddenly stirred and let out a pained groan. Katerina Ivanovna rushed to his side, rushing past anyone in her vicinity, Raskolnikov still standing over them. The dying man's eyes fluttered open, but his gaze was disoriented and confused. He took deep, labored breaths and focused on Raskolnikov, scanning him without recognition. Blood trickled from the corners of his mouth, and beads of sweat clung to his brow. Still disoriented, he began to frantically search the room. Meanwhile, Katerina Ivanovna's stern expression faltered, as tears streamed down her face."
+      ],
+      "gemini_25_flash": [
+        "The words tumbled out of her mouth, gaining speed with each utterance, until a coughing fit abruptly silenced Katerina Ivanovna. Just then, the dying man stirred and let out a groan. She hurried to his side. His eyes fluttered open, not yet comprehending his surroundings or the faces around him, and he fixed his gaze on Raskolnikov, who stood above him. His breathing was labored, deep, and intermittent, with blood seeping from the corners of his mouth and beads of sweat on his brow. Still without recognizing Raskolnikov, he began to scan the room. Katerina Ivanovna watched him, her expression grim but resolute, tears streaming down her face."
+      ],
+      "dipper_lowmed": [
+        "All this was uttered very rapidly; the more she said, the faster it went, but a fit of coughing interrupted Katerina Ivanovna's eloquence; at that moment the dying man came to and moaned; she rushed to him; he opened his eyes, and, still not knowing and not understanding where he was, began to examine Raskolnikov, who was standing over him; he was breathing heavily, deeply, and infrequently; blood dripped from the corners of his mouth; sweat stood on his forehead; not recognizing Raskolnikov, he began to look around; Katerina Ivanovna looked at him with a stern but severe expression; tears streamed from her eyes."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019"
+      ],
+      "llama_31_8b": [
+        "He seemed to be saying that those new developments - the large entertainment clubs, Dussot's, and small parcels of land - were examples of modernization, but he wasn't interested in being a part of it, implying that his talents lay elsewhere, possibly in card games, where he was skilled."
+      ],
+      "gemini_25_flash": [
+        "He resumed, ignoring the question again, \"Those establishments, those plots of land, maybe that's what you call progress \u2013 but it will happen without me. Anyway, who wants to be a professional gambler?\""
+      ],
+      "dipper_lowmed": [
+        "Besides, who wants to be a cardsharp? \u201cI mean those clubs, those Dussot\u2019s and those spits of land, for perhaps that is progress for you. Well, that will all be without me,\u201d he continued, once more taking no notice of the question.",
+        "Besides, who wants to be a cardsharp? \u201cI mean those clubs, the Dussots\u2019 and the spits of land\u2014if you think that\u2019s progress, then I\u2019ll do without them,\u201d he went on, once more not paying any attention to the question."
+      ]
+    },
+    {
+      "human_par3": [
+        "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it."
+      ],
+      "llama_31_8b": [
+        "Ilya Oblomov lived according to a philosophy that allowed him to avoid the challenges and responsibilities that came with a purposeful life. He had been raised in a way that made him more suited to observing life's struggles from the sidelines, rather than actively participating in them. Oblomov's gentle and laid-back nature couldn't handle the stress and rigors of a life filled with excitement or hardship. As a result, he existed at one of life's extremes, essentially going through life without striving, changing, or showing any regret."
+      ],
+      "gemini_25_flash": [
+        "The Oblomovka Plato developed a worldview that shielded him from the pressures and obligations of responsibility and ambition. He was raised and born to be an observer of life's struggles, not a participant. His gentle and passive nature couldn't handle the highs of joy or the lows of hardship. As a result, he embodied an extreme way of life, never striving for change, achievement, or atonement.",
+        "The \"Oblomovka Plato\" developed a philosophy that allowed him to avoid the responsibilities and challenges of life. He was not prepared for an active role in the world, but rather to observe it from a distance. His gentle and indolent nature was not suited for either the excitements of joy or the hardships of existence. As a result, he embodied an extreme of human disposition, never striving for anything, initiating change, or expressing remorse."
+      ],
+      "dipper_lowmed": [
+        "He was not born and raised like a gladiator for the arena, but as a peaceful viewer of the fight; neither the frights of happiness nor the blows of life could endure his meek and lazy soul. And therefore his person expressed one of the extremes of life, and he did nothing to achieve, change and repent. This was the philosophy of Oblomovka Plato, a philosophy that lulled him, among all the issues and strict demands of duty and purpose!"
+      ]
+    },
+    {
+      "human_par3": [
+        "The shocks of youthful minds among themselves have this admirable property, that one can never foresee the spark, nor divine the lightning flash. What will dart out presently? No one knows. The burst of laughter starts from a tender feeling. At the moment of jest, the serious makes its entry. Impulses depend on the first chance word. The spirit of each is sovereign, jest suffices to open the field to the unexpected. These are conversations with abrupt turns, in which the perspective changes suddenly. Chance is the stage-manager of such conversations."
+      ],
+      "llama_31_8b": [
+        "The unpredictability of interactions between young people is what makes them so exciting. You never know what will happen or how the conversation will unfold. A moment of laughter can quickly give way to heartfelt understanding. A single comment can set off a chain of unexpected events. Individual personalities play a huge role in these conversations. A well-timed joke can create an opportunity for something extraordinary to happen. These conversations often take sudden, drastic turns, with perspectives shifting rapidly. The twists and turns in these conversations are often unexpected, making each moment a surprise."
+      ],
+      "gemini_25_flash": [
+        "When young people with diverse ideas interact, the direction and outcome are always uncertain. You can't foresee what insights or breakthroughs might emerge; the very next moment is a mystery. Moments of shared joy can follow empathy, and seriousness can unexpectedly arise in the midst of humor. A single word can trigger new thoughts and reactions. The unique energy of each person is crucial. Even a simple joke can open the door to surprising developments. These discussions are characterized by sudden shifts and new understandings, with chance playing a major role in how they unfold."
+      ],
+      "dipper_lowmed": [
+        "The wonderful thing about the clash of young minds is that you can never predict the spark, you can never anticipate the flash; what will come next, no one knows; the burst of laughter follows the gesture of compassion, in the comic instant seriousness enters, the impulses are prompted by a chance word, each individual is sovereign, a joke suffices to open the door to the unexpected, the conversation takes abrupt turns, there are sudden reversals of perspective, chance is the scene-shifter in these conversations.",
+        "The wonderful thing about the collision between young minds is that you can't foresee the spark or anticipate the flash; What will the next minute bring, no one knows. The exchanges in which they happen are sudden, with sudden reversals of perspective; chance is the scene-shifter in such conversations. The burst of laughter follows the moment of compassion; in the comic moment, seriousness enters; impulses are prompted by a chance word; each one's verve is paramount; a joke is enough to open a path for the unexpected."
+      ]
+    },
+    {
+      "human_par3": [
+        "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing."
+      ],
+      "llama_31_8b": [
+        "I had a contentious relationship with my coworkers, vacillating between intense dislike and a fragile sense of inferiority. One moment I'd despise them, and the next, I'd elevate them to a pedestal. This dichotomy created a sense of turmoil within me, and I often found myself behaving lackadaisically to avoid drawing attention to myself. I was terrified of appearing ridiculous or conspicuous, so I went out of my way to conform to the status quo and avoid any hint of individuality. This self-imposed servitude tormented me, and I felt perpetually crippled by my own inadequacies. In reality, I was a coward and a slave, and I knew it. This was not a personal failing, but rather a universal condition for decent people. The human impulse towards prudence and self-preservation inevitably leads to a state of cringing submissiveness. Any display of bravery or courage is fleeting and inconsequential, ultimately giving way to fear and timidity. It's only the mundane and uninspired - those without any meaningful aspirations - who appear resolute, but even they are bound by the same entrenched limitations as the rest of humanity."
+      ],
+      "gemini_25_flash": [
+        "I harbored a strong dislike for everyone in my office, from the highest-ranking to the lowest. Yet, paradoxically, I also felt intimidated by them, occasionally even placing them on a pedestal. My emotional responses back then were quite erratic; one moment I'd scorn them, the next I'd elevate them. A refined and morally upright person can only be vain if they possess immense self-criticism and, at times, self-loathing. Regardless of whether I scorned or admired my colleagues, I found myself avoiding eye contact with almost everyone. I even tested myself, wondering if I could hold someone's gaze, but I invariably looked away first. This constant yielding to others infuriated me. I had an unhealthy fear of appearing foolish, which made me rigidly adhere to established norms in all my outward behaviors. I embraced conformity and abhorred any hint of individuality within myself.\n\nBut how could I possibly maintain that facade? I was, in a twisted sense, highly evolved, as a modern man should be. In contrast, they were all intellectually limited and indistinguishable, like a herd of sheep. Perhaps I was the only one in the office who consistently felt like a coward and a subservient individual, and this feeling stemmed precisely from my perceived sophistication. However, it wasn't just a feeling; it was the truth: I was indeed a coward and a slave. I state this without shame. Every respectable person in our era is and must be a coward and a slave; it's their inherent state. I am utterly convinced of this. They are fundamentally designed for it, not due to specific contemporary circumstances, but universally, throughout all periods. This is the fundamental rule for all respectable individuals on Earth. If one of them occasionally displays some courage, they shouldn't take comfort in it, as they will inevitably falter in another situation. This is the inevitable and unchanging result. Only fools and their mixed-breed counterparts exhibit bravery, and even then, only up to a certain point. They are not worth considering, as their actions hold no real significance."
+      ],
+      "dipper_lowmed": [
+        "Of course I hated them all in our office, from first to last, and despised them all, but at the same time, as it were, I was afraid of them; it happened that I suddenly set them above myself: a developed and decent man cannot be vain without boundless demands on himself and without despising himself at moments to the point of hatred; but whether I despised them or set them above me, I would drop my eyes before almost everyone I met; I even made experiments: \u201cWill I be able to endure so-and-so's glance on me?\u2014and I was the first to drop my eyes; it tortured me to the point of fury; I was also afraid to the point of illness of being ridiculous and therefore slavishly worshiped routine in everything external, I loved falling into the common rut, and feared any eccentricity in myself with all my soul; but how could I stand it; I was morbidly developed, as a man of our time should be developed; but I was not only developed, I was a coward and a slave, I say this without embarrassment; but it not only seemed so to me, it really was: I was a coward and a slave, I say this without any embarrassment; if one of them happens to show some courage in something, then let him not be pleased with it: he will still quail before something else; this is the only and eternal outcome. Of course, I hated them all in our office, from first to last, and despised them, but sometimes I set them above myself. A developed and decent person cannot be vain without an unlimited exactingness to himself and without despising himself to the point of hatred at moments.",
+        "A developed and decent man cannot be vain without boundless splenetic exactness towards himself and without despising himself at moments to the point of hatred. Of course, I hated them all in our office from first to last and despised them all, but at the same time I was somehow afraid of them; it happened that I suddenly set them above myself; it was somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without boundless demands upon himself, without despising himself to the point of hatred in moments. And no matter whether I despised them or set them above me, I would almost always let my eyes lower before almost everyone I met; I even made experiments: could I stand the gaze of such-and-such a man on me? - and I was always the first to lower my eyes; this tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore I slavishly worshiped the routine in everything external; I loved to fall into the common rut, I feared any eccentricity in myself with all my soul; but how could I stand it? I was developed to the point of illness, as a man of our time ought to be developed; and they were all witless and as like each other as a flock of sheep."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"But I couldn't tell that he would come with a bad finger, or else perhaps I might have done it on purpose. My darling mamma, you begin to say really witty things.\"",
+        "\u2018But I mean to say, I couldn\u2019t very well have known he\u2019d arrive with a bitten finger, could I? Though actually, if I had known, I might very well have done it intentionally. Angel mamma, you\u2019re beginning to say some extremely witty things.\u2019"
+      ],
+      "llama_31_8b": [
+        "You're suggesting that if I'd had a heads up, I might have stayed hidden. But how could I have anticipated he'd appear with that kind of injury? I have to admit, your quip about today being particularly clever caught me off guard."
+      ],
+      "gemini_25_flash": [
+        "\"How was I supposed to predict he'd show up with his finger practically severed? Believe me, if I had, I would have hidden them, just like you suggested. It seems you've finally managed to say something intelligent today.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cHow could I know that he had come here with half his finger bitten off? Otherwise I really might have hidden them, just as you say. I see you have finally come up with a clever remark today.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'"
+      ],
+      "llama_31_8b": [
+        "Arkady suddenly leapt from his chair, exclaiming, \"I'll go talk to her now!\" and displaying a fleeting sense of generosity as he declared, \"Let me go and convince her that she doesn't need to avoid me.\"",
+        "Arkady leapt from his chair with a burst of generosity, saying \"Allow me to go to her\" and offer my excuses. \"Yes, I should go and reassure her that she has no reason to reject me.\""
+      ],
+      "gemini_25_flash": [
+        "\"Then I'll go see her,\" Arkady declared, his magnanimity resurfacing as he leaped from his seat. \"Yes, I'll go clarify why she shouldn't avoid me.\""
+      ],
+      "dipper_lowmed": [
+        "- Yes, let me go to her, let me explain to her why she should not be afraid of me, - Arkady exclaimed with another outburst of \"magnanimity\" and jumped up from his chair."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThat is just like you, friend Conseil,\u201d said Ned impatiently. \u201cYou are never out of temper, always calm; you would return thanks before grace, and die of hunger rather than complain!\u201d"
+      ],
+      "llama_31_8b": [
+        "Counsel's laid-back attitude always used to set Aronnax on edge. He couldn't help but tease him about it, remarking that Conseil was the type to express gratitude for what people gave him, even if he hadn't received it yet. But what really annoyed Aronnax was that Conseil would gladly go without food rather than say a single word of complaint."
+      ],
+      "gemini_25_flash": [
+        "\"Typical Conseil!\" the hot-headed Canadian shot back. \"You're infuriatingly placid, never troubled or anxious. You'd probably express gratitude for something you haven't even got yet, and quietly die of hunger before uttering a single protest!\"",
+        "\"That's so typical of you, Conseil,\" the quick-tempered Canadian shot back. \"You never get agitated or stressed, you're always so composed. You're the type to be grateful for things before they even happen, and you'd rather die of hunger than voice a single grievance!\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThat's quite a style for you, my friend Conseil,\u201d replied the impetuous Canadian, \u201cbecause you're not prone to worry or fuss; you're always calm. You're the kind to say thank you for something you haven't even received, and die of hunger rather than complain!\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "On her wedding day, Sofia Petrovna Likhutina was captivated by the handsome best man, Nikolai Apollonovich. She noticed his striking eye color, pale complexion, and fair hair. At that time, he didn't wear the pince-nez she would later associate with him, and his face was framed by an unusual gold collar.\n\nNikolai Apollonovich began visiting frequently, starting bi-weekly, then weekly, and eventually daily. Soon, Sofia Petrovna realized that his face had become expressionless, with his nervous hand-rubbing and a forced, \"froglike\" smile concealing his true self. She then understood that her affection had been for a *different* version of him, not the man he had become.\n\nUnconsciously trying to rediscover her lost feelings, she would torment Ableukhov, all the while denying her true motivations. She began to closely observe Nikolai Apollonovich, learning his preferences and interests, and even adopting them herself, hoping to rekindle her initial admiration. She started to put on airs, evidenced by the sudden appearance of \"meloplastics\" and a \"cuirassier.\" Adding to the strangeness, Varvara Evgrafovna arrived with a tin box for collecting \"phoophoos.\"",
+      "Heidi promptly responded to the unfamiliar summons. Upon seeing her grandfather dressed in his formal attire, complete with silver-buttoned coat, she gasped and exclaimed, \"Grandfather, I've never seen you so handsomely dressed!\"",
+      "All this was uttered at breakneck speed, getting faster and faster every moment; but a cough suddenly cut short Katerina Ivanovna\u2019s eloquence. At that moment the dying man regained consciousness and let out a groan, and she ran over to him. He opened his eyes, and without recognizing her or understanding where he was, he looked intently at Raskolnikov who was standing over him. The sick man was drawing deep, laboured and infrequent breaths; blood trickled from his lips, and there was perspiration on his brow. Not recognizing Raskolnikov, he began anxiously looking this way and that. Katerina Ivanovna watched him with a sad but stern expression, tears running from her eyes.",
+      "He seemed to be saying that those new developments - the large entertainment clubs, Dussot's, and small parcels of land - were examples of modernization, but he wasn't interested in being a part of it, implying that his talents lay elsewhere, possibly in card games, where he was skilled.",
+      "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it.",
+      "The wonderful thing about the collision between young minds is that you can't foresee the spark or anticipate the flash; What will the next minute bring, no one knows. The exchanges in which they happen are sudden, with sudden reversals of perspective; chance is the scene-shifter in such conversations. The burst of laughter follows the moment of compassion; in the comic moment, seriousness enters; impulses are prompted by a chance word; each one's verve is paramount; a joke is enough to open a path for the unexpected.",
+      "I harbored a strong dislike for everyone in my office, from the highest-ranking to the lowest. Yet, paradoxically, I also felt intimidated by them, occasionally even placing them on a pedestal. My emotional responses back then were quite erratic; one moment I'd scorn them, the next I'd elevate them. A refined and morally upright person can only be vain if they possess immense self-criticism and, at times, self-loathing. Regardless of whether I scorned or admired my colleagues, I found myself avoiding eye contact with almost everyone. I even tested myself, wondering if I could hold someone's gaze, but I invariably looked away first. This constant yielding to others infuriated me. I had an unhealthy fear of appearing foolish, which made me rigidly adhere to established norms in all my outward behaviors. I embraced conformity and abhorred any hint of individuality within myself.\n\nBut how could I possibly maintain that facade? I was, in a twisted sense, highly evolved, as a modern man should be. In contrast, they were all intellectually limited and indistinguishable, like a herd of sheep. Perhaps I was the only one in the office who consistently felt like a coward and a subservient individual, and this feeling stemmed precisely from my perceived sophistication. However, it wasn't just a feeling; it was the truth: I was indeed a coward and a slave. I state this without shame. Every respectable person in our era is and must be a coward and a slave; it's their inherent state. I am utterly convinced of this. They are fundamentally designed for it, not due to specific contemporary circumstances, but universally, throughout all periods. This is the fundamental rule for all respectable individuals on Earth. If one of them occasionally displays some courage, they shouldn't take comfort in it, as they will inevitably falter in another situation. This is the inevitable and unchanging result. Only fools and their mixed-breed counterparts exhibit bravery, and even then, only up to a certain point. They are not worth considering, as their actions hold no real significance.",
+      "\"How was I supposed to predict he'd show up with his finger practically severed? Believe me, if I had, I would have hidden them, just like you suggested. It seems you've finally managed to say something intelligent today.\"",
+      "- Yes, let me go to her, let me explain to her why she should not be afraid of me, - Arkady exclaimed with another outburst of \"magnanimity\" and jumped up from his chair.",
+      "\"Typical Conseil!\" the hot-headed Canadian shot back. \"You're infuriatingly placid, never troubled or anxious. You'd probably express gratitude for something you haven't even got yet, and quietly die of hunger before uttering a single protest!\""
+    ],
+    [
+      "Right from the beginning of their marriage, Sofia Petrovna Likhutina was captivated by her husband Sergei Sergeyevich\u2019s best man, Nikolai Apollonovich. She noticed his lean good looks, the shade of his eyes, his pale complexion, and his light hair. At that time, he wasn't yet wearing his characteristic pince-nez, and a distinctive gold collar framed his face. Over time, Nikolai Apollonovich became a frequent guest, gradually increasing his visits from bi-weekly to daily. Eventually, Sofia Petrovna observed a change in Nikolai Apollonovich's demeanor; his face seemed to become impassive. His restless, sweaty hand gestures and a seemingly forced, wide smile obscured his true expression. It was then that Sofia Petrovna realized her affection had been for his earlier self, not this transformed one. She unconsciously longed for the person she had once admired, hidden behind his current expressions, and this led her to torment Ableukhov. Unaware of her own motivations, she started following Nikolai Apollonovich, trying to understand his preferences and habits, even adopting them herself in an attempt to rekindle her past feelings. She began to affect certain styles: first with cosmetic surgery, then by adopting a particularly stiff, almost military, manner. Soon after, Varvara Evgrafovna arrived with a metal box, collecting donations for \"phoophoos.\"",
+      "She had never heard him suggest such a thing before, and she soon came hurrying down, wearing one of the pretty Frankfurt dresses. At sight of him, she stopped in astonishment. \u2018I\u2019ve never seen you dressed like that before, Grandfather,\u2019 she exclaimed. \u2018 Silver buttons on your jacket. You do look fine in your Sunday clothes.\u2019",
+      "Her words poured out rapidly, escalating in pace with her rising excitement, but Katerina Ivanovna's impassioned speech was suddenly halted by a severe coughing fit. As she paused, the dying man's eyes flickered open and he emitted a weak moan. Katerina Ivanovna rushed to his side, whereupon he began scanning the surroundings with confusion, but his gaze was initially drawn to Raskolnikov standing above him. The man's laboured breathing, heavy and sparse, could be heard as blood trickled from the corners of his mouth, and his forehead beaded with sweat. Still disoriented, he searched around for a sense of familiarity, which only intensified Katerina Ivanovna's expression, stern yet heart-wrenching, as visible tears streamed down her face.",
+      "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+      "Ilya Oblomov lived according to a philosophy that allowed him to avoid the challenges and responsibilities that came with a purposeful life. He had been raised in a way that made him more suited to observing life's struggles from the sidelines, rather than actively participating in them. Oblomov's gentle and laid-back nature couldn't handle the stress and rigors of a life filled with excitement or hardship. As a result, he existed at one of life's extremes, essentially going through life without striving, changing, or showing any regret.",
+      "The wonderful thing about the clash of young minds is that you can never predict the spark, you can never anticipate the flash; what will come next, no one knows; the burst of laughter follows the gesture of compassion, in the comic instant seriousness enters, the impulses are prompted by a chance word, each individual is sovereign, a joke suffices to open the door to the unexpected, the conversation takes abrupt turns, there are sudden reversals of perspective, chance is the scene-shifter in these conversations.",
+      "Of course I hated them all in our office, from first to last, and despised them all, but at the same time, as it were, I was afraid of them; it happened that I suddenly set them above myself: a developed and decent man cannot be vain without boundless demands on himself and without despising himself at moments to the point of hatred; but whether I despised them or set them above me, I would drop my eyes before almost everyone I met; I even made experiments: \u201cWill I be able to endure so-and-so's glance on me?\u2014and I was the first to drop my eyes; it tortured me to the point of fury; I was also afraid to the point of illness of being ridiculous and therefore slavishly worshiped routine in everything external, I loved falling into the common rut, and feared any eccentricity in myself with all my soul; but how could I stand it; I was morbidly developed, as a man of our time should be developed; but I was not only developed, I was a coward and a slave, I say this without embarrassment; but it not only seemed so to me, it really was: I was a coward and a slave, I say this without any embarrassment; if one of them happens to show some courage in something, then let him not be pleased with it: he will still quail before something else; this is the only and eternal outcome. Of course, I hated them all in our office, from first to last, and despised them, but sometimes I set them above myself. A developed and decent person cannot be vain without an unlimited exactingness to himself and without despising himself to the point of hatred at moments.",
+      "\u201cHow could I know that he had come here with half his finger bitten off? Otherwise I really might have hidden them, just as you say. I see you have finally come up with a clever remark today.\u201d",
+      "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'",
+      "Counsel's laid-back attitude always used to set Aronnax on edge. He couldn't help but tease him about it, remarking that Conseil was the type to express gratitude for what people gave him, even if he hadn't received it yet. But what really annoyed Aronnax was that Conseil would gladly go without food rather than say a single word of complaint."
+    ],
+    [
+      "On the very first day of her \u2018lady-hood\u2019, as it were, during the performance of the sacrament of marriage, when Nikolai Apollonovich held the ceremonial crown over her husband, Sergei Sergeevich, Sofia Petrovna had been painfully struck by the handsome, elegant best man, the colour of his huge, unearthly, dark-blue eyes, the whiteness of his marble face and the godlike quality of his flaxen hair: those eyes were not gazing then, as they often did later, from behind the dull lenses of a pince-nez, and his face was cradled by the gold collar of a smart new uniform (not every student has a collar like that). Well, and \u2026 Nikolai Apollonovich became a regular visitor at the Likhutins\u2019 at first once every two weeks; then\u2014once a week; two, three, four times a week; and in the end, every day. Soon Sofia Petrovna noticed beneath the mask of those everyday visits that Nikolai Apollonovich\u2019s face, godlike, severe, had turned into a mask: grimaces, an aimless rubbing of his sometimes sweaty hands, finally the unpleasant frog-like expression of his smile, arising from the way the most diverse mannerisms played across his face, obscured that face from her forever. And as soon as Sofia Petrovna noticed that, she realised to her horror that she had been in love with that face, that one, but not this. The Angel Peri wished to be an exemplary wife: and the terrible thought that, while faithful, she had already become infatuated with someone other than her husband\u2014 this thought completely shattered her. But things went further: from beneath the mask, the grimaces, the frog-like lips, she tried unconsciously to summon back her irretrievably lost infatuation: she tormented Ableukhov, showered him with insults; but, in secret from herself, she dogged his tracks, discovered his tastes and strivings, unconsciously followed them, trying all the while to recapture in them the genuine, godlike countenance; and so she began to act a part: first meloplastics appeared on the scene, then the cuirassier Baron Ommau-Ommergau, and finally Varvara Evgrafovna appeared with the tin tankard for collecting whiffies.",
+      "Heidi, who had meanwhile dressed herself in a little dress, opened her eyes wide, saying, \"Oh, grandfather, I have never seen you before in your Sunday coat, with the silver buttons, how fine you look!\"",
+      "All this was uttered very rapidly; the more she said, the faster it went, but a fit of coughing interrupted Katerina Ivanovna's eloquence; at that moment the dying man came to and moaned; she rushed to him; he opened his eyes, and, still not knowing and not understanding where he was, began to examine Raskolnikov, who was standing over him; he was breathing heavily, deeply, and infrequently; blood dripped from the corners of his mouth; sweat stood on his forehead; not recognizing Raskolnikov, he began to look around; Katerina Ivanovna looked at him with a stern but severe expression; tears streamed from her eyes.",
+      "Besides, who wants to be a cardsharp? \u201cI mean those clubs, the Dussots\u2019 and the spits of land\u2014if you think that\u2019s progress, then I\u2019ll do without them,\u201d he went on, once more not paying any attention to the question.",
+      "The \"Oblomovka Plato\" developed a philosophy that allowed him to avoid the responsibilities and challenges of life. He was not prepared for an active role in the world, but rather to observe it from a distance. His gentle and indolent nature was not suited for either the excitements of joy or the hardships of existence. As a result, he embodied an extreme of human disposition, never striving for anything, initiating change, or expressing remorse.",
+      "The shocks of youthful minds among themselves have this admirable property, that one can never foresee the spark, nor divine the lightning flash. What will dart out presently? No one knows. The burst of laughter starts from a tender feeling. At the moment of jest, the serious makes its entry. Impulses depend on the first chance word. The spirit of each is sovereign, jest suffices to open the field to the unexpected. These are conversations with abrupt turns, in which the perspective changes suddenly. Chance is the stage-manager of such conversations.",
+      "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing.",
+      "\u2018But I mean to say, I couldn\u2019t very well have known he\u2019d arrive with a bitten finger, could I? Though actually, if I had known, I might very well have done it intentionally. Angel mamma, you\u2019re beginning to say some extremely witty things.\u2019",
+      "\"Then I'll go see her,\" Arkady declared, his magnanimity resurfacing as he leaped from his seat. \"Yes, I'll go clarify why she shouldn't avoid me.\"",
+      "\u201cThat is just like you, friend Conseil,\u201d said Ned impatiently. \u201cYou are never out of temper, always calm; you would return thanks before grace, and die of hunger rather than complain!\u201d"
+    ],
+    [
+      "Even on the day of Nikolai Apollonovich and Sergei Sergeyevich's wedding, Sofia Petrovna Likhutina was struck by the handsome best man. She remembered his striking eyes, pale complexion, and fair hair, but what caught her attention was not his appearance but rather the contrast with the person he was now. Nikolai Apollonovich had become a regular visitor, starting with bi-weekly visits, then weekly, and eventually daily. However, Sofia Petrovna began to notice that his face had become a facade, and his awkward smile and fidgety hands only drew attention away from his true expression. She realized she had been infatuated with the charming person she once knew, not this masked version of him. As a result, Sofia Petrovna found herself trying to revive her lost feelings, but instead of truly connecting with Ableukhov, she began to follow his interests and adopt them as her own. She started to put on a pretentious facade, bringing in the latest trends, and Varvara Evgrafovna joined in with her tin box for collecting something fashionable.",
+      "A fresh arrival had caught Heidi's attention, and she responded promptly. She went downstairs, looking neatly dressed in her little party dress, and upon seeing her grandfather, her eyes widened in delight. \"Oh, Grandfather!\" she exclaimed, \"I've never seen your special Sunday coat before. It's really dashing with its silver buttons!\"",
+      "Katerina Ivanovna's words spilled out in a flurry, her pace quickening as she spoke, but her coughing fit brought her momentarily to a halt. As she struggled to regain her composure, the dying man suddenly stirred and let out a pained groan. Katerina Ivanovna rushed to his side, rushing past anyone in her vicinity, Raskolnikov still standing over them. The dying man's eyes fluttered open, but his gaze was disoriented and confused. He took deep, labored breaths and focused on Raskolnikov, scanning him without recognition. Blood trickled from the corners of his mouth, and beads of sweat clung to his brow. Still disoriented, he began to frantically search the room. Meanwhile, Katerina Ivanovna's stern expression faltered, as tears streamed down her face.",
+      "Besides, who wants to be a cardsharp? \u201cI mean those clubs, those Dussot\u2019s and those spits of land, for perhaps that is progress for you. Well, that will all be without me,\u201d he continued, once more taking no notice of the question.",
+      "The Oblomovka Plato developed a worldview that shielded him from the pressures and obligations of responsibility and ambition. He was raised and born to be an observer of life's struggles, not a participant. His gentle and passive nature couldn't handle the highs of joy or the lows of hardship. As a result, he embodied an extreme way of life, never striving for change, achievement, or atonement.",
+      "The unpredictability of interactions between young people is what makes them so exciting. You never know what will happen or how the conversation will unfold. A moment of laughter can quickly give way to heartfelt understanding. A single comment can set off a chain of unexpected events. Individual personalities play a huge role in these conversations. A well-timed joke can create an opportunity for something extraordinary to happen. These conversations often take sudden, drastic turns, with perspectives shifting rapidly. The twists and turns in these conversations are often unexpected, making each moment a surprise.",
+      "A developed and decent man cannot be vain without boundless splenetic exactness towards himself and without despising himself at moments to the point of hatred. Of course, I hated them all in our office from first to last and despised them all, but at the same time I was somehow afraid of them; it happened that I suddenly set them above myself; it was somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without boundless demands upon himself, without despising himself to the point of hatred in moments. And no matter whether I despised them or set them above me, I would almost always let my eyes lower before almost everyone I met; I even made experiments: could I stand the gaze of such-and-such a man on me? - and I was always the first to lower my eyes; this tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore I slavishly worshiped the routine in everything external; I loved to fall into the common rut, I feared any eccentricity in myself with all my soul; but how could I stand it? I was developed to the point of illness, as a man of our time ought to be developed; and they were all witless and as like each other as a flock of sheep.",
+      "You're suggesting that if I'd had a heads up, I might have stayed hidden. But how could I have anticipated he'd appear with that kind of injury? I have to admit, your quip about today being particularly clever caught me off guard.",
+      "Arkady leapt from his chair with a burst of generosity, saying \"Allow me to go to her\" and offer my excuses. \"Yes, I should go and reassure her that she has no reason to reject me.\"",
+      "\u201cThat's quite a style for you, my friend Conseil,\u201d replied the impetuous Canadian, \u201cbecause you're not prone to worry or fuss; you're always calm. You're the kind to say thank you for something you haven't even received, and die of hunger rather than complain!\u201d"
+    ],
+    [
+      "Even on the first day of \"betrothal bliss\", when Nikolai Apollonovich held the solemn crown of a husband over Sergey Sergeevich's head, Sofya Petrovna Likhutina was struck by the slender, handsome best man, by the color of his eyes, by the pallor of his face and the blondness of his hair, his eyes did not look as they often looked later from behind the lenses of a pince-nez, and the face was supported by a gold collar, not everyone has such a collar; and ... Nikolai Apollonovich soon noticed that his face had become a mask, that the aimless rubbing of his sweaty hands, and the froglike smile, alas, obscured the face from her; and, realizing what she was doing, she started to follow his steps, she tried to figure out his tastes and inclinations, followed them herself, hoping to restore her lost ardour in them, she began to pull up, she started to put on airs: first the meloplastics, then the cuirassier, Varvara Yevgrafovna appeared with a tin box for the collection of \"poopoos\".",
+      "This was a new call, and Heidi obeyed it quickly. When she descended the stairs in her smart little dress, she opened her eyes wide and said, \"Oh, grandfather, I have never seen you in your Sunday coat with the silver buttons, you look so nice!\"",
+      "The words tumbled out of her mouth, gaining speed with each utterance, until a coughing fit abruptly silenced Katerina Ivanovna. Just then, the dying man stirred and let out a groan. She hurried to his side. His eyes fluttered open, not yet comprehending his surroundings or the faces around him, and he fixed his gaze on Raskolnikov, who stood above him. His breathing was labored, deep, and intermittent, with blood seeping from the corners of his mouth and beads of sweat on his brow. Still without recognizing Raskolnikov, he began to scan the room. Katerina Ivanovna watched him, her expression grim but resolute, tears streaming down her face.",
+      "He resumed, ignoring the question again, \"Those establishments, those plots of land, maybe that's what you call progress \u2013 but it will happen without me. Anyway, who wants to be a professional gambler?\"",
+      "He was not born and raised like a gladiator for the arena, but as a peaceful viewer of the fight; neither the frights of happiness nor the blows of life could endure his meek and lazy soul. And therefore his person expressed one of the extremes of life, and he did nothing to achieve, change and repent. This was the philosophy of Oblomovka Plato, a philosophy that lulled him, among all the issues and strict demands of duty and purpose!",
+      "When young people with diverse ideas interact, the direction and outcome are always uncertain. You can't foresee what insights or breakthroughs might emerge; the very next moment is a mystery. Moments of shared joy can follow empathy, and seriousness can unexpectedly arise in the midst of humor. A single word can trigger new thoughts and reactions. The unique energy of each person is crucial. Even a simple joke can open the door to surprising developments. These discussions are characterized by sudden shifts and new understandings, with chance playing a major role in how they unfold.",
+      "I had a contentious relationship with my coworkers, vacillating between intense dislike and a fragile sense of inferiority. One moment I'd despise them, and the next, I'd elevate them to a pedestal. This dichotomy created a sense of turmoil within me, and I often found myself behaving lackadaisically to avoid drawing attention to myself. I was terrified of appearing ridiculous or conspicuous, so I went out of my way to conform to the status quo and avoid any hint of individuality. This self-imposed servitude tormented me, and I felt perpetually crippled by my own inadequacies. In reality, I was a coward and a slave, and I knew it. This was not a personal failing, but rather a universal condition for decent people. The human impulse towards prudence and self-preservation inevitably leads to a state of cringing submissiveness. Any display of bravery or courage is fleeting and inconsequential, ultimately giving way to fear and timidity. It's only the mundane and uninspired - those without any meaningful aspirations - who appear resolute, but even they are bound by the same entrenched limitations as the rest of humanity.",
+      "\"But I couldn't tell that he would come with a bad finger, or else perhaps I might have done it on purpose. My darling mamma, you begin to say really witty things.\"",
+      "Arkady suddenly leapt from his chair, exclaiming, \"I'll go talk to her now!\" and displaying a fleeting sense of generosity as he declared, \"Let me go and convince her that she doesn't need to avoid me.\"",
+      "\"That's so typical of you, Conseil,\" the quick-tempered Canadian shot back. \"You never get agitated or stressed, you're always so composed. You're the type to be grateful for things before they even happen, and you'd rather die of hunger than voice a single grievance!\""
+    ]
+  ]
+}

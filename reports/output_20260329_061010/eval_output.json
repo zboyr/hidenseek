@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "\u201cWhat? A priest? It\u2019s not necessary. . . . Where would we get the money to pay him? I have no sins! Even without that God should forgive me. . . . He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "\u201cKandanmara, you know very well that I am not scared of these things, and I haven\u2019t done anything inappropriate. In Veeranarayanapuram, when Pazhuvetarayar and his entourage came along, I stood watching along with the crowd. I heard that you sent the entire procession of horses, elephants, and soldiers. Is that true?\u201d",
+    "A thousand lords with girdle-jade walk in front and rear. The many flags of guardsmen stand both left and right. Those holding gilt bludgeons, And halberds and axes, March in pairs and pairs; The red silk lanterns, The royal incense urn, Move in solemnity. The dragons fly and the phoenixes dance; The falcons soar and the eagles take wing. This Son of Heaven\u2019s an upright sage; The righteous ministers are good. They increase our bliss by a thousand years, surpassing Yu and Shun; They secure peace of ten thousand ages, rivaling Yao and Tang. We also see the curve-handled umbrella, And robes with rolling dragons\u2014 Their glare lighting up each other; The jade joined-rings, The phoenix fans, Waving through holy mist. Those caps of pearls and belts of jade; The purple sashes and medals of gold. A thousand rows of soldiers protect the Throne; Two lines of marshals uphold the carriage. This emperor, cleansed and sincere, bows to the Buddha, Glad to raise incense and seek virtue\u2019s fruit. The grand cortege of the Tang emperor soon arrived in front of the temple. The emperor ordered a halt to the music, left the carriages, and led many officials in the worship of Buddha by taking up burning incense sticks in their hands. After bowing three times holding the incense, they raised their heads and looked around them. This was indeed a splendid religious hall. You see Dancing flags and banners; Bright, gleaming sunshades. Dancing flags and banners Fill the air with strands of flashing colored mists. Bright, gleaming sunshades Glow in the sun as fiery bolts. Imposing, the gold image of Lok\u0101jye\u1e63\u1e6dha;14 Most awesome, the jade features of the arhats. Divine flowers fill the vases. Sandalwood incense burn in the urns. The divine flowers filling the vases Adorn the temple with a brilliant forest of brocade. The sandalwood incense burning in the urns Covers the clear sky with waves of fragrant clouds. Piled high on red trays are fruits in season. On colored counters, mounds of cakes and sweets rest. Rows of noble priests chant the holy s\u016btras To save from their travails those orphaned souls. Taizong and his officials each lifted the incense; they also worshipped the golden body of the Buddha and paid homage to the arhats. Thereafter, the Master of the Law, Chen Xuanzang, the Grand Expositor of the Faith, led the various monks to greet the Tang emperor. After the ceremony, they went back to their seats according to their rank and station. The priest then presented Taizong with the proclamation for the deliverance of the orphaned souls. It read: The supreme virtue is vast and endless, for Buddhism is founded upon Nirv\u0101\u1e47a. The spirit of the pure and the clean circulates freely and flows everywhere in the Three Regions. There are a thousand changes and ten thousand transformations, all regulated by the forces of yin and yang. Boundless and vast indeed are the substance, the function, the true nature, and the permanence of such phenomena. But look at those orphaned souls, how worthy they are of our pity and commiseration! Now by the holy command of Taizong, we have selected and assembled various priests, who will engage in meditation and in the proclamation of the Law. Flinging wide the gates of salvation and setting in motion many vessels of mercy, we would deliver you, the multitudes, from the Sea of Woe and save you from perdition and from the Sixfold Path. You will be led to return to the way of truth and to enjoy the bliss of Heaven. Whether it be by motion, rest, or nonactivity, you will be united with, and become, pure essences. Therefore make use of this noble occasion, for you are invited to the pleasures of the celestial city. Take advantage of our Grand Mass so that you may find release from Hell\u2019s confinement, ascend quickly and freely to ultimate bliss, and travel without restraint in the Region of the West.15 The poem says: An urn of immortal incense. Some scrolls of salvific power. As we proclaim this boundless Law, Receive now Heaven\u2019s endless grace. All your guilt and crime abolished, You lost souls may leave your prison. May our nation be firmly blessed With peace long and all-embracing. Highly pleased by what he read, Taizong said to the monks, \u201cBe firm, all of you, in your devotion, and do not slack in your service to Buddha. After the achievement of merit and after each has received his blessing, we shall reward you handsomely. Be assured that you will not have labored in vain.\u201d",
+    "He told them. But we shall not repeat it here. He told the story briefly and impersonally. He did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself \u201cin view of certain new developments.\u201d He did not bother to explain the motives behind his actions anymore, did not go into subtleties. Besides, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most.",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?",
+    "\u201cWait, you didn\u2019t get that from me!\u201d Ivan suddenly stopped, struck by this fact. \u201cIt never even occurred to me . . . Strange!\u201d",
+    "Next, Nana tackled Steiner without disgust, but also without love. She called him a dirty Jew. She seemed to be gratifying an old hatred which she could not very well explain to herself. He was fat, he was stupid, and she turned him about, taking double mouthfuls, wishing to have done with the Prussian all the quicker. He had given up Simone. His Bosphorus speculation was already in jeopardy. Nana hastened his downfall by the most lavish expenditure. For a month still he struggled, performing miracles. He covered Europe with a colossal publicity\u2014posters, advertisements, prospectuses\u2014and extracted money from the most distant countries. All those savings, the louis of the speculators the same as the sous of the poor people, were swallowed up in the Avenue de Villiers. He had also gone into partnership with an iron-founder in Alsace. There were there, in a corner of the country, workmen black with coal dust, bathed with perspiration, who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana\u2019s pleasures. She devoured all like a great fire\u2014the thefts at the Bourse, the earnings of labour. This time she finished Steiner. She returned him to the pavement, sucked to the bone, so emptied that he remained even incapable of inventing a fresh roguery. In the collapse of his banking establishment he went crazy; he trembled at the name of the police. He was made a bankrupt; and the mere word \u201cmoney\u201d bewildered him, threw him into a childish state of embarrassment\u2014he who had handled millions. One evening when with her, he burst out crying. He asked her to lend him a hundred francs to pay his servant; and Nana, affected and amused by this ending of the terrible old man who for twenty years past had been skimming the Paris market, brought him the money, saying,",
+    "Kundavai Devi had arranged for a special pooja [92] and yagna [93] to be conducted in Pazhaiarai Palace, on the day he left. The womenfolk in the palace and the other elders came out to the courtyard, to bid farewell to their dear prince.",
+    "A widely scattered mass of completely black houses was emerging from the paler darkness of the night. It looked as if almost all the two thousand inhabitants of Mokroye were asleep, for there were very few lights to be seen."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 3 share a nearly identical structure and several key phrases, suggesting they were produced by the same system. Both begin with \"A priest?\", address the financial impracticality (\"How could we afford it\" vs. \"We can't afford one\"), state innocence with the exact phrase \"I haven't done anything wrong!\", and most significantly, end with the identical and distinctive conclusion \"then so be it.\" The minor variations in the first half, such as \"No need for that\" vs. \"Why bother with that?\", are typical of a paraphrasing model making slight adjustments while adhering to its core stylistic template. The other outputs are stylistically distinct: 0 is a third-person summary, 1 is a fragmented quote with unique punctuation (ellipses, single quotes) and vocabulary (\"rouble\"), and 4 omits the financial aspect entirely.",
+    "Outputs 2 and 4 exhibit a striking number of identical lexical and structural choices, suggesting they were produced by the same system. Both use the exact phrases: \"carriage drawn by a pair of steeds\", \"a tricorne on his head\", \"gave a click to the handle\", \"the door flew open\", \"flinging back a coat of arms\", \"adorned with small crowns\", and \"unicorn goring a knight\". The overall sentence structure of the main clause is virtually identical, including the dramatic verb choices like \"flew\" and \"flinging\". Furthermore, both outputs seem to process the source material in the same way, isolating the main action of the carriage's arrival from the other descriptive phrases. They then attempt to re-integrate the phrase \"The torso of a capripede caryatid\" at the end, albeit with different results: output 2 places it as a separate, concluding sentence, while output 4 nonsensically merges it with the action of the hand tipping the hat. This pattern of identical core phrasing combined with a similar but slightly varied handling of the leftover sentence fragments is a strong indicator of a single underlying model.",
+    "Outputs 2 and 3 share numerous stylistic and lexical fingerprints that distinguish them from the other outputs. First, they both use the same spelling of the name \"Kandanmara,\" whereas outputs 0 and 1 use \"Kandamara.\" Second, they share a unique sentence structure in their opening. Both combine the idea of not being frightened with having behaved correctly into a single complex sentence, using similar phrasing like \"it's clear to you\" (2) and \"you're aware\" (3). Third, their descriptions of the procession scene are remarkably parallel, using close synonyms: \"Pazhuvetarayar and his entourage\" (2) versus \"Pazhuvetarayar and his group\" (3), and \"standing with the crowd\" (2) versus \"among the onlookers\" (3). Finally, the list of items in the final question is almost identical, referring to \"horses, elephants, and troops\" (2) and \"horses, elephants, and soldiers\" (3), suggesting a common strategy for synonym replacement. The other outputs are structurally and lexically distinct from this pair.",
+    "Outputs 0 and 3 were chosen because they exhibit strong similarities in content selection, specific terminology, and narrative structure, suggesting they originate from the same paraphrasing system. Both outputs provide a detailed prose summary of the same event (an imperial procession to a temple). Crucially, they share unique, non-generic phrasing that is absent in the other versions. For example:\n\n1.  **Shared Title:** Both 0 and 3 refer to a key figure as \"the Master of the Law, Chen Xuanzang.\" In contrast, output 2 uses a different title, \"the Grand Expositor of the Faith.\"\n2.  **Shared Terminology:** Both refer to the document presented to the emperor as a \"proclamation for the deliverance of the orphaned souls.\" Output 2 uses the term \"salvation\" instead of \"deliverance.\"\n3.  **Specific Details:** Both mention the same specific ceremonial weapons in the procession. Output 0 lists \"bludgeons, halberds, and axes,\" and Output 3 lists \"bludgeons, halberds, and axes.\" Output 2 abstracts this to \"ceremonial weapons.\"\n\nWhile output 0 is structured into multiple paragraphs and output 3 is a single long paragraph, the internal chronological flow of events is identical in both. The striking consistency in specific vocabulary and selection of details strongly points to a common origin, with the difference in paragraphing being a superficial variation.",
+    "Outputs 2 and 4 share several highly distinctive and unusual characteristics that strongly suggest they were produced by the same system. \n1. **Sentence Structure:** Both outputs move the phrase \"But we will not repeat it here\" from the beginning of the source text to the very end. This is a significant structural rearrangement not seen in the other outputs.\n2. **Identical Phrasing:** They share multiple identical and specific phrases, such as the quoted \"in view of certain new developments,\" and the clause \"did not go into subtleties\". \n3. **Redundant Wording:** A key piece of evidence is the shared awkward and redundant phrase \"did not interrupt him very often to ask him questions.\" The inclusion of \"to ask him questions\" is unnecessary and its identical presence in both outputs is a strong fingerprint of the same underlying logic. \n4. **Punctuation:** Both outputs utilize semicolons to connect a long series of clauses, resulting in a similar run-on sentence feel. \n\nWhile there is a contradiction where model 2 says \"he spoke of his love\" and model 4 says \"he did not speak of his love,\" this kind of negation error is a known artifact of some generative models. The overwhelming number of shared structural and lexical idiosyncrasies far outweighs this single difference.",
+    "Outputs 0 and 1 exhibit striking similarities that point to a common origin. Both begin with the exact phrase \"All six tiny rooms were heated by steam...\" and use the passive construction \"you were suffocated...\". They both describe the heat as either \"hothouse heat\" (0) or \"greenhouse heat\" (1), which are very close synonyms. Most tellingly, they both use an identical sentence structure with a semicolon-separated list to describe what was sweating: \"the panes of the windows sweated; [the] visitor sweated; [the] maid/chambermaid and the husband sweated...\". Within this parallel structure, they use very similar vocabulary, with minor synonym swaps like \"eternally sweated\" (0) vs. \"sweated endlessly\" (1). Furthermore, both outputs preserve the full, complex simile \"like a Japanese chrysanthemum in warm dew\" identically. Finally, they both end with a rhetorical question about perspective in the \"hothouse\". The other outputs (2, 3, and 4) use significantly different sentence structures, simplify or alter the simile, and rephrase the content more extensively.",
+    "Outputs 1 and 3 are remarkably similar, suggesting they were produced by the same system. Both use direct quotes with nearly identical structure and phrasing. The second part of the text, starting from the descriptive tag, is completely identical in both versions: \"...suddenly stopped, struck by this fact. \u201cIt never even occurred to me... Strange!\u201d\". This includes the exact word choice, the use of an ellipsis, and the final exclamation mark. The only minor differences are in the first line of dialogue (\"Wait a minute\" vs. \"Wait\"; \"that\" vs. \"it\") and the inclusion of the patronymic \"Fyodorovich\" in output 1. These slight variations are common in multiple runs of the same paraphrasing model, while the identical core structure and phrasing strongly point to a common origin.",
+    "Outputs 0 and 1 exhibit a striking degree of structural parallelism, suggesting they were produced by the same system. Both texts follow the exact same narrative sequence, almost on a sentence-by-sentence basis. For example, both begin by describing Nana's attitude towards Steiner, then mention her calling him a \"dirty Jew\" and the inexplicable prejudice behind it, then note that his business ventures were failing, and so on. While the specific word choices are consistently different, they are often direct synonyms (e.g., \"utterly destroyed\" in 0 vs. \"completely wore...down\" in 1; \"demise\" in 0 vs. \"downfall\" in 1; \"two decades\" in 0 vs. \"twenty years\" in 1). This pattern of maintaining the sentence structure and semantic flow while substituting vocabulary is a strong fingerprint of a paraphrasing tool. Output 0 is slightly more descriptive and literary in its word choice (\"portly,\" \"voraciously,\" \"raging inferno\"), while Output 1 is plainer (\"fat,\" \"handled him roughly,\" \"effortlessly consumed\"). This variation could represent two different settings of the same tool or simply the natural variability of its output across two runs. The other outputs have distinct fingerprints: Output 2 contains a strange repetitive glitch and archaic phrasing; Output 3 feels like an old British translation with specific localizations (\"pounds\" and \"pence\"); and Output 4 uses very modern, interpretive language and contains a character encoding error.",
+    "Outputs 1 and 4 are the most likely to have been generated by the same paraphraser. They share an almost identical two-sentence structure. \n\nSentence 1 in both starts with a temporal clause (\"On the day of his departure,\" vs. \"On the day he was leaving,\") and then follows the same pattern: \"Kundavai Devi organized [ceremonies] at the Pazhaiarai Palace.\" They both use the exact same phrasing for \"Kundavai Devi\" and spelling for \"Pazhaiarai Palace\".\n\nSentence 2 in both follows the structure: \"The palace women and [older people] gathered in the courtyard to [say goodbye] their beloved prince.\" The core phrases \"The palace women and...\", \"...gathered in the courtyard to...\" and \"...their beloved prince\" are present in both. \nThe differences between the two outputs are minor synonym swaps (\"his departure\" vs. \"he was leaving\"; \"other elders\" vs. \"elderly residents\"; \"bid...farewell\" vs. \"see off\"), which is a common characteristic of a single paraphrasing model generating slightly different outputs.",
+    "Outputs 1 and 3 share a unique and identical two-sentence structure that is inverted from the original text. Both start by describing the inhabitants being asleep and then pivot to describing the appearance of the houses. The phrasing within this shared structure is also remarkably parallel: \"It looked as though...\" (1) vs. \"It seemed that...\" (3); \"for there were only a few lights\" (1) vs. \"as only a handful of lights\" (3); \"inhabitants\" (1) vs. \"residents\" (3); \"asleep\" (1) vs. \"slumbering\" (3). The second sentence in both also starts with the prepositional phrase \"From the...\" and uses similar descriptors: \"paler darkness\" (1) vs. \"receding gloom\" (3); \"emerged\" (1) vs. \"began to appear\" (3); \"completely black\" (1) vs. \"utterly black\" (3). This consistent structural and lexical parallelism strongly suggests they were produced by the same system."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019"
+      ],
+      "llama_31_8b": [
+        "The speaker seems skeptical about the idea of hiring a priest, feeling both financially unable to afford the cost and confident in their innocence. They express this by stating they have no sins to confess and believe God's forgiveness is automatic due to their attributed suffering."
+      ],
+      "gemini_25_flash": [
+        "\"A priest? Why bother with that? We can't afford one anyway. I haven't done anything wrong, so God should just forgive me. He knows what I've been through! And if He doesn't, then so be it!\"",
+        "\"A priest? No need for that. How could we afford it, anyway? I haven't done anything wrong! God should forgive me regardless, considering all I've been through. If He chooses not to, then so be it.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWhat? A priest? I have no sins, and, besides, God should forgive me without that. He knows how I have suffered, and if He doesn\u2019t forgive me, then so be it!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "llama_31_8b": [
+        "A sculpted creature, likely a hybrid of goat and insect, stood atop a structure, probably a temple frieze. A luxurious carriage, pulled by two noble steeds, came to a stop in front of the structure and the footman, wearing a fancy hat, operated the door mechanism, and it swung open, revealing a coat of arms with a intricate design featuring a unicorn attacking a knight. A dignified individual, whose gloved hand rested on the rim of his elegant hat, acknowledged the greetings."
+      ],
+      "gemini_25_flash": [
+        "A capripede caryatid's torso. A two-horse carriage pulled up to the entrance, and a footman in a tricorne hat unlatched the door, revealing a crest with small crowns (a unicorn impaling a knight). In response to greetings, a gloved hand tipped the brim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of steeds flew up to the portico, and a lackey, with a tricorne on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with little crowns (a unicorn goring a knight). A hand clad in leather responded to greetings by touching the brim of a top hat. The torso of a capripede caryatid.",
+        "A carriage drawn by a pair of steeds flew to the porte-coch\u00e8re, and a footman, a tricorne on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with small crowns (a unicorn goring a knight). A torso of a capripede caryatid responded to salutations by touching the brim of a top hat."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough.",
+        "\u201cKandamara! You know this doesn\u2019t frighten me. Besides, I haven\u2019t done anything wrong. I was in the crowd that watched the Pazhuvettarayar procession going along Veeranarayanapuram. Is it true that it's you who sent the elephants, the horses, the palanquin, and the heralds?\u201d \u201cYes, so what if we sent them?\u201d"
+      ],
+      "llama_31_8b": [
+        "\"Kandanmara, it's clear to you that I'm not someone who evades challenges or does anything wrong. When the procession of Pazhuvetarayar and his entourage passed through Veeranarayanapuram, I was there, standing with the crowd. I've heard that you ordered an entire army, including horses, elephants, and troops, to accompany the procession. Is that what happened?\""
+      ],
+      "gemini_25_flash": [
+        "\"Kandanmara, you're aware I'm not easily frightened, and I've behaved appropriately. I was among the onlookers in Veeranarayanapuram when Pazhuvetarayar and his group passed by. Is it true, as I've heard, that you dispersed the entire procession of horses, elephants, and soldiers?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cKandanmara! You know very well that I\u2019m not afraid of such things. I\u2019ve not done anything untoward. I heard that you sent a procession of horses, elephants and soldiers to Veera Narayanapuram. Is that true?\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain."
+      ],
+      "llama_31_8b": [
+        "A grand procession led by a thousand high-ranking officials, adorned with girdle-jade, marched in front of the emperor. Behind them followed numerous guardsmen, identified by their distinctive flags and symbols, and holding a variety of weapons including bludgeons, halberds, and axes. Lanterns and incense burners moved in a dignified procession, accompanied by the majestic sound of dragons flying and phoenixes dancing. Falcons soared above, and eagles took to the skies. The emperor, celebrated for his virtues, was attended by righteous ministers who increased the nation's prosperity exponentially, rivaling legendary rulers of the past. The procession also featured umbrellas adorned with jade, robes with golden dragons, jade rings, and precious jewels. Thousands of soldiers stood guard around the emperor's carriage, while marshals, resplendent in their regalia, supported the carriage from either side. Upon arriving at the temple, the emperor stopped the music and led his officials in a ceremony of worship, during which they lit incense and bowed three times before the Buddha. As they stood up, they were met with the breathtaking beauty of the temple, filled with colorful banners, sunshades, and gold and jade statues of the Buddha and arhats. The air was filled with the sweet fragrance of incense and flowers, while offerings of food and sweets adorned the counter. Monks chanted holy scriptures to save the souls of the deceased, and the emperor's officials participated in the ceremony by lifting incense and paying homage to the Buddha and arhats. Following the ceremony, the Master of the Law, Chen Xuanzang, greeted the emperor and handed him a proclamation for the deliverance of orphaned souls. The proclamation highlighted the universal principles of Buddhism, its emphasis on compassion, and the importance of the emperor's role in spreading the faith. With the emperor's blessing, priests would engage in meditation and the proclamation of the law to guide the souls of the deceased back to the path of truth and ultimately achieve deliverance.",
+        "A grand procession of the emperor's entourage moves with measured steps, led by thousand lords bearing jade belts. The many flags of guardsmen stand on either side, while others wield gilt bludgeons, halberds, and axes in pairs. Red silk lanterns and a royal incense urn move in unison, exuding an air of solemnity. The emperor's carriage is adorned with dragons and phoenixes, while falcons soar and eagles take flight in the sky. The emperor, an upright and just ruler, is accompanied by right and able advisors. Together, they are benevolent leaders who have increased the people's happiness by a thousand years, surpassing even Yu and Shun, and secured peace for ten thousand ages, rivaling Yao and Tang.\n\nThe processions is accompanied by the emperor's officials, who flaunt their wealth with elaborate attire. Some wear tp caps adorned with pearls, while others wear jade belts or gold-hued sashes. A thousand rows of soldiers protect the throne, with two lines of marshals upholding the carriage. The emperor, unsoiled and untainted, shows his reverence to the Buddha, pleased to raise incense and seek the fruit of virtue.\n\nUpon arrival at the temple, the emperor ordered the music to stop, climbed down from his carriage, and led many officials in paying homage to the Buddha. After holding incense sticks in hand and bowing three times, they looked around at the magnificent halls. Dancing flags and banners danced in the wind, producing a colorful display as bright sunshades glowed like fiery bolts of lightning.\n\nInside the temple, a golden statue of Lok\u0101jye\u1e63\u1e6dha towered above, while jade images of the arhats sat nearby in awe-inspiring silence. Piles of flowers in vases adorned the temple, and sandalwood incense wafted through the air, filling the halls with clouds of fragrant smoke. Fruits and sweets arranged on colorful platters added to the grandeur of the scene.\n\nAmong the esteemed priests chanting sutras, the Master of the Law, Chen Xuanzang, stepped forward to lead the foreign monks in a greeting to the emperor. The ceremony consisted of incense burning, followed by Taizong and his officials offering prayers to the golden statue of the Buddha and paying respects to the arhats.\n\nAs the ceremony concluded, the Master of the Law presented the emperor with the proclamation for the deliverance of the orphaned souls. It emphasized the boundless and endless nature of the Buddha's virtue and spirit, and expressed hope for the salvation of all, thwart the forces of yin and yang, and return to the path of righteousness, and to find peace and bliss."
+      ],
+      "gemini_25_flash": [
+        "A grand procession, featuring a multitude of high-ranking officials adorned with jade and gold, advanced with flags waving and ceremonial weapons glinting. Red silk lanterns and a royal incense urn moved with solemnity. Mythical creatures like dragons and phoenixes seemed to accompany the emperor, with falcons and eagles circling overhead, symbolizing his righteous and wise rule, supported by virtuous ministers. This era, they believed, would bring unprecedented peace and prosperity, surpassing even legendary rulers.\n\nThe emperor's imperial carriage, with its distinctive curved umbrella and dragon-embroidered robes, shimmered with reflective light. Jade rings and phoenix fans swayed through a sacred mist. Officials wore pearl caps, jade belts, purple sashes, and gold medals. A vast contingent of soldiers protected the emperor, with marshals flanking his carriage.\n\nThe emperor, showing deep reverence, bowed to the Buddha, eager to offer incense and cultivate spiritual merit. The Tang emperor's magnificent procession soon reached the temple. He ordered the music to stop, dismounted from his carriage, and, along with his officials, participated in the veneration of Buddha by holding burning incense sticks. After three bows with the incense, they looked around at the truly magnificent temple interior.\n\nThe temple was adorned with vibrant flags and banners, creating a shimmering kaleidoscope of colors in the air. Bright sunshades gleamed like fiery bolts. The golden image of Lok\u0101jye\u1e63\u1e6dha was imposing, and the jade figures of the arhats were awe-inspiring. Vases overflowed with divine flowers, forming a brilliant tapestry, and sandalwood incense burned in urns, releasing fragrant clouds that filled the clear sky. Red trays were piled high with seasonal fruits, and colorful displays featured mounds of cakes and sweets. Rows of noble priests chanted sacred scriptures, offering solace to lost souls.\n\nTaizong and his officials, after offering incense, also worshipped the golden Buddha statue and paid their respects to the arhats. Following this, Chen Xuanzang, the Grand Expositor of the Faith, led the monks in greeting the emperor. After the ceremony, everyone returned to their designated places according to their status. The priest then presented Taizong with a proclamation for the salvation of orphaned souls.\n\nThe proclamation stated that Buddhist virtue is boundless, permeating all realms. It highlighted the ever-changing nature of existence, governed by yin and yang, and emphasized the vastness of phenomena. It expressed pity for orphaned souls and, by Taizong's command, announced that selected priests would meditate and preach the Law. This effort aimed to open the gates of salvation and offer a path for the multitude to escape suffering and the cycle of rebirth, guiding them towards truth and heavenly bliss. It urged all to embrace this opportunity, attend the Grand Mass for liberation from hell, and ascend to ultimate happiness in the Western Region.\n\nA poem reinforced this message:\nAn urn of sacred incense,\nScrolls containing saving power.\nAs we declare this boundless Law,\nReceive divine, endless grace.\nAll your sins and crimes erased,\nLost souls, leave your prison.\nMay our nation be blessed,\nWith lasting and complete peace.\n\nTaizong, greatly pleased by the proclamation, instructed the monks to remain steadfast in their devotion and service to Buddha. He promised them generous rewards for their efforts and merits, assuring them that their hard work would not be in vain."
+      ],
+      "dipper_lowmed": [
+        "The dragons fly and the phoenixes soar; The falcons soar and the eagles soar. This Son of Heaven is indeed an illustrious sage; These ministers are indeed worthy ministers. They multiply our long life, surpassing Yu and Shun; They secure our peace, equaling that of Yao and Tang. You see Burning incense sticks hung from the roof eaves; Moving golden trays holding incense burn bright, Like thunderclaps resounding."
+      ]
+    },
+    {
+      "human_par3": [
+        "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+      ],
+      "llama_31_8b": [
+        "He shared his information, but the details will not be shared here. He presented his account in a concise and detached manner, avoiding any mention of his personal emotions. Instead, he stated that his initial intent had changed due to recent events. He didn't elaborate on his reasons or delve into complexities. His interrogators also largely refrained from questioning him, suggesting that they were more focused on other aspects of the situation."
+      ],
+      "gemini_25_flash": [
+        "He shared his account, which we will not reproduce here. His narration was concise and detached, devoid of emotional expression. He simply stated that his suicidal intentions had diminished due to recent changes. He offered no further explanation for his choices, avoiding intricate details. Moreover, his listeners interjected infrequently, suggesting their primary interest lay elsewhere."
+      ],
+      "dipper_lowmed": [
+        "He told them. He told the story briefly and impersonally, he did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself, \"in view of certain new developments,\" he did not bother to explain the motives for his actions any more, he did not go into subtleties, and moreover, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most. But we will not repeat it here.",
+        "He told them it, in brief and impersonal form; he spoke of his love and his feelings; he said that he was no longer so determined to shoot himself \"in view of certain new developments.\" He did not explain the motives of his actions any more, did not go into the subtleties; moreover, his questioners did not interrupt him very often to ask him questions; it was obvious that this was not what they were interested in. But we will not repeat it here."
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+        "All six tiny rooms were heated by steam central heating, which meant that in the little flat you were suffocated by a humid, hothouse heat; the panes of the windows sweated; and Sofya Petrovna\u2019s visitor sweated; both maid and husband eternally sweated; Sofya Petrovna Likhutina was herself covered in perspiration, like a Japanese chrysanthemum in warm dew. Well, so how could any perspective be established in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The six small rooms were heated with steam, causing the air to feel oppressively humid and hot. Beads of condensation formed on the windowpanes, and everyone present, from the visitors to the maid and Sofia's husband, seemed to be dripping with sweat. Sofia herself was drenched in perspiration, as if covered in a warm, dewy coating. Under these conditions, it was hard to imagine finding any sense of perspective."
+      ],
+      "gemini_25_flash": [
+        "The apartment's six small rooms were uncomfortably hot and damp due to the steam heating. Everyone inside\u2014the guests, the maid, the husband, and even Sofia Petrovna Likhutina herself\u2014was sweating, with her skin glistening like dewdrops on a flower, while the windowpanes were fogged with condensation. Under such stifling conditions, it was hard to envision a positive outlook."
+      ],
+      "dipper_lowmed": [
+        "How could there be any perspective? All six tiny rooms were heated by steam, which caused suffocation in the apartment: the window panes sweated; the guests sweated; the servant and the husband sweated; even Sofya Petrovna Likhutina herself was covered in perspiration, like warm dew on a chrysanthemum."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"But you didn't get that from me.\" Ivan stopped suddenly, seeming struck. \"That never entered my head, that's strange.\""
+      ],
+      "llama_31_8b": [
+        "Ivan was taken aback, realizing that the person hadn't obtained that information from him. It was a revelation that caught him off guard, and he found it perplexing."
+      ],
+      "gemini_25_flash": [
+        "\"Hold on, I never told you that!\" Ivan paused abruptly, realizing this truth. \"It honestly never crossed my mind... How odd!\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWait a minute, you didn\u2019t get that from me!\u201d Ivan Fyodorovich suddenly stopped, struck by this fact. \u201cIt never even occurred to me... Strange!\u201d",
+        "\u201cWait, you didn\u2019t get it from me!\u201d Ivan suddenly stopped, struck by this fact. \u201cIt never even occurred to me... Strange!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:"
+      ],
+      "llama_31_8b": [
+        "Nana pursued Steiner relentlessly, making little effort to hide her disdain for him. She called him cruel names and reveled in his misfortune. Her reasons for doing so were unclear, even to herself, but it seemed to be a twisted form of satisfaction. Steiner, a Prussian, had abandoned his companion Simone and invested heavily in a questionable business in Istanbul, the Bosphorus speculation. Nana hastened his downfall with an outrageous display of extravagance. Despite his efforts to salvage the situation, Steiner's financial empire began to crumble. He showered his operation with massive publicity, plastering the continent with posters and advertisements, and borrowed money from distant countries. However, his schemes were ultimately futile, and his massive spending spree drained his coffers. His partnership with an iron-founder in Alsace did little to stem the tide, as the long hours and backbreaking labor of his employees only fueled Nana's insatiable appetite for luxury. She vacuumed up every last\u8d44\u6e90, leaving Steiner penniless and incapable of conjuring even the most minor deceit. As his banking empire crashed, Steiner's grip on reality began to slip. At the mention of the police, he would tremble with fear. He was declared bankrupt, and even the concept of money became a source of distress for him, reducing him to a state of childish awkwardness. In a desperate moment, he begged Nana for help, asking her to lend him a small sum to pay his servant. Despite her amusement at his downfall, Nana acquiesced to his request, handing him the money with a mix of affectation and amusement.",
+        "Next, Nana tackled Steiner without showing any disgust, nor did she show any love. She referred to him as a dirty Jew. It seemed like she was satisfying an old hatred, but couldn't explain to herself why. She resented him for being fat and stupid, and she handled him roughly, wanting to be done with the man as soon as possible. He had already lost Simone. His financially speculative scheme was also in trouble, partly due to Nana's lavish spending. For a month, Steiner struggled to save himself, achieving incredible things, but also generating a huge amount of publicity across Europe through posters, advertisements, and prospectuses. He managed to extract money from far-off countries, including the savings of small investors and the earnings of poor workers. He had also formed a business partnership with an iron-founder in Alsace, employing coal-covered, sweat-soaked workmen who labored day and night to generate funds for Nana's lavish lifestyle. Nana effortlessly consumed everything in her path, including the financial losses at the stock exchange and the hard-earned money of workers. In the end, she completely wore Steiner down. He was left empty, incapable of thinking up new schemes. His banking business failed, and he went crazy at the mere mention of the police. He was declared bankrupt and became so confused by the concept of money that it made him act like a child. One evening, in Nana's presence, he burst into tears and asked her to lend him a hundred francs to pay his servant. Nana found this amusing and was entertained by the downfall of the man who had been exploiting the Paris market for twenty years. She handed him the money, saying."
+      ],
+      "gemini_25_flash": [
+        "Nana then engaged with Steiner, not with aversion, but without affection either. She branded him a \"dirty Jew,\" seemingly driven by an ingrained prejudice she herself couldn't fully comprehend. She viewed him as portly and foolish. She manipulated him, consuming him voraciously, wanting to swiftly be rid of the \"Prussian.\" He had forsaken Simone, and his Bosphorus venture was already faltering. Nana accelerated his ruin through her extravagant spending. He fought for another month, miraculously staying afloat, orchestrating a massive publicity campaign across Europe\u2014using posters, ads, and flyers\u2014and securing funds from far-flung regions. All those savings, from the wealthy investors' gold coins to the humble earnings of the poor, disappeared into her lavish lifestyle on Avenue de Villiers. He had also partnered with an iron-founder in Alsace. In a remote corner of that region, coal-dusted, sweat-soaked laborers toiled day and night, straining their muscles and feeling their bones ache, all to finance Nana\u2019s desires. She consumed everything like a raging inferno \u2013 both illicit stock market gains and honest labor\u2019s wages.\n\nThis time, she utterly destroyed Steiner. She left him destitute, utterly depleted, so bereft that he couldn't even conjure up a new scheme. The collapse of his bank propelled him into madness; the mention of the police made him tremble. He was declared bankrupt, and the word \"money\" disoriented him, reducing him to a childish state of confusion\u2014this man who had once managed millions. One evening, while with her, he broke down in tears. He pleaded with her for a hundred francs to pay his servant; Nana, moved and entertained by the demise of this fearsome old man who had for two decades exploited the Parisian market, gave him the money, stating,"
+      ],
+      "dipper_lowmed": [
+        "He had given up Simone, his Bosphorus speculation was in danger, and Nana hurried the downfall by the most lavish expenditure. For another month he struggled, he worked miracles. He covered Europe with a colossal publicity, posters, advertisements, prospectuses, and extracted money from the most distant countries, all those savings, the louis of the speculators as well as the sous of the poor; and all that money, stomped up from the most distant countries, all those savings, the louis of the speculators, all those sous of the poor, was swallowed up in the avenue de Villiers. He had also gone into partnership with an iron founder in Alsace; there, in that corner of the country, black with coal dust and bathed in perspiration, were workmen who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana's pleasures. This time she finished Steiner, she sent him back on the pavement, sucked to the bone, so empty that he was even incapable of inventing another fraud, his own that he had been dealing in millions of capital; when his banking house went to the ground, he was crazy, he trembled at the name of the police, he was made bankrupt; and the mere word \"money\" embarrassed him, made him throw himself into a childish embarrassment, he who had handled millions; one evening, when he was with her, he burst out crying, asked her for a hundred francs to pay his servant, and Nana, touched and amused by the end of this dreadful old man who had been skimming the Paris market for twenty years, brought him the money, saying, \u201cIt\u2019s all yours.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Princess Kundhavai made sure that her brother departed Pazhaiyarai in pomp and splendour: she had organized quite a few events in the principal palace, for his edification. When Arulmozhi stepped out of the palace confines, conches blew deafeningly, drums thundered victoriously, accompanied by the smaller siru parai beats, in the courtyard; while chants of triumph cleaved the very skies. Every one of the royal mothers blessed their favourite son, applied sacred ash on his forehead, uttered many blessings to ward off evil spirits and gave him leave to return to battle.",
+        "Kundavai had made plans for auspicious ceremonies to be conducted in the palace at Pazhayarai before sending her beloved brother back to the battlefield. As Arulmozhi stepped into the courtyard, the war drums thundered. Conches sounded. Small drums thudded. Cries of victory rose to the sky. All the mothers of the Chozha clan blessed their beloved child, marked his forehead with vibhuthi and made signs to ward off evil spirits."
+      ],
+      "llama_31_8b": [
+        "On the day he was leaving, Kundavai Devi organized a unique ritual and a sacred ceremony at the Pazhaiarai Palace. The palace women and elderly residents gathered in the courtyard to see off their beloved prince."
+      ],
+      "gemini_25_flash": [
+        "On the day of his departure, Kundavai Devi organized a particular pooja and yagna at Pazhaiarai Palace. The palace women and other elders gathered in the courtyard to bid their beloved prince farewell."
+      ],
+      "dipper_lowmed": [
+        "The women of the palace and other elders came out to the courtyard to bid adieu to their prince. Kundhavai had arranged for a special yagna and pooja to be performed in the Pazhaiyarai palace on the day he left."
+      ]
+    },
+    {
+      "human_par3": [
+        "Through the pale darkness of the night loomed a solid black mass of buildings, flung down, as it were, in the vast plain. The village of Mokroe numbered two thousand inhabitants, but at that hour all were asleep, and only here and there a few lights still twinkled.",
+        "Through the pale gloom of the night a firm mass of buildings suddenly showed black, scattered over an enormous expanse. The village of Mokroye had two thousand souls, but at this hour they were all already asleep, and only here and there through the gloom occasional lights still flickered."
+      ],
+      "llama_31_8b": [
+        "The village of Mokroye was slowly taking shape in the darkness, with rows of dark houses scattered throughout. Apart from a few occasional lights, the settlement seemed quiet and still, implying that most of its nearly two thousand residents were asleep at night."
+      ],
+      "gemini_25_flash": [
+        "From the receding gloom of night, a dispersed cluster of utterly black homes began to appear. It seemed that nearly all of Mokroye's two thousand residents were slumbering, as only a handful of lights were visible."
+      ],
+      "dipper_lowmed": [
+        "It looked as though all the two thousand inhabitants of Mokroye were asleep, for there were only a few lights to be seen. From the paler darkness of the night emerged a widely scattered mass of completely black houses."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "The speaker seems skeptical about the idea of hiring a priest, feeling both financially unable to afford the cost and confident in their innocence. They express this by stating they have no sins to confess and believe God's forgiveness is automatic due to their attributed suffering.",
+      "A capripede caryatid's torso. A two-horse carriage pulled up to the entrance, and a footman in a tricorne hat unlatched the door, revealing a crest with small crowns (a unicorn impaling a knight). In response to greetings, a gloved hand tipped the brim of a top hat.",
+      "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough.",
+      "A grand procession of the emperor's entourage moves with measured steps, led by thousand lords bearing jade belts. The many flags of guardsmen stand on either side, while others wield gilt bludgeons, halberds, and axes in pairs. Red silk lanterns and a royal incense urn move in unison, exuding an air of solemnity. The emperor's carriage is adorned with dragons and phoenixes, while falcons soar and eagles take flight in the sky. The emperor, an upright and just ruler, is accompanied by right and able advisors. Together, they are benevolent leaders who have increased the people's happiness by a thousand years, surpassing even Yu and Shun, and secured peace for ten thousand ages, rivaling Yao and Tang.\n\nThe processions is accompanied by the emperor's officials, who flaunt their wealth with elaborate attire. Some wear tp caps adorned with pearls, while others wear jade belts or gold-hued sashes. A thousand rows of soldiers protect the throne, with two lines of marshals upholding the carriage. The emperor, unsoiled and untainted, shows his reverence to the Buddha, pleased to raise incense and seek the fruit of virtue.\n\nUpon arrival at the temple, the emperor ordered the music to stop, climbed down from his carriage, and led many officials in paying homage to the Buddha. After holding incense sticks in hand and bowing three times, they looked around at the magnificent halls. Dancing flags and banners danced in the wind, producing a colorful display as bright sunshades glowed like fiery bolts of lightning.\n\nInside the temple, a golden statue of Lok\u0101jye\u1e63\u1e6dha towered above, while jade images of the arhats sat nearby in awe-inspiring silence. Piles of flowers in vases adorned the temple, and sandalwood incense wafted through the air, filling the halls with clouds of fragrant smoke. Fruits and sweets arranged on colorful platters added to the grandeur of the scene.\n\nAmong the esteemed priests chanting sutras, the Master of the Law, Chen Xuanzang, stepped forward to lead the foreign monks in a greeting to the emperor. The ceremony consisted of incense burning, followed by Taizong and his officials offering prayers to the golden statue of the Buddha and paying respects to the arhats.\n\nAs the ceremony concluded, the Master of the Law presented the emperor with the proclamation for the deliverance of the orphaned souls. It emphasized the boundless and endless nature of the Buddha's virtue and spirit, and expressed hope for the salvation of all, thwart the forces of yin and yang, and return to the path of righteousness, and to find peace and bliss.",
+      "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here.",
+      "All six tiny rooms were heated by steam central heating, which meant that in the little flat you were suffocated by a humid, hothouse heat; the panes of the windows sweated; and Sofya Petrovna\u2019s visitor sweated; both maid and husband eternally sweated; Sofya Petrovna Likhutina was herself covered in perspiration, like a Japanese chrysanthemum in warm dew. Well, so how could any perspective be established in such a hothouse?",
+      "Ivan was taken aback, realizing that the person hadn't obtained that information from him. It was a revelation that caught him off guard, and he found it perplexing.",
+      "Nana then engaged with Steiner, not with aversion, but without affection either. She branded him a \"dirty Jew,\" seemingly driven by an ingrained prejudice she herself couldn't fully comprehend. She viewed him as portly and foolish. She manipulated him, consuming him voraciously, wanting to swiftly be rid of the \"Prussian.\" He had forsaken Simone, and his Bosphorus venture was already faltering. Nana accelerated his ruin through her extravagant spending. He fought for another month, miraculously staying afloat, orchestrating a massive publicity campaign across Europe\u2014using posters, ads, and flyers\u2014and securing funds from far-flung regions. All those savings, from the wealthy investors' gold coins to the humble earnings of the poor, disappeared into her lavish lifestyle on Avenue de Villiers. He had also partnered with an iron-founder in Alsace. In a remote corner of that region, coal-dusted, sweat-soaked laborers toiled day and night, straining their muscles and feeling their bones ache, all to finance Nana\u2019s desires. She consumed everything like a raging inferno \u2013 both illicit stock market gains and honest labor\u2019s wages.\n\nThis time, she utterly destroyed Steiner. She left him destitute, utterly depleted, so bereft that he couldn't even conjure up a new scheme. The collapse of his bank propelled him into madness; the mention of the police made him tremble. He was declared bankrupt, and the word \"money\" disoriented him, reducing him to a childish state of confusion\u2014this man who had once managed millions. One evening, while with her, he broke down in tears. He pleaded with her for a hundred francs to pay his servant; Nana, moved and entertained by the demise of this fearsome old man who had for two decades exploited the Parisian market, gave him the money, stating,",
+      "Kundavai had made plans for auspicious ceremonies to be conducted in the palace at Pazhayarai before sending her beloved brother back to the battlefield. As Arulmozhi stepped into the courtyard, the war drums thundered. Conches sounded. Small drums thudded. Cries of victory rose to the sky. All the mothers of the Chozha clan blessed their beloved child, marked his forehead with vibhuthi and made signs to ward off evil spirits.",
+      "Through the pale gloom of the night a firm mass of buildings suddenly showed black, scattered over an enormous expanse. The village of Mokroye had two thousand souls, but at this hour they were all already asleep, and only here and there through the gloom occasional lights still flickered."
+    ],
+    [
+      "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+      "A sculpted creature, likely a hybrid of goat and insect, stood atop a structure, probably a temple frieze. A luxurious carriage, pulled by two noble steeds, came to a stop in front of the structure and the footman, wearing a fancy hat, operated the door mechanism, and it swung open, revealing a coat of arms with a intricate design featuring a unicorn attacking a knight. A dignified individual, whose gloved hand rested on the rim of his elegant hat, acknowledged the greetings.",
+      "\u201cKandamara! You know this doesn\u2019t frighten me. Besides, I haven\u2019t done anything wrong. I was in the crowd that watched the Pazhuvettarayar procession going along Veeranarayanapuram. Is it true that it's you who sent the elephants, the horses, the palanquin, and the heralds?\u201d \u201cYes, so what if we sent them?\u201d",
+      "The dragons fly and the phoenixes soar; The falcons soar and the eagles soar. This Son of Heaven is indeed an illustrious sage; These ministers are indeed worthy ministers. They multiply our long life, surpassing Yu and Shun; They secure our peace, equaling that of Yao and Tang. You see Burning incense sticks hung from the roof eaves; Moving golden trays holding incense burn bright, Like thunderclaps resounding.",
+      "He shared his account, which we will not reproduce here. His narration was concise and detached, devoid of emotional expression. He simply stated that his suicidal intentions had diminished due to recent changes. He offered no further explanation for his choices, avoiding intricate details. Moreover, his listeners interjected infrequently, suggesting their primary interest lay elsewhere.",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+      "\u201cWait a minute, you didn\u2019t get that from me!\u201d Ivan Fyodorovich suddenly stopped, struck by this fact. \u201cIt never even occurred to me... Strange!\u201d",
+      "Next, Nana tackled Steiner without showing any disgust, nor did she show any love. She referred to him as a dirty Jew. It seemed like she was satisfying an old hatred, but couldn't explain to herself why. She resented him for being fat and stupid, and she handled him roughly, wanting to be done with the man as soon as possible. He had already lost Simone. His financially speculative scheme was also in trouble, partly due to Nana's lavish spending. For a month, Steiner struggled to save himself, achieving incredible things, but also generating a huge amount of publicity across Europe through posters, advertisements, and prospectuses. He managed to extract money from far-off countries, including the savings of small investors and the earnings of poor workers. He had also formed a business partnership with an iron-founder in Alsace, employing coal-covered, sweat-soaked workmen who labored day and night to generate funds for Nana's lavish lifestyle. Nana effortlessly consumed everything in her path, including the financial losses at the stock exchange and the hard-earned money of workers. In the end, she completely wore Steiner down. He was left empty, incapable of thinking up new schemes. His banking business failed, and he went crazy at the mere mention of the police. He was declared bankrupt and became so confused by the concept of money that it made him act like a child. One evening, in Nana's presence, he burst into tears and asked her to lend him a hundred francs to pay his servant. Nana found this amusing and was entertained by the downfall of the man who had been exploiting the Paris market for twenty years. She handed him the money, saying.",
+      "On the day of his departure, Kundavai Devi organized a particular pooja and yagna at Pazhaiarai Palace. The palace women and other elders gathered in the courtyard to bid their beloved prince farewell.",
+      "It looked as though all the two thousand inhabitants of Mokroye were asleep, for there were only a few lights to be seen. From the paler darkness of the night emerged a widely scattered mass of completely black houses."
+    ],
+    [
+      "\"A priest? No need for that. How could we afford it, anyway? I haven't done anything wrong! God should forgive me regardless, considering all I've been through. If He chooses not to, then so be it.\"",
+      "A carriage drawn by a pair of steeds flew up to the portico, and a lackey, with a tricorne on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with little crowns (a unicorn goring a knight). A hand clad in leather responded to greetings by touching the brim of a top hat. The torso of a capripede caryatid.",
+      "\"Kandanmara, it's clear to you that I'm not someone who evades challenges or does anything wrong. When the procession of Pazhuvetarayar and his entourage passed through Veeranarayanapuram, I was there, standing with the crowd. I've heard that you ordered an entire army, including horses, elephants, and troops, to accompany the procession. Is that what happened?\"",
+      "A grand procession, featuring a multitude of high-ranking officials adorned with jade and gold, advanced with flags waving and ceremonial weapons glinting. Red silk lanterns and a royal incense urn moved with solemnity. Mythical creatures like dragons and phoenixes seemed to accompany the emperor, with falcons and eagles circling overhead, symbolizing his righteous and wise rule, supported by virtuous ministers. This era, they believed, would bring unprecedented peace and prosperity, surpassing even legendary rulers.\n\nThe emperor's imperial carriage, with its distinctive curved umbrella and dragon-embroidered robes, shimmered with reflective light. Jade rings and phoenix fans swayed through a sacred mist. Officials wore pearl caps, jade belts, purple sashes, and gold medals. A vast contingent of soldiers protected the emperor, with marshals flanking his carriage.\n\nThe emperor, showing deep reverence, bowed to the Buddha, eager to offer incense and cultivate spiritual merit. The Tang emperor's magnificent procession soon reached the temple. He ordered the music to stop, dismounted from his carriage, and, along with his officials, participated in the veneration of Buddha by holding burning incense sticks. After three bows with the incense, they looked around at the truly magnificent temple interior.\n\nThe temple was adorned with vibrant flags and banners, creating a shimmering kaleidoscope of colors in the air. Bright sunshades gleamed like fiery bolts. The golden image of Lok\u0101jye\u1e63\u1e6dha was imposing, and the jade figures of the arhats were awe-inspiring. Vases overflowed with divine flowers, forming a brilliant tapestry, and sandalwood incense burned in urns, releasing fragrant clouds that filled the clear sky. Red trays were piled high with seasonal fruits, and colorful displays featured mounds of cakes and sweets. Rows of noble priests chanted sacred scriptures, offering solace to lost souls.\n\nTaizong and his officials, after offering incense, also worshipped the golden Buddha statue and paid their respects to the arhats. Following this, Chen Xuanzang, the Grand Expositor of the Faith, led the monks in greeting the emperor. After the ceremony, everyone returned to their designated places according to their status. The priest then presented Taizong with a proclamation for the salvation of orphaned souls.\n\nThe proclamation stated that Buddhist virtue is boundless, permeating all realms. It highlighted the ever-changing nature of existence, governed by yin and yang, and emphasized the vastness of phenomena. It expressed pity for orphaned souls and, by Taizong's command, announced that selected priests would meditate and preach the Law. This effort aimed to open the gates of salvation and offer a path for the multitude to escape suffering and the cycle of rebirth, guiding them towards truth and heavenly bliss. It urged all to embrace this opportunity, attend the Grand Mass for liberation from hell, and ascend to ultimate happiness in the Western Region.\n\nA poem reinforced this message:\nAn urn of sacred incense,\nScrolls containing saving power.\nAs we declare this boundless Law,\nReceive divine, endless grace.\nAll your sins and crimes erased,\nLost souls, leave your prison.\nMay our nation be blessed,\nWith lasting and complete peace.\n\nTaizong, greatly pleased by the proclamation, instructed the monks to remain steadfast in their devotion and service to Buddha. He promised them generous rewards for their efforts and merits, assuring them that their hard work would not be in vain.",
+      "He told them it, in brief and impersonal form; he spoke of his love and his feelings; he said that he was no longer so determined to shoot himself \"in view of certain new developments.\" He did not explain the motives of his actions any more, did not go into the subtleties; moreover, his questioners did not interrupt him very often to ask him questions; it was obvious that this was not what they were interested in. But we will not repeat it here.",
+      "The six small rooms were heated with steam, causing the air to feel oppressively humid and hot. Beads of condensation formed on the windowpanes, and everyone present, from the visitors to the maid and Sofia's husband, seemed to be dripping with sweat. Sofia herself was drenched in perspiration, as if covered in a warm, dewy coating. Under these conditions, it was hard to imagine finding any sense of perspective.",
+      "\"But you didn't get that from me.\" Ivan stopped suddenly, seeming struck. \"That never entered my head, that's strange.\"",
+      "He had given up Simone, his Bosphorus speculation was in danger, and Nana hurried the downfall by the most lavish expenditure. For another month he struggled, he worked miracles. He covered Europe with a colossal publicity, posters, advertisements, prospectuses, and extracted money from the most distant countries, all those savings, the louis of the speculators as well as the sous of the poor; and all that money, stomped up from the most distant countries, all those savings, the louis of the speculators, all those sous of the poor, was swallowed up in the avenue de Villiers. He had also gone into partnership with an iron founder in Alsace; there, in that corner of the country, black with coal dust and bathed in perspiration, were workmen who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana's pleasures. This time she finished Steiner, she sent him back on the pavement, sucked to the bone, so empty that he was even incapable of inventing another fraud, his own that he had been dealing in millions of capital; when his banking house went to the ground, he was crazy, he trembled at the name of the police, he was made bankrupt; and the mere word \"money\" embarrassed him, made him throw himself into a childish embarrassment, he who had handled millions; one evening, when he was with her, he burst out crying, asked her for a hundred francs to pay his servant, and Nana, touched and amused by the end of this dreadful old man who had been skimming the Paris market for twenty years, brought him the money, saying, \u201cIt\u2019s all yours.\u201d",
+      "The women of the palace and other elders came out to the courtyard to bid adieu to their prince. Kundhavai had arranged for a special yagna and pooja to be performed in the Pazhaiyarai palace on the day he left.",
+      "Through the pale darkness of the night loomed a solid black mass of buildings, flung down, as it were, in the vast plain. The village of Mokroe numbered two thousand inhabitants, but at that hour all were asleep, and only here and there a few lights still twinkled."
+    ],
+    [
+      "\"A priest? Why bother with that? We can't afford one anyway. I haven't done anything wrong, so God should just forgive me. He knows what I've been through! And if He doesn't, then so be it!\"",
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "\"Kandanmara, you're aware I'm not easily frightened, and I've behaved appropriately. I was among the onlookers in Veeranarayanapuram when Pazhuvetarayar and his group passed by. Is it true, as I've heard, that you dispersed the entire procession of horses, elephants, and soldiers?\"",
+      "A grand procession led by a thousand high-ranking officials, adorned with girdle-jade, marched in front of the emperor. Behind them followed numerous guardsmen, identified by their distinctive flags and symbols, and holding a variety of weapons including bludgeons, halberds, and axes. Lanterns and incense burners moved in a dignified procession, accompanied by the majestic sound of dragons flying and phoenixes dancing. Falcons soared above, and eagles took to the skies. The emperor, celebrated for his virtues, was attended by righteous ministers who increased the nation's prosperity exponentially, rivaling legendary rulers of the past. The procession also featured umbrellas adorned with jade, robes with golden dragons, jade rings, and precious jewels. Thousands of soldiers stood guard around the emperor's carriage, while marshals, resplendent in their regalia, supported the carriage from either side. Upon arriving at the temple, the emperor stopped the music and led his officials in a ceremony of worship, during which they lit incense and bowed three times before the Buddha. As they stood up, they were met with the breathtaking beauty of the temple, filled with colorful banners, sunshades, and gold and jade statues of the Buddha and arhats. The air was filled with the sweet fragrance of incense and flowers, while offerings of food and sweets adorned the counter. Monks chanted holy scriptures to save the souls of the deceased, and the emperor's officials participated in the ceremony by lifting incense and paying homage to the Buddha and arhats. Following the ceremony, the Master of the Law, Chen Xuanzang, greeted the emperor and handed him a proclamation for the deliverance of orphaned souls. The proclamation highlighted the universal principles of Buddhism, its emphasis on compassion, and the importance of the emperor's role in spreading the faith. With the emperor's blessing, priests would engage in meditation and the proclamation of the law to guide the souls of the deceased back to the path of truth and ultimately achieve deliverance.",
+      "He shared his information, but the details will not be shared here. He presented his account in a concise and detached manner, avoiding any mention of his personal emotions. Instead, he stated that his initial intent had changed due to recent events. He didn't elaborate on his reasons or delve into complexities. His interrogators also largely refrained from questioning him, suggesting that they were more focused on other aspects of the situation.",
+      "The apartment's six small rooms were uncomfortably hot and damp due to the steam heating. Everyone inside\u2014the guests, the maid, the husband, and even Sofia Petrovna Likhutina herself\u2014was sweating, with her skin glistening like dewdrops on a flower, while the windowpanes were fogged with condensation. Under such stifling conditions, it was hard to envision a positive outlook.",
+      "\u201cWait, you didn\u2019t get it from me!\u201d Ivan suddenly stopped, struck by this fact. \u201cIt never even occurred to me... Strange!\u201d",
+      "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:",
+      "Princess Kundhavai made sure that her brother departed Pazhaiyarai in pomp and splendour: she had organized quite a few events in the principal palace, for his edification. When Arulmozhi stepped out of the palace confines, conches blew deafeningly, drums thundered victoriously, accompanied by the smaller siru parai beats, in the courtyard; while chants of triumph cleaved the very skies. Every one of the royal mothers blessed their favourite son, applied sacred ash on his forehead, uttered many blessings to ward off evil spirits and gave him leave to return to battle.",
+      "From the receding gloom of night, a dispersed cluster of utterly black homes began to appear. It seemed that nearly all of Mokroye's two thousand residents were slumbering, as only a handful of lights were visible."
+    ],
+    [
+      "\u201cWhat? A priest? I have no sins, and, besides, God should forgive me without that. He knows how I have suffered, and if He doesn\u2019t forgive me, then so be it!\u201d",
+      "A carriage drawn by a pair of steeds flew to the porte-coch\u00e8re, and a footman, a tricorne on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with small crowns (a unicorn goring a knight). A torso of a capripede caryatid responded to salutations by touching the brim of a top hat.",
+      "\u201cKandanmara! You know very well that I\u2019m not afraid of such things. I\u2019ve not done anything untoward. I heard that you sent a procession of horses, elephants and soldiers to Veera Narayanapuram. Is that true?\u201d",
+      "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain.",
+      "He told them. He told the story briefly and impersonally, he did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself, \"in view of certain new developments,\" he did not bother to explain the motives for his actions any more, he did not go into subtleties, and moreover, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most. But we will not repeat it here.",
+      "How could there be any perspective? All six tiny rooms were heated by steam, which caused suffocation in the apartment: the window panes sweated; the guests sweated; the servant and the husband sweated; even Sofya Petrovna Likhutina herself was covered in perspiration, like warm dew on a chrysanthemum.",
+      "\"Hold on, I never told you that!\" Ivan paused abruptly, realizing this truth. \"It honestly never crossed my mind... How odd!\"",
+      "Nana pursued Steiner relentlessly, making little effort to hide her disdain for him. She called him cruel names and reveled in his misfortune. Her reasons for doing so were unclear, even to herself, but it seemed to be a twisted form of satisfaction. Steiner, a Prussian, had abandoned his companion Simone and invested heavily in a questionable business in Istanbul, the Bosphorus speculation. Nana hastened his downfall with an outrageous display of extravagance. Despite his efforts to salvage the situation, Steiner's financial empire began to crumble. He showered his operation with massive publicity, plastering the continent with posters and advertisements, and borrowed money from distant countries. However, his schemes were ultimately futile, and his massive spending spree drained his coffers. His partnership with an iron-founder in Alsace did little to stem the tide, as the long hours and backbreaking labor of his employees only fueled Nana's insatiable appetite for luxury. She vacuumed up every last\u8d44\u6e90, leaving Steiner penniless and incapable of conjuring even the most minor deceit. As his banking empire crashed, Steiner's grip on reality began to slip. At the mention of the police, he would tremble with fear. He was declared bankrupt, and even the concept of money became a source of distress for him, reducing him to a state of childish awkwardness. In a desperate moment, he begged Nana for help, asking her to lend him a small sum to pay his servant. Despite her amusement at his downfall, Nana acquiesced to his request, handing him the money with a mix of affectation and amusement.",
+      "On the day he was leaving, Kundavai Devi organized a unique ritual and a sacred ceremony at the Pazhaiarai Palace. The palace women and elderly residents gathered in the courtyard to see off their beloved prince.",
+      "The village of Mokroye was slowly taking shape in the darkness, with rows of dark houses scattered throughout. Apart from a few occasional lights, the settlement seemed quiet and still, implying that most of its nearly two thousand residents were asleep at night."
+    ]
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "evaluations": [
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ]
+  ],
+  "source_texts": [
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "The vegetation of this desolate landmass seemed extremely limited. A few lichens of the species Usnea melanoxantha covered the black quartzose rocks. The meagre flora of the region was entirely composed of microscopic plantlets called rudimentary diatoms, forms of cells fitted between two quartzose shells, together with long purple and crimson wracks attached to little swimming bladders which the swell threw on to the coast.",
+    "\"What is there to say concerning love?\" at length said Bazarov. \"In passing, you mentioned a certain Madame Odintsov (I think that was the name?). Who is she?\"",
+    "Next, Nana tackled Steiner without disgust, but also without love. She called him a dirty Jew. She seemed to be gratifying an old hatred which she could not very well explain to herself. He was fat, he was stupid, and she turned him about, taking double mouthfuls, wishing to have done with the Prussian all the quicker. He had given up Simone. His Bosphorus speculation was already in jeopardy. Nana hastened his downfall by the most lavish expenditure. For a month still he struggled, performing miracles. He covered Europe with a colossal publicity\u2014posters, advertisements, prospectuses\u2014and extracted money from the most distant countries. All those savings, the louis of the speculators the same as the sous of the poor people, were swallowed up in the Avenue de Villiers. He had also gone into partnership with an iron-founder in Alsace. There were there, in a corner of the country, workmen black with coal dust, bathed with perspiration, who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana\u2019s pleasures. She devoured all like a great fire\u2014the thefts at the Bourse, the earnings of labour. This time she finished Steiner. She returned him to the pavement, sucked to the bone, so emptied that he remained even incapable of inventing a fresh roguery. In the collapse of his banking establishment he went crazy; he trembled at the name of the police. He was made a bankrupt; and the mere word \u201cmoney\u201d bewildered him, threw him into a childish state of embarrassment\u2014he who had handled millions. One evening when with her, he burst out crying. He asked her to lend him a hundred francs to pay his servant; and Nana, affected and amused by this ending of the terrible old man who for twenty years past had been skimming the Paris market, brought him the money, saying,",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 4 share several distinctive linguistic fingerprints: both use the specific 'capripede/capriped caryatid' torso as a standalone structural element, both include the 'click' of the door opening, both describe the coat of arms with the unicorn attacking/goring a knight in similar phrasing, and both end with the gloved hand touching the brim of the top hat. Their sentence structure and level of detail are closely matched, suggesting they came from the same paraphrasing system.",
+    "Outputs 3 and 4 share several distinctive features: both use 'barren landmass' (unique among all outputs), both use 'crimson' for the seaweed color (vs. 'scarlet' or 'red' in others), both use 'seaweeds' instead of 'fucus,' and both describe the diatoms as single-celled organisms enclosed within quartz shells. These parallel word choices and structural decisions suggest they come from the same paraphrasing system.",
+    "Outputs 1 and 4 share very similar structure and phrasing: both begin with 'No, why [should we] talk about love,' both use a parenthetical 'I think that was the name,' and both end with 'Who is this lady?' They use single quotation marks for dialogue and maintain nearly identical sentence flow, suggesting they came from the same paraphraser.",
+    "Outputs 1 and 2 share the most consistent stylistic fingerprints: both use a clean, modern literary translation style with similar paragraph organization, comparable elaboration levels, analogous phrasing (e.g., describing workers straining muscles/limbs, the fire metaphor rendered similarly, the stock-market/labor contrast), and both end with the dialogue lead-in ('saying...' / 'saying:'). They both use 'Simone/Simonne' in the same relative position and maintain a balanced, readable prose style that distinguishes them from the archaic tone of 0 and 3, and the over-embellished style of 4.",
+    "Outputs 1 and 3 share the same structural approach: both move the 'perspective/hope' framing to the end of the passage as a concluding remark, both describe the windows as 'foggy/fogged up with condensation,' both use 'dripping with sweat,' both refer to 'Sofia's husband' (rather than the fuller name), and both describe the chrysanthemum with dew in a similar simplified way. These shared structural and stylistic choices \u2014 especially the reordering of the rhetorical question to the end and the consistent vocabulary choices \u2014 suggest they came from the same paraphrasing system."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "llama_31_8b": [
+        "A decorated carriage, being pulled by matching horses, suddenly halted at the entrance. A liveried servant, wearing a hat with three corners, grasped a handle and pushed it open, revealing a coat of arms on the door. This insignia featured a small image of a unicorn attacking a knight. A pair of elegantly dressed hands, clad in worn leather gloves, tipped a top hat in response to the passing greetings.",
+        "A capripede figure served as the support for a large architectural element. A stylish carriage arrived at the carriage porch, pulled by two horses, and a servant in a tricorn hat pushed a button, causing the door to swing open and revealing a coat of arms featuring a scene of a unicorn attacking a knight. In response to the greetings, a gloved hand tipped the brim of a top hat."
+      ],
+      "gemini_25_flash": [
+        "A capriped caryatid's upper body. A two-horse carriage pulled up to the porch, and a liveried servant, wearing a three-cornered hat, opened the door with a click. The door, emblazoned with a coat of arms featuring small crowns and a unicorn impaling a knight, swung open. A gloved hand rose to the brim of a top hat in acknowledgment of greetings. \n"
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, with a cocked hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). A torso of a capripede caryatid. Responding to greetings, a hand invested in leather touched the brim of a top hat."
+      ]
+    },
+    {
+      "human_par3": [
+        "The vegetation of this desolate continent seemed to me much restricted. Some lichens of the species usnea melanoxantha lay upon the black rocks; some microscopic plants, rudimentary diatomas, a kind of cells, placed between two quartz shells; long purple and scarlet fucus, supported on little swimming bladders, which the breaking of the waves brought to the shore. These constituted the meager flora of this region.",
+        "The vegetation on this desolate continent struck me as extremely limited. A few lichens from the species Usnea melanoxantha were spread out on the black rocks. The whole meager flora of this locality consisted of certain microscopic seedlings, some rudimentary diatoms, a sort of cell positioned between two quartz shells, plus long purple and crimson fucus plants buoyed by small air bladders and washed ashore by the surf."
+      ],
+      "llama_31_8b": [
+        "The plant life on this barren landmass was surprisingly meager. Thread-like lichens, specifically Usnea melanoxantha, were the only vegetation covering the dark, quartz-based rocks. The region's sparse vegetation consisted entirely of small, microscopic plants known as rudimentary diatoms, which took the form of cells enclosed between two quartz shells, along with longer, deep purple and crimson seaweeds attached to buoyant bladders that the waves washed up onto the shore."
+      ],
+      "gemini_25_flash": [
+        "This barren landmass supported very sparse plant life.  Black, quartz-rich rocks were sparsely covered by lichens of the Usnea melanoxantha species. The scarce plant life consisted entirely of tiny, underdeveloped diatoms \u2013 single-celled organisms enclosed in two quartz shells \u2013 along with long, purple and crimson seaweeds that the waves washed ashore, helped by small floating bladders."
+      ],
+      "dipper_lowmed": [
+        "The vegetation of this desolate land seemed extremely limited. The meager flora of the region consisted only of microscopic plants called rudimentary diatoms, cells arranged between two quartzose shells, and of long purple and red fucus, attached to little swimming bladders, which the waves threw on the coast. A few lichens of the species Usnea melanoxantha covered the black rocks."
+      ]
+    },
+    {
+      "human_par3": [
+        "No, why should we talk of love,' said Bazarov; ' but you mentioned just now a Madame Odintsov ... That was what you called her, I think? Who is that lady?'",
+        "\u2018No, why talk about love?\u2019 said Bazarov. \u2018But you just mentioned Odintsova\u2026 I think that was the name? Who is this lady?\u2019"
+      ],
+      "llama_31_8b": [
+        "Bazarov paused, collecting his thoughts before speaking about love. \"To be frank, what's there to say about it?\" he said. \"You mentioned a woman named Madame Odintsov - or was that her name?\""
+      ],
+      "gemini_25_flash": [
+        "Bazarov eventually asked, \"What can be said about love? You briefly brought up a woman named Madame Odintsov, I believe. Can you tell me who she is?\""
+      ],
+      "dipper_lowmed": [
+        "\"What do we have to say about love?\" said Bazarov at last. \"You mentioned a certain Madame Odintsov\u2014I think that was the name\u2014who is she?\""
+      ]
+    },
+    {
+      "human_par3": [
+        "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:",
+        "Nana next moved on to Steiner, without repugnance but equally without affection. She called him a dirty Jew, seemingly satisfying an age-old hatred which she hardly realized. He was fat and stupid and she hustled him along, keen to get shot of this Prussian as quickly as possible. He\u2019d given up Simonne. His Bosphorus venture was beginning to look shaky, and Nana\u2019s crazy demands hastened its demise. Miraculously, he managed to hold out for one more month, covering the whole of Europe with notices, prospectuses, and advertisements in a colossal publicity campaign, squeezing money out of the remotest countries. And all these funds, the speculators\u2019 reserves of gold and the tiny nest-eggs of the poor, were engulfed in the Avenue de Villiers. He\u2019d also gone into association with an iron-master in Alsace; in a corner of that province there were miners black with coal-dust and dripping in sweat who were straining their muscles and wrenching their limbs to satisfy Nana\u2019s pleasures. She consumed everything like some great fire, the fruits of honest toil and the dishonest profits of currency sharks. This time she finished Steiner off and put him back on the street after sucking him so dry that he didn\u2019t even have the strength to think up any further skulduggery. His bank collapsed, he went in fear and trembling of the police, he wandered around mumbling incoherently. He\u2019d just been made bankrupt, and at the mere mention of money this man who\u2019d been used to handling millions flew into a panic like a little child. One evening in Nana\u2019s house he burst into tears and asked if she could lend him a hundred francs to pay his maid. Amused to see such an end to this terrible character who\u2019d been ruthlessly exploiting the market for the last twenty years, Nana, out of the kindness of her heart, handed him the money, saying:"
+      ],
+      "llama_31_8b": [
+        "Nana ruthlessly targeted Steiner, neither provoked by disgust nor motivated by love. Instead, she repeatedly insulted him, calling him a derogatory name, and seemed to be feeding an entrenched hatred she couldn't quite articulate. He was obese, unintelligent, and she roughly manhandled him, desperate to extricate herself from his presence as quickly as possible. Having abandoned Simone, Steiner's ill-fated investment venture on the Bosphorus was already on the brink of collapse. In an effort to hasten his demise, Nana lavishly squandered his already dwindling funds. Despite his initial resilience, struggling to stay afloat for a month, Steiner eventually succumbed to Nana's persistent attacks. His grand publicity campaign, which had blanketed the continent in posters, advertisements, and prospectuses, was ultimately unable to contain the financial hemorrhage. The collective savings of investors and ordinary people were vaporized in a whirlpool of extravagant spending, concluding with Steiner's partnership with an iron-founder in Alsace, where an army of weary laborers labored tirelessly to fuel Nana's indulgences. They were unknowingly pouring their blood, sweat, and toil into the abyss of Nana's insatiable appetites, devouring businesses and livelihoods like a voracious flame. In the end, Nana utterly bankrupted Steiner, rendering him void of vitality and crippled by doubt. His banking empire shattered, Steiner succumbed to madness, cowed by the prospect of police involvement, his mind consumed by an infantile sense of unease whenever money was mentioned, a word he once wielded with mastery. One evening, pleading for help, Steiner tearfully begged for a mere hundred francs to pay his servant. Nana, an amused spectator to the crumbled confidence of this predator who had pillaged Paris's markets for twenty years, handed him the money."
+      ],
+      "gemini_25_flash": [
+        "Nana then attacked Steiner, not with revulsion, but without affection either. She branded him a \"dirty Jew,\" seemingly acting on a deeply ingrained prejudice she couldn't quite articulate. He was overweight and slow-witted, and she manipulated him, consuming him rapidly, eager to be rid of the \"Prussian\" as quickly as possible. Steiner had abandoned Simone, and his investment in the Bosphorus was already in trouble. Nana accelerated his ruin with her extravagant spending. He fought for another month, miraculously staying afloat. He launched a huge publicity campaign across Europe\u2014using posters, ads, and flyers\u2014and managed to extract money from distant lands. All these savings, from the gold coins of wealthy investors to the pennies of the poor, were squandered in the Avenue de Villiers. He had also partnered with an iron-founder in Alsace. In a remote part of the country, coal-stained, sweat-drenched workers toiled day and night, straining their muscles and feeling their bones crack, all to fund Nana's desires. She consumed everything like a raging inferno\u2014the illicit gains from the stock market and the hard-earned wages of laborers. This time, she utterly destroyed Steiner. She left him destitute, completely drained, so empty that he couldn't even conjure up a new scheme. The collapse of his bank drove him insane; the mention of the police made him tremble. He was declared bankrupt, and the word \"money\" disoriented him, reducing him to a childish state of confusion\u2014he, who had once managed millions. One evening, while with her, he broke down crying. He asked her for a hundred francs to pay his servant; Nana, moved and entertained by the downfall of this once formidable man who had exploited the Paris market for twenty years, gave him the money, saying..."
+      ],
+      "dipper_lowmed": [
+        "It was a slow and painful death. Then Nana, without disgust but also without love, made use of Steiner; she called him a dirty Jew; it seemed to her that she was gratifying an old hatred which she could not explain to herself. He was fat, he was stupid, and she gnawed at him, wishing to be done with the Prussian. He had given up Simone, his Bosphorus speculation was in danger, Nana hastened his fall by the most lavish expenditure, for a month he made miracles, covered Europe with a colossal publicity campaign, posters, advertisements, prospectuses, and he brought money to the Villiers; he had also entered into partnership with an iron founder in Alsace; there, in a corner of the country, there were workmen covered with coal dust, bathed in sweat, tightening their muscles and hearing their bones crack, to provide means for Nana's pleasures, like a great fire she devoured everything, the robbery, the profits of labor. This time she finished Steiner, she threw him on the pavement, sucked to the bone, so emptied of all his resources that he was even incapable of inventing a new roguery. At the collapse of his banking house he went mad, trembled at the name of the police, became a bankrupt, and the word money embarrassed him, confused him, embarrassed him like a child, he who had been in charge of millions. One evening he burst into tears with Nana, he asked her for a hundred francs to pay his servant, and Nana, moved and amused by this ending of the terrible old man who had skimmed millions in Paris, brought the money to him."
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The six cramped rooms were heated to a sweltering level by a steam system, creating an overwhelming and damp atmosphere. This caused the windowpanes to fog up, the visitors to bead with sweat, and even the maid and Sofia's husband to perspire excessively. Sofia Petrovna Likhutina herself was dripping with sweat, reminiscent of warm dew on a chrysanthemum. Under such conditions, it seemed impossible to feel hopeful or optimistic.",
+        "The small rooms were stuck together with an oppressive, steamy heat, making the apartment feel stifling and sweltering. The windows were foggy with condensation, the visitors and Sofia's husband were dripping with sweat, and even Sofia herself was dripping with moisture, like the gentle dew on a chrysanthemum. It's no wonder then that it felt impossible to muster any sense of hope or optimism."
+      ],
+      "gemini_25_flash": [
+        "Every one of the small rooms had steam heating, which caused the apartment to be uncomfortably humid. The windows were fogged up, and everyone, including guests, the maid, the husband, and even Sofia Petrovna Likhutina herself, was dripping with sweat, like dew on a chrysanthemum. It was hard to imagine any hope for the future in such conditions."
+      ],
+      "dipper_lowmed": [
+        "How could any perspective be possible? All six tiny rooms were heated with steam, as a result of which one suffocated in the apartment from the humidity. The panes of the windows sweated; the visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "The vegetation on this desolate continent struck me as extremely limited. A few lichens from the species Usnea melanoxantha were spread out on the black rocks. The whole meager flora of this locality consisted of certain microscopic seedlings, some rudimentary diatoms, a sort of cell positioned between two quartz shells, plus long purple and crimson fucus plants buoyed by small air bladders and washed ashore by the surf.",
+      "\"What do we have to say about love?\" said Bazarov at last. \"You mentioned a certain Madame Odintsov\u2014I think that was the name\u2014who is she?\"",
+      "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:",
+      "How could any perspective be possible? All six tiny rooms were heated with steam, as a result of which one suffocated in the apartment from the humidity. The panes of the windows sweated; the visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum."
+    ],
+    [
+      "A capripede figure served as the support for a large architectural element. A stylish carriage arrived at the carriage porch, pulled by two horses, and a servant in a tricorn hat pushed a button, causing the door to swing open and revealing a coat of arms featuring a scene of a unicorn attacking a knight. In response to the greetings, a gloved hand tipped the brim of a top hat.",
+      "The vegetation of this desolate land seemed extremely limited. The meager flora of the region consisted only of microscopic plants called rudimentary diatoms, cells arranged between two quartzose shells, and of long purple and red fucus, attached to little swimming bladders, which the waves threw on the coast. A few lichens of the species Usnea melanoxantha covered the black rocks.",
+      "No, why should we talk of love,' said Bazarov; ' but you mentioned just now a Madame Odintsov ... That was what you called her, I think? Who is that lady?'",
+      "Nana then attacked Steiner, not with revulsion, but without affection either. She branded him a \"dirty Jew,\" seemingly acting on a deeply ingrained prejudice she couldn't quite articulate. He was overweight and slow-witted, and she manipulated him, consuming him rapidly, eager to be rid of the \"Prussian\" as quickly as possible. Steiner had abandoned Simone, and his investment in the Bosphorus was already in trouble. Nana accelerated his ruin with her extravagant spending. He fought for another month, miraculously staying afloat. He launched a huge publicity campaign across Europe\u2014using posters, ads, and flyers\u2014and managed to extract money from distant lands. All these savings, from the gold coins of wealthy investors to the pennies of the poor, were squandered in the Avenue de Villiers. He had also partnered with an iron-founder in Alsace. In a remote part of the country, coal-stained, sweat-drenched workers toiled day and night, straining their muscles and feeling their bones crack, all to fund Nana's desires. She consumed everything like a raging inferno\u2014the illicit gains from the stock market and the hard-earned wages of laborers. This time, she utterly destroyed Steiner. She left him destitute, completely drained, so empty that he couldn't even conjure up a new scheme. The collapse of his bank drove him insane; the mention of the police made him tremble. He was declared bankrupt, and the word \"money\" disoriented him, reducing him to a childish state of confusion\u2014he, who had once managed millions. One evening, while with her, he broke down crying. He asked her for a hundred francs to pay his servant; Nana, moved and entertained by the downfall of this once formidable man who had exploited the Paris market for twenty years, gave him the money, saying...",
+      "The six cramped rooms were heated to a sweltering level by a steam system, creating an overwhelming and damp atmosphere. This caused the windowpanes to fog up, the visitors to bead with sweat, and even the maid and Sofia's husband to perspire excessively. Sofia Petrovna Likhutina herself was dripping with sweat, reminiscent of warm dew on a chrysanthemum. Under such conditions, it seemed impossible to feel hopeful or optimistic."
+    ],
+    [
+      "A capriped caryatid's upper body. A two-horse carriage pulled up to the porch, and a liveried servant, wearing a three-cornered hat, opened the door with a click. The door, emblazoned with a coat of arms featuring small crowns and a unicorn impaling a knight, swung open. A gloved hand rose to the brim of a top hat in acknowledgment of greetings. \n",
+      "The vegetation of this desolate continent seemed to me much restricted. Some lichens of the species usnea melanoxantha lay upon the black rocks; some microscopic plants, rudimentary diatomas, a kind of cells, placed between two quartz shells; long purple and scarlet fucus, supported on little swimming bladders, which the breaking of the waves brought to the shore. These constituted the meager flora of this region.",
+      "Bazarov paused, collecting his thoughts before speaking about love. \"To be frank, what's there to say about it?\" he said. \"You mentioned a woman named Madame Odintsov - or was that her name?\"",
+      "Nana next moved on to Steiner, without repugnance but equally without affection. She called him a dirty Jew, seemingly satisfying an age-old hatred which she hardly realized. He was fat and stupid and she hustled him along, keen to get shot of this Prussian as quickly as possible. He\u2019d given up Simonne. His Bosphorus venture was beginning to look shaky, and Nana\u2019s crazy demands hastened its demise. Miraculously, he managed to hold out for one more month, covering the whole of Europe with notices, prospectuses, and advertisements in a colossal publicity campaign, squeezing money out of the remotest countries. And all these funds, the speculators\u2019 reserves of gold and the tiny nest-eggs of the poor, were engulfed in the Avenue de Villiers. He\u2019d also gone into association with an iron-master in Alsace; in a corner of that province there were miners black with coal-dust and dripping in sweat who were straining their muscles and wrenching their limbs to satisfy Nana\u2019s pleasures. She consumed everything like some great fire, the fruits of honest toil and the dishonest profits of currency sharks. This time she finished Steiner off and put him back on the street after sucking him so dry that he didn\u2019t even have the strength to think up any further skulduggery. His bank collapsed, he went in fear and trembling of the police, he wandered around mumbling incoherently. He\u2019d just been made bankrupt, and at the mere mention of money this man who\u2019d been used to handling millions flew into a panic like a little child. One evening in Nana\u2019s house he burst into tears and asked if she could lend him a hundred francs to pay his maid. Amused to see such an end to this terrible character who\u2019d been ruthlessly exploiting the market for the last twenty years, Nana, out of the kindness of her heart, handed him the money, saying:",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+    ],
+    [
+      "A decorated carriage, being pulled by matching horses, suddenly halted at the entrance. A liveried servant, wearing a hat with three corners, grasped a handle and pushed it open, revealing a coat of arms on the door. This insignia featured a small image of a unicorn attacking a knight. A pair of elegantly dressed hands, clad in worn leather gloves, tipped a top hat in response to the passing greetings.",
+      "This barren landmass supported very sparse plant life.  Black, quartz-rich rocks were sparsely covered by lichens of the Usnea melanoxantha species. The scarce plant life consisted entirely of tiny, underdeveloped diatoms \u2013 single-celled organisms enclosed in two quartz shells \u2013 along with long, purple and crimson seaweeds that the waves washed ashore, helped by small floating bladders.",
+      "Bazarov eventually asked, \"What can be said about love? You briefly brought up a woman named Madame Odintsov, I believe. Can you tell me who she is?\"",
+      "It was a slow and painful death. Then Nana, without disgust but also without love, made use of Steiner; she called him a dirty Jew; it seemed to her that she was gratifying an old hatred which she could not explain to herself. He was fat, he was stupid, and she gnawed at him, wishing to be done with the Prussian. He had given up Simone, his Bosphorus speculation was in danger, Nana hastened his fall by the most lavish expenditure, for a month he made miracles, covered Europe with a colossal publicity campaign, posters, advertisements, prospectuses, and he brought money to the Villiers; he had also entered into partnership with an iron founder in Alsace; there, in a corner of the country, there were workmen covered with coal dust, bathed in sweat, tightening their muscles and hearing their bones crack, to provide means for Nana's pleasures, like a great fire she devoured everything, the robbery, the profits of labor. This time she finished Steiner, she threw him on the pavement, sucked to the bone, so emptied of all his resources that he was even incapable of inventing a new roguery. At the collapse of his banking house he went mad, trembled at the name of the police, became a bankrupt, and the word money embarrassed him, confused him, embarrassed him like a child, he who had been in charge of millions. One evening he burst into tears with Nana, he asked her for a hundred francs to pay his servant, and Nana, moved and amused by this ending of the terrible old man who had skimmed millions in Paris, brought the money to him.",
+      "The small rooms were stuck together with an oppressive, steamy heat, making the apartment feel stifling and sweltering. The windows were foggy with condensation, the visitors and Sofia's husband were dripping with sweat, and even Sofia herself was dripping with moisture, like the gentle dew on a chrysanthemum. It's no wonder then that it felt impossible to muster any sense of hope or optimism."
+    ],
+    [
+      "A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, with a cocked hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). A torso of a capripede caryatid. Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+      "The plant life on this barren landmass was surprisingly meager. Thread-like lichens, specifically Usnea melanoxantha, were the only vegetation covering the dark, quartz-based rocks. The region's sparse vegetation consisted entirely of small, microscopic plants known as rudimentary diatoms, which took the form of cells enclosed between two quartz shells, along with longer, deep purple and crimson seaweeds attached to buoyant bladders that the waves washed up onto the shore.",
+      "\u2018No, why talk about love?\u2019 said Bazarov. \u2018But you just mentioned Odintsova\u2026 I think that was the name? Who is this lady?\u2019",
+      "Nana ruthlessly targeted Steiner, neither provoked by disgust nor motivated by love. Instead, she repeatedly insulted him, calling him a derogatory name, and seemed to be feeding an entrenched hatred she couldn't quite articulate. He was obese, unintelligent, and she roughly manhandled him, desperate to extricate herself from his presence as quickly as possible. Having abandoned Simone, Steiner's ill-fated investment venture on the Bosphorus was already on the brink of collapse. In an effort to hasten his demise, Nana lavishly squandered his already dwindling funds. Despite his initial resilience, struggling to stay afloat for a month, Steiner eventually succumbed to Nana's persistent attacks. His grand publicity campaign, which had blanketed the continent in posters, advertisements, and prospectuses, was ultimately unable to contain the financial hemorrhage. The collective savings of investors and ordinary people were vaporized in a whirlpool of extravagant spending, concluding with Steiner's partnership with an iron-founder in Alsace, where an army of weary laborers labored tirelessly to fuel Nana's indulgences. They were unknowingly pouring their blood, sweat, and toil into the abyss of Nana's insatiable appetites, devouring businesses and livelihoods like a voracious flame. In the end, Nana utterly bankrupted Steiner, rendering him void of vitality and crippled by doubt. His banking empire shattered, Steiner succumbed to madness, cowed by the prospect of police involvement, his mind consumed by an infantile sense of unease whenever money was mentioned, a word he once wielded with mastery. One evening, pleading for help, Steiner tearfully begged for a mere hundred francs to pay his servant. Nana, an amused spectator to the crumbled confidence of this predator who had pillaged Paris's markets for twenty years, handed him the money.",
+      "Every one of the small rooms had steam heating, which caused the apartment to be uncomfortably humid. The windows were fogged up, and everyone, including guests, the maid, the husband, and even Sofia Petrovna Likhutina herself, was dripping with sweat, like dew on a chrysanthemum. It was hard to imagine any hope for the future in such conditions."
+    ]
+  ]
+}

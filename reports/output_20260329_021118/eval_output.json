@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ]
+  ],
+  "source_texts": [
+    "Of course, I hated them all in our office, from first to last, and despised them all, but at the same time I was also as if afraid of them. It happened that I would suddenly set them above myself. Things were somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes before almost everyone I met. I even made experiments: will I be able to endure so-and-so's glance on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury. I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything to do with externals; I loved falling into the common rut, and feared any eccentricity in myself with all my soul. But how could I hold out? I was morbidly developed, as a man of our time ought to be developed. And they were all dull-witted and as like one another as a flock of sheep. Perhaps to me alone in the whole office did it constantly seem that I was a coward and a slave; it seemed so to me precisely because I was developed. But it not only seemed, in fact it really was so: I was a coward and a slave. I say it without any embarrassment. Every decent man of our time is and must be a coward and a slave. That is his normal condition. I am deeply convinced of it. He's made that way, and arranged for it. And not in the present time, owing to some sort of chance circumstances, but generally in all times a decent man must be a coward and a slave. That is the natural law of all decent people on earth. If one of them does happen to get up a bit of pluck in something, let him not be eased or pleased by that: he'll still quail before something else. Such is the sole and everlasting outcome. Only asses and their mongrels show pluck, and even then only up to that certain wall. It's not worth paying any attention to them, because they mean precisely nothing.",
+    "This was the philosophy worked out by the Oblomovka Plato, a philosophy which lulled him amid the issues and strict demands of duty and purpose! He had been born and reared not like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the alarms of happiness or life\u2019s blows. Consequently, his person expressed one of life\u2019s extremes, and he did nothing to achieve, change, or repent.",
+    "\u201cFor me the Prince happens to be the first person in my life in whom I recognized a truly loyal person. He believed in me from the first, and I believe in him.\u201d",
+    "Nikolai Apollonovich perceived a shady type (perhaps of the petty bourgeoisie) with his neck wrapped up.",
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "The truth is that no one has ever really explained how Joseph Buquet met his death. The verdict at the inquest was \u2018suicide under natural circumstances\u2019. In his Memoirs of a Theatre Director, Armand Moncharmin, one of the co-directors who succeeded Messrs Debienne and Poligny, relates the incident as follows: A most unfortunate accident ruined the little party that Messrs Debienne and Poligny were giving to mark their departure.",
+    "Which is why, we all agreed to crown Sundara Chola, Gandaradithar\u2019s nephew as the next king. And Sundara Chola has been a good King to all of us, until two years ago when he fell ill.",
+    "\u201cWell, I\u2019d rather put it this way: you and I, we have the same philosophy. That would be a much fairer statement. Je pense, donc je suis, that is something I know for certain. As for the rest\u2014all those worlds, God, and even Satan himself\u2014I\u2019m not sure whether all that exists independently or is merely a passing and subjective emanation of myself .",
+    "\u2018How can you doubt it! But you, who do not love her, why are you so ready to endanger your life? It must be that you hate Erik.\u2019",
+    "And the zemstvo official stopped in perplexity, clutching at a tuft of his beard. The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog. The zemstvo official apparently wanted to make a little joke, and grunted: \u201cMm . . ."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 4 share very distinctive and consistent phrasing patterns: both use 'drop/dropped my eyes,' 'slavishly observed/worshiped routine in everything external,' 'falling into the common rut,' 'feared any eccentricity,' and nearly identical structures in the 'coward and a slave' section. The word choices such as 'tormented/drove me to frenzy/fury' and the overall sentence-level structure align closely between these two, suggesting they originate from the same paraphrasing system. Output 1, while similar, contains an unusual repetition artifact that sets it apart, and Outputs 0 and 3 are clearly more freely rewritten.",
+    "Outputs 3 and 4 share nearly identical vocabulary and phrasing throughout: 'gladiator, for the arena,' 'peaceful spectator of the battle,' 'meek and lazy soul,' 'blows of happiness,' 'achieve, change, or repent,' 'Oblomovka Plato,' and 'strict demands of duty and purpose.' The differences are minor (slight sentence reordering, 'shocks' vs 'blows' of happiness), consistent with two outputs from the same paraphraser producing near-literal renditions with small variations.",
+    "Outputs 0 and 3 share distinctive stylistic patterns: both use the phrase 'reciprocate/reciprocated that trust,' both employ formal restructuring of the original idea, and both use similar vocabulary ('truly,' loyalty-related terms). The shared construction around 'reciprocating trust' is a strong fingerprint, as none of the other outputs use this phrasing. Both also avoid the more literal renderings seen in outputs 2 and 4.",
+    "Outputs 0 and 3 share nearly identical phrasing: both begin with 'Nikolai Apollonovich noticed a suspicious-looking individual, possibly from the lower middle class,' and differ only in the final clause describing the neck covering. This level of structural and lexical overlap strongly suggests they come from the same paraphraser.",
+    "Outputs 0 and 3 share almost identical sentence structures and word choices: both begin with 'A carriage drawn by a pair of steeds flew up to the [porte-coch\u00e8re/porch]', both describe 'gave a/the click to the handle, and the door flew open', both use 'adorned with little crowns (a unicorn goring a knight)', both use 'a hand in leather touched the brim of a top hat', and both end with 'The torso of a capripede caryatid/capripede-caryatid'. These close parallels in vocabulary, phrasing, and structure indicate they were produced by the same paraphraser.",
+    "Outputs 2 and 3 share the most consistent stylistic fingerprints: both use the word 'marred' to describe the party incident, both refer to a 'farewell party/celebration,' both paraphrase Moncharmin's account without using direct quotation marks for his words, both describe the suicide ruling with a similar structure ('under normal/ordinary circumstances'), and both adopt a flowing narrative style that avoids quoting the book title in the same formal way as outputs 1 and 4. These shared patterns strongly suggest they came from the same paraphraser.",
+    "Outputs 2 and 3 share the same structural pattern: both begin with the collective decision to install Sundara Chola (using 'collectively decided'), then describe his effective/benevolent rule, and conclude with his illness two years ago. They also both correctly order events (decision first, then reign, then illness), use similar formal tone, and mirror each other's sentence organization closely, suggesting they came from the same paraphraser.",
+    "Outputs 0 and 4 share distinctive stylistic fingerprints: both fully translate 'Je pense, donc je suis' into English rather than keeping the French, both use 'absolutely' as an intensifier ('absolutely sure of' / 'absolutely convinced of'), both frame the uncertainty about worlds/God/Satan with very similar phrasing ('not certain/not convinced whether they're real/exist independently or just a product/personal reflections of my own mind'), and both include a meta-reframing introduction ('I prefer to phrase it'/'Let me rephrase it'). These parallel choices strongly suggest the same paraphraser.",
+    "Outputs 3 and 4 share the same structural pattern (short rhetorical opener \u2192 'no affection for her' phrase \u2192 'It must be...' conclusion about Erik), use nearly identical phrasing including 'no affection for her' and the 'It must be' construction, and both maintain a compact, declarative style without dialogue tags or extra conversational elements.",
+    "Outputs 3 and 4 share nearly identical sentence structures, narrative detail, and linguistic patterns: both use 'stood still in perplexity, clutching/grasping a tuft of his beard in one hand,' both repeat the pleading phrase twice ('begging/imploring him not to drive him/it from this house back into the Petersburg slush... back into the [cruel and dense/dense, malevolent] fog'), both note the official 'evidently wanted/had it in mind to make a joke,' both use a throat-clearing phrase ('hemmed and hawed'/'cleared his throat'), and both conclude with 'the joke assumed a... incoherent form.' This level of structural and phraseological parallelism strongly indicates they came from the same paraphraser."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing."
+      ],
+      "llama_31_8b": [
+        "I had a complex and often contradictory relationship with my coworkers in the office. On the one hand, I hated them all and felt a strong sense of disdain, but on the other hand, I was also intimidated by them. This led to a pattern of vacillating between feeling superior and inferior to them. I was particularly prone to feelings of self-directed contempt, which I believe is a natural part of being a well-adjusted and critically thinking person. However, this tendency to be overly self-critical would often manifest in a fear of being ridiculed, leading me to internalize a rigid set of social norms and stick to what was considered \"normal\" and \"acceptable\". Despite my surface-level appearance of confidence and composure, I was actually deeply anxious and fearful of not meeting societal expectations. In reality, I was both a coward and a slave to the conventions of the time, and this was not just a temporary state, but a fundamental aspect of being a decent person. I genuinely believe that this is the natural condition of anyone who values decency, that is, being constantly intimidated and fearful of making mistakes or being judged by others. This dynamic is an integral part of the human experience across all time periods, and it's only those who are naive or unrefined who would suggest otherwise."
+      ],
+      "gemini_25_flash": [
+        "I detested everyone in my office, from the highest to the lowest, and looked down on them, yet paradoxically, I also felt intimidated by them. My feelings were often extreme back then: one moment I'd scorn them, the next I'd elevate them in my mind. A sophisticated and respectable person cannot be arrogant without also being incredibly self-critical and, at times, loathing themselves. Regardless of whether I held them in contempt or respect, I would invariably avoid eye contact with almost everyone I encountered. I even tried to withstand someone's gaze, but I always looked away first, which infuriated me. I had an overwhelming fear of appearing foolish, so I slavishly adhered to conventional practices in all outward matters. I enjoyed conforming and dreaded any personal eccentricity.\n\nHowever, how could I truly conform? I was excessively intellectual, as a modern person should be, while they were all simple-minded and indistinguishable from each other. Perhaps I was the only one in the office who constantly perceived myself as a coward and a subservient individual, and this perception stemmed directly from my intellectual development. But it wasn't just a feeling; it was the truth: I was a coward and a slave. I state this without shame. In our era, every respectable person is inherently a coward and a slave. This is their natural state, and I am profoundly convinced of it. This isn't due to temporary circumstances, but rather, a fundamental characteristic of respectable individuals throughout history. This is the inherent law for all decent people on Earth. If one of them manages to show a brief moment of courage, they shouldn't take comfort in it, as they will inevitably falter in the face of something else. This is the consistent and inevitable outcome. Only fools and their mixed breeds display courage, and even then, only up to a certain limit. They are not worth considering, as they hold no true significance."
+      ],
+      "dipper_lowmed": [
+        "Of course, I hated all of them in the office, from the first to the last, and I despised them all, but at the same time I was somehow afraid of them; it happened that I suddenly put them above me; it was somehow sudden with me in those days: now I despised them, now I put them above me; a developed and decent person cannot be vain without boundless demands on himself and without despising himself at moments to the point of hatred; but whether I despised them or put them above me, I used to drop my eyes in front of almost everyone I met, I even made experiments: could I stand this gaze on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything external; I loved falling into the common rut, and feared any eccentricity within myself with all my soul. All decent men of our time are and must be cowards and slaves; this is his normal condition; I am deeply convinced of it; this is how they are made and arranged; and not only in our times, because of some chance circumstance, but in all times, a decent man must be a coward and a slave: this is the natural law of all decent people on earth; if one of them happens to show a bit of pluck about something, do not be astonished or pleased by this; he will then be quaking before something else.",
+        "Of course, I hated them all in the office, from first to last, and despised them all, but at the same time I was somehow afraid of them, it happened that I suddenly set them above myself. A developed and decent person cannot be vain without a boundless maniac in himself and without despising himself at moments to the point of hatred. But no matter whether I despised them or set them above me, I lowered my eyes almost everyone I met, I even made experiments: could I endure this so-and-so's look at me? and I was always the first to lower my eyes, that tormented me to the point of fury; I was also afraid to the point of illness to be ridiculous, and therefore slavishly worshipped routine in everything external; I loved falling into the common rut, and feared any eccentricity in myself with all my soul; but how could I hold out? I was morbidly developed, as a man of our time should be developed; they were all dull-witted and like each other as a flock of sheep. Of course, I hated them all in our office, from the first to the last, and despised them all, but at the same time I suddenly set them above myself; it was some kind of sudden thing with me then: now I despised them, now I set them above myself; a developed and decent man cannot be vain without boundless demands on himself, without despising himself at moments to the point of hatred; but whether I despised them or set them above myself, I would lower my eyes to almost everyone I met; I even made experiments: would I be able to endure the gaze of so and so on me? - and I was always the first to lower my eyes; that tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshipped the routine in everything external; I loved falling into the common rut; I feared eccentricity with all my heart;"
+      ]
+    },
+    {
+      "human_par3": [
+        "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it."
+      ],
+      "llama_31_8b": [
+        "The Oblomovka philosopher lived according to a unique set of principles, allowing him to remain detached amidst life's demands and the pressure of responsibility. This approach was shaped by his upbringing and personality, which made him more suited to observing life's events from a safe distance, rather than engaging with the challenges and risks that came with it. As someone with a laid-back and gentle nature, he was not wired to face the intense highs and lows of life, and as a result, he existed in a state of apathy, neither striving to achieve, change, nor show remorse."
+      ],
+      "gemini_25_flash": [
+        "The perspective developed by the 'Oblomovka Plato' was one that kept him comfortable, shielding him from the pressing obligations and challenges of life. He wasn't raised to be a fighter in life's struggles, but rather an observer from the sidelines. His gentle and passive nature couldn't handle the excitement of joy or the hardships of existence. As a result, his character represented an ultimate state of inactivity; he made no effort to accomplish anything, initiate change, or express regret."
+      ],
+      "dipper_lowmed": [
+        "He was born and brought up not like a gladiator, for the arena, but as a peaceful spectator of the battle; neither the blows of happiness, nor the blows of life were for his meek and lazy soul. Consequently, his person expressed one extreme of life, and he did not do anything to achieve, change or repent. This philosophy of Oblomov's Plato, which lulled him amid the clashes and strict demands of duty and purpose, was the philosophy of Plato.",
+        "It was he who had been born and brought up, not as a gladiator, for the arena, but as a peaceful spectator of the battle; it was not for his meek and lazy soul to endure the shocks of happiness and the blows of life; consequently, his person expressed one of the extremes of life, and he did not achieve, change, or repent. This was the philosophy of Oblomovka Plato, a philosophy that lulled him in the midst of the problems and strict demands of duty and purpose!"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Well, for me the prince means this: he is the first man I have ever met in my whole life in whom I can believe as one who is truly devoted. He believed in me at first sight, and I trust him.\u2019",
+        "\u201cThe prince is this for me, that I believe in him as the first truly devoted man in my whole life. He believed in me from the first glance, and I trust him.\u201d"
+      ],
+      "llama_31_8b": [
+        "\"The Prince was the first individual in my life to truly exemplify loyalty. From the very beginning, he placed his trust in me, and I have reciprocated that trust by believing in him.\""
+      ],
+      "gemini_25_flash": [
+        "\"The Prince is, in my experience, the only truly steadfast individual I've encountered. His belief in me was immediate, and I reciprocate that trust.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThe prince happens to be the first person in my life whom I recognized as a truly loyal man. He believed in me from the very beginning and I believe in him.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Nikolai Apollonovich felt hostility at this; and, on the point of standing aside, he changed his tactics: he did not stand aside; and so they all but bumped noses; Nikolai Apollonovich\u2014in astonishment; the stranger\u2014without the slightest surprise; what was surprising was that his big hand (with goose-pimples), numb with cold, was raised to his cap; and a hoarse, wooden, clipped voice rasped out with determination:"
+      ],
+      "llama_31_8b": [
+        "Nikolai Apollonovich noticed a suspicious-looking individual with a scarf wrapped around his neck, possibly a representative of the lower middle class."
+      ],
+      "gemini_25_flash": [
+        "Nikolai Apollonovich noticed a suspicious-looking individual, possibly from the lower middle class, with their neck covered.",
+        "Nikolai Apollonovich noticed a suspicious-looking individual, possibly from the lower middle class, who had a scarf or something similar around his neck."
+      ],
+      "dipper_lowmed": [
+        "Nikolai Apollonovich spotted a shady type (perhaps of the petit bourgeoisie) who had his neck tied up."
+      ]
+    },
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "llama_31_8b": [
+        "A decorative figurine made from a part of a hippopotamus or large antelope formed the base of a column or wall support. A horse-drawn carriage arrived and pulled up to a covered area, where a servant in a formal outfit and a high, three-cornered hat stepped forward to open the carriage door. As he did so, the door swung open, revealing a coat of arms featuring a small image of a crown - specifically, a situation where a knight is being attacked by a unicorn. In response to the greetings, the owner of the top hat tipped his brim in acknowledgement."
+      ],
+      "gemini_25_flash": [
+        "A caryatid, with a goat-like torso, stood as a carriage pulled by two horses sped towards the porch. A footman, wearing a three-cornered hat, clicked the door handle, and the door swung open, revealing a coat of arms featuring small crowns and a unicorn attacking a knight. In response to greetings, a gloved hand briefly touched the brim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of steeds flew up to the porch, and a footman, with a cocked hat on his head, gave a click to the handle, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). Responding to salutations, a hand in leather touched the brim of a top hat. The torso of a capripede-caryatid.",
+        "A carriage drawn by a pair of steeds flew up to the porte-coch\u00e8re, and a lackey, in a tricorne, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with little crowns (a unicorn goring a knight). A hand, clad in leather, responding to greetings, touched the brim of a top hat. The torso of a capripede caryatid."
+      ]
+    },
+    {
+      "human_par3": [
+        "The fact is, no one ever discovered how Joseph Buquet died. The investigation into it was brief and its verdict was straightforward: suicide. In his Memoirs of a Theatre Manager, M. Moncharmin, one of the two Directors who succeeded Messrs Debienne and Poligny, gave his own version of this business of the hanged man: \u2018A most disagreeable incident cast a pall over the modest party organized by Messrs Debienne and Poligny to mark their departure."
+      ],
+      "llama_31_8b": [
+        "The circumstances surrounding Joseph Buquet's death remain a mystery. The official verdict from the investigation concluded it was a suicide that occurred under ordinary conditions. In his book \"Memoirs of a Theatre Director,\" Armand Moncharmin, a co-director who later took over for Debienne and Poligny, recounts the event as follows: A tragic accident marred the farewell celebration that Messrs Debienne and Poligny were hosting.",
+        "The exact circumstances of Joseph Buquet's demise are still unclear. According to the official report, Buquet's death was ruled a suicide under normal circumstances. However, Armand Moncharmin, a theatre director who later took over, recounts the event in his memoirs. He describes how a devastating incident marred the farewell party thrown by Messrs Debienne and Poligny."
+      ],
+      "gemini_25_flash": [
+        "Nobody has ever truly clarified how Joseph Buquet died. The official ruling from the inquest was \"suicide due to natural causes.\" In his book, \"Memoirs of a Theatre Director,\" Armand Moncharmin, one of the new co-directors who took over from Messrs. Debienne and Poligny, describes the event this way: \"A terribly unfortunate incident spoiled the small gathering Messrs. Debienne and Poligny held to celebrate their retirement.\""
+      ],
+      "dipper_lowmed": [
+        "The truth is that nobody has ever been able to explain how Joseph Buquet met his death. In his Memoirs of a Theatre Director, Armand Moncharmin, one of the co-directors who succeeded Messrs. Debienne and Poligny, relates the following incident: A most unlucky accident ruined the little party that Messrs. Debienne and Poligny gave to celebrate their departure. The verdict of the inquest was: suicide under natural circumstances."
+      ]
+    },
+    {
+      "human_par3": [
+        "Unfortunately, cruel destiny did not allow Arinjaya to rule our land for more than a year; his son Paranthaka Sundara Chozhar was a strapping young man of twenty years. We, the Empire's pillars, the ministers, aides, chieftains, lords, kottam and kootram officials gathered, discussed the best interests of the country, and crowned Sundara Chozhar as King. There is no doubt that this was an excellent decision; until two years ago, Sundara Chozhar gave us no cause to doubt his rule."
+      ],
+      "llama_31_8b": [
+        "That's why we collectively decided to install Sundara Chola, the nephew of Gandaradithar, as our next ruler. Under his leadership, Sundara Chola has been a benevolent king to all of us until he unfortunately fell ill two years ago."
+      ],
+      "gemini_25_flash": [
+        "Therefore, we collectively decided that Gandaradithar's nephew, Sundara Chola, would be the next king. Sundara Chola ruled effectively for several years until he became ill two years ago."
+      ],
+      "dipper_lowmed": [
+        "And Sundara Chola has been a good king to all of us. He has been a good king until two years ago when he fell ill. Therefore, we decided to enthrone Gandaradithar's nephew as the next king.",
+        "Sundara Chola, Gandaradithar's nephew, was a good king to all of us. But he fell ill two years ago, and we decided to crown Sundara Chola as the next king."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Well, if you like, I have the same philosophy as you, that would be true. _Je pense, donc je suis_, I know that for a fact; all the rest, all these worlds, God and even Satan--all that is not proved, to my mind. Does all that exist of itself, or is it only an emanation of myself, a logical development of my ego which alone has existed for ever: but I make haste to stop, for I believe you will be jumping up to beat me directly.\""
+      ],
+      "llama_31_8b": [
+        "I'd put it more simply: You and I, our views align. It would be more accurate to say that. I think, therefore I exist, that is one truth I'm certain of. As for the rest, the realm of the gods, eternal beings, and even the concept of the devil - I remain uncertain whether they are objective realities or just fleeting manifestations of my own mind.",
+        "Let me rephrase it. Here's a version in my own words:\n\n\"For clarity, I'd say that we share the same basic outlook. Saying we do would be more accurate. The idea that I think, therefore I am is something I'm absolutely convinced of. As for the rest - the various worlds, God, and even the concept of the devil - I'm not convinced whether they're real entities in their own right or just a product of my own subjective thoughts and feelings.\""
+      ],
+      "gemini_25_flash": [
+        "\"I prefer to phrase it like this: your philosophy and mine are the same. That's a more accurate way to put it. 'I think, therefore I am' is something I'm absolutely sure of. Everything else\u2014worlds, God, and even Satan\u2014I'm not certain if they exist independently or are just temporary, personal reflections of my own mind.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWell, let\u2019s put it this way: you and I, we have the same philosophy. That is much more fair. Je pense, donc je suis \u2014 that I know for certain; the rest, all these worlds, God, even Satan, are I don\u2019t know whether they exist independently or whether they are only a passing subjective emanation from myself."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019"
+      ],
+      "llama_31_8b": [
+        "\"You can't seriously question this, but for someone who doesn't care for her, your willingness to put your life at risk is puzzling. I suppose it's because you're driven by hatred towards Erik.\""
+      ],
+      "gemini_25_flash": [
+        "\"How can you be so unsure? But you, who have no affection for her, why are you so willing to risk your life? It must be because you despise Erik.\"",
+        "\"Why question it? Yet, you, who hold no affection for her, readily risk your life. It must be your hatred for Erik driving you.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cHow can you doubt it! You hate Erik, I know that. But you, who don\u2019t love her, why are you so ready to endanger your life?"
+      ]
+    },
+    {
+      "human_par3": [
+        "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:",
+        "The zemstvo official, who had now become firmly established in the ballroom, stopped in perplexity, clutching with one hand at a tuft of his beard; meanwhile the lonely domino seemed to be imploring him not to drive him out of this house back into the Petersburg slush, imploring him not to drive him out of this house back into the cruel and dense fog. The zemstvo official evidently wanted to make a joke, because he hemmed and hawed; but when he tried to express his joke in words, that joke assumed a rather incoherent form:"
+      ],
+      "llama_31_8b": [
+        "The zemstvo official stood frozen, grasping his beard in confusion. The lone domino pleaded not to be forced out into the cold, wet streets of Petersburg, nor into the thick, noxious fog. The zemstvo official seemed to be trying to make a humorous comment, and let out a low, noncommittal grunt: \"Mm...\""
+      ],
+      "gemini_25_flash": [
+        "The local administrator paused, stroking his beard in confusion. The lone masked figure pleaded not to be forced out into the muddy Petersburg weather, not to be sent into the harsh fog. The administrator, seemingly intending a small jest, responded with a grunt: \u201cHmm\u2026\u201d"
+      ],
+      "dipper_lowmed": [
+        "The zemstvo official apparently wanted to make a small joke and grunted: \"Mmm...\" and stopped in bewilderment, clutching at a tuft of his beard. The lonely domino begged not to be expelled into the Petersburg slush, begged not to be expelled into the malignant fog."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "I detested everyone in my office, from the highest to the lowest, and looked down on them, yet paradoxically, I also felt intimidated by them. My feelings were often extreme back then: one moment I'd scorn them, the next I'd elevate them in my mind. A sophisticated and respectable person cannot be arrogant without also being incredibly self-critical and, at times, loathing themselves. Regardless of whether I held them in contempt or respect, I would invariably avoid eye contact with almost everyone I encountered. I even tried to withstand someone's gaze, but I always looked away first, which infuriated me. I had an overwhelming fear of appearing foolish, so I slavishly adhered to conventional practices in all outward matters. I enjoyed conforming and dreaded any personal eccentricity.\n\nHowever, how could I truly conform? I was excessively intellectual, as a modern person should be, while they were all simple-minded and indistinguishable from each other. Perhaps I was the only one in the office who constantly perceived myself as a coward and a subservient individual, and this perception stemmed directly from my intellectual development. But it wasn't just a feeling; it was the truth: I was a coward and a slave. I state this without shame. In our era, every respectable person is inherently a coward and a slave. This is their natural state, and I am profoundly convinced of it. This isn't due to temporary circumstances, but rather, a fundamental characteristic of respectable individuals throughout history. This is the inherent law for all decent people on Earth. If one of them manages to show a brief moment of courage, they shouldn't take comfort in it, as they will inevitably falter in the face of something else. This is the consistent and inevitable outcome. Only fools and their mixed breeds display courage, and even then, only up to a certain limit. They are not worth considering, as they hold no true significance.",
+      "The Oblomovka philosopher lived according to a unique set of principles, allowing him to remain detached amidst life's demands and the pressure of responsibility. This approach was shaped by his upbringing and personality, which made him more suited to observing life's events from a safe distance, rather than engaging with the challenges and risks that came with it. As someone with a laid-back and gentle nature, he was not wired to face the intense highs and lows of life, and as a result, he existed in a state of apathy, neither striving to achieve, change, nor show remorse.",
+      "\"The Prince is, in my experience, the only truly steadfast individual I've encountered. His belief in me was immediate, and I reciprocate that trust.\"",
+      "Nikolai Apollonovich noticed a suspicious-looking individual, possibly from the lower middle class, with their neck covered.",
+      "A carriage drawn by a pair of steeds flew up to the porte-coch\u00e8re, and a lackey, in a tricorne, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with little crowns (a unicorn goring a knight). A hand, clad in leather, responding to greetings, touched the brim of a top hat. The torso of a capripede caryatid.",
+      "The truth is that nobody has ever been able to explain how Joseph Buquet met his death. In his Memoirs of a Theatre Director, Armand Moncharmin, one of the co-directors who succeeded Messrs. Debienne and Poligny, relates the following incident: A most unlucky accident ruined the little party that Messrs. Debienne and Poligny gave to celebrate their departure. The verdict of the inquest was: suicide under natural circumstances.",
+      "Sundara Chola, Gandaradithar's nephew, was a good king to all of us. But he fell ill two years ago, and we decided to crown Sundara Chola as the next king.",
+      "\"I prefer to phrase it like this: your philosophy and mine are the same. That's a more accurate way to put it. 'I think, therefore I am' is something I'm absolutely sure of. Everything else\u2014worlds, God, and even Satan\u2014I'm not certain if they exist independently or are just temporary, personal reflections of my own mind.\"",
+      "\"You can't seriously question this, but for someone who doesn't care for her, your willingness to put your life at risk is puzzling. I suppose it's because you're driven by hatred towards Erik.\"",
+      "The zemstvo official apparently wanted to make a small joke and grunted: \"Mmm...\" and stopped in bewilderment, clutching at a tuft of his beard. The lonely domino begged not to be expelled into the Petersburg slush, begged not to be expelled into the malignant fog."
+    ],
+    [
+      "Of course, I hated them all in the office, from first to last, and despised them all, but at the same time I was somehow afraid of them, it happened that I suddenly set them above myself. A developed and decent person cannot be vain without a boundless maniac in himself and without despising himself at moments to the point of hatred. But no matter whether I despised them or set them above me, I lowered my eyes almost everyone I met, I even made experiments: could I endure this so-and-so's look at me? and I was always the first to lower my eyes, that tormented me to the point of fury; I was also afraid to the point of illness to be ridiculous, and therefore slavishly worshipped routine in everything external; I loved falling into the common rut, and feared any eccentricity in myself with all my soul; but how could I hold out? I was morbidly developed, as a man of our time should be developed; they were all dull-witted and like each other as a flock of sheep. Of course, I hated them all in our office, from the first to the last, and despised them all, but at the same time I suddenly set them above myself; it was some kind of sudden thing with me then: now I despised them, now I set them above myself; a developed and decent man cannot be vain without boundless demands on himself, without despising himself at moments to the point of hatred; but whether I despised them or set them above myself, I would lower my eyes to almost everyone I met; I even made experiments: would I be able to endure the gaze of so and so on me? - and I was always the first to lower my eyes; that tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshipped the routine in everything external; I loved falling into the common rut; I feared eccentricity with all my heart;",
+      "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it.",
+      "\u201cThe prince happens to be the first person in my life whom I recognized as a truly loyal man. He believed in me from the very beginning and I believe in him.\u201d",
+      "Nikolai Apollonovich noticed a suspicious-looking individual with a scarf wrapped around his neck, possibly a representative of the lower middle class.",
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "Nobody has ever truly clarified how Joseph Buquet died. The official ruling from the inquest was \"suicide due to natural causes.\" In his book, \"Memoirs of a Theatre Director,\" Armand Moncharmin, one of the new co-directors who took over from Messrs. Debienne and Poligny, describes the event this way: \"A terribly unfortunate incident spoiled the small gathering Messrs. Debienne and Poligny held to celebrate their retirement.\"",
+      "And Sundara Chola has been a good king to all of us. He has been a good king until two years ago when he fell ill. Therefore, we decided to enthrone Gandaradithar's nephew as the next king.",
+      "\"Well, if you like, I have the same philosophy as you, that would be true. _Je pense, donc je suis_, I know that for a fact; all the rest, all these worlds, God and even Satan--all that is not proved, to my mind. Does all that exist of itself, or is it only an emanation of myself, a logical development of my ego which alone has existed for ever: but I make haste to stop, for I believe you will be jumping up to beat me directly.\"",
+      "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019",
+      "The local administrator paused, stroking his beard in confusion. The lone masked figure pleaded not to be forced out into the muddy Petersburg weather, not to be sent into the harsh fog. The administrator, seemingly intending a small jest, responded with a grunt: \u201cHmm\u2026\u201d"
+    ],
+    [
+      "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing.",
+      "The perspective developed by the 'Oblomovka Plato' was one that kept him comfortable, shielding him from the pressing obligations and challenges of life. He wasn't raised to be a fighter in life's struggles, but rather an observer from the sidelines. His gentle and passive nature couldn't handle the excitement of joy or the hardships of existence. As a result, his character represented an ultimate state of inactivity; he made no effort to accomplish anything, initiate change, or express regret.",
+      "\u201cThe prince is this for me, that I believe in him as the first truly devoted man in my whole life. He believed in me from the first glance, and I trust him.\u201d",
+      "Nikolai Apollonovich spotted a shady type (perhaps of the petit bourgeoisie) who had his neck tied up.",
+      "A caryatid, with a goat-like torso, stood as a carriage pulled by two horses sped towards the porch. A footman, wearing a three-cornered hat, clicked the door handle, and the door swung open, revealing a coat of arms featuring small crowns and a unicorn attacking a knight. In response to greetings, a gloved hand briefly touched the brim of a top hat.",
+      "The exact circumstances of Joseph Buquet's demise are still unclear. According to the official report, Buquet's death was ruled a suicide under normal circumstances. However, Armand Moncharmin, a theatre director who later took over, recounts the event in his memoirs. He describes how a devastating incident marred the farewell party thrown by Messrs Debienne and Poligny.",
+      "Therefore, we collectively decided that Gandaradithar's nephew, Sundara Chola, would be the next king. Sundara Chola ruled effectively for several years until he became ill two years ago.",
+      "I'd put it more simply: You and I, our views align. It would be more accurate to say that. I think, therefore I exist, that is one truth I'm certain of. As for the rest, the realm of the gods, eternal beings, and even the concept of the devil - I remain uncertain whether they are objective realities or just fleeting manifestations of my own mind.",
+      "\u201cHow can you doubt it! You hate Erik, I know that. But you, who don\u2019t love her, why are you so ready to endanger your life?",
+      "The zemstvo official stood frozen, grasping his beard in confusion. The lone domino pleaded not to be forced out into the cold, wet streets of Petersburg, nor into the thick, noxious fog. The zemstvo official seemed to be trying to make a humorous comment, and let out a low, noncommittal grunt: \"Mm...\""
+    ],
+    [
+      "I had a complex and often contradictory relationship with my coworkers in the office. On the one hand, I hated them all and felt a strong sense of disdain, but on the other hand, I was also intimidated by them. This led to a pattern of vacillating between feeling superior and inferior to them. I was particularly prone to feelings of self-directed contempt, which I believe is a natural part of being a well-adjusted and critically thinking person. However, this tendency to be overly self-critical would often manifest in a fear of being ridiculed, leading me to internalize a rigid set of social norms and stick to what was considered \"normal\" and \"acceptable\". Despite my surface-level appearance of confidence and composure, I was actually deeply anxious and fearful of not meeting societal expectations. In reality, I was both a coward and a slave to the conventions of the time, and this was not just a temporary state, but a fundamental aspect of being a decent person. I genuinely believe that this is the natural condition of anyone who values decency, that is, being constantly intimidated and fearful of making mistakes or being judged by others. This dynamic is an integral part of the human experience across all time periods, and it's only those who are naive or unrefined who would suggest otherwise.",
+      "He was born and brought up not like a gladiator, for the arena, but as a peaceful spectator of the battle; neither the blows of happiness, nor the blows of life were for his meek and lazy soul. Consequently, his person expressed one extreme of life, and he did not do anything to achieve, change or repent. This philosophy of Oblomov's Plato, which lulled him amid the clashes and strict demands of duty and purpose, was the philosophy of Plato.",
+      "\"The Prince was the first individual in my life to truly exemplify loyalty. From the very beginning, he placed his trust in me, and I have reciprocated that trust by believing in him.\"",
+      "Nikolai Apollonovich noticed a suspicious-looking individual, possibly from the lower middle class, who had a scarf or something similar around his neck.",
+      "A carriage drawn by a pair of steeds flew up to the porch, and a footman, with a cocked hat on his head, gave a click to the handle, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). Responding to salutations, a hand in leather touched the brim of a top hat. The torso of a capripede-caryatid.",
+      "The circumstances surrounding Joseph Buquet's death remain a mystery. The official verdict from the investigation concluded it was a suicide that occurred under ordinary conditions. In his book \"Memoirs of a Theatre Director,\" Armand Moncharmin, a co-director who later took over for Debienne and Poligny, recounts the event as follows: A tragic accident marred the farewell celebration that Messrs Debienne and Poligny were hosting.",
+      "That's why we collectively decided to install Sundara Chola, the nephew of Gandaradithar, as our next ruler. Under his leadership, Sundara Chola has been a benevolent king to all of us until he unfortunately fell ill two years ago.",
+      "\u201cWell, let\u2019s put it this way: you and I, we have the same philosophy. That is much more fair. Je pense, donc je suis \u2014 that I know for certain; the rest, all these worlds, God, even Satan, are I don\u2019t know whether they exist independently or whether they are only a passing subjective emanation from myself.",
+      "\"How can you be so unsure? But you, who have no affection for her, why are you so willing to risk your life? It must be because you despise Erik.\"",
+      "The zemstvo official, who had now become firmly established in the ballroom, stopped in perplexity, clutching with one hand at a tuft of his beard; meanwhile the lonely domino seemed to be imploring him not to drive him out of this house back into the Petersburg slush, imploring him not to drive him out of this house back into the cruel and dense fog. The zemstvo official evidently wanted to make a joke, because he hemmed and hawed; but when he tried to express his joke in words, that joke assumed a rather incoherent form:"
+    ],
+    [
+      "Of course, I hated all of them in the office, from the first to the last, and I despised them all, but at the same time I was somehow afraid of them; it happened that I suddenly put them above me; it was somehow sudden with me in those days: now I despised them, now I put them above me; a developed and decent person cannot be vain without boundless demands on himself and without despising himself at moments to the point of hatred; but whether I despised them or put them above me, I used to drop my eyes in front of almost everyone I met, I even made experiments: could I stand this gaze on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything external; I loved falling into the common rut, and feared any eccentricity within myself with all my soul. All decent men of our time are and must be cowards and slaves; this is his normal condition; I am deeply convinced of it; this is how they are made and arranged; and not only in our times, because of some chance circumstance, but in all times, a decent man must be a coward and a slave: this is the natural law of all decent people on earth; if one of them happens to show a bit of pluck about something, do not be astonished or pleased by this; he will then be quaking before something else.",
+      "It was he who had been born and brought up, not as a gladiator, for the arena, but as a peaceful spectator of the battle; it was not for his meek and lazy soul to endure the shocks of happiness and the blows of life; consequently, his person expressed one of the extremes of life, and he did not achieve, change, or repent. This was the philosophy of Oblomovka Plato, a philosophy that lulled him in the midst of the problems and strict demands of duty and purpose!",
+      "\u2018Well, for me the prince means this: he is the first man I have ever met in my whole life in whom I can believe as one who is truly devoted. He believed in me at first sight, and I trust him.\u2019",
+      "Nikolai Apollonovich felt hostility at this; and, on the point of standing aside, he changed his tactics: he did not stand aside; and so they all but bumped noses; Nikolai Apollonovich\u2014in astonishment; the stranger\u2014without the slightest surprise; what was surprising was that his big hand (with goose-pimples), numb with cold, was raised to his cap; and a hoarse, wooden, clipped voice rasped out with determination:",
+      "A decorative figurine made from a part of a hippopotamus or large antelope formed the base of a column or wall support. A horse-drawn carriage arrived and pulled up to a covered area, where a servant in a formal outfit and a high, three-cornered hat stepped forward to open the carriage door. As he did so, the door swung open, revealing a coat of arms featuring a small image of a crown - specifically, a situation where a knight is being attacked by a unicorn. In response to the greetings, the owner of the top hat tipped his brim in acknowledgement.",
+      "The fact is, no one ever discovered how Joseph Buquet died. The investigation into it was brief and its verdict was straightforward: suicide. In his Memoirs of a Theatre Manager, M. Moncharmin, one of the two Directors who succeeded Messrs Debienne and Poligny, gave his own version of this business of the hanged man: \u2018A most disagreeable incident cast a pall over the modest party organized by Messrs Debienne and Poligny to mark their departure.",
+      "Unfortunately, cruel destiny did not allow Arinjaya to rule our land for more than a year; his son Paranthaka Sundara Chozhar was a strapping young man of twenty years. We, the Empire's pillars, the ministers, aides, chieftains, lords, kottam and kootram officials gathered, discussed the best interests of the country, and crowned Sundara Chozhar as King. There is no doubt that this was an excellent decision; until two years ago, Sundara Chozhar gave us no cause to doubt his rule.",
+      "Let me rephrase it. Here's a version in my own words:\n\n\"For clarity, I'd say that we share the same basic outlook. Saying we do would be more accurate. The idea that I think, therefore I am is something I'm absolutely convinced of. As for the rest - the various worlds, God, and even the concept of the devil - I'm not convinced whether they're real entities in their own right or just a product of my own subjective thoughts and feelings.\"",
+      "\"Why question it? Yet, you, who hold no affection for her, readily risk your life. It must be your hatred for Erik driving you.\"",
+      "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:"
+    ]
+  ]
+}

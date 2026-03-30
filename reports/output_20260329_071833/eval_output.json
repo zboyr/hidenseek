@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ]
+  ],
+  "source_texts": [
+    "\u201cThat\u2019s precisely what he\u2019s missing!\u201d Razumikhin interrupted. \u201cThat\u2019s what\u2019s leading you all astray. I maintain that he was inept and inexperienced, and this was probably his first endeavor! If you assume he was a calculating and cunning rogue, then the whole thing turns out improbably. Assume an inexperienced fellow, and it turns out that it was chance alone that saved him from disaster, and what can\u2019t chance do? He might not even have foreseen the obstacles he\u2019d encounter! How did this affair proceed? He took items worth ten or twenty rubles, stuffed them into his pocket, searched around in the old woman\u2019s trunk, among her clothes\u2014but later, in her dresser, in a box in the top drawer, they find fifteen hundred rubles in cash, plus some notes! He didn\u2019t know how to rob; he only knew how to murder! It was his first endeavor, I tell you, his first. He lost his head! It wasn\u2019t calculation, but chance that saved him.\u201d",
+    "Nana, informed by Labordette of what had taken place, arrived triumphant. She affected the style of a respectable woman, with most distinguished ways, just to astonish every one and to prove to those idiots that, when she liked, not one of them could come up to her; but she almost forgot herself. Rose, as soon as she saw her, flew at her, stammering in a choking voice,",
+    "The captain offered me a cup of the still-warm milk. I could not stop myself showing repugnance at this brew. He assured me that the milk was excellent, and no different from cows\u2019 milk.",
+    "Peter got wide wake, and then they both watched the bird breathlessly. It rose higher and higher into the azure, till it disappeared at last behind the mountain-peak.",
+    "He escorted his mother to her hotel. Afterwards, he turned onto the Moika. There was gloom in the windows of the little apartment. The Likhutins were not there. Nothing to be done: he turned and went home.",
+    "\u201cFor me the Prince happens to be the first person in my life in whom I recognized a truly loyal person. He believed in me from the first, and I believe in him.\u201d",
+    "\"I? If there is anything in the world I really hate, it is going to bed before twelve o'clock at night!\" Oh, is that so!",
+    "Kundavai Devi had arranged for a special pooja [92] and yagna [93] to be conducted in Pazhaiarai Palace, on the day he left. The womenfolk in the palace and the other elders came out to the courtyard, to bid farewell to their dear prince.",
+    "When Vandiya Devan heard Pazhuvetarayar talk about the royal throne, he decided to hear out everything that was happening in the meeting below. Who are they to discuss or determine anything about the royal throne? I must definitely learn what is happening here? I can just sit here and listen and what does it matter if Azhwarkadiyan is spying on them.",
+    "We started laughing and joking, we talked without stopping the whole time, I didn't know what I was saying, I was happy. She told me she had seen me one time earlier, a long time ago, in the theater. I was with three friends and had behaved like a lunatic; no question, I had been drunk that time too, that was naughty."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ]
+  ],
+  "rationales": [
+    "Outputs 1 and 4 share several distinct stylistic and structural similarities that point to a common origin. The most striking piece of evidence is a peculiar punctuation error present in both: a space is inserted before a comma in a nearly identical phrase. In output 1, we see \"It was his first crime , I\u2019m telling you...\", and in output 4, we see \"It was his first time , I\u2019m telling you...\". This unusual formatting is a strong indicator of a shared system. Additionally, both outputs maintain a very similar conversational tone and sentence structure. They both begin with a similar emphatic denial (\"That\u2019s just what it wasn\u2019t!\" vs. \"That\u2019s just the point\u2014it isn\u2019t!\") and both conclude the paragraph with the assertion that it was his \"first crime/time\" and that he \"lost his head\". While there are minor differences like the choice of quotation marks (double in 1, single in 4) and word choices (\"crime\" vs. \"time\"), the underlying template and idiosyncratic punctuation error are too similar to be a coincidence.",
+    "Outputs 0 and 3 share an almost identical sentence structure throughout the entire text. The paraphrasing strategy appears to be a simple find-and-replace of certain words with their synonyms, while keeping the larger grammatical framework intact. \n\nExamples of this pattern include:\n- \"told by Labordette of what had taken place\" (0) vs. \"informed by Labordette of what had happened\" (3)\n- \"affected the manners\" (0) vs. \"affected the style\" (3)\n- \"just to surprise everyone\" (0) vs. \"just to amaze everyone\" (3)\n- \"when she liked\" (0) vs. \"when she pleased\" (3)\n- \"muttering in a choking voice\" (0) vs. \"stuttering in a choked voice\" (3)\n\nAdditionally, several key phrases are completely identical, such as \"arrived triumphant,\" \"not one of them could equal her,\" \"she almost forgot herself,\" and \"Rose, as soon as she saw her, rushed at her.\" The other outputs (1, 2, and 4) exhibit more significant structural changes and different word choices, indicating they were produced by different systems.",
+    "Outputs 0 and 4 are nearly identical in their structure and word choice, indicating they were produced by the same system. Both use a three-sentence structure. The first sentence in both starts with \"The captain offered me a cup of...\" with the only minor difference being the hyphenation of \"still-warm\" in output 4. The second sentence in both is \"He assured me that [pronoun] was excellent, and no different from cow's milk,\" with a simple pronoun swap of \"the milk\" for \"it\". The final sentence is almost identical: \"I could not help [verb]ing my repugnance to this brew,\" with the only change being the synonym swap of \"expressing\" for \"showing\". This high degree of syntactic and lexical parallelism, with only minor, localized variations, is a strong indicator of a single underlying model.",
+    "Outputs 0 and 2 share a striking number of stylistic and structural similarities. Both use the exact phrase \"watched breathlessly,\" and the repetitive structure \"rose higher and higher.\" Most notably, both use the less common, more poetic word \"azure\" to describe the sky (\"azure sky\" in 0, \"azure heavens\" in 2). The overall sentence structure is almost identical: `[Subject's action], and they watched breathlessly, [conjunction] the bird rose higher and higher in the azure [sky/heavens], until it disappeared behind the mountain peak.` The minor differences, like \"Peter got a wide grin\" vs. \"Peter\u2019s eyes widened,\" and \"sky\" vs. \"heavens,\" are typical variations one would expect from running the same paraphrasing model twice.",
+    "Outputs 2 and 4 share a very distinct and unusual stylistic pattern. Both are constructed as a single, long sentence, using a heavy and unconventional number of semicolons and colons to string together what would otherwise be separate clauses or sentences. For example, output 2 uses the structure \"...Moika: darkness loomed...; the Likhutins were not there; nothing to be done; he turned and went home.\" Similarly, output 4 uses \"...Moika; in the windows...darkness: the Likhutins were not at home; nothing for it: he turned back home.\" This shared reliance on semicolons to create a long, run-on style sentence is a strong linguistic fingerprint. The other outputs (0, 1, and 3) all use more conventional multi-sentence structures with standard punctuation.",
+    "Outputs 3 and 4 show striking similarities in sentence structure and word choice, suggesting they originated from the same paraphrasing system. Both use a slightly unnatural framing: \"for me the prince means this\" (3) and \"The prince is this for me\" (4). They both include the phrases \"in my whole life\" and \"truly devoted\". The most compelling evidence is the near-identical second clause. Output 3 says, \"He believed in me at first sight, and I trust him,\" while Output 4 says, \"He believed in me from the first glance, and I trust him.\" The substitution of \"at first sight\" with the very close synonym \"from the first glance\" while keeping the surrounding structure and the closing phrase \"and I trust him\" identical is a classic fingerprint of a specific paraphrasing model.",
+    "Outputs 2 and 4 are the only two that adopt a first-person perspective in a highly theatrical and slightly archaic manner. The most compelling shared fingerprint is that both begin with the unusual, single-letter question \"I?\". Furthermore, they both employ a very similar sentence structure: \"If there is/was something/anything in the world I hate/hated, it is/was...\". Both also use the specific phrase \"twelve o'clock\" and tack on extra conversational flourishes (\"- Oh, is it true?\" in 2 and \"Ah, there, you see!\" in 4), which suggests a consistent stylistic pattern from the same source.",
+    "Outputs 2 and 3 are remarkably similar in structure and word choice, suggesting they were produced by the same system. Both begin with the identical phrase \"On the day of his departure, Kundavai Devi organized...\". They both describe the event as a \"special religious ceremony and [a] fire ritual at Pazhaiarai Palace\". The only significant difference between them is in the second sentence, where one uses \"bid their beloved prince farewell\" and the other uses \"see their beloved prince off\". This type of minor lexical variation on a shared sentence structure is a classic fingerprint of a single paraphrasing model generating multiple outputs.",
+    "Outputs 1 and 4 were identified as coming from the same paraphraser due to several strong linguistic overlaps. Both outputs begin with a similar subordinate clause structure: \"When Vandiya Devan heard...\" (1) and \"When Vandiyathevan heard...\" (4). More compellingly, they both represent the protagonist's internal monologue as direct questions and statements, rather than reported speech. This leads to nearly identical phrasing in one part: \"What does it matter if Azhwarkkadiyaan is spying on them?\" (1, with a question mark) and \"What does it matter if Azhwarkkadiyaan is spying on them?\" (4, without a question mark). Both also use the exact same, distinct spelling for the name \"Azhwarkkadiyaan\" (with a double 'k' and double 'a'), which is different from outputs 0 and 3. Finally, the concluding thought is very similar in structure and vocabulary: \"I must definitely know what is going on here\" (1) and \"I must hear what is happening here\" (4). These shared patterns in sentence structure, specific phrasing, and unusual name spelling strongly suggest a common origin.",
+    "Outputs 0 and 2 exhibit several strong stylistic similarities, suggesting they were produced by the same paraphrasing system. Both maintain the original narrative structure, starting with the happy conversation and then introducing the memory of the theater. They use the exact same distinctive phrase \"flowed easily\" to describe the conversation. Furthermore, they express the narrator's emotional state in a very similar, slightly embellished way: \"I was in a state of bliss\" (0) and \"I was in a state of pure happiness\" (2). Both outputs also opt for modern, descriptive language to convey the idea of being out of control (\"outrageous\" in 0, \"getting completely out of control\" and \"reckless\" in 2) rather than using the more literal or archaic terms seen in other outputs like \"madman\". Finally, they both use the verb \"acknowledge\" for the narrator's admission of his past behavior."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\u2018That\u2019s just the point\u2014it isn\u2019t!\u2019 interrupted Razumikhin. \u2018 That\u2019s just what you\u2019re all getting wrong. What I say is that he\u2019s not clever, not experienced, and probably this was his first time! If you imagine it being planned by a clever villain, it doesn\u2019t make sense. But if you imagine someone inexperienced, then it\u2019s quite clear that there was just one lucky chance that saved him from disaster\u2014and chance can do anything. I mean, perhaps he never foresaw any difficulties! And how does he set about it? He takes some things worth ten or twenty roubles apiece and fills his pockets with them, he burrows in the old woman\u2019s trunk, amongst all her rags, and all the while there\u2019s a box in the top drawer of her chest of drawers where they\u2019ve found fifteen hundred roubles in cash, not to mention banknotes! He didn\u2019t even manage to rob her\u2014all he managed to do was kill her! It was his first time , I\u2019m telling you, his first time, and he lost his head! And it wasn\u2019t any planning on his part, it was pure luck that saved him!\u2019",
+        "\u201cThat\u2019s just what it wasn\u2019t!\u201d interposed Razumikhin. \u201cThat\u2019s what throws you all off the scent. I don\u2019t think he\u2019s cunning or experienced; this was probably his first crime! Assuming the criminal planned it all out doesn\u2019t work. Suppose he\u2019s inexperienced: it\u2019s clear that the only thing which saved him was chance\u2014and chance can do anything. Perhaps he didn\u2019t even foresee any obstacles! What did he do? He took jewels worth ten or twenty rubles, stuffed his pockets with them, ransacked the old woman\u2019s trunk, her rags\u2014and they found fifteen hundred rubles, besides notes, in a box in the top drawer of the chest! He didn\u2019t know how to rob anyone; he could only carry out the murder. It was his first crime , I\u2019m telling you, his first crime; he lost his head. He got off because he was lucky, not because he was experienced!\u201d"
+      ],
+      "llama_31_8b": [
+        "Razumikhin cut in, boldly declaring that this exact mentality is what's leading everyone astray. In his opinion, the young man in question was probably incompetent and inexperienced, and this was likely his very first attempt at such a crime. If you assume he was cunning and deliberate in his actions, then the whole scenario becomes implausible. However, if you consider him to be amateurish and lacking in experience, it becomes clear that chance was the only factor that prevented him from getting caught in a catastrophic situation. This amateur might not even have foreseen the obstacles he'd face. The sequence of events appears to have unfolded like this: he started by stealing items worth a few rubles, which he stuffed into his pocket, and then proceeded to search through the old woman's clothes and other belongings. But then, while rummaging through a drawer, he stumbled upon a significant amount of money, including 1500 rubles in cash and some valuable notes. Razumikhin firmly believes that this individual didn't know how to carry out a robbery with any finesse and instead relied on his instincts, acting more out of desperation than calculated intent. In other words, Razumikhin insists that the young man's actions were driven by chance and inexperience, rather than any semblance of strategy or planning."
+      ],
+      "gemini_25_flash": [
+        "\"That's exactly his problem!\" Razumikhin exclaimed. \"That's why you're all mistaken. I believe he was clumsy and green, probably his first attempt! If you think he was a shrewd and sly criminal, then the story makes no sense. But if you assume he was an amateur, then pure luck saved him from ruin, and luck can do anything! He likely didn't even anticipate the difficulties he'd face! How did this whole thing unfold? He grabbed a few items worth twenty rubles at most, shoved them in his pocket, rummaged through the old woman's trunk and clothes \u2013 but later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, along with promissory notes! He wasn't a thief; he was simply a killer! It was his debut, I tell you, his very first time. He panicked! It wasn't planning, but fate that rescued him.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cTherein lies the thing,\u201d Razumikhin interrupted, \u201chere is where you all go astray, I maintain that he was a fool, inept and inexperienced, and that this was probably his first attempt; if you assume that he was a calculating, a cunning rogue, then the whole thing turns out improbably, but assume an inexperienced fellow, and it turns out that it was chance alone that saved him from disaster, and what is not done by chance? He didn\u2019t know how to rob, he only knew how to kill; it was his first attempt, I say, his first, he lost his head, it was not calculation, but chance that saved him.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "At this moment Nana, to whom Labordette had brought the news, came down to the stage in triumph. She was quite the honest woman now and wore a most distinguished expression in order to overwhelm her friends and prove to the idiots that when she chose she could give them all points in the matter of smartness. But she nearly got into trouble, for at the sight of her Rose darted forward, choking with rage and stuttering:"
+      ],
+      "llama_31_8b": [
+        "Nana, having learned what had occurred, returned, exuding the refined elegance of a woman of high stature, in order to make a striking impression and show the fools that, if she chose, none of them could match her level. However, she was almost carried away by her own pride. The moment she saw Rose, she rushed at her, speaking in excited, barely intelligible tones."
+      ],
+      "gemini_25_flash": [
+        "Upon learning from Labordette about the situation, Nana made a triumphant entrance. She adopted the demeanor of a respectable and distinguished woman, intending to impress everyone and demonstrate her superiority to those she deemed idiotic. However, she nearly lost her composure. The moment Rose saw her, she lunged forward, her voice thick with emotion."
+      ],
+      "dipper_lowmed": [
+        "Nana, informed by Labordette of what had happened, arrived triumphant. She affected the style of a respectable woman, with most distinguished airs, just to amaze everyone and prove to those idiots that, when she pleased, not one of them could equal her, but she almost forgot herself. Rose, as soon as she saw her, rushed at her, stuttering in a choked voice:",
+        "Nana, told by Labordette of what had taken place, arrived triumphant. She affected the manners of a respectable woman, with the most distinguished airs, just to surprise everyone and to show those idiots that, when she liked, not one of them could equal her. But she almost forgot herself. Rose, as soon as she saw her, rushed at her, muttering in a choking voice:"
+      ]
+    },
+    {
+      "human_par3": [
+        "The captain offered me a cup of the milk, which was still warm. I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow\u2019s milk."
+      ],
+      "llama_31_8b": [
+        "The captain poured me a cup of the milk, which was still warm. However, my initial reaction was one of distaste. He tried to reassure me that the milk was of high quality and comparable to the milk from cows, but I remained unconvinced."
+      ],
+      "gemini_25_flash": [
+        "The captain presented me with a cup of milk, still warm. I couldn\u2019t help but display my disgust at the beverage. He insisted that the milk was perfectly fine, just like cow's milk."
+      ],
+      "dipper_lowmed": [
+        "The captain offered me a cup of still-warm milk. He assured me that it was excellent, and no different from cow's milk. I could not help showing my repugnance to this brew.",
+        "The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk. I could not help expressing my repugnance to this brew."
+      ]
+    },
+    {
+      "human_par3": [
+        "Peter sat up and together they watched as the great bird soared higher and higher into the sky and finally disappeared over the grey peaks."
+      ],
+      "llama_31_8b": [
+        "As they gazed out, a broad expanse of water stretched before them, and their attention was drawn to a bird rising into the clear blue sky. The bird continued to soar upwards, its path disappearing from view behind a towering mountain peak."
+      ],
+      "gemini_25_flash": [
+        "Peter fully awoke, and both of them intently observed the bird. It ascended further and further into the clear blue sky until it vanished behind the mountain's summit."
+      ],
+      "dipper_lowmed": [
+        "Peter got a wide grin and then they both watched breathlessly, as the bird rose higher and higher in the azure sky until finally it disappeared behind the mountain peak.",
+        "Peter\u2019s eyes widened, and they watched breathlessly, for the bird rose higher and higher in the azure heavens, until it disappeared behind the mountain peak."
+      ]
+    },
+    {
+      "human_par3": [
+        "Nikolai Apollonovich took his mother to her hotel; then\u2014he turned off to the Moika; in the windows of the apartment was darkness: the Likhutins were not at home; nothing for it: he turned back home."
+      ],
+      "llama_31_8b": [
+        "Later, Aleksei walked his mother to her hotel and then headed down the Moika embankment. Windows in the Likhutin apartment were dim, which indicated that no one was home. He turned and walked back home."
+      ],
+      "gemini_25_flash": [
+        "After taking his mother to her hotel, he went to the Moika. The small apartment's windows were dark, indicating the Likhutins were absent. Since there was nothing he could do, he left and returned to his own home."
+      ],
+      "dipper_lowmed": [
+        "He accompanied his mother to her hotel, then turned onto the Moika: darkness loomed in the windows of the little apartment; the Likhutins were not there; nothing to be done; he turned and went home.",
+        "He escorted his mother to her hotel, and then he turned into the Moika; darkness was behind the windows of the little apartment, the Likhutins were not there. There was nothing to be done: he turned and went home."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Well, for me the prince means this: he is the first man I have ever met in my whole life in whom I can believe as one who is truly devoted. He believed in me at first sight, and I trust him.\u2019",
+        "\u201cThe prince is this for me, that I believe in him as the first truly devoted man in my whole life. He believed in me from the first glance, and I trust him.\u201d"
+      ],
+      "llama_31_8b": [
+        "The Prince was the first person I've ever met who genuinely put loyalty into practice. He supported me right from the very start and has earned my unwavering trust in return."
+      ],
+      "gemini_25_flash": [
+        "I consider the Prince to be the first truly devoted individual I've encountered. His belief in me was immediate, and I reciprocate that trust."
+      ],
+      "dipper_lowmed": [
+        "\u201cThe prince happens to be the first person in my life whom I have recognized as a truly loyal man. He believed in me from the very first, and I believe in him.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "I? If there was anything in the world I hated it was to go to bed before twelve o'clock at night. Ah, there, you see!"
+      ],
+      "llama_31_8b": [
+        "You're expressing a strong dislike for going to bed before midnight.",
+        "He's absolutely dreading going to bed before midnight - it's practically his least favorite thing to do in the entire world."
+      ],
+      "gemini_25_flash": [
+        "\"Oh, so you're saying the one thing you truly despise is retiring for the evening prior to midnight!\""
+      ],
+      "dipper_lowmed": [
+        "- I? Oh, is it true? If there is something in the world that I really hate, it is going to bed before twelve o'clock in the evening!"
+      ]
+    },
+    {
+      "human_par3": [
+        "Princess Kundhavai made sure that her brother departed Pazhaiyarai in pomp and splendour: she had organized quite a few events in the principal palace, for his edification. When Arulmozhi stepped out of the palace confines, conches blew deafeningly, drums thundered victoriously, accompanied by the smaller siru parai beats, in the courtyard; while chants of triumph cleaved the very skies. Every one of the royal mothers blessed their favourite son, applied sacred ash on his forehead, uttered many blessings to ward off evil spirits and gave him leave to return to battle."
+      ],
+      "llama_31_8b": [
+        "On the day he was leaving, a special prayer ceremony and sacred ritual were held in the courtyard of Pazhaiarai Palace, as arranged by Kundavai. The women and older members of the palace went to the courtyard to give a heartfelt farewell to their beloved prince."
+      ],
+      "gemini_25_flash": [
+        "On the day of his departure, Kundavai Devi organized a special religious ceremony and fire ritual at Pazhaiarai Palace. The women and elders of the palace gathered in the courtyard to bid their beloved prince farewell.",
+        "On the day of his departure, Kundavai Devi organized a special religious ceremony and a fire ritual at Pazhaiarai Palace. The women of the palace and other senior members of the household gathered in the courtyard to see their beloved prince off."
+      ],
+      "dipper_lowmed": [
+        "The women of the palace and other elders came out to the courtyard to bid adieu to their prince. Kundhavai had arranged for a special yagna and pooja to be performed in the Pazhaiyarai palace on the day he left."
+      ]
+    },
+    {
+      "human_par3": [
+        "The moment he heard the words, \u201csuccession to the throne,\u201d Vandhiyathevan decided that he would listen to the entire conversation. What were these men about to discuss, regarding the succession? What right did they have, to do so, anyway? No, his duty was clear: he would have to do some eavesdropping himself, and there was no better place to do it than in his current location. Azhwarkkadiyaan could go hang himself; who cared what became of him?"
+      ],
+      "llama_31_8b": [
+        "Vandiya Devan was intrigued by Pazhuvetarayar's mention of the royal throne and decided to listen in on the conversation below, despite feeling that he shouldn't be eavesdropping. He wondered why these people were discussing the throne's matters and thought it best to stay and learn what was being said, even if it meant Azhwarkadiyan catching him."
+      ],
+      "gemini_25_flash": [
+        "Upon hearing Pazhuvetarayar mention the royal throne, Vandiya Devan resolved to overhear the entire ongoing discussion below. He questioned their authority to deliberate on matters of the royal throne, feeling compelled to uncover the situation. He reasoned that he could simply remain and listen, regardless of whether Azhwarkadiyan was observing them."
+      ],
+      "dipper_lowmed": [
+        "When Vandiyathevan heard Pazhuvettarayar speak of the throne, he decided to listen to the conversation that was happening below. How could they decide on who would ascend to the throne and who would not? I must hear what is happening here. What does it matter if Azhwarkkadiyaan is spying on them?",
+        "When Vandiya Devan heard the Pazhuvettarayar say, \u201cRoyal throne\u201d he decided that he would hear everything that was happening in the meeting below. \u201cWho are these men to discuss or determine anything about the throne? What does it matter if Azhwarkkadiyaan is spying on them? I must definitely know what is going on here,\u201d he thought."
+      ]
+    },
+    {
+      "human_par3": [
+        "We began to laugh and jest; we talked incessantly all the time. I do not know what I said, I was so happy. She told me that she had seen me once before, a long time ago, in the theatre. I had then comrades with me, and I behaved like a madman; I must certainly have been tipsy that time too, more's the shame."
+      ],
+      "llama_31_8b": [
+        "The conversation flowed easily, with laughter and playful banter filling the air as we spoke without pause. I was in a state of bliss, barely aware of what I was saying. It was then that she shared a past sighting, one that dated back quite some time - a chance encounter at the theater. I had been there with a group of friends at the time, and apparently, my behavior had left a lasting impression. According to her, I had been quite outrageous, and a drunken show was definitely part of the performance, which I was now sheepishly acknowledging.",
+        "As we talked, laughter and jokes flowed easily, and I found myself lost in conversation without even realizing what I was saying. I was in a state of pure happiness. She revealed that she had spotted me in the past, years ago, at a theater, where I was part of a group of friends, getting completely out of control. I had indeed been drunk at the time, and I acknowledged that my behavior had been pretty reckless."
+      ],
+      "gemini_25_flash": [
+        "We began to laugh and joke, and our conversation flowed ceaselessly. I was so joyful, I barely registered my own words. She then revealed that she had previously encountered me at the theater, quite a while back. I had been with three companions and, evidently, had acted like a madman. I strongly suspected I had been intoxicated then as well, which was quite mischievous of me."
+      ],
+      "dipper_lowmed": [
+        "She told me she had seen me once before, long ago, in the theater; I was with three friends and had behaved like a fool; no doubt I had been drunk that time too, that was shameful. We started laughing and joking, we talked the whole time without a pause, I didn\u2019t know what I said, I was happy."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "\u201cTherein lies the thing,\u201d Razumikhin interrupted, \u201chere is where you all go astray, I maintain that he was a fool, inept and inexperienced, and that this was probably his first attempt; if you assume that he was a calculating, a cunning rogue, then the whole thing turns out improbably, but assume an inexperienced fellow, and it turns out that it was chance alone that saved him from disaster, and what is not done by chance? He didn\u2019t know how to rob, he only knew how to kill; it was his first attempt, I say, his first, he lost his head, it was not calculation, but chance that saved him.\u201d",
+      "Nana, told by Labordette of what had taken place, arrived triumphant. She affected the manners of a respectable woman, with the most distinguished airs, just to surprise everyone and to show those idiots that, when she liked, not one of them could equal her. But she almost forgot herself. Rose, as soon as she saw her, rushed at her, muttering in a choking voice:",
+      "The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk. I could not help expressing my repugnance to this brew.",
+      "Peter got a wide grin and then they both watched breathlessly, as the bird rose higher and higher in the azure sky until finally it disappeared behind the mountain peak.",
+      "He escorted his mother to her hotel, and then he turned into the Moika; darkness was behind the windows of the little apartment, the Likhutins were not there. There was nothing to be done: he turned and went home.",
+      "The Prince was the first person I've ever met who genuinely put loyalty into practice. He supported me right from the very start and has earned my unwavering trust in return.",
+      "You're expressing a strong dislike for going to bed before midnight.",
+      "On the day he was leaving, a special prayer ceremony and sacred ritual were held in the courtyard of Pazhaiarai Palace, as arranged by Kundavai. The women and older members of the palace went to the courtyard to give a heartfelt farewell to their beloved prince.",
+      "Upon hearing Pazhuvetarayar mention the royal throne, Vandiya Devan resolved to overhear the entire ongoing discussion below. He questioned their authority to deliberate on matters of the royal throne, feeling compelled to uncover the situation. He reasoned that he could simply remain and listen, regardless of whether Azhwarkadiyan was observing them.",
+      "The conversation flowed easily, with laughter and playful banter filling the air as we spoke without pause. I was in a state of bliss, barely aware of what I was saying. It was then that she shared a past sighting, one that dated back quite some time - a chance encounter at the theater. I had been there with a group of friends at the time, and apparently, my behavior had left a lasting impression. According to her, I had been quite outrageous, and a drunken show was definitely part of the performance, which I was now sheepishly acknowledging."
+    ],
+    [
+      "\u201cThat\u2019s just what it wasn\u2019t!\u201d interposed Razumikhin. \u201cThat\u2019s what throws you all off the scent. I don\u2019t think he\u2019s cunning or experienced; this was probably his first crime! Assuming the criminal planned it all out doesn\u2019t work. Suppose he\u2019s inexperienced: it\u2019s clear that the only thing which saved him was chance\u2014and chance can do anything. Perhaps he didn\u2019t even foresee any obstacles! What did he do? He took jewels worth ten or twenty rubles, stuffed his pockets with them, ransacked the old woman\u2019s trunk, her rags\u2014and they found fifteen hundred rubles, besides notes, in a box in the top drawer of the chest! He didn\u2019t know how to rob anyone; he could only carry out the murder. It was his first crime , I\u2019m telling you, his first crime; he lost his head. He got off because he was lucky, not because he was experienced!\u201d",
+      "Nana, having learned what had occurred, returned, exuding the refined elegance of a woman of high stature, in order to make a striking impression and show the fools that, if she chose, none of them could match her level. However, she was almost carried away by her own pride. The moment she saw Rose, she rushed at her, speaking in excited, barely intelligible tones.",
+      "The captain poured me a cup of the milk, which was still warm. However, my initial reaction was one of distaste. He tried to reassure me that the milk was of high quality and comparable to the milk from cows, but I remained unconvinced.",
+      "As they gazed out, a broad expanse of water stretched before them, and their attention was drawn to a bird rising into the clear blue sky. The bird continued to soar upwards, its path disappearing from view behind a towering mountain peak.",
+      "After taking his mother to her hotel, he went to the Moika. The small apartment's windows were dark, indicating the Likhutins were absent. Since there was nothing he could do, he left and returned to his own home.",
+      "I consider the Prince to be the first truly devoted individual I've encountered. His belief in me was immediate, and I reciprocate that trust.",
+      "He's absolutely dreading going to bed before midnight - it's practically his least favorite thing to do in the entire world.",
+      "Princess Kundhavai made sure that her brother departed Pazhaiyarai in pomp and splendour: she had organized quite a few events in the principal palace, for his edification. When Arulmozhi stepped out of the palace confines, conches blew deafeningly, drums thundered victoriously, accompanied by the smaller siru parai beats, in the courtyard; while chants of triumph cleaved the very skies. Every one of the royal mothers blessed their favourite son, applied sacred ash on his forehead, uttered many blessings to ward off evil spirits and gave him leave to return to battle.",
+      "When Vandiya Devan heard the Pazhuvettarayar say, \u201cRoyal throne\u201d he decided that he would hear everything that was happening in the meeting below. \u201cWho are these men to discuss or determine anything about the throne? What does it matter if Azhwarkkadiyaan is spying on them? I must definitely know what is going on here,\u201d he thought.",
+      "We began to laugh and jest; we talked incessantly all the time. I do not know what I said, I was so happy. She told me that she had seen me once before, a long time ago, in the theatre. I had then comrades with me, and I behaved like a madman; I must certainly have been tipsy that time too, more's the shame."
+    ],
+    [
+      "Razumikhin cut in, boldly declaring that this exact mentality is what's leading everyone astray. In his opinion, the young man in question was probably incompetent and inexperienced, and this was likely his very first attempt at such a crime. If you assume he was cunning and deliberate in his actions, then the whole scenario becomes implausible. However, if you consider him to be amateurish and lacking in experience, it becomes clear that chance was the only factor that prevented him from getting caught in a catastrophic situation. This amateur might not even have foreseen the obstacles he'd face. The sequence of events appears to have unfolded like this: he started by stealing items worth a few rubles, which he stuffed into his pocket, and then proceeded to search through the old woman's clothes and other belongings. But then, while rummaging through a drawer, he stumbled upon a significant amount of money, including 1500 rubles in cash and some valuable notes. Razumikhin firmly believes that this individual didn't know how to carry out a robbery with any finesse and instead relied on his instincts, acting more out of desperation than calculated intent. In other words, Razumikhin insists that the young man's actions were driven by chance and inexperience, rather than any semblance of strategy or planning.",
+      "At this moment Nana, to whom Labordette had brought the news, came down to the stage in triumph. She was quite the honest woman now and wore a most distinguished expression in order to overwhelm her friends and prove to the idiots that when she chose she could give them all points in the matter of smartness. But she nearly got into trouble, for at the sight of her Rose darted forward, choking with rage and stuttering:",
+      "The captain offered me a cup of the milk, which was still warm. I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow\u2019s milk.",
+      "Peter\u2019s eyes widened, and they watched breathlessly, for the bird rose higher and higher in the azure heavens, until it disappeared behind the mountain peak.",
+      "He accompanied his mother to her hotel, then turned onto the Moika: darkness loomed in the windows of the little apartment; the Likhutins were not there; nothing to be done; he turned and went home.",
+      "\u201cThe prince happens to be the first person in my life whom I have recognized as a truly loyal man. He believed in me from the very first, and I believe in him.\u201d",
+      "- I? Oh, is it true? If there is something in the world that I really hate, it is going to bed before twelve o'clock in the evening!",
+      "On the day of his departure, Kundavai Devi organized a special religious ceremony and fire ritual at Pazhaiarai Palace. The women and elders of the palace gathered in the courtyard to bid their beloved prince farewell.",
+      "The moment he heard the words, \u201csuccession to the throne,\u201d Vandhiyathevan decided that he would listen to the entire conversation. What were these men about to discuss, regarding the succession? What right did they have, to do so, anyway? No, his duty was clear: he would have to do some eavesdropping himself, and there was no better place to do it than in his current location. Azhwarkkadiyaan could go hang himself; who cared what became of him?",
+      "As we talked, laughter and jokes flowed easily, and I found myself lost in conversation without even realizing what I was saying. I was in a state of pure happiness. She revealed that she had spotted me in the past, years ago, at a theater, where I was part of a group of friends, getting completely out of control. I had indeed been drunk at the time, and I acknowledged that my behavior had been pretty reckless."
+    ],
+    [
+      "\"That's exactly his problem!\" Razumikhin exclaimed. \"That's why you're all mistaken. I believe he was clumsy and green, probably his first attempt! If you think he was a shrewd and sly criminal, then the story makes no sense. But if you assume he was an amateur, then pure luck saved him from ruin, and luck can do anything! He likely didn't even anticipate the difficulties he'd face! How did this whole thing unfold? He grabbed a few items worth twenty rubles at most, shoved them in his pocket, rummaged through the old woman's trunk and clothes \u2013 but later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, along with promissory notes! He wasn't a thief; he was simply a killer! It was his debut, I tell you, his very first time. He panicked! It wasn't planning, but fate that rescued him.\"",
+      "Nana, informed by Labordette of what had happened, arrived triumphant. She affected the style of a respectable woman, with most distinguished airs, just to amaze everyone and prove to those idiots that, when she pleased, not one of them could equal her, but she almost forgot herself. Rose, as soon as she saw her, rushed at her, stuttering in a choked voice:",
+      "The captain presented me with a cup of milk, still warm. I couldn\u2019t help but display my disgust at the beverage. He insisted that the milk was perfectly fine, just like cow's milk.",
+      "Peter sat up and together they watched as the great bird soared higher and higher into the sky and finally disappeared over the grey peaks.",
+      "Later, Aleksei walked his mother to her hotel and then headed down the Moika embankment. Windows in the Likhutin apartment were dim, which indicated that no one was home. He turned and walked back home.",
+      "\u2018Well, for me the prince means this: he is the first man I have ever met in my whole life in whom I can believe as one who is truly devoted. He believed in me at first sight, and I trust him.\u2019",
+      "\"Oh, so you're saying the one thing you truly despise is retiring for the evening prior to midnight!\"",
+      "On the day of his departure, Kundavai Devi organized a special religious ceremony and a fire ritual at Pazhaiarai Palace. The women of the palace and other senior members of the household gathered in the courtyard to see their beloved prince off.",
+      "Vandiya Devan was intrigued by Pazhuvetarayar's mention of the royal throne and decided to listen in on the conversation below, despite feeling that he shouldn't be eavesdropping. He wondered why these people were discussing the throne's matters and thought it best to stay and learn what was being said, even if it meant Azhwarkadiyan catching him.",
+      "We began to laugh and joke, and our conversation flowed ceaselessly. I was so joyful, I barely registered my own words. She then revealed that she had previously encountered me at the theater, quite a while back. I had been with three companions and, evidently, had acted like a madman. I strongly suspected I had been intoxicated then as well, which was quite mischievous of me."
+    ],
+    [
+      "\u2018That\u2019s just the point\u2014it isn\u2019t!\u2019 interrupted Razumikhin. \u2018 That\u2019s just what you\u2019re all getting wrong. What I say is that he\u2019s not clever, not experienced, and probably this was his first time! If you imagine it being planned by a clever villain, it doesn\u2019t make sense. But if you imagine someone inexperienced, then it\u2019s quite clear that there was just one lucky chance that saved him from disaster\u2014and chance can do anything. I mean, perhaps he never foresaw any difficulties! And how does he set about it? He takes some things worth ten or twenty roubles apiece and fills his pockets with them, he burrows in the old woman\u2019s trunk, amongst all her rags, and all the while there\u2019s a box in the top drawer of her chest of drawers where they\u2019ve found fifteen hundred roubles in cash, not to mention banknotes! He didn\u2019t even manage to rob her\u2014all he managed to do was kill her! It was his first time , I\u2019m telling you, his first time, and he lost his head! And it wasn\u2019t any planning on his part, it was pure luck that saved him!\u2019",
+      "Upon learning from Labordette about the situation, Nana made a triumphant entrance. She adopted the demeanor of a respectable and distinguished woman, intending to impress everyone and demonstrate her superiority to those she deemed idiotic. However, she nearly lost her composure. The moment Rose saw her, she lunged forward, her voice thick with emotion.",
+      "The captain offered me a cup of still-warm milk. He assured me that it was excellent, and no different from cow's milk. I could not help showing my repugnance to this brew.",
+      "Peter fully awoke, and both of them intently observed the bird. It ascended further and further into the clear blue sky until it vanished behind the mountain's summit.",
+      "Nikolai Apollonovich took his mother to her hotel; then\u2014he turned off to the Moika; in the windows of the apartment was darkness: the Likhutins were not at home; nothing for it: he turned back home.",
+      "\u201cThe prince is this for me, that I believe in him as the first truly devoted man in my whole life. He believed in me from the first glance, and I trust him.\u201d",
+      "I? If there was anything in the world I hated it was to go to bed before twelve o'clock at night. Ah, there, you see!",
+      "The women of the palace and other elders came out to the courtyard to bid adieu to their prince. Kundhavai had arranged for a special yagna and pooja to be performed in the Pazhaiyarai palace on the day he left.",
+      "When Vandiyathevan heard Pazhuvettarayar speak of the throne, he decided to listen to the conversation that was happening below. How could they decide on who would ascend to the throne and who would not? I must hear what is happening here. What does it matter if Azhwarkkadiyaan is spying on them?",
+      "She told me she had seen me once before, long ago, in the theater; I was with three friends and had behaved like a fool; no doubt I had been drunk that time too, that was shameful. We started laughing and joking, we talked the whole time without a pause, I didn\u2019t know what I said, I was happy."
+    ]
+  ]
+}

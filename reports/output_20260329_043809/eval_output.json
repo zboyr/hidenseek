@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "openai/gpt-4.1",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ]
+  ],
+  "source_texts": [
+    "yells Mikolka, the crowbar still in his hands, his eyes bloodshot. He stands there as if feeling sorry that there\u2019s nothing more to strike.",
+    "As for the man, he truly was so tired that he did not even make the most of those clean white sheets. He snuffed out his candle with his nostril, the way convicts do, and dropping on to the bed fully dressed, immediately fell into a deep sleep.",
+    "\u201cSit down, Ivan, please, here on the sofa,\u201d Alyosha said, frightened. \u201cYou\u2019re feverish. Lie down. Put your head on the pillow. Right. Would you like a wet towel on your head? It might help.\u201d",
+    "\u201cWhat? A priest? It\u2019s not necessary. . . . Where would we get the money to pay him? I have no sins! Even without that God should forgive me. . . . He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+    "\"What is there to say concerning love?\" at length said Bazarov. \"In passing, you mentioned a certain Madame Odintsov (I think that was the name?). Who is she?\"",
+    "From his corner in the back room of the Caf\u00e9 Musain, more than drunk, Grantaire held forth in this manner, detaining the washer-up on her way through.",
+    "In the vestibule Nikolai Apollonovich stopped in front of the lackey, trying to catch a thought that had scampered off.",
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "A thousand lords with girdle-jade walk in front and rear. The many flags of guardsmen stand both left and right. Those holding gilt bludgeons, And halberds and axes, March in pairs and pairs; The red silk lanterns, The royal incense urn, Move in solemnity. The dragons fly and the phoenixes dance; The falcons soar and the eagles take wing. This Son of Heaven\u2019s an upright sage; The righteous ministers are good. They increase our bliss by a thousand years, surpassing Yu and Shun; They secure peace of ten thousand ages, rivaling Yao and Tang. We also see the curve-handled umbrella, And robes with rolling dragons\u2014 Their glare lighting up each other; The jade joined-rings, The phoenix fans, Waving through holy mist. Those caps of pearls and belts of jade; The purple sashes and medals of gold. A thousand rows of soldiers protect the Throne; Two lines of marshals uphold the carriage. This emperor, cleansed and sincere, bows to the Buddha, Glad to raise incense and seek virtue\u2019s fruit. The grand cortege of the Tang emperor soon arrived in front of the temple. The emperor ordered a halt to the music, left the carriages, and led many officials in the worship of Buddha by taking up burning incense sticks in their hands. After bowing three times holding the incense, they raised their heads and looked around them. This was indeed a splendid religious hall. You see Dancing flags and banners; Bright, gleaming sunshades. Dancing flags and banners Fill the air with strands of flashing colored mists. Bright, gleaming sunshades Glow in the sun as fiery bolts. Imposing, the gold image of Lok\u0101jye\u1e63\u1e6dha;14 Most awesome, the jade features of the arhats. Divine flowers fill the vases. Sandalwood incense burn in the urns. The divine flowers filling the vases Adorn the temple with a brilliant forest of brocade. The sandalwood incense burning in the urns Covers the clear sky with waves of fragrant clouds. Piled high on red trays are fruits in season. On colored counters, mounds of cakes and sweets rest. Rows of noble priests chant the holy s\u016btras To save from their travails those orphaned souls. Taizong and his officials each lifted the incense; they also worshipped the golden body of the Buddha and paid homage to the arhats. Thereafter, the Master of the Law, Chen Xuanzang, the Grand Expositor of the Faith, led the various monks to greet the Tang emperor. After the ceremony, they went back to their seats according to their rank and station. The priest then presented Taizong with the proclamation for the deliverance of the orphaned souls. It read: The supreme virtue is vast and endless, for Buddhism is founded upon Nirv\u0101\u1e47a. The spirit of the pure and the clean circulates freely and flows everywhere in the Three Regions. There are a thousand changes and ten thousand transformations, all regulated by the forces of yin and yang. Boundless and vast indeed are the substance, the function, the true nature, and the permanence of such phenomena. But look at those orphaned souls, how worthy they are of our pity and commiseration! Now by the holy command of Taizong, we have selected and assembled various priests, who will engage in meditation and in the proclamation of the Law. Flinging wide the gates of salvation and setting in motion many vessels of mercy, we would deliver you, the multitudes, from the Sea of Woe and save you from perdition and from the Sixfold Path. You will be led to return to the way of truth and to enjoy the bliss of Heaven. Whether it be by motion, rest, or nonactivity, you will be united with, and become, pure essences. Therefore make use of this noble occasion, for you are invited to the pleasures of the celestial city. Take advantage of our Grand Mass so that you may find release from Hell\u2019s confinement, ascend quickly and freely to ultimate bliss, and travel without restraint in the Region of the West.15 The poem says: An urn of immortal incense. Some scrolls of salvific power. As we proclaim this boundless Law, Receive now Heaven\u2019s endless grace. All your guilt and crime abolished, You lost souls may leave your prison. May our nation be firmly blessed With peace long and all-embracing. Highly pleased by what he read, Taizong said to the monks, \u201cBe firm, all of you, in your devotion, and do not slack in your service to Buddha. After the achievement of merit and after each has received his blessing, we shall reward you handsomely. Be assured that you will not have labored in vain.\u201d",
+    "Of course, I hated them all in our office, from first to last, and despised them all, but at the same time I was also as if afraid of them. It happened that I would suddenly set them above myself. Things were somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes before almost everyone I met. I even made experiments: will I be able to endure so-and-so's glance on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury. I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything to do with externals; I loved falling into the common rut, and feared any eccentricity in myself with all my soul. But how could I hold out? I was morbidly developed, as a man of our time ought to be developed. And they were all dull-witted and as like one another as a flock of sheep. Perhaps to me alone in the whole office did it constantly seem that I was a coward and a slave; it seemed so to me precisely because I was developed. But it not only seemed, in fact it really was so: I was a coward and a slave. I say it without any embarrassment. Every decent man of our time is and must be a coward and a slave. That is his normal condition. I am deeply convinced of it. He's made that way, and arranged for it. And not in the present time, owing to some sort of chance circumstances, but generally in all times a decent man must be a coward and a slave. That is the natural law of all decent people on earth. If one of them does happen to get up a bit of pluck in something, let him not be eased or pleased by that: he'll still quail before something else. Such is the sole and everlasting outcome. Only asses and their mongrels show pluck, and even then only up to that certain wall. It's not worth paying any attention to them, because they mean precisely nothing."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3"
+    ]
+  ],
+  "rationales": [
+    "Both outputs 1 and 2 use similar sentence structures, describing Mikolka as 'frozen' or 'stands frozen,' mention his 'eyes bloodshot,' and specify 'the crowbar still clutched in his hand.' They both add a phrase that conveys a sense of regret, using similar expressions ('as if regretting that there were no longer anything to lash out at' and 'as if he wished there was still something left to lash out at'). The flow and vocabulary choices are closely aligned, suggesting the same paraphraser.",
+    "Outputs 2 and 4 share notable stylistic similarities in phrasing, structure, and details. Both elaborate on the man's exhaustion and his lack of appreciation for the sheets using similar constructions ('so exhausted he barely appreciated' vs. 'so exhausted he didn't even bother to properly get into'), and both use 'collapsed onto the bed fully clothed' with nearly identical phrasing. The mention of 'fresh, clean bedding' in 2 and 'fresh white sheets' in 4, and their structure around extinguishing the candle and immediately succumbing to sleep, further supports that these likely came from the same paraphraser.",
+    "Outputs 1 and 3 share notable stylistic similarities: both paraphrases rephrase Alyosha's speech as an urging or request directed at Ivan, using phrases like 'please, have a seat here on the sofa/couch,' and then follow with concerned statements about Ivan's fever. Both use the same sequence of instructions ('Lie down and rest your head on the pillow. There.') and explicitly offer a 'damp towel/cloth for your forehead,' concluding with the suggestion that it might help ('That could make you feel better' / 'That might bring some relief'). The structure, word choice, and overall tone point to the same paraphraser.",
+    "Outputs 2 and 4 both use the phrasing 'God should/must forgive me even without that,' and both conclude with 'if He does/doesn't (forgive), so be it.' They both have a succinct sentence structure and similar word choices, focusing on the absence of sins, the speaker's suffering, and a resigned attitude if God doesn't forgive. Both omit details about paying the priest present in some other versions, and their overall structure is more streamlined and less conversational than others. These shared stylistic and structural elements suggest they come from the same paraphraser.",
+    "Outputs 1 and 4 share a notable similarity in their structure and stylistic approach: both use italicized or questioning phrasing (e.g., 'What can be said about love?' vs. 'What to say about love?'), and both shift directly from the question about love to the query about Madame Odintsov in a concise, almost abrupt manner. Their sentence structures are parallel, and each uses a variation of acknowledging uncertainty or checking the accuracy of the name (e.g., 'I believe?'/'I think that's the name?'). The other outputs are more distinct in phrasing and narrative style.",
+    "Indexes 1 and 2 both use casual synonyms for 'intoxicated' ('quite intoxicated' and 'sloshed'), employ similar restructuring with Grantaire's speech being described as 'spoke at length' and 'rambled on loudly,' and both use 'washer-up'/'washer' instead of 'kitchen maid' or 'dish-washer.' The focus on Grantaire's prolonged or obstructive speaking, combined with similar phrase structures and vocabulary (e.g., 'holding up the washer'), points to the same paraphraser being behind both outputs.",
+    "Outputs 0 and 4 both use the phrasing 'paused in the entryway before the servant,' and both describe 'attempting to' followed by a verb phrase for the mental action, with only a slight difference ('grasp a fleeting idea' vs. 'recall a fleeting thought'). Their sentence structure and specific word choices are highly similar, indicating the same paraphraser, possibly with minor parameter changes.",
+    "Outputs 0 and 4 share similar structure and word choices, such as 'A [statue/support column] sculpted as a goat-legged figure,' 'A [carriage/coach] pulled up to the entrance,' and the sequencing of uniformed servant, three-cornered hat, opening the carriage door, revealing the coat of arms, and a gloved hand acknowledging greetings with a tip/touch of a top hat. Both use 'revealing' or 'was visible' for the coat of arms description. Furthermore, both provide a succinct, clear breakdown with sentences directly corresponding to each described element, and use analogous descriptions for the scene involving the coat of arms and the unicorn attacking or impaling a knight (rather than, e.g., 'striking,' 'goring'). Their overall tone, detail selection, and sentence-concatenation pattern stand out compared to the other outputs.",
+    "Outputs 2 and 4 share several stylistic and structural similarities: both adopt a highly organized and sectioned narrative with thematic headers (such as 'The Emperor's Grand Procession and Temple Visit', 'Inside the Temple: A Vision of Devotion', 'The Emperor's Worship and the Proclamation', etc. in 2 and similar clear separation of topics in 4), both include detailed and poetic descriptive passages about the emperor, the procession, the temple decorations, and the rituals. Both expand heavily on narrative details, relay the proclamation and decree at length, and feature sophisticated vocabulary with extensive use of adjectives and elaborative phrases. The way the ceremonial sequence and the temple\u2019s interior are described is very close in progression and style, including the explanation of the Buddhist proclamation and the emperor\u2019s response. This style contrasts sharply with 0 (which feels more densely packed and less segmented), 1 (which is very brief and poetic), and 3 (which is plot-driven and dialogue-heavy and not about the emperor's procession at all). The clear overlap in approach, level of narrative detail, and structure strongly indicate that 2 and 4 are from the same paraphraser.",
+    "Paraphrases 3 and 4 share notably similar structure, wording, and phrasing that suggest they were generated by the same paraphraser or even pulled directly from the same translation. For example, they both use specific phrases such as 'I was also afraid to the point of illness of being ridiculous' (3) and 'I was also morbidly afraid of being ridiculous' (4) and both mention 'slavishly adored routine in everything external' (3) and 'slavishly observed the ordinary conventions in every outward appearance' (4). The sequence of ideas, the transitions between sentences, and the use of phrases like 'as like one another as a flock of sheep' is present almost verbatim in both. These strong and consistent textual parallels are distinct compared to the other outputs, which differ more drastically in wording, structure, and detail."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat."
+      ],
+      "llama_31_8b": [
+        "Mikolka, his eyes bloodshot, stands frozen, the crowbar still clutched in his hand, a look of regret etched on his face as if he wished there was still something left to lash out at.",
+        "Mikolka stood frozen, his eyes red from lack of sleep, the crowbar still clutched in his hand in a futile stance, as if regretting that there were no longer anything to lash out at."
+      ],
+      "gemini_25_flash": [
+        "\"Mikolka, still clutching the crowbar, shouts, his eyes bloodshot. He lingers, seemingly regretting that there's nothing left to hit.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cIt\u2019s a pity,\u201d Mikolka cries, holding his crowbar, and his eyes bloodshot, and standing there, as if sorry that there is nothing more to smash."
+      ]
+    },
+    {
+      "human_par3": [
+        "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep."
+      ],
+      "llama_31_8b": [
+        "The man was so exhausted that he barely appreciated the fresh, clean bedding. He extinguished the candle by blowing it out with his nose, a habit he'd likely picked up from his time in prison, and then collapsed fully dressed onto the bed, immediately succumbing to a deep sleep.",
+        "The man was exhausted, but didn't even get to enjoy the comfort of the clean white sheets he was surrounded by. He doused his candle by pinching it with his nose, a common tactic among prisoners. Then, still fully clothed, he tumbled onto the bed and quickly fell into a profound sleep."
+      ],
+      "gemini_25_flash": [
+        "The man was so exhausted he didn't even bother to properly get into the fresh white sheets. He extinguished his candle with his nostril, like a prisoner would, and collapsed onto the bed fully clothed, instantly falling into a profound slumber."
+      ],
+      "dipper_lowmed": [
+        "He blew out his candle with his nostril, as convicts do, and, throwing himself on the bed fully dressed, immediately fell into a deep sleep. As for the man, he was really so tired that he did not even take advantage of the clean white sheets."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\""
+      ],
+      "llama_31_8b": [
+        "\"Alyosha asked Ivan to sit down on the sofa, his voice trembling with concern. 'You're running a high fever,' he said. 'Rest here, lie down and put your head on the pillow.' He then offered to put a cool, damp towel on Ivan's head, hoping it might bring some relief.\""
+      ],
+      "gemini_25_flash": [
+        "Alyosha, alarmed, urged Ivan, \"Please, have a seat here on the couch. You seem to have a fever. Recline and rest your head on the pillow. There. Would you like a damp cloth for your forehead? That might bring some relief.\"",
+        "\"Ivan, please, have a seat here on the sofa,\" Alyosha urged, sounding worried. \"You have a fever. Lie down and rest your head on the pillow. There. Would you like a damp towel for your forehead? That could make you feel better.\""
+      ],
+      "dipper_lowmed": [
+        "\"Sit down, Ivan Fyodorovitch, on the sofa here,\" Alyosha said in alarm; \"you're in a fever. Lie down, put your head on the pillow, please. A wet towel on your head might help.\""
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019"
+      ],
+      "llama_31_8b": [
+        "\"Just because I'm a priest is no reason to come to me for confession. We can't afford to pay him anyway. Besides, I don't have any sins to confess. God will forgive me regardless, especially considering everything I've been through. If He doesn't, then that's His decision.\""
+      ],
+      "gemini_25_flash": [
+        "\"A priest? No need for that. How would we even afford one? I haven't committed any sins! God should just forgive me anyway; He knows how much I've been through. If He chooses not to, then so be it.\""
+      ],
+      "dipper_lowmed": [
+        "- What? a priest, it's not necessary, where are we going to get money to pay him? I have no sins, even without that God should forgive me ... He knows how I have suffered, and if he does not forgive, so be it!",
+        "\u201cWhat? A priest? I have no sins, and God must forgive me even without that; he knows how I\u2019ve suffered. And if He doesn\u2019t, so be it.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "No, why should we talk of love,' said Bazarov; ' but you mentioned just now a Madame Odintsov ... That was what you called her, I think? Who is that lady?'"
+      ],
+      "llama_31_8b": [
+        "Bazarov pondered the question of love for a moment before turning the conversation to Madame Odintsov. \"What's there to say about love, anyway?\" he asked. \"By the way, you mentioned a woman named Madame Odintsov - is that who you were referring to?\""
+      ],
+      "gemini_25_flash": [
+        "\"What can be said about love?\" Bazarov eventually remarked. \"You briefly brought up a Madame Odintsov, I believe? Who is she?\""
+      ],
+      "dipper_lowmed": [
+        "'What has love to do with it?' Bazarov said at last. ' You have mentioned a Madame Odintsov - I think that was the name; who is she?'",
+        "- What to say about love? said Bazarov at last. In passing, you mentioned a Madame Odintsov (I think that's the name?). Who is she?"
+      ]
+    },
+    {
+      "human_par3": [
+        "Thus did Grantaire, more than intoxicated, launch into speech, catching at the dish-washer in her passage, from his corner in the back room of the Caf\u00e9 Musain."
+      ],
+      "llama_31_8b": [
+        "At the small table in the back room of Caf\u00e9 Musain, Grantaire slurred on, blocking the washing lady's path as she passed by.",
+        "Sloshed in the back room of the Caf\u00e9 Musain, Grantaire rambled on loudly, holding up the washer as she tried to get past him."
+      ],
+      "gemini_25_flash": [
+        "Grantaire, quite intoxicated, spoke at length from his spot in the back room of the Caf\u00e9 Musain, holding up the washer-up as she passed by."
+      ],
+      "dipper_lowmed": [
+        "Grantaire said this in a voice that was more than drunk, from his corner in the back room of the Caf\u00e9 Musain, detaining the kitchen maid who came through."
+      ]
+    },
+    {
+      "human_par3": [
+        "In the magnificent entrance-hall Nikolai Apollonovich stopped in front of the old servant, trying to catch his escaping thought."
+      ],
+      "llama_31_8b": [
+        "As Nikolai Apollonovich came to a stop in the vestibule, he stood before the lackey, pausing to grasp an elusive idea that had slipped from his mind."
+      ],
+      "gemini_25_flash": [
+        "Nikolai Apollonovich paused in the entryway before the servant, attempting to grasp a fleeting idea.",
+        "Nikolai Apollonovich paused in the entryway before the servant, attempting to recall a fleeting thought."
+      ],
+      "dipper_lowmed": [
+        "Nikolai Apollonovich stopped in front of the lackey in the vestibule trying to catch a thought which had scampered away."
+      ]
+    },
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "llama_31_8b": [
+        "A horse-drawn carriage suddenly stopped in front of the entrance, and a servant in a elegant hat greeted It as he swung open the door, revealing a coat of arms featuring a unicorn attacking a knight. In response to the servant's greeting, a gloved hand briefly touched the edge of a tall hat."
+      ],
+      "gemini_25_flash": [
+        "A statue depicting the upper body of a goat-legged figure. A carriage, pulled by two horses, rapidly approached the entrance. A uniformed servant, wearing a three-cornered hat, clicked the door handle, causing the door to swing open. On the inside of the door, a coat of arms with small crowns (showing a unicorn impaling a knight) was visible. In response to salutations, a leather-gloved hand briefly touched the brim of a top hat.",
+        "A support column sculpted as a goat-legged figure. A horse-drawn carriage pulled up to the entrance. A uniformed servant, wearing a three-cornered hat, opened the carriage door, revealing a coat of arms featuring small crowns and a unicorn attacking a knight. A gloved hand acknowledged the greetings with a tip of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by two horses flew up to the portico, and a lackey, a three-cornered hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with small crowns (a unicorn goring a knight). In answer to greetings a hand covered with leather touched the brim of a top hat. A capripede caryatid."
+      ]
+    },
+    {
+      "human_par3": [
+        "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain."
+      ],
+      "llama_31_8b": [
+        "A magnificent procession unfolded as thousands of officials and guards surrounding the emperor Saoguo walked ahead and behind, carrying flags and striking halberds and axes in unison. The imperial armors and royal incense urn emitted a majestic presence, accompanied by the fluttering of dragon and phoenix symbols. Upon arrival at the temple, the emperor presented incense sticks to the Buddha and led the officials in worship, bowing three times and then glancing around, struck by the temple's grandeur.\n\nThe hall was abuzz with dazzling banners and sunshades, and the air was filled with vibrant, swirling mist. Glittering gold and jade images of celestial beings adorned the temple, accompanied by vases filled with divine flowers and the fragrance of burning sandalwood incense. Delicious seasonal fruits and sweet treats were arranged on colorful plates and trays, while priests chanted sacred sutras to guide the wayward spirits. After the ceremony, Master Xuanzhang led the monks to greet the emperor, respect payment to the Buddha statue and the arhats was given, and a decree was presented to the emperor.\n\nThe decree declared that the Buddha's teachings emphasized the boundless virtues of Nirvana and the unrestrained flow of its spirit across the world. It described the complex natural world governed by contrasting forces of yin and yang, and the various conditions for beings' spiritual liberation. The emperor was asked to help rescue the poor souls by employing priests to pray for them and perform supernatural rituals to guide them toward enlightenment.\n\nIn a proclamation, the emperor praised the compassionate law of Buddhism: an endless vessel of blessings was opened and the gates of salvation were thrown wide, guiding those striving for rebirth into the ultimate bliss, will be united to and become pure essences and released from suffering in the cycle of birth and death. He expresses the idea that given the opportunity of the Grand Mass, those familiar to bliss, will be set free from confinement and move quickly to ascend freely to ultimate bliss. Taizong expressed his admiration for the decree and asked the monks to dedicate themselves purely to the service of Buddha, noting that they would be rewarded for their efforts, which would bring limitless happiness.",
+        "A procession of a thousand loyal noblemen, dressed in their ceremonial regalia, precedes and follows the emperor. Guardsmen, wielding halberds and axes, march in pairs as the royal attendants ensure the safeguarding of the procession. The reflection of silk lanterns and the fragrance of incense urns fill the air. High-ranking officials, dressed in ornate robes, follow behind. The procession is accompanied by flying banners and fluttering flags, creating a whirling spectacle. The aristocrats' enchanted attire shines, their golden adornments reflecting the light.\n\nWithin the temple, a magnificent, gilded image of Lok\u0101jye\u1e63\u1e6dha stands majestically, while the faces of the revered monks are depicted in jade. Beautiful flowers adornatively placed in ornate vases create a vibrant tapestry of color inside the sanctuary. Meanwhile, the keen scent of sandalwood fumigation wafts through the air as offerings are prepared for the monks. It is here that they earnestly chant Buddhist scriptures, offering solace to the departed souls.\n\nIn an effort to bestow blessings upon those incapable of advantages, Taizong and his officials all lit incense sticks as they worshipped the lord Buddha and honored the wise monks. Subsequently, the Master of the Law, Chen Xuanzhang distributed his parlous instructions to the divine and vast assembly and leading the famed priests to greet the emperor of Tang towards the laps. In yet another aspect, he introducing an \"awakening sutra\" to him in hope that his bonds of good virtue may be elevated because this statement begins by mentioning: With the inopportune malignant, structured blessings originate; delivered beings empowered, practice diverse legislations overly existing of that constitution, highly courses behind redemption of greatest seed end."
+      ],
+      "gemini_25_flash": [
+        "**The Emperor's Grand Procession and Temple Visit**\n\nA vast assembly of high-ranking officials, adorned with ceremonial jade and elaborate uniforms, formed a magnificent procession. Their guards, carrying gilded weapons, halberds, and axes, marched in synchronized pairs, while red silk lanterns and a royal incense urn were borne with solemn dignity. Mythical creatures, dragons and phoenixes, seemed to come alive, and powerful birds like falcons and eagles soared overhead, symbolizing the emperor's virtue. This ruler, hailed as an \"upright sage\" with \"righteous ministers,\" was believed to bring millennia of prosperity, surpassing even legendary emperors.\n\nThe procession featured curve-handled umbrellas and robes embroidered with rolling dragons, their scales seemingly illuminated by each other's gleam. Jade rings and fans made of phoenix feathers created an ethereal atmosphere, enveloped in a \"holy mist.\" Caps adorned with pearls and belts of jade, along with purple sashes and gold medals, further emphasized the grandeur. A thousand soldiers guarded the emperor, and two lines of marshals flanked his carriage.\n\nThe emperor, described as \"cleansed and sincere,\" arrived at the temple, reverently bowing to the Buddha. He halted the music, exited his carriage, and, accompanied by his officials, approached the altar with burning incense sticks. After three bows, they surveyed the splendid temple.\n\n**Inside the Temple: A Vision of Devotion**\n\nInside, the temple was a vibrant spectacle. Flags and banners danced, creating shimmering trails of colored mist, while gleaming sunshades glowed like fiery bolts in the sunlight. A magnificent golden statue of Lok\u0101jye\u1e63\u1e6dha stood imposingly, complemented by the awe-inspiring jade figures of the arhats. Vases overflowed with divine flowers, forming a \"brilliant forest of brocade,\" and sandalwood incense burned in urns, releasing fragrant clouds that enveloped the clear sky. Red trays were piled high with seasonal fruits, and colorful counters displayed mounds of cakes and sweets. Rows of noble priests chanted holy s\u016btras, seeking to bring solace to \"orphaned souls.\"\n\n**The Emperor's Worship and the Proclamation**\n\nEmperor Taizong and his officials, holding incense, worshipped the golden Buddha and paid homage to the arhats. Following this, the Master of the Law, Chen Xuanzang, along with other monks, greeted the emperor. After the ceremony, everyone returned to their designated places.\n\nThe priest then presented Taizong with a proclamation for the salvation of \"orphaned souls.\" This document declared the boundless and eternal nature of Buddhist virtue, originating from Nirv\u0101\u1e47a. It spoke of the pervasive and transformative power of pure spirit throughout the Three Regions, influenced by yin and yang. The proclamation expressed deep pity for \"orphaned souls\" and announced that, by Taizong's command, priests would engage in meditation and proclaim the Law. They would open the \"gates of salvation\" and offer \"vessels of mercy\" to rescue the multitudes from suffering and perdition, guiding them towards truth and heavenly bliss. The proclamation encouraged these souls to embrace this opportunity for release from Hell and to ascend to ultimate happiness in the Western Region.\n\nA poem within the proclamation spoke of \"immortal incense\" and \"salvific power,\" promising the abolition of guilt and crime, and a blessing of lasting peace for the nation.\n\n**The Emperor's Approval and Encouragement**\n\nTaizong, greatly pleased with the proclamation, addressed the monks. He urged them to remain steadfast in their devotion and service to the Buddha, promising handsome rewards for their efforts and blessings. He assured them that their hard work would not be in vain."
+      ],
+      "dipper_lowmed": [
+        "A thousand lords with jade belts lead the way in front, A thousand lords with agate girdles stand at the rear. The many flags of guardsmen march in pairs; The red lanterns, The urns of incense, Move in solemnity. We also see Flying phoenixes and dancing dragons ; Falcons soar and eagles soar; Doves call and crows call in chorus."
+      ]
+    },
+    {
+      "human_par3": [
+        "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing."
+      ],
+      "llama_31_8b": [
+        "I detested each and every one of my colleagues, but simultaneously had a sense of reverence towards them. My feelings shifted erratically; one moment I'd despise them, and the next, I'd look up to them. A person with self-awareness and discipline can't help but experience moments of self-loathing, but I was triggered by even the smallest perceived slight. I'd often ask myself if I could bear to meet someone's gaze, only to instinctively avert my eyes first. This constant self-doubt tormented me, leaving me consumed by fury. I was fixated on maintaining an appearance of normalcy, adhering to established routines to avoid standing out. Anything that smacked of individuality terrified me. It was ironic, considering my self-proclaimed supposed to be an intellectual. My colleagues, however, were dull and undistinguishable from one another. Maybe I alone felt like a coward and a slave among them, and that's how it really was. I acknowledge it without shame, in the sense that I genuinely believe that's the natural state of affairs for a decent person. It's almost as if being decent implies being a coward and a slave. We're conditioned to be this way, and it's not specific to our time or circumstances, but a universal aspect that transcends eras. Strong-willed individuals are the exception, typically exhibiting bravery only up to a certain point before reverting to their natural state of timidity. Those who exude boldness, only do so in a superficial way.",
+        "I loathed my coworkers, but simultaneously feared them and admired them. This volatile dynamic was a recurring theme in my life back then, with my feelings shifting rapidly between contempt and respect. I was torn between the desire to elevate myself above them and the urge to flee their gaze, often dropping my eyes first to avoid confrontation.\n\nThis self-doubt was fueled by my intense fear of appearing ridiculous. I had a deep-seated need to conform and stick to routines, even to the point of rejecting anything that didn't fit the mold. My anxiety about being an outcast made me conform to societal norms, suffocating my individuality.\n\nThe truth, however, was that I was intricately designed to be a coward and a slave. This is the inherent nature of every decent individual in this age, sculpted by the very fabric of society. My counterparts were dull and unoriginal, lacking the spark of individuality.\n\nI recognize and accept that I'm a coward and a slave, a condition I believe is normal for decent people. This isn't a weakness born of specific circumstances, but rather a fundamental aspect of human nature. Even those who seem to display courage or defiance will eventually falter. The truly brave few, like donkeys and their half-breed offspring, are rare and ultimately insignificant. Their fleeting moment of heroism is nothing more than a facade, meanly unimportant in the grand scheme of things."
+      ],
+      "gemini_25_flash": [
+        "I absolutely detested and looked down on everyone in our office, from the highest to the lowest. Yet, paradoxically, I also felt a strange deference towards them at times. My feelings were erratic back then; one moment I'd scorn them, the next I'd elevate them above myself. A truly refined and respectable person can't be conceited without simultaneously holding themselves to incredibly high standards and, at times, despising themselves to the point of self-hatred. Regardless of whether I scorned them or held them in higher regard, I invariably averted my gaze when encountering almost anyone. I even tried to test myself, wondering if I could meet someone's eyes, but I always looked away first. This constantly infuriated me. I was also pathologically terrified of appearing ridiculous, leading me to slavishly conform to all external norms. I embraced conformity and abhorred any personal quirks. But how could I sustain such a facade? I was, in my own estimation, excessively self-aware, as a contemporary man should be. Meanwhile, my colleagues were all dull-witted and indistinguishable from one another, like a flock of sheep. It felt like I was the only one in the entire office who consistently perceived myself as a coward and a subservient individual, and this perception stemmed precisely from my heightened self-awareness. And it wasn't just a perception; it was the truth: I was a coward and subservient, and I admit this without shame. Every truly respectable person in our era is, by nature, a coward and subservient. This is their inherent state, their natural design. I am profoundly convinced of this. This isn't just due to modern circumstances, but a universal truth; throughout history, a respectable person has always been a coward and subservient. It's an immutable law for all decent people. If one of them briefly displays courage, they shouldn't feel reassured or pleased; they'll inevitably falter when faced with something else. This is the only consistent outcome. Only fools and their ilk exhibit bravery, and even then, only up to a certain point. They're not worth considering because their actions are utterly meaningless."
+      ],
+      "dipper_lowmed": [
+        "Of course, I hated everyone in our office, from first to last, and despised everyone, but at the same time I was as if afraid of them, it happened to me that I suddenly set them above myself; a developed and decent man cannot be vain without infinitely exacting demands on himself and without despising himself at moments to the point of hatred. It happened to me then that I suddenly set them above myself: a developed and decent man cannot be vain without an infinitely exacting demand on himself and without despising himself at moments to the point of hatred. And whether I despised them or set them above me, I lowered my eyes before almost everyone I met, I even made experiments: would I be able to endure so-and-so\u2019s gaze on me? - and I was always the first to lower my eyes: this tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore slavishly adored routine in everything external; I loved falling into the common rut and feared any eccentricity in myself with all my soul. Of course, I hated them all in our office, from the first to the last; but at the same time I was somehow afraid of them, as if I was afraid of being ridiculous: I was developed as a man of our time ought to be developed, and they were all stupid and as alike as a flock of sheep."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "\"Mikolka, still clutching the crowbar, shouts, his eyes bloodshot. He lingers, seemingly regretting that there's nothing left to hit.\"",
+      "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep.",
+      "\"Sit down, Ivan Fyodorovitch, on the sofa here,\" Alyosha said in alarm; \"you're in a fever. Lie down, put your head on the pillow, please. A wet towel on your head might help.\"",
+      "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+      "No, why should we talk of love,' said Bazarov; ' but you mentioned just now a Madame Odintsov ... That was what you called her, I think? Who is that lady?'",
+      "Grantaire said this in a voice that was more than drunk, from his corner in the back room of the Caf\u00e9 Musain, detaining the kitchen maid who came through.",
+      "Nikolai Apollonovich paused in the entryway before the servant, attempting to grasp a fleeting idea.",
+      "A support column sculpted as a goat-legged figure. A horse-drawn carriage pulled up to the entrance. A uniformed servant, wearing a three-cornered hat, opened the carriage door, revealing a coat of arms featuring small crowns and a unicorn attacking a knight. A gloved hand acknowledged the greetings with a tip of a top hat.",
+      "A procession of a thousand loyal noblemen, dressed in their ceremonial regalia, precedes and follows the emperor. Guardsmen, wielding halberds and axes, march in pairs as the royal attendants ensure the safeguarding of the procession. The reflection of silk lanterns and the fragrance of incense urns fill the air. High-ranking officials, dressed in ornate robes, follow behind. The procession is accompanied by flying banners and fluttering flags, creating a whirling spectacle. The aristocrats' enchanted attire shines, their golden adornments reflecting the light.\n\nWithin the temple, a magnificent, gilded image of Lok\u0101jye\u1e63\u1e6dha stands majestically, while the faces of the revered monks are depicted in jade. Beautiful flowers adornatively placed in ornate vases create a vibrant tapestry of color inside the sanctuary. Meanwhile, the keen scent of sandalwood fumigation wafts through the air as offerings are prepared for the monks. It is here that they earnestly chant Buddhist scriptures, offering solace to the departed souls.\n\nIn an effort to bestow blessings upon those incapable of advantages, Taizong and his officials all lit incense sticks as they worshipped the lord Buddha and honored the wise monks. Subsequently, the Master of the Law, Chen Xuanzhang distributed his parlous instructions to the divine and vast assembly and leading the famed priests to greet the emperor of Tang towards the laps. In yet another aspect, he introducing an \"awakening sutra\" to him in hope that his bonds of good virtue may be elevated because this statement begins by mentioning: With the inopportune malignant, structured blessings originate; delivered beings empowered, practice diverse legislations overly existing of that constitution, highly courses behind redemption of greatest seed end.",
+      "I detested each and every one of my colleagues, but simultaneously had a sense of reverence towards them. My feelings shifted erratically; one moment I'd despise them, and the next, I'd look up to them. A person with self-awareness and discipline can't help but experience moments of self-loathing, but I was triggered by even the smallest perceived slight. I'd often ask myself if I could bear to meet someone's gaze, only to instinctively avert my eyes first. This constant self-doubt tormented me, leaving me consumed by fury. I was fixated on maintaining an appearance of normalcy, adhering to established routines to avoid standing out. Anything that smacked of individuality terrified me. It was ironic, considering my self-proclaimed supposed to be an intellectual. My colleagues, however, were dull and undistinguishable from one another. Maybe I alone felt like a coward and a slave among them, and that's how it really was. I acknowledge it without shame, in the sense that I genuinely believe that's the natural state of affairs for a decent person. It's almost as if being decent implies being a coward and a slave. We're conditioned to be this way, and it's not specific to our time or circumstances, but a universal aspect that transcends eras. Strong-willed individuals are the exception, typically exhibiting bravery only up to a certain point before reverting to their natural state of timidity. Those who exude boldness, only do so in a superficial way."
+    ],
+    [
+      "Mikolka stood frozen, his eyes red from lack of sleep, the crowbar still clutched in his hand in a futile stance, as if regretting that there were no longer anything to lash out at.",
+      "He blew out his candle with his nostril, as convicts do, and, throwing himself on the bed fully dressed, immediately fell into a deep sleep. As for the man, he was really so tired that he did not even take advantage of the clean white sheets.",
+      "\"Ivan, please, have a seat here on the sofa,\" Alyosha urged, sounding worried. \"You have a fever. Lie down and rest your head on the pillow. There. Would you like a damp towel for your forehead? That could make you feel better.\"",
+      "\"Just because I'm a priest is no reason to come to me for confession. We can't afford to pay him anyway. Besides, I don't have any sins to confess. God will forgive me regardless, especially considering everything I've been through. If He doesn't, then that's His decision.\"",
+      "\"What can be said about love?\" Bazarov eventually remarked. \"You briefly brought up a Madame Odintsov, I believe? Who is she?\"",
+      "Grantaire, quite intoxicated, spoke at length from his spot in the back room of the Caf\u00e9 Musain, holding up the washer-up as she passed by.",
+      "Nikolai Apollonovich stopped in front of the lackey in the vestibule trying to catch a thought which had scampered away.",
+      "A carriage drawn by two horses flew up to the portico, and a lackey, a three-cornered hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with small crowns (a unicorn goring a knight). In answer to greetings a hand covered with leather touched the brim of a top hat. A capripede caryatid.",
+      "A thousand lords with jade belts lead the way in front, A thousand lords with agate girdles stand at the rear. The many flags of guardsmen march in pairs; The red lanterns, The urns of incense, Move in solemnity. We also see Flying phoenixes and dancing dragons ; Falcons soar and eagles soar; Doves call and crows call in chorus.",
+      "I loathed my coworkers, but simultaneously feared them and admired them. This volatile dynamic was a recurring theme in my life back then, with my feelings shifting rapidly between contempt and respect. I was torn between the desire to elevate myself above them and the urge to flee their gaze, often dropping my eyes first to avoid confrontation.\n\nThis self-doubt was fueled by my intense fear of appearing ridiculous. I had a deep-seated need to conform and stick to routines, even to the point of rejecting anything that didn't fit the mold. My anxiety about being an outcast made me conform to societal norms, suffocating my individuality.\n\nThe truth, however, was that I was intricately designed to be a coward and a slave. This is the inherent nature of every decent individual in this age, sculpted by the very fabric of society. My counterparts were dull and unoriginal, lacking the spark of individuality.\n\nI recognize and accept that I'm a coward and a slave, a condition I believe is normal for decent people. This isn't a weakness born of specific circumstances, but rather a fundamental aspect of human nature. Even those who seem to display courage or defiance will eventually falter. The truly brave few, like donkeys and their half-breed offspring, are rare and ultimately insignificant. Their fleeting moment of heroism is nothing more than a facade, meanly unimportant in the grand scheme of things."
+    ],
+    [
+      "Mikolka, his eyes bloodshot, stands frozen, the crowbar still clutched in his hand, a look of regret etched on his face as if he wished there was still something left to lash out at.",
+      "The man was so exhausted that he barely appreciated the fresh, clean bedding. He extinguished the candle by blowing it out with his nose, a habit he'd likely picked up from his time in prison, and then collapsed fully dressed onto the bed, immediately succumbing to a deep sleep.",
+      "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\"",
+      "\"A priest? No need for that. How would we even afford one? I haven't committed any sins! God should just forgive me anyway; He knows how much I've been through. If He chooses not to, then so be it.\"",
+      "Bazarov pondered the question of love for a moment before turning the conversation to Madame Odintsov. \"What's there to say about love, anyway?\" he asked. \"By the way, you mentioned a woman named Madame Odintsov - is that who you were referring to?\"",
+      "Sloshed in the back room of the Caf\u00e9 Musain, Grantaire rambled on loudly, holding up the washer as she tried to get past him.",
+      "As Nikolai Apollonovich came to a stop in the vestibule, he stood before the lackey, pausing to grasp an elusive idea that had slipped from his mind.",
+      "A horse-drawn carriage suddenly stopped in front of the entrance, and a servant in a elegant hat greeted It as he swung open the door, revealing a coat of arms featuring a unicorn attacking a knight. In response to the servant's greeting, a gloved hand briefly touched the edge of a tall hat.",
+      "**The Emperor's Grand Procession and Temple Visit**\n\nA vast assembly of high-ranking officials, adorned with ceremonial jade and elaborate uniforms, formed a magnificent procession. Their guards, carrying gilded weapons, halberds, and axes, marched in synchronized pairs, while red silk lanterns and a royal incense urn were borne with solemn dignity. Mythical creatures, dragons and phoenixes, seemed to come alive, and powerful birds like falcons and eagles soared overhead, symbolizing the emperor's virtue. This ruler, hailed as an \"upright sage\" with \"righteous ministers,\" was believed to bring millennia of prosperity, surpassing even legendary emperors.\n\nThe procession featured curve-handled umbrellas and robes embroidered with rolling dragons, their scales seemingly illuminated by each other's gleam. Jade rings and fans made of phoenix feathers created an ethereal atmosphere, enveloped in a \"holy mist.\" Caps adorned with pearls and belts of jade, along with purple sashes and gold medals, further emphasized the grandeur. A thousand soldiers guarded the emperor, and two lines of marshals flanked his carriage.\n\nThe emperor, described as \"cleansed and sincere,\" arrived at the temple, reverently bowing to the Buddha. He halted the music, exited his carriage, and, accompanied by his officials, approached the altar with burning incense sticks. After three bows, they surveyed the splendid temple.\n\n**Inside the Temple: A Vision of Devotion**\n\nInside, the temple was a vibrant spectacle. Flags and banners danced, creating shimmering trails of colored mist, while gleaming sunshades glowed like fiery bolts in the sunlight. A magnificent golden statue of Lok\u0101jye\u1e63\u1e6dha stood imposingly, complemented by the awe-inspiring jade figures of the arhats. Vases overflowed with divine flowers, forming a \"brilliant forest of brocade,\" and sandalwood incense burned in urns, releasing fragrant clouds that enveloped the clear sky. Red trays were piled high with seasonal fruits, and colorful counters displayed mounds of cakes and sweets. Rows of noble priests chanted holy s\u016btras, seeking to bring solace to \"orphaned souls.\"\n\n**The Emperor's Worship and the Proclamation**\n\nEmperor Taizong and his officials, holding incense, worshipped the golden Buddha and paid homage to the arhats. Following this, the Master of the Law, Chen Xuanzang, along with other monks, greeted the emperor. After the ceremony, everyone returned to their designated places.\n\nThe priest then presented Taizong with a proclamation for the salvation of \"orphaned souls.\" This document declared the boundless and eternal nature of Buddhist virtue, originating from Nirv\u0101\u1e47a. It spoke of the pervasive and transformative power of pure spirit throughout the Three Regions, influenced by yin and yang. The proclamation expressed deep pity for \"orphaned souls\" and announced that, by Taizong's command, priests would engage in meditation and proclaim the Law. They would open the \"gates of salvation\" and offer \"vessels of mercy\" to rescue the multitudes from suffering and perdition, guiding them towards truth and heavenly bliss. The proclamation encouraged these souls to embrace this opportunity for release from Hell and to ascend to ultimate happiness in the Western Region.\n\nA poem within the proclamation spoke of \"immortal incense\" and \"salvific power,\" promising the abolition of guilt and crime, and a blessing of lasting peace for the nation.\n\n**The Emperor's Approval and Encouragement**\n\nTaizong, greatly pleased with the proclamation, addressed the monks. He urged them to remain steadfast in their devotion and service to the Buddha, promising handsome rewards for their efforts and blessings. He assured them that their hard work would not be in vain.",
+      "I absolutely detested and looked down on everyone in our office, from the highest to the lowest. Yet, paradoxically, I also felt a strange deference towards them at times. My feelings were erratic back then; one moment I'd scorn them, the next I'd elevate them above myself. A truly refined and respectable person can't be conceited without simultaneously holding themselves to incredibly high standards and, at times, despising themselves to the point of self-hatred. Regardless of whether I scorned them or held them in higher regard, I invariably averted my gaze when encountering almost anyone. I even tried to test myself, wondering if I could meet someone's eyes, but I always looked away first. This constantly infuriated me. I was also pathologically terrified of appearing ridiculous, leading me to slavishly conform to all external norms. I embraced conformity and abhorred any personal quirks. But how could I sustain such a facade? I was, in my own estimation, excessively self-aware, as a contemporary man should be. Meanwhile, my colleagues were all dull-witted and indistinguishable from one another, like a flock of sheep. It felt like I was the only one in the entire office who consistently perceived myself as a coward and a subservient individual, and this perception stemmed precisely from my heightened self-awareness. And it wasn't just a perception; it was the truth: I was a coward and subservient, and I admit this without shame. Every truly respectable person in our era is, by nature, a coward and subservient. This is their inherent state, their natural design. I am profoundly convinced of this. This isn't just due to modern circumstances, but a universal truth; throughout history, a respectable person has always been a coward and subservient. It's an immutable law for all decent people. If one of them briefly displays courage, they shouldn't feel reassured or pleased; they'll inevitably falter when faced with something else. This is the only consistent outcome. Only fools and their ilk exhibit bravery, and even then, only up to a certain point. They're not worth considering because their actions are utterly meaningless."
+    ],
+    [
+      "\u201cIt\u2019s a pity,\u201d Mikolka cries, holding his crowbar, and his eyes bloodshot, and standing there, as if sorry that there is nothing more to smash.",
+      "The man was exhausted, but didn't even get to enjoy the comfort of the clean white sheets he was surrounded by. He doused his candle by pinching it with his nose, a common tactic among prisoners. Then, still fully clothed, he tumbled onto the bed and quickly fell into a profound sleep.",
+      "Alyosha, alarmed, urged Ivan, \"Please, have a seat here on the couch. You seem to have a fever. Recline and rest your head on the pillow. There. Would you like a damp cloth for your forehead? That might bring some relief.\"",
+      "- What? a priest, it's not necessary, where are we going to get money to pay him? I have no sins, even without that God should forgive me ... He knows how I have suffered, and if he does not forgive, so be it!",
+      "'What has love to do with it?' Bazarov said at last. ' You have mentioned a Madame Odintsov - I think that was the name; who is she?'",
+      "Thus did Grantaire, more than intoxicated, launch into speech, catching at the dish-washer in her passage, from his corner in the back room of the Caf\u00e9 Musain.",
+      "In the magnificent entrance-hall Nikolai Apollonovich stopped in front of the old servant, trying to catch his escaping thought.",
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain.",
+      "Of course, I hated everyone in our office, from first to last, and despised everyone, but at the same time I was as if afraid of them, it happened to me that I suddenly set them above myself; a developed and decent man cannot be vain without infinitely exacting demands on himself and without despising himself at moments to the point of hatred. It happened to me then that I suddenly set them above myself: a developed and decent man cannot be vain without an infinitely exacting demand on himself and without despising himself at moments to the point of hatred. And whether I despised them or set them above me, I lowered my eyes before almost everyone I met, I even made experiments: would I be able to endure so-and-so\u2019s gaze on me? - and I was always the first to lower my eyes: this tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore slavishly adored routine in everything external; I loved falling into the common rut and feared any eccentricity in myself with all my soul. Of course, I hated them all in our office, from the first to the last; but at the same time I was somehow afraid of them, as if I was afraid of being ridiculous: I was developed as a man of our time ought to be developed, and they were all stupid and as alike as a flock of sheep."
+    ],
+    [
+      "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat.",
+      "The man was so exhausted he didn't even bother to properly get into the fresh white sheets. He extinguished his candle with his nostril, like a prisoner would, and collapsed onto the bed fully clothed, instantly falling into a profound slumber.",
+      "\"Alyosha asked Ivan to sit down on the sofa, his voice trembling with concern. 'You're running a high fever,' he said. 'Rest here, lie down and put your head on the pillow.' He then offered to put a cool, damp towel on Ivan's head, hoping it might bring some relief.\"",
+      "\u201cWhat? A priest? I have no sins, and God must forgive me even without that; he knows how I\u2019ve suffered. And if He doesn\u2019t, so be it.\u201d",
+      "- What to say about love? said Bazarov at last. In passing, you mentioned a Madame Odintsov (I think that's the name?). Who is she?",
+      "At the small table in the back room of Caf\u00e9 Musain, Grantaire slurred on, blocking the washing lady's path as she passed by.",
+      "Nikolai Apollonovich paused in the entryway before the servant, attempting to recall a fleeting thought.",
+      "A statue depicting the upper body of a goat-legged figure. A carriage, pulled by two horses, rapidly approached the entrance. A uniformed servant, wearing a three-cornered hat, clicked the door handle, causing the door to swing open. On the inside of the door, a coat of arms with small crowns (showing a unicorn impaling a knight) was visible. In response to salutations, a leather-gloved hand briefly touched the brim of a top hat.",
+      "A magnificent procession unfolded as thousands of officials and guards surrounding the emperor Saoguo walked ahead and behind, carrying flags and striking halberds and axes in unison. The imperial armors and royal incense urn emitted a majestic presence, accompanied by the fluttering of dragon and phoenix symbols. Upon arrival at the temple, the emperor presented incense sticks to the Buddha and led the officials in worship, bowing three times and then glancing around, struck by the temple's grandeur.\n\nThe hall was abuzz with dazzling banners and sunshades, and the air was filled with vibrant, swirling mist. Glittering gold and jade images of celestial beings adorned the temple, accompanied by vases filled with divine flowers and the fragrance of burning sandalwood incense. Delicious seasonal fruits and sweet treats were arranged on colorful plates and trays, while priests chanted sacred sutras to guide the wayward spirits. After the ceremony, Master Xuanzhang led the monks to greet the emperor, respect payment to the Buddha statue and the arhats was given, and a decree was presented to the emperor.\n\nThe decree declared that the Buddha's teachings emphasized the boundless virtues of Nirvana and the unrestrained flow of its spirit across the world. It described the complex natural world governed by contrasting forces of yin and yang, and the various conditions for beings' spiritual liberation. The emperor was asked to help rescue the poor souls by employing priests to pray for them and perform supernatural rituals to guide them toward enlightenment.\n\nIn a proclamation, the emperor praised the compassionate law of Buddhism: an endless vessel of blessings was opened and the gates of salvation were thrown wide, guiding those striving for rebirth into the ultimate bliss, will be united to and become pure essences and released from suffering in the cycle of birth and death. He expresses the idea that given the opportunity of the Grand Mass, those familiar to bliss, will be set free from confinement and move quickly to ascend freely to ultimate bliss. Taizong expressed his admiration for the decree and asked the monks to dedicate themselves purely to the service of Buddha, noting that they would be rewarded for their efforts, which would bring limitless happiness.",
+      "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing."
+    ]
+  ]
+}

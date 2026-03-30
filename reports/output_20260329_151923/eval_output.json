@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "sonnet_46",
+    "gemini_25_pro",
+    "gpt_54"
+  ],
+  "similar_models": [
+    [
+      "sonnet_46",
+      "sonnet_46"
+    ],
+    [
+      "sonnet_46",
+      "sonnet_46"
+    ],
+    [
+      "gpt_54",
+      "gpt_54"
+    ],
+    [
+      "sonnet_46",
+      "sonnet_46"
+    ],
+    [
+      "gemini_25_pro",
+      "gemini_25_pro"
+    ],
+    [
+      "sonnet_46",
+      "gpt_54"
+    ],
+    [
+      "sonnet_46",
+      "sonnet_46"
+    ],
+    [
+      "gpt_54",
+      "human_par3"
+    ],
+    [
+      "gemini_25_pro",
+      "gemini_25_pro"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ]
+  ],
+  "source_texts": [
+    "A widely scattered mass of completely black houses was emerging from the paler darkness of the night. It looked as if almost all the two thousand inhabitants of Mokroye were asleep, for there were very few lights to be seen.",
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "\u201cThey\u2019re coming, here they are. And the General is making up the rear. I\u2019ll fling open all the doors and call all my daughters, every single one, now, this minute,\u201d Lebedev mumbled softly in a fluster, dashing from door to door.",
+    "That comes, I think, from their tiredness. Over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words, and done it badly. And has made their learning difficult with his distractedness, his negligence, his jealousy, which was itself a kind of negligence.",
+    "Of course, I hated them all in our office, from first to last, and despised them all, but at the same time I was also as if afraid of them. It happened that I would suddenly set them above myself. Things were somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes before almost everyone I met. I even made experiments: will I be able to endure so-and-so's glance on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury. I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything to do with externals; I loved falling into the common rut, and feared any eccentricity in myself with all my soul. But how could I hold out? I was morbidly developed, as a man of our time ought to be developed. And they were all dull-witted and as like one another as a flock of sheep. Perhaps to me alone in the whole office did it constantly seem that I was a coward and a slave; it seemed so to me precisely because I was developed. But it not only seemed, in fact it really was so: I was a coward and a slave. I say it without any embarrassment. Every decent man of our time is and must be a coward and a slave. That is his normal condition. I am deeply convinced of it. He's made that way, and arranged for it. And not in the present time, owing to some sort of chance circumstances, but generally in all times a decent man must be a coward and a slave. That is the natural law of all decent people on earth. If one of them does happen to get up a bit of pluck in something, let him not be eased or pleased by that: he'll still quail before something else. Such is the sole and everlasting outcome. Only asses and their mongrels show pluck, and even then only up to that certain wall. It's not worth paying any attention to them, because they mean precisely nothing.",
+    "The horses had turned to the right, and they started on their preliminary canter, passing in front of the grand stand in a disordered crowd. Then the excited remarks broke out again; every one spoke at the same time.",
+    "We started laughing and joking, we talked without stopping the whole time, I didn't know what I was saying, I was happy. She told me she had seen me one time earlier, a long time ago, in the theater. I was with three friends and had behaved like a lunatic; no question, I had been drunk that time too, that was naughty.",
+    "\"Then let me go and meet her,\" exclaimed Arkady with another access of \"magnanimity\" as he sprang from his chair. \" Yes, let me go and explain to her why she need not shun me.\"",
+    "This kind of work, going on all over Europe, wreaked more havoc in Germany than anywhere else. During a certain period in Germany, evoked by Schiller in his famous drama The Robbers, theft and pillage rose up in protest against property and labour, embracing certain rudimentary ideas, erroneous and specious, apparently true but actually absurd; they cloaked themselves in these ideas, disappeared under them, as it were, assumed an abstract name, acquired the status of a theory, and in that way circulated among the honest, suffering, labouring masses, without even the knowledge of the foolhardy chemists who had prepared the mixture, without even the knowledge of the masses who accepted it. Whenever this kind of thing happens, it is a serious matter. Suffering breeds anger, and while the prosperous classes blind themselves or fall asleep, either way closing their eyes to it, the hatred of the poorer classes lights its torch at some overlooked and embittered or ill-natured mind and sets about examining society. Hatred\u2019s examination is a terrible thing.",
+    "In the vestibule Nikolai Apollonovich stopped in front of the lackey, trying to catch a thought that had scampered off."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "sonnet_46"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "sonnet_46"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "gpt_54"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "sonnet_46"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "sonnet_46"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_pro"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "sonnet_46",
+      "sonnet_46",
+      "gpt_54",
+      "human_par3",
+      "gemini_25_pro"
+    ],
+    [
+      "sonnet_46",
+      "sonnet_46",
+      "gpt_54",
+      "human_par3",
+      "gemini_25_pro"
+    ],
+    [
+      "human_par3",
+      "sonnet_46",
+      "gpt_54",
+      "gpt_54",
+      "gemini_25_pro"
+    ],
+    [
+      "sonnet_46",
+      "gemini_25_pro",
+      "gpt_54",
+      "human_par3",
+      "sonnet_46"
+    ],
+    [
+      "human_par3",
+      "sonnet_46",
+      "gpt_54",
+      "gemini_25_pro",
+      "gemini_25_pro"
+    ],
+    [
+      "gemini_25_pro",
+      "human_par3",
+      "sonnet_46",
+      "gemini_25_pro",
+      "gpt_54"
+    ],
+    [
+      "sonnet_46",
+      "human_par3",
+      "gpt_54",
+      "gemini_25_pro",
+      "sonnet_46"
+    ],
+    [
+      "sonnet_46",
+      "gemini_25_pro",
+      "gpt_54",
+      "gemini_25_pro",
+      "human_par3"
+    ],
+    [
+      "gemini_25_pro",
+      "human_par3",
+      "gpt_54",
+      "gemini_25_pro",
+      "sonnet_46"
+    ],
+    [
+      "sonnet_46",
+      "gpt_54",
+      "human_par3",
+      "gemini_25_pro",
+      "human_par3"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 1 share nearly identical sentence structure, phrasing patterns, and overall composition. Both begin with 'A sprawling collection of [adjective] dark houses was gradually [verb phrase] against the [comparative] backdrop of the night sky,' and both second sentences follow the same template: 'With [adverb] any lights visible, it appeared that nearly all of Mokroye's two thousand residents were sound asleep.' The only differences are minor word substitutions (e.g., 'pitch-dark' vs 'entirely dark,' 'taking shape' vs 'becoming visible,' 'hardly' vs 'barely'), strongly suggesting they were produced by the same paraphrasing system.",
+    "Outputs 0 and 1 share nearly identical sentence structures, the unique phrase 'small crowns' (not found in others), the same parenthetical format for the coat of arms description, and both use 'briefly touched' for the gloved hand gesture. The differences are minor word substitutions (e.g., 'servant' vs 'footman', 'tricorn hat' vs 'three-cornered hat', 'rim' vs 'edge'), which is characteristic of the same paraphraser producing slightly varied outputs.",
+    "Outputs 2 and 3 share highly distinctive identical phrases: 'right now, this instant', the em-dash interruption pattern ('They're arriving\u2014here they are\u2014'), 'throw open every/all the doors', 'every one of them', and 'muttered' with 'rushing from door to door/one door to the next'. These are strong stylistic fingerprints indicating the same paraphraser produced both.",
+    "Outputs 0 and 4 share nearly identical phrasing, punctuation (em-dashes), and sentence structure throughout. Both begin with 'I believe this stems from their exhaustion,' use 'shouldered the full burden of love on their own,' 'performed the complete conversation \u2014 both sides of it,' and end with 'his inattentiveness, his carelessness, his jealousy \u2014 which was itself simply another form of carelessness.' The only minor differences are 'Throughout history' vs. 'Throughout the ages' and 'hindered their growth' vs. 'hindered their ability to learn,' which are characteristic of the same paraphraser making slight variations.",
+    "Outputs 3 and 4 share very similar stylistic fingerprints: both restructure the text into clean paragraph breaks with similar organizational logic, both use modernized summary-style language rather than close translation, both use the phrase 'fundamental law' to describe the cowardice principle, both frame statements with 'I believe,' both render the ending with 'fools and [vague term]' (3: 'fools and similar types'; 4: 'fools and their kind'), and both omit specific details like 'donkeys and mules' in favor of generic language. Their compression level, paragraph structure, and rhetorical choices are consistently parallel across the entire passage.",
+    "Outputs 2 and 4 share identical syntactic templates: 'The horses veered to the right and began their warm-up canter, moving past the grandstand in a [adj] [noun].' Both use 'veered to the right,' 'warm-up canter,' 'moving past the grandstand,' and end with 'with everyone talking at once.' The sentence structures are nearly identical, with only slight lexical substitutions (disorganized cluster vs. scattered group; erupted into animated chatter vs. excited comments started up again), strongly suggesting the same paraphraser.",
+    "Outputs 0 and 4 share nearly identical sentence structure, phrasing, and flow throughout. Both start with 'We burst into laughter and banter/playful banter, chatting nonstop the entire time \u2014', both use 'I was so caught up in... that I barely knew what I was saying', both use 'She mentioned that she had spotted me once before, quite a while back, at the theater', and both end with 'which was rather [mischievous/shameful] of me'. The differences are only minor word swaps, indicating the same paraphrasing system produced both with slight variation.",
+    "Outputs 2 and 4 share the most consistent stylistic fingerprints: both preserve the dialogue format with two quoted lines, both use the word 'magnanimity/magnanimous' to describe Arkady's feeling, both maintain a literary tone close to the source, and both render the second line as Arkady explaining she has no reason to feel shame or avoid him. Their structure, word choices, and overall approach are most similar to each other compared to the other outputs.",
+    "Outputs 0 and 3 share several distinctive features: both use a two-paragraph structure with a break mid-passage, both describe the ideas as 'simple/simplistic but flawed/misleading,' both refer to the wealthy classes 'ignoring' or 'turning a blind eye,' both rephrase the final line into a construction like 'An examination fueled by hatred is terrible/terrifying' rather than preserving the aphoristic 'The scrutiny of hatred is a terrible thing,' and both describe the marginal instigator as 'overlooked' and 'bitter.' These consistent stylistic and lexical choices across both outputs suggest they were produced by the same paraphraser.",
+    "Outputs 2 and 4 share multiple distinctive stylistic fingerprints: both add an adjective to describe the entrance area ('sumptuous' vs. 'magnificent'), both use 'stopped' rather than 'paused', both add 'old' as a descriptor for the servant, and both use the verb 'catch' for the escaping thought metaphor. These consistent additions and word choices strongly suggest the same paraphraser produced both outputs."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "Through the pale darkness of the night loomed a solid black mass of buildings, flung down, as it were, in the vast plain. The village of Mokroe numbered two thousand inhabitants, but at that hour all were asleep, and only here and there a few lights still twinkled."
+      ],
+      "sonnet_46": [
+        "A sprawling collection of entirely dark houses was gradually becoming visible against the lighter backdrop of the night sky. With barely any lights visible, it appeared that nearly all of Mokroye's two thousand residents were sound asleep.",
+        "A sprawling collection of pitch-dark houses was gradually taking shape against the slightly lighter backdrop of the night sky. With hardly any lights visible, it appeared that nearly all of Mokroye's two thousand residents were sound asleep."
+      ],
+      "gemini_25_pro": [
+        "Against the dimness of the night, the dark shapes of widely dispersed houses began to appear. It looked as though nearly all of Mokroye's two thousand residents were sleeping, since there were hardly any lights visible."
+      ],
+      "gpt_54": [
+        "A broad, scattered cluster of pitch-black houses was beginning to appear out of the lighter darkness of the night. It seemed that nearly all of Mokroye\u2019s two thousand residents were asleep, since only a few lights were visible."
+      ]
+    },
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "sonnet_46": [
+        "The upper body of a caryatid depicting a half-human, half-goat figure. A horse-drawn carriage pulled by two horses came to a stop at the entrance, and a servant wearing a tricorn hat unlatched the door handle, causing the door to swing open and reveal a coat of arms decorated with small crowns (showing a unicorn impaling a knight). In acknowledgment of the welcoming gestures, a gloved hand briefly touched the rim of a top hat.",
+        "The upper body of a caryatid with goat-like legs. A horse-drawn carriage pulled by two horses came to a stop at the entrance, and a footman wearing a three-cornered hat snapped open the door handle, swinging it wide to reveal a coat of arms decorated with small crowns (depicting a unicorn impaling a knight). In acknowledgment of the welcoming gestures, a gloved hand briefly touched the edge of a top hat."
+      ],
+      "gemini_25_pro": [
+        "A carriage drawn by two horses sped toward the covered entryway, where the torso of a goat-footed female statue served as a pillar. A footman wearing a three-cornered hat turned the carriage handle, causing the door to swing open. This revealed a coat of arms on the door, which was decorated with tiny crowns and depicted a unicorn impaling a knight. To acknowledge the greetings he received, a man inside raised a leather-gloved hand to the brim of his top hat."
+      ],
+      "gpt_54": [
+        "The body of a goat-legged caryatid. A carriage pulled by two horses rushed up to the porte-coch\u00e8re, and a servant, wearing a tricorne, clicked the handle, and the door swung open, tossing back a coat of arms decorated with small crowns (a unicorn piercing a knight). In reply to the greetings, a gloved hand touched the brim of a top hat."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next."
+      ],
+      "sonnet_46": [
+        "\"They're on their way, they've arrived. And the General is bringing up the rear. I'll throw open every door and summon all my daughters, each and every one of them, right now, immediately,\" Lebedev muttered quietly in a panic, rushing from one door to another."
+      ],
+      "gemini_25_pro": [
+        "In a nervous flurry, Lebedev hurried from one door to another, muttering quietly that the group was arriving with the General at the very end. He resolved to throw open all the doors and call for every one of his daughters at that exact moment."
+      ],
+      "gpt_54": [
+        "\u201cThey\u2019re arriving\u2014here they are\u2014and the General is bringing up the rear. I\u2019ll throw open all the doors and summon all my daughters, every one of them, right now, this instant,\u201d Lebedev muttered anxiously, rushing from one door to the next.",
+        "\u201cThey\u2019re arriving\u2014here they are\u2014and the General is at the back,\u201d Lebedev muttered in a flurry, rushing from door to door. \u201cI\u2019ll throw open every door and summon all my daughters, every one of them, right now, this instant.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect."
+      ],
+      "sonnet_46": [
+        "I believe this stems from their exhaustion. Throughout the ages, they have shouldered the full burden of love on their own; they have always performed the complete conversation \u2014 both sides of it. For man has merely echoed their words, and done so poorly. And he has hindered their ability to learn through his inattentiveness, his carelessness, his jealousy \u2014 which was itself simply another form of carelessness.",
+        "I believe this stems from their exhaustion. Throughout history, they have shouldered the full burden of love on their own; they have always performed the complete conversation \u2014 both sides of it. For man has merely echoed their words, and done so poorly. And he has hindered their growth with his inattentiveness, his carelessness, his jealousy \u2014 which was itself simply another form of carelessness."
+      ],
+      "gemini_25_pro": [
+        "I believe this situation is a result of their exhaustion. Throughout history, they have shouldered the entire burden of love, essentially performing both sides of the dialogue. Men have contributed little, only repeating what they say, and doing so poorly. Furthermore, a man\u2019s own inattentiveness, neglect, and jealousy\u2014which is just another form of neglect\u2014have obstructed their learning process."
+      ],
+      "gpt_54": [
+        "I think that comes from their weariness. Over the centuries, they have taken on the whole work of love, always speaking both sides of the conversation. Men have only echoed their words, and poorly at that. They have also made women\u2019s learning harder through their distraction, their carelessness, and their jealousy, which was really another form of carelessness."
+      ]
+    },
+    {
+      "human_par3": [
+        "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing."
+      ],
+      "sonnet_46": [
+        "I despised every single person in that office, from beginning to end, yet at the same time I was somehow intimidated by them. Occasionally I would find myself elevating them above my own standing. My feelings shifted unpredictably back then - one moment I looked down on them, the next I considered them my superiors. A truly educated and respectable man cannot be conceited without holding himself to impossibly high standards and periodically loathing himself intensely. Yet regardless of whether I was looking down on my colleagues or placing them above me, I almost always averted my eyes when facing anyone. I would test myself, wondering if I could hold someone's gaze - and I always looked away first. This drove me to absolute frustration. I was also terrified of appearing foolish, which made me blindly conform to social norms in my outward behavior. I desperately wanted to blend in and was deeply frightened of standing out in any way. Yet how could I help it? I was excessively self-aware, as any modern man tends to be. Meanwhile, everyone around me was simple-minded and indistinguishable from one another.\n\nI alone in that office seemed to recognize myself as both a coward and a servant - precisely because of my heightened awareness. And it wasn't merely a perception; it was reality. I was genuinely a coward and a slave, and I say this without shame. Every respectable man today is and must be both. This is his natural state - not due to present circumstances, but throughout all of history. Even when such a man musters some courage in one area, he will inevitably cower in another. That is the only possible outcome. Only fools and brutes show true boldness, and even they have their limits. They deserve no consideration, as they ultimately amount to nothing."
+      ],
+      "gemini_25_pro": [
+        "I held a deep-seated hatred for everyone in my office, yet I simultaneously feared them. My feelings were inconsistent; one moment I would despise them, and the next I would suddenly consider them my superiors.\n\nI believe that a developed, decent person cannot have self-esteem without being incredibly demanding of themselves, to the point of despising themselves at times. Regardless of whether I felt superior or inferior to my colleagues, I was always the first to lower my eyes when I met them. I even conducted experiments to see if I could withstand someone's stare, but I always failed, which infuriated me.\n\nI was also pathologically afraid of being seen as ridiculous, so I strictly adhered to convention in all my outward behavior. I tried to fit in and was terrified of any eccentricity in my own character. But it was impossible to sustain. I was what I considered morbidly self-aware\u2014a hallmark of a modern man\u2014while they were all dense and uniform, like a flock of sheep.\n\nIt seemed that I was the only person in our workplace who constantly felt like a coward and a slave, and I believed this feeling stemmed directly from my over-developed consciousness. This was not just a feeling, but a fact. I state it without shame: I was a coward and a slave. I am firmly convinced this is the natural state for any decent person in our time, and in fact, in any time. It's a fundamental law. If such a person does manage to find some courage, it won\u2019t last; they will inevitably be brought low by something else. Only fools and their kind seem brave, and even their courage is limited and ultimately means nothing.",
+        "I had contradictory feelings for all my colleagues; I loathed and looked down on them, but I was also afraid of them. My opinion would shift abruptly, so that one moment I felt superior and the next I would place them above me.\n\nI believe an intelligent, decent person cannot have pride without also being extremely self-critical, sometimes to the point of self-hatred. Regardless of whether I felt contempt or admiration for others, I could not meet anyone\u2019s gaze and always looked away first. I would even test myself by trying to hold someone\u2019s stare, but I always failed, which infuriated me.\n\nI had a pathological fear of being seen as foolish, so I slavishly followed convention in my appearance and behavior. I much preferred to blend in and was terrified of revealing any personal eccentricities. But I felt I had no choice, as I was overly self-aware and complex\u2014a typical condition for a modern man. My coworkers, in contrast, were all dull and indistinguishable from one another, like sheep.\n\nI was likely the only one in the office who constantly saw himself as a coward and a slave, and I believed this was a direct result of my intellectual development. This was not just a feeling but the reality of my situation, a fact I admit without embarrassment. In my opinion, every decent person of our time is and must be a coward and a slave; it is their natural state. I am certain they are designed to be this way, and this is true not just for today but for all eras. It is a fundamental law for all decent people. If one of them acts bravely in one instance, it is meaningless, as they will surely show cowardice in another. That is the only possible outcome. Only fools and similar types show courage, and even then, only until they hit a significant barrier. They are not worth thinking about, because they are fundamentally insignificant."
+      ],
+      "gpt_54": [
+        "Naturally, I hated everyone in our office, every last one of them, and despised them all; yet at the same time, I seemed almost afraid of them. At moments, I would suddenly place them above myself. That was how things were with me then: one moment I despised them, the next I considered them superior. A cultivated and respectable man cannot be vain without also demanding endlessly from himself and, at times, despising himself to the point of hatred. But whether I looked down on them or elevated them above me, I would lower my eyes before nearly everyone I met. I even tested myself: could I withstand so-and-so\u2019s gaze? And I was always the first to look away. This tormented me to the point of rage. I was also morbidly afraid of seeming ridiculous, almost to the point of sickness, and so I slavishly clung to convention in all outward matters; I liked staying in the common track and feared any sign of eccentricity in myself with all my heart. But how could I do otherwise? I was excessively developed, as a man of our age ought to be. And they were all stupid and all alike, like a flock of sheep. Perhaps I alone in the whole office constantly felt that I was a coward and a slave; and it seemed so to me precisely because I was developed. But it did not merely seem so\u2014indeed, it was true: I was a coward and a slave. I say this without the least shame. Every decent man of our time is, and must be, a coward and a slave. That is his normal state. I am firmly convinced of it. He is made that way and intended for it. And not only now, because of some accidental circumstances, but always: in every age, a decent man must be a coward and a slave. That is the natural law for all decent people on earth. If one of them does manage to show a little courage in something, he should not take comfort or pride in it; he will still lose heart before something else. That is the only eternal result. Only donkeys and their crossbreeds show courage, and even then only until they come up against a certain wall. They are not worth noticing, because they amount to absolutely nothing."
+      ]
+    },
+    {
+      "human_par3": [
+        "The horses had gone up to the right, and they now started for the preliminary canter, passing in loose order before the stands. Thereupon there was a passionate fresh burst of talk, and people all spoke at once."
+      ],
+      "sonnet_46": [
+        "The horses veered to the right and began their warm-up canter, moving past the grandstand in a disorganized cluster. The crowd then erupted into animated chatter, with everyone talking all at once."
+      ],
+      "gemini_25_pro": [
+        "After turning right, the horses began their warm-up canter, passing the grand stand in a disorganized bunch. This sparked another burst of enthusiastic chatter from the onlookers, as everyone began to speak at once.",
+        "After turning to the right, the horses began their warm-up canter, passing the grandstand in a jumbled pack. A new wave of excited chatter then erupted from the spectators, as everyone began talking at once."
+      ],
+      "gpt_54": [
+        "The horses veered to the right and began their warm-up canter, moving past the grandstand in a scattered group. Then the excited comments started up again, with everyone talking at once."
+      ]
+    },
+    {
+      "human_par3": [
+        "We began to laugh and jest; we talked incessantly all the time. I do not know what I said, I was so happy. She told me that she had seen me once before, a long time ago, in the theatre. I had then comrades with me, and I behaved like a madman; I must certainly have been tipsy that time too, more's the shame."
+      ],
+      "sonnet_46": [
+        "We burst into laughter and banter, chatting nonstop the entire time \u2014 I was so caught up in happiness that I barely knew what I was saying. She mentioned that she had spotted me once before, quite a while back, at the theater. Apparently I had been with three friends and had acted completely out of control; it was clear I had been drunk on that occasion as well, which was rather shameful of me.",
+        "We burst into laughter and playful banter, chatting nonstop the entire time \u2014 I was so caught up in the joy of it that I barely knew what was coming out of my mouth. She mentioned that she had spotted me once before, quite a while back, at the theater. Apparently I had been there with three companions and had acted like a complete madman; clearly, I had been drunk on that occasion as well, which she found rather mischievous of me."
+      ],
+      "gemini_25_pro": [
+        "We laughed and joked, talking the entire time without a pause. I was so happy that I wasn't even paying attention to what I was saying.\n\nShe mentioned that she had seen me once before, a long time ago at a theater. On that occasion, I was with three friends and had acted wild. I admitted that I had undoubtedly been drunk then as well, which was mischievous of me."
+      ],
+      "gpt_54": [
+        "We laughed and joked, talking nonstop the entire time. I didn\u2019t even know what I was saying; I was happy. She said she had seen me once before, a long time ago, at the theater. I had been there with three friends and had acted like a madman; clearly, I had been drunk then too, which was very bad."
+      ]
+    },
+    {
+      "human_par3": [
+        "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'"
+      ],
+      "sonnet_46": [
+        "\"Then allow me to go and speak with her,\" Arkady cried out, once again overcome by a surge of noble feeling as he jumped up from his seat. \"Yes, I will go and make her understand that she has no reason to avoid me.\""
+      ],
+      "gemini_25_pro": [
+        "Feeling magnanimous once more, Arkady leaped from his chair and declared that he should go see her. He wanted to reassure her that there was no reason for her to stay away from him.",
+        "Of course. Here are a few ways to paraphrase the text:\n\n**Option 1 (More direct and modern):**\nIn another burst of what he considered generosity, Arkady leaped from his chair. \"Then let me go see her,\" he exclaimed. \"I'll go and explain to her that she doesn't have to avoid me.\"\n\n**Option 2 (Slightly more formal):**\n\"Then I must go and meet her!\" Arkady declared, springing to his feet in a sudden fit of magnanimity. \"Yes, allow me to clarify for her why she has no reason to keep her distance.\"\n\n**Option 3 (Focusing on the action and motive):**\nJumping from his chair with a renewed sense of noble feeling, Arkady insisted on being allowed to meet her. He wanted to explain that she had no cause to shun him."
+      ],
+      "gpt_54": [
+        "\u201cThen let me go and see her,\u201d Arkady cried, seized once more by a fit of \u201cmagnanimity\u201d as he leapt up from his chair. \u201cYes, let me go and tell her why she doesn\u2019t need to avoid me.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "This work, peculiar to the whole of Europe, effected more ravages in Germany than anywhere else. In Germany, during a given period, summed up by Schiller in his famous drama The Robbers, theft and pillage rose up in protest against property and labor, assimilated certain specious and false elementary ideas, which, though just in appearance, were absurd in reality, enveloped themselves in these ideas, disappeared within them, after a fashion, assumed an abstract name, passed into the state of theory, and in that shape circulated among the laborious, suffering, and honest masses, unknown even to the imprudent chemists who had prepared the mixture, unknown even to the masses who accepted it. Whenever a fact of this sort presents itself, the case is grave. Suffering engenders wrath; and while the prosperous classes blind themselves or fall asleep, which is the same thing as shutting one\u2019s eyes, the hatred of the unfortunate classes lights its torch at some aggrieved or ill-made spirit which dreams in a corner, and sets itself to the scrutiny of society. The scrutiny of hatred is a terrible thing."
+      ],
+      "sonnet_46": [
+        "This type of activity, which was occurring throughout Europe, caused more destruction in Germany than anywhere else. There was a particular era in Germany, depicted by Schiller in his well-known play The Robbers, during which robbery and looting emerged as a form of rebellion against ownership and work. These criminal acts wrapped themselves in certain basic yet flawed ideas \u2013 ideas that seemed convincing on the surface but were fundamentally nonsensical. They concealed themselves behind these ideas, adopted abstract terminology, gained theoretical legitimacy, and in this way spread among the struggling, hardworking common people. This happened without the awareness of the reckless individuals who had originally concocted these ideas, and without the knowledge of the ordinary people who came to embrace them. When something like this occurs, it is a dangerous situation. Hardship gives rise to resentment, and while those who are comfortable either ignore or remain oblivious to this reality, the bitterness of the poor finds fuel in some neglected, resentful, or malicious mind and begins to scrutinize the structure of society. When hatred turns its gaze upon society, the consequences can be devastating."
+      ],
+      "gemini_25_pro": [
+        "Although this type of activity occurred throughout Europe, it inflicted the most damage in Germany. During a specific era in Germany, depicted in Schiller\u2019s famous play *The Robbers*, theft and looting emerged as a form of protest against property and labor. This rebellion was justified by simple, flawed, and deceptive ideas that seemed plausible but were actually nonsensical. These ideas acted as a disguise, giving the crimes an abstract name and the status of a theory.\n\nIn this form, the philosophy spread among the honest and suffering working class, who accepted it without awareness, much like the reckless thinkers who created it were unaware of its influence. Any time this occurs, the consequences are serious. Suffering gives rise to anger. While the wealthy classes ignore the problem, the hatred of the poor is ignited by some overlooked, bitter, or corrupt person and begins to scrutinize society. Nothing is more terrible than an examination fueled by hatred.",
+        "This destructive movement, present throughout Europe, inflicted its worst damage in Germany. During a particular German era, famously depicted in Schiller\u2019s play *The Robbers*, robbery and looting arose to challenge the concepts of property and work. These acts were justified by simplistic but misleading ideas that were superficially appealing but fundamentally absurd. By being disguised as an abstract theory, this way of thinking spread among the honest and suffering working people. Neither the masses who embraced it, nor the reckless thinkers who devised it, understood its full implications.\n\nAny time a situation like this develops, it is extremely serious. Suffering gives rise to anger, and while the wealthy deliberately or ignorantly turn a blind eye, the hatred of the poor is ignited by some bitter and overlooked mind, which then begins to scrutinize society. An examination of society fueled by hatred is a terrifying thing."
+      ],
+      "gpt_54": [
+        "This sort of activity, occurring throughout Europe, caused greater damage in Germany than anywhere else. In a particular period of German history, recalled by Schiller in his famous play *The Robbers*, theft and looting rebelled against property and work, adopting certain primitive notions\u2014false and misleading, seeming true but in fact absurd. They hid behind these ideas, so to speak, took on an abstract label, became a theory, and thus spread among the honest, suffering, working masses, without the awareness either of the reckless thinkers who had concocted them or of the masses who received them. When such a thing occurs, it is grave. Suffering gives rise to anger, and while the privileged classes either blind themselves or drift into sleep\u2014both of which mean refusing to see\u2014the hatred of the poor lights its torch in some neglected, bitter, or ill-disposed mind and begins to scrutinize society. The scrutiny of hatred is a dreadful thing."
+      ]
+    },
+    {
+      "human_par3": [
+        "In the magnificent entrance-hall Nikolai Apollonovich stopped in front of the old servant, trying to catch his escaping thought.",
+        "In the sumptuous vestibule Nikolai Apollonovich stopped before the old lackey, trying to catch one of his own thoughts that had run away."
+      ],
+      "sonnet_46": [
+        "In the entryway, Nikolai Apollonovich paused before the servant, attempting to grasp a thought that had slipped away from him."
+      ],
+      "gemini_25_pro": [
+        "Nikolai Apollonovich paused in front of the servant in the entrance hall, trying to recall a thought that had just slipped his mind."
+      ],
+      "gpt_54": [
+        "In the vestibule, Nikolai Apollonovich paused before the servant, trying to recapture a thought that had darted away."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "A sprawling collection of pitch-dark houses was gradually taking shape against the slightly lighter backdrop of the night sky. With hardly any lights visible, it appeared that nearly all of Mokroye's two thousand residents were sound asleep.",
+      "The upper body of a caryatid depicting a half-human, half-goat figure. A horse-drawn carriage pulled by two horses came to a stop at the entrance, and a servant wearing a tricorn hat unlatched the door handle, causing the door to swing open and reveal a coat of arms decorated with small crowns (showing a unicorn impaling a knight). In acknowledgment of the welcoming gestures, a gloved hand briefly touched the rim of a top hat.",
+      "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next.",
+      "I believe this stems from their exhaustion. Throughout history, they have shouldered the full burden of love on their own; they have always performed the complete conversation \u2014 both sides of it. For man has merely echoed their words, and done so poorly. And he has hindered their growth with his inattentiveness, his carelessness, his jealousy \u2014 which was itself simply another form of carelessness.",
+      "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing.",
+      "After turning right, the horses began their warm-up canter, passing the grand stand in a disorganized bunch. This sparked another burst of enthusiastic chatter from the onlookers, as everyone began to speak at once.",
+      "We burst into laughter and playful banter, chatting nonstop the entire time \u2014 I was so caught up in the joy of it that I barely knew what was coming out of my mouth. She mentioned that she had spotted me once before, quite a while back, at the theater. Apparently I had been there with three companions and had acted like a complete madman; clearly, I had been drunk on that occasion as well, which she found rather mischievous of me.",
+      "\"Then allow me to go and speak with her,\" Arkady cried out, once again overcome by a surge of noble feeling as he jumped up from his seat. \"Yes, I will go and make her understand that she has no reason to avoid me.\"",
+      "Although this type of activity occurred throughout Europe, it inflicted the most damage in Germany. During a specific era in Germany, depicted in Schiller\u2019s famous play *The Robbers*, theft and looting emerged as a form of protest against property and labor. This rebellion was justified by simple, flawed, and deceptive ideas that seemed plausible but were actually nonsensical. These ideas acted as a disguise, giving the crimes an abstract name and the status of a theory.\n\nIn this form, the philosophy spread among the honest and suffering working class, who accepted it without awareness, much like the reckless thinkers who created it were unaware of its influence. Any time this occurs, the consequences are serious. Suffering gives rise to anger. While the wealthy classes ignore the problem, the hatred of the poor is ignited by some overlooked, bitter, or corrupt person and begins to scrutinize society. Nothing is more terrible than an examination fueled by hatred.",
+      "In the entryway, Nikolai Apollonovich paused before the servant, attempting to grasp a thought that had slipped away from him."
+    ],
+    [
+      "A sprawling collection of entirely dark houses was gradually becoming visible against the lighter backdrop of the night sky. With barely any lights visible, it appeared that nearly all of Mokroye's two thousand residents were sound asleep.",
+      "The upper body of a caryatid with goat-like legs. A horse-drawn carriage pulled by two horses came to a stop at the entrance, and a footman wearing a three-cornered hat snapped open the door handle, swinging it wide to reveal a coat of arms decorated with small crowns (depicting a unicorn impaling a knight). In acknowledgment of the welcoming gestures, a gloved hand briefly touched the edge of a top hat.",
+      "\"They're on their way, they've arrived. And the General is bringing up the rear. I'll throw open every door and summon all my daughters, each and every one of them, right now, immediately,\" Lebedev muttered quietly in a panic, rushing from one door to another.",
+      "I believe this situation is a result of their exhaustion. Throughout history, they have shouldered the entire burden of love, essentially performing both sides of the dialogue. Men have contributed little, only repeating what they say, and doing so poorly. Furthermore, a man\u2019s own inattentiveness, neglect, and jealousy\u2014which is just another form of neglect\u2014have obstructed their learning process.",
+      "I despised every single person in that office, from beginning to end, yet at the same time I was somehow intimidated by them. Occasionally I would find myself elevating them above my own standing. My feelings shifted unpredictably back then - one moment I looked down on them, the next I considered them my superiors. A truly educated and respectable man cannot be conceited without holding himself to impossibly high standards and periodically loathing himself intensely. Yet regardless of whether I was looking down on my colleagues or placing them above me, I almost always averted my eyes when facing anyone. I would test myself, wondering if I could hold someone's gaze - and I always looked away first. This drove me to absolute frustration. I was also terrified of appearing foolish, which made me blindly conform to social norms in my outward behavior. I desperately wanted to blend in and was deeply frightened of standing out in any way. Yet how could I help it? I was excessively self-aware, as any modern man tends to be. Meanwhile, everyone around me was simple-minded and indistinguishable from one another.\n\nI alone in that office seemed to recognize myself as both a coward and a servant - precisely because of my heightened awareness. And it wasn't merely a perception; it was reality. I was genuinely a coward and a slave, and I say this without shame. Every respectable man today is and must be both. This is his natural state - not due to present circumstances, but throughout all of history. Even when such a man musters some courage in one area, he will inevitably cower in another. That is the only possible outcome. Only fools and brutes show true boldness, and even they have their limits. They deserve no consideration, as they ultimately amount to nothing.",
+      "The horses had gone up to the right, and they now started for the preliminary canter, passing in loose order before the stands. Thereupon there was a passionate fresh burst of talk, and people all spoke at once.",
+      "We began to laugh and jest; we talked incessantly all the time. I do not know what I said, I was so happy. She told me that she had seen me once before, a long time ago, in the theatre. I had then comrades with me, and I behaved like a madman; I must certainly have been tipsy that time too, more's the shame.",
+      "Of course. Here are a few ways to paraphrase the text:\n\n**Option 1 (More direct and modern):**\nIn another burst of what he considered generosity, Arkady leaped from his chair. \"Then let me go see her,\" he exclaimed. \"I'll go and explain to her that she doesn't have to avoid me.\"\n\n**Option 2 (Slightly more formal):**\n\"Then I must go and meet her!\" Arkady declared, springing to his feet in a sudden fit of magnanimity. \"Yes, allow me to clarify for her why she has no reason to keep her distance.\"\n\n**Option 3 (Focusing on the action and motive):**\nJumping from his chair with a renewed sense of noble feeling, Arkady insisted on being allowed to meet her. He wanted to explain that she had no cause to shun him.",
+      "This work, peculiar to the whole of Europe, effected more ravages in Germany than anywhere else. In Germany, during a given period, summed up by Schiller in his famous drama The Robbers, theft and pillage rose up in protest against property and labor, assimilated certain specious and false elementary ideas, which, though just in appearance, were absurd in reality, enveloped themselves in these ideas, disappeared within them, after a fashion, assumed an abstract name, passed into the state of theory, and in that shape circulated among the laborious, suffering, and honest masses, unknown even to the imprudent chemists who had prepared the mixture, unknown even to the masses who accepted it. Whenever a fact of this sort presents itself, the case is grave. Suffering engenders wrath; and while the prosperous classes blind themselves or fall asleep, which is the same thing as shutting one\u2019s eyes, the hatred of the unfortunate classes lights its torch at some aggrieved or ill-made spirit which dreams in a corner, and sets itself to the scrutiny of society. The scrutiny of hatred is a terrible thing.",
+      "In the vestibule, Nikolai Apollonovich paused before the servant, trying to recapture a thought that had darted away."
+    ],
+    [
+      "A broad, scattered cluster of pitch-black houses was beginning to appear out of the lighter darkness of the night. It seemed that nearly all of Mokroye\u2019s two thousand residents were asleep, since only a few lights were visible.",
+      "The body of a goat-legged caryatid. A carriage pulled by two horses rushed up to the porte-coch\u00e8re, and a servant, wearing a tricorne, clicked the handle, and the door swung open, tossing back a coat of arms decorated with small crowns (a unicorn piercing a knight). In reply to the greetings, a gloved hand touched the brim of a top hat.",
+      "\u201cThey\u2019re arriving\u2014here they are\u2014and the General is at the back,\u201d Lebedev muttered in a flurry, rushing from door to door. \u201cI\u2019ll throw open every door and summon all my daughters, every one of them, right now, this instant.\u201d",
+      "I think that comes from their weariness. Over the centuries, they have taken on the whole work of love, always speaking both sides of the conversation. Men have only echoed their words, and poorly at that. They have also made women\u2019s learning harder through their distraction, their carelessness, and their jealousy, which was really another form of carelessness.",
+      "Naturally, I hated everyone in our office, every last one of them, and despised them all; yet at the same time, I seemed almost afraid of them. At moments, I would suddenly place them above myself. That was how things were with me then: one moment I despised them, the next I considered them superior. A cultivated and respectable man cannot be vain without also demanding endlessly from himself and, at times, despising himself to the point of hatred. But whether I looked down on them or elevated them above me, I would lower my eyes before nearly everyone I met. I even tested myself: could I withstand so-and-so\u2019s gaze? And I was always the first to look away. This tormented me to the point of rage. I was also morbidly afraid of seeming ridiculous, almost to the point of sickness, and so I slavishly clung to convention in all outward matters; I liked staying in the common track and feared any sign of eccentricity in myself with all my heart. But how could I do otherwise? I was excessively developed, as a man of our age ought to be. And they were all stupid and all alike, like a flock of sheep. Perhaps I alone in the whole office constantly felt that I was a coward and a slave; and it seemed so to me precisely because I was developed. But it did not merely seem so\u2014indeed, it was true: I was a coward and a slave. I say this without the least shame. Every decent man of our time is, and must be, a coward and a slave. That is his normal state. I am firmly convinced of it. He is made that way and intended for it. And not only now, because of some accidental circumstances, but always: in every age, a decent man must be a coward and a slave. That is the natural law for all decent people on earth. If one of them does manage to show a little courage in something, he should not take comfort or pride in it; he will still lose heart before something else. That is the only eternal result. Only donkeys and their crossbreeds show courage, and even then only until they come up against a certain wall. They are not worth noticing, because they amount to absolutely nothing.",
+      "The horses veered to the right and began their warm-up canter, moving past the grandstand in a disorganized cluster. The crowd then erupted into animated chatter, with everyone talking all at once.",
+      "We laughed and joked, talking nonstop the entire time. I didn\u2019t even know what I was saying; I was happy. She said she had seen me once before, a long time ago, at the theater. I had been there with three friends and had acted like a madman; clearly, I had been drunk then too, which was very bad.",
+      "\u201cThen let me go and see her,\u201d Arkady cried, seized once more by a fit of \u201cmagnanimity\u201d as he leapt up from his chair. \u201cYes, let me go and tell her why she doesn\u2019t need to avoid me.\u201d",
+      "This sort of activity, occurring throughout Europe, caused greater damage in Germany than anywhere else. In a particular period of German history, recalled by Schiller in his famous play *The Robbers*, theft and looting rebelled against property and work, adopting certain primitive notions\u2014false and misleading, seeming true but in fact absurd. They hid behind these ideas, so to speak, took on an abstract label, became a theory, and thus spread among the honest, suffering, working masses, without the awareness either of the reckless thinkers who had concocted them or of the masses who received them. When such a thing occurs, it is grave. Suffering gives rise to anger, and while the privileged classes either blind themselves or drift into sleep\u2014both of which mean refusing to see\u2014the hatred of the poor lights its torch in some neglected, bitter, or ill-disposed mind and begins to scrutinize society. The scrutiny of hatred is a dreadful thing.",
+      "In the sumptuous vestibule Nikolai Apollonovich stopped before the old lackey, trying to catch one of his own thoughts that had run away."
+    ],
+    [
+      "Through the pale darkness of the night loomed a solid black mass of buildings, flung down, as it were, in the vast plain. The village of Mokroe numbered two thousand inhabitants, but at that hour all were asleep, and only here and there a few lights still twinkled.",
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "\u201cThey\u2019re arriving\u2014here they are\u2014and the General is bringing up the rear. I\u2019ll throw open all the doors and summon all my daughters, every one of them, right now, this instant,\u201d Lebedev muttered anxiously, rushing from one door to the next.",
+      "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect.",
+      "I had contradictory feelings for all my colleagues; I loathed and looked down on them, but I was also afraid of them. My opinion would shift abruptly, so that one moment I felt superior and the next I would place them above me.\n\nI believe an intelligent, decent person cannot have pride without also being extremely self-critical, sometimes to the point of self-hatred. Regardless of whether I felt contempt or admiration for others, I could not meet anyone\u2019s gaze and always looked away first. I would even test myself by trying to hold someone\u2019s stare, but I always failed, which infuriated me.\n\nI had a pathological fear of being seen as foolish, so I slavishly followed convention in my appearance and behavior. I much preferred to blend in and was terrified of revealing any personal eccentricities. But I felt I had no choice, as I was overly self-aware and complex\u2014a typical condition for a modern man. My coworkers, in contrast, were all dull and indistinguishable from one another, like sheep.\n\nI was likely the only one in the office who constantly saw himself as a coward and a slave, and I believed this was a direct result of my intellectual development. This was not just a feeling but the reality of my situation, a fact I admit without embarrassment. In my opinion, every decent person of our time is and must be a coward and a slave; it is their natural state. I am certain they are designed to be this way, and this is true not just for today but for all eras. It is a fundamental law for all decent people. If one of them acts bravely in one instance, it is meaningless, as they will surely show cowardice in another. That is the only possible outcome. Only fools and similar types show courage, and even then, only until they hit a significant barrier. They are not worth thinking about, because they are fundamentally insignificant.",
+      "After turning to the right, the horses began their warm-up canter, passing the grandstand in a jumbled pack. A new wave of excited chatter then erupted from the spectators, as everyone began talking at once.",
+      "We laughed and joked, talking the entire time without a pause. I was so happy that I wasn't even paying attention to what I was saying.\n\nShe mentioned that she had seen me once before, a long time ago at a theater. On that occasion, I was with three friends and had acted wild. I admitted that I had undoubtedly been drunk then as well, which was mischievous of me.",
+      "Feeling magnanimous once more, Arkady leaped from his chair and declared that he should go see her. He wanted to reassure her that there was no reason for her to stay away from him.",
+      "This destructive movement, present throughout Europe, inflicted its worst damage in Germany. During a particular German era, famously depicted in Schiller\u2019s play *The Robbers*, robbery and looting arose to challenge the concepts of property and work. These acts were justified by simplistic but misleading ideas that were superficially appealing but fundamentally absurd. By being disguised as an abstract theory, this way of thinking spread among the honest and suffering working people. Neither the masses who embraced it, nor the reckless thinkers who devised it, understood its full implications.\n\nAny time a situation like this develops, it is extremely serious. Suffering gives rise to anger, and while the wealthy deliberately or ignorantly turn a blind eye, the hatred of the poor is ignited by some bitter and overlooked mind, which then begins to scrutinize society. An examination of society fueled by hatred is a terrifying thing.",
+      "Nikolai Apollonovich paused in front of the servant in the entrance hall, trying to recall a thought that had just slipped his mind."
+    ],
+    [
+      "Against the dimness of the night, the dark shapes of widely dispersed houses began to appear. It looked as though nearly all of Mokroye's two thousand residents were sleeping, since there were hardly any lights visible.",
+      "A carriage drawn by two horses sped toward the covered entryway, where the torso of a goat-footed female statue served as a pillar. A footman wearing a three-cornered hat turned the carriage handle, causing the door to swing open. This revealed a coat of arms on the door, which was decorated with tiny crowns and depicted a unicorn impaling a knight. To acknowledge the greetings he received, a man inside raised a leather-gloved hand to the brim of his top hat.",
+      "In a nervous flurry, Lebedev hurried from one door to another, muttering quietly that the group was arriving with the General at the very end. He resolved to throw open all the doors and call for every one of his daughters at that exact moment.",
+      "I believe this stems from their exhaustion. Throughout the ages, they have shouldered the full burden of love on their own; they have always performed the complete conversation \u2014 both sides of it. For man has merely echoed their words, and done so poorly. And he has hindered their ability to learn through his inattentiveness, his carelessness, his jealousy \u2014 which was itself simply another form of carelessness.",
+      "I held a deep-seated hatred for everyone in my office, yet I simultaneously feared them. My feelings were inconsistent; one moment I would despise them, and the next I would suddenly consider them my superiors.\n\nI believe that a developed, decent person cannot have self-esteem without being incredibly demanding of themselves, to the point of despising themselves at times. Regardless of whether I felt superior or inferior to my colleagues, I was always the first to lower my eyes when I met them. I even conducted experiments to see if I could withstand someone's stare, but I always failed, which infuriated me.\n\nI was also pathologically afraid of being seen as ridiculous, so I strictly adhered to convention in all my outward behavior. I tried to fit in and was terrified of any eccentricity in my own character. But it was impossible to sustain. I was what I considered morbidly self-aware\u2014a hallmark of a modern man\u2014while they were all dense and uniform, like a flock of sheep.\n\nIt seemed that I was the only person in our workplace who constantly felt like a coward and a slave, and I believed this feeling stemmed directly from my over-developed consciousness. This was not just a feeling, but a fact. I state it without shame: I was a coward and a slave. I am firmly convinced this is the natural state for any decent person in our time, and in fact, in any time. It's a fundamental law. If such a person does manage to find some courage, it won\u2019t last; they will inevitably be brought low by something else. Only fools and their kind seem brave, and even their courage is limited and ultimately means nothing.",
+      "The horses veered to the right and began their warm-up canter, moving past the grandstand in a scattered group. Then the excited comments started up again, with everyone talking at once.",
+      "We burst into laughter and banter, chatting nonstop the entire time \u2014 I was so caught up in happiness that I barely knew what I was saying. She mentioned that she had spotted me once before, quite a while back, at the theater. Apparently I had been with three friends and had acted completely out of control; it was clear I had been drunk on that occasion as well, which was rather shameful of me.",
+      "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'",
+      "This type of activity, which was occurring throughout Europe, caused more destruction in Germany than anywhere else. There was a particular era in Germany, depicted by Schiller in his well-known play The Robbers, during which robbery and looting emerged as a form of rebellion against ownership and work. These criminal acts wrapped themselves in certain basic yet flawed ideas \u2013 ideas that seemed convincing on the surface but were fundamentally nonsensical. They concealed themselves behind these ideas, adopted abstract terminology, gained theoretical legitimacy, and in this way spread among the struggling, hardworking common people. This happened without the awareness of the reckless individuals who had originally concocted these ideas, and without the knowledge of the ordinary people who came to embrace them. When something like this occurs, it is a dangerous situation. Hardship gives rise to resentment, and while those who are comfortable either ignore or remain oblivious to this reality, the bitterness of the poor finds fuel in some neglected, resentful, or malicious mind and begins to scrutinize the structure of society. When hatred turns its gaze upon society, the consequences can be devastating.",
+      "In the magnificent entrance-hall Nikolai Apollonovich stopped in front of the old servant, trying to catch his escaping thought."
+    ]
+  ]
+}

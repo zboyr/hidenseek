@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ]
+  ],
+  "source_texts": [
+    "Meanwhile the man in the yellow frock-coat had been fumbling in his waistcoat pocket without anyone noticing. In fact the other travellers were drinking or playing cards and paying no attention to anything else.",
+    "Of course, I hated them all in our office, from first to last, and despised them all, but at the same time I was also as if afraid of them. It happened that I would suddenly set them above myself. Things were somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes before almost everyone I met. I even made experiments: will I be able to endure so-and-so's glance on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury. I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything to do with externals; I loved falling into the common rut, and feared any eccentricity in myself with all my soul. But how could I hold out? I was morbidly developed, as a man of our time ought to be developed. And they were all dull-witted and as like one another as a flock of sheep. Perhaps to me alone in the whole office did it constantly seem that I was a coward and a slave; it seemed so to me precisely because I was developed. But it not only seemed, in fact it really was so: I was a coward and a slave. I say it without any embarrassment. Every decent man of our time is and must be a coward and a slave. That is his normal condition. I am deeply convinced of it. He's made that way, and arranged for it. And not in the present time, owing to some sort of chance circumstances, but generally in all times a decent man must be a coward and a slave. That is the natural law of all decent people on earth. If one of them does happen to get up a bit of pluck in something, let him not be eased or pleased by that: he'll still quail before something else. Such is the sole and everlasting outcome. Only asses and their mongrels show pluck, and even then only up to that certain wall. It's not worth paying any attention to them, because they mean precisely nothing.",
+    "Leaning over the railing, he shouted something or other in the direction of the vestibule. The shout was answered with silence, and then, a protesting falsetto:",
+    "Again he produced the whole wad of bills, counted off three of them, tossed them onto the counter, and hurriedly left the store, accompanied by the shop assistants and errand boys, all of them bowing to him and wishing him a good time. Andrei cleared his throat after swallowing his brandy and jumped up onto the driver\u2019s box. But just as Mitya was installing himself in the cart, to his great surprise, Fenya appeared. She was running, completely out of breath, and as soon as she reached him, she let out a cry and threw herself down at his feet.",
+    "\u201cSit down, Ivan, please, here on the sofa,\u201d Alyosha said, frightened. \u201cYou\u2019re feverish. Lie down. Put your head on the pillow. Right. Would you like a wet towel on your head? It might help.\u201d",
+    "\"Evgenii Vasilitch,\" he said, \"I would beg of you to attend my brother until a doctor can be procured from the town.\"",
+    "The officer\u2019s comrades noticed in that \u2018neglected\u2019 garden, behind that sorry-looking rococo gate, quite a pretty creature who was almost always there when the handsome lieutenant went by. This lieutenant is not unknown to the reader: his name was Th\u00e9odule Gillenormand.",
+    "That meant asking the celebrated doctor regardless of cost. He smiled venomously and said, \u201cNo.\u201d She sat for a while, then went over to him and kissed him on the forehead.",
+    ". .\u201d To Alyosha\u2019s great distress, her face was beaming with joy. Katerina suddenly reappeared. She held two rainbow-colored hundred-ruble notes in her hand.",
+    "That was a new call, and Heidi obeyed quickly. When the child came downstairs in her smart little frock, she opened her eyes wide. \" Oh, grandfather!\" she exclaimed, \"I have never seen you in your Sunday coat with the silver buttons. Oh, how fine you look!\""
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "human_par3",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b"
+    ]
+  ],
+  "rationales": [
+    "Outputs 1 and 2 are the most likely to have come from the same paraphraser due to a collection of shared stylistic and structural fingerprints. Both split the original idea into two distinct sentences and present them in the same order: first, a sentence about the man in the coat, and second, a sentence about the other travelers. Both begin the first sentence with a similar temporal adverb ('In the meantime,' vs. 'Meanwhile'). Crucially, both use the UK spelling 'travellers' and the same descriptive phrase 'yellow coat'. Finally, their second sentences are nearly identical in structure and phrasing, ending with the very similar clauses 'were not paying attention to anything' (1) and 'paid no attention to anything' (2). This combination of shared sentence structure, sentence order, and specific word/spelling choices strongly suggests a common origin.",
+    "Outputs 0 and 3 were produced by the same paraphrasing system. This is evident from their shared stylistic fingerprints, particularly in how they restructure complex sentences and their choice of specific vocabulary. \n\n1.  **Shared Sentence Structure and Key Vocabulary:** Both outputs use almost identical sentence structures and retain the same key nouns and adverbs, while swapping other words for close synonyms. For example:\n    *   Output 0: \"...I was also afraid to the point of illness to be ridiculous, and therefore slavishly worshipped routine in everything external; I loved falling into the common rut...\"\n    *   Output 3: \"...I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut...\"\n    The use of \"slavishly\" and the phrase \"common rut\" in both is a strong indicator. Similarly, \"afraid to the point of illness\" and \"morbidly afraid\" are synonymous expressions in the same structural position.\n\n2.  **Handling of a Specific Sentence:** The way both texts handle the sentence about experimenting with eye contact is nearly identical:\n    *   Output 0: \"I even made experiments: could I endure this so-and-so's look at me? and I was always the first to lower my eyes, that tormented me to the point of fury...\"\n    *   Output 3: \"I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy.\"\n    The structure of `(tried/made) experiments: [question] - and I was always the first to lower my eyes. This (drove/tormented) me to (frenzy/fury)` is a unique and shared fingerprint.\n\n3.  **Unique Artifact in Output 0:** Output 0 contains a large, near-verbatim repetition of its own text, which is a classic failure mode for a generative model. This suggests it's a buggy output from a machine system. Crucially, the same underlying paraphrasing style seen in the clean output of 3 is present in both the initial and repeated sections of 0, solidifying the link that they originate from the same system, with 0 being a flawed generation.",
+    "The most compelling piece of evidence linking outputs 3 and 4 is the identical and unique replacement of the word \"falsetto\". While outputs 0 and 2 retain the word \"falsetto\" and output 1 uses \"complaint or yell\", both outputs 3 and 4 substitute it with the exact same descriptive phrase: \"high-pitched, complaining voice\". This specific lexical choice is a strong fingerprint. Furthermore, both 3 and 4 use the verb \"yelled\" where other outputs use different words (\"called\", \"bellowed\", \"shouted\"). The slight variations in sentence structure between them (\"His shout was met with silence\" vs. \"Silence was the only reply\") are minor compared to the identical and highly specific word choices, which strongly suggest they were produced by the same system.",
+    "Outputs 0 and 3 share a remarkable number of stylistic and lexical similarities, pointing to a common origin. The most compelling piece of evidence is the final sentence, which is absolutely identical in both versions: \"She was breathless from running and, upon reaching him, cried out and collapsed at his feet.\" The probability of two different systems producing this exact complex sentence is extremely low. Furthermore, both outputs use similar, slightly unnatural phrasing like \"peeled off\" for money bills and refer to the \"driver's seat.\" They also share the same overall sentence structure and cadence, with minor variations like swapping \"threw\" (0) for \"tossed\" (3), \"getting into the cart\" (0) for \"settling into the cart\" (3), and slightly reordering clauses such as \"After swallowing his brandy, Andrei cleared his throat\" (0) versus \"Andrei cleared his throat after downing his brandy\" (3). These parallel variations strongly suggest the same underlying paraphrasing logic being applied twice.",
+    "Outputs 0 and 4 exhibit several strong similarities that suggest they were produced by the same system. Both retain a very literal, direct translation style, closely mirroring the sentence structure of a likely source text. Most notably, they are the only two outputs to use the specific phrase \"wet towel on your head,\" whereas the other outputs opt for variations like \"damp cloth.\" Furthermore, both maintain the direct dialogue format with similar constructions: \"said Alyosha in alarm\" (0) and \"said Alyosha, frightened\" (4). The phrasing of the suggestion at the end is also structurally parallel: \"Perhaps it will do you good\" (0) and \"it would be better\" (4). These shared lexical and structural choices strongly indicate a common origin.",
+    "The most compelling evidence linking outputs 0 and 4 is the identical and specific transliteration of the name \"Evgenii Vasilitch\". Other outputs use different spellings (\"Yevgeny Vasilyich\") or truncate the name (\"Evgenii\"). This shared, specific choice for a proper noun is a strong fingerprint. Furthermore, both outputs use a similar structure for the request, combining the word \"please\" with a form of the phrasal verb \"to care for\" (output 0 uses \"take care of\" and output 4 uses \"care for\"). While one is a question and the other is a statement with an attribution, the core vocabulary and name handling are strikingly similar.",
+    "The key evidence lies in the shared, specific, and slightly unusual lexical choices made in outputs 1 and 2. Both refer to the officer's companions as \"comrades\" and the woman as a \"very pretty creature.\" This exact wording is unique to this pair; the other outputs use different terms like \"fellow soldiers,\" \"companions,\" \"beautiful young woman,\" or \"charming young woman.\" Additionally, both 1 and 2 describe the lieutenant as \"handsome,\" a choice not made by all other models. While there are stylistic differences\u2014notably output 2's use of em-dashes and the bizarre phrase \"malicious rococo fence\" versus 1's more straightforward \"poor rococo gate\"\u2014 these can be explained as variations from the same model. The foundational and distinctive vocabulary shared between 1 and 2 is a stronger indicator of a common origin than the stylistic variations are of a different one.",
+    "Outputs 1 and 3 are the most likely pair from the same paraphraser. The strongest evidence is the shared use of several identical and distinctive phrases. Both outputs use the exact phrase \"smiled venomously\" and the phrase \"celebrated doctor\". Additionally, both use the phrase \"sat for a while\" and similar constructs for cost (\"at whatever cost\" vs. \"whatever the cost\"). They also share the same punctuation for dialogue, using smart quotes around \"No.\". While the sentence order is rearranged differently in each, this tendency to significantly reorder the story's main components is itself a shared stylistic trait that distinguishes them from the more linear narratives of outputs 0, 2, and 4.",
+    "Outputs 2 and 3 share several distinctive linguistic fingerprints. Both begin with a similar sentence structure, starting with Katerina's sudden appearance: \"Katerina suddenly reappeared...\" (2) and \"Katerina Ivanovna suddenly appeared...\" (3). Most notably, both outputs use the identical and specific phrase \"rainbow-colored\" to describe the money, a descriptor not found in the other versions (which use \"colorful\", \"vibrant rainbow design\", or no adjective). Furthermore, both use the exact phrase \"beaming with joy\" to describe Katerina. The combination of these shared unique word choices and similar sentence construction strongly suggests they were produced by the same paraphrasing system.",
+    "Outputs 2 and 4 share several distinct linguistic fingerprints that suggest they were produced by the same system. The most telling piece of evidence is the uncommon and specific word choice \"shiny silver buttons,\" which appears in both of these outputs but not in any of the others (the others use \"shiny buttons,\" \"silver buttons,\" or split the description). Furthermore, both outputs demonstrate a similar strategy of not just paraphrasing the narrative but also altering the direct quotation. Output 2 converts the dialogue into indirect speech (\"exclaiming that she'd never witnessed him looking so distinguished\"), while output 4 significantly rephrases and summarizes the original sentiment within a descriptive clause that follows a short, new quotation (\"...she said with enthusiasm, noticing his Sunday attire...\"). This shared tendency to modify the dialogue, rather than preserving it as a direct quote like outputs 0, 1, and 3 do, points to a common underlying paraphrasing logic. Finally, both 2 and 4 use a slightly more formal and descriptive vocabulary (e.g., \"formal attire,\" \"distinguished\" in 2; \"Sunday attire,\" \"dashing\" in 4) compared to the others."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "In the meantime, the man in the yellow coat had been fumbling in the fob of his waistcoat, without any one having noticed his movements. Besides, the other travellers were drinking or playing cards, and were not paying attention to anything.",
+        "Meanwhile the man in the yellow coat had been fumbling in his waistcoat pocket, without being noticed. The other travellers were drinking or playing cards, and paid no attention to anything."
+      ],
+      "llama_31_8b": [
+        "As the other passengers passed the time drinking or playing cards, they were oblivious to the man in the yellow overcoat, who had been discreetly searching his waistcoat pocket without drawing attention to himself."
+      ],
+      "gemini_25_flash": [
+        "Unnoticed by his fellow travelers, who were preoccupied with drinking or playing cards, the man in the yellow frock coat was discreetly searching his waistcoat pocket."
+      ],
+      "dipper_lowmed": [
+        "The other travelers, for their part, were drinking or playing cards, and paid no attention to anything else. But in the meantime the man in the yellow frock coat had been fumbling in his waistcoat pocket without anyone noticing it."
+      ]
+    },
+    {
+      "human_par3": [
+        "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing.",
+        "Of course, I hated my fellow clerks one and all, and I despised them all, yet at the same time I was, as it were, afraid of them. In fact, it happened at times that I thought more highly of them than of myself. It somehow happened quite suddenly that I alternated between despising them and thinking them superior to myself. A cultivated and decent man cannot be vain without setting a fearfully high standard for himself, and without despising and almost hating himself at certain moments. But whether I despised them or thought them superior I dropped my eyes almost every time I met anyone. I even made experiments whether I could face so and so\u2019s looking at me, and I was always the first to drop my eyes. This worried me to distraction. I had a sickly dread, too, of being ridiculous, and so had a slavish passion for the conventional in everything external. I loved to fall into the common rut, and had a whole-hearted terror of any kind of eccentricity in myself. But how could I live up to it? I was morbidly sensitive as a man of our age should be. They were all stupid, and as like one another as so many sheep. Perhaps I was the only one in the office who fancied that I was a coward and a slave, and I fancied it just because I was more highly developed. But it was not only that I fancied it, it really was so. I was a coward and a slave. I say this without the slightest embarrassment. Every decent man of our age must be a coward and a slave. That is his normal condition. Of that I am firmly persuaded. He is made and constructed to that very end. And not only at the present time owing to some casual circumstances, but always, at all times, a decent man is bound to be a coward and a slave. It is the law of nature for all decent people all over the earth. If anyone of them happens to be valiant about something, he need not be comforted nor carried away by that; he would show the white feather just the same before something else. That is how it invariably and inevitably ends. Only donkeys and mules are valiant, and they only till they are pushed up to the wall. It is not worth while to pay attention to them for they really are of no consequence."
+      ],
+      "llama_31_8b": [
+        "In our office, I despised everyone but often found myself cowering in their presence. My emotions were volatile, and I would quickly shift from disdain to self-doubt and even admiration for my coworkers. I recognized that I was prone to feelings of vanity and self-loathing, which a more developed and self-aware person would normally outgrow.\n\nDespite my frustration with this dynamic, I found myself consistently giving in to the weaknesses around me, often out of fear of ridicule or embarrassment. To avoid standing out in any way, I clung to routine and preferred to blend in with the crowd. However, I couldn't shake the feeling that I was failing myself and deviating from the ideal kind of person I wanted to be.\n\nUnfortunately, I came to realize that my self-doubt and lack of confidence were not unique to me. In fact, I believed that many people, including those who would consider themselves decent, were fundamentally cowards and slaves to societal pressures. This, I thought, was an inescapable part of being a \"decent\" person.\n\nI saw it as a universal truth that even those who might occasionally muster the courage to stand up for themselves would soon collapse under the weight of external expectations. While some individuals, including animals, might show a fleeting sense of courage, it was ultimately meaningless and insignificant.\n\nAs I reflected on this, I felt that there was little kindness to be found in belittling the pretentious behavior of those who genuinely lacked the courage to take a stand. Instead, it was more productive to look inward and acknowledge our own inherent weaknesses and vulnerabilities."
+      ],
+      "gemini_25_flash": [
+        "I loathed and looked down on everyone in my office, from top to bottom, yet simultaneously felt a strange apprehension towards them. There were times I would irrationally elevate them above myself. My feelings were always extreme back then: one moment contempt, the next reverence. A cultivated and upright individual can only be conceited if they are infinitely self-critical and occasionally despise themselves to the point of hatred. Regardless of whether I scorned them or held them in high regard, I invariably averted my gaze when encountering almost anyone. I even conducted personal tests to see if I could maintain eye contact with certain individuals, but I was always the first to look away. This frustrated me immensely. I was also terrified of appearing foolish to the point of sickness, which led me to slavishly conform to established norms when it came to outward appearances. I enjoyed blending in and passionately avoided anything atypical about myself. But how could I sustain such a fa\u00e7ade? I was overly sensitive, as a modern man should be. And they, in contrast, were all uninspired and indistinguishable, like a herd. Perhaps I was the only one in the entire office who constantly believed myself to be a coward and a subservient individual. This conviction arose precisely because of my heightened sensitivity. And indeed, it wasn't just a feeling; it was the truth: I was a coward and a slave. I state this without hesitation. Every respectable person in our era is, by necessity, a coward and a slave. This is their inherent state. I am profoundly certain of this. They are structured and destined for it. And it's not a result of some random contemporary circumstance, but rather a universal truth that an upright person in any age must be a coward and a slave. This is the fundamental principle governing all respectable people on Earth. Should one of them ever show a spark of courage, they shouldn't find comfort in it, for they will invariably cower before something else. This is the inevitable and timeless reality. Only fools and their subservient followers display courage, and even then, only up to a certain limit. They are insignificant and not worth acknowledging."
+      ],
+      "dipper_lowmed": [
+        "Of course, I hated them all in the office, from first to last, and despised them all, but at the same time I was somehow afraid of them, it happened that I suddenly set them above myself. A developed and decent person cannot be vain without a boundless maniac in himself and without despising himself at moments to the point of hatred. But no matter whether I despised them or set them above me, I lowered my eyes almost everyone I met, I even made experiments: could I endure this so-and-so's look at me? and I was always the first to lower my eyes, that tormented me to the point of fury; I was also afraid to the point of illness to be ridiculous, and therefore slavishly worshipped routine in everything external; I loved falling into the common rut, and feared any eccentricity in myself with all my soul; but how could I hold out? I was morbidly developed, as a man of our time should be developed; they were all dull-witted and like each other as a flock of sheep. Of course, I hated them all in our office, from the first to the last, and despised them all, but at the same time I suddenly set them above myself; it was some kind of sudden thing with me then: now I despised them, now I set them above myself; a developed and decent man cannot be vain without boundless demands on himself, without despising himself at moments to the point of hatred; but whether I despised them or set them above myself, I would lower my eyes to almost everyone I met; I even made experiments: would I be able to endure the gaze of so and so on me? - and I was always the first to lower my eyes; that tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshipped the routine in everything external; I loved falling into the common rut; I feared eccentricity with all my heart;"
+      ]
+    },
+    {
+      "human_par3": [
+        "Leaning over the balustrade, Nikolai Apollonovich called down in the direction of the entrance-hall, but his call was answered first by silence, then, with excessive distinctness, by an unexpected, reluctant falsetto:"
+      ],
+      "llama_31_8b": [
+        "As the man peered over the railing, he bellowed something towards the entrance area, but his outburst only echoed back in silence before prompting a high-pitched complaint or yell."
+      ],
+      "gemini_25_flash": [
+        "He leaned over the railing and yelled into the vestibule. His shout was met with silence, followed by a high-pitched, complaining voice.",
+        "He leaned over the railing and yelled something toward the vestibule. Silence was the only reply, followed by a high-pitched, complaining voice:"
+      ],
+      "dipper_lowmed": [
+        "He leaned over the railing and shouted something in the direction of the vestibule. The shout was answered with silence and then, a protesting falsetto:"
+      ]
+    },
+    {
+      "human_par3": [
+        "He pulled the bundle of notes out of his pocket again, picked out three hundred roubles, threw them on the counter, and ran hurriedly out of the shop. Every one followed him out, bowing and wishing him good luck. Andrey, coughing from the brandy he had just swallowed, jumped up on the box. But Mitya was only just taking his seat when suddenly to his surprise he saw Fenya before him. She ran up panting, clasped her hands before him with a cry, and plumped down at his feet."
+      ],
+      "llama_31_8b": [
+        "Andrei pulled out the stack of bills, selected three, and tossed them onto the counter before hastily exiting the store, followed by the shop assistants and errand boys, who all bowed and wished him a good time. After swallowing his brandy, Andrei cleared his throat and climbed up onto the driver's seat. Just as Mitya was settling in, Fenya suddenly appeared, out of breath, and rushed to him, letting out a cry as she threw herself at his feet."
+      ],
+      "gemini_25_flash": [
+        "He once more pulled out the stack of money, peeled off three bills, tossed them onto the counter, and quickly exited the store. Shop assistants and errand boys followed him, all bowing and wishing him well. Andrei cleared his throat after downing his brandy and hopped onto the driver's seat. Unexpectedly, just as Mitya was settling into the cart, Fenya appeared. She was breathless from running, and upon reaching him, she cried out and collapsed at his feet.",
+        "Once more, he pulled out the entire stack of bills, peeled off three, threw them on the counter, and quickly exited the store. He was followed by the shop workers and delivery boys, who all bowed and wished him well. After swallowing his brandy, Andrei cleared his throat and climbed onto the driver's seat. But just as Mitya was getting into the cart, Fenya unexpectedly arrived. She was breathless from running and, upon reaching him, cried out and collapsed at his feet."
+      ],
+      "dipper_lowmed": [
+        "Andrey sipped his brandy and jumped on to the box. But just as Mitya was installing himself in the cart, to his great surprise Fenya appeared. She ran, completely out of breath, and as soon as she caught up with him, she cried out and threw herself at his feet. He again snatched out the whole wad of credit bills, threw three of them on the counter and hurriedly left the shop, followed by the shop assistants and errand boys who all bowed to him and wished him well."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\""
+      ],
+      "llama_31_8b": [
+        "\"Let's sit down, Ivan,\" Alyosha said, his voice laced with concern, gesturing to the sofa. \"I think you're running a high temperature, so sit back, rest your head on the pillow. Is that okay? Maybe a cool, damp cloth on your forehead would help bring down the heat.\"",
+        "\"Alyosha gestured for Ivan to sit down on the sofa, looking anxious and concerned. He gently urged Ivan to lie down, adjust his head on the pillow, and leaned in to examine him closely. Alyosha asked if Ivan would like a cool, damp cloth placed on his forehead, suggesting it might provide some relief.\""
+      ],
+      "gemini_25_flash": [
+        "Alarmed, Alyosha urged Ivan, \"Please, have a seat here on the sofa. You seem to have a fever. Recline and rest your head on the pillow. There. Would a damp cloth for your forehead be comforting?\""
+      ],
+      "dipper_lowmed": [
+        "\"Sit down, Ivan, please, on the sofa,\" said Alyosha, frightened, \"you're feverish; lie down, put your head on the pillow. And would you like a wet towel on your head, it would be better."
+      ]
+    },
+    {
+      "human_par3": [
+        "'I must ask you to look after my brother,' Nikolai Petrovitch said to him, 'till we get another doctor from the town.'"
+      ],
+      "llama_31_8b": [
+        "\"Evgenii, I implore you to stay with my brother until a doctor can be fetched from the town.\"",
+        "\"Please, Evgenii Vasilitch, would you take care of my brother until we can get a doctor from the town?\""
+      ],
+      "gemini_25_flash": [
+        "\"Evgenii Vasilitch,\" he requested, \"please care for my brother until a physician arrives from the town.\""
+      ],
+      "dipper_lowmed": [
+        "\u2018I beg you, Yevgeny Vasilyich, to look after my brother until we can fetch the doctor from town.\u2019"
+      ]
+    },
+    {
+      "human_par3": [
+        "The officer\u2019s comrades perceived that there was, in that \u201cbadly kept\u201d garden, behind that malicious rococo fence, a very pretty creature, who was almost always there when the handsome lieutenant,\u2014who is not unknown to the reader, and whose name was Th\u00e9odule Gillenormand,\u2014passed by."
+      ],
+      "llama_31_8b": [
+        "In the small, overgrown garden behind the gilded gate, an officer's companions frequently spotted a charming young woman who usually seemed to be waiting for the good-looking Lieutenant Gillenormand to pass by. Readers are likely already familiar with Lieutenant Gillenormand, whose name is Th\u00e9odule Gillenormand."
+      ],
+      "gemini_25_flash": [
+        "In that unkempt garden, beyond the worn rococo gate, the officer's colleagues observed a rather lovely woman who appeared almost daily when the attractive Lieutenant Th\u00e9odule Gillenormand, a figure previously mentioned to the reader, passed by.",
+        "The officer's fellow soldiers observed a beautiful young woman who was nearly always present in the neglected garden, behind the rather sad-looking rococo gate, whenever the attractive lieutenant passed by. This lieutenant, Th\u00e9odule Gillenormand, is a familiar character to the reader."
+      ],
+      "dipper_lowmed": [
+        "This lieutenant is known to the reader; his name was Theodule Gillenormand. The comrades of this officer noticed in this neglected garden, behind this poor rococo gate, a very pretty creature, who was nearly always there when the handsome lieutenant passed."
+      ]
+    },
+    {
+      "human_par3": [
+        "This meant asking the celebrated doctor to come to them, whatever the expense. He gave her a vitriolic smile and said no. She sat there for a while, then came over and kissed him on the forehead."
+      ],
+      "llama_31_8b": [
+        "She insisted on consulting the renowned doctor at any price, but he gave a stern reply, \"No\". After a moment of silence, she got up and leaned forward, gently kissing his forehead."
+      ],
+      "gemini_25_flash": [
+        "She had to approach the renowned physician, no matter the expense. He responded with a poisonous smile and a \"No.\" After a moment, she walked over to him and kissed his forehead."
+      ],
+      "dipper_lowmed": [
+        "She sat for a while, then came up to him and kissed him on the forehead. This meant asking the celebrated doctor, whatever the cost. He smiled venomously and said, \u201cNo.\u201d",
+        "He smiled venomously and said, \u201cNo.\u201d She sat for a while, then went to him and kissed him on the forehead. That meant asking the celebrated doctor at whatever cost."
+      ]
+    },
+    {
+      "human_par3": [
+        "Her face beamed with delight, to the great distress of Alyosha, but Katerina Ivanovna suddenly returned. She had two hundred-rouble notes in her hand."
+      ],
+      "llama_31_8b": [
+        "Alyosha was deeply disheartened to see that Katerina's face was radiant with happiness. However, Katerina then unexpectedly reappeared, and to Alyosha's surprise, she was holding two large bills, a hundred rubles each, with a vibrant rainbow design."
+      ],
+      "gemini_25_flash": [
+        "Much to Alyosha's dismay, Katerina's face was radiating happiness. She then abruptly returned, clutching two colorful 100-ruble bills."
+      ],
+      "dipper_lowmed": [
+        "Katerina Ivanovna suddenly appeared, holding two rainbow-colored hundred-rouble bills. To Alyosha's great distress, she was beaming with joy.",
+        "Katerina suddenly reappeared, holding in her hand two rainbow-colored hundred-ruble banknotes. She was beaming with joy, and Alyosha was very distressed to see it."
+      ]
+    },
+    {
+      "human_par3": [
+        "She had never heard him suggest such a thing before, and she soon came hurrying down, wearing one of the pretty Frankfurt dresses. At sight of him, she stopped in astonishment. \u2018I\u2019ve never seen you dressed like that before, Grandfather,\u2019 she exclaimed. \u2018 Silver buttons on your jacket. You do look fine in your Sunday clothes.\u2019"
+      ],
+      "llama_31_8b": [
+        "Heidi was suddenly summoned, and she responded promptly. As the little girl made her way downstairs, dressed in her neat and tidy dress, her eyes widened in surprise. \"Grandfather, you look particularly dashing today,\" she said with enthusiasm, noticing his Sunday attire with its shiny silver buttons."
+      ],
+      "gemini_25_flash": [
+        "Heidi swiftly followed the unfamiliar instruction. Upon seeing her grandfather dressed in his formal attire, complete with the shiny silver buttons, she gasped in admiration, exclaiming that she'd never witnessed him looking so distinguished.",
+        "It was an unfamiliar summons, and Heidi promptly complied. Upon descending the stairs in her elegant small dress, she stared in astonishment. \"Oh, Grandfather!\" she cried, \"I've never seen you in your best coat with the shiny buttons before. You look so splendid!\""
+      ],
+      "dipper_lowmed": [
+        "This was a new call; Heidi had never heard it before, and came downstairs in her smart little dress, opening her eyes wide and saying, \"Oh, grandfather, I've never seen you in your Sunday coat with the silver buttons, oh, how beautiful you are!\""
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "As the other passengers passed the time drinking or playing cards, they were oblivious to the man in the yellow overcoat, who had been discreetly searching his waistcoat pocket without drawing attention to himself.",
+      "Of course, I hated them all in the office, from first to last, and despised them all, but at the same time I was somehow afraid of them, it happened that I suddenly set them above myself. A developed and decent person cannot be vain without a boundless maniac in himself and without despising himself at moments to the point of hatred. But no matter whether I despised them or set them above me, I lowered my eyes almost everyone I met, I even made experiments: could I endure this so-and-so's look at me? and I was always the first to lower my eyes, that tormented me to the point of fury; I was also afraid to the point of illness to be ridiculous, and therefore slavishly worshipped routine in everything external; I loved falling into the common rut, and feared any eccentricity in myself with all my soul; but how could I hold out? I was morbidly developed, as a man of our time should be developed; they were all dull-witted and like each other as a flock of sheep. Of course, I hated them all in our office, from the first to the last, and despised them all, but at the same time I suddenly set them above myself; it was some kind of sudden thing with me then: now I despised them, now I set them above myself; a developed and decent man cannot be vain without boundless demands on himself, without despising himself at moments to the point of hatred; but whether I despised them or set them above myself, I would lower my eyes to almost everyone I met; I even made experiments: would I be able to endure the gaze of so and so on me? - and I was always the first to lower my eyes; that tormented me to the point of fury; I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshipped the routine in everything external; I loved falling into the common rut; I feared eccentricity with all my heart;",
+      "Leaning over the balustrade, Nikolai Apollonovich called down in the direction of the entrance-hall, but his call was answered first by silence, then, with excessive distinctness, by an unexpected, reluctant falsetto:",
+      "Once more, he pulled out the entire stack of bills, peeled off three, threw them on the counter, and quickly exited the store. He was followed by the shop workers and delivery boys, who all bowed and wished him well. After swallowing his brandy, Andrei cleared his throat and climbed onto the driver's seat. But just as Mitya was getting into the cart, Fenya unexpectedly arrived. She was breathless from running and, upon reaching him, cried out and collapsed at his feet.",
+      "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\"",
+      "\"Please, Evgenii Vasilitch, would you take care of my brother until we can get a doctor from the town?\"",
+      "The officer's fellow soldiers observed a beautiful young woman who was nearly always present in the neglected garden, behind the rather sad-looking rococo gate, whenever the attractive lieutenant passed by. This lieutenant, Th\u00e9odule Gillenormand, is a familiar character to the reader.",
+      "She had to approach the renowned physician, no matter the expense. He responded with a poisonous smile and a \"No.\" After a moment, she walked over to him and kissed his forehead.",
+      "Her face beamed with delight, to the great distress of Alyosha, but Katerina Ivanovna suddenly returned. She had two hundred-rouble notes in her hand.",
+      "It was an unfamiliar summons, and Heidi promptly complied. Upon descending the stairs in her elegant small dress, she stared in astonishment. \"Oh, Grandfather!\" she cried, \"I've never seen you in your best coat with the shiny buttons before. You look so splendid!\""
+    ],
+    [
+      "In the meantime, the man in the yellow coat had been fumbling in the fob of his waistcoat, without any one having noticed his movements. Besides, the other travellers were drinking or playing cards, and were not paying attention to anything.",
+      "I loathed and looked down on everyone in my office, from top to bottom, yet simultaneously felt a strange apprehension towards them. There were times I would irrationally elevate them above myself. My feelings were always extreme back then: one moment contempt, the next reverence. A cultivated and upright individual can only be conceited if they are infinitely self-critical and occasionally despise themselves to the point of hatred. Regardless of whether I scorned them or held them in high regard, I invariably averted my gaze when encountering almost anyone. I even conducted personal tests to see if I could maintain eye contact with certain individuals, but I was always the first to look away. This frustrated me immensely. I was also terrified of appearing foolish to the point of sickness, which led me to slavishly conform to established norms when it came to outward appearances. I enjoyed blending in and passionately avoided anything atypical about myself. But how could I sustain such a fa\u00e7ade? I was overly sensitive, as a modern man should be. And they, in contrast, were all uninspired and indistinguishable, like a herd. Perhaps I was the only one in the entire office who constantly believed myself to be a coward and a subservient individual. This conviction arose precisely because of my heightened sensitivity. And indeed, it wasn't just a feeling; it was the truth: I was a coward and a slave. I state this without hesitation. Every respectable person in our era is, by necessity, a coward and a slave. This is their inherent state. I am profoundly certain of this. They are structured and destined for it. And it's not a result of some random contemporary circumstance, but rather a universal truth that an upright person in any age must be a coward and a slave. This is the fundamental principle governing all respectable people on Earth. Should one of them ever show a spark of courage, they shouldn't find comfort in it, for they will invariably cower before something else. This is the inevitable and timeless reality. Only fools and their subservient followers display courage, and even then, only up to a certain limit. They are insignificant and not worth acknowledging.",
+      "As the man peered over the railing, he bellowed something towards the entrance area, but his outburst only echoed back in silence before prompting a high-pitched complaint or yell.",
+      "Andrey sipped his brandy and jumped on to the box. But just as Mitya was installing himself in the cart, to his great surprise Fenya appeared. She ran, completely out of breath, and as soon as she caught up with him, she cried out and threw herself at his feet. He again snatched out the whole wad of credit bills, threw three of them on the counter and hurriedly left the shop, followed by the shop assistants and errand boys who all bowed to him and wished him well.",
+      "Alarmed, Alyosha urged Ivan, \"Please, have a seat here on the sofa. You seem to have a fever. Recline and rest your head on the pillow. There. Would a damp cloth for your forehead be comforting?\"",
+      "\u2018I beg you, Yevgeny Vasilyich, to look after my brother until we can fetch the doctor from town.\u2019",
+      "This lieutenant is known to the reader; his name was Theodule Gillenormand. The comrades of this officer noticed in this neglected garden, behind this poor rococo gate, a very pretty creature, who was nearly always there when the handsome lieutenant passed.",
+      "He smiled venomously and said, \u201cNo.\u201d She sat for a while, then went to him and kissed him on the forehead. That meant asking the celebrated doctor at whatever cost.",
+      "Alyosha was deeply disheartened to see that Katerina's face was radiant with happiness. However, Katerina then unexpectedly reappeared, and to Alyosha's surprise, she was holding two large bills, a hundred rubles each, with a vibrant rainbow design.",
+      "This was a new call; Heidi had never heard it before, and came downstairs in her smart little dress, opening her eyes wide and saying, \"Oh, grandfather, I've never seen you in your Sunday coat with the silver buttons, oh, how beautiful you are!\""
+    ],
+    [
+      "Meanwhile the man in the yellow coat had been fumbling in his waistcoat pocket, without being noticed. The other travellers were drinking or playing cards, and paid no attention to anything.",
+      "Of course, I hated my fellow clerks one and all, and I despised them all, yet at the same time I was, as it were, afraid of them. In fact, it happened at times that I thought more highly of them than of myself. It somehow happened quite suddenly that I alternated between despising them and thinking them superior to myself. A cultivated and decent man cannot be vain without setting a fearfully high standard for himself, and without despising and almost hating himself at certain moments. But whether I despised them or thought them superior I dropped my eyes almost every time I met anyone. I even made experiments whether I could face so and so\u2019s looking at me, and I was always the first to drop my eyes. This worried me to distraction. I had a sickly dread, too, of being ridiculous, and so had a slavish passion for the conventional in everything external. I loved to fall into the common rut, and had a whole-hearted terror of any kind of eccentricity in myself. But how could I live up to it? I was morbidly sensitive as a man of our age should be. They were all stupid, and as like one another as so many sheep. Perhaps I was the only one in the office who fancied that I was a coward and a slave, and I fancied it just because I was more highly developed. But it was not only that I fancied it, it really was so. I was a coward and a slave. I say this without the slightest embarrassment. Every decent man of our age must be a coward and a slave. That is his normal condition. Of that I am firmly persuaded. He is made and constructed to that very end. And not only at the present time owing to some casual circumstances, but always, at all times, a decent man is bound to be a coward and a slave. It is the law of nature for all decent people all over the earth. If anyone of them happens to be valiant about something, he need not be comforted nor carried away by that; he would show the white feather just the same before something else. That is how it invariably and inevitably ends. Only donkeys and mules are valiant, and they only till they are pushed up to the wall. It is not worth while to pay attention to them for they really are of no consequence.",
+      "He leaned over the railing and shouted something in the direction of the vestibule. The shout was answered with silence and then, a protesting falsetto:",
+      "He pulled the bundle of notes out of his pocket again, picked out three hundred roubles, threw them on the counter, and ran hurriedly out of the shop. Every one followed him out, bowing and wishing him good luck. Andrey, coughing from the brandy he had just swallowed, jumped up on the box. But Mitya was only just taking his seat when suddenly to his surprise he saw Fenya before him. She ran up panting, clasped her hands before him with a cry, and plumped down at his feet.",
+      "\"Alyosha gestured for Ivan to sit down on the sofa, looking anxious and concerned. He gently urged Ivan to lie down, adjust his head on the pillow, and leaned in to examine him closely. Alyosha asked if Ivan would like a cool, damp cloth placed on his forehead, suggesting it might provide some relief.\"",
+      "\"Evgenii, I implore you to stay with my brother until a doctor can be fetched from the town.\"",
+      "The officer\u2019s comrades perceived that there was, in that \u201cbadly kept\u201d garden, behind that malicious rococo fence, a very pretty creature, who was almost always there when the handsome lieutenant,\u2014who is not unknown to the reader, and whose name was Th\u00e9odule Gillenormand,\u2014passed by.",
+      "This meant asking the celebrated doctor to come to them, whatever the expense. He gave her a vitriolic smile and said no. She sat there for a while, then came over and kissed him on the forehead.",
+      "Katerina suddenly reappeared, holding in her hand two rainbow-colored hundred-ruble banknotes. She was beaming with joy, and Alyosha was very distressed to see it.",
+      "Heidi swiftly followed the unfamiliar instruction. Upon seeing her grandfather dressed in his formal attire, complete with the shiny silver buttons, she gasped in admiration, exclaiming that she'd never witnessed him looking so distinguished."
+    ],
+    [
+      "The other travelers, for their part, were drinking or playing cards, and paid no attention to anything else. But in the meantime the man in the yellow frock coat had been fumbling in his waistcoat pocket without anyone noticing it.",
+      "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing.",
+      "He leaned over the railing and yelled into the vestibule. His shout was met with silence, followed by a high-pitched, complaining voice.",
+      "He once more pulled out the stack of money, peeled off three bills, tossed them onto the counter, and quickly exited the store. Shop assistants and errand boys followed him, all bowing and wishing him well. Andrei cleared his throat after downing his brandy and hopped onto the driver's seat. Unexpectedly, just as Mitya was settling into the cart, Fenya appeared. She was breathless from running, and upon reaching him, she cried out and collapsed at his feet.",
+      "\"Let's sit down, Ivan,\" Alyosha said, his voice laced with concern, gesturing to the sofa. \"I think you're running a high temperature, so sit back, rest your head on the pillow. Is that okay? Maybe a cool, damp cloth on your forehead would help bring down the heat.\"",
+      "'I must ask you to look after my brother,' Nikolai Petrovitch said to him, 'till we get another doctor from the town.'",
+      "In the small, overgrown garden behind the gilded gate, an officer's companions frequently spotted a charming young woman who usually seemed to be waiting for the good-looking Lieutenant Gillenormand to pass by. Readers are likely already familiar with Lieutenant Gillenormand, whose name is Th\u00e9odule Gillenormand.",
+      "She sat for a while, then came up to him and kissed him on the forehead. This meant asking the celebrated doctor, whatever the cost. He smiled venomously and said, \u201cNo.\u201d",
+      "Katerina Ivanovna suddenly appeared, holding two rainbow-colored hundred-rouble bills. To Alyosha's great distress, she was beaming with joy.",
+      "She had never heard him suggest such a thing before, and she soon came hurrying down, wearing one of the pretty Frankfurt dresses. At sight of him, she stopped in astonishment. \u2018I\u2019ve never seen you dressed like that before, Grandfather,\u2019 she exclaimed. \u2018 Silver buttons on your jacket. You do look fine in your Sunday clothes.\u2019"
+    ],
+    [
+      "Unnoticed by his fellow travelers, who were preoccupied with drinking or playing cards, the man in the yellow frock coat was discreetly searching his waistcoat pocket.",
+      "In our office, I despised everyone but often found myself cowering in their presence. My emotions were volatile, and I would quickly shift from disdain to self-doubt and even admiration for my coworkers. I recognized that I was prone to feelings of vanity and self-loathing, which a more developed and self-aware person would normally outgrow.\n\nDespite my frustration with this dynamic, I found myself consistently giving in to the weaknesses around me, often out of fear of ridicule or embarrassment. To avoid standing out in any way, I clung to routine and preferred to blend in with the crowd. However, I couldn't shake the feeling that I was failing myself and deviating from the ideal kind of person I wanted to be.\n\nUnfortunately, I came to realize that my self-doubt and lack of confidence were not unique to me. In fact, I believed that many people, including those who would consider themselves decent, were fundamentally cowards and slaves to societal pressures. This, I thought, was an inescapable part of being a \"decent\" person.\n\nI saw it as a universal truth that even those who might occasionally muster the courage to stand up for themselves would soon collapse under the weight of external expectations. While some individuals, including animals, might show a fleeting sense of courage, it was ultimately meaningless and insignificant.\n\nAs I reflected on this, I felt that there was little kindness to be found in belittling the pretentious behavior of those who genuinely lacked the courage to take a stand. Instead, it was more productive to look inward and acknowledge our own inherent weaknesses and vulnerabilities.",
+      "He leaned over the railing and yelled something toward the vestibule. Silence was the only reply, followed by a high-pitched, complaining voice:",
+      "Andrei pulled out the stack of bills, selected three, and tossed them onto the counter before hastily exiting the store, followed by the shop assistants and errand boys, who all bowed and wished him a good time. After swallowing his brandy, Andrei cleared his throat and climbed up onto the driver's seat. Just as Mitya was settling in, Fenya suddenly appeared, out of breath, and rushed to him, letting out a cry as she threw herself at his feet.",
+      "\"Sit down, Ivan, please, on the sofa,\" said Alyosha, frightened, \"you're feverish; lie down, put your head on the pillow. And would you like a wet towel on your head, it would be better.",
+      "\"Evgenii Vasilitch,\" he requested, \"please care for my brother until a physician arrives from the town.\"",
+      "In that unkempt garden, beyond the worn rococo gate, the officer's colleagues observed a rather lovely woman who appeared almost daily when the attractive Lieutenant Th\u00e9odule Gillenormand, a figure previously mentioned to the reader, passed by.",
+      "She insisted on consulting the renowned doctor at any price, but he gave a stern reply, \"No\". After a moment of silence, she got up and leaned forward, gently kissing his forehead.",
+      "Much to Alyosha's dismay, Katerina's face was radiating happiness. She then abruptly returned, clutching two colorful 100-ruble bills.",
+      "Heidi was suddenly summoned, and she responded promptly. As the little girl made her way downstairs, dressed in her neat and tidy dress, her eyes widened in surprise. \"Grandfather, you look particularly dashing today,\" she said with enthusiasm, noticing his Sunday attire with its shiny silver buttons."
+    ]
+  ]
+}

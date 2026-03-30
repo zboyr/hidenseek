@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ]
+  ],
+  "source_texts": [
+    "Peter got wide wake, and then they both watched the bird breathlessly. It rose higher and higher into the azure, till it disappeared at last behind the mountain-peak.",
+    "\u201cFor me the Prince happens to be the first person in my life in whom I recognized a truly loyal person. He believed in me from the first, and I believe in him.\u201d",
+    "\u2018How can you doubt it! But you, who do not love her, why are you so ready to endanger your life? It must be that you hate Erik.\u2019",
+    "A thousand lords with girdle-jade walk in front and rear. The many flags of guardsmen stand both left and right. Those holding gilt bludgeons, And halberds and axes, March in pairs and pairs; The red silk lanterns, The royal incense urn, Move in solemnity. The dragons fly and the phoenixes dance; The falcons soar and the eagles take wing. This Son of Heaven\u2019s an upright sage; The righteous ministers are good. They increase our bliss by a thousand years, surpassing Yu and Shun; They secure peace of ten thousand ages, rivaling Yao and Tang. We also see the curve-handled umbrella, And robes with rolling dragons\u2014 Their glare lighting up each other; The jade joined-rings, The phoenix fans, Waving through holy mist. Those caps of pearls and belts of jade; The purple sashes and medals of gold. A thousand rows of soldiers protect the Throne; Two lines of marshals uphold the carriage. This emperor, cleansed and sincere, bows to the Buddha, Glad to raise incense and seek virtue\u2019s fruit. The grand cortege of the Tang emperor soon arrived in front of the temple. The emperor ordered a halt to the music, left the carriages, and led many officials in the worship of Buddha by taking up burning incense sticks in their hands. After bowing three times holding the incense, they raised their heads and looked around them. This was indeed a splendid religious hall. You see Dancing flags and banners; Bright, gleaming sunshades. Dancing flags and banners Fill the air with strands of flashing colored mists. Bright, gleaming sunshades Glow in the sun as fiery bolts. Imposing, the gold image of Lok\u0101jye\u1e63\u1e6dha;14 Most awesome, the jade features of the arhats. Divine flowers fill the vases. Sandalwood incense burn in the urns. The divine flowers filling the vases Adorn the temple with a brilliant forest of brocade. The sandalwood incense burning in the urns Covers the clear sky with waves of fragrant clouds. Piled high on red trays are fruits in season. On colored counters, mounds of cakes and sweets rest. Rows of noble priests chant the holy s\u016btras To save from their travails those orphaned souls. Taizong and his officials each lifted the incense; they also worshipped the golden body of the Buddha and paid homage to the arhats. Thereafter, the Master of the Law, Chen Xuanzang, the Grand Expositor of the Faith, led the various monks to greet the Tang emperor. After the ceremony, they went back to their seats according to their rank and station. The priest then presented Taizong with the proclamation for the deliverance of the orphaned souls. It read: The supreme virtue is vast and endless, for Buddhism is founded upon Nirv\u0101\u1e47a. The spirit of the pure and the clean circulates freely and flows everywhere in the Three Regions. There are a thousand changes and ten thousand transformations, all regulated by the forces of yin and yang. Boundless and vast indeed are the substance, the function, the true nature, and the permanence of such phenomena. But look at those orphaned souls, how worthy they are of our pity and commiseration! Now by the holy command of Taizong, we have selected and assembled various priests, who will engage in meditation and in the proclamation of the Law. Flinging wide the gates of salvation and setting in motion many vessels of mercy, we would deliver you, the multitudes, from the Sea of Woe and save you from perdition and from the Sixfold Path. You will be led to return to the way of truth and to enjoy the bliss of Heaven. Whether it be by motion, rest, or nonactivity, you will be united with, and become, pure essences. Therefore make use of this noble occasion, for you are invited to the pleasures of the celestial city. Take advantage of our Grand Mass so that you may find release from Hell\u2019s confinement, ascend quickly and freely to ultimate bliss, and travel without restraint in the Region of the West.15 The poem says: An urn of immortal incense. Some scrolls of salvific power. As we proclaim this boundless Law, Receive now Heaven\u2019s endless grace. All your guilt and crime abolished, You lost souls may leave your prison. May our nation be firmly blessed With peace long and all-embracing. Highly pleased by what he read, Taizong said to the monks, \u201cBe firm, all of you, in your devotion, and do not slack in your service to Buddha. After the achievement of merit and after each has received his blessing, we shall reward you handsomely. Be assured that you will not have labored in vain.\u201d",
+    "For his part, Conseil thinks he saw a six-foot-wide turtle adorned with three lengthwise ridges. I regret not seeing this reptile, for I thought I recognized the leatherback from the description Conseil gave me\u200a\u2014\u200aquite a rare species. For my part, I only noticed a few loggerhead turtles with their long carapaces.",
+    "K. had just reached the door again when there was a knock. It was the maid, who reported that Fr\u00e4ulein Montag would like a few words with Herr K. and requested that he join her for that purpose in the dining room, where she was awaiting him. K. listened pensively to the maid, then turned with an almost scornful look to a startled Frau Grubach. His look seemed to say he\u2019d long since expected Fr\u00e4ulein Montag\u2019s invitation and that it fit in quite well with the general annoyance he was being forced to suffer at the hands of Frau Grubach\u2019s boarders this Sunday morning. He sent the maid back to say that he would come at once, then went to his wardrobe to change his jacket, responding to Frau Grubach, who was complaining under her breath about the irksome young woman, merely by asking her to please clear away the breakfast dishes. \u201cBut you\u2019ve hardly touched anything,\u201d said Frau Grubach. \u201cOh, just take it away,\u201d cried K; it seemed to him as if Fr\u00e4ulein Montag were somehow mixed up with it all, making it disgusting.",
+    "\u201cThey\u2019re coming, here they are. And the General is making up the rear. I\u2019ll fling open all the doors and call all my daughters, every single one, now, this minute,\u201d Lebedev mumbled softly in a fluster, dashing from door to door.",
+    "He escorted his mother to her hotel. Afterwards, he turned onto the Moika. There was gloom in the windows of the little apartment. The Likhutins were not there. Nothing to be done: he turned and went home.",
+    "\u201cWhat? A priest? It\u2019s not necessary. . . . Where would we get the money to pay him? I have no sins! Even without that God should forgive me. . . . He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+    "She had on her feet a man\u2019s heavy shoes spattered with mud that had reached right up to her reddened ankles, and she was wrapped in a tattered old cloak that Marius had not seen her with an hour earlier but that she had probably left outside his door to make him feel sorrier for her, and that she must have collected when she went out. She came in, pushed the door shut behind her, paused to catch her breath, for she was panting, then cried with an expression of triumph and joy, \u2018He\u2019s coming!\u2019"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed"
+    ]
+  ],
+  "rationales": [
+    "Outputs 1 and 2 both share distinctive features not found in the others: explicit description of the sky's color ('cloudless blue sky' vs. 'clear blue sky'), use of 'mountain summit' as the endpoint, and a more elaborated, descriptive style. Both expand on the source with similar additional detail and follow a comparable sentence structure, suggesting they come from the same paraphraser.",
+    "Outputs 2 and 4 share distinctive stylistic fingerprints: both use the word 'unwavering' (2: 'unwavering loyalty,' 4: 'unwavering faith'), both use the word 'reciprocated' to describe the mutual trust, and both expand the original text with elaborate, verbose phrasing that goes beyond the source material. They also both use quotation marks and have a similar explanatory, padded style compared to the other outputs.",
+    "Outputs 0 and 3 share very similar sentence structure and word choices. Both use 'why are you so willing to risk your life?' as a phrase, and both end with 'despise Erik' (vs. 'hate Erik' in 1, or 'hate Erik' implied in 2). They also both use 'you, who don't/do not love her' construction and maintain a similar formal but direct tone. Output 1 uses 'hate Erik' and slightly different phrasing, output 2 uses a more elaborate British style with 'sir' and ellipses, and output 4 is a more narrative/prose-like paraphrase. Outputs 0 and 3 are most stylistically aligned.",
+    "Outputs 1 and 4 are both paraphrases of the same source passage describing a royal procession to a temple, a Buddhist ceremony led by Chen Xuanzang (Grand Expositor of the Faith), a proclamation for orphaned souls referencing the Sixfold Path, and Taizong's closing encouragement to the monks. They share highly specific terminology ('Lok\u0101jye\u1e63\u1e6dha,' 'Sixfold Path,' 'Grand Expositor of the Faith,' 'Chen Xuanzang,' the proclamation structure, and Taizong's promise to reward the monks), suggesting they were produced by the same paraphraser. Output 1 is a condensed version while Output 4 is more elaborate, but the same structural flow, vocabulary choices, and content details mark them as coming from the same system.",
+    "Outputs 0 and 3 share the most consistent stylistic fingerprints: both open with 'Conseil believes/claims to have spotted,' both express the narrator's disappointment at missing the sighting in similar terms, both reference Conseil's description as the basis for identifying the leatherback, and both conclude with a brief observation about loggerhead turtles with a note about their shells. The sentence flow, ordering of ideas, and hedged, reflective tone are closely matched between these two outputs, distinguishing them from outputs 1 and 4.",
+    "Outputs 2 and 3 share nearly identical stylistic patterns, word choices, and sentence structures. Both use 'nearly contemptuous glance' at a surprised/bewildered Frau Grubach, 'bothersome young woman,' the same dialogue ('But you've barely eaten' / 'Just take it away'), 'change his jacket' (vs. 'coat' in output 1), and both end with K. feeling Fr\u00e4ulein Montag's involvement made things distasteful/repulsive. The overall paragraph structure and flow are also nearly identical, strongly indicating they came from the same paraphrasing system.",
+    "Outputs 1 and 4 both convert the original dialogue/action scene into pure narrative summaries without any direct quoted speech. Both adopt a detached, reportorial style describing what is happening rather than reproducing the speech. Both mention the General separately and describe Lebedev's actions (opening doors, summoning daughters) as reported facts. This contrasts with outputs 0, 2, and 3, which all preserve direct quotation. The structural and stylistic fingerprints of indirect summary narration are consistent across both 1 and 4.",
+    "Outputs 2 and 4 share the same stylistic fingerprints: both use semicolons to connect clauses in a single flowing sentence, both use a colon before the final resolution clause ('There was nothing to be done: he turned and went home' vs 'nothing for it: he turned back home'), and both maintain the same narrative elements in the same order without adding interpretive content. The punctuation-heavy, compact prose style is consistent across both outputs.",
+    "Outputs 1 and 2 share the most distinctive stylistic similarities: both use 'so be it' as the closing phrase (unique among the outputs), both frame the financial concern similarly, both use direct quotation format with comparable register and sentence flow. The structural parallels and specific word choice overlap ('so be it', the framing of sin/forgiveness) indicate they come from the same paraphraser.",
+    "Outputs 3 and 4 share very close stylistic and structural fingerprints: both use 'pushed the door' (vs. 'closed' in the others), both use formal diction like 'spattered/bespattered,' 'tattered,' 'wrapped in a...cloak,' both describe the girl pausing to recover breath before exclaiming 'with an expression/air of triumph and joy,' and both include the explanatory clause about leaving the cloak outside to inspire pity and retrieving it on the way out. The sentence ordering and phrasing are nearly identical, suggesting they came from the same paraphrasing system."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "Peter sat up and together they watched as the great bird soared higher and higher into the sky and finally disappeared over the grey peaks."
+      ],
+      "llama_31_8b": [
+        "As they gazed out, Peter suddenly spotted the bird and they both held their breath as it lifted higher and higher into the cloudless blue sky, disappearing finally from view over the mountain summit."
+      ],
+      "gemini_25_flash": [
+        "Peter woke up fully, and both of them intently watched the bird. It ascended further and further into the clear blue sky until it was no longer visible, having flown behind the mountain's summit."
+      ],
+      "dipper_lowmed": [
+        "Peter turned his head and then both of them watched breathlessly, as the bird soared higher and higher, finally disappearing behind the mountain peak.",
+        "Peter turned his head, and then they both watched the bird with bated breath. It rose higher and higher in the azure sky until it disappeared at last behind a mountain peak."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Well, for me the prince means this: he is the first man I have ever met in my whole life in whom I can believe as one who is truly devoted. He believed in me at first sight, and I trust him.\u2019"
+      ],
+      "llama_31_8b": [
+        "\"For the Prince, I have come to realize, is the first person I've ever known who has genuinely stood by me through thick and thin. From the start, he showed unwavering faith in me, and I've reciprocated that trust by believing in him as well.\"",
+        "\"I've come to realize that Prince is the first person who has ever demonstrated unwavering loyalty to me. From the moment I met him, he showed an unconditional faith in me, and I have reciprocated by trusting him unhesitatingly.\""
+      ],
+      "gemini_25_flash": [
+        "To me, the Prince is the first truly loyal person I\u2019ve ever known. He trusted me from the start, and I trust him in return."
+      ],
+      "dipper_lowmed": [
+        "\u201cThe prince happens to be the first person in my life whom I recognized as a truly loyal person. He believed in me from the very start, and I believe in him.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019"
+      ],
+      "llama_31_8b": [
+        "You're so quick to be skeptical, but it seems your lack of affection for her only fuels a recklessness that could put your life in danger. It's as if you harbor a grudge against Erik."
+      ],
+      "gemini_25_flash": [
+        "\"Why would you question it? But you, who don't love her, why are you so willing to risk your life? You must despise Erik.\"",
+        "\"How can you be so unsure? But you, who have no affection for her, why are you so willing to risk your life? It must be because you despise Erik.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cHow can you doubt that! But since you don\u2019t love her, why are you so ready to risk your life? It must be that you hate Erik.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain.",
+        "\u201cHow wonderful!\u201d gasped all present\u2014including the emperor\u2014kneeling, bowing, and burning incense. Taizong called quickly for a skilled painter to sketch a true likeness of the Bodhisattva, but as soon as the artist lifted his brush, the vision vaporized, leaving only a slip of paper drifting down on the breeze. On it was written the following message: Greetings, Emperor of the Tang! 108,000 miles west of here, wonderful texts speak of the Mahayana. Once distributed throughout your empire, these sutras will deliver the ghosts of the damned from Hell. He who is willing to seek them will become a golden Buddha. \u201cLet\u2019s pause the mass and our pursuit of virtue until someone has brought back these miraculous scriptures,\u201d decided the emperor. \u201cBut who will go?\u201d asked his officials. \u201cThough entirely useless,\u201d Xuanzang instantly spoke up, \u201cI volunteer to fetch these treasures that will secure the empire in perpetuity.\u201d The emperor immediately raised Xuanzang to his feet and bowed four times to him. \u201cFor such sacrifice and service, we will become brothers.\u201d \u201cI swear on my life to reach the Western Heaven,\u201d Xuanzang responded, overwhelmed. \u201cIf not, I will never return home and instead pass straight to Hell.\u201d The beaming emperor now returned to the palace, to prepare Xuanzang\u2019s travel documents and await an auspicious day for his departure. Xuanzang, meanwhile, went back to his own temple, which was buzzing with the news of his pledge. \u201cDid you really volunteer to go to the Western Heaven?\u201d one of his disciples asked him. \u201cThe way is full of tigers, leopards, demons, and monsters, wide rivers and high mountains. Will we ever see you again?\u201d \u201cI have made a solemn oath,\u201d said Xuanzang. \u201cI must repay the emperor\u2019s generosity by serving the country. If I fail, I will be damned to eternal perdition. Remember: The active mind conjures up demons; the stilled mind extinguishes them. I may be gone for two, three, seven years, or forever. But if the pine tree inside our gate points eastward, you\u2019ll know that I\u2019ll be back soon.\u201d The next morning at court, Taizong wrote out a document describing the mission and stamped it with an imperial seal granting free passage to its bearer. \u201cThe stars are auspiciously aligned today for the start of a long journey,\u201d the Department of Astronomy reported."
+      ],
+      "llama_31_8b": [
+        "Here's a rewritten version of the text in my own words while preserving the original meaning:\n\nA grand procession, led by nobles adorned with precious jade, approached the temple. The streets were lined with guardsmen bearing flags, and groups of soldiers marched in pairs, their armor glinting in the sunlight. The royal entourage, led by the Son of Heaven, consisted of upright and righteous officials who were dedicated to the welfare of the people. They were compared to legendary rulers who had brought peace and prosperity to their nations for thousands of years.\n\nAs the procession reached the temple, the air was filled with the sound of music, and the crowd was treated to a dazzling display of colorful banners and sunshades. The emperor, accompanied by his officials, led a ceremony to worship the Buddha, burning incense and seeking spiritual enlightenment. The temple's grandeur was evident in its imposing architecture and ornate decorations, including a majestic image of Lok\u0101jye\u1e63\u1e6dha and the serene features of the arhats.\n\nThe ceremony was followed by a solemn ritual led by the Grand Expositor of the Faith, Chen Xuanzang. The priest presented the emperor with a proclamation that emphasized the boundless virtues of Buddhism and the importance of seeking salvation from the suffering of the Sixfold Path. The proclamation urged the people to take advantage of the opportunity to escape the sufferings of Hell and ascend to the bliss of Heaven.\n\nThe emperor, pleased with the proclamation, encouraged the monks to remain steadfast in their devotion to the Buddha and assured them that their efforts would be rewarded. He promised that after achieving merit and receiving their blessings, they would be handsomely rewarded for their hard work."
+      ],
+      "gemini_25_flash": [
+        "A procession of a thousand noblemen, adorned with jade, advanced, flanked by guardsmen with numerous banners. Officers carrying impressive bludgeons, halberds, and axes marched in precise formations. Red silk lanterns and a royal incense urn were carried with solemnity. The scene was filled with auspicious imagery: dragons soaring, phoenixes dancing, falcons and eagles taking flight.\n\nThe Emperor, described as a virtuous and wise ruler, was accompanied by righteous ministers. Their reign promised a thousand years of prosperity, surpassing legendary ancient kings, and ten thousand ages of peace, rivaling other revered emperors. Curved-handled umbrellas and robes embroidered with dragons, shimmering and reflecting light, added to the spectacle. Jade rings and phoenix fans swayed through a sacred mist. Caps adorned with pearls and belts of jade, purple sashes, and gold medals further enhanced the majestic display. A thousand soldiers guarded the Emperor, while two lines of marshals attended his carriage.\n\nThis pure and devout Emperor, bowing to the Buddha, was pleased to offer incense and seek spiritual merit. The grand imperial procession of the Tang dynasty soon arrived at the temple. The Emperor commanded the music to cease, dismounted from his carriage, and, accompanied by many officials, began worshipping the Buddha by holding burning incense sticks. After three bows with the incense, they looked up, marveling at the splendor of the religious hall.\n\nWithin, dancing flags and banners created a shimmering spectacle, filling the air with colorful, mist-like strands. Bright, gleaming sunshades glowed like fiery bolts in the sun. An imposing golden statue of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade figures of the arhats stood prominently. Vases overflowed with divine flowers, and sandalwood incense burned in urns. The divine flowers adorned the temple like a radiant brocade forest, while the burning sandalwood incense covered the clear sky with fragrant clouds. Red trays were piled high with seasonal fruits, and colorful counters displayed mounds of cakes and sweets. Rows of noble priests chanted sacred s\u016btras to offer solace to orphaned souls.\n\nTaizong and his officials, after offering incense, also worshipped the golden Buddha statue and paid their respects to the arhats. Following this, Chen Xuanzang, the Master of the Law and Grand Expositor of the Faith, led the monks in greeting the Tang Emperor. After the ceremony, everyone returned to their designated places according to their rank. The priest then presented Taizong with a proclamation for the deliverance of orphaned souls.\n\nThe proclamation read: \"The highest virtue is boundless, for Buddhism is founded on Nirv\u0101\u1e47a. The essence of purity pervades and flows throughout the Three Regions. There are myriad changes and transformations, all governed by the forces of yin and yang. Infinite are the substance, function, true nature, and permanence of these phenomena. But behold those orphaned souls, so deserving of our pity and compassion! By the holy decree of Taizong, we have gathered various priests who will meditate and proclaim the Law. By opening wide the gates of salvation and launching many vessels of mercy, we intend to rescue you, the multitudes, from the Sea of Suffering and save you from damnation and the Sixfold Path. You will be guided back to the path of truth and allowed to experience the bliss of Heaven. Whether through action, stillness, or non-action, you will become unified with pure essences. Therefore, seize this noble opportunity, for you are invited to the joys of the celestial city. Take advantage of our Grand Mass to be released from Hell\u2019s confinement, ascend swiftly and freely to ultimate happiness, and journey unrestricted in the Western Region.\"\n\nA poem concluded:\n\"An urn of sacred incense,\nScrolls bearing saving power.\nAs we proclaim this boundless Law,\nReceive Heaven\u2019s endless grace.\nAll your guilt and crimes erased,\nLost souls, leave your prison.\nMay our nation be firmly blessed\nWith enduring, all-encompassing peace.\"\n\nHighly pleased with the proclamation, Taizong addressed the monks: \"Remain steadfast in your devotion, and do not falter in your service to Buddha. After you have achieved merit and each received your blessings, I will reward you handsomely. Be assured that your efforts will not be in vain.\""
+      ],
+      "dipper_lowmed": [
+        "The dragons fly and the phoenixes soar; The falcons soar and the eagles soar. This Son of Heaven is indeed an illustrious sage; These ministers are indeed worthy ministers. They multiply our long life, surpassing Yu and Shun; They secure our peace, equaling that of Yao and Tang. You see Burning incense sticks hung from the roof eaves; Moving golden trays holding incense burn bright, Like thunderclaps resounding."
+      ]
+    },
+    {
+      "human_par3": [
+        "As to marine mammals, I thought, in passing the entrance of the Adriatic, that I saw two or three cachalots, furnished with one dorsal fin, of the genus physetera, some dolphins of the genus globicephala, peculiar to the Mediterranean, the back part of the head being marked like a zebra with small lines; also, a dozen of seals, with white bellies and black hair, known by the name of monks, and which really have the air of a Dominican; they are about three yards in length. As to zo\u00f6phytes, for some instants I was able to admire a beautiful orange galeolaria, which had fastened itself to the port panel; it held on by a long filament, and was divided into an infinity of branches, terminated by the finest lace which could ever have been woven by the rivals of Arachnebk herself."
+      ],
+      "llama_31_8b": [
+        "Conseil believed he spotted a large turtle, estimated to be around six feet wide, with three prominent ridges running along its body. Unfortunately, I didn't have a chance to observe it myself, as I thought I recognized the leatherback turtle based on Conseil's earlier description \u2013 a relatively rare species. Meanwhile, I only caught sight of a few loggerhead turtles, easily identifiable by their substantial shells.",
+        "Meanwhile, Conseil claims to have spotted a large, ridge-backed turtle, measuring six feet across. I'm a bit disappointed that I missed seeing it, as I thought I recognized the distinctive appearance of a leatherback turtle based on Conseil's description - a species not often encountered. My own observation was more limited, with only a few loggerhead turtles coming into view, their prominent shells on full display."
+      ],
+      "gemini_25_flash": [
+        "Conseil believes he spotted a turtle with a six-foot-wide shell and three ridges running down its back. I was disappointed to miss this creature, as Conseil's description suggested it might have been a leatherback, a very uncommon species. Personally, I only observed some loggerhead turtles, recognizable by their elongated shells."
+      ],
+      "dipper_lowmed": [
+        "For my part, I only noticed a few loggerhead turtles, with their long carapaces. For his part, Conseil believes he saw a turtle six feet long, adorned with three longitudinal ridges. I regret not having seen this reptile, because I thought I recognized the leatherback from the description given by Conseil, a very rare species."
+      ]
+    },
+    {
+      "human_par3": [
+        "K. had just reached the door again when there was a knock. It was the maid, who announced that Fr\u00e4ulein Montag would like a word or two with Herr K. and that she accordingly begged him to come to the dining room, where she was waiting for him. K. listened pensively to the message, then he turned an almost mocking eye on the startled Frau Grubach. His look seemed to say that he had long foreseen this invitation of Fr\u00e4ulein Montag's, and that it accorded very well with all the persecution he had had to endure that Sunday morning from Frau Grubach's boarders. He sent the maid back with the information that he would come at once, then went to his wardrobe to change his coat, and in answer to Frau Grubach, who was softly lamenting over the behavior of the importunate Fr\u00e4ulein Montag, had nothing to say but to request her to remove his breakfast tray. \"Why, you've scarcely touched anything,\" said Frau Grubach. \" Oh, do take it away,\" cried K., it seemed to him as if Fr\u00e4ulein Montag were somehow mixed up with the food and made it nauseating."
+      ],
+      "llama_31_8b": [
+        "As K. stood by the door for the second time, he was interrupted by a knock. The maid told him that Fr\u00e4ulein Montag wanted to speak with him and asked him to join her in the dining room. K. listened briefly, then turned to Frau Grubach with a hint of disdain, as if he'd anticipated Fr\u00e4ulein Montag's request all along and saw it as just another annoyance in a long morning of dealing with Frau Grubach's obnoxious boarders. Without another word, he sent the maid back to tell Fr\u00e4ulein Montag he'd be right there and then retreated to change his jacket. As he did, he brushed off Frau Grubach's grumblings about Fr\u00e4ulein Montag, simply asking her to clear the breakfast dishes. Frau Grubach protested that he'd hardly touched his meal, but K. curtly told her to just take the dishes away, as if Fr\u00e4ulein Montag's involvement had sullied the whole scene for him."
+      ],
+      "gemini_25_flash": [
+        "Just as K. got back to the door, a knock sounded. The maid announced that Fr\u00e4ulein Montag wished to speak with Herr K. and invited him to meet her in the dining room, where she was waiting. K. mused over the maid's message, then cast a nearly contemptuous glance at a bewildered Frau Grubach. His expression suggested he had anticipated Fr\u00e4ulein Montag's request, and that it fit perfectly with the general irritation he was enduring from Frau Grubach\u2019s tenants that Sunday morning. He told the maid to inform Fr\u00e4ulein Montag he would be right there, then went to change his jacket. Frau Grubach grumbled softly about the bothersome young woman, but K. simply asked her to clear the breakfast dishes. \u201cBut you\u2019ve barely eaten,\u201d Frau Grubach noted. \u201cJust take it away,\u201d K. exclaimed, feeling as though Fr\u00e4ulein Montag was somehow involved in the whole unpleasant situation, making it all repulsive.",
+        "K. was back at the door when someone knocked. It was the maid, announcing that Fr\u00e4ulein Montag wished to speak with him and was waiting in the dining room. K. listened thoughtfully, then cast a nearly contemptuous glance at a surprised Frau Grubach. His expression suggested he had anticipated Fr\u00e4ulein Montag's request and saw it as another irritation among the many he was enduring from Frau Grubach's lodgers that Sunday morning. He told the maid he would be right there and then went to change his jacket. To Frau Grubach, who was quietly grumbling about the bothersome young woman, he simply asked her to clear the breakfast dishes. \"But you've barely eaten,\" Frau Grubach said. \"Just take it away,\" K. exclaimed, feeling as though Fr\u00e4ulein Montag's involvement made everything distasteful."
+      ],
+      "dipper_lowmed": [
+        "K. had just reached the door again when the maid knocked and announced that Fr\u00e4ulein Montag would like to have a few words with Herr K. and asked him to come with her to the dining room, where she was waiting for him. He sent the maid back to tell her that he would come immediately, then went into his wardrobe to change his jacket and answered Frau Grubach, who was complaining about the young woman, by asking her to clear away the breakfast dishes. It seemed to him that Fr\u00e4ulein Montag\u2019s invitation fitted quite well into the general annoyance he suffered from Frau Grubach\u2019s boarders on this Sunday morning, and that he had long since expected it."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next."
+      ],
+      "llama_31_8b": [
+        "The general's procession is approaching, and Lebedev rushes to prepare. He frantically rushes between doors, telling his daughters to gather, specifically mentioning all of them, without exception, and urges them to join him immediately.",
+        "The guests are arriving, Lebedev has just confirmed. Meanwhile, the General is lagging behind, while Lebedev frantically opens doors and summons all his daughters, insisting they come out right away."
+      ],
+      "gemini_25_flash": [
+        "In a flustered state, Lebedev mumbled softly as he darted from door to door, declaring, \"They're arriving, here they come. The General is bringing up the back. I'm going to throw open every door and summon all my daughters, each and every one, immediately, this instant.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThey\u2019re coming, here they are. I\u2019ll open all the doors and call all my daughters, all of them, right this minute,\u201d Lebedev muttered softly, in a dither, rushing from door to door. \u201cAnd the general is making up the rear.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Nikolai Apollonovich took his mother to her hotel; then\u2014he turned off to the Moika; in the windows of the apartment was darkness: the Likhutins were not at home; nothing for it: he turned back home."
+      ],
+      "llama_31_8b": [
+        "He walked his mother to her hotel before heading back onto the Moika. The windows of the Likhutins' apartment, normally softly lit, looked dark and somber. The Likhutins didn't appear to be home, so he had no choice but to head back home."
+      ],
+      "gemini_25_flash": [
+        "He accompanied his mother to her hotel. Following that, he walked along the Moika. The windows of the small apartment appeared dark. The Likhutins were absent. With no other options, he left and returned to his own residence."
+      ],
+      "dipper_lowmed": [
+        "He escorted his mother to her hotel, and then he turned into the Moika; darkness was behind the windows of the little apartment, the Likhutins were not there. There was nothing to be done: he turned and went home.",
+        "He accompanied his mother to the hotel and then, turning to the Moika, went home. He escorted his mother to the hotel, but, turning back, went to his house. There was darkness in the windows of the little apartment."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+        "\u201cWhat, the priest? I don\u2019t want him. You haven\u2019t got a ruble to spare. I have no sins. God must forgive me without that. He knows how I have suffered . . . And if He won\u2019t forgive me, I don\u2019t care!\u201d"
+      ],
+      "llama_31_8b": [
+        "They didn't need a priest, it was unreasonable to even consider it. They couldn't afford the cost, and even if they could, they didn't think they had done anything wrong. They believed their hardships had been punishment enough, and if God didn't forgive them, they were willing to accept the outcome."
+      ],
+      "gemini_25_flash": [
+        "\"A priest? Why bother with that? We can't afford one anyway. I haven't done anything wrong! God should just forgive me without all that fuss. He knows how much I've been through! And if He doesn't, then so be it!\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWhat? A priest? It\u2019s not necessary... Besides, where would we get the money to pay him? I have no sins, and even without that God should forgive me... He knows how I suffered! And if He doesn\u2019t forgive me, so be it!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "On her feet, she had large, coarse, men\u2019s shoes, bespattered with mud, which had splashed even to her red ankles, and she was wrapped in an old mantle which hung in tatters. Marius had not seen it on her an hour previously, but she had probably deposited it at his door, in order that she might inspire the more pity, and had picked it up again on emerging. She entered, pushed the door to behind her, paused to take breath, for she was completely breathless, then exclaimed with an expression of triumph and joy:\u2014"
+      ],
+      "llama_31_8b": [
+        "Standing before Marius, woman's feet enclosed in a pair of big, muddy shoes, her ankles red from the dirty laces. A tattered, old cloak clung to her, something she must have retrieved from outside Marius's door, in a deliberate attempt to gain sympathy. Heavy with dust, the cloak hung off her shoulders. As she stepped inside, she closed the door behind her, momentarily stopping to catch her breath as she had been panting. Her eyes shone brightly with triumph and happiness as she exclaimed, \"He's on his way!\"",
+        "She walked in, her feet clomping in a pair of large, masculine boots stained with mud, and her ankles looked red and chafed. Draped over her shoulders was a worn, threadbare cloak that Marius hadn't seen before - it was likely something she'd picked up outside his door to make an impression on him. She shut the door behind her, taking a moment to collect herself since she was clearly out of breath. Then, a look of uncontainable triumph and happiness spread across her face as she exclaimed, \"He's on his way!\""
+      ],
+      "gemini_25_flash": [
+        "She wore men's muddy, heavy shoes that covered her red ankles, and a ragged old cloak that Marius hadn't seen on her an hour before. She likely left the cloak outside his door to evoke sympathy and retrieved it on her way in. She entered, closed the door, paused to catch her breath, and then announced with triumph and joy, \"He's coming!\""
+      ],
+      "dipper_lowmed": [
+        "She came in, pushed the door behind her, paused to recover, for she was gasping, then she exclaimed with an air of triumph and joy: \"He's coming!\" She had on her feet a man's heavy boots spattered with mud, which had reached up to her red ankles, and she was wrapped in a tattered old cloak which Marius had not seen her with an hour ago, but which she had probably left outside his door to make him feel more sorry for her, and which she must have collected when she went out."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Peter turned his head and then both of them watched breathlessly, as the bird soared higher and higher, finally disappearing behind the mountain peak.",
+      "\u2018Well, for me the prince means this: he is the first man I have ever met in my whole life in whom I can believe as one who is truly devoted. He believed in me at first sight, and I trust him.\u2019",
+      "\"How can you be so unsure? But you, who have no affection for her, why are you so willing to risk your life? It must be because you despise Erik.\"",
+      "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain.",
+      "Conseil believes he spotted a turtle with a six-foot-wide shell and three ridges running down its back. I was disappointed to miss this creature, as Conseil's description suggested it might have been a leatherback, a very uncommon species. Personally, I only observed some loggerhead turtles, recognizable by their elongated shells.",
+      "K. had just reached the door again when the maid knocked and announced that Fr\u00e4ulein Montag would like to have a few words with Herr K. and asked him to come with her to the dining room, where she was waiting for him. He sent the maid back to tell her that he would come immediately, then went into his wardrobe to change his jacket and answered Frau Grubach, who was complaining about the young woman, by asking her to clear away the breakfast dishes. It seemed to him that Fr\u00e4ulein Montag\u2019s invitation fitted quite well into the general annoyance he suffered from Frau Grubach\u2019s boarders on this Sunday morning, and that he had long since expected it.",
+      "In a flustered state, Lebedev mumbled softly as he darted from door to door, declaring, \"They're arriving, here they come. The General is bringing up the back. I'm going to throw open every door and summon all my daughters, each and every one, immediately, this instant.\"",
+      "He accompanied his mother to the hotel and then, turning to the Moika, went home. He escorted his mother to the hotel, but, turning back, went to his house. There was darkness in the windows of the little apartment.",
+      "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+      "She wore men's muddy, heavy shoes that covered her red ankles, and a ragged old cloak that Marius hadn't seen on her an hour before. She likely left the cloak outside his door to evoke sympathy and retrieved it on her way in. She entered, closed the door, paused to catch her breath, and then announced with triumph and joy, \"He's coming!\""
+    ],
+    [
+      "As they gazed out, Peter suddenly spotted the bird and they both held their breath as it lifted higher and higher into the cloudless blue sky, disappearing finally from view over the mountain summit.",
+      "\u201cThe prince happens to be the first person in my life whom I recognized as a truly loyal person. He believed in me from the very start, and I believe in him.\u201d",
+      "\u201cHow can you doubt that! But since you don\u2019t love her, why are you so ready to risk your life? It must be that you hate Erik.\u201d",
+      "Here's a rewritten version of the text in my own words while preserving the original meaning:\n\nA grand procession, led by nobles adorned with precious jade, approached the temple. The streets were lined with guardsmen bearing flags, and groups of soldiers marched in pairs, their armor glinting in the sunlight. The royal entourage, led by the Son of Heaven, consisted of upright and righteous officials who were dedicated to the welfare of the people. They were compared to legendary rulers who had brought peace and prosperity to their nations for thousands of years.\n\nAs the procession reached the temple, the air was filled with the sound of music, and the crowd was treated to a dazzling display of colorful banners and sunshades. The emperor, accompanied by his officials, led a ceremony to worship the Buddha, burning incense and seeking spiritual enlightenment. The temple's grandeur was evident in its imposing architecture and ornate decorations, including a majestic image of Lok\u0101jye\u1e63\u1e6dha and the serene features of the arhats.\n\nThe ceremony was followed by a solemn ritual led by the Grand Expositor of the Faith, Chen Xuanzang. The priest presented the emperor with a proclamation that emphasized the boundless virtues of Buddhism and the importance of seeking salvation from the suffering of the Sixfold Path. The proclamation urged the people to take advantage of the opportunity to escape the sufferings of Hell and ascend to the bliss of Heaven.\n\nThe emperor, pleased with the proclamation, encouraged the monks to remain steadfast in their devotion to the Buddha and assured them that their efforts would be rewarded. He promised that after achieving merit and receiving their blessings, they would be handsomely rewarded for their hard work.",
+      "Conseil believed he spotted a large turtle, estimated to be around six feet wide, with three prominent ridges running along its body. Unfortunately, I didn't have a chance to observe it myself, as I thought I recognized the leatherback turtle based on Conseil's earlier description \u2013 a relatively rare species. Meanwhile, I only caught sight of a few loggerhead turtles, easily identifiable by their substantial shells.",
+      "K. had just reached the door again when there was a knock. It was the maid, who announced that Fr\u00e4ulein Montag would like a word or two with Herr K. and that she accordingly begged him to come to the dining room, where she was waiting for him. K. listened pensively to the message, then he turned an almost mocking eye on the startled Frau Grubach. His look seemed to say that he had long foreseen this invitation of Fr\u00e4ulein Montag's, and that it accorded very well with all the persecution he had had to endure that Sunday morning from Frau Grubach's boarders. He sent the maid back with the information that he would come at once, then went to his wardrobe to change his coat, and in answer to Frau Grubach, who was softly lamenting over the behavior of the importunate Fr\u00e4ulein Montag, had nothing to say but to request her to remove his breakfast tray. \"Why, you've scarcely touched anything,\" said Frau Grubach. \" Oh, do take it away,\" cried K., it seemed to him as if Fr\u00e4ulein Montag were somehow mixed up with the food and made it nauseating.",
+      "The general's procession is approaching, and Lebedev rushes to prepare. He frantically rushes between doors, telling his daughters to gather, specifically mentioning all of them, without exception, and urges them to join him immediately.",
+      "He accompanied his mother to her hotel. Following that, he walked along the Moika. The windows of the small apartment appeared dark. The Likhutins were absent. With no other options, he left and returned to his own residence.",
+      "\"A priest? Why bother with that? We can't afford one anyway. I haven't done anything wrong! God should just forgive me without all that fuss. He knows how much I've been through! And if He doesn't, then so be it!\"",
+      "She walked in, her feet clomping in a pair of large, masculine boots stained with mud, and her ankles looked red and chafed. Draped over her shoulders was a worn, threadbare cloak that Marius hadn't seen before - it was likely something she'd picked up outside his door to make an impression on him. She shut the door behind her, taking a moment to collect herself since she was clearly out of breath. Then, a look of uncontainable triumph and happiness spread across her face as she exclaimed, \"He's on his way!\""
+    ],
+    [
+      "Peter woke up fully, and both of them intently watched the bird. It ascended further and further into the clear blue sky until it was no longer visible, having flown behind the mountain's summit.",
+      "\"I've come to realize that Prince is the first person who has ever demonstrated unwavering loyalty to me. From the moment I met him, he showed an unconditional faith in me, and I have reciprocated by trusting him unhesitatingly.\"",
+      "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019",
+      "\u201cHow wonderful!\u201d gasped all present\u2014including the emperor\u2014kneeling, bowing, and burning incense. Taizong called quickly for a skilled painter to sketch a true likeness of the Bodhisattva, but as soon as the artist lifted his brush, the vision vaporized, leaving only a slip of paper drifting down on the breeze. On it was written the following message: Greetings, Emperor of the Tang! 108,000 miles west of here, wonderful texts speak of the Mahayana. Once distributed throughout your empire, these sutras will deliver the ghosts of the damned from Hell. He who is willing to seek them will become a golden Buddha. \u201cLet\u2019s pause the mass and our pursuit of virtue until someone has brought back these miraculous scriptures,\u201d decided the emperor. \u201cBut who will go?\u201d asked his officials. \u201cThough entirely useless,\u201d Xuanzang instantly spoke up, \u201cI volunteer to fetch these treasures that will secure the empire in perpetuity.\u201d The emperor immediately raised Xuanzang to his feet and bowed four times to him. \u201cFor such sacrifice and service, we will become brothers.\u201d \u201cI swear on my life to reach the Western Heaven,\u201d Xuanzang responded, overwhelmed. \u201cIf not, I will never return home and instead pass straight to Hell.\u201d The beaming emperor now returned to the palace, to prepare Xuanzang\u2019s travel documents and await an auspicious day for his departure. Xuanzang, meanwhile, went back to his own temple, which was buzzing with the news of his pledge. \u201cDid you really volunteer to go to the Western Heaven?\u201d one of his disciples asked him. \u201cThe way is full of tigers, leopards, demons, and monsters, wide rivers and high mountains. Will we ever see you again?\u201d \u201cI have made a solemn oath,\u201d said Xuanzang. \u201cI must repay the emperor\u2019s generosity by serving the country. If I fail, I will be damned to eternal perdition. Remember: The active mind conjures up demons; the stilled mind extinguishes them. I may be gone for two, three, seven years, or forever. But if the pine tree inside our gate points eastward, you\u2019ll know that I\u2019ll be back soon.\u201d The next morning at court, Taizong wrote out a document describing the mission and stamped it with an imperial seal granting free passage to its bearer. \u201cThe stars are auspiciously aligned today for the start of a long journey,\u201d the Department of Astronomy reported.",
+      "As to marine mammals, I thought, in passing the entrance of the Adriatic, that I saw two or three cachalots, furnished with one dorsal fin, of the genus physetera, some dolphins of the genus globicephala, peculiar to the Mediterranean, the back part of the head being marked like a zebra with small lines; also, a dozen of seals, with white bellies and black hair, known by the name of monks, and which really have the air of a Dominican; they are about three yards in length. As to zo\u00f6phytes, for some instants I was able to admire a beautiful orange galeolaria, which had fastened itself to the port panel; it held on by a long filament, and was divided into an infinity of branches, terminated by the finest lace which could ever have been woven by the rivals of Arachnebk herself.",
+      "K. was back at the door when someone knocked. It was the maid, announcing that Fr\u00e4ulein Montag wished to speak with him and was waiting in the dining room. K. listened thoughtfully, then cast a nearly contemptuous glance at a surprised Frau Grubach. His expression suggested he had anticipated Fr\u00e4ulein Montag's request and saw it as another irritation among the many he was enduring from Frau Grubach's lodgers that Sunday morning. He told the maid he would be right there and then went to change his jacket. To Frau Grubach, who was quietly grumbling about the bothersome young woman, he simply asked her to clear the breakfast dishes. \"But you've barely eaten,\" Frau Grubach said. \"Just take it away,\" K. exclaimed, feeling as though Fr\u00e4ulein Montag's involvement made everything distasteful.",
+      "\u201cThey\u2019re coming, here they are. I\u2019ll open all the doors and call all my daughters, all of them, right this minute,\u201d Lebedev muttered softly, in a dither, rushing from door to door. \u201cAnd the general is making up the rear.\u201d",
+      "He escorted his mother to her hotel, and then he turned into the Moika; darkness was behind the windows of the little apartment, the Likhutins were not there. There was nothing to be done: he turned and went home.",
+      "\u201cWhat? A priest? It\u2019s not necessary... Besides, where would we get the money to pay him? I have no sins, and even without that God should forgive me... He knows how I suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+      "Standing before Marius, woman's feet enclosed in a pair of big, muddy shoes, her ankles red from the dirty laces. A tattered, old cloak clung to her, something she must have retrieved from outside Marius's door, in a deliberate attempt to gain sympathy. Heavy with dust, the cloak hung off her shoulders. As she stepped inside, she closed the door behind her, momentarily stopping to catch her breath as she had been panting. Her eyes shone brightly with triumph and happiness as she exclaimed, \"He's on his way!\""
+    ],
+    [
+      "Peter sat up and together they watched as the great bird soared higher and higher into the sky and finally disappeared over the grey peaks.",
+      "To me, the Prince is the first truly loyal person I\u2019ve ever known. He trusted me from the start, and I trust him in return.",
+      "\"Why would you question it? But you, who don't love her, why are you so willing to risk your life? You must despise Erik.\"",
+      "The dragons fly and the phoenixes soar; The falcons soar and the eagles soar. This Son of Heaven is indeed an illustrious sage; These ministers are indeed worthy ministers. They multiply our long life, surpassing Yu and Shun; They secure our peace, equaling that of Yao and Tang. You see Burning incense sticks hung from the roof eaves; Moving golden trays holding incense burn bright, Like thunderclaps resounding.",
+      "Meanwhile, Conseil claims to have spotted a large, ridge-backed turtle, measuring six feet across. I'm a bit disappointed that I missed seeing it, as I thought I recognized the distinctive appearance of a leatherback turtle based on Conseil's description - a species not often encountered. My own observation was more limited, with only a few loggerhead turtles coming into view, their prominent shells on full display.",
+      "Just as K. got back to the door, a knock sounded. The maid announced that Fr\u00e4ulein Montag wished to speak with Herr K. and invited him to meet her in the dining room, where she was waiting. K. mused over the maid's message, then cast a nearly contemptuous glance at a bewildered Frau Grubach. His expression suggested he had anticipated Fr\u00e4ulein Montag's request, and that it fit perfectly with the general irritation he was enduring from Frau Grubach\u2019s tenants that Sunday morning. He told the maid to inform Fr\u00e4ulein Montag he would be right there, then went to change his jacket. Frau Grubach grumbled softly about the bothersome young woman, but K. simply asked her to clear the breakfast dishes. \u201cBut you\u2019ve barely eaten,\u201d Frau Grubach noted. \u201cJust take it away,\u201d K. exclaimed, feeling as though Fr\u00e4ulein Montag was somehow involved in the whole unpleasant situation, making it all repulsive.",
+      "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next.",
+      "He walked his mother to her hotel before heading back onto the Moika. The windows of the Likhutins' apartment, normally softly lit, looked dark and somber. The Likhutins didn't appear to be home, so he had no choice but to head back home.",
+      "\u201cWhat, the priest? I don\u2019t want him. You haven\u2019t got a ruble to spare. I have no sins. God must forgive me without that. He knows how I have suffered . . . And if He won\u2019t forgive me, I don\u2019t care!\u201d",
+      "On her feet, she had large, coarse, men\u2019s shoes, bespattered with mud, which had splashed even to her red ankles, and she was wrapped in an old mantle which hung in tatters. Marius had not seen it on her an hour previously, but she had probably deposited it at his door, in order that she might inspire the more pity, and had picked it up again on emerging. She entered, pushed the door to behind her, paused to take breath, for she was completely breathless, then exclaimed with an expression of triumph and joy:\u2014"
+    ],
+    [
+      "Peter turned his head, and then they both watched the bird with bated breath. It rose higher and higher in the azure sky until it disappeared at last behind a mountain peak.",
+      "\"For the Prince, I have come to realize, is the first person I've ever known who has genuinely stood by me through thick and thin. From the start, he showed unwavering faith in me, and I've reciprocated that trust by believing in him as well.\"",
+      "You're so quick to be skeptical, but it seems your lack of affection for her only fuels a recklessness that could put your life in danger. It's as if you harbor a grudge against Erik.",
+      "A procession of a thousand noblemen, adorned with jade, advanced, flanked by guardsmen with numerous banners. Officers carrying impressive bludgeons, halberds, and axes marched in precise formations. Red silk lanterns and a royal incense urn were carried with solemnity. The scene was filled with auspicious imagery: dragons soaring, phoenixes dancing, falcons and eagles taking flight.\n\nThe Emperor, described as a virtuous and wise ruler, was accompanied by righteous ministers. Their reign promised a thousand years of prosperity, surpassing legendary ancient kings, and ten thousand ages of peace, rivaling other revered emperors. Curved-handled umbrellas and robes embroidered with dragons, shimmering and reflecting light, added to the spectacle. Jade rings and phoenix fans swayed through a sacred mist. Caps adorned with pearls and belts of jade, purple sashes, and gold medals further enhanced the majestic display. A thousand soldiers guarded the Emperor, while two lines of marshals attended his carriage.\n\nThis pure and devout Emperor, bowing to the Buddha, was pleased to offer incense and seek spiritual merit. The grand imperial procession of the Tang dynasty soon arrived at the temple. The Emperor commanded the music to cease, dismounted from his carriage, and, accompanied by many officials, began worshipping the Buddha by holding burning incense sticks. After three bows with the incense, they looked up, marveling at the splendor of the religious hall.\n\nWithin, dancing flags and banners created a shimmering spectacle, filling the air with colorful, mist-like strands. Bright, gleaming sunshades glowed like fiery bolts in the sun. An imposing golden statue of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade figures of the arhats stood prominently. Vases overflowed with divine flowers, and sandalwood incense burned in urns. The divine flowers adorned the temple like a radiant brocade forest, while the burning sandalwood incense covered the clear sky with fragrant clouds. Red trays were piled high with seasonal fruits, and colorful counters displayed mounds of cakes and sweets. Rows of noble priests chanted sacred s\u016btras to offer solace to orphaned souls.\n\nTaizong and his officials, after offering incense, also worshipped the golden Buddha statue and paid their respects to the arhats. Following this, Chen Xuanzang, the Master of the Law and Grand Expositor of the Faith, led the monks in greeting the Tang Emperor. After the ceremony, everyone returned to their designated places according to their rank. The priest then presented Taizong with a proclamation for the deliverance of orphaned souls.\n\nThe proclamation read: \"The highest virtue is boundless, for Buddhism is founded on Nirv\u0101\u1e47a. The essence of purity pervades and flows throughout the Three Regions. There are myriad changes and transformations, all governed by the forces of yin and yang. Infinite are the substance, function, true nature, and permanence of these phenomena. But behold those orphaned souls, so deserving of our pity and compassion! By the holy decree of Taizong, we have gathered various priests who will meditate and proclaim the Law. By opening wide the gates of salvation and launching many vessels of mercy, we intend to rescue you, the multitudes, from the Sea of Suffering and save you from damnation and the Sixfold Path. You will be guided back to the path of truth and allowed to experience the bliss of Heaven. Whether through action, stillness, or non-action, you will become unified with pure essences. Therefore, seize this noble opportunity, for you are invited to the joys of the celestial city. Take advantage of our Grand Mass to be released from Hell\u2019s confinement, ascend swiftly and freely to ultimate happiness, and journey unrestricted in the Western Region.\"\n\nA poem concluded:\n\"An urn of sacred incense,\nScrolls bearing saving power.\nAs we proclaim this boundless Law,\nReceive Heaven\u2019s endless grace.\nAll your guilt and crimes erased,\nLost souls, leave your prison.\nMay our nation be firmly blessed\nWith enduring, all-encompassing peace.\"\n\nHighly pleased with the proclamation, Taizong addressed the monks: \"Remain steadfast in your devotion, and do not falter in your service to Buddha. After you have achieved merit and each received your blessings, I will reward you handsomely. Be assured that your efforts will not be in vain.\"",
+      "For my part, I only noticed a few loggerhead turtles, with their long carapaces. For his part, Conseil believes he saw a turtle six feet long, adorned with three longitudinal ridges. I regret not having seen this reptile, because I thought I recognized the leatherback from the description given by Conseil, a very rare species.",
+      "As K. stood by the door for the second time, he was interrupted by a knock. The maid told him that Fr\u00e4ulein Montag wanted to speak with him and asked him to join her in the dining room. K. listened briefly, then turned to Frau Grubach with a hint of disdain, as if he'd anticipated Fr\u00e4ulein Montag's request all along and saw it as just another annoyance in a long morning of dealing with Frau Grubach's obnoxious boarders. Without another word, he sent the maid back to tell Fr\u00e4ulein Montag he'd be right there and then retreated to change his jacket. As he did, he brushed off Frau Grubach's grumblings about Fr\u00e4ulein Montag, simply asking her to clear the breakfast dishes. Frau Grubach protested that he'd hardly touched his meal, but K. curtly told her to just take the dishes away, as if Fr\u00e4ulein Montag's involvement had sullied the whole scene for him.",
+      "The guests are arriving, Lebedev has just confirmed. Meanwhile, the General is lagging behind, while Lebedev frantically opens doors and summons all his daughters, insisting they come out right away.",
+      "Nikolai Apollonovich took his mother to her hotel; then\u2014he turned off to the Moika; in the windows of the apartment was darkness: the Likhutins were not at home; nothing for it: he turned back home.",
+      "They didn't need a priest, it was unreasonable to even consider it. They couldn't afford the cost, and even if they could, they didn't think they had done anything wrong. They believed their hardships had been punishment enough, and if God didn't forgive them, they were willing to accept the outcome.",
+      "She came in, pushed the door behind her, paused to recover, for she was gasping, then she exclaimed with an air of triumph and joy: \"He's coming!\" She had on her feet a man's heavy boots spattered with mud, which had reached up to her red ankles, and she was wrapped in a tattered old cloak which Marius had not seen her with an hour ago, but which she had probably left outside his door to make him feel more sorry for her, and which she must have collected when she went out."
+    ]
+  ]
+}

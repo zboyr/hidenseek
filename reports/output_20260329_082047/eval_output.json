@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "\u201cShe\u2019s not yet sixteen and she\u2019s already offering herself,\u201d he said scornfully, walking quickly on again.",
+    "\u201cWhere to?\u201d Alyosha whispered back, glancing around him. They were alone in a smallish garden. The house was at least fifty yards away. \u201cWhy do you have to whisper?\u201d",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?",
+    "The captain offered me a cup of the still-warm milk. I could not stop myself showing repugnance at this brew. He assured me that the milk was excellent, and no different from cows\u2019 milk.",
+    "\u201cWhat? A priest? It\u2019s not necessary. . . . Where would we get the money to pay him? I have no sins! Even without that God should forgive me. . . . He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+    "\u201cYes, I did, I did, an awful lot, and I was thinking and imagining all kinds of things about you . . . But how could you know that in advance? But look, here\u2019s the doctor . . . I wonder what he\u2019ll say? Look at his face, oh . . .\u201d",
+    "\u2018How can you doubt it! But you, who do not love her, why are you so ready to endanger your life? It must be that you hate Erik.\u2019",
+    "As for the ship\u2019s crew, they longed with all their hearts to meet the unicorn and so harpoon it, hoist it on board, and carve it up. They painstakingly scrutinized the sea. Captain Farragut had in fact promised $2,000 to the first person to spot the animal, whether cabin boy, able seaman, mate, or officer. So I leave to your imagination how much those on board the Abraham Lincoln used their eyes.",
+    "Nikolai Apollonovich perceived a shady type (perhaps of the petty bourgeoisie) with his neck wrapped up.",
+    "Which is why, we all agreed to crown Sundara Chola, Gandaradithar\u2019s nephew as the next king. And Sundara Chola has been a good King to all of us, until two years ago when he fell ill."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 2 are nearly identical in structure and word choice. Both use the exact same attribution \"he said scornfully,\". Both use the phrase \"offering herself\" and describe the action as \"walking quickly ... again.\" The only differences are a minor word order switch in the dialogue (\"not sixteen yet\" vs. \"not yet sixteen\"), a single preposition change (\"on\" vs. \"away\"), and the style of quotation marks used. This level of syntactic and lexical parallelism, with only minute variations, strongly suggests they were generated by the same paraphrasing system.",
+    "Outputs 2 and 4, while not identical, exhibit strong structural and lexical similarities that suggest they were produced by the same system. \n1. **Shared Structure:** Both follow a similar pattern: a short line of dialogue, followed by an action from Alyosha (\"looking around\" / \"looking about him\"), followed by a description of the scene. \n2. **Shared Details:** Both specifically describe the garden as \"small\" and explicitly state that the characters are alone (\"They were alone\" / \"no one near but themselves\"). No other output combines these two specific details in the same way. \n3. **Concise Style:** Both are notably concise and direct compared to the more descriptive and lengthy outputs 0 and 3.\n4. **Verb Choice:** Both use a form of the verb \"whisper\" for the dialogue tag. \n\nThe differences, such as the inversion of the dialogue tag (\"Alyosha whispered\" vs. \"whispered Alyosha\") and the choice between \"yards\" and \"paces\", are minor stylistic variations that are common within the output of a single paraphrasing model.",
+    "Outputs 0 and 2 share several distinctive stylistic fingerprints. Most notably, they are the only two outputs that use a long, semicolon-separated list to enumerate the sweating people and objects (\"...the panes of the windows sweated; ...the husband sweated...\" in 0, and \"The windows sweated; the guests sweated; the maid and the husband sweated...\" in 2). The other outputs either use a simple comma-separated list or generalize the detail. Additionally, both 0 and 2 frame the final thought about \"perspective\" as a question, whereas all other outputs use a declarative statement. Finally, both use a similar formal connecting phrase (\"for which reason\" in 0 and \"as a result of which\" in 2) and the exact phrase \"covered in perspiration\" to describe Sofia Petrovna.",
+    "Outputs 0 and 1 are nearly identical. The first two sentences are verbatim copies: \"The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk.\" The final sentence is structurally identical and uses the same uncommon word choice, \"brew,\" to describe the milk. The only difference is a single phrase swap: \"showing repugnance at\" in output 0 versus \"expressing my repugnance to\" in output 1. This level of extreme similarity, with just a minor phrasal variation, is a classic fingerprint of the same paraphrasing system being run twice with slightly different internal parameters or random seeds.",
+    "Outputs 1 and 2 share a distinct stylistic fingerprint of extreme fragmentation. While output 1 uses short sentences ending in periods and exclamation marks, and output 2 uses ellipses, the effect is identical: a breathless, staccato delivery. Both introduce the concept of money which is absent in output 0 (\"And where could we find the money to pay him?\" vs. \"Where are you going to find a spare rouble?\"). Furthermore, they share a similar sense of obligation placed on God, using the phrases \"God must forgive me\" and \"God will have to forgive me,\" which is a stronger sentiment than in the other versions. This parallel structure, tone, and specific content points to a single paraphrasing system.",
+    "Outputs 2 and 4 exhibit a shared stylistic pattern of using slightly dated, dramatic language. For instance, output 2 uses the intensifier \"dreadfully,\" while output 4 uses the very similar \"awfully.\" Both employ exclamatory interjections that convey a similar tone: \"O Lord\" in output 2 and \"Goodness!\" in output 4. The phrasing around the core actions is also parallel: \"I loved you and dreamed of you!\" (2) and \"I've been loving and dreaming of you\" (4). This consistent choice of dramatic and somewhat old-fashioned vocabulary, along with a consistently exclamatory tone, strongly suggests they originate from the same paraphrasing system.",
+    "Outputs 0 and 2 share a distinct and parallel three-part structure that sets them apart from the others. \n\n1. **Opening Question of Disbelief:** Both start with a question expressing disbelief, although phrased differently (\"How can you be so unsure?\" vs. \"Can't you see the obvious truth?\").\n\n2. **Identical Middle Structure:** The crucial clue is in the second sentence. Both use the exact same complex construction: \"But [conjunction phrase], someone who doesn't [verb] for her, why are you willing to risk your life?\" \n    - 0: \"But you, someone who doesn't even care for her, why are you so willing to risk your life?\"\n    - 2: \"But as someone who doesn't care for her, why are you willing to risk your life for her?\"\n    This complex clausal structure is a strong linguistic fingerprint.\n\n3. **Parallel Concluding Statement:** Both end with a declarative statement of certainty beginning with a similar introductory phrase, followed by \"you must [synonym for hate] Erik.\"\n    - 0: \"It must be because you despise Erik.\"\n    - 2: \"It's clear that you must resent Erik.\"\n\nThe other outputs have different structures. Output 1 is three short questions. Output 3 is overly formal and uses unique punctuation. Output 4 has a similar middle part, but its opening is a statement, not a question, and its conclusion is tentative (\"It seems more likely...\"), which is a significant difference in tone from the certainty expressed in 0 and 2.",
+    "Outputs 0 and 4 were clearly generated by the same system. The most telling evidence is the shared use of a unique stylistic and structural device: both paraphrases frame the text with a direct, conversational address to the reader. Output 0 begins with \"I leave it to your imagination...\" and ends with \"...so you understand how they used their eyes,\" while Output 4 similarly closes with \"I leave you to judge how eyes were used...\". This rhetorical strategy is absent in all other outputs. Furthermore, both 0 and 4 make the distinct choice to list out the specific crew ranks (\"cabin boy, able seaman, mate, or officer\" and \"cabin-boy, common seaman, or officer\"), whereas the other systems generalize this detail to \"regardless of rank\". This parallel decision to preserve specific, less critical details points to a common generation process. Finally, both outputs share a slightly archaic, literal tone compared to the others, using phrases like \"longed with all their heart\" (0) and \"desired nothing better\" (4).",
+    "Outputs 1 and 4 exhibit the strongest evidence of being generated by the same system. Both share a nearly identical sentence structure: \"Nikolai Apollonovich saw a [adjective] type, [description of origin], with [description of neck].\" They both use the specific and somewhat less common word \"type\" to describe the person, whereas others use \"individual\". They also both start with the same verb, \"saw\". The variations between them\u2014\"mysterious\" vs. \"shady\", and \"wrapped up\" vs. \"bandaged\"\u2014are synonymous word swaps, which is a common characteristic of a paraphrasing model generating slight variations of its own output. The structural and key lexical choices are the most compelling fingerprints linking these two outputs.",
+    "Outputs 3 and 4 exhibit a strong and unique structural parallelism that points to a common origin. Both begin their first sentence with the exact same conjunction (\"Therefore\") and follow it with an identical clausal structure: \"we [adverb] decided that [Subject] would be the next king.\" This specific construction, using a \"that-clause\" to express the decision, is unique to these two outputs, as others use infinitive phrases like \"to crown\" or \"to name\". The minor differences between them, such as the choice of adverb (\"unanimously\" vs. \"collectively\") and the ordering of the subject and its appositive (\"Gandaradithar's nephew, Sundara Chola\" vs. \"Sundara Chola, Gandaradithar\u2019s nephew\"), are classic examples of the kind of stochastic variation one would expect from two separate runs of the same paraphrasing model. The deep structural similarity is a much stronger fingerprint than these superficial lexical or ordering differences."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\"She's not sixteen yet, I believe, and already offering herself,\" he said contemptuously, striding along the street again."
+      ],
+      "llama_31_8b": [
+        "\"Only fifteen and she's already soliciting,\" he muttered, hurrying on."
+      ],
+      "gemini_25_flash": [
+        "He scoffed and resumed his rapid pace, remarking, \"She's barely sixteen and she's already making herself available.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cShe\u2019s not yet sixteen and she\u2019s already offering herself,\u201d he said scornfully, walking quickly away again.",
+        "\"She's not sixteen yet, and she's already offering herself,\" he said scornfully, walking quickly on again."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Where?\" whispered Alyosha, looking about him and finding himself in a deserted garden with no one near but themselves. The garden was small, but the house was at least fifty paces away. \"There's no one here.",
+        "\u2018But where?\u2019 Alyosha asked, also in a whisper, gazing around him to all sides and observing that he found himself in a completely empty garden, in which apart from the two of them there was no one. The garden was small, but there were at least some fifty yards between them and the mistress\u2019s little house. \u2018 Anyway, there\u2019s no one here, so why are you whispering?\u2019"
+      ],
+      "llama_31_8b": [
+        "Alyosha leaned in close and asked, \"What are we doing here?\" as the pair stood together in the isolated garden, far from the house, which was more than 50 yards away. He seemed puzzled, inquiring, \"Why are you being so quiet?\""
+      ],
+      "gemini_25_flash": [
+        "\"Where are we going?\" Alyosha asked softly, looking around the moderately sized garden. The house was quite a distance away, at least fifty yards. \"Why are you whispering?\""
+      ],
+      "dipper_lowmed": [
+        "\"Why do you whisper?\" Alyosha whispered in his turn, looking around. They were alone in the small garden, the house was about fifty yards away."
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The six cramped rooms were heated by steam, making the air thick and heavy with moisture. Sweat dripped from the window panes, the visitors, the maid, and Sofia's husband, while Sofia herself glistened with a warm, beaded perspiration, like dew on a chrysanthemum. The oppressive atmosphere seemed to rob the scene of any sense of perspective."
+      ],
+      "gemini_25_flash": [
+        "Every one of the small rooms was warmed by steam, making the apartment feel oppressively hot and humid. Perspiration covered the windows, the guests, the maid, and the husband. Even Sofia Petrovna Likhutina was glistening with sweat, like dew on a chrysanthemum. It felt impossible to see a way forward in such conditions.",
+        "The apartment's six small rooms were uncomfortably hot and damp due to the steam heating. Everyone inside, including Sofia Petrovna Likhutina, was sweating profusely, and the windows were fogged up. Such conditions made it difficult to envision a clear future."
+      ],
+      "dipper_lowmed": [
+        "How could there be a perspective? All six tiny rooms were heated with steam, as a result of which it was unbearably humid in the apartment. The windows sweated; the guests sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered in perspiration, like warm dew on a chrysanthemum."
+      ]
+    },
+    {
+      "human_par3": [
+        "The captain offered me a cup of the milk, which was still warm. I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow\u2019s milk."
+      ],
+      "llama_31_8b": [
+        "The captain offered me a cup of the hot milk, but I couldn't help but react with distaste. He insisted that it was a high-quality milk, indistinguishable from the kind that comes from cows."
+      ],
+      "gemini_25_flash": [
+        "The captain handed me a cup of milk that was still warm. I couldn't help but show my disgust at the drink. He insisted the milk was fine and just like cow's milk."
+      ],
+      "dipper_lowmed": [
+        "The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk. I could not help expressing my repugnance to this brew.",
+        "The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk. I could not help showing repugnance at this brew."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019"
+      ],
+      "llama_31_8b": [
+        "I don't think we need a priest's blessing or financial assistance \u2013 I'm not aware of any serious sins I've committed. As it stands, I believe in a higher power that is presumably aware of my struggles and hardships, and I trust that they will be taken into consideration."
+      ],
+      "gemini_25_flash": [
+        "\"A priest? No thanks. We can't afford one, and honestly, I don't feel the need. I'm not a sinner! God should forgive me regardless, considering all I've been through. If He chooses not to, then I guess that's His decision.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWhat? A priest? It\u2019s not necessary. And where could we find the money to pay him? I have no sins. Even without that God must forgive me. He knows how I have suffered! And if he doesn\u2019t forgive me, so be it!...\u201d",
+        "\u201cWhat? A priest? No, it\u2019s not necessary, I have no sins, and if I had, God should still forgive me... He knows how much I\u2019ve suffered, and if He doesn\u2019t forgive me, so be it."
+      ]
+    },
+    {
+      "human_par3": [
+        "I loved you awfully. I've been loving and dreaming of you. And how do you know it all beforehand? Ah, here's the doctor. Goodness! What will he tell us? Look at his face!\"",
+        "\u2018Yes I did, I loved you dreadfully, I loved you and dreamed of you! And how can you tell all these things, anyway? But I say, here\u2019s the doctor. O Lord, what is he going to say, look at his face!\u2019"
+      ],
+      "llama_31_8b": [
+        "\"I've been obsessed with thinking about you, imagining all sorts of possibilities. But I don't see how you could have anticipated that. Meanwhile, look, the doctor has arrived. Let's see what he has to say - I'm intrigued by his expression, it looks serious.\""
+      ],
+      "gemini_25_flash": [
+        "\"Indeed, I was, quite intensely so. My mind was racing with all sorts of thoughts and wonderings concerning you. But how could you have predicted that? Oh, look, the doctor is here. I can't help but wonder what his assessment will be. Just look at the expression on his face...\""
+      ],
+      "dipper_lowmed": [
+        "\u201cYes, I did think about you, and I was thinking and imagining all sorts of things about you... But how could you know that in advance? Look, here\u2019s the doctor, I wonder what he will say... Look at his face, oh...\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019"
+      ],
+      "llama_31_8b": [
+        "\"You can't question her intentions, but why are you, someone who doesn't even care for her, willing to put your life at risk? It seems more likely that you have a strong dislike for Erik.\"",
+        "\"Can't you see the obvious truth? But as someone who doesn't care for her, why are you willing to risk your life for her? It's clear that you must resent Erik.\""
+      ],
+      "gemini_25_flash": [
+        "\"How can you be so unsure? But you, someone who doesn't even care for her, why are you so willing to risk your life? It must be because you despise Erik.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cHow can you doubt it? But why are you so ready to risk your life? Why must you hate Erik so much?\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "As to the ship\u2019s company, they desired nothing better than to meet the unicorn, to harpoon it, hoist it on board, and dispatch it. They watched the sea with eager attention. Besides, Captain Farragut had spoken of a certain sum of two thousand dollars, set apart for whoever should first sight the monster, were he cabin-boy, common seaman, or officer. I leave you to judge how eyes were used on board the Abraham Lincoln."
+      ],
+      "llama_31_8b": [
+        "The crew of the ship were desperate to catch sight of the unicorn and haul it aboard, where they would then butcher it. With a generous reward of $2,000 offered by Captain Farragut for the first person to spot the creature, regardless of their rank, the sailors were intensely scanning the sea with every ounce of concentration they could muster."
+      ],
+      "gemini_25_flash": [
+        "The crew of the ship was desperate to encounter the unicorn, hoping to harpoon it, bring it aboard, and butcher it. They meticulously scanned the ocean. Captain Farragut had even offered a reward of $2,000 to the first individual, regardless of rank, who could spot the creature. One can only imagine the intensity with which everyone on the Abraham Lincoln searched the waters.",
+        "The ship's crew eagerly anticipated encountering the unicorn, hoping to harpoon, board, and butcher it. Their intense desire fueled their meticulous scanning of the ocean. Captain Farragut had even offered a substantial reward of $2,000 to the crew member, regardless of rank, who first sighted the creature. This incentive undoubtedly spurred the crew of the Abraham Lincoln to diligently search the waters."
+      ],
+      "dipper_lowmed": [
+        "I leave it to your imagination how the crew of the Abraham-Lincoln used their eyes. As for the crew, they longed with all their heart to meet the unicorn and so harpoon it, hoist it on board, and carve it up. So they searched the seas attentively. Captain Farragut had indeed promised $ 2,000 to the first person who would see the animal, whether cabin boy, able seaman, mate, or officer; so you understand how they used their eyes."
+      ]
+    },
+    {
+      "human_par3": [
+        "Nikolai Apollonovich felt hostility at this; and, on the point of standing aside, he changed his tactics: he did not stand aside; and so they all but bumped noses; Nikolai Apollonovich\u2014in astonishment; the stranger\u2014without the slightest surprise; what was surprising was that his big hand (with goose-pimples), numb with cold, was raised to his cap; and a hoarse, wooden, clipped voice rasped out with determination:"
+      ],
+      "llama_31_8b": [
+        "Nikolai Apollonovich noticed a suspicious, lower-class individual with a scarf wrapped around his neck."
+      ],
+      "gemini_25_flash": [
+        "Nikolai Apollonovich noticed a suspicious-looking individual, possibly a commoner, who had their neck covered."
+      ],
+      "dipper_lowmed": [
+        "Nikolai Apollonovich saw a shady type, perhaps of petty bourgeois origin, with his neck bandaged.",
+        "Nikolai Apollonovich saw a mysterious type (perhaps a petty bourgeois), with his neck wrapped up."
+      ]
+    },
+    {
+      "human_par3": [
+        "Unfortunately, cruel destiny did not allow Arinjaya to rule our land for more than a year; his son Paranthaka Sundara Chozhar was a strapping young man of twenty years. We, the Empire's pillars, the ministers, aides, chieftains, lords, kottam and kootram officials gathered, discussed the best interests of the country, and crowned Sundara Chozhar as King. There is no doubt that this was an excellent decision; until two years ago, Sundara Chozhar gave us no cause to doubt his rule."
+      ],
+      "llama_31_8b": [
+        "In order to ensure stability, we collectively decided to name Sundara Chola, the nephew of Gandaradithar, as the new ruler. Sundara Chola has proven to be a benevolent king to our people, but unfortunately, his health took a turn for the worse two years ago."
+      ],
+      "gemini_25_flash": [
+        "Therefore, we unanimously decided that Gandaradithar's nephew, Sundara Chola, would be the next king. Sundara Chola proved to be a benevolent ruler for two years, until he became ill.",
+        "Therefore, we collectively decided that Sundara Chola, Gandaradithar\u2019s nephew, would be the next king. Sundara Chola served as an effective ruler for everyone until he became ill two years ago."
+      ],
+      "dipper_lowmed": [
+        "And Sundara Chola was a good king to all of us, until two years ago, when he fell ill. That is why we all decided to crown Gandaradithar's nephew, Sundara Chola, as the next king."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "\"She's not sixteen yet, and she's already offering herself,\" he said scornfully, walking quickly on again.",
+      "Alyosha leaned in close and asked, \"What are we doing here?\" as the pair stood together in the isolated garden, far from the house, which was more than 50 yards away. He seemed puzzled, inquiring, \"Why are you being so quiet?\"",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+      "The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk. I could not help showing repugnance at this brew.",
+      "\u201cWhat? A priest? No, it\u2019s not necessary, I have no sins, and if I had, God should still forgive me... He knows how much I\u2019ve suffered, and if He doesn\u2019t forgive me, so be it.",
+      "\"I've been obsessed with thinking about you, imagining all sorts of possibilities. But I don't see how you could have anticipated that. Meanwhile, look, the doctor has arrived. Let's see what he has to say - I'm intrigued by his expression, it looks serious.\"",
+      "\"How can you be so unsure? But you, someone who doesn't even care for her, why are you so willing to risk your life? It must be because you despise Erik.\"",
+      "I leave it to your imagination how the crew of the Abraham-Lincoln used their eyes. As for the crew, they longed with all their heart to meet the unicorn and so harpoon it, hoist it on board, and carve it up. So they searched the seas attentively. Captain Farragut had indeed promised $ 2,000 to the first person who would see the animal, whether cabin boy, able seaman, mate, or officer; so you understand how they used their eyes.",
+      "Nikolai Apollonovich felt hostility at this; and, on the point of standing aside, he changed his tactics: he did not stand aside; and so they all but bumped noses; Nikolai Apollonovich\u2014in astonishment; the stranger\u2014without the slightest surprise; what was surprising was that his big hand (with goose-pimples), numb with cold, was raised to his cap; and a hoarse, wooden, clipped voice rasped out with determination:",
+      "And Sundara Chola was a good king to all of us, until two years ago, when he fell ill. That is why we all decided to crown Gandaradithar's nephew, Sundara Chola, as the next king."
+    ],
+    [
+      "\"Only fifteen and she's already soliciting,\" he muttered, hurrying on.",
+      "\"Where are we going?\" Alyosha asked softly, looking around the moderately sized garden. The house was quite a distance away, at least fifty yards. \"Why are you whispering?\"",
+      "Every one of the small rooms was warmed by steam, making the apartment feel oppressively hot and humid. Perspiration covered the windows, the guests, the maid, and the husband. Even Sofia Petrovna Likhutina was glistening with sweat, like dew on a chrysanthemum. It felt impossible to see a way forward in such conditions.",
+      "The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk. I could not help expressing my repugnance to this brew.",
+      "\u201cWhat? A priest? It\u2019s not necessary. And where could we find the money to pay him? I have no sins. Even without that God must forgive me. He knows how I have suffered! And if he doesn\u2019t forgive me, so be it!...\u201d",
+      "\"Indeed, I was, quite intensely so. My mind was racing with all sorts of thoughts and wonderings concerning you. But how could you have predicted that? Oh, look, the doctor is here. I can't help but wonder what his assessment will be. Just look at the expression on his face...\"",
+      "\u201cHow can you doubt it? But why are you so ready to risk your life? Why must you hate Erik so much?\u201d",
+      "The ship's crew eagerly anticipated encountering the unicorn, hoping to harpoon, board, and butcher it. Their intense desire fueled their meticulous scanning of the ocean. Captain Farragut had even offered a substantial reward of $2,000 to the crew member, regardless of rank, who first sighted the creature. This incentive undoubtedly spurred the crew of the Abraham Lincoln to diligently search the waters.",
+      "Nikolai Apollonovich saw a mysterious type (perhaps a petty bourgeois), with his neck wrapped up.",
+      "In order to ensure stability, we collectively decided to name Sundara Chola, the nephew of Gandaradithar, as the new ruler. Sundara Chola has proven to be a benevolent king to our people, but unfortunately, his health took a turn for the worse two years ago."
+    ],
+    [
+      "\u201cShe\u2019s not yet sixteen and she\u2019s already offering herself,\u201d he said scornfully, walking quickly away again.",
+      "\"Why do you whisper?\" Alyosha whispered in his turn, looking around. They were alone in the small garden, the house was about fifty yards away.",
+      "How could there be a perspective? All six tiny rooms were heated with steam, as a result of which it was unbearably humid in the apartment. The windows sweated; the guests sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered in perspiration, like warm dew on a chrysanthemum.",
+      "The captain handed me a cup of milk that was still warm. I couldn't help but show my disgust at the drink. He insisted the milk was fine and just like cow's milk.",
+      "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+      "\u2018Yes I did, I loved you dreadfully, I loved you and dreamed of you! And how can you tell all these things, anyway? But I say, here\u2019s the doctor. O Lord, what is he going to say, look at his face!\u2019",
+      "\"Can't you see the obvious truth? But as someone who doesn't care for her, why are you willing to risk your life for her? It's clear that you must resent Erik.\"",
+      "The crew of the ship was desperate to encounter the unicorn, hoping to harpoon it, bring it aboard, and butcher it. They meticulously scanned the ocean. Captain Farragut had even offered a reward of $2,000 to the first individual, regardless of rank, who could spot the creature. One can only imagine the intensity with which everyone on the Abraham Lincoln searched the waters.",
+      "Nikolai Apollonovich noticed a suspicious-looking individual, possibly a commoner, who had their neck covered.",
+      "Unfortunately, cruel destiny did not allow Arinjaya to rule our land for more than a year; his son Paranthaka Sundara Chozhar was a strapping young man of twenty years. We, the Empire's pillars, the ministers, aides, chieftains, lords, kottam and kootram officials gathered, discussed the best interests of the country, and crowned Sundara Chozhar as King. There is no doubt that this was an excellent decision; until two years ago, Sundara Chozhar gave us no cause to doubt his rule."
+    ],
+    [
+      "\"She's not sixteen yet, I believe, and already offering herself,\" he said contemptuously, striding along the street again.",
+      "\u2018But where?\u2019 Alyosha asked, also in a whisper, gazing around him to all sides and observing that he found himself in a completely empty garden, in which apart from the two of them there was no one. The garden was small, but there were at least some fifty yards between them and the mistress\u2019s little house. \u2018 Anyway, there\u2019s no one here, so why are you whispering?\u2019",
+      "The apartment's six small rooms were uncomfortably hot and damp due to the steam heating. Everyone inside, including Sofia Petrovna Likhutina, was sweating profusely, and the windows were fogged up. Such conditions made it difficult to envision a clear future.",
+      "The captain offered me a cup of the milk, which was still warm. I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow\u2019s milk.",
+      "\"A priest? No thanks. We can't afford one, and honestly, I don't feel the need. I'm not a sinner! God should forgive me regardless, considering all I've been through. If He chooses not to, then I guess that's His decision.\"",
+      "\u201cYes, I did think about you, and I was thinking and imagining all sorts of things about you... But how could you know that in advance? Look, here\u2019s the doctor, I wonder what he will say... Look at his face, oh...\u201d",
+      "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019",
+      "The crew of the ship were desperate to catch sight of the unicorn and haul it aboard, where they would then butcher it. With a generous reward of $2,000 offered by Captain Farragut for the first person to spot the creature, regardless of their rank, the sailors were intensely scanning the sea with every ounce of concentration they could muster.",
+      "Nikolai Apollonovich noticed a suspicious, lower-class individual with a scarf wrapped around his neck.",
+      "Therefore, we unanimously decided that Gandaradithar's nephew, Sundara Chola, would be the next king. Sundara Chola proved to be a benevolent ruler for two years, until he became ill."
+    ],
+    [
+      "He scoffed and resumed his rapid pace, remarking, \"She's barely sixteen and she's already making herself available.\"",
+      "\"Where?\" whispered Alyosha, looking about him and finding himself in a deserted garden with no one near but themselves. The garden was small, but the house was at least fifty paces away. \"There's no one here.",
+      "The six cramped rooms were heated by steam, making the air thick and heavy with moisture. Sweat dripped from the window panes, the visitors, the maid, and Sofia's husband, while Sofia herself glistened with a warm, beaded perspiration, like dew on a chrysanthemum. The oppressive atmosphere seemed to rob the scene of any sense of perspective.",
+      "The captain offered me a cup of the hot milk, but I couldn't help but react with distaste. He insisted that it was a high-quality milk, indistinguishable from the kind that comes from cows.",
+      "I don't think we need a priest's blessing or financial assistance \u2013 I'm not aware of any serious sins I've committed. As it stands, I believe in a higher power that is presumably aware of my struggles and hardships, and I trust that they will be taken into consideration.",
+      "I loved you awfully. I've been loving and dreaming of you. And how do you know it all beforehand? Ah, here's the doctor. Goodness! What will he tell us? Look at his face!\"",
+      "\"You can't question her intentions, but why are you, someone who doesn't even care for her, willing to put your life at risk? It seems more likely that you have a strong dislike for Erik.\"",
+      "As to the ship\u2019s company, they desired nothing better than to meet the unicorn, to harpoon it, hoist it on board, and dispatch it. They watched the sea with eager attention. Besides, Captain Farragut had spoken of a certain sum of two thousand dollars, set apart for whoever should first sight the monster, were he cabin-boy, common seaman, or officer. I leave you to judge how eyes were used on board the Abraham Lincoln.",
+      "Nikolai Apollonovich saw a shady type, perhaps of petty bourgeois origin, with his neck bandaged.",
+      "Therefore, we collectively decided that Sundara Chola, Gandaradithar\u2019s nephew, would be the next king. Sundara Chola served as an effective ruler for everyone until he became ill two years ago."
+    ]
+  ]
+}

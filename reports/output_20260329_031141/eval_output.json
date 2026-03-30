@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "The tiny figure stopped, and imploringly stretched out toward the phosphorescent intervals between the branches, which were forming the body.",
+    "\u201cI mean those clubs, those Dussot\u2019s, and those spits of land,\u00a7 perhaps, that\u2019s progress for you\u2014well, that\u2019ll all be without me,\u201d he continued, once more taking no note of the question. \u201cBesides, who wants to be a cardsharp?\u201d",
+    "The famous doctor said his goodbyes with a serious expression, but one that hadn\u2019t given up hope. And to the timid question Ivan Ilyich put to him, raising eyes that were shining with fear and hope\u2014is there any possibility of recovery?\u2014he answered that though one couldn\u2019t guarantee it, there was a possibility. The look of hope with which Ivan Ilyich said goodbye to the doctor was so pitiful that, when she saw it, Praskovya Fyodorovna burst into tears as she went through the study doors to give the famous doctor his fee.",
+    "The princesses climbed onto their royal elephants, and since Kundavai had already hinted that those leaving for a long journey must start on their journey first, Vandiya Devan turned the horse\u2019s head towards the road albeit with great hesitation. Even then he couldn\u2019t help but turn towards her and look upon her beautiful face once again, but realizing that it is unmannerly, he turned the horse\u2019s head swiftly and galloped away within a flash. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+    "He followed the road-mender\u2019s advice, went back, and half an hour later drove past the same spot but this time at a fast trot with a good trace horse. The horse-handler, who called himself a postilion, sat on the cart shaft.",
+    "\u201cThandavaraya, I don\u2019t think this is a real horse. It may belong to the poi kaal kudirai (false horse performance) group,\u201d said one of the soldiers. \u201cFine then.",
+    "the young woman thought with a proud flutter. She had waited for this moment to illuminate her entire life and wanted to rise high up where she could gaze upon that dark path she had walked along yesterday, all alone and inconspicuous.",
+    "She explained to him what had happened, that Fantine had been very poorly the day before, and that she was better now because she thought that monsieur le maire had gone to Montfermeil to fetch her child. The nun dared not question monsieur le maire, but from the way he looked she could see quite clearly that was not where he had come from.",
+    "\u201cFor me the Prince happens to be the first person in my life in whom I recognized a truly loyal person. He believed in me from the first, and I believe in him.\u201d",
+    "The truth is that no one has ever really explained how Joseph Buquet met his death. The verdict at the inquest was \u2018suicide under natural circumstances\u2019. In his Memoirs of a Theatre Director, Armand Moncharmin, one of the co-directors who succeeded Messrs Debienne and Poligny, relates the incident as follows: A most unfortunate accident ruined the little party that Messrs Debienne and Poligny were giving to mark their departure."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 3 and 4 both use the distinctive phrase 'phosphorescent intervals' instead of 'glowing spaces/gaps' used by the others. They also both use formal/archaic synonyms for 'pleadingly' ('imploringly' and 'in supplication'), and both end with a similar minimal clause 'that formed the body/a body' rather than expanding on the formation metaphor. These shared stylistic and lexical fingerprints strongly suggest they come from the same paraphraser.",
+    "Outputs 3 and 4 share the same unusual structural inversion (placing 'who wants to be a cardsharp?' before the main quote), the same 'Dussots' spelling, 'spits of land' phrasing, 'I mean those/these clubs' construction, and 'once more' + [ignoring/not noticing] the question. Their differences are minor word-level variations consistent with the same paraphrasing system.",
+    "Outputs 0 and 1 share nearly identical structure, narrative sequence, and vocabulary. Both begin with 'The look of hope with which Ivan Ilyich said farewell/goodbye to the doctor was so pitiful,' use 'famous doctor,' describe Praskovya Fyodorovna bursting into tears in the same position in the narrative, and follow the same sentence-by-sentence ordering of events. The differences are minor surface-level word choices (farewell vs. goodbye, slight rephrasing of the doctor's response), consistent with two outputs from the same paraphrasing system.",
+    "Outputs 2 and 4 share nearly identical structure and vocabulary: both open with princesses mounting royal elephants, both use 'subtly suggested/subtle suggestion,' both describe Vandiya Devan stealing 'one final glance at her lovely/beautiful face,' and both conclude with the Vaidiyar's son 'struggling/wrestling' with his horse. These parallel phrasings and the same sequence of narrative beats strongly indicate they came from the same paraphraser.",
+    "Outputs 2 and 3 share the same distinctive structural inversion \u2014 both begin with a sentence describing the postilion seated on the cart shaft before describing the protagonist following advice. Both also use 'trace horse,' 'half an hour later,' and 'fast trot,' which are unique phrasing choices not found in the other outputs. This combination of restructured sentence order and matching vocabulary strongly indicates they came from the same paraphraser.",
+    "Outputs 0 and 4 share the same structural pattern: a direct quote format, preservation of the Tamil term 'poi kaal/kal kudirai' (with only minor spelling variation), and attribution to 'one of the soldiers said.' Both maintain the same core meaning and sentence rhythm, differing only in the address ('Thandavaraya' vs 'Thambi'), which is a small variation typical of the same paraphraser.",
+    "Outputs 1 and 4 share the same sentence structure, nearly identical vocabulary choices (illumine/illuminate, gaze on/gaze down, traversed/walked, alone and unseen/alone and inconspicuous), and the same overall flow. Both preserve 'waited for that moment,' the light metaphor, the desire to go high and look down, and the 'dark path' walked 'alone' \u2014 with only minor synonym substitutions between them, indicating the same paraphrasing system.",
+    "Outputs 2 and 3 share the same distinctive structural reordering \u2014 both begin with 'The nun did not dare [to] question the mayor' followed by the observation about his demeanor, then transition to explaining Fantine's illness. This contrasts with outputs 0 and 1 which follow the original source order (Fantine's illness first, nun's observation last). The sentence-by-sentence construction in 2 and 3 is nearly identical, with only minor word-choice variations ('dare to' vs 'dare', 'by his look' vs 'by the way he looked', 'take' vs 'fetch'), which is consistent with the same paraphraser producing slightly varied outputs.",
+    "Outputs 1 and 3 share nearly identical sentence structure and phrasing: 'the first person in my life whom I recognized as a truly loyal [person/man]' and 'He believed/has believed in me from the very beginning, and I believe in him.' The only differences are minor word choices ('person' vs 'man', 'believed' vs 'has believed') and quotation mark style (single vs double). This level of structural and lexical similarity strongly suggests they came from the same paraphraser.",
+    "Outputs 2 and 4 share nearly identical structural and stylistic patterns: both open with 'Nobody has ever [adverb] explained how Joseph Buquet died,' both place the verdict in quotation marks as 'suicide due to natural causes,' both title the book as 'Memoirs of a Theatre Director,' both describe Moncharmin as 'one of the directors who took over from Debienne and Poligny,' and both use 'describes the event' as the transitional phrase before the quoted passage. These consistent choices across multiple linguistic dimensions strongly suggest they came from the same paraphraser."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "The figure stopped and reached out in supplication to the phosphorescent intervals between the branches, that formed a body:"
+      ],
+      "llama_31_8b": [
+        "The tiny figure paused, its arms extended in a desperate bid towards the glowing spaces between the tree branches, which were starting to take shape as a living form.",
+        "The small figure came to a halt, reaching out with a desperate gesture towards the glowing spaces between the tree's branches, which seemed to be coalescing into a single, unified form."
+      ],
+      "gemini_25_flash": [
+        "The small shape halted, extending itself pleadingly into the glowing gaps between the branches that composed its form."
+      ],
+      "dipper_lowmed": [
+        "The tiny figure stopped, and stretched imploringly out towards the phosphorescent intervals between the branches that formed the body."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019"
+      ],
+      "llama_31_8b": [
+        "The development of those new clubs, and the remark about being a temporarily absent business owner with the hope of reclaimed land, seemed like a tantalizing prospect to him, but he wasn't interested. Furthermore, he thought to himself, who would want to become a gambler?"
+      ],
+      "gemini_25_flash": [
+        "\"Those casinos, those plots of land\u2014that's what you call progress, I suppose, but I'll have no part in it,\" he went on, again ignoring the question. \"And anyway, who would want to be a gambler?\""
+      ],
+      "dipper_lowmed": [
+        "Besides, who wants to be a cardsharp? \u201cI mean these clubs, these Dussots, and these spits of land,\u2014well, that\u2019s progress for you,\u2014well, all that\u2019s without me,\u201d he continued, once more ignoring the question.",
+        "\u201cBesides, who wants to be a cardsharp?\u201d \u201cI mean those clubs, those Dussots, and those spits of land\u2014if that\u2019s progress for you\u2014well, all that\u2019s without me,\u201d he continued, once more not noticing the question."
+      ]
+    },
+    {
+      "human_par3": [
+        "The celebrated specialist took his leave looking serious but not hopeless. And in answer to the question put to him diffidently by Ivan Ilyich, whose eyes were glistening with fear and hope, as to whether there was any possibility of recovery, he replied that nothing could be guaranteed but there was a possibility. The look of hope on Ivan Ilyich\u2019s face as he watched the doctor leave was so pathetic that when she saw it Praskovya actually burst into tears as she walked out of the study to give the celebrated specialist his fee."
+      ],
+      "llama_31_8b": [
+        "As the renowned doctor bid farewell with a concerned yet unyielding expression, Ivan Ilyich nervously asked if recovery was still possible, his eyes betraying a mix of fear and desperation. The doctor responded by saying that while it was impossible to make any promises, there was still a glimmer of hope. The look of longing on Ivan Ilyich's face was so heartbreaking that it moved Praskovya Fyodorovna to tears as she escorted the doctor out, handing him his payment through the study door."
+      ],
+      "gemini_25_flash": [
+        "The renowned physician, while grave, still conveyed a sense of optimism as he bid farewell. When Ivan Ilyich, with a mixture of dread and anticipation, timidly inquired about the chances of his recovery, the doctor responded that a cure, though not assured, remained a possibility. Ivan Ilyich's hopeful farewell was so heart-wrenching that Praskovya Fyodorovna was moved to tears as she exited the study to pay the esteemed doctor."
+      ],
+      "dipper_lowmed": [
+        "The look of hope with which Ivan Ilyich said goodbye to the doctor was so pitiful that, seeing it, Praskovya Fyodorovna burst into tears as she entered the study to give the famous doctor his fee. The famous doctor said goodbye in a serious but not hopeless manner; and to the timid question, which Ivan Ilyich put to him, raising his eyes, which shone with fear and hope: \u201cIs there any possibility of recovery?\u201d he answered that there is no guarantee of anything, but that there is a possibility.",
+        "The look of hope with which Ivan Ilyich said farewell to the doctor was so pitiful that when Praskovya Fyodorovna saw it, she burst into tears, as she went into the study to pay the famous doctor. The famous doctor said goodbye to him, but with a serious face, but not a lost one. And to the timid question which Ivan Ilyich asked him, raising his eyes, which were shining with fear and hope - was there any hope of recovery? - he answered that one could not guarantee this, but that there was a possibility."
+      ]
+    },
+    {
+      "human_par3": [
+        "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him."
+      ],
+      "llama_31_8b": [
+        "As the elephant-mounted princesses prepared to depart, Vandiya Devan heeded Kundavai's subtle advice that travelers embarking on lengthy journeys should leave first. Thus, he reluctantly guided his horse towards the road, fighting the urge to glance back. Despite his initial hesitation, he ultimately yielded to the urge to take one final look at the princess, but quickly suppressed the gesture, instead accelerating his horse and galloping away swiftly. His companion, the Vaidiyar's son, struggled to manage his own horse and followed closely behind."
+      ],
+      "gemini_25_flash": [
+        "The princesses mounted their royal elephants. Following Kundavai's subtle suggestion that those embarking on extended travels ought to depart first, Vandiya Devan, though reluctant, guided his horse towards the path. He couldn't resist one final glance at her lovely face, but quickly, deeming it impolite, he sharply turned his horse and galloped off. The Vaidiyar's son, meant to travel with him, wrestled with his own horse and chased after him.",
+        "Mounting their royal elephants, the princesses prepared for their departure. Since Kundavai had subtly suggested that those embarking on a long journey should leave first, Vandiya Devan reluctantly guided his horse towards the road. Despite his hesitation, he couldn't resist one last glance at her beautiful face. Realizing the impropriety of his actions, he quickly averted his gaze, spurred his horse, and galloped off. The Vaidiyar\u2019s son, who was meant to accompany him, struggled to control his horse and trailed behind."
+      ],
+      "dipper_lowmed": [
+        "His eyes turned to her again, and then he realized that it was unseemly to turn his horse's head. He quickly turned the horse's head and galloped off. The Vaidiyar who was to accompany him struggled to control his horse and followed him. Since Kundavai had hinted that those going on a long journey should start first, Vandiyadhevan turned his horse's head towards the road with hesitation."
+      ]
+    },
+    {
+      "human_par3": [
+        "He followed the road-mender\u2019s advice, retraced his steps, and, half an hour later, he passed the same spot again, but this time at full speed, with a good horse to aid; a stable-boy, who called himself a postilion, was seated on the shaft of the cariole."
+      ],
+      "llama_31_8b": [
+        "Heeding the road-mender's suggestion, he turned his cart around and returned to the scene, this time passing by at a brisk pace with a strong horse leading the way. On the cart, a self-proclaimed specialist in handling horses was perched on the shafts."
+      ],
+      "gemini_25_flash": [
+        "Taking the road worker's suggestion, he returned. Thirty minutes later, he passed the same location again, but this time he was moving quickly with a strong lead horse, and a man calling himself a postilion was riding on the cart shaft."
+      ],
+      "dipper_lowmed": [
+        "The horse-handler, who called himself a postilion, was seated on the shafts of the cart. He followed the advice of the road-mender, went back, and half an hour later drove past the same spot, but this time at a fast trot with a good trace horse.",
+        "The horseman, who called himself postilion, sat on the cart shaft. He followed the road-maker\u2019s advice, drove back, and half an hour later, at a fast trot, went past the same place again, but this time at a brisk trot, with a good trace horse."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier."
+      ],
+      "llama_31_8b": [
+        "A soldier expressed his skepticism, suggesting that the horse might be part of a troupe that mimicked horse performances but didn't have real horses."
+      ],
+      "gemini_25_flash": [
+        "\"I doubt this is an actual horse, Thandavaraya. It looks like it's from a 'false horse' dance troupe,\" a soldier remarked. \"Alright then.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThandavaraya, I don\u2019t think this is a real horse. It might belong to the poi kaal kudirai (false horse) group,\u201d said one of the soldiers.",
+        "\u201cThambi, this is no real horse. I think it belongs to the poi kal kudirai troupe,\u201d one of the soldiers said."
+      ]
+    },
+    {
+      "human_par3": [
+        "a girl thinks with a proud tremor, having at last reached the moment which sheds a radiance over the whole of her life, and looking down upon the dark path along which she walked alone and unnoticed only yesterday."
+      ],
+      "llama_31_8b": [
+        "The young woman's heart swelled with pride as she reflected on the moment that had been the culmination of all her efforts. For years, she had been working towards this single, defining moment that would shine a light on her entire life's journey and give her a newfound sense of perspective. She longed to stand tall, looking back on the difficult path she had once traversed alone, and now feel a sense of accomplishment and triumph."
+      ],
+      "gemini_25_flash": [
+        "A surge of pride filled the young woman. This was the moment she had been waiting for, the one that would define her life. She yearned to ascend to a vantage point from where she could look down upon the obscure and solitary journey she had just completed."
+      ],
+      "dipper_lowmed": [
+        "She had waited for that moment, which would illuminate her whole life, and she wanted to rise high enough to gaze down on the dark path along which she had walked yesterday, alone and inconspicuous.",
+        "She had waited for this moment to illumine her whole life, and she wanted to go high up, in order to be able to gaze on that dark path which she had traversed yesterday, alone and unseen."
+      ]
+    },
+    {
+      "human_par3": [
+        "She explained to him what had passed: that Fantine had been very ill the day before, and that she was better now, because she thought that the mayor had gone to Montfermeil to get her child. The sister dared not question the mayor; but she perceived plainly from his air that he had not come from there."
+      ],
+      "llama_31_8b": [
+        "Fantine's condition had taken a turn for the worse the previous day, but she had shown a slight improvement, thanks to a misunderstanding. It seemed she believed that the mayor had gone to retrieve her child from Montfermeil, which had lifted her spirits. The nun was hesitant to pry into the mayor's affairs, but his demeanor suggested that he was not telling the truth about his recent travels."
+      ],
+      "gemini_25_flash": [
+        "She recounted the events to him, explaining that Fantine had been quite ill the previous day but was now improved, believing that the mayor had traveled to Montfermeil to retrieve her child. The nun, though hesitant to directly inquire, discerned from his demeanor that he had not, in fact, been there."
+      ],
+      "dipper_lowmed": [
+        "The nun did not dare question the mayor, but by the way he looked she clearly saw that he had not come from there. She explained to him what had happened, that Fantine had been very ill the day before, and that now she was better because she thought that the mayor had gone to Montfermeil to fetch her child.",
+        "The nun did not dare to question the mayor, but she saw by his look that he had not come from there. She explained to him what had happened, that Fantine had been very ill the day before, and that she was better now because she thought that the mayor had gone to Montfermeil to take her child."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Well, for me the prince means this: he is the first man I have ever met in my whole life in whom I can believe as one who is truly devoted. He believed in me at first sight, and I trust him.\u2019"
+      ],
+      "llama_31_8b": [
+        "\"For the first time in my life, I met someone, Prince, who embodied absolute loyalty. From the moment I met him, he displayed unwavering trust in me, and I reciprocate with similar faith in him.\""
+      ],
+      "gemini_25_flash": [
+        "I've found the Prince to be the most steadfastly loyal individual I've ever encountered. From the very beginning, he's shown unwavering faith in me, and I, in turn, have complete trust in him."
+      ],
+      "dipper_lowmed": [
+        "\u201cThe prince is the first person in my life whom I recognized as a truly loyal man. He has believed in me from the very beginning, and I believe in him.\u201d",
+        "\u2018The prince happens to be the first person in my life whom I recognized as a truly loyal person. He believed in me from the very beginning, and I believe in him.\u2019"
+      ]
+    },
+    {
+      "human_par3": [
+        "The fact is, no one ever discovered how Joseph Buquet died. The investigation into it was brief and its verdict was straightforward: suicide. In his Memoirs of a Theatre Manager, M. Moncharmin, one of the two Directors who succeeded Messrs Debienne and Poligny, gave his own version of this business of the hanged man: \u2018A most disagreeable incident cast a pall over the modest party organized by Messrs Debienne and Poligny to mark their departure."
+      ],
+      "llama_31_8b": [
+        "The circumstances surrounding Joseph Buquet's death remain unclear. An inquest concluded that he had taken his own life under normal circumstances. In his memoirs, Armand Moncharmin recounts the incident: A unfortunate accident marred the farewell party hosted by Debienne and Poligny."
+      ],
+      "gemini_25_flash": [
+        "Nobody has ever satisfactorily clarified the circumstances surrounding Joseph Buquet's demise. The official ruling from the inquest was \"suicide due to natural causes.\" In his book, \"Memoirs of a Theatre Director,\" Armand Moncharmin, one of the new co-directors who took over from Messrs. Debienne and Poligny, describes the event like this: A terribly unlucky incident disrupted the small gathering Messrs. Debienne and Poligny were hosting to commemorate their departure.",
+        "Nobody has ever definitively explained how Joseph Buquet died. The official ruling at his inquest was \"suicide due to natural causes.\" In his book, *Memoirs of a Theatre Director*, Armand Moncharmin, one of the directors who took over from Debienne and Poligny, describes the event this way: A terrible incident disrupted the farewell party that Debienne and Poligny were hosting."
+      ],
+      "dipper_lowmed": [
+        "The truth is, no one ever explained how Joseph Buquet met his death. In his memoirs, one of the directors who succeeded Messrs. Debienne and Poligny, Armand Moncharmin, who writes in his Memoirs of a theatre director, says: A most unfortunate accident spoiled the little party given by Messrs. Debienne and Poligny on the occasion of their departure. The verdict at the inquest was suicide under natural conditions."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "The tiny figure paused, its arms extended in a desperate bid towards the glowing spaces between the tree branches, which were starting to take shape as a living form.",
+      "\"Those casinos, those plots of land\u2014that's what you call progress, I suppose, but I'll have no part in it,\" he went on, again ignoring the question. \"And anyway, who would want to be a gambler?\"",
+      "The look of hope with which Ivan Ilyich said farewell to the doctor was so pitiful that when Praskovya Fyodorovna saw it, she burst into tears, as she went into the study to pay the famous doctor. The famous doctor said goodbye to him, but with a serious face, but not a lost one. And to the timid question which Ivan Ilyich asked him, raising his eyes, which were shining with fear and hope - was there any hope of recovery? - he answered that one could not guarantee this, but that there was a possibility.",
+      "His eyes turned to her again, and then he realized that it was unseemly to turn his horse's head. He quickly turned the horse's head and galloped off. The Vaidiyar who was to accompany him struggled to control his horse and followed him. Since Kundavai had hinted that those going on a long journey should start first, Vandiyadhevan turned his horse's head towards the road with hesitation.",
+      "Taking the road worker's suggestion, he returned. Thirty minutes later, he passed the same location again, but this time he was moving quickly with a strong lead horse, and a man calling himself a postilion was riding on the cart shaft.",
+      "\u201cThandavaraya, I don\u2019t think this is a real horse. It might belong to the poi kaal kudirai (false horse) group,\u201d said one of the soldiers.",
+      "A surge of pride filled the young woman. This was the moment she had been waiting for, the one that would define her life. She yearned to ascend to a vantage point from where she could look down upon the obscure and solitary journey she had just completed.",
+      "She recounted the events to him, explaining that Fantine had been quite ill the previous day but was now improved, believing that the mayor had traveled to Montfermeil to retrieve her child. The nun, though hesitant to directly inquire, discerned from his demeanor that he had not, in fact, been there.",
+      "\"For the first time in my life, I met someone, Prince, who embodied absolute loyalty. From the moment I met him, he displayed unwavering trust in me, and I reciprocate with similar faith in him.\"",
+      "The truth is, no one ever explained how Joseph Buquet met his death. In his memoirs, one of the directors who succeeded Messrs. Debienne and Poligny, Armand Moncharmin, who writes in his Memoirs of a theatre director, says: A most unfortunate accident spoiled the little party given by Messrs. Debienne and Poligny on the occasion of their departure. The verdict at the inquest was suicide under natural conditions."
+    ],
+    [
+      "The small figure came to a halt, reaching out with a desperate gesture towards the glowing spaces between the tree's branches, which seemed to be coalescing into a single, unified form.",
+      "The development of those new clubs, and the remark about being a temporarily absent business owner with the hope of reclaimed land, seemed like a tantalizing prospect to him, but he wasn't interested. Furthermore, he thought to himself, who would want to become a gambler?",
+      "The look of hope with which Ivan Ilyich said goodbye to the doctor was so pitiful that, seeing it, Praskovya Fyodorovna burst into tears as she entered the study to give the famous doctor his fee. The famous doctor said goodbye in a serious but not hopeless manner; and to the timid question, which Ivan Ilyich put to him, raising his eyes, which shone with fear and hope: \u201cIs there any possibility of recovery?\u201d he answered that there is no guarantee of anything, but that there is a possibility.",
+      "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him.",
+      "He followed the road-mender\u2019s advice, retraced his steps, and, half an hour later, he passed the same spot again, but this time at full speed, with a good horse to aid; a stable-boy, who called himself a postilion, was seated on the shaft of the cariole.",
+      "\"I doubt this is an actual horse, Thandavaraya. It looks like it's from a 'false horse' dance troupe,\" a soldier remarked. \"Alright then.\"",
+      "She had waited for this moment to illumine her whole life, and she wanted to go high up, in order to be able to gaze on that dark path which she had traversed yesterday, alone and unseen.",
+      "She explained to him what had passed: that Fantine had been very ill the day before, and that she was better now, because she thought that the mayor had gone to Montfermeil to get her child. The sister dared not question the mayor; but she perceived plainly from his air that he had not come from there.",
+      "\u2018The prince happens to be the first person in my life whom I recognized as a truly loyal person. He believed in me from the very beginning, and I believe in him.\u2019",
+      "The fact is, no one ever discovered how Joseph Buquet died. The investigation into it was brief and its verdict was straightforward: suicide. In his Memoirs of a Theatre Manager, M. Moncharmin, one of the two Directors who succeeded Messrs Debienne and Poligny, gave his own version of this business of the hanged man: \u2018A most disagreeable incident cast a pall over the modest party organized by Messrs Debienne and Poligny to mark their departure."
+    ],
+    [
+      "The small shape halted, extending itself pleadingly into the glowing gaps between the branches that composed its form.",
+      "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+      "As the renowned doctor bid farewell with a concerned yet unyielding expression, Ivan Ilyich nervously asked if recovery was still possible, his eyes betraying a mix of fear and desperation. The doctor responded by saying that while it was impossible to make any promises, there was still a glimmer of hope. The look of longing on Ivan Ilyich's face was so heartbreaking that it moved Praskovya Fyodorovna to tears as she escorted the doctor out, handing him his payment through the study door.",
+      "Mounting their royal elephants, the princesses prepared for their departure. Since Kundavai had subtly suggested that those embarking on a long journey should leave first, Vandiya Devan reluctantly guided his horse towards the road. Despite his hesitation, he couldn't resist one last glance at her beautiful face. Realizing the impropriety of his actions, he quickly averted his gaze, spurred his horse, and galloped off. The Vaidiyar\u2019s son, who was meant to accompany him, struggled to control his horse and trailed behind.",
+      "The horseman, who called himself postilion, sat on the cart shaft. He followed the road-maker\u2019s advice, drove back, and half an hour later, at a fast trot, went past the same place again, but this time at a brisk trot, with a good trace horse.",
+      "A soldier expressed his skepticism, suggesting that the horse might be part of a troupe that mimicked horse performances but didn't have real horses.",
+      "a girl thinks with a proud tremor, having at last reached the moment which sheds a radiance over the whole of her life, and looking down upon the dark path along which she walked alone and unnoticed only yesterday.",
+      "The nun did not dare to question the mayor, but she saw by his look that he had not come from there. She explained to him what had happened, that Fantine had been very ill the day before, and that she was better now because she thought that the mayor had gone to Montfermeil to take her child.",
+      "\u2018Well, for me the prince means this: he is the first man I have ever met in my whole life in whom I can believe as one who is truly devoted. He believed in me at first sight, and I trust him.\u2019",
+      "Nobody has ever satisfactorily clarified the circumstances surrounding Joseph Buquet's demise. The official ruling from the inquest was \"suicide due to natural causes.\" In his book, \"Memoirs of a Theatre Director,\" Armand Moncharmin, one of the new co-directors who took over from Messrs. Debienne and Poligny, describes the event like this: A terribly unlucky incident disrupted the small gathering Messrs. Debienne and Poligny were hosting to commemorate their departure."
+    ],
+    [
+      "The tiny figure stopped, and stretched imploringly out towards the phosphorescent intervals between the branches that formed the body.",
+      "Besides, who wants to be a cardsharp? \u201cI mean these clubs, these Dussots, and these spits of land,\u2014well, that\u2019s progress for you,\u2014well, all that\u2019s without me,\u201d he continued, once more ignoring the question.",
+      "The renowned physician, while grave, still conveyed a sense of optimism as he bid farewell. When Ivan Ilyich, with a mixture of dread and anticipation, timidly inquired about the chances of his recovery, the doctor responded that a cure, though not assured, remained a possibility. Ivan Ilyich's hopeful farewell was so heart-wrenching that Praskovya Fyodorovna was moved to tears as she exited the study to pay the esteemed doctor.",
+      "As the elephant-mounted princesses prepared to depart, Vandiya Devan heeded Kundavai's subtle advice that travelers embarking on lengthy journeys should leave first. Thus, he reluctantly guided his horse towards the road, fighting the urge to glance back. Despite his initial hesitation, he ultimately yielded to the urge to take one final look at the princess, but quickly suppressed the gesture, instead accelerating his horse and galloping away swiftly. His companion, the Vaidiyar's son, struggled to manage his own horse and followed closely behind.",
+      "The horse-handler, who called himself a postilion, was seated on the shafts of the cart. He followed the advice of the road-mender, went back, and half an hour later drove past the same spot, but this time at a fast trot with a good trace horse.",
+      "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+      "The young woman's heart swelled with pride as she reflected on the moment that had been the culmination of all her efforts. For years, she had been working towards this single, defining moment that would shine a light on her entire life's journey and give her a newfound sense of perspective. She longed to stand tall, looking back on the difficult path she had once traversed alone, and now feel a sense of accomplishment and triumph.",
+      "The nun did not dare question the mayor, but by the way he looked she clearly saw that he had not come from there. She explained to him what had happened, that Fantine had been very ill the day before, and that now she was better because she thought that the mayor had gone to Montfermeil to fetch her child.",
+      "\u201cThe prince is the first person in my life whom I recognized as a truly loyal man. He has believed in me from the very beginning, and I believe in him.\u201d",
+      "The circumstances surrounding Joseph Buquet's death remain unclear. An inquest concluded that he had taken his own life under normal circumstances. In his memoirs, Armand Moncharmin recounts the incident: A unfortunate accident marred the farewell party hosted by Debienne and Poligny."
+    ],
+    [
+      "The figure stopped and reached out in supplication to the phosphorescent intervals between the branches, that formed a body:",
+      "\u201cBesides, who wants to be a cardsharp?\u201d \u201cI mean those clubs, those Dussots, and those spits of land\u2014if that\u2019s progress for you\u2014well, all that\u2019s without me,\u201d he continued, once more not noticing the question.",
+      "The celebrated specialist took his leave looking serious but not hopeless. And in answer to the question put to him diffidently by Ivan Ilyich, whose eyes were glistening with fear and hope, as to whether there was any possibility of recovery, he replied that nothing could be guaranteed but there was a possibility. The look of hope on Ivan Ilyich\u2019s face as he watched the doctor leave was so pathetic that when she saw it Praskovya actually burst into tears as she walked out of the study to give the celebrated specialist his fee.",
+      "The princesses mounted their royal elephants. Following Kundavai's subtle suggestion that those embarking on extended travels ought to depart first, Vandiya Devan, though reluctant, guided his horse towards the path. He couldn't resist one final glance at her lovely face, but quickly, deeming it impolite, he sharply turned his horse and galloped off. The Vaidiyar's son, meant to travel with him, wrestled with his own horse and chased after him.",
+      "Heeding the road-mender's suggestion, he turned his cart around and returned to the scene, this time passing by at a brisk pace with a strong horse leading the way. On the cart, a self-proclaimed specialist in handling horses was perched on the shafts.",
+      "\u201cThambi, this is no real horse. I think it belongs to the poi kal kudirai troupe,\u201d one of the soldiers said.",
+      "She had waited for that moment, which would illuminate her whole life, and she wanted to rise high enough to gaze down on the dark path along which she had walked yesterday, alone and inconspicuous.",
+      "Fantine's condition had taken a turn for the worse the previous day, but she had shown a slight improvement, thanks to a misunderstanding. It seemed she believed that the mayor had gone to retrieve her child from Montfermeil, which had lifted her spirits. The nun was hesitant to pry into the mayor's affairs, but his demeanor suggested that he was not telling the truth about his recent travels.",
+      "I've found the Prince to be the most steadfastly loyal individual I've ever encountered. From the very beginning, he's shown unwavering faith in me, and I, in turn, have complete trust in him.",
+      "Nobody has ever definitively explained how Joseph Buquet died. The official ruling at his inquest was \"suicide due to natural causes.\" In his book, *Memoirs of a Theatre Director*, Armand Moncharmin, one of the directors who took over from Debienne and Poligny, describes the event this way: A terrible incident disrupted the farewell party that Debienne and Poligny were hosting."
+    ]
+  ]
+}

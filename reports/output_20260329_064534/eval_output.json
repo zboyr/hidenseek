@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "A thousand lords with girdle-jade walk in front and rear. The many flags of guardsmen stand both left and right. Those holding gilt bludgeons, And halberds and axes, March in pairs and pairs; The red silk lanterns, The royal incense urn, Move in solemnity. The dragons fly and the phoenixes dance; The falcons soar and the eagles take wing. This Son of Heaven\u2019s an upright sage; The righteous ministers are good. They increase our bliss by a thousand years, surpassing Yu and Shun; They secure peace of ten thousand ages, rivaling Yao and Tang. We also see the curve-handled umbrella, And robes with rolling dragons\u2014 Their glare lighting up each other; The jade joined-rings, The phoenix fans, Waving through holy mist. Those caps of pearls and belts of jade; The purple sashes and medals of gold. A thousand rows of soldiers protect the Throne; Two lines of marshals uphold the carriage. This emperor, cleansed and sincere, bows to the Buddha, Glad to raise incense and seek virtue\u2019s fruit. The grand cortege of the Tang emperor soon arrived in front of the temple. The emperor ordered a halt to the music, left the carriages, and led many officials in the worship of Buddha by taking up burning incense sticks in their hands. After bowing three times holding the incense, they raised their heads and looked around them. This was indeed a splendid religious hall. You see Dancing flags and banners; Bright, gleaming sunshades. Dancing flags and banners Fill the air with strands of flashing colored mists. Bright, gleaming sunshades Glow in the sun as fiery bolts. Imposing, the gold image of Lok\u0101jye\u1e63\u1e6dha;14 Most awesome, the jade features of the arhats. Divine flowers fill the vases. Sandalwood incense burn in the urns. The divine flowers filling the vases Adorn the temple with a brilliant forest of brocade. The sandalwood incense burning in the urns Covers the clear sky with waves of fragrant clouds. Piled high on red trays are fruits in season. On colored counters, mounds of cakes and sweets rest. Rows of noble priests chant the holy s\u016btras To save from their travails those orphaned souls. Taizong and his officials each lifted the incense; they also worshipped the golden body of the Buddha and paid homage to the arhats. Thereafter, the Master of the Law, Chen Xuanzang, the Grand Expositor of the Faith, led the various monks to greet the Tang emperor. After the ceremony, they went back to their seats according to their rank and station. The priest then presented Taizong with the proclamation for the deliverance of the orphaned souls. It read: The supreme virtue is vast and endless, for Buddhism is founded upon Nirv\u0101\u1e47a. The spirit of the pure and the clean circulates freely and flows everywhere in the Three Regions. There are a thousand changes and ten thousand transformations, all regulated by the forces of yin and yang. Boundless and vast indeed are the substance, the function, the true nature, and the permanence of such phenomena. But look at those orphaned souls, how worthy they are of our pity and commiseration! Now by the holy command of Taizong, we have selected and assembled various priests, who will engage in meditation and in the proclamation of the Law. Flinging wide the gates of salvation and setting in motion many vessels of mercy, we would deliver you, the multitudes, from the Sea of Woe and save you from perdition and from the Sixfold Path. You will be led to return to the way of truth and to enjoy the bliss of Heaven. Whether it be by motion, rest, or nonactivity, you will be united with, and become, pure essences. Therefore make use of this noble occasion, for you are invited to the pleasures of the celestial city. Take advantage of our Grand Mass so that you may find release from Hell\u2019s confinement, ascend quickly and freely to ultimate bliss, and travel without restraint in the Region of the West.15 The poem says: An urn of immortal incense. Some scrolls of salvific power. As we proclaim this boundless Law, Receive now Heaven\u2019s endless grace. All your guilt and crime abolished, You lost souls may leave your prison. May our nation be firmly blessed With peace long and all-embracing. Highly pleased by what he read, Taizong said to the monks, \u201cBe firm, all of you, in your devotion, and do not slack in your service to Buddha. After the achievement of merit and after each has received his blessing, we shall reward you handsomely. Be assured that you will not have labored in vain.\u201d",
+    "\u201cWhat? A priest? It\u2019s not necessary. . . . Where would we get the money to pay him? I have no sins! Even without that God should forgive me. . . . He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+    "That comes, I think, from their tiredness. Over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words, and done it badly. And has made their learning difficult with his distractedness, his negligence, his jealousy, which was itself a kind of negligence.",
+    "\u201cKandanmara, you know very well that I am not scared of these things, and I haven\u2019t done anything inappropriate. In Veeranarayanapuram, when Pazhuvetarayar and his entourage came along, I stood watching along with the crowd. I heard that you sent the entire procession of horses, elephants, and soldiers. Is that true?\u201d",
+    "\u201cThandavaraya, I don\u2019t think this is a real horse. It may belong to the poi kaal kudirai (false horse performance) group,\u201d said one of the soldiers. \u201cFine then.",
+    "\u201cWell, I\u2019d rather put it this way: you and I, we have the same philosophy. That would be a much fairer statement. Je pense, donc je suis, that is something I know for certain. As for the rest\u2014all those worlds, God, and even Satan himself\u2014I\u2019m not sure whether all that exists independently or is merely a passing and subjective emanation of myself .",
+    "That meant asking the celebrated doctor regardless of cost. He smiled venomously and said, \u201cNo.\u201d She sat for a while, then went over to him and kissed him on the forehead.",
+    "And the zemstvo official stopped in perplexity, clutching at a tuft of his beard. The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog. The zemstvo official apparently wanted to make a little joke, and grunted: \u201cMm . . .",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?",
+    "He told them. But we shall not repeat it here. He told the story briefly and impersonally. He did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself \u201cin view of certain new developments.\u201d He did not bother to explain the motives behind his actions anymore, did not go into subtleties. Besides, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 3 are the clear pair from the same paraphrasing system. First, they are the only two outputs (besides the lower-quality Output 1) that paraphrase the same lengthy source text about Emperor Taizong's visit to a temple. Outputs 2 and 4 are clear outliers, with 2 being a very short fragment and 4 describing a completely different story involving a rain-making contest.\n\nBetween the valid candidates (0, 1, and 3), outputs 0 and 3 exhibit profound similarities in structure, vocabulary, and style. They both follow the exact same narrative progression: procession details, emperor's virtues, arrival at the temple, the worship ceremony, description of the temple interior, the proclamation for orphaned souls, a summarizing poem, and the emperor's final address. \n\nMost tellingly, they share numerous specific and unusual phrases. For example:\n- Describing the temple: Both use phrases like \"dancing flags and banners\" creating \"colored mists,\" and \"gleaming sunshades\" shining like \"fiery bolts.\"\n- The ceremony: Both describe the emperor halting the music, dismounting, and bowing three times with incense before observing the \"splendor of the religious hall.\"\n- The proclamation: Both mention \"gates of salvation,\" \"vessels of mercy,\" and rescuing souls from \"suffering and perdition.\"\n- The conclusion: The final paragraphs describing Taizong's satisfaction and his address to the monks are nearly identical in wording (\"Taizong, greatly pleased/Highly satisfied, addressed the monks, urging/encouraging them to remain steadfast in their devotion and service to Buddha.\").\n\nThe minor differences, such as synonym choices (\"satisfied\" vs. \"pleased\") and the presence of a stray Chinese character artifact in Output 3, are consistent with the stochastic nature of a single language model being run multiple times. The core linguistic fingerprints are identical.",
+    "Outputs 1 and 4, despite their structural differences (direct quote vs. narrative summary), share several key linguistic fingerprints that suggest they were produced by the same model. Most notably, they both use the specific modern colloquialism \"...doing anything wrong\" to convey the character's lack of sin, a choice distinct from all other outputs. Additionally, both outputs express the final sentiment of resignation with a more elaborate, modern phrase (\"that's His decision\" and \"I'll just have to accept it\") rather than the short, idiomatic phrases used by others. They also both explicitly mention the financial inability to afford a priest early on and capitalize \"He\" when referring to God. The difference in framing (direct dialogue vs. reported speech) is a high-level structural choice, but the underlying vocabulary and phrasing patterns are remarkably consistent.",
+    "Outputs 1 and 3 exhibit a remarkably similar and distinctive structural and stylistic fingerprint. Both texts follow the same logical flow and sentence construction, even when using slightly different words. \n\n1. **Sentence Structure:** Both break down the argument into the same distinct parts, often separated by semicolons or starting with conjunctions like \"For\". For instance, compare \"for man has only repeated their words and done it badly;\" (1) with \"For man merely repeated what they said, and did it badly.\" (3). This is almost identical phrasing and structure.\n\n2. **Punctuation and unusual phrasing:** Both use a semicolon after the clause describing women's role in love (\"...upon themselves;\" vs \"...all of love;\"). Both also use a very specific structure for the list of men's faults: a list of three nouns followed by a relative clause defining the last one. Compare \"...his distraction, his negligence, and his jealousy, which was itself a kind of negligence.\" (1) with \"...his inattention, his neglect, his jealousy, which was itself a form of neglect.\" (3). This specific pattern is a strong indicator of the same underlying system.\n\n3. **Slight Inversion:** While output 1 places the cause at the end (\"This comes, I think, from their fatigue.\"), output 3 places a nearly identical phrase at the beginning (\"It comes, I believe, of their weariness.\"). This suggests the same model generating slight variations but retaining its core phrasing and components.\n\nNo other pair shares this level of deep structural and stylistic parallelism.",
+    "Outputs 1 and 2 are the most likely pair from the same paraphraser. Both of them uniquely add the same piece of contextual information that is absent in the other outputs: the speaker clarifying that they were merely in the crowd at Veeranarayanapuram watching Pazhuvetarayar's group arrive. While the wording is slightly different, the specific information added is identical. Furthermore, they both end the dialogue with a similarly structured, formal closing question: \"Can that be confirmed?\" (output 1) and \"Is that accurate?\" (output 2). This combination of adding the same specific context and using a similar formal sentence structure to end the paraphrase is a strong indicator of a shared origin.",
+    "Outputs 3 and 4 share several distinctive fingerprints. Both use a nearly identical sentence structure, starting with a direct quote addressed to \"Thandavaraya\" and ending with the attribution \"..., said one of the soldiers.\" Most importantly, both are the only outputs to introduce a specific, transliterated term for the group of performers: \"poikal kudirai\" in output 3 and \"poikal kudiraiyar\" in output 4. This unique choice of including a specific, non-English term, along with the nearly identical phrasing (\"I don't think this is a real horse\" vs. \"this horse is not real\") and sentence framing, strongly suggests they originated from the same paraphrasing system.",
+    "Outputs 3 and 4 are the most likely pair from the same paraphraser. The most compelling evidence is that both texts are significantly longer than the others because they both append a very similar, specific, and unique concluding clause that is absent in all other versions. Output 3 ends with \"...I break off in haste, for you look as though you are about to jump up and box my ears.'\" while Output 4 ends with \"...but I make haste to stop, for I believe you will be jumping up to beat me directly.\" This addition of the same narrative element is a strong indicator of a shared origin. Furthermore, both outputs retain the French phrase \"Je pense, donc je suis\" and add a similar elaboration about the ego/I (\"the logical development of my I\" vs. \"a logical development of my ego\"). These shared structural and content additions are clear linguistic fingerprints of the same system.",
+    "Outputs 1 and 3 exhibit several striking and unique similarities. Both use the specific and uncommon phrase \"poisonous smile\" to describe the doctor's reaction. Furthermore, both start the final sentence with the exact same transitional phrase, \"After a moment...\". The structure of the sentence detailing the refusal is also nearly identical: \"He responded with a poisonous smile...\" in both. Finally, the choice of \"renowned doctor\" in 1 and \"renowned physician\" in 3 demonstrates a consistent pattern of synonym substitution for the same core concept, which is a common trait of a single paraphrasing system.",
+    "Outputs 0 and 2 share a highly distinctive, repetitive sentence structure that is not present in the other outputs. Both use the phrase \"begged not to be driven...\" twice in a row. Specifically, output 0 says \"begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog\" and output 2 says \"begged not to be driven into the Petersburg slush, begged not to be driven into the malicious fog.\" Additionally, their word choices are very similar: both use \"zemstvo official,\" the exact phrase \"Petersburg slush,\" and a similar adjective for the fog (\"malignant\" vs. \"malicious\"). They also both use the verb \"grunted\" to describe the official's sound and similar words for his state of mind (\"perplexity\" vs. \"bewilderment\"). This combination of unique structural repetition and shared vocabulary points to a common origin.",
+    "Outputs 0 and 2 share a remarkable number of specific structural and lexical similarities, suggesting a common origin. Both begin with the phrase \"All six tiny rooms were heated by steam...\" and use the clause \"in the little flat you were suffocated...\". They both describe the heat as \"hothouse\" heat (0: \"greenhouse heat\", 2: \"hothouse heat\"). Both use the same possessive form for \"Sofia Petrovna\u2019s visitor\". They both use a similar adverb to describe the sweating of the maid and husband (0: \"endlessly\", 2: \"eternally\"). Most significantly, they both use the more formal word \"perspiration\" and include the specific detail \"Japanese chrysanthemum in warm dew\" when describing Sofia Petrovna. Finally, both conclude with a very similar rhetorical question ending with the phrase \"in such a hothouse?\", a feature unique to these two outputs. The other outputs use different vocabulary (\"sweat\" instead of \"perspiration\"), different sentence structures, and reinterpret the final question much more freely.",
+    "Outputs 1 and 2 exhibit striking similarities in structure and phrasing, indicating they were generated by the same system. Both outputs contain several nearly identical clauses and sentences. For instance, both include the exact phrase \"He omitted any mention of his affections or emotions, simply stating that\". They also share the structure \"He no longer felt compelled to justify his [decisions/actions] or delve into intricate details,\" with only a single word difference. Similarly, the final sentences both begin with \"Furthermore, his questioners rarely interjected,\" before diverging slightly. This pattern of identical sentence construction with minor, localized word substitutions is a strong fingerprint of a single paraphrasing model."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain."
+      ],
+      "llama_31_8b": [
+        "Thousands of officials with jade belts formed a procession in front and rear, with guardsmen's flags flanked on both sides. Holding gleaming axes, halberds, and bludgeons, they marched in pairs. Ever-present royalty was accompanied by red candles and an incense urn, its surroundings shining with majesty. Dragons and phoenixes flew and danced, while falcons soared and eagles spread their wings.\n\nThe Emperor, an upright exemplar of virtue, stood alongside his righteous ministers, who were dedicated to promoting the happiness of the people to a degree that surpassed the reigns of emperors Yu and Shun, and brought peace that rivaled the dynasties of Yao and Tang.\n\nAmong the entourage, umbrella-holders, dragon-adorned robes, and gleaming jade were also displayed. Also seen were curved-handle parasols, jade belts, and ceremonial caps and robes, their glimmering light filling the air.\n\nA thousand rows of soldiers stood guard nearby, while marshals supported the imperial carriage. The emperor, who was renowned for his clarity and sincerity, paid respects to the Buddha by offering incense and humbly seeking the blessings of virtue.\n\nAs the grand procession of the Tang emperor arrived at the temple, he ordered a cessation of music and left the carriages to proceed with a ritual. He led many high-ranking officials in paying homage to the Buddha by holding incense sticks and bowing three times. As they arose, they looked around in awe at the magnificent sight of the temple.\n\nWithin the temple, majestic sunshades cast a bright glow, dancing flags and banners billowed in the air, and divine colors swirled around. The gold obelisk of Lok\u0101jye\u1e63\u1e6dha and the serene countenance of the arhats made a profound impression. Vases were filled with flowers, while sandalwood incense spread a fragrant odor.\n\nPiles of seasonal fruits and sweetmeats lay on red trays, while elaborate vases displayed countless Buddhist scriptures. Priests from far and wide gathered to chant these sacred texts, hoping to find salvation for those who were wandering lost souls.\n\nThe emperor and his retinue relit the incense and venerated the golden Buddha and the statues of the arhats. Thereafter, the master of the Buddhist sect, Chen Xuanzang, led his monks to greet the emperor and simultaneously paid respects to the Buddha.\n\nFollowing the ritual, the monks returned to their ranks according to their position and title, whereupon the priest presented the emperor with a written decree to save the souls of orphaned beings. This proclamation read: The ultimate virtue of all that exists is unending, since Buddhism purveys Nirv\u0101\u1e47a, guiding all boundless changes and ten thousand transformations guided by the harmony of yin and yang. Though it's profound and spacious, those unfortunate souls are in dire need of compassion. Therefore, the emperor has mobilized dedicated priests to broadcast the law and salvage the multitudes trapped in suffering, free from the sea of suffering and doomed to travel the Sixfold Path.\n\nThose wishing to save themselves from the roadway to hell and traverse to the blissful west can join the sweet explanation. Following the poem, a proclamation was made to all lost souls:\n\nUse this sacred opportunity to transcend the heavens. Enjoy the freedom of the celestial city, permit all your guilt to be eliminated. Experience three phases of bliss to live in harmony in Paradise. After hearing these words, the emperor commanded the monks to continue vigorously practicing Buddhism."
+      ],
+      "gemini_25_flash": [
+        "A grand procession, featuring a multitude of high-ranking officials adorned with jade and elaborate standards, moved in majestic formation. Guardsmen with various weapons marched in synchronized pairs, while red silk lanterns and a royal incense urn lent an air of solemnity. Symbolic creatures like dragons, phoenixes, falcons, and eagles were depicted, representing the emperor's virtuous reign and the prosperity it brought, surpassing even legendary rulers like Yu, Shun, Yao, and Tang.\n\nThe emperor, described as a righteous sage, led his benevolent ministers in a display of power and piety. The procession included an ornate, curve-handled umbrella and robes embellished with dragon designs, their brilliance reflecting off one another. Jade rings and phoenix fans swayed through a sacred mist, accompanying officials adorned with pearl caps, jade belts, purple sashes, and gold medals. A vast contingent of soldiers protected the emperor, with two lines of marshals flanking his carriage.\n\nThis pure-hearted emperor, Taizong, bowed to the Buddha, eager to offer incense and cultivate virtue. His magnificent cortege soon arrived at the temple. The emperor halted the music, dismounted, and joined many officials in worshipping Buddha by holding burning incense sticks. After bowing three times with the incense, they looked around, taking in the splendor of the religious hall.\n\nThe temple was adorned with vibrant, dancing flags and banners that filled the air with shimmering colored mists. Bright, gleaming sunshades glowed like fiery bolts in the sun. Inside, an imposing golden image of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade arhats stood prominently. Vases overflowed with divine flowers, creating a brilliant, brocade-like forest, while sandalwood incense burned in urns, covering the sky with fragrant clouds. Red trays were laden with seasonal fruits, and colorful counters displayed mounds of cakes and sweets. Rows of noble priests chanted holy sutras to bring solace to orphaned souls.\n\nTaizong and his officials, after offering incense, also paid homage to the golden Buddha and the arhats. Following this, Chen Xuanzang, the Grand Expositor of the Faith, led the monks in greeting the emperor. After the ceremony, everyone returned to their designated places. The priest then presented Taizong with a proclamation for the spiritual liberation of orphaned souls.\n\nThe proclamation stated that Buddhism's boundless virtue, rooted in Nirvana, and the circulating spirit of purity pervaded the Three Regions, with all transformations governed by yin and yang. It emphasized the vastness of phenomena's essence, function, true nature, and permanence. It expressed pity for orphaned souls and announced that, by Taizong's decree, selected priests would engage in meditation and teachings. Through these efforts, gates of salvation and vessels of mercy would open to deliver countless souls from suffering, perdition, and the Sixfold Path, guiding them towards truth and heavenly bliss. Whether in motion, rest, or nonactivity, they would become pure essences.\u56e0\u6b64\uff0cit urged them to seize this opportunity to partake in celestial pleasures and be released from Hell's confinement, ascending swiftly to ultimate bliss and freely traveling to the Western Region.\n\nA poem accompanying the proclamation spoke of \"an urn of immortal incense\" and \"scrolls of salvific power\" that, through the proclamation of this boundless Law, would bring \"Heaven\u2019s endless grace,\" abolish guilt and crime for lost souls, and bless the nation with enduring peace.\n\nTaizong, greatly pleased, addressed the monks, urging them to remain steadfast in their devotion and service to Buddha. He promised generous rewards for their merits and blessings, assuring them that their efforts would not be in vain.",
+        "A procession featuring a multitude of high-ranking officials, identified by their jade-adorned belts, advanced with guardsmen carrying various weapons and flags. Gilded bludgeons, halberds, and axes were held by those marching in formation, while red silk lanterns and a royal incense urn moved with stately dignity. The scene was alive with mythical creatures: dragons soaring and phoenixes dancing, alongside real ones like falcons and eagles taking flight.\n\nThis tableau honored the emperor, depicted as a virtuous and wise ruler, surrounded by good and righteous ministers. Their combined efforts were lauded for bringing immense prosperity and enduring peace, surpassing even legendary figures of the past like Yu and Shun, and rivaling Yao and Tang. The parade also showcased symbols of royal authority, such as curved umbrellas and robes embroidered with dragons that seemed to radiate light. Jade \"joined-rings\" and phoenix fans, held aloft, moved through a \"holy mist.\" Opulent attire, including pearl caps, jade belts, purple sashes, and gold medals, further emphasized the grandeur.\n\nA vast military escort, consisting of a thousand soldiers, protected the emperor, with two lines of marshals flanking his carriage. This devout emperor, described as pure and sincere, made his way to a temple to honor Buddha, expressing joy in offering incense and seeking spiritual merit.\n\nUpon reaching the temple, the grand procession of the Tang emperor halted. The emperor commanded the music to cease, exited his carriage, and, accompanied by many officials, participated in the worship of Buddha by lighting incense sticks. After three bows with the incense, they observed their surroundings, acknowledging the splendor of the religious hall.\n\nThe temple was vibrant with \"dancing flags and banners,\" which created \"strands of flashing colored mists\" in the air. \"Bright, gleaming sunshades\" shone like \"fiery bolts\" in the sun. Inside, an imposing gold statue of Lok\u0101jye\u1e63\u1e6dha and awesome jade figures of arhats adorned the space. Vases overflowed with divine flowers, forming a \"brilliant forest of brocade,\" and sandalwood incense burned in urns, creating \"waves of fragrant clouds\" that enveloped the clear sky. Offerings of seasonal fruits were piled high on red trays, and various cakes and sweets were arranged on colorful counters. Rows of noble priests chanted sacred s\u016btras, aiming to bring solace to \"orphaned souls.\"\n\nEmperor Taizong and his officials, after lifting their incense, also paid homage to the golden Buddha and the arhats. Following this, the esteemed Master of the Law, Chen Xuanzang, who was also the Grand Expositor of the Faith, led the monks in greeting the Tang emperor. After the formal ceremony, everyone returned to their designated places according to their rank.\n\nThe priest then presented Taizong with a proclamation for the salvation of orphaned souls. The document stated that \"supreme virtue is vast and endless,\" originating from Buddhism's foundation in Nirv\u0101\u1e47a. It described the pervasive and pure spirit that permeates the Three Regions, subject to countless transformations governed by yin and yang. Acknowledging the boundless nature of existence, the proclamation then focused on the plight of \"orphaned souls,\" expressing deep pity for them. It announced that, by Taizong's sacred command, priests had been gathered to meditate and preach the Law. Through \"gates of salvation\" and \"vessels of mercy,\" the aim was to rescue the multitudes from suffering and perdition, guiding them away from the Sixfold Path towards truth and heavenly bliss. It promised that through various states of being, they would achieve unity with pure essences. The proclamation urged the listeners to seize this \"noble occasion\" to partake in \"celestial pleasures\" and benefit from the Grand Mass, thereby escaping hell's confinement, ascending to \"ultimate bliss,\" and traveling freely in the \"Region of the West.\"\n\nA poem summarized this message:\nAn urn of sacred incense,\nScrolls bearing saving power.\nAs this boundless Law is declared,\nHeaven's endless grace is received.\nAll guilt and crime erased,\nLost souls may exit their prison.\nMay our nation be blessed,\nWith lasting and all-encompassing peace.\n\nHighly satisfied, Taizong addressed the monks, encouraging them to remain steadfast in their devotion and service to Buddha. He assured them that their efforts would be rewarded handsomely after they achieved merit and received their blessings, promising that their labors would not be in vain."
+      ],
+      "dipper_lowmed": [
+        "The emperor, in his purity, raises incense to seek virtue\u2019s fruits. His happiness is a thousand years, surpassing Yu and Shun; His peace is ten thousand ages, equaling Yao and Tang. With a thousand officials walking in front, A thousand nobles holding spears, A thousand court officials in back, The treasures of jade and gold are shining brightly."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019"
+      ],
+      "llama_31_8b": [
+        "\"There's no need for a priest, I don't see the point. We can't afford to pay him and I don't believe I have any grave transgressions anyway. Even if I did, I believe God would understand my circumstances and show me mercy, considering all I've been through. If He decides not to forgive me, so be it.\"",
+        "They suggested a priest, but we can't afford it. Besides, I don't think I'm guilty of doing anything wrong. I've been through a lot and I believe God knows that. If He still wants to hold it against me, I'll just have to accept it."
+      ],
+      "gemini_25_flash": [
+        "\"A priest? Why bother with that? We can't afford one anyway. I haven't done anything wrong, so God should forgive me without needing a priest. He knows everything I've been through! And if He chooses not to forgive me, then that's His decision.\""
+      ],
+      "dipper_lowmed": [
+        "- What? A priest? I have no sin, and even without that God should forgive me. He knows how I have suffered, and if he does not forgive, so be it!"
+      ]
+    },
+    {
+      "human_par3": [
+        "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect."
+      ],
+      "llama_31_8b": [
+        "This is likely due to their exhaustion, which stems from carrying the weight of love for centuries. They have consistently taken on the full burden of emotional labor, engaging in a one-sided conversation that they've perpetually repeated. Meanwhile, men have merely echoed their sentiments, often failing to fully grasp or appreciate the complexity of their emotions. This misunderstanding has been exacerbated by men's lack of attention, carelessness, and jealousy, which can be seen as a form of emotional neglect.",
+        "Their tiredness is a clear indication that they've shouldered the weight of love for centuries, essentially embodying both roles in every aspect of their relationship. While men have simply parroted their words, doing so with imperfect understanding, they've also made it harder on themselves due to men's carelessness, jealousy, which is essentially a form of neglect itself."
+      ],
+      "gemini_25_flash": [
+        "I believe this stems from their weariness. Throughout history, they have shouldered the entire burden of love, always carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. Furthermore, men's inattentiveness, carelessness, and envy\u2014a form of neglect in itself\u2014have hindered women's understanding and growth."
+      ],
+      "dipper_lowmed": [
+        "Over the centuries they have taken the whole task of love upon themselves; they have always played the whole dialogue\u2014both parts; for man has only repeated their words and done it badly; and has made their learning difficult by his distraction, his negligence, and his jealousy, which was itself a kind of negligence. This comes, I think, from their fatigue."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough."
+      ],
+      "llama_31_8b": [
+        "\"Kandanmara, I'm confident you're aware that I'm not intimidated by these matters and I've done nothing untoward. I recall the incident in Veeranarayanapuram where I was watching with the crowd as Pazhuvetarayar and his retinue passed by. I've heard rumors that you dispatched an entire cavalry of horses, elephants, and soldiers. Can that be confirmed?\"",
+        "\"Kandanmara, you are aware that I'm not one to be intimidated by such matters. I've committed no wrongdoing, and I was just a bystander when Pazhuvetarayar and his group passed through Veeranarayanapuram. I was standing with the crowd, observing the scene. But I've heard that you sent out a massive procession with horses, elephants, and soldiers. Did you really do that?\""
+      ],
+      "gemini_25_flash": [
+        "\"Kandanmara, you're aware I'm not easily frightened, and I've committed no misdeeds. In Veeranarayanapuram, I simply observed the arrival of Pazhuvetarayar and his group with everyone else. I was told you arranged for the entire procession of horses, elephants, and soldiers to be sent off. Is that accurate?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cKandanmara! You know very well that I\u2019m not afraid of such things. I\u2019ve not done anything untoward. I heard that you sent a procession of horses, elephants and soldiers to Veera Narayanapuram. Is that true?\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier."
+      ],
+      "llama_31_8b": [
+        "One of the soldiers doubted the horse's authenticity, suggesting it might be from a troupe known for staging fake horse performances. The commander nodded in agreement."
+      ],
+      "gemini_25_flash": [
+        "One of the soldiers commented to Thandavaraya, \"I doubt this is a genuine horse. It likely belongs to a troupe that performs with artificial horses.\" \"Understood,\" Thandavaraya replied."
+      ],
+      "dipper_lowmed": [
+        "\u201cThandavaraya, I don\u2019t think this is a real horse. It might belong to the poikal kudirai [129] group,\u201d one of the soldiers said.",
+        "\u201cThandavaraya, this horse is not real. It seems to belong to the poikal kudiraiyar group,\u201d said one of the soldiers."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Well, if you like, I have the same philosophy as you, that would be true. _Je pense, donc je suis_, I know that for a fact; all the rest, all these worlds, God and even Satan--all that is not proved, to my mind. Does all that exist of itself, or is it only an emanation of myself, a logical development of my ego which alone has existed for ever: but I make haste to stop, for I believe you will be jumping up to beat me directly.\"",
+        "\u2018Well, if you like, I am of the same philosophy as you, now that it would be true to say. Je pense, donc je suis , that is the one thing I know for sure, and as for all the rest of what surrounds me, all these worlds, God and even Satan himself \u2013 for me it remains unproven whether all that exists in itself or is merely a certain emanation of mine, the logical development of my I, which has a pre-temporal and individual existence \u2026 in a word, I break off in haste, for you look as though you are about to jump up and box my ears.\u2019"
+      ],
+      "llama_31_8b": [
+        "To put it more accurately, we share the same philosophical outlook. A more honest description would be that. The phrase \"I think, therefore I am\" is something I am convinced of. As for the rest - all these ideas of other worlds, God, and even the concept of Satan - I'm uncertain whether they exist independently or are simply a product of my own subjective perceptions."
+      ],
+      "gemini_25_flash": [
+        "\"I'd prefer to say it like this: you and I share the same outlook, which is a more accurate way to put it. I am certain of 'I think, therefore I am.' However, regarding everything else \u2014 all other worlds, God, and even Satan himself \u2014 I'm unsure if they have a separate existence or are simply fleeting, personal projections of my own mind.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWell, it\u2019s like this: you and I are of the same philosophy; that\u2019s a much more fair statement. Je pense, donc je suis, that I know for certain; the rest\u2014all those worlds, God, even Satan\u2014I\u2019m not sure whether all that exists independently or is a passing subjective emanation from myself...."
+      ]
+    },
+    {
+      "human_par3": [
+        "This meant asking the celebrated doctor to come to them, whatever the expense. He gave her a vitriolic smile and said no. She sat there for a while, then came over and kissed him on the forehead."
+      ],
+      "llama_31_8b": [
+        "She got permission from the renowned doctor no matter the expense, but he begrudgingly refused. Disappointed but still affectionate, she quietly went over to him, leaned forward, and gently kissed his forehead."
+      ],
+      "gemini_25_flash": [
+        "Paying no mind to the expense, she approached the renowned physician. He responded with a poisonous smile and a \"No.\" After a moment, she walked to him and kissed his forehead.",
+        "Therefore, she decided to consult the renowned doctor, no matter the price. He responded with a poisonous smile, utterly refusing. After a moment, she rose, approached him, and gently kissed his forehead."
+      ],
+      "dipper_lowmed": [
+        "She sat for a while, then came up to him and kissed him on the forehead. This meant asking the celebrated doctor, whatever the cost. He smiled venomously and said, \u201cNo.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:"
+      ],
+      "llama_31_8b": [
+        "The zemstvo official stood frozen in confusion, grasping at his beard as if searching for words. A solitary domino pleaded not to be forced into the cold, wet slush of St. Petersburg or the noxious fog that clung to the city. His plea was met with a bemused grunt from the official, who seemed to be attempting to make light of the situation with a poorly timed joke."
+      ],
+      "gemini_25_flash": [
+        "The district official paused, stroking his beard in confusion. The lone masked guest pleaded not to be sent out into the harsh Petersburg weather, into the biting fog. The official, seemingly wanting to make a jest, let out a humming sound: \"Hmm...\""
+      ],
+      "dipper_lowmed": [
+        "The lonely domino begged not to be driven into the Petersburg slush, begged not to be driven into the malicious fog. The zemstvo official apparently wanted to make a joke, grunted: \u201cMm ... \u201c, and stopped in bewilderment, clutching at a tuft of his beard.",
+        "The zemstvo official apparently wanted to make a joke and grunted, \u201cHm ... .\u201d The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog. And the zemstvo official stopped in perplexity, twirling his beard."
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+        "All six tiny rooms were heated by steam central heating, which meant that in the little flat you were suffocated by a humid, hothouse heat; the panes of the windows sweated; and Sofya Petrovna\u2019s visitor sweated; both maid and husband eternally sweated; Sofya Petrovna Likhutina was herself covered in perspiration, like a Japanese chrysanthemum in warm dew. Well, so how could any perspective be established in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The six cramped rooms were heated with steam, creating an overwhelming, damp heat that made it hard to breathe. The windows were fogged up, and everyone - the visitors, the maid, even Sofia Petrovna Likhutina, was dripping with sweat. The wretched conditions made it difficult to find any consolation or sense of hope."
+      ],
+      "gemini_25_flash": [
+        "The six small rooms were uncomfortably hot due to the steam heating, causing everyone and everything to perspire. The windows were fogged with condensation, and everyone present, from guests to staff to Sofia Petrovna Likhutina herself, was drenched in sweat. It felt suffocating and inescapable, like a chrysanthemum covered in warm dew. In such oppressive conditions, where was the hope for a clear future?"
+      ],
+      "dipper_lowmed": [
+        "How could there be any perspective? All six tiny rooms were heated by steam, as a result of which the moisture suffocated in the apartment; the window panes sweated; the visitors sweated; the housemaid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum."
+      ]
+    },
+    {
+      "human_par3": [
+        "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+      ],
+      "llama_31_8b": [
+        "The individual shared his story with them, but its details will be omitted here. His account was concise and lacked emotional depth, failing to express either his attachment or emotional state. Instead, he simply stated that his previous intentions to harm himself had dissipated in light of some recent events. He did not delve into the underlying reasons for his actions, and his interrogators showed little interest in exploring those aspects, focusing on other aspects of the situation."
+      ],
+      "gemini_25_flash": [
+        "He shared information with them, which we won't disclose here. His account was concise and unemotional. He omitted any mention of his affections or emotions, simply stating that he had reconsidered his intent to commit suicide due to \"new circumstances.\" He no longer felt compelled to justify his actions or delve into intricate details. Furthermore, his questioners rarely interjected, indicating a lack of interest in such specifics.",
+        "He informed them, though we won't detail it here. He recounted the events concisely and objectively. He omitted any mention of his affections or emotions, simply stating that he was less inclined to take his own life \"due to recent changes.\" He no longer felt compelled to justify his decisions or delve into intricate details. Furthermore, his questioners rarely interjected, making it clear their primary interest lay elsewhere."
+      ],
+      "dipper_lowmed": [
+        "He told them, but we will not repeat his story here. He told them, briefly and impersonally, he did not talk about his love and his feelings, he only said that he was no longer so determined to shoot himself, \"with certain new circumstances.\" He did not bother to explain the motives of his actions, he did not go into the subtleties. Besides, his interrogators did not interrupt him very often to ask him questions, it was obvious that this was not what interested them most."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "A procession featuring a multitude of high-ranking officials, identified by their jade-adorned belts, advanced with guardsmen carrying various weapons and flags. Gilded bludgeons, halberds, and axes were held by those marching in formation, while red silk lanterns and a royal incense urn moved with stately dignity. The scene was alive with mythical creatures: dragons soaring and phoenixes dancing, alongside real ones like falcons and eagles taking flight.\n\nThis tableau honored the emperor, depicted as a virtuous and wise ruler, surrounded by good and righteous ministers. Their combined efforts were lauded for bringing immense prosperity and enduring peace, surpassing even legendary figures of the past like Yu and Shun, and rivaling Yao and Tang. The parade also showcased symbols of royal authority, such as curved umbrellas and robes embroidered with dragons that seemed to radiate light. Jade \"joined-rings\" and phoenix fans, held aloft, moved through a \"holy mist.\" Opulent attire, including pearl caps, jade belts, purple sashes, and gold medals, further emphasized the grandeur.\n\nA vast military escort, consisting of a thousand soldiers, protected the emperor, with two lines of marshals flanking his carriage. This devout emperor, described as pure and sincere, made his way to a temple to honor Buddha, expressing joy in offering incense and seeking spiritual merit.\n\nUpon reaching the temple, the grand procession of the Tang emperor halted. The emperor commanded the music to cease, exited his carriage, and, accompanied by many officials, participated in the worship of Buddha by lighting incense sticks. After three bows with the incense, they observed their surroundings, acknowledging the splendor of the religious hall.\n\nThe temple was vibrant with \"dancing flags and banners,\" which created \"strands of flashing colored mists\" in the air. \"Bright, gleaming sunshades\" shone like \"fiery bolts\" in the sun. Inside, an imposing gold statue of Lok\u0101jye\u1e63\u1e6dha and awesome jade figures of arhats adorned the space. Vases overflowed with divine flowers, forming a \"brilliant forest of brocade,\" and sandalwood incense burned in urns, creating \"waves of fragrant clouds\" that enveloped the clear sky. Offerings of seasonal fruits were piled high on red trays, and various cakes and sweets were arranged on colorful counters. Rows of noble priests chanted sacred s\u016btras, aiming to bring solace to \"orphaned souls.\"\n\nEmperor Taizong and his officials, after lifting their incense, also paid homage to the golden Buddha and the arhats. Following this, the esteemed Master of the Law, Chen Xuanzang, who was also the Grand Expositor of the Faith, led the monks in greeting the Tang emperor. After the formal ceremony, everyone returned to their designated places according to their rank.\n\nThe priest then presented Taizong with a proclamation for the salvation of orphaned souls. The document stated that \"supreme virtue is vast and endless,\" originating from Buddhism's foundation in Nirv\u0101\u1e47a. It described the pervasive and pure spirit that permeates the Three Regions, subject to countless transformations governed by yin and yang. Acknowledging the boundless nature of existence, the proclamation then focused on the plight of \"orphaned souls,\" expressing deep pity for them. It announced that, by Taizong's sacred command, priests had been gathered to meditate and preach the Law. Through \"gates of salvation\" and \"vessels of mercy,\" the aim was to rescue the multitudes from suffering and perdition, guiding them away from the Sixfold Path towards truth and heavenly bliss. It promised that through various states of being, they would achieve unity with pure essences. The proclamation urged the listeners to seize this \"noble occasion\" to partake in \"celestial pleasures\" and benefit from the Grand Mass, thereby escaping hell's confinement, ascending to \"ultimate bliss,\" and traveling freely in the \"Region of the West.\"\n\nA poem summarized this message:\nAn urn of sacred incense,\nScrolls bearing saving power.\nAs this boundless Law is declared,\nHeaven's endless grace is received.\nAll guilt and crime erased,\nLost souls may exit their prison.\nMay our nation be blessed,\nWith lasting and all-encompassing peace.\n\nHighly satisfied, Taizong addressed the monks, encouraging them to remain steadfast in their devotion and service to Buddha. He assured them that their efforts would be rewarded handsomely after they achieved merit and received their blessings, promising that their labors would not be in vain.",
+      "- What? A priest? I have no sin, and even without that God should forgive me. He knows how I have suffered, and if he does not forgive, so be it!",
+      "This is likely due to their exhaustion, which stems from carrying the weight of love for centuries. They have consistently taken on the full burden of emotional labor, engaging in a one-sided conversation that they've perpetually repeated. Meanwhile, men have merely echoed their sentiments, often failing to fully grasp or appreciate the complexity of their emotions. This misunderstanding has been exacerbated by men's lack of attention, carelessness, and jealousy, which can be seen as a form of emotional neglect.",
+      "\u201cKandanmara! You know very well that I\u2019m not afraid of such things. I\u2019ve not done anything untoward. I heard that you sent a procession of horses, elephants and soldiers to Veera Narayanapuram. Is that true?\u201d",
+      "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+      "\"I'd prefer to say it like this: you and I share the same outlook, which is a more accurate way to put it. I am certain of 'I think, therefore I am.' However, regarding everything else \u2014 all other worlds, God, and even Satan himself \u2014 I'm unsure if they have a separate existence or are simply fleeting, personal projections of my own mind.\"",
+      "This meant asking the celebrated doctor to come to them, whatever the expense. He gave her a vitriolic smile and said no. She sat there for a while, then came over and kissed him on the forehead.",
+      "The zemstvo official apparently wanted to make a joke and grunted, \u201cHm ... .\u201d The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog. And the zemstvo official stopped in perplexity, twirling his beard.",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+      "He told them, but we will not repeat his story here. He told them, briefly and impersonally, he did not talk about his love and his feelings, he only said that he was no longer so determined to shoot himself, \"with certain new circumstances.\" He did not bother to explain the motives of his actions, he did not go into the subtleties. Besides, his interrogators did not interrupt him very often to ask him questions, it was obvious that this was not what interested them most."
+    ],
+    [
+      "Thousands of officials with jade belts formed a procession in front and rear, with guardsmen's flags flanked on both sides. Holding gleaming axes, halberds, and bludgeons, they marched in pairs. Ever-present royalty was accompanied by red candles and an incense urn, its surroundings shining with majesty. Dragons and phoenixes flew and danced, while falcons soared and eagles spread their wings.\n\nThe Emperor, an upright exemplar of virtue, stood alongside his righteous ministers, who were dedicated to promoting the happiness of the people to a degree that surpassed the reigns of emperors Yu and Shun, and brought peace that rivaled the dynasties of Yao and Tang.\n\nAmong the entourage, umbrella-holders, dragon-adorned robes, and gleaming jade were also displayed. Also seen were curved-handle parasols, jade belts, and ceremonial caps and robes, their glimmering light filling the air.\n\nA thousand rows of soldiers stood guard nearby, while marshals supported the imperial carriage. The emperor, who was renowned for his clarity and sincerity, paid respects to the Buddha by offering incense and humbly seeking the blessings of virtue.\n\nAs the grand procession of the Tang emperor arrived at the temple, he ordered a cessation of music and left the carriages to proceed with a ritual. He led many high-ranking officials in paying homage to the Buddha by holding incense sticks and bowing three times. As they arose, they looked around in awe at the magnificent sight of the temple.\n\nWithin the temple, majestic sunshades cast a bright glow, dancing flags and banners billowed in the air, and divine colors swirled around. The gold obelisk of Lok\u0101jye\u1e63\u1e6dha and the serene countenance of the arhats made a profound impression. Vases were filled with flowers, while sandalwood incense spread a fragrant odor.\n\nPiles of seasonal fruits and sweetmeats lay on red trays, while elaborate vases displayed countless Buddhist scriptures. Priests from far and wide gathered to chant these sacred texts, hoping to find salvation for those who were wandering lost souls.\n\nThe emperor and his retinue relit the incense and venerated the golden Buddha and the statues of the arhats. Thereafter, the master of the Buddhist sect, Chen Xuanzang, led his monks to greet the emperor and simultaneously paid respects to the Buddha.\n\nFollowing the ritual, the monks returned to their ranks according to their position and title, whereupon the priest presented the emperor with a written decree to save the souls of orphaned beings. This proclamation read: The ultimate virtue of all that exists is unending, since Buddhism purveys Nirv\u0101\u1e47a, guiding all boundless changes and ten thousand transformations guided by the harmony of yin and yang. Though it's profound and spacious, those unfortunate souls are in dire need of compassion. Therefore, the emperor has mobilized dedicated priests to broadcast the law and salvage the multitudes trapped in suffering, free from the sea of suffering and doomed to travel the Sixfold Path.\n\nThose wishing to save themselves from the roadway to hell and traverse to the blissful west can join the sweet explanation. Following the poem, a proclamation was made to all lost souls:\n\nUse this sacred opportunity to transcend the heavens. Enjoy the freedom of the celestial city, permit all your guilt to be eliminated. Experience three phases of bliss to live in harmony in Paradise. After hearing these words, the emperor commanded the monks to continue vigorously practicing Buddhism.",
+      "\"A priest? Why bother with that? We can't afford one anyway. I haven't done anything wrong, so God should forgive me without needing a priest. He knows everything I've been through! And if He chooses not to forgive me, then that's His decision.\"",
+      "Over the centuries they have taken the whole task of love upon themselves; they have always played the whole dialogue\u2014both parts; for man has only repeated their words and done it badly; and has made their learning difficult by his distraction, his negligence, and his jealousy, which was itself a kind of negligence. This comes, I think, from their fatigue.",
+      "\"Kandanmara, I'm confident you're aware that I'm not intimidated by these matters and I've done nothing untoward. I recall the incident in Veeranarayanapuram where I was watching with the crowd as Pazhuvetarayar and his retinue passed by. I've heard rumors that you dispatched an entire cavalry of horses, elephants, and soldiers. Can that be confirmed?\"",
+      "One of the soldiers commented to Thandavaraya, \"I doubt this is a genuine horse. It likely belongs to a troupe that performs with artificial horses.\" \"Understood,\" Thandavaraya replied.",
+      "\u201cWell, it\u2019s like this: you and I are of the same philosophy; that\u2019s a much more fair statement. Je pense, donc je suis, that I know for certain; the rest\u2014all those worlds, God, even Satan\u2014I\u2019m not sure whether all that exists independently or is a passing subjective emanation from myself....",
+      "Therefore, she decided to consult the renowned doctor, no matter the price. He responded with a poisonous smile, utterly refusing. After a moment, she rose, approached him, and gently kissed his forehead.",
+      "The district official paused, stroking his beard in confusion. The lone masked guest pleaded not to be sent out into the harsh Petersburg weather, into the biting fog. The official, seemingly wanting to make a jest, let out a humming sound: \"Hmm...\"",
+      "How could there be any perspective? All six tiny rooms were heated by steam, as a result of which the moisture suffocated in the apartment; the window panes sweated; the visitors sweated; the housemaid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum.",
+      "He informed them, though we won't detail it here. He recounted the events concisely and objectively. He omitted any mention of his affections or emotions, simply stating that he was less inclined to take his own life \"due to recent changes.\" He no longer felt compelled to justify his decisions or delve into intricate details. Furthermore, his questioners rarely interjected, making it clear their primary interest lay elsewhere."
+    ],
+    [
+      "The emperor, in his purity, raises incense to seek virtue\u2019s fruits. His happiness is a thousand years, surpassing Yu and Shun; His peace is ten thousand ages, equaling Yao and Tang. With a thousand officials walking in front, A thousand nobles holding spears, A thousand court officials in back, The treasures of jade and gold are shining brightly.",
+      "\"There's no need for a priest, I don't see the point. We can't afford to pay him and I don't believe I have any grave transgressions anyway. Even if I did, I believe God would understand my circumstances and show me mercy, considering all I've been through. If He decides not to forgive me, so be it.\"",
+      "Their tiredness is a clear indication that they've shouldered the weight of love for centuries, essentially embodying both roles in every aspect of their relationship. While men have simply parroted their words, doing so with imperfect understanding, they've also made it harder on themselves due to men's carelessness, jealousy, which is essentially a form of neglect itself.",
+      "\"Kandanmara, you're aware I'm not easily frightened, and I've committed no misdeeds. In Veeranarayanapuram, I simply observed the arrival of Pazhuvetarayar and his group with everyone else. I was told you arranged for the entire procession of horses, elephants, and soldiers to be sent off. Is that accurate?\"",
+      "One of the soldiers doubted the horse's authenticity, suggesting it might be from a troupe known for staging fake horse performances. The commander nodded in agreement.",
+      "To put it more accurately, we share the same philosophical outlook. A more honest description would be that. The phrase \"I think, therefore I am\" is something I am convinced of. As for the rest - all these ideas of other worlds, God, and even the concept of Satan - I'm uncertain whether they exist independently or are simply a product of my own subjective perceptions.",
+      "She sat for a while, then came up to him and kissed him on the forehead. This meant asking the celebrated doctor, whatever the cost. He smiled venomously and said, \u201cNo.\u201d",
+      "The lonely domino begged not to be driven into the Petersburg slush, begged not to be driven into the malicious fog. The zemstvo official apparently wanted to make a joke, grunted: \u201cMm ... \u201c, and stopped in bewilderment, clutching at a tuft of his beard.",
+      "All six tiny rooms were heated by steam central heating, which meant that in the little flat you were suffocated by a humid, hothouse heat; the panes of the windows sweated; and Sofya Petrovna\u2019s visitor sweated; both maid and husband eternally sweated; Sofya Petrovna Likhutina was herself covered in perspiration, like a Japanese chrysanthemum in warm dew. Well, so how could any perspective be established in such a hothouse?",
+      "He shared information with them, which we won't disclose here. His account was concise and unemotional. He omitted any mention of his affections or emotions, simply stating that he had reconsidered his intent to commit suicide due to \"new circumstances.\" He no longer felt compelled to justify his actions or delve into intricate details. Furthermore, his questioners rarely interjected, indicating a lack of interest in such specifics."
+    ],
+    [
+      "A grand procession, featuring a multitude of high-ranking officials adorned with jade and elaborate standards, moved in majestic formation. Guardsmen with various weapons marched in synchronized pairs, while red silk lanterns and a royal incense urn lent an air of solemnity. Symbolic creatures like dragons, phoenixes, falcons, and eagles were depicted, representing the emperor's virtuous reign and the prosperity it brought, surpassing even legendary rulers like Yu, Shun, Yao, and Tang.\n\nThe emperor, described as a righteous sage, led his benevolent ministers in a display of power and piety. The procession included an ornate, curve-handled umbrella and robes embellished with dragon designs, their brilliance reflecting off one another. Jade rings and phoenix fans swayed through a sacred mist, accompanying officials adorned with pearl caps, jade belts, purple sashes, and gold medals. A vast contingent of soldiers protected the emperor, with two lines of marshals flanking his carriage.\n\nThis pure-hearted emperor, Taizong, bowed to the Buddha, eager to offer incense and cultivate virtue. His magnificent cortege soon arrived at the temple. The emperor halted the music, dismounted, and joined many officials in worshipping Buddha by holding burning incense sticks. After bowing three times with the incense, they looked around, taking in the splendor of the religious hall.\n\nThe temple was adorned with vibrant, dancing flags and banners that filled the air with shimmering colored mists. Bright, gleaming sunshades glowed like fiery bolts in the sun. Inside, an imposing golden image of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade arhats stood prominently. Vases overflowed with divine flowers, creating a brilliant, brocade-like forest, while sandalwood incense burned in urns, covering the sky with fragrant clouds. Red trays were laden with seasonal fruits, and colorful counters displayed mounds of cakes and sweets. Rows of noble priests chanted holy sutras to bring solace to orphaned souls.\n\nTaizong and his officials, after offering incense, also paid homage to the golden Buddha and the arhats. Following this, Chen Xuanzang, the Grand Expositor of the Faith, led the monks in greeting the emperor. After the ceremony, everyone returned to their designated places. The priest then presented Taizong with a proclamation for the spiritual liberation of orphaned souls.\n\nThe proclamation stated that Buddhism's boundless virtue, rooted in Nirvana, and the circulating spirit of purity pervaded the Three Regions, with all transformations governed by yin and yang. It emphasized the vastness of phenomena's essence, function, true nature, and permanence. It expressed pity for orphaned souls and announced that, by Taizong's decree, selected priests would engage in meditation and teachings. Through these efforts, gates of salvation and vessels of mercy would open to deliver countless souls from suffering, perdition, and the Sixfold Path, guiding them towards truth and heavenly bliss. Whether in motion, rest, or nonactivity, they would become pure essences.\u56e0\u6b64\uff0cit urged them to seize this opportunity to partake in celestial pleasures and be released from Hell's confinement, ascending swiftly to ultimate bliss and freely traveling to the Western Region.\n\nA poem accompanying the proclamation spoke of \"an urn of immortal incense\" and \"scrolls of salvific power\" that, through the proclamation of this boundless Law, would bring \"Heaven\u2019s endless grace,\" abolish guilt and crime for lost souls, and bless the nation with enduring peace.\n\nTaizong, greatly pleased, addressed the monks, urging them to remain steadfast in their devotion and service to Buddha. He promised generous rewards for their merits and blessings, assuring them that their efforts would not be in vain.",
+      "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+      "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect.",
+      "\"Kandanmara, you are aware that I'm not one to be intimidated by such matters. I've committed no wrongdoing, and I was just a bystander when Pazhuvetarayar and his group passed through Veeranarayanapuram. I was standing with the crowd, observing the scene. But I've heard that you sent out a massive procession with horses, elephants, and soldiers. Did you really do that?\"",
+      "\u201cThandavaraya, I don\u2019t think this is a real horse. It might belong to the poikal kudirai [129] group,\u201d one of the soldiers said.",
+      "\u2018Well, if you like, I am of the same philosophy as you, now that it would be true to say. Je pense, donc je suis , that is the one thing I know for sure, and as for all the rest of what surrounds me, all these worlds, God and even Satan himself \u2013 for me it remains unproven whether all that exists in itself or is merely a certain emanation of mine, the logical development of my I, which has a pre-temporal and individual existence \u2026 in a word, I break off in haste, for you look as though you are about to jump up and box my ears.\u2019",
+      "Paying no mind to the expense, she approached the renowned physician. He responded with a poisonous smile and a \"No.\" After a moment, she walked to him and kissed his forehead.",
+      "The zemstvo official stood frozen in confusion, grasping at his beard as if searching for words. A solitary domino pleaded not to be forced into the cold, wet slush of St. Petersburg or the noxious fog that clung to the city. His plea was met with a bemused grunt from the official, who seemed to be attempting to make light of the situation with a poorly timed joke.",
+      "The six small rooms were uncomfortably hot due to the steam heating, causing everyone and everything to perspire. The windows were fogged with condensation, and everyone present, from guests to staff to Sofia Petrovna Likhutina herself, was drenched in sweat. It felt suffocating and inescapable, like a chrysanthemum covered in warm dew. In such oppressive conditions, where was the hope for a clear future?",
+      "The individual shared his story with them, but its details will be omitted here. His account was concise and lacked emotional depth, failing to express either his attachment or emotional state. Instead, he simply stated that his previous intentions to harm himself had dissipated in light of some recent events. He did not delve into the underlying reasons for his actions, and his interrogators showed little interest in exploring those aspects, focusing on other aspects of the situation."
+    ],
+    [
+      "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain.",
+      "They suggested a priest, but we can't afford it. Besides, I don't think I'm guilty of doing anything wrong. I've been through a lot and I believe God knows that. If He still wants to hold it against me, I'll just have to accept it.",
+      "I believe this stems from their weariness. Throughout history, they have shouldered the entire burden of love, always carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. Furthermore, men's inattentiveness, carelessness, and envy\u2014a form of neglect in itself\u2014have hindered women's understanding and growth.",
+      "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough.",
+      "\u201cThandavaraya, this horse is not real. It seems to belong to the poikal kudiraiyar group,\u201d said one of the soldiers.",
+      "\"Well, if you like, I have the same philosophy as you, that would be true. _Je pense, donc je suis_, I know that for a fact; all the rest, all these worlds, God and even Satan--all that is not proved, to my mind. Does all that exist of itself, or is it only an emanation of myself, a logical development of my ego which alone has existed for ever: but I make haste to stop, for I believe you will be jumping up to beat me directly.\"",
+      "She got permission from the renowned doctor no matter the expense, but he begrudgingly refused. Disappointed but still affectionate, she quietly went over to him, leaned forward, and gently kissed his forehead.",
+      "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:",
+      "The six cramped rooms were heated with steam, creating an overwhelming, damp heat that made it hard to breathe. The windows were fogged up, and everyone - the visitors, the maid, even Sofia Petrovna Likhutina, was dripping with sweat. The wretched conditions made it difficult to find any consolation or sense of hope.",
+      "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+    ]
+  ]
+}

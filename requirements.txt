@@ -11,3 +11,5 @@ python-dotenv
 networkx
 requests
 pyyaml
+datasets
+google-genai

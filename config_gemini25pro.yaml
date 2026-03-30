@@ -1,0 +1,36 @@
+par3:
+  min_translations: 3
+  min_length: 100
+  max_texts: 100
+
+embedding_validation:
+  threshold: 0.75
+  model: gemini-embedding-001
+
+num_trials: 10
+warmup_steps: 1
+auditor_as_detective: false
+
+auditor:
+  type: openrouter
+  model_id: anthropic/claude-sonnet-4.6
+
+detective:
+  type: openrouter
+  model_id: google/gemini-2.5-pro
+
+paraphrasers:
+  - id: human_par3
+    type: preloaded
+  - id: llama_31_8b
+    type: openrouter
+    model_id: meta-llama/llama-3.1-8b-instruct
+  - id: gemini_25_flash
+    type: openrouter
+    model_id: google/gemini-2.5-flash
+  - id: dipper_lowmed
+    type: dipper
+    endpoint_url_env: HF_DIPPER_ENDPOINT_URL
+    api_key_env: HF_DIPPER_API_KEY
+    lex_div: 20
+    order_div: 40

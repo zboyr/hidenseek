@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "And the zemstvo official stopped in perplexity, clutching at a tuft of his beard. The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog. The zemstvo official apparently wanted to make a little joke, and grunted: \u201cMm . . .",
+    "That comes, I think, from their tiredness. Over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words, and done it badly. And has made their learning difficult with his distractedness, his negligence, his jealousy, which was itself a kind of negligence.",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?",
+    "\u2018When I wished to determine the increase in weight the Nautilus would require to dive, my only concern was the progressive reduction in volume that sea water experiences as it becomes deeper.\u2019",
+    "This was the philosophy worked out by the Oblomovka Plato, a philosophy which lulled him amid the issues and strict demands of duty and purpose! He had been born and reared not like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the alarms of happiness or life\u2019s blows. Consequently, his person expressed one of life\u2019s extremes, and he did nothing to achieve, change, or repent.",
+    "\u201cThandavaraya, I don\u2019t think this is a real horse. It may belong to the poi kaal kudirai (false horse performance) group,\u201d said one of the soldiers. \u201cFine then.",
+    "\u201cWhat? A priest? It\u2019s not necessary. . . . Where would we get the money to pay him? I have no sins! Even without that God should forgive me. . . . He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+    "As for the man, he truly was so tired that he did not even make the most of those clean white sheets. He snuffed out his candle with his nostril, the way convicts do, and dropping on to the bed fully dressed, immediately fell into a deep sleep.",
+    "\"Then let me go and meet her,\" exclaimed Arkady with another access of \"magnanimity\" as he sprang from his chair. \" Yes, let me go and explain to her why she need not shun me.\""
+  ],
+  "dup_info": [
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 4 share several distinct linguistic fingerprints that are absent in the other three outputs. \n\n1.  **Unique Terminology**: Both outputs use the specific and uncommon term \"capriped caryatid\" (with a minor spelling difference in one). Other outputs either omit this detail, explain it in simpler terms (\"horse-like creature\"), or use a synonym (\"goat-footed caryatid\").\n\n2.  **Parenthetical Structure**: Both 0 and 4 use parentheses to describe the coat of arms, a specific punctuation choice not seen in the other versions. Output 0 has \"(a unicorn impaling a knight)\" and output 4 has \"(a unicorn goring a knight)\". The content is synonymous, but the structure is identical.\n\n3.  **Specific Details**: Both outputs mention the presence of \"small crowns\" (output 0) or \"little crowns\" (output 4) on the coat of arms. This detail is missing from all other outputs.\n\n4.  **Shared Phrasing**: Both describe the door opening with the sound \"a click\". Output 0 says \"opened the door with a click\", and output 4 says \"gave the handle a click\".\n\nWhile the sentence order is different, with output 4 placing the 'caryatid' sentence in the middle, the combination of these shared, specific lexical and structural choices strongly suggests they originate from the same paraphrasing system.",
+    "Outputs 1 and 4 share a unique and identical three-part structure. Both start with the official wanting to make a joke, then describe the domino's plea, and conclude with the official stopping in bewilderment and grabbing his beard. This final sentence, placed at the end, is a very strong fingerprint. Additionally, they use an identical and specific set of vocabulary not found together in the other outputs, such as \"lonely domino\", \"Petersburg slush\", \"malicious fog\", \"bewilderment\", and \"tuft of his beard\". The phrasing is nearly word-for-word in many places (e.g., \"wanted to make a little joke\", \"begged not to be driven into...\"). The only significant difference is that output 4 makes a clear error by placing the second sentence inside the quotation marks, but the underlying text and structure are the same, indicating they are from the same system.",
+    "Outputs 2 and 3 exhibit a remarkable degree of similarity, pointing to a common origin. Firstly, they both begin with the exact same sentence: \"I believe this stems from their exhaustion.\" Secondly, their third sentences are also identical: \"Men have merely echoed their sentiments, and poorly at that.\" Thirdly, while their second sentences have minor differences ('they have' vs. 'they've', 'exclusively' vs. 'entire'), the core structure and distinctive phrasing are the same, such as starting with \"Throughout history\" and using the non-obvious phrase \"shouldered the... burden of love\". Finally, both use the same list of words (\"inattentiveness, carelessness, and envy\") in the last sentence. This combination of identical sentences and shared unique phrasing is a strong fingerprint of a single paraphrasing system generating slightly different outputs on separate runs.",
+    "Outputs 0 and 4 exhibit several strong similarities that suggest they originated from the same paraphrasing system. Both use the exact phrase \"Condensation covered the windows,\" a specific choice not found in the other outputs which prefer variations like \"panes of the windows sweated.\" They also share the distinctive word \"oppressive\" to describe the humidity (\"oppressively humid\" in 0, \"oppressive moisture\" in 4). Furthermore, their overall structure is parallel: they both begin by describing the heat, then mention the condensation, list the people sweating, use the chrysanthemum simile, and conclude by interpreting the source's final rhetorical question as a statement about the impossibility of clear thought or direction (\"impossible to think clearly or plan ahead\" in 0, and \"impossible to find any sense of clarity or direction\" in 4). This identical approach to interpreting and rephrasing the final sentence is a significant linguistic fingerprint.",
+    "Outputs 2 and 3 exhibit several strong, unique similarities that suggest they were generated by the same system. First, they share an identical core phrase: \"progressive reduction in volume\". No other output uses this specific combination of words. Second, their overall sentence structure is strikingly similar. Both begin with a quotation mark and a \"When I wanted to...\" clause, followed by a main clause expressing the singular focus (\"I was only concerned with...\" vs. \"my only concern was...\"). Finally, both conclude with a dependent clause describing the effect of depth using a similar verb and phrasing (\"...that the water experiences as it goes deeper and deeper\" vs. \"...that seawater undergoes the deeper it goes\"). These shared structural and lexical fingerprints are too specific to be coincidental.",
+    "Outputs 2 and 3 exhibit strong stylistic and structural parallels that suggest a common origin. Both use very similar phrasing to describe the subject's nature, calling it \"gentle and indolent nature\" (2) and \"gentle and passive nature\" (3). They also both describe his inability to handle life's ups and downs in a parallel way: \"the anxieties of joy or the hardships of life\" (2) versus \"the excitement of joy or the hardships of existence\" (3). Furthermore, they both conclude with the nearly identical assessment that he \"represented one of life's extremes\" (2) and \"represented an extreme in life\" (3). Finally, while the specific words differ, both end with a list of three concepts that the subject lacks: \"accomplish, transform, or atone\" (2) and \"ambition, desire for change, or regret\" (3), which map directly onto each other conceptually. This consistent structural and conceptual mirroring is a clear fingerprint of the same paraphrasing system.",
+    "Outputs 2 and 3 are the most likely to be from the same paraphrasing system. The key piece of evidence is their shared inclusion of a specific detail that is absent from all other outputs: the mention of a temple festival. Output 2 says, \"come for the Perumal temple festival,\" while output 3 says, \"brought for the temple festivities.\" The fact that both models chose to include this specific, non-essential piece of information suggests a common underlying process. Furthermore, both outputs frame the dialogue as a strong suggestion or command using the phrase \"make sure\" (Output 2: \"Make sure that this horse... is real\"; Output 3: \"you'd better make sure this animal really is a horse\"). While there are differences in length and other details (e.g., \"horse on stilts\" vs. \"false-legged prop\"), these variations are typical of stochastic generation, whereas the shared inclusion of the unique \"temple festival\" detail is a very strong linguistic fingerprint.",
+    "Outputs 3 and 4 exhibit a strong and unique shared linguistic fingerprint. While their sentence structure and some minor word choices differ, both conclude with the exact same distinctive and somewhat formal phrase: \"so be it!\". This specific phrase is not used in any of the other outputs, which opt for alternatives like \"then fine\" (0), \"too bad!\" (2), or a descriptive summary (1). This identical choice of a less common phrase is a strong indicator that the same underlying system, likely with slightly different settings, generated both texts.",
+    "Outputs 0 and 4 are the only two that use the distinct framing phrase \"As for the man...\". They both split the source text into two separate sentences/clauses, one about the man's exhaustion regarding the sheets, and the other about him extinguishing the candle and falling asleep. Crucially, they present these two ideas in the opposite order. Output 0 begins with his fatigue (\"As for the man, he was actually so fatigued...\") and ends with snuffing the candle. Output 4 begins with snuffing the candle (\"He snuffed out his candle...\") and ends with his fatigue (\"As for the man, he was indeed so tired...\"). This structural mirroring, combined with the unique shared phrase \"As for the man...\" and similar vocabulary choices like \"profit by\" (0) and \"take advantage of\" (4), provides a strong fingerprint for a single paraphrasing system.",
+    "Outputs 0 and 4 were identified as being from the same paraphraser due to several strong linguistic overlaps. The most compelling piece of evidence is the identical phrasing of the first part of the direct quote: \"I'll go see her myself\" appears verbatim in both outputs. Furthermore, both outputs describe the character's emotion using a very similar and specific construction: \"with a renewed burst of generosity\" (0) and \"a renewed sense of generosity\" (4). The shared use of \"renewed\" and \"generosity\" is a significant stylistic fingerprint. While the overall sentence structure is slightly different (one begins with the action, the other with the quote), the core components and specific word choices are too similar to be a coincidence."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "llama_31_8b": [
+        "A figure, half of which is depicted as a horse-like creature, supports a structure. A horse-drawn carriage pulled up to the entrance of the structure, and a servant, wearing a three-cornered hat, released a latch, causing the door to swing open. The door featured a coat of arms with intricate designs, including a small image of a unicorn attacking a knight. In response to the greetings, a hand in a leather glove reached up and tipped a top hat.",
+        "A decorated horse-drawn carriage suddenly came to a stop before the entrance, and a liveried servant in a stylish tricorn hat stepped down to open the door. As it swung open, a coat of arms emblazoned on the side caught the light, featuring a small image of a unicorn piercing a knight. A gloved hand raised the brim of a top hat in a courteous greeting."
+      ],
+      "gemini_25_flash": [
+        "A capriped caryatid's torso. A two-horse carriage pulled up to the entrance, and a footman, wearing a three-cornered hat, opened the door with a click, revealing a coat of arms featuring small crowns (a unicorn impaling a knight). In response to greetings, a gloved hand touched the brim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, with a cocked hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). A torso of a capripede caryatid. Responding to greetings, a hand invested in leather touched the brim of a top hat."
+      ]
+    },
+    {
+      "human_par3": [
+        "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:"
+      ],
+      "llama_31_8b": [
+        "The zemstvo official stood there, frozen in surprise, grasping at his beard. The domino player pleaded to be spared the misery of being forced into the cold, wet streets of Petersburg, engulfed in the foul fog. The zemstvo official, attempting to lighten the mood, growled: \"Hmm...\""
+      ],
+      "gemini_25_flash": [
+        "The zemstvo official paused, stroking his beard in confusion. The lone masked figure pleaded not to be cast out into the inclement Petersburg weather, nor into the biting fog. The official, seemingly intending a lighthearted remark, responded with a low grunt: \"Hmm...\""
+      ],
+      "dipper_lowmed": [
+        "The zemstvo official obviously wanted to make a little joke, and he grunted: \"Hm ... The lonely domino begged not to be driven into the Petersburg slush, begged not to be driven into the malicious fog.\" And the zemstvo official stopped in bewilderment, grabbing at a tuft of his beard.",
+        "The zemstvo official apparently wanted to make a little joke and grunted: \"Mm ... \" The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malicious fog. And the zemstvo official stopped in bewilderment, clutching a tuft of his beard."
+      ]
+    },
+    {
+      "human_par3": [
+        "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect."
+      ],
+      "llama_31_8b": [
+        "I believe that their exhaustion stems from shouldering the entire weight of love for centuries. They have consistently taken on both roles in the romantic dynamic, while men have merely mimicked their words, often poorly. Furthermore, men's lack of focus, carelessness, and jealousy, which can be seen as a form of neglect in itself, have only complicated their endeavors."
+      ],
+      "gemini_25_flash": [
+        "I believe this stems from their exhaustion. Throughout history, they've shouldered the entire burden of love, carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. They've also complicated women's understanding with their inattentiveness, carelessness, and envy, which was a form of neglect itself.",
+        "I believe this stems from their exhaustion. Throughout history, they have exclusively shouldered the burden of love, carrying both sides of every conversation. Men have merely echoed their sentiments, and poorly at that. Their inattentiveness, carelessness, and envy\u2014a form of carelessness itself\u2014have only hindered their progress."
+      ],
+      "dipper_lowmed": [
+        "It is a question of their weariness. For they have taken upon themselves all the task of love; they have always played the whole dialogue; both parts. For man has only repeated their words and done it badly; and has made the learning difficult by his negligence and his jealousy, which was itself a kind of negligence."
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The tiny apartment was literally sweltering with heat, thanks to the steam heating that forced everyone to feel claustrophobic and stuck. Moisture dripped from the windowpanes, and it seemed like everyone inside, including Sofia Petrovna Likhutina, was perspiring profusely, like a plant covered in dew. It's little wonder, then, that the atmosphere felt drained of any sense of hope or excitement.",
+        "The apartment's six cramped rooms were overheated with steam, making it unbearable due to the oppressive moisture. Condensation covered the windows, and everyone inside, including the visitors, the maid, and Sofia herself, were drenched in sweat. Even the hostess was dripping with perspiration, like the gentle dew on a chrysanthemum. Under these conditions, it seemed impossible to find any sense of clarity or direction."
+      ],
+      "gemini_25_flash": [
+        "The six small rooms were excessively hot due to steam heating, making the apartment feel oppressively humid. Condensation covered the windows, and everyone present\u2014guests, the maid, the husband, and even Sofia Petrovna Likhutina herself\u2014was sweating profusely, like chrysanthemums covered in warm dew. In such conditions, it was impossible to think clearly or plan ahead. \n"
+      ],
+      "dipper_lowmed": [
+        "How could any perspective be possible? All six tiny rooms were heated with steam, as a result of which one suffocated in the apartment from the humidity. The panes of the windows sweated; the visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum."
+      ]
+    },
+    {
+      "human_par3": [
+        "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d"
+      ],
+      "llama_31_8b": [
+        "My focus was on how much more weight the Nautilus would need to dive, and that depended on the decreasing volume of seawater with depth."
+      ],
+      "gemini_25_flash": [
+        "My primary consideration in calculating how much extra weight the Nautilus needed to submerge was solely the way seawater's volume systematically decreases with increasing depth."
+      ],
+      "dipper_lowmed": [
+        "\u201cWhen I wanted to know the increase in weight that the Nautilus would require in its dives, I was only concerned with the progressive reduction in volume that the water experiences as it goes deeper and deeper.",
+        "\u201cWhen I wanted to calculate the increase in weight that the Nautilus would need to dive, my only concern was the progressive reduction in volume that seawater undergoes the deeper it goes.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it."
+      ],
+      "llama_31_8b": [
+        "Oblomovka's way of thinking had created a tranquil state, shielding him from the pressures and expectations of responsibility. He had grown up with a passive, rather than an active, approach to life, more suited to observing than participating in the challenges that life presented. As a result, his nature was characterized by an extreme aversion to exertion or turmoil, leading to a lack of drive, motivation, or desire for change."
+      ],
+      "gemini_25_flash": [
+        "This was the ideology developed by the Oblomovka Plato, an ideology that comforted him amidst the challenges and strict requirements of responsibility and ambition. He had been raised not to be a fighter in an arena, but as a calm observer of the struggle. It was not in his gentle and indolent nature to experience either the anxieties of joy or the hardships of life. Therefore, his being represented one of life's extremes, and he made no effort to accomplish, transform, or atone.",
+        "The \"Oblomovka Plato\" developed a worldview that shielded him from the pressures and responsibilities of life. Unlike a gladiator born for combat, he was raised as an observer. His gentle and passive nature couldn't handle the excitement of joy or the hardships of existence. Thus, he represented an extreme in life, showing no ambition, desire for change, or regret."
+      ],
+      "dipper_lowmed": [
+        "He was born and brought up not like a gladiator, for the arena, but as a peaceful observer of the battle; it was not for his meek and lazy soul to endure either the stings of happiness or life's blows; therefore, he expressed one of the extremes of life, and did not change, did not repent. This is the philosophy of the Oblomov Plato, which lulled him amid the issues and strict demands of duty and purpose!"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+        "\u201cThandavaraya! Make sure that this horse, which refuses to allow you to mount it, is real. Maybe it\u2019s a horse on stilts, come for the Perumal temple festival.\u201d Thandavarayan, who had tried to mount the horse, said, \u201cLet\u2019s take a look,\u201d and twisted the horse's tail."
+      ],
+      "llama_31_8b": [
+        "The soldier asked, \"Do you think this is a genuine horse, Thandavaraya, or does it belong to the group that puts on fake horse shows?\""
+      ],
+      "gemini_25_flash": [
+        "One soldier remarked, \"Thandavaraya, I suspect this isn't a genuine horse. It likely belongs to a troupe that performs with fake horses.\" \"Very well,\" came the reply."
+      ],
+      "dipper_lowmed": [
+        "\u201cThandavaraya, I don\u2019t think this is a real horse. It might belong to the poi kaal kudirai (false horse) group,\u201d said one of the soldiers."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019"
+      ],
+      "llama_31_8b": [
+        "\"She says having a priest isn't necessary. We can't afford to pay him, anyway. She claims she's got no sins to confess, and that God will accept her as is, especially considering all she's been through. If God doesn't forgive her, she doesn't seem too concerned about it.\""
+      ],
+      "gemini_25_flash": [
+        "\"A priest? No thanks. We can't afford one anyway. I haven't done anything wrong, so God should just forgive me without all that. He knows what I've been through! If He doesn't forgive me, then fine.\"",
+        "\"A priest? That's not needed. How would we afford one? I haven't sinned! God ought to forgive me anyway; He understands my suffering. If He doesn't, then so be it!\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWhat, a priest? But why should I have one? I have no sins, God must forgive me without that, He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep."
+      ],
+      "llama_31_8b": [
+        "Exhausted, the man barely appreciated the fresh sheets, instead extinguishing his candle with a careless sniff and collapsing onto the bed in his clothes, where he instantly fell into a profound slumber.",
+        "The man was utterly exhausted and barely acknowledged the fresh, crisp sheets. Instead, he extinguished the candle in a makeshift, unorthodox manner, before collapsing onto the bed fully dressed and quickly succumbing to a deep slumber."
+      ],
+      "gemini_25_flash": [
+        "The man was so exhausted that he didn't even appreciate the fresh, clean sheets. He extinguished his candle with his nose, like prisoners do, and collapsed onto the bed, still clothed, instantly falling into a profound sleep."
+      ],
+      "dipper_lowmed": [
+        "He snuffed out his candle with his nostril, as prisoners do, and dropping on his bed, fully dressed, he fell at once into a deep sleep. As for the man, he was indeed so tired that he did not even take advantage of the white sheets."
+      ]
+    },
+    {
+      "human_par3": [
+        "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'"
+      ],
+      "llama_31_8b": [
+        "Arkady suddenly jumped up from his chair, exclaiming that he wanted to see her and clear up any misconceptions she might have about him."
+      ],
+      "gemini_25_flash": [
+        "\"I'll go see her myself,\" Arkady declared, a renewed sense of generosity surging through him as he leaped from his seat. \"I'll go tell her there's no reason for her to avoid me.\"",
+        "Leaping up, Arkady, with a renewed burst of generosity, declared, \"I'll go see her myself! I'll tell her why she doesn't need to avoid me.\""
+      ],
+      "dipper_lowmed": [
+        "\u2018Then let me go and meet her,\u2019 Arkady cried again in an access of \u201cmagnanimity,\u201d leaping up from his chair. \u2018Yes, let me go and explain to her why she need not avoid me.\u2019"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "A capriped caryatid's torso. A two-horse carriage pulled up to the entrance, and a footman, wearing a three-cornered hat, opened the door with a click, revealing a coat of arms featuring small crowns (a unicorn impaling a knight). In response to greetings, a gloved hand touched the brim of a top hat.",
+      "The zemstvo official paused, stroking his beard in confusion. The lone masked figure pleaded not to be cast out into the inclement Petersburg weather, nor into the biting fog. The official, seemingly intending a lighthearted remark, responded with a low grunt: \"Hmm...\"",
+      "It is a question of their weariness. For they have taken upon themselves all the task of love; they have always played the whole dialogue; both parts. For man has only repeated their words and done it badly; and has made the learning difficult by his negligence and his jealousy, which was itself a kind of negligence.",
+      "The six small rooms were excessively hot due to steam heating, making the apartment feel oppressively humid. Condensation covered the windows, and everyone present\u2014guests, the maid, the husband, and even Sofia Petrovna Likhutina herself\u2014was sweating profusely, like chrysanthemums covered in warm dew. In such conditions, it was impossible to think clearly or plan ahead. \n",
+      "My primary consideration in calculating how much extra weight the Nautilus needed to submerge was solely the way seawater's volume systematically decreases with increasing depth.",
+      "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it.",
+      "One soldier remarked, \"Thandavaraya, I suspect this isn't a genuine horse. It likely belongs to a troupe that performs with fake horses.\" \"Very well,\" came the reply.",
+      "\"A priest? No thanks. We can't afford one anyway. I haven't done anything wrong, so God should just forgive me without all that. He knows what I've been through! If He doesn't forgive me, then fine.\"",
+      "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep.",
+      "Leaping up, Arkady, with a renewed burst of generosity, declared, \"I'll go see her myself! I'll tell her why she doesn't need to avoid me.\""
+    ],
+    [
+      "A decorated horse-drawn carriage suddenly came to a stop before the entrance, and a liveried servant in a stylish tricorn hat stepped down to open the door. As it swung open, a coat of arms emblazoned on the side caught the light, featuring a small image of a unicorn piercing a knight. A gloved hand raised the brim of a top hat in a courteous greeting.",
+      "The zemstvo official apparently wanted to make a little joke and grunted: \"Mm ... \" The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malicious fog. And the zemstvo official stopped in bewilderment, clutching a tuft of his beard.",
+      "I believe that their exhaustion stems from shouldering the entire weight of love for centuries. They have consistently taken on both roles in the romantic dynamic, while men have merely mimicked their words, often poorly. Furthermore, men's lack of focus, carelessness, and jealousy, which can be seen as a form of neglect in itself, have only complicated their endeavors.",
+      "How could any perspective be possible? All six tiny rooms were heated with steam, as a result of which one suffocated in the apartment from the humidity. The panes of the windows sweated; the visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum.",
+      "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d",
+      "Oblomovka's way of thinking had created a tranquil state, shielding him from the pressures and expectations of responsibility. He had grown up with a passive, rather than an active, approach to life, more suited to observing than participating in the challenges that life presented. As a result, his nature was characterized by an extreme aversion to exertion or turmoil, leading to a lack of drive, motivation, or desire for change.",
+      "The soldier asked, \"Do you think this is a genuine horse, Thandavaraya, or does it belong to the group that puts on fake horse shows?\"",
+      "\"She says having a priest isn't necessary. We can't afford to pay him, anyway. She claims she's got no sins to confess, and that God will accept her as is, especially considering all she's been through. If God doesn't forgive her, she doesn't seem too concerned about it.\"",
+      "Exhausted, the man barely appreciated the fresh sheets, instead extinguishing his candle with a careless sniff and collapsing onto the bed in his clothes, where he instantly fell into a profound slumber.",
+      "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'"
+    ],
+    [
+      "A figure, half of which is depicted as a horse-like creature, supports a structure. A horse-drawn carriage pulled up to the entrance of the structure, and a servant, wearing a three-cornered hat, released a latch, causing the door to swing open. The door featured a coat of arms with intricate designs, including a small image of a unicorn attacking a knight. In response to the greetings, a hand in a leather glove reached up and tipped a top hat.",
+      "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:",
+      "I believe this stems from their exhaustion. Throughout history, they have exclusively shouldered the burden of love, carrying both sides of every conversation. Men have merely echoed their sentiments, and poorly at that. Their inattentiveness, carelessness, and envy\u2014a form of carelessness itself\u2014have only hindered their progress.",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+      "\u201cWhen I wanted to know the increase in weight that the Nautilus would require in its dives, I was only concerned with the progressive reduction in volume that the water experiences as it goes deeper and deeper.",
+      "This was the ideology developed by the Oblomovka Plato, an ideology that comforted him amidst the challenges and strict requirements of responsibility and ambition. He had been raised not to be a fighter in an arena, but as a calm observer of the struggle. It was not in his gentle and indolent nature to experience either the anxieties of joy or the hardships of life. Therefore, his being represented one of life's extremes, and he made no effort to accomplish, transform, or atone.",
+      "\u201cThandavaraya! Make sure that this horse, which refuses to allow you to mount it, is real. Maybe it\u2019s a horse on stilts, come for the Perumal temple festival.\u201d Thandavarayan, who had tried to mount the horse, said, \u201cLet\u2019s take a look,\u201d and twisted the horse's tail.",
+      "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+      "The man was utterly exhausted and barely acknowledged the fresh, crisp sheets. Instead, he extinguished the candle in a makeshift, unorthodox manner, before collapsing onto the bed fully dressed and quickly succumbing to a deep slumber.",
+      "\u2018Then let me go and meet her,\u2019 Arkady cried again in an access of \u201cmagnanimity,\u201d leaping up from his chair. \u2018Yes, let me go and explain to her why she need not avoid me.\u2019"
+    ],
+    [
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "The zemstvo official stood there, frozen in surprise, grasping at his beard. The domino player pleaded to be spared the misery of being forced into the cold, wet streets of Petersburg, engulfed in the foul fog. The zemstvo official, attempting to lighten the mood, growled: \"Hmm...\"",
+      "I believe this stems from their exhaustion. Throughout history, they've shouldered the entire burden of love, carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. They've also complicated women's understanding with their inattentiveness, carelessness, and envy, which was a form of neglect itself.",
+      "The tiny apartment was literally sweltering with heat, thanks to the steam heating that forced everyone to feel claustrophobic and stuck. Moisture dripped from the windowpanes, and it seemed like everyone inside, including Sofia Petrovna Likhutina, was perspiring profusely, like a plant covered in dew. It's little wonder, then, that the atmosphere felt drained of any sense of hope or excitement.",
+      "\u201cWhen I wanted to calculate the increase in weight that the Nautilus would need to dive, my only concern was the progressive reduction in volume that seawater undergoes the deeper it goes.\u201d",
+      "The \"Oblomovka Plato\" developed a worldview that shielded him from the pressures and responsibilities of life. Unlike a gladiator born for combat, he was raised as an observer. His gentle and passive nature couldn't handle the excitement of joy or the hardships of existence. Thus, he represented an extreme in life, showing no ambition, desire for change, or regret.",
+      "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+      "\"A priest? That's not needed. How would we afford one? I haven't sinned! God ought to forgive me anyway; He understands my suffering. If He doesn't, then so be it!\"",
+      "The man was so exhausted that he didn't even appreciate the fresh, clean sheets. He extinguished his candle with his nose, like prisoners do, and collapsed onto the bed, still clothed, instantly falling into a profound sleep.",
+      "Arkady suddenly jumped up from his chair, exclaiming that he wanted to see her and clear up any misconceptions she might have about him."
+    ],
+    [
+      "A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, with a cocked hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). A torso of a capripede caryatid. Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+      "The zemstvo official obviously wanted to make a little joke, and he grunted: \"Hm ... The lonely domino begged not to be driven into the Petersburg slush, begged not to be driven into the malicious fog.\" And the zemstvo official stopped in bewilderment, grabbing at a tuft of his beard.",
+      "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect.",
+      "The apartment's six cramped rooms were overheated with steam, making it unbearable due to the oppressive moisture. Condensation covered the windows, and everyone inside, including the visitors, the maid, and Sofia herself, were drenched in sweat. Even the hostess was dripping with perspiration, like the gentle dew on a chrysanthemum. Under these conditions, it seemed impossible to find any sense of clarity or direction.",
+      "My focus was on how much more weight the Nautilus would need to dive, and that depended on the decreasing volume of seawater with depth.",
+      "He was born and brought up not like a gladiator, for the arena, but as a peaceful observer of the battle; it was not for his meek and lazy soul to endure either the stings of happiness or life's blows; therefore, he expressed one of the extremes of life, and did not change, did not repent. This is the philosophy of the Oblomov Plato, which lulled him amid the issues and strict demands of duty and purpose!",
+      "\u201cThandavaraya, I don\u2019t think this is a real horse. It might belong to the poi kaal kudirai (false horse) group,\u201d said one of the soldiers.",
+      "\u201cWhat, a priest? But why should I have one? I have no sins, God must forgive me without that, He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+      "He snuffed out his candle with his nostril, as prisoners do, and dropping on his bed, fully dressed, he fell at once into a deep sleep. As for the man, he was indeed so tired that he did not even take advantage of the white sheets.",
+      "\"I'll go see her myself,\" Arkady declared, a renewed sense of generosity surging through him as he leaped from his seat. \"I'll go tell her there's no reason for her to avoid me.\""
+    ]
+  ]
+}

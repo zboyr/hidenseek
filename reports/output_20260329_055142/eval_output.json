@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ]
+  ],
+  "source_texts": [
+    "\u201cI mean those clubs, those Dussot\u2019s, and those spits of land,\u00a7 perhaps, that\u2019s progress for you\u2014well, that\u2019ll all be without me,\u201d he continued, once more taking no note of the question. \u201cBesides, who wants to be a cardsharp?\u201d",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?",
+    "He told them. But we shall not repeat it here. He told the story briefly and impersonally. He did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself \u201cin view of certain new developments.\u201d He did not bother to explain the motives behind his actions anymore, did not go into subtleties. Besides, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most.",
+    "The truth is that no one has ever really explained how Joseph Buquet met his death. The verdict at the inquest was \u2018suicide under natural circumstances\u2019. In his Memoirs of a Theatre Director, Armand Moncharmin, one of the co-directors who succeeded Messrs Debienne and Poligny, relates the incident as follows: A most unfortunate accident ruined the little party that Messrs Debienne and Poligny were giving to mark their departure.",
+    "\u201cWell, I\u2019d rather put it this way: you and I, we have the same philosophy. That would be a much fairer statement. Je pense, donc je suis, that is something I know for certain. As for the rest\u2014all those worlds, God, and even Satan himself\u2014I\u2019m not sure whether all that exists independently or is merely a passing and subjective emanation of myself .",
+    "\u201cThey\u2019re coming, here they are. And the General is making up the rear. I\u2019ll fling open all the doors and call all my daughters, every single one, now, this minute,\u201d Lebedev mumbled softly in a fluster, dashing from door to door.",
+    "yells Mikolka, the crowbar still in his hands, his eyes bloodshot. He stands there as if feeling sorry that there\u2019s nothing more to strike.",
+    "In the vestibule Nikolai Apollonovich stopped in front of the lackey, trying to catch a thought that had scampered off.",
+    "(and Apollon Apollonovich could not form a clear and distinct idea of into what exactly). At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he had washed away the disgraceful spots which had been made by his unworthy son and which had besmirched his honor.",
+    "How could I possibly have known that he\u2019d come here with his finger half bitten off? Otherwise, really I might have hidden them, just as you say. I see that you have at last come up with a clever remark today.\u201d"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ]
+  ],
+  "rationales": [
+    "Outputs 3 and 4 share several unique stylistic fingerprints that strongly suggest they were produced by the same system. The most telling feature is that both include a marker for a footnote or annotation directly in the text: output 3 has \"Dussauts,37\" and output 4 has \"Pointes*\". No other outputs attempt to reproduce this kind of source text artifact. Additionally, both outputs use a similar structure, with a long quoted sentence, an em-dash (\u2014), the attribution \"he went on, again...\", and a final quoted question. They also both use the specific spelling \"Dussauts,\" unlike outputs 0 and 1 which use \"Dussots.\" While they differ in their choice of quotation marks (' ' vs \" \") and the final phrase (\"card-cheat\" vs \"card sharp\"), these are minor variations compared to the significant shared structural and formatting choices.",
+    "Outputs 2 and 4 are remarkably similar in structure and phrasing, indicating they were produced by the same system. Both begin with the exact same rhetorical question: \"How could there be any perspectives/perspective?\". Following this question, both outputs proceed with a near-identical description. They both use the phrase \"All six tiny rooms were heated by steam\", list the sweating parties in the same order (\"visitors sweated; the maid and the husband sweated\"), and use the same spelling for \"Sofya Petrovna Likhutina\". Crucially, they both end with the exact same simile, \"like warm dew on a chrysanthemum\", and conclude the text at that point without any further sentences. The minor differences, such as \"perspectives\" vs. \"perspective\" or \"perspiration\" vs. \"sweat\", are typical of slight variations from the same underlying model.",
+    "Outputs 3 and 4 exhibit a number of striking and unique similarities that point to a common origin. Both begin the final sentence with a similar conjunctive adverb (\"Moreover\" in 3, \"Furthermore\" in 4) followed by the almost identical clause \"his questioners rarely interjected\". This specific phrasing is not found in the other outputs. Additionally, both paraphrase the idea of withholding emotional details using the specific combination of words \"affections or emotions\", a lexical choice unique to these two outputs. They also follow a very similar structure, first describing the manner of speaking as \"concise and detached\" (3) or \"concisely and objectively\" (4), then mentioning the omission of emotional content, followed by the reason for his change of heart, and finally concluding with the interrogators' lack of interest. This parallel structure and shared specific phrasing strongly suggest they were produced by the same system.",
+    "Outputs 3 and 4 share several distinct linguistic fingerprints that suggest they were produced by the same system. Most notably, they are the only two outputs to use the uncommon word \"mishap\" to describe the event. They also exhibit a very similar high-level structure and phrasing. Both begin by establishing the mystery of the death using nearly identical sentence constructions: \"The precise cause of Joseph Buquet's death remains a mystery\" (3) and \"the exact circumstances surrounding Joseph Buquet's death remain unclear\" (4). Furthermore, they both introduce the official verdict using similar framing: \"While the official conclusion of the inquest was...\" (3) and \"Officially, the inquest concluded that...\" (4). This combination of a unique shared word choice and parallel sentence structures for multiple key facts points strongly to a single origin.",
+    "Outputs 0 and 4 exhibit a remarkable number of shared linguistic fingerprints, suggesting they were produced by the same system. Both retain the original French phrase \"Je pense, donc je suis\" and follow it with a nearly identical English clarification: \"that I know for certain\" (0) and \"that\u2019s what I know for certain\" (4). They also share the exact phrasing for a key clause: \"I\u2019m not sure whether all that exists independently\". Most strikingly, both outputs end their paraphrases abruptly with an ellipsis (\"...\"), a unique stylistic choice not seen in the other valid paraphrases (1 and 2). The differences between them are minor lexical substitutions (\"passing subjective emanation\" vs. \"fleeting and subjective emanation\") which are common variations from a single paraphrasing model.",
+    "Outputs 0 and 3 are the most likely pair from the same paraphraser. They share several unique and specific linguistic fingerprints not present in the other outputs. Both begin the dialogue with the exact phrase \"They\u2019re coming, sir, they\u2019re coming.\" and follow it with the nearly identical \"And even the general is coming, after them\" (0) and \"And even the general is coming after them\" (3). This is in contrast to the other outputs which use different phrasing like \"They're here, here they are\" or \"They're approaching\". Furthermore, both 0 and 3 end the dialogue with a double repetition for urgency: \"right now, right now\" (0) and \"now, right now\" (3). Finally, the narration tag in both is structured almost identically: \"Lebedev whispered in fear, waving his arms...\" (0) and \"Lebedev whispered fearfully, waving his arms...\" (3). The identical phrase \"waving his arms\" and the choice of \"whispered\" create a strong link. The minor differences, such as \"summon\" vs. \"call\" or \"lunging\" vs. \"dashing,\" are typical of slight variations within the same model, while the core structure and key phrases are remarkably consistent.",
+    "Outputs 1 and 4 share several distinct linguistic fingerprints. Both are the only two outputs to omit the direct quote \"My property!\" from the beginning, a significant structural change. Furthermore, they are the only two to replace the verb \"beat\" with \"hit\" when describing Mikolka's regret. They also use similar phrasing for this sentiment: \"as if regretting that there was nothing more to hit\" (1) and \"seemingly regretting that there's nothing left to hit\" (4). While their sentence structure differs (1 uses two sentences, 4 uses one complex sentence), these core lexical and structural choices are strong indicators of a common origin.",
+    "Outputs 3 and 4 share an identical grammatical structure and phrasing, which is a strong indicator of a single origin. Both sentences follow the exact same template: \"Nikolai Apollonovich stopped in front of the [servant synonym] in the [location synonym], trying to catch a thought that was [verb phrase for escaping]\". Specifically, they both use the verb \"stopped\" and the participial phrase \"trying to catch\". The only variations are the specific synonyms chosen for the servant ('footman' vs. 'butler'), the location ('hallway' vs. 'anteroom'), and the verb describing the thought ('running away' vs. 'slipping away'). This pattern of keeping the syntactic structure constant while swapping out related words is a classic fingerprint of a single paraphrasing system generating slightly different outputs.",
+    "Outputs 2 and 3 exhibit a remarkably similar structure and word choice that distinguishes them from the others. Both begin with the identical phrase \"At any rate, Apollon Apollonovich would lose his new position:\", including the use of the colon. Both use the specific phrases \"washed away the shameful spots\" and \"his unworthy son\". The most convincing piece of evidence is that both outputs conclude with a parenthetical statement describing Apollon Apollonovich's confusion, using the very similar phrasing \"could not form a clear and distinct idea of...\". The inclusion of this parenthetical, and its similar wording, is a strong stylistic fingerprint pointing to a single source.",
+    "Outputs 2 and 3 exhibit a very similar conversational structure and approach to paraphrasing the source idea. Both begin with a conditional statement about not knowing the person would arrive with an injury (\"There was no way I could have predicted he'd show up...\" vs. \"If I'd had any idea he was showing up...\"). Most tellingly, they both contain a middle section that directly and conversationally addresses the other person's implied point: \"You're right, if I had, I would have hidden them\" (2) and \"I might have kept them hidden, just as you pointed out\" (3). This specific pattern of acknowledging the a-priori suggestion ('You're right' / 'just as you pointed out') and then stating the conditional outcome ('I would have hidden them' / 'I might have kept them hidden') is a strong and unusual structural fingerprint. Finally, both conclude with a similarly toned compliment of surprise (\"It seems you've finally managed to say something intelligent...\" vs. \"I suppose you've made a witty comment...\")."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+        "\u201cBut as for these clubs, Dussauts,37 parades, or progress, indeed, may be\u2014well, all that can go on without me,\u201d he went on, again without noticing the question. \u201cBesides, who wants to be a card-cheat?\u201d"
+      ],
+      "llama_31_8b": [
+        "He's referring to the recent construction and development going on in some parts of town, and he's saying that he didn't contribute to it, but he's implying that it's not worth being proud of. He's also hinting that he wouldn't want to be a skilled gambler or con artist, as some people who make a living by swindling others are known to be."
+      ],
+      "gemini_25_flash": [
+        "He went on, ignoring the question again, \"Those establishments, the Dussots and those small parcels of land\u2014that might be considered advancement, but it will happen without my involvement. Anyway, who would want to be a professional gambler?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cAnyway, who wants to be a cardsharp?\u201d \u201cI mean, those clubs, those Dussots, and those spits of land (if that\u2019s progress for you), well, that\u2019s all without me,\u201d he continued, again ignoring the question."
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The six cramped rooms in the apartment were steam heated, making the air feel heavy and stifling from the excessive moisture. The windows dripped with condensation, while the visitors, the maid, and even Sofia Petrovna Likhutina herself were all drenched in sweat, much like a chrysanthemum covered in warm dew. How would she be able to think clearly under these conditions?"
+      ],
+      "gemini_25_flash": [
+        "The six small rooms were uncomfortably hot due to the steam heating, causing everyone and everything to sweat. The windows were fogged, guests were perspiring, the maid and husband were damp, and even Sofia Petrovna Likhutina herself was covered in sweat, like dew on a flower. It was hard to imagine a brighter future given such discomfort. \n"
+      ],
+      "dipper_lowmed": [
+        "How could there be any perspectives? All six tiny rooms were heated by steam, which resulted in the apartment suffocating in moist heat. The window panes sweated; visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina was covered with perspiration, like warm dew on a chrysanthemum.",
+        "How could there be any perspective? All six tiny rooms were heated by steam, and as a result one was suffocating in the humidity of the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; even Sofya Petrovna Likhutina herself was covered in sweat like warm dew on a chrysanthemum."
+      ]
+    },
+    {
+      "human_par3": [
+        "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+      ],
+      "llama_31_8b": [
+        "He shared what had happened, but we won't detail it here. In a straightforward manner, he recounted the events without expressing his emotions or showing affection. His account was more about his change of heart, mentioning that recent events had caused him to reconsider his earlier plans. He didn't delve into the reasoning behind his actions or attempt to elaborate on the nuances. It was also clear that his questioners were not primarily interested in the specifics of his story but something else entirely."
+      ],
+      "gemini_25_flash": [
+        "He shared the information with them, though we won't detail it here. His account was concise and detached; he omitted any mention of his affections or emotions. He simply stated that, due to recent events, his resolve to end his life had lessened. He forewent any elaborate explanations for his decisions or the underlying nuances. Moreover, his questioners rarely interjected with questions, suggesting their primary interest lay elsewhere.",
+        "He shared his account, but we won't reiterate it here. He recounted the events concisely and objectively, omitting any mention of his personal affections or emotions. He merely stated that he was less inclined to self-harm due to \"new developments.\" He no longer felt the need to justify his actions or delve into intricate details. Furthermore, his questioners rarely interjected, clearly indicating their disinterest in probing deeper."
+      ],
+      "dipper_lowmed": [
+        "He told them, but we do not want to repeat the story here, he told the story briefly and impersonally, he did not bother to explain the motives behind his actions, he did not get into subtleties; moreover, his interrogators did not interrupt him very often to ask him questions; it was obvious that they were not interested in it. He told them, but we do not want to repeat it here: he told the story briefly and impersonally, he did not speak about his love and his feelings, he only said that he was no longer so firmly resolved to shoot himself \"in view of certain new events\"."
+      ]
+    },
+    {
+      "human_par3": [
+        "The fact is, no one ever discovered how Joseph Buquet died. The investigation into it was brief and its verdict was straightforward: suicide. In his Memoirs of a Theatre Manager, M. Moncharmin, one of the two Directors who succeeded Messrs Debienne and Poligny, gave his own version of this business of the hanged man: \u2018A most disagreeable incident cast a pall over the modest party organized by Messrs Debienne and Poligny to mark their departure."
+      ],
+      "llama_31_8b": [
+        "Despite numerous accounts, the exact circumstances surrounding Joseph Buquet's death remain unclear. Officially, the inquest concluded that he took his own life. In his memoirs, Armand Moncharmin recounts that a mishap occurred at a farewell party thrown by Debienne and Poligny, ultimately spoiling the evening."
+      ],
+      "gemini_25_flash": [
+        "The precise cause of Joseph Buquet's death remains a mystery. While the official conclusion of the inquest was \"suicide under natural circumstances,\" Armand Moncharmin, one of the co-directors who took over from Debienne and Poligny, describes the event in his Memoirs of a Theatre Director this way: \"A terribly unlucky mishap spoiled the small celebration Debienne and Poligny were holding to commemorate their farewell.\""
+      ],
+      "dipper_lowmed": [
+        "The truth is, no one has ever fully explained how Joseph Buquet died. In his Memoirs of a Theatre Director, Armand Moncharmin, one of the two Directors who succeeded M. Debienne and M. Poligny, tells the story of this event thus:\u2014 A most unfortunate accident spoiled the little farewell party given by Messrs. Debienne and Poligny. The verdict of the inquest was suicide under natural circumstances.",
+        "A most unfortunate accident ruined the little party given by Messrs. Debienne and Poligny to celebrate their departure. The truth is that no one has ever explained how Joseph Buquet died; the verdict of the inquest was \"suicide under natural circumstances.\""
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Well, if you like, I have the same philosophy as you, that would be true. _Je pense, donc je suis_, I know that for a fact; all the rest, all these worlds, God and even Satan--all that is not proved, to my mind. Does all that exist of itself, or is it only an emanation of myself, a logical development of my ego which alone has existed for ever: but I make haste to stop, for I believe you will be jumping up to beat me directly.\""
+      ],
+      "llama_31_8b": [
+        "Let's put this more accurately, my friend: you and I are on the same page when it comes to our way of thinking. It's more honest to say that. The fact that I think, this I am certain of. As for the existence of other worlds, God, and Satan, I'm unclear on whether they're objective realities or just fleeting manifestations of my own imagination."
+      ],
+      "gemini_25_flash": [
+        "\"I'd prefer to phrase it like this: you and I share the same outlook. That's a more accurate way to put it. I know for a fact that 'I think, therefore I am.' Regarding everything else\u2014the worlds, God, and even Satan\u2014I'm uncertain if they have an independent existence or if they're simply fleeting and personal manifestations of my own mind.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWell, it\u2019s like this: you and I are of the same philosophy; that\u2019s a much more fair statement. Je pense, donc je suis, that I know for certain; the rest\u2014all those worlds, God, even Satan\u2014I\u2019m not sure whether all that exists independently or is a passing subjective emanation from myself....",
+        "\u201cWell, let\u2019s just say this: you and I are of the same philosophy, I think; that would be a fairer statement. Je pense, donc je suis, that\u2019s what I know for certain. As for the rest, all those worlds, God, even Satan, I\u2019m not sure whether all that exists independently, or is only a fleeting and subjective emanation of myself . . . \u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next.",
+        "\u201cThey\u2019re coming, sir, they\u2019re coming. And even the general is coming after them. I\u2019ll open all the doors and call all my daughters, everybody, now, right now,\u201d Lebedev whispered fearfully, waving his arms and dashing from one door to the other."
+      ],
+      "llama_31_8b": [
+        "A frazzled Lebedev exclaimed, \"They're approaching, I can see them! The General is bringing up the rear. I'll immediately let all the guests in and fetch all of my daughters from every room.\" He hurried between the doors, his actions driven by urgency."
+      ],
+      "gemini_25_flash": [
+        "In a state of agitation, Lebedev softly muttered, \"They're arriving, they're right here. And the General is bringing up the end of the group. I'm going to throw open every door and summon all my daughters, each and every one, immediately, this very moment,\" as he scurried from one door to another."
+      ],
+      "dipper_lowmed": [
+        "\u201cThey\u2019re here, here they are. I\u2019ll fling all the doors open and call all my daughters, each one, right this minute,\u201d Lebedev muttered in a flurry, running from door to door. \u201cAnd the General is right behind them.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat.",
+        "\u201cMy property!\u201d shouts Mikolka, with bloodshot eyes, brandishing the bar in his hands. He stands as though regretting that he has nothing more to beat."
+      ],
+      "llama_31_8b": [
+        "Mikolka, his eyes wild with a frenzied aura, still grasped the crowbar in his hands. Standing there, his gaze seemed almost one of regret, as if he felt a pang of disappointment that there was no further target to attack."
+      ],
+      "gemini_25_flash": [
+        "\"Mikolka, his eyes red and the crowbar still clutched in his hands, shouts. He remains standing, seemingly regretting that there's nothing left to hit.\""
+      ],
+      "dipper_lowmed": [
+        "Mikolka stood as if regretting that there was nothing more to hit. He stood there with the crowbar still in his hands, his eyes bloodshot."
+      ]
+    },
+    {
+      "human_par3": [
+        "In the magnificent entrance-hall Nikolai Apollonovich stopped in front of the old servant, trying to catch his escaping thought."
+      ],
+      "llama_31_8b": [
+        "Nikolai Apollonovich stood in the vestibule, momentarily frozen in front of the servant, as he struggled to recapture a fleeting idea that had escaped him."
+      ],
+      "gemini_25_flash": [
+        "Nikolai Apollonovich paused in the entryway before the servant, attempting to grasp a fleeting idea."
+      ],
+      "dipper_lowmed": [
+        "Nikolai Apollonovich stopped in front of the footman in the hallway, trying to catch a thought that was running away.",
+        "Nikolai Apollonovich stopped in front of the butler in the anteroom, trying to catch a thought that was slipping away."
+      ]
+    },
+    {
+      "human_par3": [
+        "This thought about ears slightly softened Apollon Apollonovich\u2019s anger: Apollon Apollonovich postponed his intention of banishing his son from the house without initiating the most precise inquiry into the reasons that had led his son to wear the domino. But in any event Apollon Apollonovich would lose the post, he would have to decline the post; he could not accept the post without removing the shameful stains of his son\u2019s behaviour (say what you will\u2014an Ableukhov) that sullied the honour of the house."
+      ],
+      "llama_31_8b": [
+        "Apollon Apollonovich was unclear about the specifics, but he was certain that accepting the new position would be impossible until he had rectified the stain on his family's reputation that his son's misconduct had brought."
+      ],
+      "gemini_25_flash": [
+        "Apollon Apollonovich was unsure of the precise nature of the situation, but one thing was clear: he would forfeit his new job. He felt he couldn't take on the role until he had expunged the dishonorable stains left by his unruly son, which had tarnished his reputation."
+      ],
+      "dipper_lowmed": [
+        "At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he had washed away the shameful spots that his unworthy son had made and which had disgraced his honour. (Apollon Apollonovich could not form a clear and distinct idea of into what precisely it would lead).",
+        "At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he had washed away the shameful spots that his unworthy son had placed on his honour. (And Apollon Apollonovich could not form a clear and distinct idea of what precisely it was that he was guilty of.)"
+      ]
+    },
+    {
+      "human_par3": [
+        "\"But I couldn't tell that he would come with a bad finger, or else perhaps I might have done it on purpose. My darling mamma, you begin to say really witty things.\""
+      ],
+      "llama_31_8b": [
+        "If I'd had any idea he was showing up with part of his finger missing, I might have kept them hidden, just as you pointed out. I suppose you've made a witty comment today.",
+        "I could have had no idea he'd show up here with an injured finger, so hiding the matter from view was impossible. As it stands, your comment does seem rather witty."
+      ],
+      "gemini_25_flash": [
+        "There was no way I could have predicted he'd show up with his finger in such bad shape. You're right, if I had, I would have hidden them. It seems you've finally managed to say something intelligent today."
+      ],
+      "dipper_lowmed": [
+        "\u201cThen I might have hidden them, as you say. But how could I have known that he came here with his finger half bitten off? I see that you have finally come up with a clever remark today.\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "He went on, ignoring the question again, \"Those establishments, the Dussots and those small parcels of land\u2014that might be considered advancement, but it will happen without my involvement. Anyway, who would want to be a professional gambler?\"",
+      "The six small rooms were uncomfortably hot due to the steam heating, causing everyone and everything to sweat. The windows were fogged, guests were perspiring, the maid and husband were damp, and even Sofia Petrovna Likhutina herself was covered in sweat, like dew on a flower. It was hard to imagine a brighter future given such discomfort. \n",
+      "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here.",
+      "The truth is, no one has ever fully explained how Joseph Buquet died. In his Memoirs of a Theatre Director, Armand Moncharmin, one of the two Directors who succeeded M. Debienne and M. Poligny, tells the story of this event thus:\u2014 A most unfortunate accident spoiled the little farewell party given by Messrs. Debienne and Poligny. The verdict of the inquest was suicide under natural circumstances.",
+      "\u201cWell, it\u2019s like this: you and I are of the same philosophy; that\u2019s a much more fair statement. Je pense, donc je suis, that I know for certain; the rest\u2014all those worlds, God, even Satan\u2014I\u2019m not sure whether all that exists independently or is a passing subjective emanation from myself....",
+      "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next.",
+      "\u201cMy property!\u201d shouts Mikolka, with bloodshot eyes, brandishing the bar in his hands. He stands as though regretting that he has nothing more to beat.",
+      "Nikolai Apollonovich paused in the entryway before the servant, attempting to grasp a fleeting idea.",
+      "This thought about ears slightly softened Apollon Apollonovich\u2019s anger: Apollon Apollonovich postponed his intention of banishing his son from the house without initiating the most precise inquiry into the reasons that had led his son to wear the domino. But in any event Apollon Apollonovich would lose the post, he would have to decline the post; he could not accept the post without removing the shameful stains of his son\u2019s behaviour (say what you will\u2014an Ableukhov) that sullied the honour of the house.",
+      "I could have had no idea he'd show up here with an injured finger, so hiding the matter from view was impossible. As it stands, your comment does seem rather witty."
+    ],
+    [
+      "\u201cAnyway, who wants to be a cardsharp?\u201d \u201cI mean, those clubs, those Dussots, and those spits of land (if that\u2019s progress for you), well, that\u2019s all without me,\u201d he continued, again ignoring the question.",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+      "He told them, but we do not want to repeat the story here, he told the story briefly and impersonally, he did not bother to explain the motives behind his actions, he did not get into subtleties; moreover, his interrogators did not interrupt him very often to ask him questions; it was obvious that they were not interested in it. He told them, but we do not want to repeat it here: he told the story briefly and impersonally, he did not speak about his love and his feelings, he only said that he was no longer so firmly resolved to shoot himself \"in view of certain new events\".",
+      "The fact is, no one ever discovered how Joseph Buquet died. The investigation into it was brief and its verdict was straightforward: suicide. In his Memoirs of a Theatre Manager, M. Moncharmin, one of the two Directors who succeeded Messrs Debienne and Poligny, gave his own version of this business of the hanged man: \u2018A most disagreeable incident cast a pall over the modest party organized by Messrs Debienne and Poligny to mark their departure.",
+      "Let's put this more accurately, my friend: you and I are on the same page when it comes to our way of thinking. It's more honest to say that. The fact that I think, this I am certain of. As for the existence of other worlds, God, and Satan, I'm unclear on whether they're objective realities or just fleeting manifestations of my own imagination.",
+      "\u201cThey\u2019re here, here they are. I\u2019ll fling all the doors open and call all my daughters, each one, right this minute,\u201d Lebedev muttered in a flurry, running from door to door. \u201cAnd the General is right behind them.\u201d",
+      "Mikolka stood as if regretting that there was nothing more to hit. He stood there with the crowbar still in his hands, his eyes bloodshot.",
+      "Nikolai Apollonovich stood in the vestibule, momentarily frozen in front of the servant, as he struggled to recapture a fleeting idea that had escaped him.",
+      "Apollon Apollonovich was unclear about the specifics, but he was certain that accepting the new position would be impossible until he had rectified the stain on his family's reputation that his son's misconduct had brought.",
+      "\u201cThen I might have hidden them, as you say. But how could I have known that he came here with his finger half bitten off? I see that you have finally come up with a clever remark today.\u201d"
+    ],
+    [
+      "He's referring to the recent construction and development going on in some parts of town, and he's saying that he didn't contribute to it, but he's implying that it's not worth being proud of. He's also hinting that he wouldn't want to be a skilled gambler or con artist, as some people who make a living by swindling others are known to be.",
+      "How could there be any perspectives? All six tiny rooms were heated by steam, which resulted in the apartment suffocating in moist heat. The window panes sweated; visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina was covered with perspiration, like warm dew on a chrysanthemum.",
+      "He shared what had happened, but we won't detail it here. In a straightforward manner, he recounted the events without expressing his emotions or showing affection. His account was more about his change of heart, mentioning that recent events had caused him to reconsider his earlier plans. He didn't delve into the reasoning behind his actions or attempt to elaborate on the nuances. It was also clear that his questioners were not primarily interested in the specifics of his story but something else entirely.",
+      "A most unfortunate accident ruined the little party given by Messrs. Debienne and Poligny to celebrate their departure. The truth is that no one has ever explained how Joseph Buquet died; the verdict of the inquest was \"suicide under natural circumstances.\"",
+      "\"I'd prefer to phrase it like this: you and I share the same outlook. That's a more accurate way to put it. I know for a fact that 'I think, therefore I am.' Regarding everything else\u2014the worlds, God, and even Satan\u2014I'm uncertain if they have an independent existence or if they're simply fleeting and personal manifestations of my own mind.\"",
+      "A frazzled Lebedev exclaimed, \"They're approaching, I can see them! The General is bringing up the rear. I'll immediately let all the guests in and fetch all of my daughters from every room.\" He hurried between the doors, his actions driven by urgency.",
+      "Mikolka, his eyes wild with a frenzied aura, still grasped the crowbar in his hands. Standing there, his gaze seemed almost one of regret, as if he felt a pang of disappointment that there was no further target to attack.",
+      "In the magnificent entrance-hall Nikolai Apollonovich stopped in front of the old servant, trying to catch his escaping thought.",
+      "At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he had washed away the shameful spots that his unworthy son had placed on his honour. (And Apollon Apollonovich could not form a clear and distinct idea of what precisely it was that he was guilty of.)",
+      "There was no way I could have predicted he'd show up with his finger in such bad shape. You're right, if I had, I would have hidden them. It seems you've finally managed to say something intelligent today."
+    ],
+    [
+      "\u201cBut as for these clubs, Dussauts,37 parades, or progress, indeed, may be\u2014well, all that can go on without me,\u201d he went on, again without noticing the question. \u201cBesides, who wants to be a card-cheat?\u201d",
+      "The six cramped rooms in the apartment were steam heated, making the air feel heavy and stifling from the excessive moisture. The windows dripped with condensation, while the visitors, the maid, and even Sofia Petrovna Likhutina herself were all drenched in sweat, much like a chrysanthemum covered in warm dew. How would she be able to think clearly under these conditions?",
+      "He shared the information with them, though we won't detail it here. His account was concise and detached; he omitted any mention of his affections or emotions. He simply stated that, due to recent events, his resolve to end his life had lessened. He forewent any elaborate explanations for his decisions or the underlying nuances. Moreover, his questioners rarely interjected with questions, suggesting their primary interest lay elsewhere.",
+      "The precise cause of Joseph Buquet's death remains a mystery. While the official conclusion of the inquest was \"suicide under natural circumstances,\" Armand Moncharmin, one of the co-directors who took over from Debienne and Poligny, describes the event in his Memoirs of a Theatre Director this way: \"A terribly unlucky mishap spoiled the small celebration Debienne and Poligny were holding to commemorate their farewell.\"",
+      "\"Well, if you like, I have the same philosophy as you, that would be true. _Je pense, donc je suis_, I know that for a fact; all the rest, all these worlds, God and even Satan--all that is not proved, to my mind. Does all that exist of itself, or is it only an emanation of myself, a logical development of my ego which alone has existed for ever: but I make haste to stop, for I believe you will be jumping up to beat me directly.\"",
+      "\u201cThey\u2019re coming, sir, they\u2019re coming. And even the general is coming after them. I\u2019ll open all the doors and call all my daughters, everybody, now, right now,\u201d Lebedev whispered fearfully, waving his arms and dashing from one door to the other.",
+      "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat.",
+      "Nikolai Apollonovich stopped in front of the footman in the hallway, trying to catch a thought that was running away.",
+      "At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he had washed away the shameful spots that his unworthy son had made and which had disgraced his honour. (Apollon Apollonovich could not form a clear and distinct idea of into what precisely it would lead).",
+      "If I'd had any idea he was showing up with part of his finger missing, I might have kept them hidden, just as you pointed out. I suppose you've made a witty comment today."
+    ],
+    [
+      "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+      "How could there be any perspective? All six tiny rooms were heated by steam, and as a result one was suffocating in the humidity of the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; even Sofya Petrovna Likhutina herself was covered in sweat like warm dew on a chrysanthemum.",
+      "He shared his account, but we won't reiterate it here. He recounted the events concisely and objectively, omitting any mention of his personal affections or emotions. He merely stated that he was less inclined to self-harm due to \"new developments.\" He no longer felt the need to justify his actions or delve into intricate details. Furthermore, his questioners rarely interjected, clearly indicating their disinterest in probing deeper.",
+      "Despite numerous accounts, the exact circumstances surrounding Joseph Buquet's death remain unclear. Officially, the inquest concluded that he took his own life. In his memoirs, Armand Moncharmin recounts that a mishap occurred at a farewell party thrown by Debienne and Poligny, ultimately spoiling the evening.",
+      "\u201cWell, let\u2019s just say this: you and I are of the same philosophy, I think; that would be a fairer statement. Je pense, donc je suis, that\u2019s what I know for certain. As for the rest, all those worlds, God, even Satan, I\u2019m not sure whether all that exists independently, or is only a fleeting and subjective emanation of myself . . . \u201d",
+      "In a state of agitation, Lebedev softly muttered, \"They're arriving, they're right here. And the General is bringing up the end of the group. I'm going to throw open every door and summon all my daughters, each and every one, immediately, this very moment,\" as he scurried from one door to another.",
+      "\"Mikolka, his eyes red and the crowbar still clutched in his hands, shouts. He remains standing, seemingly regretting that there's nothing left to hit.\"",
+      "Nikolai Apollonovich stopped in front of the butler in the anteroom, trying to catch a thought that was slipping away.",
+      "Apollon Apollonovich was unsure of the precise nature of the situation, but one thing was clear: he would forfeit his new job. He felt he couldn't take on the role until he had expunged the dishonorable stains left by his unruly son, which had tarnished his reputation.",
+      "\"But I couldn't tell that he would come with a bad finger, or else perhaps I might have done it on purpose. My darling mamma, you begin to say really witty things.\""
+    ]
+  ]
+}

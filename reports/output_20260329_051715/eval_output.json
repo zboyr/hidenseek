@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "openai/gpt-4.1",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ]
+  ],
+  "source_texts": [
+    "From his corner in the back room of the Caf\u00e9 Musain, more than drunk, Grantaire held forth in this manner, detaining the washer-up on her way through.",
+    "Of course, I hated them all in our office, from first to last, and despised them all, but at the same time I was also as if afraid of them. It happened that I would suddenly set them above myself. Things were somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes before almost everyone I met. I even made experiments: will I be able to endure so-and-so's glance on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury. I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything to do with externals; I loved falling into the common rut, and feared any eccentricity in myself with all my soul. But how could I hold out? I was morbidly developed, as a man of our time ought to be developed. And they were all dull-witted and as like one another as a flock of sheep. Perhaps to me alone in the whole office did it constantly seem that I was a coward and a slave; it seemed so to me precisely because I was developed. But it not only seemed, in fact it really was so: I was a coward and a slave. I say it without any embarrassment. Every decent man of our time is and must be a coward and a slave. That is his normal condition. I am deeply convinced of it. He's made that way, and arranged for it. And not in the present time, owing to some sort of chance circumstances, but generally in all times a decent man must be a coward and a slave. That is the natural law of all decent people on earth. If one of them does happen to get up a bit of pluck in something, let him not be eased or pleased by that: he'll still quail before something else. Such is the sole and everlasting outcome. Only asses and their mongrels show pluck, and even then only up to that certain wall. It's not worth paying any attention to them, because they mean precisely nothing.",
+    "Again he produced the whole wad of bills, counted off three of them, tossed them onto the counter, and hurriedly left the store, accompanied by the shop assistants and errand boys, all of them bowing to him and wishing him a good time. Andrei cleared his throat after swallowing his brandy and jumped up onto the driver\u2019s box. But just as Mitya was installing himself in the cart, to his great surprise, Fenya appeared. She was running, completely out of breath, and as soon as she reached him, she let out a cry and threw herself down at his feet.",
+    "Dillon conjectured that these were La P\u00e9rouse\u2019s ships, whose disappearance had agitated the whole world. He tried to sail to Vanikoro, where his informant said numerous remains from the shipwreck were still to be found, but was prevented by the winds and currents.",
+    "\u2018When I wished to determine the increase in weight the Nautilus would require to dive, my only concern was the progressive reduction in volume that sea water experiences as it becomes deeper.\u2019",
+    "\u201cKandanmara, you know very well that I am not scared of these things, and I haven\u2019t done anything inappropriate. In Veeranarayanapuram, when Pazhuvetarayar and his entourage came along, I stood watching along with the crowd. I heard that you sent the entire procession of horses, elephants, and soldiers. Is that true?\u201d",
+    "yells Mikolka, the crowbar still in his hands, his eyes bloodshot. He stands there as if feeling sorry that there\u2019s nothing more to strike.",
+    ". . .\" He wanted badly to get rid of me, however, and walked hurriedly across the street to the other sidewalk.",
+    "\u2018How can you doubt it! But you, who do not love her, why are you so ready to endanger your life? It must be that you hate Erik.\u2019",
+    "He stood there a moment, took several deep breaths, shook his head, turned around, and did not notice Semyonych\u2020 flattened against the wall in a shadowy corner of the corridor."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 3 share notable stylistic choices. Both use the phrase 'held forth' or 'expounded' to describe Grantaire's actions, both refer to 'the dishwasher/dish-washer' as the person being detained, and both use 'as she passed through/by' to describe her movement. The sentence structure and level of formality are also similar, suggesting they come from the same paraphraser.",
+    "Outputs 1 and 2 display very similar sentence structures, specific vocabulary choices (such as 'I dropped my eyes', 'morbidly sensitive/afraid', 'decent man', 'coward and a slave', and 'the common rut'), and closely follow the original phrasing and order of ideas. Both also use phrases like 'only donkeys and mules are valiant', and 'not worth while to pay attention to them', indicating use of a very similar, perhaps older, translation or paraphrasing strategy. These consistent linguistic fingerprints suggest they originate from the same paraphraser.",
+    "Outputs 0 and 4 share several distinctive stylistic similarities: both use the phrase 'pulled out the entire stack/bundle of bills', 'peeled off/removed three', and then describe throwing or slapping them onto the counter. Their sentence structure is notably similar, starting with the money transaction, detailed description of the exit and the staff, Andrei's actions with slight emphasis on his pause, and a focus on Fenya's gasping arrival. Both also break up the action in similar ways and share similar language with regards to Fenya's breathlessness and subsequent collapse, using phrases like 'out of breath' and 'collapsed at his feet/fell to her feet at his knees'. The other paraphrases exhibit more significant structural and lexical differences.",
+    "Outputs 3 and 4 have highly similar sentence structure, wording, and order of information. Both mention Dillon trying to (sail/reach) Vanikoro, reference the informant (informant/his informant), and both use nearly identical phrasing about 'remains of the wreck/shipwreck' and about Dillon 'conjectured' that these were the ships of La P\u00e9rouse, whose disappearance had 'agitated the whole world.' The similarities in the word choice ('agitated the whole world', 'conjectured', 'remains of the wreck/shipwreck') and sentence division are strong indicators that these were produced by the same paraphrasing system.",
+    "Outputs 1 and 3 share distinctive stylistic features: both begin with the phrase 'When I wanted to determine/calculate' and phrase the additional weight as 'increase in weight the Nautilus needed/had to have to submerge/dive.' They also both use 'progressive reduction in volume' and refer to 'salt water' or 'seawater' in similar ways, further describing the depth as 'deeper and deeper strata.' These similarities in sentence structure and word choice suggest they come from the same paraphraser.",
+    "Outputs 0 and 4 share several distinctive similarities in phrasing, sentence structure, and lexical choices. Both use 'You're aware of my character, Kandanmara' or a directly similar opening to address Kandanmara, and both start with statements about not being intimidated or frightened by 'these claims/these things.' Both explicitly mention being present at Veeranarayanapuram among the crowd, witnessing the arrival of Pazhuvetarayar, and use 'I assure you' or 'I've done nothing wrong,' which are close stylistically. Both paraphrases use formal and complete sentence structures, as well as similar vocabulary choices like 'arrived', 'among the onlookers', 'witnessed', and 'dispatching the entire procession.' The rest adopt different tones, levels of formality, and varying structure, suggesting different paraphrasing strategies.",
+    "Indexes 3 and 4 both focus heavily on Mikolka's regret that there is nothing left to hit or beat, using similar sentence structures ('stands there looking sorry that there\u2019s nothing left to beat' and 'stands as if regretting that he has nothing left to hit'). Both start with a brief exclamation or action, introduce the crowbar and bloodshot eyes quickly, and then end with a sentence directly addressing Mikolka's regret. The patterns of expression, phrase construction, and information order point toward the same paraphraser.",
+    "Outputs 2 and 3 are highly similar in their sentence structure and word choice. Both begin with a clause about his desire to end the encounter ('He desperately wanted the encounter with me to end', 'But he wanted to get rid of me'), then mention moving quickly to the other sidewalk/street. Both use the pattern of 'hurriedly/promptly' followed by an action of crossing, and specifically mention the 'other sidewalk.' This similarity in phrasing and structure indicates the same paraphraser was used.",
+    "Outputs 2 and 3 share very similar sentence structure and wording: both use the phrase 'lacking affection for her' / 'since you don't love her', and both arrive at 'You must despise Erik.' The most distinctive similarity is the use of 'despise Erik' and an almost identical flow in the latter half of the sentence, which marks them as products of the same paraphraser.",
+    "Outputs 0 and 4 share very similar sentence structures and details: both start with 'stood for a moment' or 'remained standing for a while,' list a sequence of actions almost identically (deep breaths, shake head, turn, not noticing Semyonitch), and describe Semyonitch being 'pressed/flattened against the wall in the (shadowy/dark) corner of the corridor.' The other options (1, 2, and 3) use more varied syntax and vocabulary, with 3 being significantly longer and more elaborative. The precise parallelism and word order in 0 and 4 are strong signals of coming from the same paraphraser."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "Thus did Grantaire, more than intoxicated, launch into speech, catching at the dish-washer in her passage, from his corner in the back room of the Caf\u00e9 Musain."
+      ],
+      "llama_31_8b": [
+        "Grantaire slurred his words from his corner in the Caf\u00e9 Musain's back room, holding a nearby employee caught on her way to clean up, in no state to move anywhere."
+      ],
+      "gemini_25_flash": [
+        "More than a little intoxicated, Grantaire expounded from his spot in the back room of the Caf\u00e9 Musain, waylaying the dishwasher as she passed by."
+      ],
+      "dipper_lowmed": [
+        "Grantaire was in his corner in the back room of Caf\u00e9 Musain, more than drunk, and he held forth in this manner, stopping the scullery maid who came through.",
+        "Grantaire held forth in this way, more than drunk, from his corner in the back room of the Caf\u00e9 Musain, detaining the dish-washer as she passed through."
+      ]
+    },
+    {
+      "human_par3": [
+        "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing.",
+        "Of course, I hated my fellow clerks one and all, and I despised them all, yet at the same time I was, as it were, afraid of them. In fact, it happened at times that I thought more highly of them than of myself. It somehow happened quite suddenly that I alternated between despising them and thinking them superior to myself. A cultivated and decent man cannot be vain without setting a fearfully high standard for himself, and without despising and almost hating himself at certain moments. But whether I despised them or thought them superior I dropped my eyes almost every time I met anyone. I even made experiments whether I could face so and so\u2019s looking at me, and I was always the first to drop my eyes. This worried me to distraction. I had a sickly dread, too, of being ridiculous, and so had a slavish passion for the conventional in everything external. I loved to fall into the common rut, and had a whole-hearted terror of any kind of eccentricity in myself. But how could I live up to it? I was morbidly sensitive as a man of our age should be. They were all stupid, and as like one another as so many sheep. Perhaps I was the only one in the office who fancied that I was a coward and a slave, and I fancied it just because I was more highly developed. But it was not only that I fancied it, it really was so. I was a coward and a slave. I say this without the slightest embarrassment. Every decent man of our age must be a coward and a slave. That is his normal condition. Of that I am firmly persuaded. He is made and constructed to that very end. And not only at the present time owing to some casual circumstances, but always, at all times, a decent man is bound to be a coward and a slave. It is the law of nature for all decent people all over the earth. If anyone of them happens to be valiant about something, he need not be comforted nor carried away by that; he would show the white feather just the same before something else. That is how it invariably and inevitably ends. Only donkeys and mules are valiant, and they only till they are pushed up to the wall. It is not worth while to pay attention to them for they really are of no consequence."
+      ],
+      "llama_31_8b": [
+        "In my office, I struggled with conflicting emotions towards my coworkers, frequently swinging between intense disdain and a tendency to put them on a pedestal. This internal turmoil was a constant, with my feelings shifting rapidly. A person of my character, who demands high standards of self-discipline and self-criticism, cannot avoid these fluctuations. I often found myself avoiding eye contact with others, and I conducted experiments to test my endurance. I feared being ridiculed, which led me to adhere strictly to conventional norms and habits. I believed that anyone who deviated from the norm was eccentric and not to be trusted. Despite my self-awareness, I couldn't help but acknowledge that I was, in fact, a coward and a slave. This is a universal condition for decent people, a natural aspect of their character. I firmly believe that this is not a result of specific circumstances, but rather an inherent trait. Even if someone shows brief moments of courage, they will ultimately succumb to fear. Only those who lack any discernment, or are perhaps unintelligent, exhibit unwavering bravery."
+      ],
+      "gemini_25_flash": [
+        "I held everyone in the office, from top to bottom, in contempt, yet strangely, I also felt intimidated by them. My feelings were volatile in those days: one moment I'd look down on them, the next I'd elevate them. A refined and morally upright person, in my opinion, cannot harbor vanity without simultaneously demanding immense self-scrutiny and, at times, loathing themselves. Regardless of whether I disliked them or felt inferior to them, I almost always avoided making eye contact. I even tested myself, wondering if I could meet someone's gaze, but I invariably looked away first. This internal conflict infuriated me. I was also pathologically terrified of appearing foolish, which is why I slavishly adhered to conventionality in all outward matters. I embraced conformity and genuinely dreaded any personal eccentricity.\n\nHow could I possibly cope? I was excessively sensitive, as a modern man should be. And they, in contrast, were all intellectually dull and indistinguishable, like a herd of sheep. Perhaps it was only to me in the entire office that I constantly seemed like a coward and a subservient individual; this perception stemmed precisely from my heightened development. But it wasn't just a perception; it was the truth: I was a coward and subservient, and I admit this without reservation. In our current era, every respectable man is, and indeed must be, both a coward and subservient. This is their natural state, their inherent design. And this isn't a temporary situation due to particular circumstances; rather, it\u2019s a universal truth that a respectable person at any given time will be a coward and subservient. It's the intrinsic law for all respectable individuals. Should one of them display a fleeting moment of courage, they shouldn't find satisfaction in it, for they will inevitably falter before something else. This is the constant and enduring consequence. Only fools and their half-breeds exhibit courage, and even then, only up to a certain point. They are inconsequential and not worth considering."
+      ],
+      "dipper_lowmed": [
+        "But how could I hold out? I was morbidly developed, as a man of our time ought to be developed, and they were all idiots and as alike as a herd of sheep. I hated them all in the office, from first to last, and despised them all, but at the same time I was afraid of them; it happened that I suddenly set them above me; A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes almost before everyone I met; I even made experiments: would I be able to endure such and such a gaze on me? and I was always the first to drop my eyes; this tormented me to the point of fury; I was also afraid to the point of illness to be ridiculous, and therefore slavishly worshipped the routine in everything external; I loved falling into the common rut, and feared any eccentricity in myself with all my soul; but how could I hold out? I was morbidly developed, as a man of our time ought to be developed, and they were all stupid and like one another as sheep; and if one of them should happen to be valiant in something, let him not be flattered or satisfied by it: he will quail before something else; and that is the only and eternal result."
+      ]
+    },
+    {
+      "human_par3": [
+        "He pulled the bundle of notes out of his pocket again, picked out three hundred roubles, threw them on the counter, and ran hurriedly out of the shop. Every one followed him out, bowing and wishing him good luck. Andrey, coughing from the brandy he had just swallowed, jumped up on the box. But Mitya was only just taking his seat when suddenly to his surprise he saw Fenya before him. She ran up panting, clasped her hands before him with a cry, and plumped down at his feet.",
+        "He again snatched from his pocket his wad of credit bills, removed from it three \u2018rainbows\u2019, threw them on the counter and quickly went out of the store. They all followed him and, bowing, saw him off with salutations and good wishes. Andrey grunted after the cognac he just downed and leapt on to the seat. But hardly had Mitya begun to sit down, than Fenya appeared before him quite unexpectedly. She came running up quite out of breath, with a scream clasped her hands before him and fell heavily to his feet."
+      ],
+      "llama_31_8b": [
+        "Mitya pulled out the entire bundle of bills, removed three from it and slapped them on the counter before hastily leaving the store, accompanied by the shop assistants and delivery boys who all bowed in his direction and wished him a pleasant evening. After swallowing his brandy, Andrei took a momentary pause to clear his throat before quickly climbing up onto the driver's seat. Just as Mitya settled in, he was unexpectedly joined by Fenya, who had arrived on the scene out of breath and gasping for air. As soon as she reached him, she let out a cry and fell to her feet at his knees."
+      ],
+      "gemini_25_flash": [
+        "Once more, he pulled out the entire stack of bills, peeled off three, threw them onto the counter, and quickly exited the store. Shop assistants and errand boys followed, all of them bowing and wishing him well. Andrei, having swallowed his brandy, cleared his throat and climbed onto the driver's seat. However, as Mitya was settling into the cart, Fenya unexpectedly arrived. She was breathless from running and, upon reaching him, cried out and collapsed at his feet."
+      ],
+      "dipper_lowmed": [
+        "Andrey sipped his brandy and jumped on to the box. But just as Mitya was installing himself in the cart, to his great surprise Fenya appeared. She ran, completely out of breath, and as soon as she caught up with him, she cried out and threw herself at his feet. He again snatched out the whole wad of credit bills, threw three of them on the counter and hurriedly left the shop, followed by the shop assistants and errand boys who all bowed to him and wished him well."
+      ]
+    },
+    {
+      "human_par3": [
+        "Dillon guessed that he meant La Perouse, whose disappearance had troubled the whole world. He tried to get on to Vanikoro, where according to the Lascar he would find numerous debris of the wreck, but winds and tide prevented him."
+      ],
+      "llama_31_8b": [
+        "Dillon believed that the ships were likely those of La P\u00e9rouse, who had been the subject of a global mystery after their disappearance. He attempted to travel to Vanikoro, where he had been told that many remnants of the wreckage were still visible, but was thwarted by the unfavorable wind and water conditions."
+      ],
+      "gemini_25_flash": [
+        "Dillon surmised these were the long-lost ships of La P\u00e9rouse, a mystery that had gripped the globe. He attempted to reach Vanikoro, the location his source claimed still held significant shipwreck debris, but strong winds and currents blocked his path."
+      ],
+      "dipper_lowmed": [
+        "Dillon tried to reach Vanikoro, where, according to his informant, numerous remains of the shipwreck could still be found, but the currents and winds prevented him. Dillon conjectured that these were the ships of La P\u00e9rouse, whose disappearance had agitated the whole world.",
+        "Dillon tried to sail to Vanikoro, where his informant said many remains of the wreck were to be found, but was prevented by the winds and currents. He conjectured that they were the ships of La P\u00e9rouse, whose disappearance had agitated the whole world."
+      ]
+    },
+    {
+      "human_par3": [
+        "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d",
+        "\u201cWhen I wanted to determine what increase in weight the Nautilus needed to have in order to submerge, all I had to do was take note of the progressive reduction in volume that salt water experiences in deeper and deeper strata.\u201d"
+      ],
+      "llama_31_8b": [
+        "To calculate the additional weight the Nautilus would need to dive, I focused solely on the decrease in water volume that occurs as you descend into the ocean."
+      ],
+      "gemini_25_flash": [
+        "My sole consideration when calculating the additional weight needed for the Nautilus to submerge was the gradual decrease in the volume of seawater as it goes deeper."
+      ],
+      "dipper_lowmed": [
+        "\u201cWhen I wanted to calculate the increase in weight that the Nautilus would need to dive, my only concern was the progressive reduction in volume that seawater undergoes the deeper it goes.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough.",
+        "\u201cKandamara! You know this doesn\u2019t frighten me. Besides, I haven\u2019t done anything wrong. I was in the crowd that watched the Pazhuvettarayar procession going along Veeranarayanapuram. Is it true that it's you who sent the elephants, the horses, the palanquin, and the heralds?\u201d \u201cYes, so what if we sent them?\u201d"
+      ],
+      "llama_31_8b": [
+        "\"You're aware of my character, Kandanmara, and I assure you I'm not intimidated by these claims. I'm certain I didn't do anything wrong. When Pazhuvetarayar's procession arrived in Veeranarayanapuram, I stood among the onlookers, just like everyone else. I've heard rumors that you ordered the entire procession of horses, elephants, and soldiers to arrive there. Is that accurate?\""
+      ],
+      "gemini_25_flash": [
+        "\"Kandanmara, you're aware that such things don't frighten me, and I've done nothing wrong. When Pazhuvetarayar and his group arrived in Veeranarayanapuram, I simply watched with everyone else. I was told you were responsible for dispatching the entire procession of horses, elephants, and soldiers. Is that the case?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cKandamara! You know I am not afraid of these things. I have not done anything wrong. I heard that you sent the entire procession of horses, elephants and soldiers to Veeranarayanapuram. Is it true?\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat."
+      ],
+      "llama_31_8b": [
+        "Mikolka, his eyes wild and bloodshot, stood frozen in frustration, the crowbar still clutched in his hand as if he was struggling to come to terms with his own futile aggression.",
+        "Mikolka stood frozen, his bloodshot eyes fixed on the spot where he had just struck, his crowbar still clutched in his hand. He seemed regretful that there was no further purpose to be served by raising it again."
+      ],
+      "gemini_25_flash": [
+        "\"Mikolka, his eyes bloodshot, screams, still gripping the crowbar. He stands as if regretting that he has nothing left to hit.\""
+      ],
+      "dipper_lowmed": [
+        "- How is it that there is nothing left to break! - cries Mikolka, his crowbar still in his hands, his eyes bloodshot."
+      ]
+    },
+    {
+      "human_par3": [
+        "But the man wanted absolutely to get rid of me, and he sheered off, in all haste, to the other side of the street."
+      ],
+      "llama_31_8b": [
+        "He desperately wanted the encounter with me to end, and promptly stepped across the street, moving quickly onto the opposite sidewalk.",
+        "Despite his obvious interest in me, he tried to abruptly extricate himself from our situation and rushed across the street to the other side."
+      ],
+      "gemini_25_flash": [
+        "He was eager to escape my presence, so he quickly crossed to the other side of the street."
+      ],
+      "dipper_lowmed": [
+        "But he wanted to get rid of me, and hurriedly crossed the street to the other sidewalk."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019"
+      ],
+      "llama_31_8b": [
+        "\"How can you question this decision? It seems, however, that you, who have no affection for her, are unusually willing to put yourself in harm's way. Must it be that you actually bear resentment towards Erik?\""
+      ],
+      "gemini_25_flash": [
+        "\"Why do you question it? But you, since you don't love her, why are you so willing to risk your life? It can only be that you despise Erik.\"",
+        "\"It's undeniable! But you, lacking affection for her, why are you so willing to risk your life? You must despise Erik.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cHow can you doubt it? But why are you ready to risk your life, when you don\u2019t love her? It must be that you hate Erik."
+      ]
+    },
+    {
+      "human_par3": [
+        "He had stood there for a bit, breathed deeply, shaken his head, turned round, without noticing Semyonych, who was pressed into the shadowy corner of the corridor; he had stood there, breathed deeply some more, and then\u2014put his face to the keyhole with its shaft of light: and\u2014how he had stuck to it, unable to detach himself from the door! His curiosity wasn\u2019t proper curiosity for the master\u2019s son, something wasn\u2019t nice about it\u2014it wasn\u2019t right."
+      ],
+      "llama_31_8b": [
+        "He stood there, pausing for a moment, took a few deep breaths, and then turned away, but failed to notice Semyonych, who had inconspicuously squeezed into a dark corner of the corridor."
+      ],
+      "gemini_25_flash": [
+        "After a moment, he inhaled deeply a few times, then shook his head. Turning, he remained oblivious to Semyonych, who was pressed flat against the corridor wall in a dark corner."
+      ],
+      "dipper_lowmed": [
+        "He remained standing for a while, took several deep breaths, shook his head, turned round, and did not notice Semyonitch, pressed against the wall in the shadowy corner of the corridor.",
+        "For a moment he stood, took a few deep breaths, shook his head, turned around, and did not notice Semyonitch flattened against the wall in the dark corner of the corridor."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Grantaire slurred his words from his corner in the Caf\u00e9 Musain's back room, holding a nearby employee caught on her way to clean up, in no state to move anywhere.",
+      "I held everyone in the office, from top to bottom, in contempt, yet strangely, I also felt intimidated by them. My feelings were volatile in those days: one moment I'd look down on them, the next I'd elevate them. A refined and morally upright person, in my opinion, cannot harbor vanity without simultaneously demanding immense self-scrutiny and, at times, loathing themselves. Regardless of whether I disliked them or felt inferior to them, I almost always avoided making eye contact. I even tested myself, wondering if I could meet someone's gaze, but I invariably looked away first. This internal conflict infuriated me. I was also pathologically terrified of appearing foolish, which is why I slavishly adhered to conventionality in all outward matters. I embraced conformity and genuinely dreaded any personal eccentricity.\n\nHow could I possibly cope? I was excessively sensitive, as a modern man should be. And they, in contrast, were all intellectually dull and indistinguishable, like a herd of sheep. Perhaps it was only to me in the entire office that I constantly seemed like a coward and a subservient individual; this perception stemmed precisely from my heightened development. But it wasn't just a perception; it was the truth: I was a coward and subservient, and I admit this without reservation. In our current era, every respectable man is, and indeed must be, both a coward and subservient. This is their natural state, their inherent design. And this isn't a temporary situation due to particular circumstances; rather, it\u2019s a universal truth that a respectable person at any given time will be a coward and subservient. It's the intrinsic law for all respectable individuals. Should one of them display a fleeting moment of courage, they shouldn't find satisfaction in it, for they will inevitably falter before something else. This is the constant and enduring consequence. Only fools and their half-breeds exhibit courage, and even then, only up to a certain point. They are inconsequential and not worth considering.",
+      "Once more, he pulled out the entire stack of bills, peeled off three, threw them onto the counter, and quickly exited the store. Shop assistants and errand boys followed, all of them bowing and wishing him well. Andrei, having swallowed his brandy, cleared his throat and climbed onto the driver's seat. However, as Mitya was settling into the cart, Fenya unexpectedly arrived. She was breathless from running and, upon reaching him, cried out and collapsed at his feet.",
+      "Dillon surmised these were the long-lost ships of La P\u00e9rouse, a mystery that had gripped the globe. He attempted to reach Vanikoro, the location his source claimed still held significant shipwreck debris, but strong winds and currents blocked his path.",
+      "My sole consideration when calculating the additional weight needed for the Nautilus to submerge was the gradual decrease in the volume of seawater as it goes deeper.",
+      "\"You're aware of my character, Kandanmara, and I assure you I'm not intimidated by these claims. I'm certain I didn't do anything wrong. When Pazhuvetarayar's procession arrived in Veeranarayanapuram, I stood among the onlookers, just like everyone else. I've heard rumors that you ordered the entire procession of horses, elephants, and soldiers to arrive there. Is that accurate?\"",
+      "Mikolka, his eyes wild and bloodshot, stood frozen in frustration, the crowbar still clutched in his hand as if he was struggling to come to terms with his own futile aggression.",
+      "He was eager to escape my presence, so he quickly crossed to the other side of the street.",
+      "\u201cHow can you doubt it? But why are you ready to risk your life, when you don\u2019t love her? It must be that you hate Erik.",
+      "For a moment he stood, took a few deep breaths, shook his head, turned around, and did not notice Semyonitch flattened against the wall in the dark corner of the corridor."
+    ],
+    [
+      "Grantaire was in his corner in the back room of Caf\u00e9 Musain, more than drunk, and he held forth in this manner, stopping the scullery maid who came through.",
+      "Of course, I hated my fellow clerks one and all, and I despised them all, yet at the same time I was, as it were, afraid of them. In fact, it happened at times that I thought more highly of them than of myself. It somehow happened quite suddenly that I alternated between despising them and thinking them superior to myself. A cultivated and decent man cannot be vain without setting a fearfully high standard for himself, and without despising and almost hating himself at certain moments. But whether I despised them or thought them superior I dropped my eyes almost every time I met anyone. I even made experiments whether I could face so and so\u2019s looking at me, and I was always the first to drop my eyes. This worried me to distraction. I had a sickly dread, too, of being ridiculous, and so had a slavish passion for the conventional in everything external. I loved to fall into the common rut, and had a whole-hearted terror of any kind of eccentricity in myself. But how could I live up to it? I was morbidly sensitive as a man of our age should be. They were all stupid, and as like one another as so many sheep. Perhaps I was the only one in the office who fancied that I was a coward and a slave, and I fancied it just because I was more highly developed. But it was not only that I fancied it, it really was so. I was a coward and a slave. I say this without the slightest embarrassment. Every decent man of our age must be a coward and a slave. That is his normal condition. Of that I am firmly persuaded. He is made and constructed to that very end. And not only at the present time owing to some casual circumstances, but always, at all times, a decent man is bound to be a coward and a slave. It is the law of nature for all decent people all over the earth. If anyone of them happens to be valiant about something, he need not be comforted nor carried away by that; he would show the white feather just the same before something else. That is how it invariably and inevitably ends. Only donkeys and mules are valiant, and they only till they are pushed up to the wall. It is not worth while to pay attention to them for they really are of no consequence.",
+      "He again snatched from his pocket his wad of credit bills, removed from it three \u2018rainbows\u2019, threw them on the counter and quickly went out of the store. They all followed him and, bowing, saw him off with salutations and good wishes. Andrey grunted after the cognac he just downed and leapt on to the seat. But hardly had Mitya begun to sit down, than Fenya appeared before him quite unexpectedly. She came running up quite out of breath, with a scream clasped her hands before him and fell heavily to his feet.",
+      "Dillon believed that the ships were likely those of La P\u00e9rouse, who had been the subject of a global mystery after their disappearance. He attempted to travel to Vanikoro, where he had been told that many remnants of the wreckage were still visible, but was thwarted by the unfavorable wind and water conditions.",
+      "\u201cWhen I wanted to calculate the increase in weight that the Nautilus would need to dive, my only concern was the progressive reduction in volume that seawater undergoes the deeper it goes.\u201d",
+      "\u201cKandamara! You know I am not afraid of these things. I have not done anything wrong. I heard that you sent the entire procession of horses, elephants and soldiers to Veeranarayanapuram. Is it true?\u201d",
+      "Mikolka stood frozen, his bloodshot eyes fixed on the spot where he had just struck, his crowbar still clutched in his hand. He seemed regretful that there was no further purpose to be served by raising it again.",
+      "Despite his obvious interest in me, he tried to abruptly extricate himself from our situation and rushed across the street to the other side.",
+      "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019",
+      "He stood there, pausing for a moment, took a few deep breaths, and then turned away, but failed to notice Semyonych, who had inconspicuously squeezed into a dark corner of the corridor."
+    ],
+    [
+      "Grantaire held forth in this way, more than drunk, from his corner in the back room of the Caf\u00e9 Musain, detaining the dish-washer as she passed through.",
+      "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing.",
+      "He pulled the bundle of notes out of his pocket again, picked out three hundred roubles, threw them on the counter, and ran hurriedly out of the shop. Every one followed him out, bowing and wishing him good luck. Andrey, coughing from the brandy he had just swallowed, jumped up on the box. But Mitya was only just taking his seat when suddenly to his surprise he saw Fenya before him. She ran up panting, clasped her hands before him with a cry, and plumped down at his feet.",
+      "Dillon guessed that he meant La Perouse, whose disappearance had troubled the whole world. He tried to get on to Vanikoro, where according to the Lascar he would find numerous debris of the wreck, but winds and tide prevented him.",
+      "To calculate the additional weight the Nautilus would need to dive, I focused solely on the decrease in water volume that occurs as you descend into the ocean.",
+      "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough.",
+      "- How is it that there is nothing left to break! - cries Mikolka, his crowbar still in his hands, his eyes bloodshot.",
+      "He desperately wanted the encounter with me to end, and promptly stepped across the street, moving quickly onto the opposite sidewalk.",
+      "\"Why do you question it? But you, since you don't love her, why are you so willing to risk your life? It can only be that you despise Erik.\"",
+      "After a moment, he inhaled deeply a few times, then shook his head. Turning, he remained oblivious to Semyonych, who was pressed flat against the corridor wall in a dark corner."
+    ],
+    [
+      "More than a little intoxicated, Grantaire expounded from his spot in the back room of the Caf\u00e9 Musain, waylaying the dishwasher as she passed by.",
+      "In my office, I struggled with conflicting emotions towards my coworkers, frequently swinging between intense disdain and a tendency to put them on a pedestal. This internal turmoil was a constant, with my feelings shifting rapidly. A person of my character, who demands high standards of self-discipline and self-criticism, cannot avoid these fluctuations. I often found myself avoiding eye contact with others, and I conducted experiments to test my endurance. I feared being ridiculed, which led me to adhere strictly to conventional norms and habits. I believed that anyone who deviated from the norm was eccentric and not to be trusted. Despite my self-awareness, I couldn't help but acknowledge that I was, in fact, a coward and a slave. This is a universal condition for decent people, a natural aspect of their character. I firmly believe that this is not a result of specific circumstances, but rather an inherent trait. Even if someone shows brief moments of courage, they will ultimately succumb to fear. Only those who lack any discernment, or are perhaps unintelligent, exhibit unwavering bravery.",
+      "Andrey sipped his brandy and jumped on to the box. But just as Mitya was installing himself in the cart, to his great surprise Fenya appeared. She ran, completely out of breath, and as soon as she caught up with him, she cried out and threw herself at his feet. He again snatched out the whole wad of credit bills, threw three of them on the counter and hurriedly left the shop, followed by the shop assistants and errand boys who all bowed to him and wished him well.",
+      "Dillon tried to sail to Vanikoro, where his informant said many remains of the wreck were to be found, but was prevented by the winds and currents. He conjectured that they were the ships of La P\u00e9rouse, whose disappearance had agitated the whole world.",
+      "\u201cWhen I wanted to determine what increase in weight the Nautilus needed to have in order to submerge, all I had to do was take note of the progressive reduction in volume that salt water experiences in deeper and deeper strata.\u201d",
+      "\u201cKandamara! You know this doesn\u2019t frighten me. Besides, I haven\u2019t done anything wrong. I was in the crowd that watched the Pazhuvettarayar procession going along Veeranarayanapuram. Is it true that it's you who sent the elephants, the horses, the palanquin, and the heralds?\u201d \u201cYes, so what if we sent them?\u201d",
+      "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat.",
+      "But he wanted to get rid of me, and hurriedly crossed the street to the other sidewalk.",
+      "\"It's undeniable! But you, lacking affection for her, why are you so willing to risk your life? You must despise Erik.\"",
+      "He had stood there for a bit, breathed deeply, shaken his head, turned round, without noticing Semyonych, who was pressed into the shadowy corner of the corridor; he had stood there, breathed deeply some more, and then\u2014put his face to the keyhole with its shaft of light: and\u2014how he had stuck to it, unable to detach himself from the door! His curiosity wasn\u2019t proper curiosity for the master\u2019s son, something wasn\u2019t nice about it\u2014it wasn\u2019t right."
+    ],
+    [
+      "Thus did Grantaire, more than intoxicated, launch into speech, catching at the dish-washer in her passage, from his corner in the back room of the Caf\u00e9 Musain.",
+      "But how could I hold out? I was morbidly developed, as a man of our time ought to be developed, and they were all idiots and as alike as a herd of sheep. I hated them all in the office, from first to last, and despised them all, but at the same time I was afraid of them; it happened that I suddenly set them above me; A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes almost before everyone I met; I even made experiments: would I be able to endure such and such a gaze on me? and I was always the first to drop my eyes; this tormented me to the point of fury; I was also afraid to the point of illness to be ridiculous, and therefore slavishly worshipped the routine in everything external; I loved falling into the common rut, and feared any eccentricity in myself with all my soul; but how could I hold out? I was morbidly developed, as a man of our time ought to be developed, and they were all stupid and like one another as sheep; and if one of them should happen to be valiant in something, let him not be flattered or satisfied by it: he will quail before something else; and that is the only and eternal result.",
+      "Mitya pulled out the entire bundle of bills, removed three from it and slapped them on the counter before hastily leaving the store, accompanied by the shop assistants and delivery boys who all bowed in his direction and wished him a pleasant evening. After swallowing his brandy, Andrei took a momentary pause to clear his throat before quickly climbing up onto the driver's seat. Just as Mitya settled in, he was unexpectedly joined by Fenya, who had arrived on the scene out of breath and gasping for air. As soon as she reached him, she let out a cry and fell to her feet at his knees.",
+      "Dillon tried to reach Vanikoro, where, according to his informant, numerous remains of the shipwreck could still be found, but the currents and winds prevented him. Dillon conjectured that these were the ships of La P\u00e9rouse, whose disappearance had agitated the whole world.",
+      "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d",
+      "\"Kandanmara, you're aware that such things don't frighten me, and I've done nothing wrong. When Pazhuvetarayar and his group arrived in Veeranarayanapuram, I simply watched with everyone else. I was told you were responsible for dispatching the entire procession of horses, elephants, and soldiers. Is that the case?\"",
+      "\"Mikolka, his eyes bloodshot, screams, still gripping the crowbar. He stands as if regretting that he has nothing left to hit.\"",
+      "But the man wanted absolutely to get rid of me, and he sheered off, in all haste, to the other side of the street.",
+      "\"How can you question this decision? It seems, however, that you, who have no affection for her, are unusually willing to put yourself in harm's way. Must it be that you actually bear resentment towards Erik?\"",
+      "He remained standing for a while, took several deep breaths, shook his head, turned round, and did not notice Semyonitch, pressed against the wall in the shadowy corner of the corridor."
+    ]
+  ]
+}

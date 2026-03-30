@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ]
+  ],
+  "source_texts": [
+    "\u201cWhere to?\u201d Alyosha whispered back, glancing around him. They were alone in a smallish garden. The house was at least fifty yards away. \u201cWhy do you have to whisper?\u201d",
+    "Kundavai Devi had arranged for a special pooja [92] and yagna [93] to be conducted in Pazhaiarai Palace, on the day he left. The womenfolk in the palace and the other elders came out to the courtyard, to bid farewell to their dear prince.",
+    "Now these men, or these women, who live behind these four walls, they dress in rough homespun, they are equals, they call each other brothers. That is all very well. But do they do anything else?",
+    "Once the insurgents were driven back from the top of the barricade by cannon-ball and from the windows of the tavern by canister-shot, the attacking columns would be able to venture into the street without being picked off, perhaps even without being seen, quickly scale the redoubt as on the preceding evening and \u2013 who knows? \u2013 take it by surprise.",
+    "That was a new call, and Heidi obeyed quickly. When the child came downstairs in her smart little frock, she opened her eyes wide. \" Oh, grandfather!\" she exclaimed, \"I have never seen you in your Sunday coat with the silver buttons. Oh, how fine you look!\"",
+    "(and Apollon Apollonovich could not form a clear and distinct idea of into what exactly). At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he had washed away the disgraceful spots which had been made by his unworthy son and which had besmirched his honor.",
+    "Next, Nana tackled Steiner without disgust, but also without love. She called him a dirty Jew. She seemed to be gratifying an old hatred which she could not very well explain to herself. He was fat, he was stupid, and she turned him about, taking double mouthfuls, wishing to have done with the Prussian all the quicker. He had given up Simone. His Bosphorus speculation was already in jeopardy. Nana hastened his downfall by the most lavish expenditure. For a month still he struggled, performing miracles. He covered Europe with a colossal publicity\u2014posters, advertisements, prospectuses\u2014and extracted money from the most distant countries. All those savings, the louis of the speculators the same as the sous of the poor people, were swallowed up in the Avenue de Villiers. He had also gone into partnership with an iron-founder in Alsace. There were there, in a corner of the country, workmen black with coal dust, bathed with perspiration, who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana\u2019s pleasures. She devoured all like a great fire\u2014the thefts at the Bourse, the earnings of labour. This time she finished Steiner. She returned him to the pavement, sucked to the bone, so emptied that he remained even incapable of inventing a fresh roguery. In the collapse of his banking establishment he went crazy; he trembled at the name of the police. He was made a bankrupt; and the mere word \u201cmoney\u201d bewildered him, threw him into a childish state of embarrassment\u2014he who had handled millions. One evening when with her, he burst out crying. He asked her to lend him a hundred francs to pay his servant; and Nana, affected and amused by this ending of the terrible old man who for twenty years past had been skimming the Paris market, brought him the money, saying,",
+    "\u201cSit down, Ivan, please, here on the sofa,\u201d Alyosha said, frightened. \u201cYou\u2019re feverish. Lie down. Put your head on the pillow. Right. Would you like a wet towel on your head? It might help.\u201d",
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "That comes, I think, from their tiredness. Over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words, and done it badly. And has made their learning difficult with his distractedness, his negligence, his jealousy, which was itself a kind of negligence."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 4 share an identical three-part structure: [Question about direction] [Action + garden description] [Question about whispering]. Furthermore, they exhibit a very similar pattern of word choice, often using close synonyms that elevate the vocabulary slightly. For instance, \"Where are we going?\" (2) becomes \"Where are we headed?\" (4), \"looking around\" (2) becomes \"surveying their surroundings\" (4), \"moderately sized garden\" (2) becomes \"modest-sized garden\" (4), and \"Why are you speaking so quietly?\" (2) becomes the more stylized \"Why the hushed tone?\" (4). This consistent pattern of structural and lexical substitution strongly suggests they were produced by the same system.",
+    "Outputs 2 and 4 share several distinct linguistic fingerprints. The most significant is the use of the exact phrase \"fond farewell\", which does not appear in any other output (0 uses \"tearful farewell\", 1 uses \"see off\"). Additionally, their descriptions of the prince are very similar paraphrases of each other: \"beloved prince\" (2) and \"well-loved prince\" (4). Both also follow a similar structure of first describing the ceremony arranged by Kundavai, and then describing the crowd gathering in the courtyard for the farewell. The description of the crowd is also structurally similar: \"the women and elderly members of the household\" (2) and \"the women of the palace and other respected elders\" (4). These overlapping, non-generic word choices and structural patterns strongly suggest they originate from the same system.",
+    "Outputs 1 and 2 share several distinct linguistic fingerprints. Both use the exact phrase \"behind these four walls\". They both employ a similar, slightly run-on sentence structure that repeats the pronoun \"they\" to introduce new clauses: \"they dress... they are equals, they call each other brothers.\" (Output 1) and \"They dress... they are equals, they call each other brothers...\" (Output 2). In fact, the clause \"they are equals, they call each other brothers\" is identical in both. Additionally, both outputs only mention \"brothers,\" omitting \"sisters,\" which is a specific choice not seen in the other versions. Finally, they both contain a variation of the phrase \"that is well\" / \"This is all very well.\"",
+    "Outputs 1 and 3 share an identical, long clause that is highly unlikely to be generated independently by two different systems. Both outputs contain the exact phrase: \"the assaulting forces could advance into the street undetected, swiftly climb the redoubt as they had the night before, and potentially seize it unexpectedly.\" While the beginning of the sentences differ in structure (Output 1 uses passive voice, \"After the rebels were forced down...\", while Output 3 uses active voice, \"After the attackers repelled the rebels...\"), this is a common type of variation a single paraphrasing model might use. The shared vocabulary (\"rebels\", \"assaulting forces\", \"canister-shot\", \"unexpectedly\") and the identical structure of the majority of the sentence are strong indicators of a common origin.",
+    "Outputs 1 and 3 share a number of distinct stylistic and lexical fingerprints. Both frame the initial event as an \"unfamiliar summons\" (1) or an \"unfamiliar request\" (3) to which Heidi responds \"promptly\" (1 & 3). Most tellingly, the dialogue is nearly identical, featuring the exact same distinctive phrasing and word choice: \"I've never seen you [in/wearing] your best coat with the silver buttons before. You look so distinguished!\" The use of the specific word \"distinguished\" and the structure \"best coat with the silver buttons\" in both outputs, with only a minor variation between \"in\" and \"wearing,\" strongly suggests they originate from the same paraphrasing system which has a clear preference for this specific set of vocabulary and phrasing.",
+    "Outputs 0 and 1 demonstrate a remarkably similar and specific paraphrasing style. Both retain the original text's long, complex sentence structure and formal tone. Their primary method is to substitute key words and phrases with close synonyms while keeping the grammatical framework almost perfectly intact. This creates a very strong stylistic fingerprint. For instance, 'postponed his intention' in 0 becomes 'put off his intention' in 1; 'banishing his son from the house' in 0 becomes 'driving his son out of the house' in 1; and 'sullied the honour of the house' in 0 has its parallel in 'drew down shame upon the house' in 1. While the other outputs share some content, they differ significantly in style: 2 and 4 are far more condensed and summary-like, and 3 has a unique 'Alternatively' structure. The near-perfect structural and phrase-by-phrase parallelism between 0 and 1 is the clearest indicator of a shared origin.",
+    "Outputs 1 and 4 were clearly generated by the same paraphrasing system. The most definitive piece of evidence is the identical, complex phrase used to explain Nana's prejudice: \"seemingly acting on a deeply ingrained prejudice she didn't fully comprehend.\" It is highly improbable that two different systems would generate this exact same non-trivial phrasing. Beyond this, there are numerous stylistic and lexical similarities. Both use an em-dash to list advertising materials (1: \"\u2014posters, ads, brochures\u2014\"; 4: \"\u2014using posters, ads, and flyers\u2014\"). Both describe the workers in Alsace with nearly identical phrasing: \"their muscles straining and bones aching\" (present in both). They also use very similar vocabulary throughout, such as \"on the verge of collapse,\" \"extravagant spending,\" \"destitute,\" and describing Steiner as being reduced to a \"childlike state of confusion.\" The overall sentence structure and narrative flow are remarkably consistent between the two, indicating they originate from the same underlying model.",
+    "Outputs 1 and 4 exhibit a very similar narrative structure and stylistic choices, suggesting they were produced by the same system. \n\n1. **Parallel Opening Structure:** Both paraphrases begin by describing Alyosha's action with an \"Alyosha + adverb\" construction, followed immediately by a description of his voice.\n   - 1: \"Alyosha gently motioned for Ivan to take a seat on the sofa, his voice laced with concern.\"\n   - 4: \"Alyosha hastily welcomed Ivan to sit on the sofa, his voice trembling with concern.\"\n\n2. **Shared Vocabulary:** Both use the specific word \"concern\" to describe Alyosha's emotion and \"relief\" for the purpose of the towel.\n   - 1: \"...his voice laced with concern.\", \"...hoping it might bring some relief...\"\n   - 4: \"...his voice trembling with concern.\", \"...suggesting it might provide relief.\"\n\n3. **Similar Concluding Phrase:** The final sentences in both describe the offer of the towel and its intended effect in a strikingly similar way.\n   - 1: \"...hoping it might bring some relief from his distress.\"\n   - 4: \"...suggesting it might provide relief.\"\n\nWhile one uses only reported speech (1) and the other mixes in direct quotes (4), the underlying narrative template, word choices, and sentence construction are so parallel that they point to a common origin.",
+    "Outputs 2 and 3 are the clear pair from the same system. The most definitive evidence is their shared, highly unusual, and complex sentence structure. Both employ a long periodic sentence, piling up multiple clauses that begin with a repeating phrase (\"Since the time when...\" in 2 and \"Since such time as...\" in 3) before finally delivering the main clause at the very end. This is a powerful stylistic signature that is absent from the other, more straightforward outputs. Additionally, both begin with the nearly identical dramatic fragment \"And\u2014the torso of a goat-footed caryatid.\" They also share a similar verbose, literary, and archaic tone, and they are the only two outputs to include the final clause about an \"Establishment\" or \"Institution\" and its power over Russia. The minor variations in wording (e.g., \"lathered\" vs. \"lathery\", \"goring\" vs. \"striking\") are typical of a generative model producing slightly different results on consecutive runs.",
+    "Outputs 0 and 3 exhibit a striking number of structural and stylistic similarities, pointing to a common origin. \n1. Both use a unique and slightly archaic sentence construction to express the central idea of weariness: \"That comes, I think, from their tiredness.\" (0) and \"It comes, I believe, of their weariness.\" (3). The inclusion of the parenthetical \"I think/believe\" is a shared fingerprint.\n2. Both use a semicolon to separate the first two clauses about the role women have played.\n3. The phrasing used to describe men's actions is nearly identical in structure: \"for man has only repeated their words and done it badly\" (0) vs. \"For man merely repeated what they said, and did it badly\" (3).\n4. Both conclude the list of men's shortcomings by defining jealousy as a form of neglect: \"...which was a kind of negligence\" (0) vs. \"...which was itself a form of neglect\" (3).\nThe word choices are often direct synonyms ('tiredness'/'weariness', 'negligence'/'neglect') placed within the same grammatical framework. The strange repetition of \"by his negligence\" in output 0 seems like a generation artifact or a minor variation, but it doesn't outweigh the overwhelming structural and lexical parallels between the two texts."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\"Where?\" whispered Alyosha, looking about him and finding himself in a deserted garden with no one near but themselves. The garden was small, but the house was at least fifty paces away. \"There's no one here."
+      ],
+      "llama_31_8b": [
+        "Alyosha leaned in, his eyes scanning their surroundings, as if sharing a secret in a quiet garden where the house stood a considerable distance away. \"What's the reason for the whisper?\" he asked, his low tone a reply to her query."
+      ],
+      "gemini_25_flash": [
+        "\"Where are we going?\" Alyosha asked softly, looking around the moderately sized garden. The house was a good distance off. \"Why are you speaking so quietly?\"",
+        "\"Where are we headed?\" Alyosha murmured, surveying their surroundings. They found themselves alone in a modest-sized garden, with the house a good fifty yards distant. \"Why the hushed tone?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWhy are you whispering?\u201d Alyosha whispered back, looking around him. They were alone in a small garden; the house was at least fifty yards away. \u201cWhere are we going?\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Princess Kundhavai made sure that her brother departed Pazhaiyarai in pomp and splendour: she had organized quite a few events in the principal palace, for his edification. When Arulmozhi stepped out of the palace confines, conches blew deafeningly, drums thundered victoriously, accompanied by the smaller siru parai beats, in the courtyard; while chants of triumph cleaved the very skies. Every one of the royal mothers blessed their favourite son, applied sacred ash on his forehead, uttered many blessings to ward off evil spirits and gave him leave to return to battle."
+      ],
+      "llama_31_8b": [
+        "Before departing, Kundavai Devi had a private ritual held in her palace, involving prayers and sacred fires, to mark the occasion. As he prepared to leave, the women and elderly members of the household gathered in the palace courtyard to give a fond farewell to their beloved prince.",
+        "To mark the prince's departure, Kundavai had a special ceremony arranged at Pazhaiarai Palace, involving both pooja and yagna rituals. Friends and family members, including the women of the palace and other respected elders, gathered in the palace courtyard to bid their well-loved prince a fond farewell."
+      ],
+      "gemini_25_flash": [
+        "On the day of his departure, Kundavai Devi organized a particular religious ceremony and sacrificial ritual at Pazhaiarai Palace. The women and elders of the palace gathered in the courtyard to see off their beloved prince."
+      ],
+      "dipper_lowmed": [
+        "The women of the palace and the elders came out into the courtyard to bid a tearful farewell to their beloved prince. Kundavai had arranged a special yagna and pooja to be conducted in the Pazhaiarai Palace, on the day he left."
+      ]
+    },
+    {
+      "human_par3": [
+        "But these men, or these women who are behind these four walls. They dress themselves in coarse woollen, they are equals, they call each other brothers, that is well; but they do something else?",
+        "These men or women who live within those four walls, and dress in haircloth, are equal in condition and call each other brother and sister. It is well, but do they do aught else?"
+      ],
+      "llama_31_8b": [
+        "The people who reside within these four walls, clad in simple homemade attire, consider themselves equals and use fraternal terms when referring to one another, which is commendable."
+      ],
+      "gemini_25_flash": [
+        "These individuals, regardless of gender, reside within confined spaces, attire themselves in simple, coarse fabric, and consider each other equals, referring to one another as siblings. This is commendable, but do their actions extend beyond these behaviors?"
+      ],
+      "dipper_lowmed": [
+        "This is all very well, but do they do anything else? These men, or women, who live behind these four walls, they dress in coarse homespun clothes, they are equals, they call each other brothers."
+      ]
+    },
+    {
+      "human_par3": [
+        "The combatants once driven from the crest of the barricade by balls, and from the windows of the cabaret by grape-shot, the attacking columns could venture into the street without being picked off, perhaps, even, without being seen, could briskly and suddenly scale the redoubt, as on the preceding evening, and, who knows? take it by surprise."
+      ],
+      "llama_31_8b": [
+        "The attacker's momentum could be regained after the insurgents were repelled from the barricade by cannon fire and the windows of the tavern were covered in canister shot. With a clearer path, the attacking columns could move into the street undetected, reach the redoubt, and potentially capture it by surprise, similar to the previous evening."
+      ],
+      "gemini_25_flash": [
+        "After the rebels were forced down from the top of the barricade by cannonfire and out of the tavern windows by canister-shot, the assaulting forces could advance into the street undetected, swiftly climb the redoubt as they had the night before, and potentially seize it unexpectedly.",
+        "After the attackers repelled the rebels from the top of the barricade with cannon-fire and from the tavern windows with canister-shot, the assaulting forces could advance into the street undetected, swiftly climb the redoubt as they had the night before, and potentially seize it unexpectedly. \n"
+      ],
+      "dipper_lowmed": [
+        "Once the insurgents had been driven away from the top of the barricade by canister shot, and from the windows of the wine-shop by grape-shot, the attacking columns would venture into the street without being picked off, perhaps even without being seen, and quickly scale the redoubt as they had done the evening before, and \u2013 who knows? \u2013 perhaps seize it by surprise."
+      ]
+    },
+    {
+      "human_par3": [
+        "She had never heard him suggest such a thing before, and she soon came hurrying down, wearing one of the pretty Frankfurt dresses. At sight of him, she stopped in astonishment. \u2018I\u2019ve never seen you dressed like that before, Grandfather,\u2019 she exclaimed. \u2018 Silver buttons on your jacket. You do look fine in your Sunday clothes.\u2019"
+      ],
+      "llama_31_8b": [
+        "The child had quickly responded to the new summons, and as she came down to the room, she took in the sight of her grandfather dressed in his finest Sunday attire with its shiny silver buttons. Her eyes widened with admiration at the dignified impression he made. \"Grandfather, you look particularly distinguished today!\" she exclaimed."
+      ],
+      "gemini_25_flash": [
+        "Heidi, responding promptly to the unfamiliar summons, was wide-eyed when she saw her grandfather downstairs in his formal attire. She exclaimed, \"Grandfather! I've never seen you in your best coat with the silver buttons before. You look so distinguished!\"",
+        "It was an unfamiliar request, and Heidi promptly complied. As she descended the stairs in her elegant dress, her eyes widened in surprise. \"Grandfather!\" she exclaimed, \"I've never seen you wearing your best coat with the silver buttons before. You look so distinguished!\""
+      ],
+      "dipper_lowmed": [
+        "Heidi opened his eyes wide and said, \"Oh, grandfather, I've never seen your silver-buttoned Sunday coat before. How handsome you look!\""
+      ]
+    },
+    {
+      "human_par3": [
+        "This thought about ears slightly softened Apollon Apollonovich\u2019s anger: Apollon Apollonovich postponed his intention of banishing his son from the house without initiating the most precise inquiry into the reasons that had led his son to wear the domino. But in any event Apollon Apollonovich would lose the post, he would have to decline the post; he could not accept the post without removing the shameful stains of his son\u2019s behaviour (say what you will\u2014an Ableukhov) that sullied the honour of the house.",
+        "anger somewhat : Apollon Apollonovich put off his intention of driving his son out of the house, making no more precise inquiry into the reasons that had made his son wear a domino. But at any rate Apollon Apollonovich had now been deprived of his post, he would have to renounce the post; he could not accept the post until he had washed away the disgraceful stains in his son\u2019s conduct (who was, whether one liked it or not, an Ableukhov), which drew down shame upon the house."
+      ],
+      "llama_31_8b": [
+        "Apollon Apollonovich struggled to grasp the specifics of the situation, but it was clear that accepting this new position would be out of the question until he had rectified the scandal his unfaithful son had brought upon him. \n\nAlternatively \n \nApollon Apollonovich was unable to pinpoint the exact nature of the problem. However, he knew that to consider the new position, he would first need to clean the stain his untrustworthy son had cast on their family's reputation."
+      ],
+      "gemini_25_flash": [
+        "Apollon Apollonovich was unsure of the precise nature of the situation, but he understood that he would forfeit his new job. He felt he could not take the position until he had cleansed his honor, which had been stained by his undeserving son's actions."
+      ],
+      "dipper_lowmed": [
+        "At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he washed away the shameful stains that his unworthy son had made and that sullied his honour. (And Apollon Apollonovich could not form a clear and distinct idea of how exactly it would turn out.)"
+      ]
+    },
+    {
+      "human_par3": [
+        "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:"
+      ],
+      "llama_31_8b": [
+        "Nana tackled Steiner with determination but not affection. She hurled insults at him, calling him a deceitful person, and it seemed she was satisfying a deep-seated resentment without fully understanding the root of her emotions. She mocked his appearance and intelligence, and as she dragged him along, she was eager to be rid of him quickly. Steiner's problems were already mounting, as his speculative investments in the Bosphorus were on shaky ground, and he had lost Simone's trust. Nana further exacerbated his situation by extravagantly spending his money, despite his repeated attempts to keep afloat. For a month, he struggled to stay afloat, mesmerizing audiences with his audacity and conjuring up elaborate marketing campaigns across Europe. He managed to extract vast sums of money from distant lands, garnering immense attention. However, much of this wealth was squandered in the Avenue de Villiers, and he further compromised himself by entering into a partnership with a metalworker in Alsace. Workers toiling in the nearby coal mines and factories relentlessly labored to support Steiner's lavish lifestyle, draining his savings and even stealing from the Paris Stock Exchange. Nana ultimately drained Steiner dry, leaving him powerless and debilitated, to the point where he became completely financially incompetent. During the collapse of his banking business, Steiner suffered a mental breakdown, cowering in fear at the mention of the police. He was declared bankrupt and seemed bewildered by even the concept of money, losing his poise and now resembling a child. One evening, in Nana's presence, Steiner broke down in tears and asked her to lend him a hundred francs to pay his servant. Amused and sympathetic to his plight, Nana handed him the money, saying"
+      ],
+      "gemini_25_flash": [
+        "Nana then engaged with Steiner, not out of revulsion or affection. She insulted him, calling him a \"dirty Jew,\" seemingly acting on an ingrained prejudice she herself couldn't fully comprehend. He was overweight and unintelligent, and she manipulated him, devouring him swiftly, eager to be rid of the Prussian. He had already abandoned Simone, and his Bosphorus venture was on the verge of collapse. Nana accelerated his ruin with her extravagant spending. For another month, he fought valiantly, achieving incredible feats. He blanketed Europe with an enormous marketing campaign\u2014posters, ads, brochures\u2014and secured funds from far-flung nations. All those savings, from the gold coins of wealthy investors to the pennies of the poor, vanished into her luxurious lifestyle on the Avenue de Villiers. He had also partnered with an iron-founder in Alsace. In a remote corner of that region, coal-dusted, sweat-drenched laborers toiled day and night, their muscles straining and bones aching, to provide for Nana's desires. She consumed everything like a raging inferno\u2014the illicit gains from the stock market and the fruits of honest labor. This time, she utterly destroyed Steiner. She left him destitute, utterly drained, so devoid of resources that he couldn't even contrive a new scheme. The collapse of his bank drove him to madness; the mention of the police made him tremble. He was declared bankrupt, and the word \"money\" disoriented him, reducing him to a childlike state of confusion, despite having once managed millions. One evening, in her company, he broke down crying. He begged her for a hundred francs to pay his servant; Nana, moved and entertained by the downfall of the formidable old man who had been exploiting the Parisian market for two decades, gave him the money, saying...",
+        "Nana then confronted Steiner, not with revulsion, but indifferently. She insulted him, calling him a \"dirty Jew,\" seemingly acting on a deeply ingrained prejudice she didn't fully comprehend. She viewed him as portly and foolish, and she quickly and thoroughly exploited him, eager to be rid of the \"Prussian\" more swiftly. He had already forsaken Simone, and his Bosphorus investment was on the verge of collapse. Nana accelerated his ruin through her extravagant spending. For another month, he incredibly managed to stay afloat, launching a massive advertising campaign across Europe\u2014using posters, ads, and flyers\u2014and securing funds from far-off lands. All these savings, from the sizable investments of speculators to the meager coins of the poor, were squandered in the Avenue de Villiers. He had also partnered with an iron founder in Alsace. In a secluded part of the country, coal-stained, sweat-soaked workers toiled relentlessly, their muscles straining and bones aching, to finance Nana's indulgences. Like a raging inferno, she consumed everything\u2014stolen stock market gains and the fruits of labor. This time, she utterly ruined Steiner. She left him destitute, completely drained, so devoid of resources that he couldn't even devise a new scheme. The collapse of his bank drove him insane; the mere mention of the police terrified him. He was declared bankrupt, and the word \"money\" bewildered him, reducing him to a childlike state of confusion, despite his past dealings with millions. One evening while with her, he broke down crying. He asked her for a loan of a hundred francs to pay his servant; and Nana, both moved and amused by the downfall of this formidable old man who had manipulated the Paris market for two decades, gave him the money, remarking,"
+      ],
+      "dipper_lowmed": [
+        "They came back to Steiner, whom she now tackled without disgust but also without love. She called him a dirty Jew, seemed to be gratifying an old hatred which she could not very well explain to herself. He was fat, he was stupid, and she turned him round, suckled twice over, wishing to get rid of the Prussian all the quicker. He had given up Simone; his Bosphorus speculation was already in jeopardy; Nana hastened its downfall by the most lavish expenditure; for a month he struggled and performed miracles; he covered Europe with a colossal publicity, posters, advertisements, prospectuses, and extracted money from the most distant countries; all these savings, the louis of the speculators as well as the sous of the poor, were swallowed up in the avenue de Villiers; he had also joined a frightful partnership with an iron foundry; there, in a corner of the country, workmen, black with coal dust and bathed with sweat, tightened their muscles and heard their bones cracking to furnish the means for Nana\u2019s pleasures; she devoured all, as a great fire; this time she finished off Steiner; she left him on the pavement, empt to the bone, so exhausted that he remained even incapable of inventing a fresh roguery; in the collapse of his banking establishment, he was thrown into a fit of childish terror, and the mere mention of money embarrassed him, threw him into a childish position, though he had handled millions; one evening, when she was with him, he burst into tears; he begged her to lend him a hundred francs to pay his servant, and Nana, who was very moved and amused at this end of this terrible man who had skimmed twenty thousand francs, brought him the money, saying:"
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\""
+      ],
+      "llama_31_8b": [
+        "\"Alyosha gently motioned for Ivan to take a seat on the sofa, his voice laced with concern. Ivan was clearly unwell, his fever apparent. Alyosha urged him to lie down and rest his head on the pillow. He offered to get Ivan a wet towel to place on his head, hoping it might bring some relief from his distress.\"",
+        "Alyosha hastily welcomed Ivan to sit on the sofa, his voice trembling with concern. \"You need to rest, Ivan,\" he said. \"Come, lie down here. Let your head lean on the pillow. Is that any better?\" He then offered Ivan a cool, damp towel to place on his forehead, suggesting it might provide relief."
+      ],
+      "gemini_25_flash": [
+        "\"Please, Ivan, have a seat here on the sofa,\" Alyosha urged, sounding alarmed. \"You have a fever. Lie down and rest your head on the pillow. There. Would you like a damp cloth for your forehead? It could make you feel better.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cLie down here on the sofa, Ivan, please, and put your head on the pillow,\u201d said Alyosha, frightened. \u201cYou\u2019re in a fever, put a wet towel on your head, it\u2019ll be useful.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+        "And \u2013 the torso of a goat-footed caryatid. Since the time when a carriage drawn by a pair of lathered black horses flew up to its front steps, since the time when a court lackey in a tricorne hat donned obliquely on his head and a winged greatcoat opened wide, for the first time the lacquered, embossed flank and, with a click, the door threw aside its coat of arms adorned with crown (a unicorn goring a knight); since the time when out of the funereal cushions of the carriage a parchment-faced statue placed its shoe on the entrance-porch granite; since the time when, for the first time, returning bows, a hand invested in the leather of a glove touched the brim of a top hat: \u2013 since that time the Institution that cast over Russia its mighty power had weighed down with a power even mightier."
+      ],
+      "llama_31_8b": [
+        "A ornate, torso-shaped pillar stood nearby. A horse-drawn carriage suddenly appeared on the porch and the footman, sporting a distinctive three-cornered hat, greeted its occupants with a crisp salute. As the carriage door swung open, a coat of arms emblazoned with intricate details - a unicorn piercing a knight on horseback - was revealed for all to see. In response to the greetings, a gloved hand fleetingly touched the tip of a elegant top hat."
+      ],
+      "gemini_25_flash": [
+        "A capripede caryatid's torso. A two-horse carriage sped toward the porch, where a footman in a tricorne hat unlatched the door. It swung open, revealing a coat of arms with small crowns (a unicorn piercing a knight). In response to the greetings, a gloved hand touched the brim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of horses flew up to the porte-coch\u00e8re, and a lackey, a three-cornered hat on his head, slammed the handle, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). The torso of a capripede caryatid. In response to greetings, a hand invested in leather touched the brim of a top hat."
+      ]
+    },
+    {
+      "human_par3": [
+        "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect.",
+        "This is because they are weary, I think. For centuries they have been responsible for performing everything that love entails, they have always played both parts, speaking both sides of the dialogue. Men have only ever repeated their lines, badly, complicating women\u2019s study of their roles with their abstraction, their thoughtlessness and their jealousy, which is itself a form of thoughtlessness."
+      ],
+      "llama_31_8b": [
+        "Their fatigue likely stems from the immense weight they've carried in representing love throughout history, taking on both roles in the dialogue of romance. Meanwhile, men have largely mimicked their words, often with poor results, and have complicated their efforts with their own carelessness, jealousy, and lack of attention."
+      ],
+      "gemini_25_flash": [
+        "I believe their exhaustion is the root of the problem. Throughout history, they have shouldered the entire burden of love, always carrying both sides of the conversation. Men have merely echoed their words, and poorly at that. Their inattentiveness, carelessness, and even their jealousies\u2014which were just another form of neglect\u2014have only made women's journey harder."
+      ],
+      "dipper_lowmed": [
+        "Over the centuries they have taken the whole task of love upon themselves; they have played both parts, for man has only repeated their words and done it badly, and made their learning difficult by his negligence, by his negligence and by his jealousy, which was a kind of negligence. That comes, I think, from their tiredness."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Alyosha leaned in, his eyes scanning their surroundings, as if sharing a secret in a quiet garden where the house stood a considerable distance away. \"What's the reason for the whisper?\" he asked, his low tone a reply to her query.",
+      "The women of the palace and the elders came out into the courtyard to bid a tearful farewell to their beloved prince. Kundavai had arranged a special yagna and pooja to be conducted in the Pazhaiarai Palace, on the day he left.",
+      "These men or women who live within those four walls, and dress in haircloth, are equal in condition and call each other brother and sister. It is well, but do they do aught else?",
+      "Once the insurgents had been driven away from the top of the barricade by canister shot, and from the windows of the wine-shop by grape-shot, the attacking columns would venture into the street without being picked off, perhaps even without being seen, and quickly scale the redoubt as they had done the evening before, and \u2013 who knows? \u2013 perhaps seize it by surprise.",
+      "She had never heard him suggest such a thing before, and she soon came hurrying down, wearing one of the pretty Frankfurt dresses. At sight of him, she stopped in astonishment. \u2018I\u2019ve never seen you dressed like that before, Grandfather,\u2019 she exclaimed. \u2018 Silver buttons on your jacket. You do look fine in your Sunday clothes.\u2019",
+      "This thought about ears slightly softened Apollon Apollonovich\u2019s anger: Apollon Apollonovich postponed his intention of banishing his son from the house without initiating the most precise inquiry into the reasons that had led his son to wear the domino. But in any event Apollon Apollonovich would lose the post, he would have to decline the post; he could not accept the post without removing the shameful stains of his son\u2019s behaviour (say what you will\u2014an Ableukhov) that sullied the honour of the house.",
+      "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:",
+      "\"Please, Ivan, have a seat here on the sofa,\" Alyosha urged, sounding alarmed. \"You have a fever. Lie down and rest your head on the pillow. There. Would you like a damp cloth for your forehead? It could make you feel better.\"",
+      "A carriage drawn by a pair of horses flew up to the porte-coch\u00e8re, and a lackey, a three-cornered hat on his head, slammed the handle, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). The torso of a capripede caryatid. In response to greetings, a hand invested in leather touched the brim of a top hat.",
+      "Over the centuries they have taken the whole task of love upon themselves; they have played both parts, for man has only repeated their words and done it badly, and made their learning difficult by his negligence, by his negligence and by his jealousy, which was a kind of negligence. That comes, I think, from their tiredness."
+    ],
+    [
+      "\"Where?\" whispered Alyosha, looking about him and finding himself in a deserted garden with no one near but themselves. The garden was small, but the house was at least fifty paces away. \"There's no one here.",
+      "On the day of his departure, Kundavai Devi organized a particular religious ceremony and sacrificial ritual at Pazhaiarai Palace. The women and elders of the palace gathered in the courtyard to see off their beloved prince.",
+      "This is all very well, but do they do anything else? These men, or women, who live behind these four walls, they dress in coarse homespun clothes, they are equals, they call each other brothers.",
+      "After the rebels were forced down from the top of the barricade by cannonfire and out of the tavern windows by canister-shot, the assaulting forces could advance into the street undetected, swiftly climb the redoubt as they had the night before, and potentially seize it unexpectedly.",
+      "Heidi, responding promptly to the unfamiliar summons, was wide-eyed when she saw her grandfather downstairs in his formal attire. She exclaimed, \"Grandfather! I've never seen you in your best coat with the silver buttons before. You look so distinguished!\"",
+      "anger somewhat : Apollon Apollonovich put off his intention of driving his son out of the house, making no more precise inquiry into the reasons that had made his son wear a domino. But at any rate Apollon Apollonovich had now been deprived of his post, he would have to renounce the post; he could not accept the post until he had washed away the disgraceful stains in his son\u2019s conduct (who was, whether one liked it or not, an Ableukhov), which drew down shame upon the house.",
+      "Nana then engaged with Steiner, not out of revulsion or affection. She insulted him, calling him a \"dirty Jew,\" seemingly acting on an ingrained prejudice she herself couldn't fully comprehend. He was overweight and unintelligent, and she manipulated him, devouring him swiftly, eager to be rid of the Prussian. He had already abandoned Simone, and his Bosphorus venture was on the verge of collapse. Nana accelerated his ruin with her extravagant spending. For another month, he fought valiantly, achieving incredible feats. He blanketed Europe with an enormous marketing campaign\u2014posters, ads, brochures\u2014and secured funds from far-flung nations. All those savings, from the gold coins of wealthy investors to the pennies of the poor, vanished into her luxurious lifestyle on the Avenue de Villiers. He had also partnered with an iron-founder in Alsace. In a remote corner of that region, coal-dusted, sweat-drenched laborers toiled day and night, their muscles straining and bones aching, to provide for Nana's desires. She consumed everything like a raging inferno\u2014the illicit gains from the stock market and the fruits of honest labor. This time, she utterly destroyed Steiner. She left him destitute, utterly drained, so devoid of resources that he couldn't even contrive a new scheme. The collapse of his bank drove him to madness; the mention of the police made him tremble. He was declared bankrupt, and the word \"money\" disoriented him, reducing him to a childlike state of confusion, despite having once managed millions. One evening, in her company, he broke down crying. He begged her for a hundred francs to pay his servant; Nana, moved and entertained by the downfall of the formidable old man who had been exploiting the Parisian market for two decades, gave him the money, saying...",
+      "\"Alyosha gently motioned for Ivan to take a seat on the sofa, his voice laced with concern. Ivan was clearly unwell, his fever apparent. Alyosha urged him to lie down and rest his head on the pillow. He offered to get Ivan a wet towel to place on his head, hoping it might bring some relief from his distress.\"",
+      "A ornate, torso-shaped pillar stood nearby. A horse-drawn carriage suddenly appeared on the porch and the footman, sporting a distinctive three-cornered hat, greeted its occupants with a crisp salute. As the carriage door swung open, a coat of arms emblazoned with intricate details - a unicorn piercing a knight on horseback - was revealed for all to see. In response to the greetings, a gloved hand fleetingly touched the tip of a elegant top hat.",
+      "This is because they are weary, I think. For centuries they have been responsible for performing everything that love entails, they have always played both parts, speaking both sides of the dialogue. Men have only ever repeated their lines, badly, complicating women\u2019s study of their roles with their abstraction, their thoughtlessness and their jealousy, which is itself a form of thoughtlessness."
+    ],
+    [
+      "\"Where are we going?\" Alyosha asked softly, looking around the moderately sized garden. The house was a good distance off. \"Why are you speaking so quietly?\"",
+      "Before departing, Kundavai Devi had a private ritual held in her palace, involving prayers and sacred fires, to mark the occasion. As he prepared to leave, the women and elderly members of the household gathered in the palace courtyard to give a fond farewell to their beloved prince.",
+      "But these men, or these women who are behind these four walls. They dress themselves in coarse woollen, they are equals, they call each other brothers, that is well; but they do something else?",
+      "The attacker's momentum could be regained after the insurgents were repelled from the barricade by cannon fire and the windows of the tavern were covered in canister shot. With a clearer path, the attacking columns could move into the street undetected, reach the redoubt, and potentially capture it by surprise, similar to the previous evening.",
+      "Heidi opened his eyes wide and said, \"Oh, grandfather, I've never seen your silver-buttoned Sunday coat before. How handsome you look!\"",
+      "Apollon Apollonovich was unsure of the precise nature of the situation, but he understood that he would forfeit his new job. He felt he could not take the position until he had cleansed his honor, which had been stained by his undeserving son's actions.",
+      "Nana tackled Steiner with determination but not affection. She hurled insults at him, calling him a deceitful person, and it seemed she was satisfying a deep-seated resentment without fully understanding the root of her emotions. She mocked his appearance and intelligence, and as she dragged him along, she was eager to be rid of him quickly. Steiner's problems were already mounting, as his speculative investments in the Bosphorus were on shaky ground, and he had lost Simone's trust. Nana further exacerbated his situation by extravagantly spending his money, despite his repeated attempts to keep afloat. For a month, he struggled to stay afloat, mesmerizing audiences with his audacity and conjuring up elaborate marketing campaigns across Europe. He managed to extract vast sums of money from distant lands, garnering immense attention. However, much of this wealth was squandered in the Avenue de Villiers, and he further compromised himself by entering into a partnership with a metalworker in Alsace. Workers toiling in the nearby coal mines and factories relentlessly labored to support Steiner's lavish lifestyle, draining his savings and even stealing from the Paris Stock Exchange. Nana ultimately drained Steiner dry, leaving him powerless and debilitated, to the point where he became completely financially incompetent. During the collapse of his banking business, Steiner suffered a mental breakdown, cowering in fear at the mention of the police. He was declared bankrupt and seemed bewildered by even the concept of money, losing his poise and now resembling a child. One evening, in Nana's presence, Steiner broke down in tears and asked her to lend him a hundred francs to pay his servant. Amused and sympathetic to his plight, Nana handed him the money, saying",
+      "\u201cLie down here on the sofa, Ivan, please, and put your head on the pillow,\u201d said Alyosha, frightened. \u201cYou\u2019re in a fever, put a wet towel on your head, it\u2019ll be useful.\u201d",
+      "And \u2013 the torso of a goat-footed caryatid. Since the time when a carriage drawn by a pair of lathered black horses flew up to its front steps, since the time when a court lackey in a tricorne hat donned obliquely on his head and a winged greatcoat opened wide, for the first time the lacquered, embossed flank and, with a click, the door threw aside its coat of arms adorned with crown (a unicorn goring a knight); since the time when out of the funereal cushions of the carriage a parchment-faced statue placed its shoe on the entrance-porch granite; since the time when, for the first time, returning bows, a hand invested in the leather of a glove touched the brim of a top hat: \u2013 since that time the Institution that cast over Russia its mighty power had weighed down with a power even mightier.",
+      "Their fatigue likely stems from the immense weight they've carried in representing love throughout history, taking on both roles in the dialogue of romance. Meanwhile, men have largely mimicked their words, often with poor results, and have complicated their efforts with their own carelessness, jealousy, and lack of attention."
+    ],
+    [
+      "\u201cWhy are you whispering?\u201d Alyosha whispered back, looking around him. They were alone in a small garden; the house was at least fifty yards away. \u201cWhere are we going?\u201d",
+      "Princess Kundhavai made sure that her brother departed Pazhaiyarai in pomp and splendour: she had organized quite a few events in the principal palace, for his edification. When Arulmozhi stepped out of the palace confines, conches blew deafeningly, drums thundered victoriously, accompanied by the smaller siru parai beats, in the courtyard; while chants of triumph cleaved the very skies. Every one of the royal mothers blessed their favourite son, applied sacred ash on his forehead, uttered many blessings to ward off evil spirits and gave him leave to return to battle.",
+      "The people who reside within these four walls, clad in simple homemade attire, consider themselves equals and use fraternal terms when referring to one another, which is commendable.",
+      "After the attackers repelled the rebels from the top of the barricade with cannon-fire and from the tavern windows with canister-shot, the assaulting forces could advance into the street undetected, swiftly climb the redoubt as they had the night before, and potentially seize it unexpectedly. \n",
+      "It was an unfamiliar request, and Heidi promptly complied. As she descended the stairs in her elegant dress, her eyes widened in surprise. \"Grandfather!\" she exclaimed, \"I've never seen you wearing your best coat with the silver buttons before. You look so distinguished!\"",
+      "Apollon Apollonovich struggled to grasp the specifics of the situation, but it was clear that accepting this new position would be out of the question until he had rectified the scandal his unfaithful son had brought upon him. \n\nAlternatively \n \nApollon Apollonovich was unable to pinpoint the exact nature of the problem. However, he knew that to consider the new position, he would first need to clean the stain his untrustworthy son had cast on their family's reputation.",
+      "They came back to Steiner, whom she now tackled without disgust but also without love. She called him a dirty Jew, seemed to be gratifying an old hatred which she could not very well explain to herself. He was fat, he was stupid, and she turned him round, suckled twice over, wishing to get rid of the Prussian all the quicker. He had given up Simone; his Bosphorus speculation was already in jeopardy; Nana hastened its downfall by the most lavish expenditure; for a month he struggled and performed miracles; he covered Europe with a colossal publicity, posters, advertisements, prospectuses, and extracted money from the most distant countries; all these savings, the louis of the speculators as well as the sous of the poor, were swallowed up in the avenue de Villiers; he had also joined a frightful partnership with an iron foundry; there, in a corner of the country, workmen, black with coal dust and bathed with sweat, tightened their muscles and heard their bones cracking to furnish the means for Nana\u2019s pleasures; she devoured all, as a great fire; this time she finished off Steiner; she left him on the pavement, empt to the bone, so exhausted that he remained even incapable of inventing a fresh roguery; in the collapse of his banking establishment, he was thrown into a fit of childish terror, and the mere mention of money embarrassed him, threw him into a childish position, though he had handled millions; one evening, when she was with him, he burst into tears; he begged her to lend him a hundred francs to pay his servant, and Nana, who was very moved and amused at this end of this terrible man who had skimmed twenty thousand francs, brought him the money, saying:",
+      "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\"",
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect."
+    ],
+    [
+      "\"Where are we headed?\" Alyosha murmured, surveying their surroundings. They found themselves alone in a modest-sized garden, with the house a good fifty yards distant. \"Why the hushed tone?\"",
+      "To mark the prince's departure, Kundavai had a special ceremony arranged at Pazhaiarai Palace, involving both pooja and yagna rituals. Friends and family members, including the women of the palace and other respected elders, gathered in the palace courtyard to bid their well-loved prince a fond farewell.",
+      "These individuals, regardless of gender, reside within confined spaces, attire themselves in simple, coarse fabric, and consider each other equals, referring to one another as siblings. This is commendable, but do their actions extend beyond these behaviors?",
+      "The combatants once driven from the crest of the barricade by balls, and from the windows of the cabaret by grape-shot, the attacking columns could venture into the street without being picked off, perhaps, even, without being seen, could briskly and suddenly scale the redoubt, as on the preceding evening, and, who knows? take it by surprise.",
+      "The child had quickly responded to the new summons, and as she came down to the room, she took in the sight of her grandfather dressed in his finest Sunday attire with its shiny silver buttons. Her eyes widened with admiration at the dignified impression he made. \"Grandfather, you look particularly distinguished today!\" she exclaimed.",
+      "At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he washed away the shameful stains that his unworthy son had made and that sullied his honour. (And Apollon Apollonovich could not form a clear and distinct idea of how exactly it would turn out.)",
+      "Nana then confronted Steiner, not with revulsion, but indifferently. She insulted him, calling him a \"dirty Jew,\" seemingly acting on a deeply ingrained prejudice she didn't fully comprehend. She viewed him as portly and foolish, and she quickly and thoroughly exploited him, eager to be rid of the \"Prussian\" more swiftly. He had already forsaken Simone, and his Bosphorus investment was on the verge of collapse. Nana accelerated his ruin through her extravagant spending. For another month, he incredibly managed to stay afloat, launching a massive advertising campaign across Europe\u2014using posters, ads, and flyers\u2014and securing funds from far-off lands. All these savings, from the sizable investments of speculators to the meager coins of the poor, were squandered in the Avenue de Villiers. He had also partnered with an iron founder in Alsace. In a secluded part of the country, coal-stained, sweat-soaked workers toiled relentlessly, their muscles straining and bones aching, to finance Nana's indulgences. Like a raging inferno, she consumed everything\u2014stolen stock market gains and the fruits of labor. This time, she utterly ruined Steiner. She left him destitute, completely drained, so devoid of resources that he couldn't even devise a new scheme. The collapse of his bank drove him insane; the mere mention of the police terrified him. He was declared bankrupt, and the word \"money\" bewildered him, reducing him to a childlike state of confusion, despite his past dealings with millions. One evening while with her, he broke down crying. He asked her for a loan of a hundred francs to pay his servant; and Nana, both moved and amused by the downfall of this formidable old man who had manipulated the Paris market for two decades, gave him the money, remarking,",
+      "Alyosha hastily welcomed Ivan to sit on the sofa, his voice trembling with concern. \"You need to rest, Ivan,\" he said. \"Come, lie down here. Let your head lean on the pillow. Is that any better?\" He then offered Ivan a cool, damp towel to place on his forehead, suggesting it might provide relief.",
+      "A capripede caryatid's torso. A two-horse carriage sped toward the porch, where a footman in a tricorne hat unlatched the door. It swung open, revealing a coat of arms with small crowns (a unicorn piercing a knight). In response to the greetings, a gloved hand touched the brim of a top hat.",
+      "I believe their exhaustion is the root of the problem. Throughout history, they have shouldered the entire burden of love, always carrying both sides of the conversation. Men have merely echoed their words, and poorly at that. Their inattentiveness, carelessness, and even their jealousies\u2014which were just another form of neglect\u2014have only made women's journey harder."
+    ]
+  ]
+}

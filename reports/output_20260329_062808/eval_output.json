@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "google/gemini-2.5-pro",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "As for the man, he truly was so tired that he did not even make the most of those clean white sheets. He snuffed out his candle with his nostril, the way convicts do, and dropping on to the bed fully dressed, immediately fell into a deep sleep.",
+    "A thousand lords with girdle-jade walk in front and rear. The many flags of guardsmen stand both left and right. Those holding gilt bludgeons, And halberds and axes, March in pairs and pairs; The red silk lanterns, The royal incense urn, Move in solemnity. The dragons fly and the phoenixes dance; The falcons soar and the eagles take wing. This Son of Heaven\u2019s an upright sage; The righteous ministers are good. They increase our bliss by a thousand years, surpassing Yu and Shun; They secure peace of ten thousand ages, rivaling Yao and Tang. We also see the curve-handled umbrella, And robes with rolling dragons\u2014 Their glare lighting up each other; The jade joined-rings, The phoenix fans, Waving through holy mist. Those caps of pearls and belts of jade; The purple sashes and medals of gold. A thousand rows of soldiers protect the Throne; Two lines of marshals uphold the carriage. This emperor, cleansed and sincere, bows to the Buddha, Glad to raise incense and seek virtue\u2019s fruit. The grand cortege of the Tang emperor soon arrived in front of the temple. The emperor ordered a halt to the music, left the carriages, and led many officials in the worship of Buddha by taking up burning incense sticks in their hands. After bowing three times holding the incense, they raised their heads and looked around them. This was indeed a splendid religious hall. You see Dancing flags and banners; Bright, gleaming sunshades. Dancing flags and banners Fill the air with strands of flashing colored mists. Bright, gleaming sunshades Glow in the sun as fiery bolts. Imposing, the gold image of Lok\u0101jye\u1e63\u1e6dha;14 Most awesome, the jade features of the arhats. Divine flowers fill the vases. Sandalwood incense burn in the urns. The divine flowers filling the vases Adorn the temple with a brilliant forest of brocade. The sandalwood incense burning in the urns Covers the clear sky with waves of fragrant clouds. Piled high on red trays are fruits in season. On colored counters, mounds of cakes and sweets rest. Rows of noble priests chant the holy s\u016btras To save from their travails those orphaned souls. Taizong and his officials each lifted the incense; they also worshipped the golden body of the Buddha and paid homage to the arhats. Thereafter, the Master of the Law, Chen Xuanzang, the Grand Expositor of the Faith, led the various monks to greet the Tang emperor. After the ceremony, they went back to their seats according to their rank and station. The priest then presented Taizong with the proclamation for the deliverance of the orphaned souls. It read: The supreme virtue is vast and endless, for Buddhism is founded upon Nirv\u0101\u1e47a. The spirit of the pure and the clean circulates freely and flows everywhere in the Three Regions. There are a thousand changes and ten thousand transformations, all regulated by the forces of yin and yang. Boundless and vast indeed are the substance, the function, the true nature, and the permanence of such phenomena. But look at those orphaned souls, how worthy they are of our pity and commiseration! Now by the holy command of Taizong, we have selected and assembled various priests, who will engage in meditation and in the proclamation of the Law. Flinging wide the gates of salvation and setting in motion many vessels of mercy, we would deliver you, the multitudes, from the Sea of Woe and save you from perdition and from the Sixfold Path. You will be led to return to the way of truth and to enjoy the bliss of Heaven. Whether it be by motion, rest, or nonactivity, you will be united with, and become, pure essences. Therefore make use of this noble occasion, for you are invited to the pleasures of the celestial city. Take advantage of our Grand Mass so that you may find release from Hell\u2019s confinement, ascend quickly and freely to ultimate bliss, and travel without restraint in the Region of the West.15 The poem says: An urn of immortal incense. Some scrolls of salvific power. As we proclaim this boundless Law, Receive now Heaven\u2019s endless grace. All your guilt and crime abolished, You lost souls may leave your prison. May our nation be firmly blessed With peace long and all-embracing. Highly pleased by what he read, Taizong said to the monks, \u201cBe firm, all of you, in your devotion, and do not slack in your service to Buddha. After the achievement of merit and after each has received his blessing, we shall reward you handsomely. Be assured that you will not have labored in vain.\u201d",
+    "\u201cThat\u2019s precisely what he\u2019s missing!\u201d Razumikhin interrupted. \u201cThat\u2019s what\u2019s leading you all astray. I maintain that he was inept and inexperienced, and this was probably his first endeavor! If you assume he was a calculating and cunning rogue, then the whole thing turns out improbably. Assume an inexperienced fellow, and it turns out that it was chance alone that saved him from disaster, and what can\u2019t chance do? He might not even have foreseen the obstacles he\u2019d encounter! How did this affair proceed? He took items worth ten or twenty rubles, stuffed them into his pocket, searched around in the old woman\u2019s trunk, among her clothes\u2014but later, in her dresser, in a box in the top drawer, they find fifteen hundred rubles in cash, plus some notes! He didn\u2019t know how to rob; he only knew how to murder! It was his first endeavor, I tell you, his first. He lost his head! It wasn\u2019t calculation, but chance that saved him.\u201d",
+    "The \u2018principal tenant\u2019 of Jean Valjean\u2019s day had died and had been replaced by another exactly like her. I am not sure which philosopher said, \u2018There is never any shortage of old women.\u2019",
+    "The wonderful thing about the collision between young minds is that you can never predict the spark or anticipate the flash. What will the next moment bring? No one knows. The burst of laughter succeeds compassion. In the comic instant seriousness comes into play. Impulses are prompted by a chance word. Each individual\u2019s verve is paramount. A joke is enough to create an opening for the unexpected. These are exchanges that take abrupt turns, with sudden realignments of perspective. Fortuitousness is the scene-shifter in such conversations.",
+    "\u2018When I wished to determine the increase in weight the Nautilus would require to dive, my only concern was the progressive reduction in volume that sea water experiences as it becomes deeper.\u2019",
+    "(and Apollon Apollonovich could not form a clear and distinct idea of into what exactly). At any rate, Apollon Apollonovich would lose his new position: he could not accept it until he had washed away the disgraceful spots which had been made by his unworthy son and which had besmirched his honor.",
+    "That comes, I think, from their tiredness. Over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words, and done it badly. And has made their learning difficult with his distractedness, his negligence, his jealousy, which was itself a kind of negligence.",
+    "\u201cKandanmara, you know very well that I am not scared of these things, and I haven\u2019t done anything inappropriate. In Veeranarayanapuram, when Pazhuvetarayar and his entourage came along, I stood watching along with the crowd. I heard that you sent the entire procession of horses, elephants, and soldiers. Is that true?\u201d"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 4 are the only two that share a very specific and unusual misinterpretation of the source text. Both texts describe a \"porch\" that is attached to the carriage, rather than the building's entrance. Output 0 states the carriage flew up to the \"carriage porch,\" while Output 4 describes a torso standing on the \"porch of a carriage.\" This shared conceptual error is a strong indicator of a common origin. Additionally, both outputs attempt to use slightly elevated or unusual vocabulary to describe the gloved hand, resulting in slightly awkward phrasing: \"hand invested in leather\" (0) and \"doffing a glove to tip the brim\" (4). This suggests a shared stylistic tendency to use ambitious but slightly unnatural language. The other outputs handle the \"porch\" concept differently (as an \"entrance\" or \"entrance-porch\") and do not share this specific pattern of awkward phrasing.",
+    "Outputs 1 and 2 are the most likely to be from the same paraphrasing system. The most significant piece of evidence is the shared use of the specific and somewhat unnatural introductory phrase, \"As for the man...\". No other output uses this construction. This phrase is used in both outputs to introduce the idea of the man's fatigue and his disregard for the sheets. Furthermore, the clauses that follow this phrase are clear synonym-swaps of each other: \"actually so fatigued... profit by the nice white sheets\" in output 1 versus \"really so tired... take advantage of the clean white sheets\" in output 2. The most telling characteristic is the structural difference: in output 1, this clause begins the text, while in output 2, it is moved to the very end as a separate sentence. This combination of a unique shared lexical choice, simple synonym substitution within that shared structure, and a large-scale reordering of the entire clause is a strong and specific fingerprint of a single model's behavior.",
+    "Outputs 3 and 4 describe the exact same source material\u2014a grand imperial procession to a Buddhist temple\u2014in a remarkably similar fashion. They follow the same narrative sequence: the procession, the emperor's piety, arrival at the temple, the worship ceremony, a detailed description of the temple's interior, and the presentation of a proclamation. Most importantly, they share a significant amount of specific, non-generic vocabulary and phrasing. For instance, both mention \"halberds, and axes,\" a \"royal/regal incense urn,\" \"dragons\" and \"phoenixes\" dancing, \"gleaming sunshades,\" statues of a \"gold image of the Buddha\" and \"jade... arhats,\" \"sandalwood incense,\" a proclamation for the \"deliverance of the lost/orphaned souls,\" and chanting priests. The sentence structure is also similar, often starting with a descriptive clause before getting to the main action. The slight variations in word choice (e.g., \"gilt clubs\" vs. \"gilded bludgeons,\" \"lost souls\" vs. \"orphaned souls\") are characteristic of a single paraphrasing system generating slightly different outputs from the same source. No other pair of outputs exhibits this level of parallel structure and shared specific lexicon.",
+    "Outputs 1 and 3 exhibit a striking number of parallel structures and word choices, suggesting they originate from the same system. The core sentence constructions are nearly identical throughout both texts, with differences primarily being minor synonymous substitutions. For example:\n- Start: \"Exactly what he lacks!\" (1) vs. \"Exactly what he's lacking!\" (3).\n- Criminal's nature: \"clumsy and novice\" (1) vs. \"clumsy and green\" (3); \"shrewd and sly criminal\" (1) vs. \"shrewd and crafty villain\" (3).\n- Lack of foresight: \"anticipated the difficulties\" (1) vs. \"anticipated the challenges\" (3).\n- The unfolding: \"How did this whole thing unfold?\" appears identically in both.\n- Conclusion: \"pure chance that spared him\" (1) vs. \"pure coincidence that spared him\" (3).\n- First time: \"It was his debut, I tell you, his very first.\" (1) vs. \"It was his first attempt, I tell you, his very first\" (3).\nThis pattern of maintaining the same syntactic template while swapping out specific words strongly indicates a common origin. The other outputs have distinct stylistic fingerprints (e.g., heavy use of em-dashes in 0, clunky repetition in 2, and significant restructuring in 4) that set them apart from this pair.",
+    "Outputs 3 and 4 exhibit a highly specific and unusual shared characteristic in their word choice. Both replace the original term \"landlady\" with a two-word phrase starting with \"principal\": \"principal lodger\" in output 3 and \"principal tenant\" in output 4. This particular synonym choice is unique among the given options and suggests a common underlying paraphrasing logic or thesaurus. Furthermore, the phrasing used to introduce the philosopher's quote is very similar in structure: \"I know not what philosopher has said\" (3) and \"I do not know which philosopher said\" (4). The primary difference between them is the inverted sentence order, a common transformation for a paraphrasing system. These distinct, shared stylistic fingerprints strongly indicate they were generated by the same model.",
+    "Outputs 3 and 4 exhibit an almost identical sentence structure and share numerous unique lexical choices, pointing to a common origin. Both begin with the distinctive phrase \"The wonderful thing about the [...] of young minds is that you can never foresee the spark, anticipate the flash;\". They both contain the highly specific and unusual phrases \"laughter succeeds compassion\" and \"chance is the scene-shifter\", which are not found in any of the other outputs. Furthermore, they share constructions like \"impulses are prompted by a chance word\" and describe conversations that \"take abrupt/sudden turns, with sudden changes in perspective\". While there are minor word variations between them (e.g., \"rumble\" vs. \"clash\", \"verve of each person\" vs. \"each individual\"), these are consistent with the kind of small changes a single paraphrasing model might make across different runs. The underlying template and stylistic signature are the same, in stark contrast to the more fluent and interpretive styles of 0 and 2, or the different vocabulary choices in 1 (e.g., \"stage-manager\" instead of \"scene-shifter\").",
+    "Outputs 0 and 4 share several distinct linguistic fingerprints. The most significant is the shared use of the specific phrase \"progressive reduction in volume,\" which does not appear in any other output. Additionally, both outputs maintain a similar sentence structure, starting with \"When I wanted to...\" Both also use quotation marks around the entire sentence. While they use different synonyms in other parts of the sentence (e.g., \"calculate\" vs. \"determine\"; \"the sea undergoes\" vs. \"salt water experiences\"), this pattern of keeping a core distinctive phrase while varying the surrounding words with close synonyms is a strong indicator of a single paraphrasing system at work.",
+    "Outputs 3 and 4 are the only two that share a unique structural fingerprint: a main sentence followed by an almost identical parenthetical statement. Both parentheses begin with the exact phrase \"(And Apollon Apollonovich could not form a clear and distinct idea...)\". This specific structural choice, which is absent in all other outputs, is a strong indicator of a common origin. Additionally, both parenthetical statements end with slightly awkward or ungrammatical phrasing (\"...about what exactly it was.)\" in 3, and \"...of into what exactly.)\" in 4), suggesting a characteristic flaw or style of the same paraphrasing system. The main sentences also start with the very similar phrasing \"At least, Apollon Apollonovich would lose his new post/position:\".",
+    "Outputs 1 and 3 share multiple distinctive linguistic fingerprints. Both use the phrase \"merely echoed their sentiments, and poorly at that.\" They also both use the exact same list of negative traits: \"inattentiveness, carelessness, and envy.\" Furthermore, their opening and closing sentences are structurally and lexically very similar. For instance, Output 1 begins \"I believe their exhaustion is the root cause,\" while Output 3 begins \"This, I believe, stems from their exhaustion.\" Similarly, Output 1 ends with \"...which was, in itself, a form of neglect,\" and Output 3 ends with the nearly identical \"...which was a form of neglect in itself.\" These overlapping patterns are too significant to be a coincidence.",
+    "Outputs 1 and 3 share several distinct linguistic fingerprints that suggest a common origin. Both begin with the very similar phrase \"you're aware that...\", a construction not found in the other outputs. Furthermore, they are the only two outputs to describe the procession using the phrase \"Pazhuvetarayar and his group\". Other outputs use different terms like \"cavalcade\", \"retinue\", or \"entourage\". Most significantly, both 1 and 3 end their query with the specific word \"accurate\" (\"Is that accurate?\" and \"Is this accurate?\"), whereas the others use variations of \"true\" or something else entirely. These shared, unique word choices and phrasings strongly indicate they were produced by the same system."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "llama_31_8b": [
+        "A decorative caryatid supporting a carriage drove up to the entrance, and a footman in a high tricorn hat operated the handle, causing the door to swing open, revealing a coat of arms bearing a small, stylized crest of a unicorn attacking a knight. In response to a bow, a gloved hand tipped the brim of a top hat.",
+        "A decorative torso, possibly from a capripede (an animal-like creature), stood on the porch of a carriage. As the carriage approached, a liveried servant, sporting a three-cornered hat, stepped forward and opened the door, revealing a coat of arms with intricate details, including a mythical unicorn striking a knight. The servant responded to the greetings by doffing a glove to tip the brim of his top hat."
+      ],
+      "gemini_25_flash": [
+        "A sculpted figure, with the upper body of a person and the lower body of a goat, was part of the structure. A coach, pulled by two horses, sped to the entrance. A uniformed servant, wearing a three-cornered hat, opened the door with a click, revealing a crest embellished with small crowns \u2013 a unicorn stabbing a knight with its horn. In acknowledgement of greetings, a gloved hand briefly touched the brim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, with a cocked hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). A torso of a capripede caryatid. Responding to greetings, a hand invested in leather touched the brim of a top hat."
+      ]
+    },
+    {
+      "human_par3": [
+        "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep."
+      ],
+      "llama_31_8b": [
+        "The man was so exhausted that even the soft, clean bed didn't provide a welcome respite. He blew out the candle with his nose, a practice often associated with prisoners, and then flopped down onto the bed still fully clothed, instantly falling into a deep slumber.",
+        "Exhausted, the man barely benefited from the comfort of the crisp white sheets. He extinguished his candle by blowing it out through his nose, a crude habit, and then simply collapsed onto the bed fully clothed, instantly falling into a deep slumber."
+      ],
+      "gemini_25_flash": [
+        "The man was so utterly exhausted that he didn't even bother to properly appreciate the fresh, clean sheets. Like an inmate, he extinguished his candle by pinching it with his nostril, then collapsed onto the bed while still fully clothed, instantly falling into a profound slumber."
+      ],
+      "dipper_lowmed": [
+        "He blew out his candle with his nostril, as convicts do, and, throwing himself on the bed fully dressed, immediately fell into a deep sleep. As for the man, he was really so tired that he did not even take advantage of the clean white sheets."
+      ]
+    },
+    {
+      "human_par3": [
+        "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain."
+      ],
+      "llama_31_8b": [
+        "A magnificent procession, led by a thousand nobles, marched in unison, their girths adorned with jade and their guards standing attentively on either side. Members of the imperial guard, carrying gilt clubs, halberds, and axes, marched in perfect pairs. Elegant lanterns cast a red glow, while the royal incense urn emitted a majestic fragrance. Amidst this splendor, dragons soared and phoenixes danced, symbolizing the emperor's wisdom. The righteousness of his ministers was evident in their governance, increasing the nation's bliss by a thousand years and securing peace for ten thousand generations.\n\nThe emperor's magnificent entourage also included jewel-encrusted umbrellas, rolling dragon robes, and jade jewelry. Soldiers in rows of thousands protected the throne, while marshals stood guard in two lines alongside the imperial carriage. This emperor, with his pure intentions, showed reverence to the Buddha, burning incense and seeking virtue with devotion.\n\nAs the grand procession arrived at the temple, music ceased and the emperor stepped down from his carriage, leading the officials in a solemn ceremony to worship the Buddha. They took turn holding incense sticks, bowed three times, and then looked around with gratitude. The grandeur of the temple was breathtaking, with its vibrant flags and banners, gleaming sunshades, and stunning decorations.\n\nInside the temple, a gold image of the Buddha and a jade statue of the arhats were revered by the emperor and his officials. The air was filled with the sweetness of sandalwood incense, while divine flowers bloomed in vases, creating a breathtaking sight. Rows of noble priests chanted sutras to benefit the orphaned souls, and Taizong, with his officials, lifted the incense and paid homage to the Buddha.\n\nA proclamation was then presented to the emperor by the Master of the Law, asking for the deliverance of the lost souls. It explained the principle of Buddhism's supreme virtue and its ability to transcend time and space. The emperor, pleased with the proclamation, encouraged the priests to be devoted to their cause and promised to reward them heavily once they had achieved merit.",
+        "A grand procession, led by a thousand noble lords, moves through the streets, accompanied by guards and officials carrying flags and ceremonial staffs. The sound of halberds, axes, and other instruments fills the air as the group makes its way through the city. As they walk, the red silk lanterns and royal incense urns create a sense of dignity and importance. The dragons, phoenixes, and other mythical creatures that adorn the procession add to the sense of grandeur.\n\nThe emperor, a wise and just ruler, leads the procession, demonstrating his devotion to Buddhism by offering incense and prayers to the Buddha. The monks and officials who accompany him are also deeply devoted to their faith, and they take their roles in the procession seriously.\n\nAs the procession approaches the temple, the sound of music and chanting grows louder. The temple itself is a magnificent structure, filled with colorful flags and banners, as well as gold and jade decorations. The scent of sandalwood incense wafts through the air, adding to the sense of reverence and awe.\n\nThe ceremony is led by a priest, who presents the emperor with a proclamation that outlines the principles of Buddhism and the benefits of following the teachings of the Buddha. The proclamation emphasizes the importance of compassion and mercy, and invites the emperor and his people to join in the practice of Buddhism in order to achieve a higher level of spiritual understanding and enlightenment.\n\nThe emperor is deeply moved by the proclamation, and he promises to reward the monks and officials who have participated in the ceremony for their devotion and service to the Buddha. He also expresses his gratitude for the opportunity to participate in the ceremony and to learn more about the teachings of Buddhism."
+      ],
+      "gemini_25_flash": [
+        "A grand procession, featuring a multitude of high-ranking officials adorned with precious jade and accompanied by numerous flag-bearing guards, paraded with impressive weaponry like gilded bludgeons, halberds, and axes. Red silk lanterns and a regal incense urn were carried with great solemnity. Mythical creatures like dragons and phoenixes, along with falcons and eagles, were depicted as soaring and dancing, symbolizing the auspicious presence of a virtuous emperor. This \"Son of Heaven\" was hailed as a righteous sage, supported by upright ministers who promised an era of unparalleled prosperity and peace, surpassing even legendary rulers like Yu, Shun, Yao, and Tang.\n\nThe scene was further embellished with curved umbrellas and imperial robes featuring swirling dragon designs, their brilliance reflecting off one another. Jade rings and phoenix-feather fans moved through a sacred mist. Caps adorned with pearls and belts with jade, alongside purple sashes and gold medals, signaled the prestige of the attendees. A vast array of soldiers surrounded the emperor, with marshals flanking his carriage, all in service of the Throne.\n\nThe pure and devoted emperor, in his reverence for the Buddha, bowed humbly, eager to offer incense and seek spiritual rewards. The Tang emperor's magnificent retinue soon reached the temple. The emperor commanded a halt to the music, dismounted his carriage, and, along with his officials, participated in the Buddhist worship by lighting incense sticks. After three bows with the incense, they looked around, taking in the splendor of the religious hall.\n\nBanners and flags danced vibrantly, their colorful threads creating shimmering mists in the air. Bright, gleaming sunshades glowed like fiery bolts in the sun. Inside, an imposing golden statue of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade figures of arhats were displayed. Vases overflowed with divine flowers, forming a brilliant tapestry of color, while sandalwood incense burned in urns, releasing fragrant clouds that permeated the clear sky. Red trays were laden with seasonal fruits, and colorful counters held piles of cakes and sweets. Rows of noble priests chanted sacred s\u016btras, offering prayers for the salvation of orphaned souls.\n\nTaizong and his officials, after offering incense, also worshipped the golden Buddha statue and paid their respects to the arhats. Following this, the Master of the Law, Chen Xuanzang, a prominent religious figure, led the monks in greeting the emperor. After the ceremony, everyone returned to their assigned places based on their rank. The priest then presented Taizong with a proclamation for the spiritual deliverance of orphaned souls.\n\nThe proclamation spoke of the boundless and eternal nature of Buddhism, founded on Nirv\u0101\u1e47a, and the universal reach of its pure and clean spirit throughout all realms, influenced by the forces of yin and yang. It acknowledged the profound and lasting nature of such spiritual phenomena. The text expressed deep pity for orphaned souls and announced that, under Taizong's decree, priests had been gathered to meditate and preach the Dharma. Through open gates of salvation and compassionate deeds, the aim was to rescue countless souls from suffering, perdition, and the cycle of rebirth, guiding them towards truth and heavenly bliss, where they would achieve a state of pure essence, whether through action, contemplation, or non-action. The invitation was extended to partake in the joys of the celestial city and find release from Hell, ascending to ultimate happiness and freely traveling in the Western Paradise.\n\nA poem accompanying the proclamation described an urn of sacred incense and scrolls of redemptive power, promising that through this boundless Dharma, divine grace would be received. It assured that all guilt and crimes would be absolved, allowing lost souls to escape their confinement, and that the nation would be blessed with lasting peace.\n\nGreatly pleased by the proclamation, Taizong addressed the monks, urging them to remain steadfast in their devotion and service to Buddha. He promised handsome rewards for their merits and blessings, assuring them that their efforts would not be in vain."
+      ],
+      "dipper_lowmed": [
+        "This Son of Heaven is truly the Great Sage Equaling Heaven, Whose mighty virtue is second to none. His ministers are truly worthy of his trust, Whose benevolence will surely reach Heaven. His majesty\u2019s mighty virtue will surpass that of Yu and Shun, His righteousness will equal that of Yao and Tang."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018That\u2019s just the point\u2014it isn\u2019t!\u2019 interrupted Razumikhin. \u2018 That\u2019s just what you\u2019re all getting wrong. What I say is that he\u2019s not clever, not experienced, and probably this was his first time! If you imagine it being planned by a clever villain, it doesn\u2019t make sense. But if you imagine someone inexperienced, then it\u2019s quite clear that there was just one lucky chance that saved him from disaster\u2014and chance can do anything. I mean, perhaps he never foresaw any difficulties! And how does he set about it? He takes some things worth ten or twenty roubles apiece and fills his pockets with them, he burrows in the old woman\u2019s trunk, amongst all her rags, and all the while there\u2019s a box in the top drawer of her chest of drawers where they\u2019ve found fifteen hundred roubles in cash, not to mention banknotes! He didn\u2019t even manage to rob her\u2014all he managed to do was kill her! It was his first time , I\u2019m telling you, his first time, and he lost his head! And it wasn\u2019t any planning on his part, it was pure luck that saved him!\u2019"
+      ],
+      "llama_31_8b": [
+        "Razumikhin cut in. \"That's exactly the point you're overlooking. Your theory is based on an incomplete understanding. Instead, suppose the man was truly as clumsy and inexperienced as I believe, and this was his first time at something like this. If you attribute cunning and cleverness to him, the entire story seems implausible. But if he was a novice, maybe it was just luck that saved him from getting into even deeper trouble. Perhaps he didn't even anticipate the obstacles he'd encounter. So, how did this whole thing go down? He took a few paltry items worth around ten to twenty rubles and stuffed them in his pocket, and then rummaged through the old woman's trunk and clothes, but then he stumbled upon a much bigger windfall - fifteen hundred rubles in cash, plus some valuable documents in the dresser, in the top drawer. He didn't know the first thing about robbery, he only knew how to use violence. This was his first and only mistake, his inexperience led to it. It was chance that saved him, not any clever plan.\""
+      ],
+      "gemini_25_flash": [
+        "\"Exactly what he lacks!\" Razumikhin cut in. \"That's where you're all mistaken. I insist he was clumsy and novice, and it was likely his first attempt! If you imagine him as a shrewd and sly criminal, the whole situation becomes unbelievable. Assume he was inexperienced, and it becomes clear that only luck saved him from ruin, and what isn't luck capable of? He might not have even anticipated the difficulties he'd face! How did this whole thing unfold? He grabbed items worth ten or twenty rubles, shoved them into his pocket, rummaged through the old woman's trunk, amidst her clothes\u2014yet later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, plus promissory notes! He wasn't a proficient thief; he only knew how to kill! It was his debut, I tell you, his very first. He panicked! It wasn't clever planning, but pure chance that spared him.\"",
+        "\"Exactly what he's lacking!\" Razumikhin cut in. \"That's where you're all going wrong. I insist he was clumsy and green, and this was likely his initial venture! If you imagine him as a shrewd and crafty villain, the entire scenario becomes unbelievable. But if you picture an amateur, then it makes sense that pure luck saved him from ruin\u2014and what can't luck accomplish? He might not have even anticipated the challenges he'd face! How did this whole thing unfold? He grabbed a few items worth ten or twenty rubles, shoved them into his pocket, rummaged through the old woman's chest, through her clothes\u2014yet later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, plus some promissory notes! He wasn't skilled at theft; he was only capable of murder! It was his first attempt, I tell you, his very first. He panicked! It wasn't clever planning, but pure coincidence that spared him.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThat\u2019s just what he lacks,\u201d Razumikhin interrupted, \u201cthat\u2019s what misleads you all; I maintain that he was inept and inexperienced, and that it was probably his first attempt! He did not know how to steal, he only knew how to murder; he was trying for the first time, and it was a first try, I tell you, he lost his head; it was not calculation, but chance that saved him. He took articles worth twenty or ten rubles, stuffed them into his pocket, ransacked the old woman\u2019s trunk, ransacked her linen closet, but there they found, in a box in the top drawer, fifteen hundred rubles in cash, with tickets! He did not know how to rob, he knew only how to murder; he was a first-time thief, I tell you, he was a first-time thief, but he had lost his head!"
+      ]
+    },
+    {
+      "human_par3": [
+        "The \u201cprincipal lodger\u201d of Jean Valjean\u2019s day was dead and had been replaced by another exactly like her. I know not what philosopher has said: \u201cOld women are never lacking.\u201d",
+        "The \u201clandlady\u201d of the time of Jean Valjean was dead, and had been replaced by another exactly like her. I do not remember what philosopher it was who said: \u201cThere is never any lack of old women.\u201d"
+      ],
+      "llama_31_8b": [
+        "A key figure in Jean Valjean's life had passed away and been succeeded by an equally dominant matriarchal presence, prompting a wry remark that one can't help but wonder if a particular philosopher once coined."
+      ],
+      "gemini_25_flash": [
+        "The older woman who had occupied Jean Valjean's thoughts passed away, only to be succeeded by another who was her spitting image. I believe it was a philosopher who once remarked, \"There's always an abundance of elderly women.\""
+      ],
+      "dipper_lowmed": [
+        "I do not know which philosopher said: There is never any lack of old women. The principal tenant of Jean Valjean\u2019s day had died and had been replaced by another exactly like herself."
+      ]
+    },
+    {
+      "human_par3": [
+        "The shocks of youthful minds among themselves have this admirable property, that one can never foresee the spark, nor divine the lightning flash. What will dart out presently? No one knows. The burst of laughter starts from a tender feeling. At the moment of jest, the serious makes its entry. Impulses depend on the first chance word. The spirit of each is sovereign, jest suffices to open the field to the unexpected. These are conversations with abrupt turns, in which the perspective changes suddenly. Chance is the stage-manager of such conversations."
+      ],
+      "llama_31_8b": [
+        "There's something magical about the interactions between young minds, as sparks can fly unpredictably and connections can be made in an instant. The timing of these exchanges is impossible to forecast, leaving everyone wondering what's next. Energetic bursts of laughter can captivate people's attention, forcing seriousness to take a backseat in the heat of the moment. A single, seemingly harmless comment can be all it takes to get an idea or conversation started, and each individual's unique personality plays a leading role. Humor can even serve as a catalyst, opening the door to new and unexpected ideas. These interactions are marked by sudden changes of direction and shifts in perspective, and just the right combination of chance events can turn a conversation in an entirely new and exciting way."
+      ],
+      "gemini_25_flash": [
+        "When young people interact, it's impossible to foresee what surprising ideas or sudden insights might emerge. The future of the conversation is delightfully uncertain. Moments of shared humor often follow expressions of empathy. Jokes can quickly lead to serious discussions, and a single word can trigger new thoughts and feelings. The unique energy and enthusiasm of each person are vital. Even a simple joke can open the door to unforeseen developments. These conversations are full of unexpected twists and turns, where viewpoints can shift rapidly. In such discussions, chance plays a crucial role in directing the flow."
+      ],
+      "dipper_lowmed": [
+        "The wonderful thing about the rumble of young minds is that you can never foresee the spark, anticipate the flash; what will be the next minute? no one knows; the burst of laughter succeeds the compassion; in the comic instant seriousness plays; the impulses are prompted by a chance word, the verve of each person is paramount; a joke is enough to open the unexpected; these are exchanges that take sudden turns, with sudden changes in the perspective; chance is the scene-shifter in these conversations.",
+        "The wonderful thing about the clash of young minds is that you can never foresee the spark, anticipate the flash; the next moment is unknown, laughter succeeds compassion; the comic instant has its serious moment, impulses are prompted by a chance word, each individual is paramount, a joke is enough to open an unexpected perspective; these are conversations which take abrupt turns, with sudden changes in perspective; chance is the scene-shifter."
+      ]
+    },
+    {
+      "human_par3": [
+        "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d",
+        "\u201cWhen I wanted to determine what increase in weight the Nautilus needed to have in order to submerge, all I had to do was take note of the progressive reduction in volume that salt water experiences in deeper and deeper strata.\u201d"
+      ],
+      "llama_31_8b": [
+        "My main consideration in calculating the extra weight needed to enable the Nautilus to dive was the way water density changes as depth increases, leading to a decrease in water volume."
+      ],
+      "gemini_25_flash": [
+        "\"My sole focus when calculating the additional weight needed for the Nautilus to submerge was how seawater's volume systematically decreases with increasing depth.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWhen I wanted to calculate the increase in weight that the Nautilus would need to go deeper, I was only concerned about the progressive reduction in volume that the sea undergoes as it goes deeper.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "This thought about ears slightly softened Apollon Apollonovich\u2019s anger: Apollon Apollonovich postponed his intention of banishing his son from the house without initiating the most precise inquiry into the reasons that had led his son to wear the domino. But in any event Apollon Apollonovich would lose the post, he would have to decline the post; he could not accept the post without removing the shameful stains of his son\u2019s behaviour (say what you will\u2014an Ableukhov) that sullied the honour of the house."
+      ],
+      "llama_31_8b": [
+        "Apollon Apollonovich couldn't define the exact extent of the problem, but he was certain that taking the new position would be impossible until he had cleared his family's name and restored his reputation, tarnished by his son's actions."
+      ],
+      "gemini_25_flash": [
+        "Apollon Apollonovich was unsure of the precise nature of the situation, but one thing was clear: he would forfeit his new job. He felt he couldn't take the position until he had cleansed his honor, which had been stained by his undeserving son's shameful actions."
+      ],
+      "dipper_lowmed": [
+        "At least Apollon Apollonovich would lose his new position: he could not accept it before he had washed off the shameful stains which had been imposed on him by his unworthy son and which had stained his honour. (And Apollon Apollonovich could not form a clear and distinct idea of into what exactly.)",
+        "At least, Apollon Apollonovich would lose his new post: he could not accept it before he had washed away the shameful spots, made by his unworthy son, which stained his honor. (And Apollon Apollonovich could not form a clear and distinct idea about what exactly it was.)"
+      ]
+    },
+    {
+      "human_par3": [
+        "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect."
+      ],
+      "llama_31_8b": [
+        "After all the years of shouldering the weight of love, they've grown exhausted. For too long, they've been playing both roles in the relationship, while men have merely parroted their phrases and done so poorly. To make matters worse, men's forgetfulness, lack of attention, and jealous outbursts have only complicated the issue, born out of a kind of careless disregard."
+      ],
+      "gemini_25_flash": [
+        "I believe their exhaustion is the root cause. Throughout history, they have shouldered the entire burden of love, always carrying the full weight of the conversation, playing both roles. Men, in contrast, have merely echoed their sentiments, and poorly at that. They have also hindered women's growth and understanding through their inattentiveness, carelessness, and envy, which was, in itself, a form of neglect.",
+        "This, I believe, stems from their exhaustion. Throughout history, they have solely shouldered the burden of love, carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. Their pursuit of knowledge has been hindered by men's inattentiveness, carelessness, and envy, which was a form of neglect in itself."
+      ],
+      "dipper_lowmed": [
+        "Over the centuries they have taken on themselves the whole task of love; they have always played the whole dialogue, both parts; for man has only repeated their words and done it badly, and has made their learning difficult by his absence, his negligence, his jealousy, which itself was a kind of negligence. This comes from their fatigue, I think."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough."
+      ],
+      "llama_31_8b": [
+        "You're well aware that I wouldn't back down in situations like this, and I haven't done anything wrong. I remember the time Pazhuvetarayar and his retinue arrived in Veeranarayanapuram \u2013 I was there watching with the others in the crowd. I was told that your forces, including horse-mounted troops, elephants, and soldiers, were dispatched there. Is that the truth?"
+      ],
+      "gemini_25_flash": [
+        "\"Kandanmara, you're aware that such things don't frighten me, and I've acted appropriately. When Pazhuvetarayar and his group arrived in Veeranarayanapuram, I observed them with everyone else. I was told that you organized the entire parade of horses, elephants, and soldiers. Is that accurate?\"",
+        "\"Kandanmara, you're aware that I don't fear such matters and haven't acted improperly. In Veeranarayanapuram, I simply observed the procession when Pazhuvetarayar and his group arrived. It is rumored that you dispatched the entire cavalry, elephant corps, and infantry. Is this accurate?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cKandamara, you know I am not afraid of such things, and I have not done anything inappropriate. In Veeranarayanapuram, when Pazhuvettarayar and his entourage passed by, I stood watching along with the crowd. I heard that you sent a large army of horses, elephants and soldiers. Is it true?\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, with a cocked hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). A torso of a capripede caryatid. Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+      "The man was so utterly exhausted that he didn't even bother to properly appreciate the fresh, clean sheets. Like an inmate, he extinguished his candle by pinching it with his nostril, then collapsed onto the bed while still fully clothed, instantly falling into a profound slumber.",
+      "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain.",
+      "\u2018That\u2019s just the point\u2014it isn\u2019t!\u2019 interrupted Razumikhin. \u2018 That\u2019s just what you\u2019re all getting wrong. What I say is that he\u2019s not clever, not experienced, and probably this was his first time! If you imagine it being planned by a clever villain, it doesn\u2019t make sense. But if you imagine someone inexperienced, then it\u2019s quite clear that there was just one lucky chance that saved him from disaster\u2014and chance can do anything. I mean, perhaps he never foresaw any difficulties! And how does he set about it? He takes some things worth ten or twenty roubles apiece and fills his pockets with them, he burrows in the old woman\u2019s trunk, amongst all her rags, and all the while there\u2019s a box in the top drawer of her chest of drawers where they\u2019ve found fifteen hundred roubles in cash, not to mention banknotes! He didn\u2019t even manage to rob her\u2014all he managed to do was kill her! It was his first time , I\u2019m telling you, his first time, and he lost his head! And it wasn\u2019t any planning on his part, it was pure luck that saved him!\u2019",
+      "The \u201clandlady\u201d of the time of Jean Valjean was dead, and had been replaced by another exactly like her. I do not remember what philosopher it was who said: \u201cThere is never any lack of old women.\u201d",
+      "There's something magical about the interactions between young minds, as sparks can fly unpredictably and connections can be made in an instant. The timing of these exchanges is impossible to forecast, leaving everyone wondering what's next. Energetic bursts of laughter can captivate people's attention, forcing seriousness to take a backseat in the heat of the moment. A single, seemingly harmless comment can be all it takes to get an idea or conversation started, and each individual's unique personality plays a leading role. Humor can even serve as a catalyst, opening the door to new and unexpected ideas. These interactions are marked by sudden changes of direction and shifts in perspective, and just the right combination of chance events can turn a conversation in an entirely new and exciting way.",
+      "\u201cWhen I wanted to calculate the increase in weight that the Nautilus would need to go deeper, I was only concerned about the progressive reduction in volume that the sea undergoes as it goes deeper.\u201d",
+      "Apollon Apollonovich was unsure of the precise nature of the situation, but one thing was clear: he would forfeit his new job. He felt he couldn't take the position until he had cleansed his honor, which had been stained by his undeserving son's shameful actions.",
+      "Over the centuries they have taken on themselves the whole task of love; they have always played the whole dialogue, both parts; for man has only repeated their words and done it badly, and has made their learning difficult by his absence, his negligence, his jealousy, which itself was a kind of negligence. This comes from their fatigue, I think.",
+      "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough."
+    ],
+    [
+      "A decorative caryatid supporting a carriage drove up to the entrance, and a footman in a high tricorn hat operated the handle, causing the door to swing open, revealing a coat of arms bearing a small, stylized crest of a unicorn attacking a knight. In response to a bow, a gloved hand tipped the brim of a top hat.",
+      "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep.",
+      "A grand procession, led by a thousand noble lords, moves through the streets, accompanied by guards and officials carrying flags and ceremonial staffs. The sound of halberds, axes, and other instruments fills the air as the group makes its way through the city. As they walk, the red silk lanterns and royal incense urns create a sense of dignity and importance. The dragons, phoenixes, and other mythical creatures that adorn the procession add to the sense of grandeur.\n\nThe emperor, a wise and just ruler, leads the procession, demonstrating his devotion to Buddhism by offering incense and prayers to the Buddha. The monks and officials who accompany him are also deeply devoted to their faith, and they take their roles in the procession seriously.\n\nAs the procession approaches the temple, the sound of music and chanting grows louder. The temple itself is a magnificent structure, filled with colorful flags and banners, as well as gold and jade decorations. The scent of sandalwood incense wafts through the air, adding to the sense of reverence and awe.\n\nThe ceremony is led by a priest, who presents the emperor with a proclamation that outlines the principles of Buddhism and the benefits of following the teachings of the Buddha. The proclamation emphasizes the importance of compassion and mercy, and invites the emperor and his people to join in the practice of Buddhism in order to achieve a higher level of spiritual understanding and enlightenment.\n\nThe emperor is deeply moved by the proclamation, and he promises to reward the monks and officials who have participated in the ceremony for their devotion and service to the Buddha. He also expresses his gratitude for the opportunity to participate in the ceremony and to learn more about the teachings of Buddhism.",
+      "\"Exactly what he lacks!\" Razumikhin cut in. \"That's where you're all mistaken. I insist he was clumsy and novice, and it was likely his first attempt! If you imagine him as a shrewd and sly criminal, the whole situation becomes unbelievable. Assume he was inexperienced, and it becomes clear that only luck saved him from ruin, and what isn't luck capable of? He might not have even anticipated the difficulties he'd face! How did this whole thing unfold? He grabbed items worth ten or twenty rubles, shoved them into his pocket, rummaged through the old woman's trunk, amidst her clothes\u2014yet later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, plus promissory notes! He wasn't a proficient thief; he only knew how to kill! It was his debut, I tell you, his very first. He panicked! It wasn't clever planning, but pure chance that spared him.\"",
+      "The older woman who had occupied Jean Valjean's thoughts passed away, only to be succeeded by another who was her spitting image. I believe it was a philosopher who once remarked, \"There's always an abundance of elderly women.\"",
+      "The shocks of youthful minds among themselves have this admirable property, that one can never foresee the spark, nor divine the lightning flash. What will dart out presently? No one knows. The burst of laughter starts from a tender feeling. At the moment of jest, the serious makes its entry. Impulses depend on the first chance word. The spirit of each is sovereign, jest suffices to open the field to the unexpected. These are conversations with abrupt turns, in which the perspective changes suddenly. Chance is the stage-manager of such conversations.",
+      "\"My sole focus when calculating the additional weight needed for the Nautilus to submerge was how seawater's volume systematically decreases with increasing depth.\"",
+      "This thought about ears slightly softened Apollon Apollonovich\u2019s anger: Apollon Apollonovich postponed his intention of banishing his son from the house without initiating the most precise inquiry into the reasons that had led his son to wear the domino. But in any event Apollon Apollonovich would lose the post, he would have to decline the post; he could not accept the post without removing the shameful stains of his son\u2019s behaviour (say what you will\u2014an Ableukhov) that sullied the honour of the house.",
+      "I believe their exhaustion is the root cause. Throughout history, they have shouldered the entire burden of love, always carrying the full weight of the conversation, playing both roles. Men, in contrast, have merely echoed their sentiments, and poorly at that. They have also hindered women's growth and understanding through their inattentiveness, carelessness, and envy, which was, in itself, a form of neglect.",
+      "\"Kandanmara, you're aware that such things don't frighten me, and I've acted appropriately. When Pazhuvetarayar and his group arrived in Veeranarayanapuram, I observed them with everyone else. I was told that you organized the entire parade of horses, elephants, and soldiers. Is that accurate?\""
+    ],
+    [
+      "A sculpted figure, with the upper body of a person and the lower body of a goat, was part of the structure. A coach, pulled by two horses, sped to the entrance. A uniformed servant, wearing a three-cornered hat, opened the door with a click, revealing a crest embellished with small crowns \u2013 a unicorn stabbing a knight with its horn. In acknowledgement of greetings, a gloved hand briefly touched the brim of a top hat.",
+      "He blew out his candle with his nostril, as convicts do, and, throwing himself on the bed fully dressed, immediately fell into a deep sleep. As for the man, he was really so tired that he did not even take advantage of the clean white sheets.",
+      "This Son of Heaven is truly the Great Sage Equaling Heaven, Whose mighty virtue is second to none. His ministers are truly worthy of his trust, Whose benevolence will surely reach Heaven. His majesty\u2019s mighty virtue will surpass that of Yu and Shun, His righteousness will equal that of Yao and Tang.",
+      "\u201cThat\u2019s just what he lacks,\u201d Razumikhin interrupted, \u201cthat\u2019s what misleads you all; I maintain that he was inept and inexperienced, and that it was probably his first attempt! He did not know how to steal, he only knew how to murder; he was trying for the first time, and it was a first try, I tell you, he lost his head; it was not calculation, but chance that saved him. He took articles worth twenty or ten rubles, stuffed them into his pocket, ransacked the old woman\u2019s trunk, ransacked her linen closet, but there they found, in a box in the top drawer, fifteen hundred rubles in cash, with tickets! He did not know how to rob, he knew only how to murder; he was a first-time thief, I tell you, he was a first-time thief, but he had lost his head!",
+      "A key figure in Jean Valjean's life had passed away and been succeeded by an equally dominant matriarchal presence, prompting a wry remark that one can't help but wonder if a particular philosopher once coined.",
+      "When young people interact, it's impossible to foresee what surprising ideas or sudden insights might emerge. The future of the conversation is delightfully uncertain. Moments of shared humor often follow expressions of empathy. Jokes can quickly lead to serious discussions, and a single word can trigger new thoughts and feelings. The unique energy and enthusiasm of each person are vital. Even a simple joke can open the door to unforeseen developments. These conversations are full of unexpected twists and turns, where viewpoints can shift rapidly. In such discussions, chance plays a crucial role in directing the flow.",
+      "My main consideration in calculating the extra weight needed to enable the Nautilus to dive was the way water density changes as depth increases, leading to a decrease in water volume.",
+      "Apollon Apollonovich couldn't define the exact extent of the problem, but he was certain that taking the new position would be impossible until he had cleared his family's name and restored his reputation, tarnished by his son's actions.",
+      "After all the years of shouldering the weight of love, they've grown exhausted. For too long, they've been playing both roles in the relationship, while men have merely parroted their phrases and done so poorly. To make matters worse, men's forgetfulness, lack of attention, and jealous outbursts have only complicated the issue, born out of a kind of careless disregard.",
+      "You're well aware that I wouldn't back down in situations like this, and I haven't done anything wrong. I remember the time Pazhuvetarayar and his retinue arrived in Veeranarayanapuram \u2013 I was there watching with the others in the crowd. I was told that your forces, including horse-mounted troops, elephants, and soldiers, were dispatched there. Is that the truth?"
+    ],
+    [
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "The man was so exhausted that even the soft, clean bed didn't provide a welcome respite. He blew out the candle with his nose, a practice often associated with prisoners, and then flopped down onto the bed still fully clothed, instantly falling into a deep slumber.",
+      "A magnificent procession, led by a thousand nobles, marched in unison, their girths adorned with jade and their guards standing attentively on either side. Members of the imperial guard, carrying gilt clubs, halberds, and axes, marched in perfect pairs. Elegant lanterns cast a red glow, while the royal incense urn emitted a majestic fragrance. Amidst this splendor, dragons soared and phoenixes danced, symbolizing the emperor's wisdom. The righteousness of his ministers was evident in their governance, increasing the nation's bliss by a thousand years and securing peace for ten thousand generations.\n\nThe emperor's magnificent entourage also included jewel-encrusted umbrellas, rolling dragon robes, and jade jewelry. Soldiers in rows of thousands protected the throne, while marshals stood guard in two lines alongside the imperial carriage. This emperor, with his pure intentions, showed reverence to the Buddha, burning incense and seeking virtue with devotion.\n\nAs the grand procession arrived at the temple, music ceased and the emperor stepped down from his carriage, leading the officials in a solemn ceremony to worship the Buddha. They took turn holding incense sticks, bowed three times, and then looked around with gratitude. The grandeur of the temple was breathtaking, with its vibrant flags and banners, gleaming sunshades, and stunning decorations.\n\nInside the temple, a gold image of the Buddha and a jade statue of the arhats were revered by the emperor and his officials. The air was filled with the sweetness of sandalwood incense, while divine flowers bloomed in vases, creating a breathtaking sight. Rows of noble priests chanted sutras to benefit the orphaned souls, and Taizong, with his officials, lifted the incense and paid homage to the Buddha.\n\nA proclamation was then presented to the emperor by the Master of the Law, asking for the deliverance of the lost souls. It explained the principle of Buddhism's supreme virtue and its ability to transcend time and space. The emperor, pleased with the proclamation, encouraged the priests to be devoted to their cause and promised to reward them heavily once they had achieved merit.",
+      "\"Exactly what he's lacking!\" Razumikhin cut in. \"That's where you're all going wrong. I insist he was clumsy and green, and this was likely his initial venture! If you imagine him as a shrewd and crafty villain, the entire scenario becomes unbelievable. But if you picture an amateur, then it makes sense that pure luck saved him from ruin\u2014and what can't luck accomplish? He might not have even anticipated the challenges he'd face! How did this whole thing unfold? He grabbed a few items worth ten or twenty rubles, shoved them into his pocket, rummaged through the old woman's chest, through her clothes\u2014yet later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, plus some promissory notes! He wasn't skilled at theft; he was only capable of murder! It was his first attempt, I tell you, his very first. He panicked! It wasn't clever planning, but pure coincidence that spared him.\"",
+      "The \u201cprincipal lodger\u201d of Jean Valjean\u2019s day was dead and had been replaced by another exactly like her. I know not what philosopher has said: \u201cOld women are never lacking.\u201d",
+      "The wonderful thing about the rumble of young minds is that you can never foresee the spark, anticipate the flash; what will be the next minute? no one knows; the burst of laughter succeeds the compassion; in the comic instant seriousness plays; the impulses are prompted by a chance word, the verve of each person is paramount; a joke is enough to open the unexpected; these are exchanges that take sudden turns, with sudden changes in the perspective; chance is the scene-shifter in these conversations.",
+      "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d",
+      "At least, Apollon Apollonovich would lose his new post: he could not accept it before he had washed away the shameful spots, made by his unworthy son, which stained his honor. (And Apollon Apollonovich could not form a clear and distinct idea about what exactly it was.)",
+      "This, I believe, stems from their exhaustion. Throughout history, they have solely shouldered the burden of love, carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. Their pursuit of knowledge has been hindered by men's inattentiveness, carelessness, and envy, which was a form of neglect in itself.",
+      "\"Kandanmara, you're aware that I don't fear such matters and haven't acted improperly. In Veeranarayanapuram, I simply observed the procession when Pazhuvetarayar and his group arrived. It is rumored that you dispatched the entire cavalry, elephant corps, and infantry. Is this accurate?\""
+    ],
+    [
+      "A decorative torso, possibly from a capripede (an animal-like creature), stood on the porch of a carriage. As the carriage approached, a liveried servant, sporting a three-cornered hat, stepped forward and opened the door, revealing a coat of arms with intricate details, including a mythical unicorn striking a knight. The servant responded to the greetings by doffing a glove to tip the brim of his top hat.",
+      "Exhausted, the man barely benefited from the comfort of the crisp white sheets. He extinguished his candle by blowing it out through his nose, a crude habit, and then simply collapsed onto the bed fully clothed, instantly falling into a deep slumber.",
+      "A grand procession, featuring a multitude of high-ranking officials adorned with precious jade and accompanied by numerous flag-bearing guards, paraded with impressive weaponry like gilded bludgeons, halberds, and axes. Red silk lanterns and a regal incense urn were carried with great solemnity. Mythical creatures like dragons and phoenixes, along with falcons and eagles, were depicted as soaring and dancing, symbolizing the auspicious presence of a virtuous emperor. This \"Son of Heaven\" was hailed as a righteous sage, supported by upright ministers who promised an era of unparalleled prosperity and peace, surpassing even legendary rulers like Yu, Shun, Yao, and Tang.\n\nThe scene was further embellished with curved umbrellas and imperial robes featuring swirling dragon designs, their brilliance reflecting off one another. Jade rings and phoenix-feather fans moved through a sacred mist. Caps adorned with pearls and belts with jade, alongside purple sashes and gold medals, signaled the prestige of the attendees. A vast array of soldiers surrounded the emperor, with marshals flanking his carriage, all in service of the Throne.\n\nThe pure and devoted emperor, in his reverence for the Buddha, bowed humbly, eager to offer incense and seek spiritual rewards. The Tang emperor's magnificent retinue soon reached the temple. The emperor commanded a halt to the music, dismounted his carriage, and, along with his officials, participated in the Buddhist worship by lighting incense sticks. After three bows with the incense, they looked around, taking in the splendor of the religious hall.\n\nBanners and flags danced vibrantly, their colorful threads creating shimmering mists in the air. Bright, gleaming sunshades glowed like fiery bolts in the sun. Inside, an imposing golden statue of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade figures of arhats were displayed. Vases overflowed with divine flowers, forming a brilliant tapestry of color, while sandalwood incense burned in urns, releasing fragrant clouds that permeated the clear sky. Red trays were laden with seasonal fruits, and colorful counters held piles of cakes and sweets. Rows of noble priests chanted sacred s\u016btras, offering prayers for the salvation of orphaned souls.\n\nTaizong and his officials, after offering incense, also worshipped the golden Buddha statue and paid their respects to the arhats. Following this, the Master of the Law, Chen Xuanzang, a prominent religious figure, led the monks in greeting the emperor. After the ceremony, everyone returned to their assigned places based on their rank. The priest then presented Taizong with a proclamation for the spiritual deliverance of orphaned souls.\n\nThe proclamation spoke of the boundless and eternal nature of Buddhism, founded on Nirv\u0101\u1e47a, and the universal reach of its pure and clean spirit throughout all realms, influenced by the forces of yin and yang. It acknowledged the profound and lasting nature of such spiritual phenomena. The text expressed deep pity for orphaned souls and announced that, under Taizong's decree, priests had been gathered to meditate and preach the Dharma. Through open gates of salvation and compassionate deeds, the aim was to rescue countless souls from suffering, perdition, and the cycle of rebirth, guiding them towards truth and heavenly bliss, where they would achieve a state of pure essence, whether through action, contemplation, or non-action. The invitation was extended to partake in the joys of the celestial city and find release from Hell, ascending to ultimate happiness and freely traveling in the Western Paradise.\n\nA poem accompanying the proclamation described an urn of sacred incense and scrolls of redemptive power, promising that through this boundless Dharma, divine grace would be received. It assured that all guilt and crimes would be absolved, allowing lost souls to escape their confinement, and that the nation would be blessed with lasting peace.\n\nGreatly pleased by the proclamation, Taizong addressed the monks, urging them to remain steadfast in their devotion and service to Buddha. He promised handsome rewards for their merits and blessings, assuring them that their efforts would not be in vain.",
+      "Razumikhin cut in. \"That's exactly the point you're overlooking. Your theory is based on an incomplete understanding. Instead, suppose the man was truly as clumsy and inexperienced as I believe, and this was his first time at something like this. If you attribute cunning and cleverness to him, the entire story seems implausible. But if he was a novice, maybe it was just luck that saved him from getting into even deeper trouble. Perhaps he didn't even anticipate the obstacles he'd encounter. So, how did this whole thing go down? He took a few paltry items worth around ten to twenty rubles and stuffed them in his pocket, and then rummaged through the old woman's trunk and clothes, but then he stumbled upon a much bigger windfall - fifteen hundred rubles in cash, plus some valuable documents in the dresser, in the top drawer. He didn't know the first thing about robbery, he only knew how to use violence. This was his first and only mistake, his inexperience led to it. It was chance that saved him, not any clever plan.\"",
+      "I do not know which philosopher said: There is never any lack of old women. The principal tenant of Jean Valjean\u2019s day had died and had been replaced by another exactly like herself.",
+      "The wonderful thing about the clash of young minds is that you can never foresee the spark, anticipate the flash; the next moment is unknown, laughter succeeds compassion; the comic instant has its serious moment, impulses are prompted by a chance word, each individual is paramount, a joke is enough to open an unexpected perspective; these are conversations which take abrupt turns, with sudden changes in perspective; chance is the scene-shifter.",
+      "\u201cWhen I wanted to determine what increase in weight the Nautilus needed to have in order to submerge, all I had to do was take note of the progressive reduction in volume that salt water experiences in deeper and deeper strata.\u201d",
+      "At least Apollon Apollonovich would lose his new position: he could not accept it before he had washed off the shameful stains which had been imposed on him by his unworthy son and which had stained his honour. (And Apollon Apollonovich could not form a clear and distinct idea of into what exactly.)",
+      "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect.",
+      "\u201cKandamara, you know I am not afraid of such things, and I have not done anything inappropriate. In Veeranarayanapuram, when Pazhuvettarayar and his entourage passed by, I stood watching along with the crowd. I heard that you sent a large army of horses, elephants and soldiers. Is it true?\u201d"
+    ]
+  ]
+}

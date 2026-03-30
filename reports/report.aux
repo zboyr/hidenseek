@@ -3,43 +3,33 @@
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{mitchell2023detectgpt}
+\citation{par3}
 \@writefile{toc}{\contentsline {section}{Abstract}{1}{section*.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {1}Problem Description}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}Dataset}{1}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Experimentation and Results}{1}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Experimental Setup}{1}{subsection.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Framework Architecture.}{1}{section*.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Trial Protocol.}{1}{section*.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Configurations.}{1}{section*.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Detection accuracy across all 10 runs. Left: per-run accuracy with mean and 95\% CI. Right: accuracy distribution with normal fit. The mean accuracy of 60.7\% is significantly above the 10\% random baseline ($t(9)=13.41$, $p < 0.001$).}}{2}{figure.caption.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Baselines.}{1}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Experiment 1: Duplicate Detection}{1}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Detective Model Comparison.}{1}{table.caption.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Duplicate detection accuracy across three Detective models, with and without access to past trial history. All models perform significantly above the 10\% baseline, but no model or history condition is clearly superior.}}{2}{figure.caption.6}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:accuracy_dist}{{1}{2}{Detection accuracy across all 10 runs. Left: per-run accuracy with mean and 95\% CI. Right: accuracy distribution with normal fit. The mean accuracy of 60.7\% is significantly above the 10\% random baseline ($t(9)=13.41$, $p < 0.001$)}{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Per-trial detection accuracy averaged over 9 runs with full data. Blue bars show average accuracy at each trial position; the red curve shows cumulative accuracy from trial 5 onward. Error bars indicate standard error.}}{2}{figure.caption.8}\protected@file@percent }
-\newlabel{fig:learning_curve}{{2}{2}{Per-trial detection accuracy averaged over 9 runs with full data. Blue bars show average accuracy at each trial position; the red curve shows cumulative accuracy from trial 5 onward. Error bars indicate standard error}{figure.caption.8}{}}
-\@writefile{toc}{\contentsline {paragraph}{Baseline.}{2}{section*.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Aggregate Accuracy}{2}{subsection.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Per-Trial Learning Curve}{2}{subsection.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Per-Paraphraser Detection Rates}{2}{subsection.3.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Detection rate for each paraphraser when randomly selected as the duplicate source. GPT-5-Nano is detected with 100\% accuracy, while Llama-3.1-8B is hardest to detect at 25\%.}}{2}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:detection_rate}{{3}{2}{Detection rate for each paraphraser when randomly selected as the duplicate source. GPT-5-Nano is detected with 100\% accuracy, while Llama-3.1-8B is hardest to detect at 25\%}{figure.caption.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Aggregated confusion matrix showing how often the Detective paired each combination of paraphrasers. Diagonal entries represent correct identifications. The strong GPT-5-Nano--DIPPER off-diagonal (32) indicates the Detective frequently confuses these two.}}{2}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:confusion}{{4}{2}{Aggregated confusion matrix showing how often the Detective paired each combination of paraphrasers. Diagonal entries represent correct identifications. The strong GPT-5-Nano--DIPPER off-diagonal (32) indicates the Detective frequently confuses these two}{figure.caption.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Confusion Analysis}{2}{subsection.3.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Response length (word count) distributions per paraphraser. Left: box plots. Right: overlaid histograms. Llama-3.1-8B produces the longest outputs ($\mu =104$), while DIPPER produces the shortest ($\mu =75$).}}{3}{figure.caption.11}\protected@file@percent }
-\newlabel{fig:response_length}{{5}{3}{Response length (word count) distributions per paraphraser. Left: box plots. Right: overlaid histograms. Llama-3.1-8B produces the longest outputs ($\mu =104$), while DIPPER produces the shortest ($\mu =75$)}{figure.caption.11}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Response length statistics (word count) per paraphraser.}}{3}{table.caption.12}\protected@file@percent }
-\newlabel{tab:length_stats}{{1}{3}{Response length statistics (word count) per paraphraser}{table.caption.12}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Response Length as a Fingerprint Feature}{3}{subsection.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Source Text Type Comparison}{3}{subsection.3.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Detective Rationale Analysis}{3}{subsection.3.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Detection accuracy by source text type. Both human-crafted and Auditor-generated texts yield identical accuracy (59.3\%), suggesting the APE-style refinement matches human-designed linguistic traps.}}{3}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:source_type}{{6}{3}{Detection accuracy by source text type. Both human-crafted and Auditor-generated texts yield identical accuracy (59.3\%), suggesting the APE-style refinement matches human-designed linguistic traps}{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Keyword frequency analysis of Detective rationales ($n=135$). Structural and stylistic features dominate the Detective's reasoning.}}{3}{figure.caption.14}\protected@file@percent }
-\newlabel{fig:rationale}{{7}{3}{Keyword frequency analysis of Detective rationales ($n=135$). Structural and stylistic features dominate the Detective's reasoning}{figure.caption.14}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}Auditor-as-Detective Configuration}{3}{subsection.3.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Plan for Next Steps}{3}{section.4}\protected@file@percent }
+\newlabel{fig:detective_cmp}{{1}{2}{Duplicate detection accuracy across three Detective models, with and without access to past trial history. All models perform significantly above the 10\% baseline, but no model or history condition is clearly superior}{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Duplicate detection accuracy by Detective model and history condition (weak paraphrasers).}}{2}{table.caption.7}\protected@file@percent }
+\newlabel{tab:detective}{{1}{2}{Duplicate detection accuracy by Detective model and history condition (weak paraphrasers)}{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Duplicate detection accuracy for weak vs.\ strong paraphraser sets. Strong models are \emph  {more} detectable (66.7\% vs.\ 61.1\%), suggesting that capable models develop more distinctive rewriting styles.}}{2}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:weak_vs_strong}{{2}{2}{Duplicate detection accuracy for weak vs.\ strong paraphraser sets. Strong models are \emph {more} detectable (66.7\% vs.\ 61.1\%), suggesting that capable models develop more distinctive rewriting styles}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {paragraph}{Weak vs.\ Strong Paraphrasers.}{2}{figure.caption.9}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Pairwise classification results over 50 trials. Left: per-trial correct matches (green = all 4 correct). Right: distribution of match counts. The Detective achieves 22\% perfect-match accuracy (11/50), far above the 4.17\% random baseline.}}{2}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:classification_main}{{3}{2}{Pairwise classification results over 50 trials. Left: per-trial correct matches (green = all 4 correct). Right: distribution of match counts. The Detective achieves 22\% perfect-match accuracy (11/50), far above the 4.17\% random baseline}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Experiment 2: Pairwise Classification}{2}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:classification}{{3.3}{2}{Experiment 2: Pairwise Classification}{subsection.3.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Overall Accuracy.}{2}{figure.caption.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Per-Paraphraser Identifiability.}{2}{figure.caption.13}\protected@file@percent }
 \bibstyle{ACM-Reference-Format}
 \bibcite{mitchell2023detectgpt}{{1}{}{{}}{{}}}
+\bibcite{par3}{{2}{}{{}}{{}}}
 \newlabel{tocindent-1}{0pt}
 \newlabel{tocindent0}{0pt}
 \newlabel{tocindent1}{4.185pt}
@@ -48,9 +38,16 @@
 \newlabel{tocindent4}{0pt}
 \newlabel{tocindent5}{0pt}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Comparison between separate Detective (stateless, $n=2$) and Auditor-as-Detective (with memory, $n=8$). No significant difference is observed.}}{4}{figure.caption.15}\protected@file@percent }
-\newlabel{fig:aud_vs_det}{{8}{4}{Comparison between separate Detective (stateless, $n=2$) and Auditor-as-Detective (with memory, $n=8$). No significant difference is observed}{figure.caption.15}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{4}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{References}{4}{section*.17}\protected@file@percent }
-\newlabel{TotPages}{{4}{4}{}{page.4}{}}
-\gdef \@abspage@last{4}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Individual match rate per paraphraser in the classification task. Human (PAR3) translations are the easiest to identify (62\%), while Sonnet\nonbreakingspace 4.6 is hardest (34\%). Random baseline is 25\%.}}{3}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:matchrate}{{4}{3}{Individual match rate per paraphraser in the classification task. Human (PAR3) translations are the easiest to identify (62\%), while Sonnet~4.6 is hardest (34\%). Random baseline is 25\%}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Classification confusion matrix. Diagonal entries (correct matches) are strongest for Human (31) and weakest for Sonnet\nonbreakingspace 4.6 (17). Off-diagonal patterns show systematic confusions between LLM paraphrasers.}}{3}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:confusion}{{5}{3}{Classification confusion matrix. Diagonal entries (correct matches) are strongest for Human (31) and weakest for Sonnet~4.6 (17). Off-diagonal patterns show systematic confusions between LLM paraphrasers}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {paragraph}{Confusion Analysis.}{3}{figure.caption.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Summary of All Experiments}{3}{section.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Summary of all experimental configurations. Eight distinct conditions were tested spanning two evaluation modes, two paraphraser strength levels, three Detective models, and two history conditions.}}{3}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:summary}{{6}{3}{Summary of all experimental configurations. Eight distinct conditions were tested spanning two evaluation modes, two paraphraser strength levels, three Detective models, and two history conditions}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{3}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Code Availability.}{3}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{3}{section*.19}\protected@file@percent }
+\newlabel{TotPages}{{3}{3}{}{page.3}{}}
+\gdef \@abspage@last{3}

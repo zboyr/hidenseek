@@ -1,0 +1,16 @@
+{
+  "mode": "classification",
+  "paraphrasers": [
+    "human_par3",
+    "sonnet_46",
+    "gemini_25_pro",
+    "gpt_54"
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "auditor_as_detective": false,
+  "auditor_no_history": true,
+  "num_trials": 50,
+  "warmup_steps": 0,
+  "accuracy": 0.22
+}

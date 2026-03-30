@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ]
+  ],
+  "source_texts": [
+    "She occupied, in the Boulevard Haussmann, the second storey of a large new house, the owner of which was content to let to single ladies, in order to get his plaster dried.",
+    "The famous doctor said his goodbyes with a serious expression, but one that hadn\u2019t given up hope. And to the timid question Ivan Ilyich put to him, raising eyes that were shining with fear and hope\u2014is there any possibility of recovery?\u2014he answered that though one couldn\u2019t guarantee it, there was a possibility. The look of hope with which Ivan Ilyich said goodbye to the doctor was so pitiful that, when she saw it, Praskovya Fyodorovna burst into tears as she went through the study doors to give the famous doctor his fee.",
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "Nevertheless La Faloise would very much have liked to have known the name of the woman at whose house the supper was to take place, but the countess had recalled Vandeuvres, and was questioning him as to the way tea was made in England. He was often there, attending the races in which his horses ran. According to him, only the Russians knew how to make tea; and he mentioned their recipe. Then, as though he had been thinking very much whilst speaking, he interrupted himself to ask, \u201cBy the way, and the marquis?",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?",
+    "The princesses climbed onto their royal elephants, and since Kundavai had already hinted that those leaving for a long journey must start on their journey first, Vandiya Devan turned the horse\u2019s head towards the road albeit with great hesitation. Even then he couldn\u2019t help but turn towards her and look upon her beautiful face once again, but realizing that it is unmannerly, he turned the horse\u2019s head swiftly and galloped away within a flash. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+    "This was the philosophy worked out by the Oblomovka Plato, a philosophy which lulled him amid the issues and strict demands of duty and purpose! He had been born and reared not like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the alarms of happiness or life\u2019s blows. Consequently, his person expressed one of life\u2019s extremes, and he did nothing to achieve, change, or repent.",
+    "The officer\u2019s comrades noticed in that \u2018neglected\u2019 garden, behind that sorry-looking rococo gate, quite a pretty creature who was almost always there when the handsome lieutenant went by. This lieutenant is not unknown to the reader: his name was Th\u00e9odule Gillenormand.",
+    "\u201cAh!\u201d he exclaimed, interrupting himself. \u201cThere come Mignon and Steiner! They are always together. You know that Steiner begins to have had enough of Rose; so the husband sticks to him like a plaster lest he should escape.\u201d",
+    "\"I? If there is anything in the world I really hate, it is going to bed before twelve o'clock at night!\" Oh, is that so!"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 2 both paraphrase the same specific passage about the contrast between gilded/opulent furniture and second-hand items including mahogany tables and zinc candelabras imitating Florentine bronze. They share identical source content, parallel structure, and similar stylistic choices (e.g., highlighting the 'violent/crude contrast,' the same inventory of furniture items), strongly suggesting they come from the same paraphrasing system.",
+    "Outputs 0 and 4 share nearly identical stylistic fingerprints: both use 'renowned physician,' 'somber yet determined expression,' 'eyes reflecting [emotion and emotion],' and maintain the same sentence structure and ordering throughout. Key phrases like 'somber yet determined,' 'eyes reflecting,' and the parallel construction of all three sentences strongly indicate they came from the same paraphraser.",
+    "Outputs 1 and 3 share nearly identical phrasing and vocabulary: both use 'steeds,' 'porte-coch\u00e8re,' 'gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with...crowns (a unicorn goring a knight),' and 'capripede caryatid.' The sentence structures are almost the same, with only minor word substitutions (e.g., 'drawn by a pair of' vs. 'towed by two,' 'footman' vs. 'lackey,' 'small crowns' vs. 'little crowns'). These are strong stylistic fingerprints of the same paraphrasing system.",
+    "Outputs 0 and 3 share very similar stylistic patterns and sentence structures. Both use 'would have liked/much liked to know the name of the hostess/lady,' both use 'recalled Vandeuvres,' both use 'questioning him as to/about the manner in which the English made tea,' and both end with a similar phrasing about interrupting with a question ('as though he had been inwardly following up quite a laborious train of thought' vs 'as if he had been thinking very much while speaking'). These two outputs are clearly the most similar to each other and to the original text's style, suggesting they came from the same paraphraser that stays close to the source text.",
+    "Outputs 0 and 3 share several distinctive fingerprints: both use the full name 'Sofia Petrovna Likhutina' (with that spelling), both describe condensation on windows rather than 'sweating panes,' both list characters in the same order (visitors, maid, husband, then Sofia Petrovna herself), and both end with a similar interpretive conclusion about the impossibility/difficulty of the situation rather than a rhetorical question. These stylistic and structural parallels suggest they come from the same paraphraser.",
+    "Outputs 3 and 4 share nearly identical phrasing in multiple places: 'The Vaidiyar('s son), who was to accompany him, struggled to control his horse and followed him,' 'those who were going on a long journey should set off/out first,' and 'turned the horse's head towards the road, though with great hesitation.' These distinctive phrase matches, combined with similar sentence-level structures and vocabulary choices, strongly indicate they came from the same paraphraser.",
+    "Outputs 1 and 3 both heavily paraphrase the source into a smooth, interpretive narrative style, abandoning the original's literary metaphors and sentence structure. Both restructure the gladiator metaphor away from the opening, use explanatory language ('shielded him from,' 'escape the pressures'), and convert the philosophical statement into descriptive prose. This stylistic fingerprint \u2014 interpretive summary rather than close paraphrase \u2014 is consistent across both and distinguishes them from the other outputs.",
+    "Outputs 3 and 4 share distinctive linguistic fingerprints: both use quotation marks around the descriptor for the garden ('neglected'/'badly kept'), both use the phrase 'not unknown to the reader,' both use 'comrades of the officer'/'officer's comrades,' and both maintain a structure very close to a literal translation of the source. These specific preserved phrases and stylistic choices strongly suggest they came from the same paraphrasing system.",
+    "Outputs 0 and 3 share the same exclamation 'Ah!', both use the 'plaster' metaphor ('sticks to him like a plaster'), both describe them as 'always together', and both maintain a similar formal/literal translation style. The phrasing around preventing escape is also structurally parallel. These linguistic fingerprints strongly suggest they come from the same paraphraser.",
+    "Outputs 0 and 3 share nearly identical sentence structure and phrasing: both begin with 'I?', use 'If there was [anything/one thing] in the world I hated', and follow with 'going to bed before twelve' with only minor lexical differences. The overall syntactic pattern and stylistic fingerprint are essentially the same, indicating they came from the same paraphraser."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "The vulgar sumptuosity of gilded consoles and gilded chairs formed a crude contrast therein to the bric-a-brac of a secondhand furniture shop--to mahogany round tables, that is to say, and zinc candelabras, which sought to imitate Florentine bronze.",
+        "The flat was far too big for her and had never been completely furnished; the flashy, opulent, gilt chairs and console tables formed a violent contrast to the second-hand junk, mahogany pedestal tables and zinc candelabra pretending to be Florentine bronze."
+      ],
+      "llama_31_8b": [
+        "In a modern structure on the Boulevard Haussmann, the second floor was rented by a woman, as the owner, looking to dry the plaster, preferred to let the space to individuals rather than risk compromising the building's integrity."
+      ],
+      "gemini_25_flash": [
+        "She lived in a spacious, newly built house on Boulevard Haussmann. The landlord preferred renting to single women to help dry out the building's new plaster."
+      ],
+      "dipper_lowmed": [
+        "She occupied, on the boulevard Haussmann, the second floor of a large new house, the owner of which was content to rent to bachelor ladies, so that the plaster would dry."
+      ]
+    },
+    {
+      "human_par3": [
+        "The celebrated specialist took his leave looking serious but not hopeless. And in answer to the question put to him diffidently by Ivan Ilyich, whose eyes were glistening with fear and hope, as to whether there was any possibility of recovery, he replied that nothing could be guaranteed but there was a possibility. The look of hope on Ivan Ilyich\u2019s face as he watched the doctor leave was so pathetic that when she saw it Praskovya actually burst into tears as she walked out of the study to give the celebrated specialist his fee."
+      ],
+      "llama_31_8b": [
+        "The doctor bid Ivan Ilyich a somber farewell, though his expression suggested that he still held onto a glimmer of hope. When Ivan Ilyich anxiously inquired about the possibility of recovery, his eyes brimming with a mix of fear and longing, the doctor offered a cautious but encouraging response, leaving room for optimism. Praskovya Fyodorovna, moved by Ivan Ilyich's desperate expressions of hope, broke down in tears as she escorted the doctor out, simultaneously handing him his payment in the study."
+      ],
+      "gemini_25_flash": [
+        "The renowned physician bid farewell with a somber yet determined expression, one that conveyed a sliver of optimism. When Ivan Ilyich, his eyes reflecting both dread and anticipation, haltingly inquired about the chances of his recovery, the doctor replied that while he couldn't assure it, a possibility existed. Ivan Ilyich's hopeful gaze as he parted with the doctor was so heart-wrenching that Praskovya Fyodorovna, witnessing it, wept as she exited the study to pay the celebrated physician.",
+        "The renowned physician bid farewell with a somber yet determined expression. When Ivan Ilyich, his eyes reflecting a mix of fear and optimism, hesitantly inquired about his chances of recovery, the doctor responded that while a guarantee was impossible, there was a possibility. Ivan Ilyich's hopeful gaze as he said goodbye to the doctor was so heartbreaking that Praskovya Fyodorovna began to cry as she left the room to pay the distinguished doctor."
+      ],
+      "dipper_lowmed": [
+        "The look of hope with which Ivan Ilyich said farewell to the doctor was so pitiful that, seeing it, Praskovya Fyodorovna burst into tears as she went through the study doors to give the famous doctor his fee. The famous doctor gave his farewells with a serious but not hopeless air. And to the timid question Ivan Ilyich asked him, raising his eyes, which shone with fear and hope, if there was any possibility of recovery, he answered that though one could not be sure, there was such a possibility."
+      ]
+    },
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "llama_31_8b": [
+        "A capripede-shaped statue stood proudly, supporting a structure above it. A horse-drawn carriage suddenly appeared in front of the platform, and a liveried servant, wearing a formal hat, swiftly opened the door from the shadows. As the door swung open, a coat of arms featuring intricate crests and a distinctive design (a unicorn attacking a knight) came into view. A gloved hand responded to the greetings by tipping the top hat."
+      ],
+      "gemini_25_flash": [
+        "A decorative pillar resembling a goat-legged human torso. A coach pulled by two horses sped to the entrance. A uniformed servant, wearing a three-cornered hat, clicked the door handle, causing the door to swing open and reveal a crest embellished with small crowns (depicting a unicorn impaling a knight). In return for the greetings, a gloved hand briefly touched the rim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of steeds flew to the porte-coch\u00e8re, and a footman, a tricorne on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with small crowns (a unicorn goring a knight). A torso of a capripede caryatid responded to salutations by touching the brim of a top hat.",
+        "A carriage towed by two steeds flew up to the porte-coch\u00e8re, and a lackey, with a three-cornered hat on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with little crowns (a unicorn goring a knight). Responding to salutations, a hand invested in leather touched the brim of a top hat. The torso of a capripede caryatid."
+      ]
+    },
+    {
+      "human_par3": [
+        "Nevertheless, La Faloise would have much liked to know the name of the hostess. But the countess had recalled Vandeuvres and was questioning him as to the manner in which the English made tea. He often betook himself to England, where his horses ran. Then as though he had been inwardly following up quite a laborious train of thought during his remarks, he broke in with the question:"
+      ],
+      "llama_31_8b": [
+        "Despite his curiosity, La Faloise would have preferred to know the hostess's name, but the countess kept Vandeuvres occupied by asking how tea was prepared in England, a topic he had some familiarity with. This was because he often attended horse racing events at the Earl's estate. Vandeuvres claimed that the Russians were the only ones who knew how to make proper tea, and shared their recipe. Suddenly interrupting himself, he inquired about the Marquis's situation.",
+        "La Faloise was curious about the identity of the woman hosting the supper, but the countess momentarily steered the conversation towards tea-making. Vandeuvres, who often attended the English horse races, boasted about the superiority of Russian tea-making, sharing their secret recipe. His introspective nature then momentarily interrupted his train of thought as he inquired about the marquis."
+      ],
+      "gemini_25_flash": [
+        "Yet, La Faloise still yearned to discover the identity of their supper host. However, the countess had redirected her attention to Vandeuvres, quizzing him on the English method of tea preparation. He frequently visited England for horse races, and in his opinion, only the Russians truly understood tea. He even shared their recipe. Abruptly, as if deep in thought while speaking, he paused to inquire, \"And the marquis, what about him?\""
+      ],
+      "dipper_lowmed": [
+        "However, La Faloise would have liked to know the name of the lady in whose house the supper was to take place, but the countess had recalled Vandeuvres and was questioning him about how tea is made in England. He was often there, attending races in which his horses ran; according to him, only the Russians know how to make tea, and he gave them a recipe. Then, as if he had been thinking very much while speaking, he interrupted himself to ask:"
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The tiny rooms were plagued by a thick, damp heat, which was made worse by the steam heating system. The windows, visitors, maid, and husband were all drenched in sweat, and even Sofia Petrovna herself was covered in a layer of warm moisture. This atmosphere made finding a positive outlook or clear perspective seem impossible."
+      ],
+      "gemini_25_flash": [
+        "The six small rooms were uncomfortably hot due to the steam heating, causing everyone and everything to perspire. The windows dripped with condensation, and everyone present, including the visitors, the maid, the husband, and even Sofia Petrovna Likhutina herself, was drenched in sweat, as if she were a chrysanthemum covered in warm dew. It was difficult to imagine a way out of such a stifling situation.",
+        "Every one of the small six rooms was so hot from the steam heating that the apartment felt uncomfortably humid. Condensation covered the windows, and everyone inside \u2013 the guests, the maid, the husband, and even Sofia Petrovna Likhutina herself \u2013 was sweating, her skin glistening like dewdrops on a flower. It was hard to imagine a brighter future given such discomfort. \n"
+      ],
+      "dipper_lowmed": [
+        "How was there any perspective? All six tiny rooms were heated by steam, resulting in the suffocation of all in the apartment from the humidity. The panes of the windows sweated; the visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum."
+      ]
+    },
+    {
+      "human_par3": [
+        "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him."
+      ],
+      "llama_31_8b": [
+        "With Kundavai's hint that those embarking on long journeys should depart first sticking with her, Vandiya Devan led his horse down the road, though he found it difficult to do so. Before setting off, he stole a final glance at Kundavai's captivating face, but quickly regaining his composure, he turned his horse away and rode swiftly. His colleague, the Vaidiyar's son, had trouble keeping up and followed him as his horse struggled to catch up."
+      ],
+      "gemini_25_flash": [
+        "The princesses mounted their majestic elephants. Following Kundavai's subtle suggestion that those embarking on extended travels should depart first, Vandiya Devan, though reluctant, directed his horse toward the road. He couldn't resist one last glance at her lovely face before, remembering his manners, he quickly turned his horse and galloped off. The Vaidiyar's son, who was meant to ride with him, wrestled with his horse to keep pace."
+      ],
+      "dipper_lowmed": [
+        "The princesses climbed on the top of the elephants, and since Kundavai had already hinted that those who were going to go on a long journey should set out first, Vandiyathevan turned the horse\u2019s head towards the road, though with great hesitation. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+        "He couldn\u2019t help but turn to her once again, to look at her beautiful face, but then he realized how impolite it was, and swiftly turned his horse\u2019s head and galloped away. The Vaidiyar who was to accompany him struggled to control his horse and followed him. The princesses mounted the elephants and Kundavai said that those who were going on a long journey should set off first. Vandiyathevan turned his horse\u2019s head towards the road, though with great hesitation."
+      ]
+    },
+    {
+      "human_par3": [
+        "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it."
+      ],
+      "llama_31_8b": [
+        "Oblomov's philosophy allowed him to escape the pressures and responsibilities that came with having a clear sense of duty and purpose. Unlike those born for a life of action and service, he was content to observe from the sidelines. He was not equipped to withstand either the turmoil of great joy or the challenges of life's hardships. As a result, his life was characterized by a lack of drive and initiative, and he did little to achieve his goals, effect change, or seek redemption."
+      ],
+      "gemini_25_flash": [
+        "The Oblomovka Plato developed a worldview that shielded him from the challenges and responsibilities of life. He was raised to be an observer, not a participant in the struggles of existence. His gentle and indolent nature was ill-suited for confronting either the anxieties of joy or the hardships of life. Thus, he embodied an extreme approach to life, never striving, adapting, or expressing remorse."
+      ],
+      "dipper_lowmed": [
+        "He was born and grew up, not like a gladiator, for the arena, but as a peaceful spectator of the battle; it was not for him, a meek and lazy soul, to endure either the alarms of happiness or the blows of life; consequently, his person expressed one of life's extremes, and he did nothing to achieve, change or repent. This is the philosophy of the Oblomovka Plato, which lulled him in the turmoil and strict demands of duty and purpose.",
+        "He was not born and brought up like a gladiator in the arena, but as a peaceful spectator of the battle; his meek and lazy soul could not endure the stifling blows of happiness or the stings of life; therefore, he expressed only one of life's extremes, and he did nothing to achieve, change and repent. This is the philosophy of Oblomov Plato, which lulled him amid the demands and strict demands of duty and purpose!"
+      ]
+    },
+    {
+      "human_par3": [
+        "The officer\u2019s comrades perceived that there was, in that \u201cbadly kept\u201d garden, behind that malicious rococo fence, a very pretty creature, who was almost always there when the handsome lieutenant,\u2014who is not unknown to the reader, and whose name was Th\u00e9odule Gillenormand,\u2014passed by."
+      ],
+      "llama_31_8b": [
+        "In a garden that had clearly been neglected, hidden behind an ornate but worn gate, there was a lovely young woman who tended it. She was a regular presence whenever Lieutenant Th\u00e9odule Gillenormand, a man of charm and good looks, walked by. His face is familiar to us; he has already been introduced."
+      ],
+      "gemini_25_flash": [
+        "Bystanders often saw a lovely young woman in the run-down garden with the dilapidated rococo gate. She was almost always there when the attractive Lieutenant Th\u00e9odule Gillenormand passed by. The reader may recall this lieutenant's name.",
+        "In that overgrown garden, just beyond the rather dilapidated rococo gate, the officer's fellow soldiers frequently observed a charming young woman. She seemed to appear almost every time the attractive lieutenant passed by \u2013 a lieutenant, as the reader may recall, named Th\u00e9odule Gillenormand."
+      ],
+      "dipper_lowmed": [
+        "This lieutenant is not unknown to the reader; his name was Th\u00e9odule Gillenormand. The comrades of the officer noticed in that garden \"neglected\" behind the ill-kept rococo gate, a pretty girl who almost always appeared when the handsome lieutenant passed."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Tut!\" he cried, breaking off short. \" Mignon and Steiner. Always together. You know, Steiner's getting sick of Rose; that's why the husband dogs his steps now for fear of his slipping away.\""
+      ],
+      "llama_31_8b": [
+        "He suddenly interrupted himself, exclaiming \"Ah!\" as he glimpsed Mignon and Steiner approaching together, as they often were. He noted that Steiner had grown tired of Rose's company, so her husband increasingly tried to keep him by his side, almost sticking to him like a stubborn bandage to prevent him from slipping away."
+      ],
+      "gemini_25_flash": [
+        "\"Oh!\" he blurted out, cutting himself off. \"Here come Mignon and Steiner! They're inseparable. You know Steiner is getting tired of Rose, so her husband is clinging to him closely, afraid he'll get away.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cAh!\u201d he cried out, interrupting himself, \u201cthere are Mignon and Steiner! They are always together. You know that Steiner has had enough of Rose, and so the husband sticks to him like a plaster, in case he tries to escape.\u201d",
+        "- Ah! he exclaimed, interrupting himself, there was Mignon and Steiner; they always stick together. You know that Steiner begins to have had enough of Rose, and the husband sticks to him like a plaster so as not to let him escape."
+      ]
+    },
+    {
+      "human_par3": [
+        "I? If there was anything in the world I hated it was to go to bed before twelve o'clock at night. Ah, there, you see!",
+        "I? If there was one thing in the world I hated, it was going to bed before twelve at night. \u201cHa-ha!\u201d"
+      ],
+      "llama_31_8b": [
+        "\"You claim to have a strong dislike for going to bed before midnight, don't you?\""
+      ],
+      "gemini_25_flash": [
+        "\"Me? There's nothing I despise more than turning in before midnight!\" Oh, really?"
+      ],
+      "dipper_lowmed": [
+        "\u201cI? Oh, is it true? If there is anything in the world I hate, it is going to bed before twelve o\u2019clock!\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "The vulgar sumptuosity of gilded consoles and gilded chairs formed a crude contrast therein to the bric-a-brac of a secondhand furniture shop--to mahogany round tables, that is to say, and zinc candelabras, which sought to imitate Florentine bronze.",
+      "The renowned physician bid farewell with a somber yet determined expression. When Ivan Ilyich, his eyes reflecting a mix of fear and optimism, hesitantly inquired about his chances of recovery, the doctor responded that while a guarantee was impossible, there was a possibility. Ivan Ilyich's hopeful gaze as he said goodbye to the doctor was so heartbreaking that Praskovya Fyodorovna began to cry as she left the room to pay the distinguished doctor.",
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "However, La Faloise would have liked to know the name of the lady in whose house the supper was to take place, but the countess had recalled Vandeuvres and was questioning him about how tea is made in England. He was often there, attending races in which his horses ran; according to him, only the Russians know how to make tea, and he gave them a recipe. Then, as if he had been thinking very much while speaking, he interrupted himself to ask:",
+      "Every one of the small six rooms was so hot from the steam heating that the apartment felt uncomfortably humid. Condensation covered the windows, and everyone inside \u2013 the guests, the maid, the husband, and even Sofia Petrovna Likhutina herself \u2013 was sweating, her skin glistening like dewdrops on a flower. It was hard to imagine a brighter future given such discomfort. \n",
+      "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him.",
+      "He was born and grew up, not like a gladiator, for the arena, but as a peaceful spectator of the battle; it was not for him, a meek and lazy soul, to endure either the alarms of happiness or the blows of life; consequently, his person expressed one of life's extremes, and he did nothing to achieve, change or repent. This is the philosophy of the Oblomovka Plato, which lulled him in the turmoil and strict demands of duty and purpose.",
+      "In that overgrown garden, just beyond the rather dilapidated rococo gate, the officer's fellow soldiers frequently observed a charming young woman. She seemed to appear almost every time the attractive lieutenant passed by \u2013 a lieutenant, as the reader may recall, named Th\u00e9odule Gillenormand.",
+      "- Ah! he exclaimed, interrupting himself, there was Mignon and Steiner; they always stick together. You know that Steiner begins to have had enough of Rose, and the husband sticks to him like a plaster so as not to let him escape.",
+      "I? If there was anything in the world I hated it was to go to bed before twelve o'clock at night. Ah, there, you see!"
+    ],
+    [
+      "She lived in a spacious, newly built house on Boulevard Haussmann. The landlord preferred renting to single women to help dry out the building's new plaster.",
+      "The celebrated specialist took his leave looking serious but not hopeless. And in answer to the question put to him diffidently by Ivan Ilyich, whose eyes were glistening with fear and hope, as to whether there was any possibility of recovery, he replied that nothing could be guaranteed but there was a possibility. The look of hope on Ivan Ilyich\u2019s face as he watched the doctor leave was so pathetic that when she saw it Praskovya actually burst into tears as she walked out of the study to give the celebrated specialist his fee.",
+      "A carriage drawn by a pair of steeds flew to the porte-coch\u00e8re, and a footman, a tricorne on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with small crowns (a unicorn goring a knight). A torso of a capripede caryatid responded to salutations by touching the brim of a top hat.",
+      "Yet, La Faloise still yearned to discover the identity of their supper host. However, the countess had redirected her attention to Vandeuvres, quizzing him on the English method of tea preparation. He frequently visited England for horse races, and in his opinion, only the Russians truly understood tea. He even shared their recipe. Abruptly, as if deep in thought while speaking, he paused to inquire, \"And the marquis, what about him?\"",
+      "The tiny rooms were plagued by a thick, damp heat, which was made worse by the steam heating system. The windows, visitors, maid, and husband were all drenched in sweat, and even Sofia Petrovna herself was covered in a layer of warm moisture. This atmosphere made finding a positive outlook or clear perspective seem impossible.",
+      "With Kundavai's hint that those embarking on long journeys should depart first sticking with her, Vandiya Devan led his horse down the road, though he found it difficult to do so. Before setting off, he stole a final glance at Kundavai's captivating face, but quickly regaining his composure, he turned his horse away and rode swiftly. His colleague, the Vaidiyar's son, had trouble keeping up and followed him as his horse struggled to catch up.",
+      "The Oblomovka Plato developed a worldview that shielded him from the challenges and responsibilities of life. He was raised to be an observer, not a participant in the struggles of existence. His gentle and indolent nature was ill-suited for confronting either the anxieties of joy or the hardships of life. Thus, he embodied an extreme approach to life, never striving, adapting, or expressing remorse.",
+      "Bystanders often saw a lovely young woman in the run-down garden with the dilapidated rococo gate. She was almost always there when the attractive Lieutenant Th\u00e9odule Gillenormand passed by. The reader may recall this lieutenant's name.",
+      "\"Oh!\" he blurted out, cutting himself off. \"Here come Mignon and Steiner! They're inseparable. You know Steiner is getting tired of Rose, so her husband is clinging to him closely, afraid he'll get away.\"",
+      "\"You claim to have a strong dislike for going to bed before midnight, don't you?\""
+    ],
+    [
+      "The flat was far too big for her and had never been completely furnished; the flashy, opulent, gilt chairs and console tables formed a violent contrast to the second-hand junk, mahogany pedestal tables and zinc candelabra pretending to be Florentine bronze.",
+      "The doctor bid Ivan Ilyich a somber farewell, though his expression suggested that he still held onto a glimmer of hope. When Ivan Ilyich anxiously inquired about the possibility of recovery, his eyes brimming with a mix of fear and longing, the doctor offered a cautious but encouraging response, leaving room for optimism. Praskovya Fyodorovna, moved by Ivan Ilyich's desperate expressions of hope, broke down in tears as she escorted the doctor out, simultaneously handing him his payment in the study.",
+      "A decorative pillar resembling a goat-legged human torso. A coach pulled by two horses sped to the entrance. A uniformed servant, wearing a three-cornered hat, clicked the door handle, causing the door to swing open and reveal a crest embellished with small crowns (depicting a unicorn impaling a knight). In return for the greetings, a gloved hand briefly touched the rim of a top hat.",
+      "Despite his curiosity, La Faloise would have preferred to know the hostess's name, but the countess kept Vandeuvres occupied by asking how tea was prepared in England, a topic he had some familiarity with. This was because he often attended horse racing events at the Earl's estate. Vandeuvres claimed that the Russians were the only ones who knew how to make proper tea, and shared their recipe. Suddenly interrupting himself, he inquired about the Marquis's situation.",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+      "The princesses mounted their majestic elephants. Following Kundavai's subtle suggestion that those embarking on extended travels should depart first, Vandiya Devan, though reluctant, directed his horse toward the road. He couldn't resist one last glance at her lovely face before, remembering his manners, he quickly turned his horse and galloped off. The Vaidiyar's son, who was meant to ride with him, wrestled with his horse to keep pace.",
+      "He was not born and brought up like a gladiator in the arena, but as a peaceful spectator of the battle; his meek and lazy soul could not endure the stifling blows of happiness or the stings of life; therefore, he expressed only one of life's extremes, and he did nothing to achieve, change and repent. This is the philosophy of Oblomov Plato, which lulled him amid the demands and strict demands of duty and purpose!",
+      "In a garden that had clearly been neglected, hidden behind an ornate but worn gate, there was a lovely young woman who tended it. She was a regular presence whenever Lieutenant Th\u00e9odule Gillenormand, a man of charm and good looks, walked by. His face is familiar to us; he has already been introduced.",
+      "He suddenly interrupted himself, exclaiming \"Ah!\" as he glimpsed Mignon and Steiner approaching together, as they often were. He noted that Steiner had grown tired of Rose's company, so her husband increasingly tried to keep him by his side, almost sticking to him like a stubborn bandage to prevent him from slipping away.",
+      "\"Me? There's nothing I despise more than turning in before midnight!\" Oh, really?"
+    ],
+    [
+      "In a modern structure on the Boulevard Haussmann, the second floor was rented by a woman, as the owner, looking to dry the plaster, preferred to let the space to individuals rather than risk compromising the building's integrity.",
+      "The look of hope with which Ivan Ilyich said farewell to the doctor was so pitiful that, seeing it, Praskovya Fyodorovna burst into tears as she went through the study doors to give the famous doctor his fee. The famous doctor gave his farewells with a serious but not hopeless air. And to the timid question Ivan Ilyich asked him, raising his eyes, which shone with fear and hope, if there was any possibility of recovery, he answered that though one could not be sure, there was such a possibility.",
+      "A carriage towed by two steeds flew up to the porte-coch\u00e8re, and a lackey, with a three-cornered hat on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with little crowns (a unicorn goring a knight). Responding to salutations, a hand invested in leather touched the brim of a top hat. The torso of a capripede caryatid.",
+      "Nevertheless, La Faloise would have much liked to know the name of the hostess. But the countess had recalled Vandeuvres and was questioning him as to the manner in which the English made tea. He often betook himself to England, where his horses ran. Then as though he had been inwardly following up quite a laborious train of thought during his remarks, he broke in with the question:",
+      "The six small rooms were uncomfortably hot due to the steam heating, causing everyone and everything to perspire. The windows dripped with condensation, and everyone present, including the visitors, the maid, the husband, and even Sofia Petrovna Likhutina herself, was drenched in sweat, as if she were a chrysanthemum covered in warm dew. It was difficult to imagine a way out of such a stifling situation.",
+      "He couldn\u2019t help but turn to her once again, to look at her beautiful face, but then he realized how impolite it was, and swiftly turned his horse\u2019s head and galloped away. The Vaidiyar who was to accompany him struggled to control his horse and followed him. The princesses mounted the elephants and Kundavai said that those who were going on a long journey should set off first. Vandiyathevan turned his horse\u2019s head towards the road, though with great hesitation.",
+      "Oblomov's philosophy allowed him to escape the pressures and responsibilities that came with having a clear sense of duty and purpose. Unlike those born for a life of action and service, he was content to observe from the sidelines. He was not equipped to withstand either the turmoil of great joy or the challenges of life's hardships. As a result, his life was characterized by a lack of drive and initiative, and he did little to achieve his goals, effect change, or seek redemption.",
+      "This lieutenant is not unknown to the reader; his name was Th\u00e9odule Gillenormand. The comrades of the officer noticed in that garden \"neglected\" behind the ill-kept rococo gate, a pretty girl who almost always appeared when the handsome lieutenant passed.",
+      "\u201cAh!\u201d he cried out, interrupting himself, \u201cthere are Mignon and Steiner! They are always together. You know that Steiner has had enough of Rose, and so the husband sticks to him like a plaster, in case he tries to escape.\u201d",
+      "I? If there was one thing in the world I hated, it was going to bed before twelve at night. \u201cHa-ha!\u201d"
+    ],
+    [
+      "She occupied, on the boulevard Haussmann, the second floor of a large new house, the owner of which was content to rent to bachelor ladies, so that the plaster would dry.",
+      "The renowned physician bid farewell with a somber yet determined expression, one that conveyed a sliver of optimism. When Ivan Ilyich, his eyes reflecting both dread and anticipation, haltingly inquired about the chances of his recovery, the doctor replied that while he couldn't assure it, a possibility existed. Ivan Ilyich's hopeful gaze as he parted with the doctor was so heart-wrenching that Praskovya Fyodorovna, witnessing it, wept as she exited the study to pay the celebrated physician.",
+      "A capripede-shaped statue stood proudly, supporting a structure above it. A horse-drawn carriage suddenly appeared in front of the platform, and a liveried servant, wearing a formal hat, swiftly opened the door from the shadows. As the door swung open, a coat of arms featuring intricate crests and a distinctive design (a unicorn attacking a knight) came into view. A gloved hand responded to the greetings by tipping the top hat.",
+      "La Faloise was curious about the identity of the woman hosting the supper, but the countess momentarily steered the conversation towards tea-making. Vandeuvres, who often attended the English horse races, boasted about the superiority of Russian tea-making, sharing their secret recipe. His introspective nature then momentarily interrupted his train of thought as he inquired about the marquis.",
+      "How was there any perspective? All six tiny rooms were heated by steam, resulting in the suffocation of all in the apartment from the humidity. The panes of the windows sweated; the visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum.",
+      "The princesses climbed on the top of the elephants, and since Kundavai had already hinted that those who were going to go on a long journey should set out first, Vandiyathevan turned the horse\u2019s head towards the road, though with great hesitation. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+      "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it.",
+      "The officer\u2019s comrades perceived that there was, in that \u201cbadly kept\u201d garden, behind that malicious rococo fence, a very pretty creature, who was almost always there when the handsome lieutenant,\u2014who is not unknown to the reader, and whose name was Th\u00e9odule Gillenormand,\u2014passed by.",
+      "\"Tut!\" he cried, breaking off short. \" Mignon and Steiner. Always together. You know, Steiner's getting sick of Rose; that's why the husband dogs his steps now for fear of his slipping away.\"",
+      "\u201cI? Oh, is it true? If there is anything in the world I hate, it is going to bed before twelve o\u2019clock!\u201d"
+    ]
+  ]
+}

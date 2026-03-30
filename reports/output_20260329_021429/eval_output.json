@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ]
+  ],
+  "source_texts": [
+    "\u201cWhat? A priest? It\u2019s not necessary. . . . Where would we get the money to pay him? I have no sins! Even without that God should forgive me. . . . He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+    "\u2018How can you doubt it! But you, who do not love her, why are you so ready to endanger your life? It must be that you hate Erik.\u2019",
+    "He told them. But we shall not repeat it here. He told the story briefly and impersonally. He did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself \u201cin view of certain new developments.\u201d He did not bother to explain the motives behind his actions anymore, did not go into subtleties. Besides, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most.",
+    "The \u2018principal tenant\u2019 of Jean Valjean\u2019s day had died and had been replaced by another exactly like her. I am not sure which philosopher said, \u2018There is never any shortage of old women.\u2019",
+    "yells Mikolka, the crowbar still in his hands, his eyes bloodshot. He stands there as if feeling sorry that there\u2019s nothing more to strike.",
+    "\u201cI mean those clubs, those Dussot\u2019s, and those spits of land,\u00a7 perhaps, that\u2019s progress for you\u2014well, that\u2019ll all be without me,\u201d he continued, once more taking no note of the question. \u201cBesides, who wants to be a cardsharp?\u201d",
+    "The officer\u2019s comrades noticed in that \u2018neglected\u2019 garden, behind that sorry-looking rococo gate, quite a pretty creature who was almost always there when the handsome lieutenant went by. This lieutenant is not unknown to the reader: his name was Th\u00e9odule Gillenormand.",
+    "The horses had turned to the right, and they started on their preliminary canter, passing in front of the grand stand in a disordered crowd. Then the excited remarks broke out again; every one spoke at the same time.",
+    "\u201cThandavaraya, I don\u2019t think this is a real horse. It may belong to the poi kaal kudirai (false horse performance) group,\u201d said one of the soldiers. \u201cFine then.",
+    "\u201cYes,\u201d said Rose Mignon, \u201chis foot caught in a trap-door and he has sprained his ankle most abominably. If you had only heard him swear, with his leg all tied up and stretched out on a chair! \u201d"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "human_par3"
+    ]
+  ],
+  "rationales": [
+    "Outputs 1 and 3 share the same paraphraser fingerprint: both use clean, ellipsis-free sentences, both end with the phrase 'so be it,' both omit or minimally handle the 'spare rouble' detail, and both restructure the text into concise complete sentences rather than fragmented speech. Their stylistic approach, level of paraphrasing, and word choices (particularly 'so be it' and the omission of the ellipsis-heavy style) strongly suggest they came from the same system.",
+    "Outputs 1 and 3 both reformulate the text as pointed rhetorical questions, add interpretive expansions beyond the source (e.g., 'You must despise Erik' and 'personal vendetta against Erik'), and use similar accusatory framing. Both use double quotes and 'Erik' spelling, and both shift toward a question-based interrogative structure that goes beyond the literal source text.",
+    "Outputs 1 and 2 share nearly identical linguistic fingerprints: both open with 'He shared the information with them,' both describe the account as 'concise and detached,' both use 'less inclined' regarding suicide, both use 'Furthermore' as a transitional word, and both conclude with 'suggesting their primary interest lay elsewhere.' These structural and lexical parallels strongly indicate they were produced by the same paraphraser.",
+    "Outputs 2 and 4 share nearly identical sentence structure: '[title] of [Jean Valjean's day/the time of Jean Valjean] was dead, and had been replaced by another exactly like her.' Both place the philosopher quote after the landlady statement, use a formal/archaic register for the philosopher attribution ('I know not' vs 'I do not remember'), and render the quote in very similar ways ('Old women are never lacking' vs 'There is never any lack of old women'). These structural and stylistic fingerprints strongly suggest they come from the same paraphraser.",
+    "Outputs 0 and 4 both use present tense narration ('cries'/'shouts', 'stands'/'lingers'), share a similar dramatic rhythm, and follow the same structural sequence: action with crowbar \u2192 bloodshot eyes \u2192 lingering \u2192 regretting nothing left to hit. All other outputs use past tense and have distinctly different stylistic fingerprints.",
+    "Outputs 2 and 3 share the same distinctive sentence structure: the main quoted speech, followed by 'he went on, again [ignoring/without noticing] the question,' and then a closing rhetorical question about being a card shark/cheat. This 'he went on, again... the question' construction is a unique fingerprint not found in the other outputs. Both also maintain the same clause order and dialogue formatting style, strongly suggesting they came from the same paraphraser.",
+    "Outputs 2 and 4 share the same distinctive two-sentence structure beginning with 'This lieutenant is [not] unknown to the reader. His name was Th\u00e9odule Gillenormand.' Both then follow with 'The comrades of the officer/this officer had noticed in this [neglected] garden, behind this [miserable/pathetic] rococo gate, a [very] pretty creature who almost always [appeared/was there] when the handsome lieutenant passed.' The sentence segmentation, ordering of information, and core vocabulary choices (neglected garden, comrades, pretty creature, almost always, handsome lieutenant) are nearly identical, pointing to the same paraphraser.",
+    "Outputs 1 and 2 share nearly identical structure: both begin with the crowd reaction ('excited comments/remarks broke out again'), followed by 'everyone spoke at once/at the same time,' then describe the horses turning right and performing a 'pre-race/preliminary canter,' passing in front of the 'grandstands' in a 'disorderly crowd.' The sentence ordering, word choices, and structural flow are extremely similar, suggesting they came from the same paraphrasing system.",
+    "Outputs 0 and 3 share the same stylistic fingerprint: both use third-person narrative prose (no direct dialogue), both include the Tamil term 'poikaal kudirai' with an inline explanatory gloss, and both describe the soldier's suggestion in an indirect/reported manner rather than dramatizing it through dialogue. Their sentence structure and approach to conveying the scene are distinctly parallel compared to the other outputs.",
+    "Outputs 2 and 4 share the same stylistic pattern: both use the conditional 'If [only] you [could/had only] hear(d) him swearing' construction, both describe the leg as 'tied' to/up on a chair, both use 'trap door' (two words), and both employ emphatic language for the sprain ('most abominably' / 'fearful sprain'). These linguistic fingerprints strongly suggest they came from the same paraphraser."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+        "\u201cWhat, the priest? I don\u2019t want him. You haven\u2019t got a ruble to spare. I have no sins. God must forgive me without that. He knows how I have suffered . . . And if He won\u2019t forgive me, I don\u2019t care!\u201d"
+      ],
+      "llama_31_8b": [
+        "There's no need to involve a priest. Our financial situation wouldn't allow it anyway - it's a luxury I couldn't afford. To be frank, I don't think I have much to be sorry for. Even if God wanted to withhold forgiveness, I'm convinced He already has a sense of my hardships. If forgiveness isn't forthcoming, so be it."
+      ],
+      "gemini_25_flash": [
+        "\"A priest? No, that's not needed. How would we afford one? I haven't committed any sins! God should pardon me regardless. He's aware of my pain! And if He chooses not to forgive me, then so be it.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWhat? A priest? I have no sins, and, besides, God should forgive me without that. He knows how I have suffered, and if He doesn\u2019t forgive me, then so be it!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019"
+      ],
+      "llama_31_8b": [
+        "\"You're being absurd to question it, but for you, who don't even care for her, to be willing to risk your life, it's almost as if you actively despise him.\"",
+        "\"Why are you so willing to risk your own life just to target a woman you claim not to care about? The only logical explanation is that you must have a personal vendetta against Erik, right?\""
+      ],
+      "gemini_25_flash": [
+        "\"How can you be so unsure? Since you don't love her, why are you so willing to risk your life? You must despise Erik.\""
+      ],
+      "dipper_lowmed": [
+        "- How can you doubt it! But you, who don't love her, why are you so ready to endanger your life? It must be because you hate Eric."
+      ]
+    },
+    {
+      "human_par3": [
+        "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+      ],
+      "llama_31_8b": [
+        "He shared the facts but chose not to elaborate. His account was concise and detached, lacking the emotional depth of a personal experience. He stated simply that his earlier resolve to end his life had changed \"due to recent events\" without delving into the reasons behind it. His interrogators rarely interrupted to ask for further details, suggesting that they weren't too concerned with the specifics of his story."
+      ],
+      "gemini_25_flash": [
+        "He shared the information with them, though we won't detail it here. His account was concise and detached. He omitted any mention of his affections or emotions, simply stating that he was less inclined to take his own life due to \"new developments.\" He no longer felt the need to elaborate on his reasons or delve into complexities. Furthermore, his questioners rarely interjected, suggesting their primary interest lay elsewhere.",
+        "He shared the information with them, but we won't disclose it here. His account was concise and detached, devoid of emotional details. He simply stated that he was less inclined to commit suicide due to \"certain new developments,\" without elaborating on his reasons or delving into complexities. Furthermore, his interrogators rarely interrupted with questions, suggesting their primary interest lay elsewhere."
+      ],
+      "dipper_lowmed": [
+        "But we do not repeat it here: he told the story briefly and impersonally; he did not speak of his love and his feelings; he only said that he was no longer so decided to shoot himself \"in view of certain new developments.\" He did not bother to explain the motives of his actions, he did not go into the subtleties; besides, his interrogators did not interrupt him very often to ask him questions; it was evident that this was not what interested them most."
+      ]
+    },
+    {
+      "human_par3": [
+        "The \u201cprincipal lodger\u201d of Jean Valjean\u2019s day was dead and had been replaced by another exactly like her. I know not what philosopher has said: \u201cOld women are never lacking.\u201d",
+        "The \u201clandlady\u201d of the time of Jean Valjean was dead, and had been replaced by another exactly like her. I do not remember what philosopher it was who said: \u201cThere is never any lack of old women.\u201d"
+      ],
+      "llama_31_8b": [
+        "I couldn't find any information to identify who said, 'There is never any shortage of old women', although the Paron was relieved that the turn of the years brought a replacement for the previous principal who had been so like her."
+      ],
+      "gemini_25_flash": [
+        "The woman who was Jean Valjean's primary tenant had passed away, and a new tenant, identical to the previous one, had taken her place. I can't recall which philosopher made the observation, 'Old women are an unending resource.'"
+      ],
+      "dipper_lowmed": [
+        "I do not know which philosopher said, \u201cThere is no lack of old women.\u201d The \u201cprincipal tenant\u201d of Jean Valjean\u2019s day had died, and had been replaced by another exactly like her."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat."
+      ],
+      "llama_31_8b": [
+        "Mikolka stood frozen, his bloodshot eyes fixed on the scene before him as he clutched the crowbar in a limp hand, clearly regretful that there was nothing left to break."
+      ],
+      "gemini_25_flash": [
+        "\"Mikolka, still clutching the crowbar, shouts, his eyes bloodshot. He lingers, seemingly regretting that there's nothing left for him to hit.\""
+      ],
+      "dipper_lowmed": [
+        "Mikolka, crowbar still in hand, stood there as if regretting that there was nothing more to hit.",
+        "- Well! cried Mikolka, he still had a crowbar in his hands, and his eyes were bloodshot. He stood there as if sorry that there was no longer anything to hit."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+        "\u201cBut as for these clubs, Dussauts,37 parades, or progress, indeed, may be\u2014well, all that can go on without me,\u201d he went on, again without noticing the question. \u201cBesides, who wants to be a card-cheat?\u201d"
+      ],
+      "llama_31_8b": [
+        "He muttered to himself about the changes in the city, the transformation from establishments like Dussot's and small, unassuming pieces of land.  to the new, bustling areas, but he didn't want to be a part of it."
+      ],
+      "gemini_25_flash": [
+        "\"What I mean is, those establishments, those shady places, and those small plots of land, perhaps that's what you call progress \u2013 but I won't be a part of it,\" he went on, again ignoring the question. \"Anyway, who aspires to be a card shark?\""
+      ],
+      "dipper_lowmed": [
+        "Besides, who wants to be a cardsharp? - \"The clubs, the Dussots, and the spits of land, if that is progress for you, will be without me,\" he continued, again not taking note of the question."
+      ]
+    },
+    {
+      "human_par3": [
+        "The officer\u2019s comrades perceived that there was, in that \u201cbadly kept\u201d garden, behind that malicious rococo fence, a very pretty creature, who was almost always there when the handsome lieutenant,\u2014who is not unknown to the reader, and whose name was Th\u00e9odule Gillenormand,\u2014passed by."
+      ],
+      "llama_31_8b": [
+        "In the overgrown garden behind a dilapidated rococo gate, a lovely young woman often appeared to the officer's fellow comrades when Lieutenant Th\u00e9odule Gillenormand walked by, regularly drawing attention with his handsome presence."
+      ],
+      "gemini_25_flash": [
+        "In that overgrown garden, just beyond the rather shabby rococo gate, the officer's colleagues frequently observed a charming young woman. She seemed to appear almost every time the attractive Lieutenant Th\u00e9odule Gillenormand, a name our readers might recognize, passed by."
+      ],
+      "dipper_lowmed": [
+        "This lieutenant is known to the reader; his name was Th\u00e9odule Gillenormand. The comrades of the officer noticed in this neglected garden, behind this pathetic rococo gate, a very pretty creature who was almost always there when the handsome lieutenant passed.",
+        "This lieutenant is not unknown to the reader. His name was Th\u00e9odule Gillenormand. The comrades of this officer had noticed in this \"neglected\" garden, behind this miserable rococo gate, a pretty creature who almost always appeared when the handsome lieutenant passed there."
+      ]
+    },
+    {
+      "human_par3": [
+        "The horses had gone up to the right, and they now started for the preliminary canter, passing in loose order before the stands. Thereupon there was a passionate fresh burst of talk, and people all spoke at once."
+      ],
+      "llama_31_8b": [
+        "As the horses veered to the right, they launched into a preliminary galloping pace, moving in a chaotic procession in front of the grandstands. This triggered a new burst of excited chatter, with multiple voices speaking simultaneously."
+      ],
+      "gemini_25_flash": [
+        "After making a right turn, the horses began their initial canter, moving past the grandstand in a chaotic group. This immediately led to a fresh wave of excited comments, with everyone talking at once."
+      ],
+      "dipper_lowmed": [
+        "Then the excited comments broke out again. Everyone spoke at once. The horses had turned right, and began their pre-race canter, passing in front of the stand in a disorderly crowd.",
+        "Then the excited remarks broke out again, everyone spoke at the same time. The horses had turned to the right, and they had begun their preliminary canter, passing in front of the grandstands in a disorderly crowd."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier."
+      ],
+      "llama_31_8b": [
+        "One of the soldiers suggested that the animal may not be a genuine horse, speculating it might be from the group known as poi kaal kudirai, famous for their illusions and tricks.",
+        "One of the soldiers questioned the authenticity of the horse, suggesting it might be part of a troupe that performs a mock horse act, noting \"poikaal kudirai.\""
+      ],
+      "gemini_25_flash": [
+        "\"Thandavaraya,\" a soldier remarked, \"I doubt this is a genuine horse. It likely belongs to a troupe performing the false horse dance.\" \"Understood,\" came the reply."
+      ],
+      "dipper_lowmed": [
+        "\u201cThanthavaraaya! I do not think this is a real horse. I think it belongs to the poikal kudirai (false horse) group.\u201d said one of the soldiers."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Yes,\" said Rose Mignon, \"his foot caught in a trap door, and he's got a fearful sprain. If only you could hear him swearing, with his leg tied up and laid out on a chair!\"",
+        "\u2018Yes\u2019, said Rose, \u2018he got his foot caught in a trapdoor and gave himself a nasty sprain\u2026 You should have heard him swearing, with his leg bandaged up and stretched out on a chair.\u2019"
+      ],
+      "llama_31_8b": [
+        "Rose Mignon confirmed that an accident had occurred, adding that his foot had gotten caught in a trap door and he had twisted his ankle badly. She humorously described the situation, mentioning that he had been using strong language while lying on a chair with his leg immobilized."
+      ],
+      "gemini_25_flash": [
+        "Rose Mignon explained, \"His foot got stuck in a trap-door, and he's badly sprained his ankle. You should have heard the language he used while his leg was propped up on a chair, all bandaged!\""
+      ],
+      "dipper_lowmed": [
+        "\u201cYes,\u201d said Rose Mignon, \u201chis foot caught in a trap-door and he sprained his ankle most abominably. If you had only heard him swearing, with his leg tied to a chair!"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+      "- How can you doubt it! But you, who don't love her, why are you so ready to endanger your life? It must be because you hate Eric.",
+      "But we do not repeat it here: he told the story briefly and impersonally; he did not speak of his love and his feelings; he only said that he was no longer so decided to shoot himself \"in view of certain new developments.\" He did not bother to explain the motives of his actions, he did not go into the subtleties; besides, his interrogators did not interrupt him very often to ask him questions; it was evident that this was not what interested them most.",
+      "I couldn't find any information to identify who said, 'There is never any shortage of old women', although the Paron was relieved that the turn of the years brought a replacement for the previous principal who had been so like her.",
+      "\u2018My property!\u2019 cries Mikolka, holding the crowbar. His eyes are bloodshot. He stands there looking sorry that there\u2019s nothing left to beat.",
+      "He muttered to himself about the changes in the city, the transformation from establishments like Dussot's and small, unassuming pieces of land.  to the new, bustling areas, but he didn't want to be a part of it.",
+      "In that overgrown garden, just beyond the rather shabby rococo gate, the officer's colleagues frequently observed a charming young woman. She seemed to appear almost every time the attractive Lieutenant Th\u00e9odule Gillenormand, a name our readers might recognize, passed by.",
+      "As the horses veered to the right, they launched into a preliminary galloping pace, moving in a chaotic procession in front of the grandstands. This triggered a new burst of excited chatter, with multiple voices speaking simultaneously.",
+      "One of the soldiers suggested that the animal may not be a genuine horse, speculating it might be from the group known as poi kaal kudirai, famous for their illusions and tricks.",
+      "Rose Mignon confirmed that an accident had occurred, adding that his foot had gotten caught in a trap door and he had twisted his ankle badly. She humorously described the situation, mentioning that he had been using strong language while lying on a chair with his leg immobilized."
+    ],
+    [
+      "\u201cWhat? A priest? I have no sins, and, besides, God should forgive me without that. He knows how I have suffered, and if He doesn\u2019t forgive me, then so be it!\u201d",
+      "\"How can you be so unsure? Since you don't love her, why are you so willing to risk your life? You must despise Erik.\"",
+      "He shared the information with them, but we won't disclose it here. His account was concise and detached, devoid of emotional details. He simply stated that he was less inclined to commit suicide due to \"certain new developments,\" without elaborating on his reasons or delving into complexities. Furthermore, his interrogators rarely interrupted with questions, suggesting their primary interest lay elsewhere.",
+      "I do not know which philosopher said, \u201cThere is no lack of old women.\u201d The \u201cprincipal tenant\u201d of Jean Valjean\u2019s day had died, and had been replaced by another exactly like her.",
+      "Mikolka stood frozen, his bloodshot eyes fixed on the scene before him as he clutched the crowbar in a limp hand, clearly regretful that there was nothing left to break.",
+      "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+      "In the overgrown garden behind a dilapidated rococo gate, a lovely young woman often appeared to the officer's fellow comrades when Lieutenant Th\u00e9odule Gillenormand walked by, regularly drawing attention with his handsome presence.",
+      "Then the excited comments broke out again. Everyone spoke at once. The horses had turned right, and began their pre-race canter, passing in front of the stand in a disorderly crowd.",
+      "\"Thandavaraya,\" a soldier remarked, \"I doubt this is a genuine horse. It likely belongs to a troupe performing the false horse dance.\" \"Understood,\" came the reply.",
+      "Rose Mignon explained, \"His foot got stuck in a trap-door, and he's badly sprained his ankle. You should have heard the language he used while his leg was propped up on a chair, all bandaged!\""
+    ],
+    [
+      "\u201cWhat, the priest? I don\u2019t want him. You haven\u2019t got a ruble to spare. I have no sins. God must forgive me without that. He knows how I have suffered . . . And if He won\u2019t forgive me, I don\u2019t care!\u201d",
+      "\u2018Of course I do! But what about you, sir? You do not love her, so will you explain why it\u2019s quite clear that you are prepared to risk your life for her?\u2026 You must really hate Erik!\u2019",
+      "He shared the information with them, though we won't detail it here. His account was concise and detached. He omitted any mention of his affections or emotions, simply stating that he was less inclined to take his own life due to \"new developments.\" He no longer felt the need to elaborate on his reasons or delve into complexities. Furthermore, his questioners rarely interjected, suggesting their primary interest lay elsewhere.",
+      "The \u201cprincipal lodger\u201d of Jean Valjean\u2019s day was dead and had been replaced by another exactly like her. I know not what philosopher has said: \u201cOld women are never lacking.\u201d",
+      "Mikolka, crowbar still in hand, stood there as if regretting that there was nothing more to hit.",
+      "\"What I mean is, those establishments, those shady places, and those small plots of land, perhaps that's what you call progress \u2013 but I won't be a part of it,\" he went on, again ignoring the question. \"Anyway, who aspires to be a card shark?\"",
+      "This lieutenant is known to the reader; his name was Th\u00e9odule Gillenormand. The comrades of the officer noticed in this neglected garden, behind this pathetic rococo gate, a very pretty creature who was almost always there when the handsome lieutenant passed.",
+      "Then the excited remarks broke out again, everyone spoke at the same time. The horses had turned to the right, and they had begun their preliminary canter, passing in front of the grandstands in a disorderly crowd.",
+      "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+      "\u201cYes,\u201d said Rose Mignon, \u201chis foot caught in a trap-door and he sprained his ankle most abominably. If you had only heard him swearing, with his leg tied to a chair!"
+    ],
+    [
+      "\"A priest? No, that's not needed. How would we afford one? I haven't committed any sins! God should pardon me regardless. He's aware of my pain! And if He chooses not to forgive me, then so be it.\"",
+      "\"Why are you so willing to risk your own life just to target a woman you claim not to care about? The only logical explanation is that you must have a personal vendetta against Erik, right?\"",
+      "He shared the facts but chose not to elaborate. His account was concise and detached, lacking the emotional depth of a personal experience. He stated simply that his earlier resolve to end his life had changed \"due to recent events\" without delving into the reasons behind it. His interrogators rarely interrupted to ask for further details, suggesting that they weren't too concerned with the specifics of his story.",
+      "The woman who was Jean Valjean's primary tenant had passed away, and a new tenant, identical to the previous one, had taken her place. I can't recall which philosopher made the observation, 'Old women are an unending resource.'",
+      "- Well! cried Mikolka, he still had a crowbar in his hands, and his eyes were bloodshot. He stood there as if sorry that there was no longer anything to hit.",
+      "\u201cBut as for these clubs, Dussauts,37 parades, or progress, indeed, may be\u2014well, all that can go on without me,\u201d he went on, again without noticing the question. \u201cBesides, who wants to be a card-cheat?\u201d",
+      "The officer\u2019s comrades perceived that there was, in that \u201cbadly kept\u201d garden, behind that malicious rococo fence, a very pretty creature, who was almost always there when the handsome lieutenant,\u2014who is not unknown to the reader, and whose name was Th\u00e9odule Gillenormand,\u2014passed by.",
+      "After making a right turn, the horses began their initial canter, moving past the grandstand in a chaotic group. This immediately led to a fresh wave of excited comments, with everyone talking at once.",
+      "One of the soldiers questioned the authenticity of the horse, suggesting it might be part of a troupe that performs a mock horse act, noting \"poikaal kudirai.\"",
+      "\u2018Yes\u2019, said Rose, \u2018he got his foot caught in a trapdoor and gave himself a nasty sprain\u2026 You should have heard him swearing, with his leg bandaged up and stretched out on a chair.\u2019"
+    ],
+    [
+      "There's no need to involve a priest. Our financial situation wouldn't allow it anyway - it's a luxury I couldn't afford. To be frank, I don't think I have much to be sorry for. Even if God wanted to withhold forgiveness, I'm convinced He already has a sense of my hardships. If forgiveness isn't forthcoming, so be it.",
+      "\"You're being absurd to question it, but for you, who don't even care for her, to be willing to risk your life, it's almost as if you actively despise him.\"",
+      "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here.",
+      "The \u201clandlady\u201d of the time of Jean Valjean was dead, and had been replaced by another exactly like her. I do not remember what philosopher it was who said: \u201cThere is never any lack of old women.\u201d",
+      "\"Mikolka, still clutching the crowbar, shouts, his eyes bloodshot. He lingers, seemingly regretting that there's nothing left for him to hit.\"",
+      "Besides, who wants to be a cardsharp? - \"The clubs, the Dussots, and the spits of land, if that is progress for you, will be without me,\" he continued, again not taking note of the question.",
+      "This lieutenant is not unknown to the reader. His name was Th\u00e9odule Gillenormand. The comrades of this officer had noticed in this \"neglected\" garden, behind this miserable rococo gate, a pretty creature who almost always appeared when the handsome lieutenant passed there.",
+      "The horses had gone up to the right, and they now started for the preliminary canter, passing in loose order before the stands. Thereupon there was a passionate fresh burst of talk, and people all spoke at once.",
+      "\u201cThanthavaraaya! I do not think this is a real horse. I think it belongs to the poikal kudirai (false horse) group.\u201d said one of the soldiers.",
+      "\"Yes,\" said Rose Mignon, \"his foot caught in a trap door, and he's got a fearful sprain. If only you could hear him swearing, with his leg tied up and laid out on a chair!\""
+    ]
+  ]
+}

@@ -215,6 +215,45 @@ class DipperClient(Client):
                 time.sleep(min(8.0, float(2 ** attempt)))
 
 
+class HumanParaphraserClient(Client):
+    """Interactive human paraphraser. Embedding logged externally."""
+
+    def __init__(self, **kwargs):
+        super().__init__()
+
+    def get_completion(self, system: str, message: str, **generate_args):
+        print(f"\n{'='*60}")
+        print("  HUMAN PARAPHRASER")
+        print(f"{'='*60}")
+        print(f"\nPlease paraphrase the following text:\n")
+        print(f"  {message}\n")
+
+        while True:
+            paraphrase = input("> ").strip()
+            if paraphrase:
+                return paraphrase
+            print("Empty input. Please enter your paraphrase.")
+
+
+class PreloadedParaphraseClient(Client):
+    """Returns pre-existing human paraphrases from a loaded dataset (e.g. PAR3).
+
+    The paraphrase_map is injected after construction by AdversarialEvaluation.
+    """
+
+    def __init__(self):
+        super().__init__()
+        self.paraphrase_map = {}  # {source_text: [para1, para2, ...]}
+
+    def set_paraphrase_map(self, paraphrase_map: dict):
+        self.paraphrase_map = paraphrase_map
+
+    def get_completion(self, system: str, message: str, **generate_args):
+        if message in self.paraphrase_map and self.paraphrase_map[message]:
+            return self.paraphrase_map[message].pop(0)
+        raise ValueError(f"No pre-loaded paraphrase for: {message[:80]}...")
+
+
 def client_from_args(client_str: str, **client_args):
     api_key = client_args.get("api_key")
     model = client_args.get("model")
@@ -239,8 +278,17 @@ def client_from_args(client_str: str, **client_args):
             order_div=client_args.get("order_div", 40),
         )
 
+    elif client_str == "human":
+        return HumanParaphraserClient(
+            similarity_threshold=client_args.get("similarity_threshold", 0.75),
+            embedding_model=client_args.get("embedding_model", "gemini-embedding-001"),
+        )
+
+    elif client_str == "preloaded":
+        return PreloadedParaphraseClient()
+
     else:
         raise ValueError(
-            f"supported choices are ['mistral', 'anthropic', 'together', 'openrouter', 'dipper']. Got {client_str}"
+            f"supported choices are ['mistral', 'anthropic', 'together', 'openrouter', 'dipper', 'human', 'preloaded']. Got {client_str}"
         )
 

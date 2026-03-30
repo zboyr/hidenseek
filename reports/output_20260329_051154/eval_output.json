@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "openai/gpt-4.1",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ]
+  ],
+  "source_texts": [
+    "The princesses climbed onto their royal elephants, and since Kundavai had already hinted that those leaving for a long journey must start on their journey first, Vandiya Devan turned the horse\u2019s head towards the road albeit with great hesitation. Even then he couldn\u2019t help but turn towards her and look upon her beautiful face once again, but realizing that it is unmannerly, he turned the horse\u2019s head swiftly and galloped away within a flash. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+    "This was the philosophy worked out by the Oblomovka Plato, a philosophy which lulled him amid the issues and strict demands of duty and purpose! He had been born and reared not like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the alarms of happiness or life\u2019s blows. Consequently, his person expressed one of life\u2019s extremes, and he did nothing to achieve, change, or repent.",
+    "He followed the road-mender\u2019s advice, went back, and half an hour later drove past the same spot but this time at a fast trot with a good trace horse. The horse-handler, who called himself a postilion, sat on the cart shaft.",
+    "The tiny figure stopped, and imploringly stretched out toward the phosphorescent intervals between the branches, which were forming the body.",
+    "A thousand lords with girdle-jade walk in front and rear. The many flags of guardsmen stand both left and right. Those holding gilt bludgeons, And halberds and axes, March in pairs and pairs; The red silk lanterns, The royal incense urn, Move in solemnity. The dragons fly and the phoenixes dance; The falcons soar and the eagles take wing. This Son of Heaven\u2019s an upright sage; The righteous ministers are good. They increase our bliss by a thousand years, surpassing Yu and Shun; They secure peace of ten thousand ages, rivaling Yao and Tang. We also see the curve-handled umbrella, And robes with rolling dragons\u2014 Their glare lighting up each other; The jade joined-rings, The phoenix fans, Waving through holy mist. Those caps of pearls and belts of jade; The purple sashes and medals of gold. A thousand rows of soldiers protect the Throne; Two lines of marshals uphold the carriage. This emperor, cleansed and sincere, bows to the Buddha, Glad to raise incense and seek virtue\u2019s fruit. The grand cortege of the Tang emperor soon arrived in front of the temple. The emperor ordered a halt to the music, left the carriages, and led many officials in the worship of Buddha by taking up burning incense sticks in their hands. After bowing three times holding the incense, they raised their heads and looked around them. This was indeed a splendid religious hall. You see Dancing flags and banners; Bright, gleaming sunshades. Dancing flags and banners Fill the air with strands of flashing colored mists. Bright, gleaming sunshades Glow in the sun as fiery bolts. Imposing, the gold image of Lok\u0101jye\u1e63\u1e6dha;14 Most awesome, the jade features of the arhats. Divine flowers fill the vases. Sandalwood incense burn in the urns. The divine flowers filling the vases Adorn the temple with a brilliant forest of brocade. The sandalwood incense burning in the urns Covers the clear sky with waves of fragrant clouds. Piled high on red trays are fruits in season. On colored counters, mounds of cakes and sweets rest. Rows of noble priests chant the holy s\u016btras To save from their travails those orphaned souls. Taizong and his officials each lifted the incense; they also worshipped the golden body of the Buddha and paid homage to the arhats. Thereafter, the Master of the Law, Chen Xuanzang, the Grand Expositor of the Faith, led the various monks to greet the Tang emperor. After the ceremony, they went back to their seats according to their rank and station. The priest then presented Taizong with the proclamation for the deliverance of the orphaned souls. It read: The supreme virtue is vast and endless, for Buddhism is founded upon Nirv\u0101\u1e47a. The spirit of the pure and the clean circulates freely and flows everywhere in the Three Regions. There are a thousand changes and ten thousand transformations, all regulated by the forces of yin and yang. Boundless and vast indeed are the substance, the function, the true nature, and the permanence of such phenomena. But look at those orphaned souls, how worthy they are of our pity and commiseration! Now by the holy command of Taizong, we have selected and assembled various priests, who will engage in meditation and in the proclamation of the Law. Flinging wide the gates of salvation and setting in motion many vessels of mercy, we would deliver you, the multitudes, from the Sea of Woe and save you from perdition and from the Sixfold Path. You will be led to return to the way of truth and to enjoy the bliss of Heaven. Whether it be by motion, rest, or nonactivity, you will be united with, and become, pure essences. Therefore make use of this noble occasion, for you are invited to the pleasures of the celestial city. Take advantage of our Grand Mass so that you may find release from Hell\u2019s confinement, ascend quickly and freely to ultimate bliss, and travel without restraint in the Region of the West.15 The poem says: An urn of immortal incense. Some scrolls of salvific power. As we proclaim this boundless Law, Receive now Heaven\u2019s endless grace. All your guilt and crime abolished, You lost souls may leave your prison. May our nation be firmly blessed With peace long and all-embracing. Highly pleased by what he read, Taizong said to the monks, \u201cBe firm, all of you, in your devotion, and do not slack in your service to Buddha. After the achievement of merit and after each has received his blessing, we shall reward you handsomely. Be assured that you will not have labored in vain.\u201d",
+    "As for the man, he truly was so tired that he did not even make the most of those clean white sheets. He snuffed out his candle with his nostril, the way convicts do, and dropping on to the bed fully dressed, immediately fell into a deep sleep.",
+    "\u201cThandavaraya, I don\u2019t think this is a real horse. It may belong to the poi kaal kudirai (false horse performance) group,\u201d said one of the soldiers. \u201cFine then.",
+    "The horses had turned to the right, and they started on their preliminary canter, passing in front of the grand stand in a disordered crowd. Then the excited remarks broke out again; every one spoke at the same time.",
+    "He told them. But we shall not repeat it here. He told the story briefly and impersonally. He did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself \u201cin view of certain new developments.\u201d He did not bother to explain the motives behind his actions anymore, did not go into subtleties. Besides, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most.",
+    "Next, Nana tackled Steiner without disgust, but also without love. She called him a dirty Jew. She seemed to be gratifying an old hatred which she could not very well explain to herself. He was fat, he was stupid, and she turned him about, taking double mouthfuls, wishing to have done with the Prussian all the quicker. He had given up Simone. His Bosphorus speculation was already in jeopardy. Nana hastened his downfall by the most lavish expenditure. For a month still he struggled, performing miracles. He covered Europe with a colossal publicity\u2014posters, advertisements, prospectuses\u2014and extracted money from the most distant countries. All those savings, the louis of the speculators the same as the sous of the poor people, were swallowed up in the Avenue de Villiers. He had also gone into partnership with an iron-founder in Alsace. There were there, in a corner of the country, workmen black with coal dust, bathed with perspiration, who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana\u2019s pleasures. She devoured all like a great fire\u2014the thefts at the Bourse, the earnings of labour. This time she finished Steiner. She returned him to the pavement, sucked to the bone, so emptied that he remained even incapable of inventing a fresh roguery. In the collapse of his banking establishment he went crazy; he trembled at the name of the police. He was made a bankrupt; and the mere word \u201cmoney\u201d bewildered him, threw him into a childish state of embarrassment\u2014he who had handled millions. One evening when with her, he burst out crying. He asked her to lend him a hundred francs to pay his servant; and Nana, affected and amused by this ending of the terrible old man who for twenty years past had been skimming the Paris market, brought him the money, saying,"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "llama_31_8b"
+    ]
+  ],
+  "rationales": [
+    "Paraphrases 1 and 3 both mention 'Kundavai had gone out of her way to imply that those embarking on an extended journey should depart first' or a very close wording, as well as describing Vandiya Devan 'reluctantly' steering/guiding his horse towards the road. The structure, lexical choices such as 'reluctantly guided his horse towards the road', 'steered his horse towards the road, despite his initial reluctance', and the sequence of actions (final glance at Kundavai's face, realizing impropriety, redirecting horse, riding off, Vaidiyar's son struggling/following) are nearly identical, indicating the same paraphrasing system.",
+    "Outputs 0 and 2 share notable similarities in structure, vocabulary, and phrasing. Both refer directly to 'the philosophy' that Plato of Oblomovka worked out or developed, and both use similar formulations to describe that philosophy lulling him amid the demands of duty. Both also contain very similar phrases regarding being not bred/born as a gladiator for the arena but as a peaceful spectator/onlooker of the battle. Additionally, both make extended use of semicolons to join related clauses, which is a stylistic marker. Their rendering of the 'meek and lazy soul' and the notion of not enduring the 'blows of life' are nearly parallel, as is the conclusion about expressing only one of life's extremes/aspects and not changing anything about it.",
+    "Indexes 1 and 3 are very similar in their vocabulary and sentence structure. Both use the phrases 'followed the ... advice', 'retraced his steps', 'half an hour later', 'passed the same place/spot', 'at a full trot/full speed', 'with a good extra horse/horse to aid', and both end with 'a stable-boy, who called himself a postilion, was sitting/seated on the shaft of the cariole/carriole.' The structure and word choices are very closely aligned, with only minor variation in the phrasing, which is a typical result of the same paraphrasing model making minor adjustments.",
+    "Indexes 1 and 4 both use the phrase 'phosphorescent intervals between the branches.' Additionally, both use a similar syntactic structure: '[the figure] [verb] and [action] to the phosphorescent intervals between the branches, which formed a body.' The choice of 'phosphorescent intervals' is uncommon and the specific structural similarity suggests they are from the same paraphraser.",
+    "Outputs 3 and 4 share a very distinctive and poetic, almost verse-like style, which is markedly different from the more conventional narrative or summary prose in outputs 0 and 2. Both employ lines beginning with 'The dragons fly and the phoenixes...' or 'Dragons fly and phoenixes dance,' and make use of short, parallel structures and repeated imagery. Compared to the others, these two also both include lines with semicolons separating clauses, and focus heavily on listing ceremonial elements and imagery with little explanatory narration. This shared style and structure strongly suggests they were generated by the same paraphraser.",
+    "Outputs 1 and 3 share a very similar structure, wording, and order of information. Both start with 'As to/for the man', mention that he 'did not even avail himself of/did not even profit by' the clean white sheets, describe the snuffing out of the candle 'with his nostril(s) after the manner of convicts', and end with the man falling onto the bed, 'dressed as he was/all dressed as he was', falling 'into a sound/profound sleep'. These shared phrasings and syntactic patterns strongly suggest that 1 and 3 are from the same paraphraser.",
+    "Outputs 3 and 4 share extremely similar sentence structure, phrasing, and even a nearly identical quotation split: both have 'I doubt this is an actual horse, Thandavaraya. It's likely from the false horse performance troupe.' as a soldier's remark. Furthermore, both end with a brief acknowledgment ('Understood.'/'Alright then'). This pattern of direct dialogue, crisp attribution, and compact summary is distinct and matches closely between 3 and 4, suggesting they come from the same paraphraser, possibly with minor template changes.",
+    "Outputs 0 and 4 both use similar descriptive phrases ('veered right', 'began...canter', 'jumbled/chaotic mass', 'past the grandstand'), and both follow a similar sentence structure: introduction of horse movement, description of their formation as they pass the grandstand, and then a resulting burst of excited chatter ('sparked a new flurry of excited chatter' vs. 'reignited the cacophony of excited comments'), ending with 'everyone speaking at once.' The style and order of details are notably alike compared to the others.",
+    "Outputs 0 and 4 both exhibit a modern, neutral, and explanatory tone, avoiding any quotation from the original, and focusing on summarizing the situation in a matter-of-fact manner. Both rephrase the same content in a similar structure \u2013 first, a sentence about not repeating the details, followed by the factual, emotionless account, then mentioning the lack of probing from the interrogators. Both paraphrases use language that explains rather than just translates (e.g., 'He described the situation in a matter-of-fact way, without showing any emotion or revealing personal feelings' and 'He stuck to a straightforward account, focusing on the facts rather than expressing his emotions'). This pattern suggests they were generated by the same paraphraser.",
+    "Outputs 0 and 4 share notable stylistic similarities: both use more formal and elaborate phrasing, frequently employ participial and subordinate clauses, and both repeatedly characterize Nana's actions as 'engaged with', 'assault', or 'consumed' Steiner. Both mention Nana's lack of affection or revulsion, her verbal abuse toward Steiner, and her precise emotional detachment. Both spend considerable attention on Nana's extravagant spending being the driver of Steiner's downfall, include descriptive details about his bankruptcy and breakdown, and conclude with nearly identical interpretations of the final interaction (Nana being 'touched and entertained/amused' by the fallen man, and handing over the money with a parting remark). There is also a thematic and structural parallelism in how they cite the 'savings of investors and the poor' and the effect of Nana's lifestyle on Steiner's ruin, indicating they likely come from the same paraphrasing engine, possibly one that privileges a more explanatory, formal, and analytical style."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him."
+      ],
+      "llama_31_8b": [
+        "Kundavai had gone out of her way to imply that those embarking on an extended journey should depart first. Vandiya Devan reluctantly steered his horse towards the road, despite his initial reluctance. Glancing back one last time at Kundavai's lovely face, he then quickly redirected his horse's head and rode off in haste. The Vaidiyar's son, who was to join him, struggled with his own mount and set off in pursuit.",
+        "Vandiya Devan turned his horse around, despite evident reluctance, and began to ride away from Kundavai. Before leaving, he couldn't resist stealing one final glance at her face, but pulled the reins sharply to correct himself, recognizing such a glance as impolite. He then spurred his horse into a gallop. His companion, the Vaidiyar's son, struggled to keep up."
+      ],
+      "gemini_25_flash": [
+        "The princesses mounted their majestic elephants. Following Kundavai's subtle suggestion that those embarking on extended travels should depart first, Vandiya Devan reluctantly guided his horse towards the road. Despite his hesitation, he couldn't resist a final glance at her lovely face. Understanding that it was improper, he quickly reoriented his horse and galloped off. The Vaidiyar's son, who was meant to accompany him, had difficulty managing his own horse as he trailed behind. \n"
+      ],
+      "dipper_lowmed": [
+        "But Vandiyadhevan was not able to resist the urge to turn towards her and look at her face one more time, but realized that it was rude to do so, and turned the horse\u2019s head sharply and galloped away. The Vaidiyar who was accompanying him struggled to control his horse and followed him. Since Kundavai had already hinted that those who were going on a long journey should start first, Vandiyathevan turned his horse\u2019s head towards the road with great hesitation."
+      ]
+    },
+    {
+      "human_par3": [
+        "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it.",
+        "Such the philosophy which our Plato of Oblomovka elaborated for the purpose of lulling himself to sleep amid the problems and the stern demands of duty and of destiny. He had been bred and nourished to play the part, not of a gladiator in the arena but of a peaceful onlooker at the struggle. Never could his diffident, lethargic spirit have faced either the raptures or the blows of life. Hence he expressed only one of its aspects, and had no mind either to succeed in it, or to change anything in it, or to repent of his decision."
+      ],
+      "llama_31_8b": [
+        "Oblomov's way of thinking led him to a life of complacency, shielding him from the stresses and expectations of responsibility. He had been raised as an observer, not a participant, in the midst of life's challenges. His passive and easy-going nature couldn't handle the ups and downs that come with living, so he took the path of inaction, neither striving for nor trying to improve himself."
+      ],
+      "gemini_25_flash": [
+        "This was the outlook developed by the Oblomovka Plato, an outlook that pacified him despite the difficulties and strict requirements of responsibility and ambition. He was not raised to be a gladiator, but rather a calm observer of conflict. His gentle and idle spirit was not meant to withstand either the anxieties of joy or the hardships of life. As a result, his character represented an extreme of life, and he made no effort to accomplish, alter, or atone."
+      ],
+      "dipper_lowmed": [
+        "He was not born and brought up, not like a gladiator, for the arena, but as a peaceful spectator of the battle; it was not for his meek and lazy soul to endure either the shock of happiness or the blows of life; consequently, his person expressed one of life's extremes, and he did nothing to reach, to change or to repent. This was the philosophy worked out by Plato of Oblomovka, a philosophy that lulled him in the midst of the thorny issues and strict demands of duty and purpose!"
+      ]
+    },
+    {
+      "human_par3": [
+        "He followed the road-mender\u2019s advice, retraced his steps, and, half an hour later, he passed the same spot again, but this time at full speed, with a good horse to aid; a stable-boy, who called himself a postilion, was seated on the shaft of the cariole.",
+        "He followed the countryman\u2019s advice, retraced his steps, and a half hour afterwards he again passed the same place, but at a full trot, with a good extra horse. A stable-boy, who called himself a postillion, was sitting upon the shaft of the carriole."
+      ],
+      "llama_31_8b": [
+        "Following the road-mender's guidance, he returned to the location and a short while later quickly approached the spot on his own horse, riding at a rapid pace this time, with a well-trained horse pulling a two-wheeled cart. Playing the role of a horse handler, a man was sitting on the cart's front axle."
+      ],
+      "gemini_25_flash": [
+        "Heeding the road-mender's counsel, he retraced his steps. Thirty minutes later, he passed the same location, but this time he was moving quickly, riding with an additional horse harnessed in front, and the person guiding the horses sat on the cart's shaft, identifying himself as a postilion."
+      ],
+      "dipper_lowmed": [
+        "The horse-handler, who called himself a postilion, sat on the shaft. He took the advice of the road-maker, went back, and half an hour later passed the same spot, but this time at a fast trot, with a good trace-horse."
+      ]
+    },
+    {
+      "human_par3": [
+        "The figure stopped and reached out in supplication to the phosphorescent intervals between the branches, that formed a body:"
+      ],
+      "llama_31_8b": [
+        "The small figure halted, and with a pleading gesture, it reached out towards the glowing spaces between the branches, which were taking shape as a body.",
+        "The tiny figure halted and stretched towards the soft, glowing patches between the branches, which seemed to combine to form a translucent, bodily shape."
+      ],
+      "gemini_25_flash": [
+        "The small entity paused and extended itself pleadingly towards the glowing gaps in the branches that made up its form."
+      ],
+      "dipper_lowmed": [
+        "The tiny figure halted, and imploringly stretched out towards the phosphorescent intervals between the branches, which formed its body."
+      ]
+    },
+    {
+      "human_par3": [
+        "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain."
+      ],
+      "llama_31_8b": [
+        "Here is a rewritten version of the text in my own words:\n\nThe emperor's procession marches forward, with a thousand lords carrying jade girdles, and guardsmen holding various flags and arms. They move in perfect harmony, accompanied by the majestic sight of red silk lanterns, a royal incense urn, and dignitaries wearing magnificent robes. The air is filled with the fluttering of dragons, phoenixes, and other mythical creatures, and the distant sounds of music and incense-burning rise into the air.\n\nThe emperor, a wise and just ruler, bows in respect to the Buddha, symbolizing his commitment to seeking wisdom and virtue. The officials and monks gather around him, all dressed in their finest attire, including pearl-encrusted caps, jade belts, and golden sashes. The procession is escorted by rows of heavily armed soldiers, and marshals stand guard at the carriage, ensuring the emperor's safety.\n\nAs the cortege arrives at the temple, the emperor dismounts and leads the officials in a grand ritual, holding incense sticks and bowing three times in reverence. They gaze around in awe at the magnificent architecture and serene surroundings of the temple. Inside, the scene is equally breathtaking, with dancing flags and banners, gleaming sunshades, and a stunning gold statue of Lok\u0101jye\u1e63\u1e6dha.\n\nIn the grand hall, rows of noble priests chant sacred scriptures to save the souls of the orphaned and afflicted. After the ritual, the Master of the Law, Chen Xuanzang, leads the monks to greet the emperor, who receives a proclamation from the priest. The document outlines the benefits of Buddhism and invites the multitudes to seek salvation and return to the path of truth.\n\nTaizong, pleased with the message, thanks the monks and assures them that he will reward them for their devotion and hard work. He urges them to continue their dedication to the Buddha and to seek blessings, promising that their efforts will be fruitful and that they will not labor in vain."
+      ],
+      "gemini_25_flash": [
+        "A large procession, featuring numerous lords adorned with jade, guards carrying flags, and soldiers with various weapons like bludgeons, halberds, and axes, moved solemnly forward. Red silk lanterns and a royal incense urn were carried along. The scene was filled with imagery of mythical creatures like dragons and phoenixes flying and dancing, alongside soaring falcons and eagles. This imagery highlighted the emperor's status as a righteous and wise ruler, supported by virtuous ministers, whose reign was predicted to bring prosperity and peace for ages, surpassing legendary ancient rulers.\n\nThe procession also included curved umbrellas and imperial robes embroidered with dragons, which shimmered and reflected light off each other. Jade rings, phoenix fans, pearl caps, jade belts, purple sashes, and gold medals further embellished the scene, all moving through a spiritual mist. A vast number of soldiers guarded the emperor's throne, and marshals flanked his carriage.\n\nThe emperor, described as pure and sincere, made his way to a temple to pay homage to Buddha. He halted the music, exited his carriage, and, accompanied by many officials, approached the altar with burning incense sticks. After bowing three times with the incense, they looked around at the magnificent temple.\n\nInside, banners and flags swayed, and gleaming sunshades created vibrant, flashing mists and fiery glows. A grand gold statue of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade figures of arhats dominated the space. Vases overflowed with divine flowers, creating a \"forest of brocade,\" while sandalwood incense burned in urns, producing \"fragrant clouds\" that filled the clear sky. Offerings of seasonal fruits on red trays and mounds of cakes and sweets on colored counters were also present. Rows of priests chanted holy s\u016btras, aiming to bring solace to orphaned souls.\n\nEmperor Taizong and his officials, after offering incense, worshipped the golden Buddha and honored the arhats. Afterwards, Chen Xuanzang, the Master of the Law and Grand Expositor of the Faith, led other monks in greeting the emperor. Following the ceremony, everyone returned to their designated places.\n\nThe priest then presented Taizong with a proclamation for the salvation of orphaned souls. The proclamation emphasized the vast and endless virtue of Buddhism, rooted in Nirv\u0101\u1e47a, and the omnipresent spirit of purity that pervades the Three Regions, guided by yin and yang. It expressed profound pity for orphaned souls and announced that, under Taizong's command, priests had been gathered to meditate and preach the Dharma. Through these efforts, \"gates of salvation\" and \"vessels of mercy\" would be opened to rescue multitudes from suffering and perdition, guiding them towards truth and heavenly bliss. It urged the souls to seize this opportunity to escape Hell's confinement, achieve ultimate bliss, and freely journey to the Western Region. A accompanying poem celebrated the power of divine incense and salvific scrolls, promising boundless grace, the abolition of guilt, release from spiritual imprisonment, and lasting peace for the nation.\n\nDeeply pleased by the message, Taizong encouraged the monks to remain steadfast in their devotion and service to Buddha. He promised them generous rewards for their merits and blessings, ensuring that their efforts would not be in vain."
+      ],
+      "dipper_lowmed": [
+        "The dragons fly and the phoenixes soar; The falcons soar and the eagles soar. This Son of Heaven is indeed an illustrious sage; These ministers are indeed worthy ministers. They multiply our long life, surpassing Yu and Shun; They secure our peace, equaling that of Yao and Tang. You see Burning incense sticks hung from the roof eaves; Moving golden trays holding incense burn bright, Like thunderclaps resounding.",
+        "Dragons fly and phoenixes dance; Hawks soar and eagles soar, With falcons, eagles, and hawks in pursuit. This virtuous emperor bows to worship Buddha; He sincerely lifts incense to seek blessings. With bludgeons, halberds, and axes, The soldiers march in ranks and files; With spears, swords, and scimitars, The guardsman of the city walks in pairs; The many flags of the guards march in ranks; The halberds, the axes, and the lances, March in pairs; The red silk lanterns, The royal incense urn, Move in solemnity; The hats with the twisted dragons, The gourds of gold, Move in splendor; The swords and scimitars, The curved halberds, Move in celestial splendor; The trays of fruits in season; On colored counters, colored cakes and sweets in season."
+      ]
+    },
+    {
+      "human_par3": [
+        "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep.",
+        "As to the man, he was so completely exhausted that he did not even avail himself of the clean white sheets; he blew out the candle with his nostril, after the manner of convicts, and fell on the bed, dressed as he was, into a sound sleep."
+      ],
+      "llama_31_8b": [
+        "The man was so exhausted that he barely even appreciated the fresh, clean bedding. He extinguished the candle by blowing out the flame with his nose, a technique often associated with prisoners, before collapsing onto the bed fully clothed and instantly falling into a profound sleep."
+      ],
+      "gemini_25_flash": [
+        "The man was so utterly exhausted that he didn't even bother to properly appreciate the fresh, clean sheets. He extinguished his candle by pinching it with his nostril, a technique used by prisoners, and collapsed onto the bed, fully clothed, instantly falling into a profound slumber."
+      ],
+      "dipper_lowmed": [
+        "He blew out his candle with his nostril, as convicts do, and dropping on to his bed still fully dressed, fell at once into a deep sleep. As for the man, he was so tired that he did not even take advantage of those clean white sheets."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier."
+      ],
+      "llama_31_8b": [
+        "The soldier remarked that the horse in question might be a prop, possibly used in a false horse display group. The commander agreed, and the conversation moved forward."
+      ],
+      "gemini_25_flash": [
+        "\"I doubt this is an actual horse, Thandavaraya. It's likely from the 'false horse' performance troupe,\" a soldier remarked. \"Understood.\"",
+        "\"Thandavaraya,\" a soldier remarked, \"I doubt this is an actual horse. It's likely from the false horse performance troupe.\" \"Alright then,\" Thandavaraya responded."
+      ],
+      "dipper_lowmed": [
+        "\u201cThanthavarayar, this is not a real horse. It is from the poi kaal kudirai, the fake horse theatre troupe,\u201d said one of the soldiers."
+      ]
+    },
+    {
+      "human_par3": [
+        "The horses had gone up to the right, and they now started for the preliminary canter, passing in loose order before the stands. Thereupon there was a passionate fresh burst of talk, and people all spoke at once."
+      ],
+      "llama_31_8b": [
+        "As the horses veered to the right, they burst into a preliminary canter, racing past the grandstand in a chaotic, packed formation. The crowd's excited chatter erupted once more, with everyone shouting over each other."
+      ],
+      "gemini_25_flash": [
+        "After veering right, the horses began their initial canter, a chaotic throng moving past the grandstand. This sparked a new flurry of excited chatter, with everyone speaking at once.",
+        "The horses veered right and began their warm-up canter, a jumbled mass as they went past the grandstand. This immediately reignited the cacophony of excited comments, with everyone speaking at once."
+      ],
+      "dipper_lowmed": [
+        "Then the excited remarks broke out again; every one spoke at the same time. The horses had turned to the right, and they had begun their preliminary canter, passing in front of the grandstand in a disorderly crowd."
+      ]
+    },
+    {
+      "human_par3": [
+        "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+      ],
+      "llama_31_8b": [
+        "Without sharing the specifics, he chose to share a concise version of the events with them. He stuck to a straightforward account, focusing on the facts rather than expressing his emotions. There was no mention of his motivations or inner turmoil, as if it didn't matter anymore. His interrogators didn't press him for details, suggesting that their primary focus wasn't on gaining a deeper understanding of his thoughts.",
+        "He shared the details, but we won't share them here. He described the situation in a matter-of-fact way, without showing any emotion or revealing personal feelings. He mentioned that his initial intention to end his life had weakened due to some recent changes, but he didn't elaborate on the reasons behind it. He also didn't delve into the complexities of his situation, suggesting that his interrogators were more focused on other aspects than his emotional state."
+      ],
+      "gemini_25_flash": [
+        "He shared his story with them, though we won't recount it here. His narrative was concise and detached, devoid of emotional detail. He merely stated that he was now less inclined to commit suicide due to \"new circumstances.\" He no longer elaborated on his reasoning or the nuances of his decisions. Furthermore, his questioners rarely interjected, indicating their primary interest lay elsewhere."
+      ],
+      "dipper_lowmed": [
+        "He told it, but we will not repeat it here. He told the story briefly and impersonally, he did not speak of his love and his feelings; he told only that he was no longer so determined to shoot himself, \u201cin view of certain new developments\u201d; he did not bother to explain the motives of his actions any more, he did not go into the subtleties; besides, his interrogators did not interrupt him very often with questions, it was obvious that this was not what interested them most."
+      ]
+    },
+    {
+      "human_par3": [
+        "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:"
+      ],
+      "llama_31_8b": [
+        "Nana set her sights on Steiner, tackling him without any sense of compassion, driven instead by a deep-seated hatred that she couldn't fully articulate. She referred to him as a dirty Jew, and it was clear that her words were laced with malice. Steiner's physical appearance - his stout figure and apparent lack of intelligence - only fueled her anger. She turned him around, consuming huge amounts of his things, eager to quickly finish him off, all the while accelerating his financial downfall. Although he put up a valiant effort for a month, Steiner's speculation - a venture involving the Bosphorus - was already on shaky ground. Nana further doomed him by squandering enormous amounts of money. He spent lavishly, plastering Europe with posters and advertisements, and extracting funds from distant lands. Meanwhile, workers in a small Alsatian foundry were toiling day and night to produce the materials that would help finance Nana's extravagant lifestyle. In the end, she consumed everything in her path - from the large sums of the wealthy investors to the tiny savings of the poor. Steiner, hisEstie speculations and bank deal collapsed weighing on him, became helpless and incapable of coming up with a new scheme. He eventually went mad from his financial failure, tremble at the mention of the police, and was declared bankrupt. Even the term \"money\" left him bewildered and childlike. On one occasion, while with Nana, he broke down in tears and begged her to lend him a hundred francs to pay his servant.",
+        "Nana continued her relentless assault on Steiner, his rival, without displaying any sympathy or affection towards him. Instead, she hurled insults at him, calling him a \"dirty Jew\" and showing no hesitation in betraying an old hatred that seemed to be deep-seated. She was repulsed by his physical appearance and perceived him as a fool. Steiner's failed relationship with Simone had already put him in a precarious position, and Nana's extravagant spending further eroded his financial stability. Despite his initial success, which was fueled by massive advertising efforts and investments from distant lands, Steiner's company was eventually drained of its assets. Nana's lavish lifestyle, financed by the savings of small investors and working-class people alike, ultimately proved to be Steiner's undoing. His partnership with an iron-founder in Alsace had similarly become a burden, with workers laboring tirelessly to provide funds for Nana's indulgences. In the end, she left Steiner financially shattered, unable to muster the cunning and energy to come up with new schemes. His banking business collapsed, and the mere mention of the police sent him into a panic. Declared bankrupt, Steiner was reduced to a state of infantile helplessness when it came to managing money, a far cry from his past glory of handling millions. On one occasion, Steiner broke down in tears and asked Nana for a hundred francs to pay his servant. She, amused and moved by the spectacle of the once-powerful man's downfall, generously handed over the money, adding a parting remark."
+      ],
+      "gemini_25_flash": [
+        "Nana then engaged with Steiner, not out of revulsion or affection. She verbally abused him, calling him a \"dirty Jew,\" seemingly driven by an ingrained prejudice she couldn't articulate. She perceived him as portly and foolish, and she quickly moved between them, consuming him voraciously, eager to be rid of the \"Prussian\" as soon as possible. Steiner had already lost Simone, and his investment in the Bosphorus was failing. Nana accelerated his ruin through her extravagant spending. For another month, he fought valiantly, achieving extraordinary feats. He launched a widespread advertising campaign across Europe\u2014posters, ads, brochures\u2014and managed to secure funds from far-off lands. All these savings, from the substantial sums of investors to the meager contributions of the poor, vanished in the Avenue de Villiers. He had also partnered with an iron-founder in Alsace, where laborers toiled tirelessly, their bodies covered in coal dust and sweat, to fund Nana's extravagant lifestyle. She consumed everything, like a raging inferno\u2014stolen stock market gains and the fruits of labor. This time, she utterly destroyed Steiner. She left him destitute, utterly depleted, unable to even conjure a new scheme. The collapse of his bank drove him insane; the mere mention of the police terrified him. He was declared bankrupt, and the word \"money\" bewildered him, reducing him to a childlike state of confusion, despite his past dealings with millions. One evening while with her, he wept. He asked her for a loan of a hundred francs to pay his servant; and Nana, touched and entertained by the downfall of this formidable man who had dominated the Paris market for two decades, gave him the money, saying,"
+      ],
+      "dipper_lowmed": [
+        "He had given up Simone, his Bosphorus speculation was in danger, and Nana hurried the downfall by the most lavish expenditure. For another month he struggled, he worked miracles. He covered Europe with a colossal publicity, posters, advertisements, prospectuses, and extracted money from the most distant countries, all those savings, the louis of the speculators as well as the sous of the poor; and all that money, stomped up from the most distant countries, all those savings, the louis of the speculators, all those sous of the poor, was swallowed up in the avenue de Villiers. He had also gone into partnership with an iron founder in Alsace; there, in that corner of the country, black with coal dust and bathed in perspiration, were workmen who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana's pleasures. This time she finished Steiner, she sent him back on the pavement, sucked to the bone, so empty that he was even incapable of inventing another fraud, his own that he had been dealing in millions of capital; when his banking house went to the ground, he was crazy, he trembled at the name of the police, he was made bankrupt; and the mere word \"money\" embarrassed him, made him throw himself into a childish embarrassment, he who had handled millions; one evening, when he was with her, he burst out crying, asked her for a hundred francs to pay his servant, and Nana, touched and amused by the end of this dreadful old man who had been skimming the Paris market for twenty years, brought him the money, saying, \u201cIt\u2019s all yours.\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Vandiya Devan turned his horse around, despite evident reluctance, and began to ride away from Kundavai. Before leaving, he couldn't resist stealing one final glance at her face, but pulled the reins sharply to correct himself, recognizing such a glance as impolite. He then spurred his horse into a gallop. His companion, the Vaidiyar's son, struggled to keep up.",
+      "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it.",
+      "Heeding the road-mender's counsel, he retraced his steps. Thirty minutes later, he passed the same location, but this time he was moving quickly, riding with an additional horse harnessed in front, and the person guiding the horses sat on the cart's shaft, identifying himself as a postilion.",
+      "The small figure halted, and with a pleading gesture, it reached out towards the glowing spaces between the branches, which were taking shape as a body.",
+      "A large procession, featuring numerous lords adorned with jade, guards carrying flags, and soldiers with various weapons like bludgeons, halberds, and axes, moved solemnly forward. Red silk lanterns and a royal incense urn were carried along. The scene was filled with imagery of mythical creatures like dragons and phoenixes flying and dancing, alongside soaring falcons and eagles. This imagery highlighted the emperor's status as a righteous and wise ruler, supported by virtuous ministers, whose reign was predicted to bring prosperity and peace for ages, surpassing legendary ancient rulers.\n\nThe procession also included curved umbrellas and imperial robes embroidered with dragons, which shimmered and reflected light off each other. Jade rings, phoenix fans, pearl caps, jade belts, purple sashes, and gold medals further embellished the scene, all moving through a spiritual mist. A vast number of soldiers guarded the emperor's throne, and marshals flanked his carriage.\n\nThe emperor, described as pure and sincere, made his way to a temple to pay homage to Buddha. He halted the music, exited his carriage, and, accompanied by many officials, approached the altar with burning incense sticks. After bowing three times with the incense, they looked around at the magnificent temple.\n\nInside, banners and flags swayed, and gleaming sunshades created vibrant, flashing mists and fiery glows. A grand gold statue of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade figures of arhats dominated the space. Vases overflowed with divine flowers, creating a \"forest of brocade,\" while sandalwood incense burned in urns, producing \"fragrant clouds\" that filled the clear sky. Offerings of seasonal fruits on red trays and mounds of cakes and sweets on colored counters were also present. Rows of priests chanted holy s\u016btras, aiming to bring solace to orphaned souls.\n\nEmperor Taizong and his officials, after offering incense, worshipped the golden Buddha and honored the arhats. Afterwards, Chen Xuanzang, the Master of the Law and Grand Expositor of the Faith, led other monks in greeting the emperor. Following the ceremony, everyone returned to their designated places.\n\nThe priest then presented Taizong with a proclamation for the salvation of orphaned souls. The proclamation emphasized the vast and endless virtue of Buddhism, rooted in Nirv\u0101\u1e47a, and the omnipresent spirit of purity that pervades the Three Regions, guided by yin and yang. It expressed profound pity for orphaned souls and announced that, under Taizong's command, priests had been gathered to meditate and preach the Dharma. Through these efforts, \"gates of salvation\" and \"vessels of mercy\" would be opened to rescue multitudes from suffering and perdition, guiding them towards truth and heavenly bliss. It urged the souls to seize this opportunity to escape Hell's confinement, achieve ultimate bliss, and freely journey to the Western Region. A accompanying poem celebrated the power of divine incense and salvific scrolls, promising boundless grace, the abolition of guilt, release from spiritual imprisonment, and lasting peace for the nation.\n\nDeeply pleased by the message, Taizong encouraged the monks to remain steadfast in their devotion and service to Buddha. He promised them generous rewards for their merits and blessings, ensuring that their efforts would not be in vain.",
+      "The man was so exhausted that he barely even appreciated the fresh, clean bedding. He extinguished the candle by blowing out the flame with his nose, a technique often associated with prisoners, before collapsing onto the bed fully clothed and instantly falling into a profound sleep.",
+      "The soldier remarked that the horse in question might be a prop, possibly used in a false horse display group. The commander agreed, and the conversation moved forward.",
+      "After veering right, the horses began their initial canter, a chaotic throng moving past the grandstand. This sparked a new flurry of excited chatter, with everyone speaking at once.",
+      "He shared the details, but we won't share them here. He described the situation in a matter-of-fact way, without showing any emotion or revealing personal feelings. He mentioned that his initial intention to end his life had weakened due to some recent changes, but he didn't elaborate on the reasons behind it. He also didn't delve into the complexities of his situation, suggesting that his interrogators were more focused on other aspects than his emotional state.",
+      "Nana then engaged with Steiner, not out of revulsion or affection. She verbally abused him, calling him a \"dirty Jew,\" seemingly driven by an ingrained prejudice she couldn't articulate. She perceived him as portly and foolish, and she quickly moved between them, consuming him voraciously, eager to be rid of the \"Prussian\" as soon as possible. Steiner had already lost Simone, and his investment in the Bosphorus was failing. Nana accelerated his ruin through her extravagant spending. For another month, he fought valiantly, achieving extraordinary feats. He launched a widespread advertising campaign across Europe\u2014posters, ads, brochures\u2014and managed to secure funds from far-off lands. All these savings, from the substantial sums of investors to the meager contributions of the poor, vanished in the Avenue de Villiers. He had also partnered with an iron-founder in Alsace, where laborers toiled tirelessly, their bodies covered in coal dust and sweat, to fund Nana's extravagant lifestyle. She consumed everything, like a raging inferno\u2014stolen stock market gains and the fruits of labor. This time, she utterly destroyed Steiner. She left him destitute, utterly depleted, unable to even conjure a new scheme. The collapse of his bank drove him insane; the mere mention of the police terrified him. He was declared bankrupt, and the word \"money\" bewildered him, reducing him to a childlike state of confusion, despite his past dealings with millions. One evening while with her, he wept. He asked her for a loan of a hundred francs to pay his servant; and Nana, touched and entertained by the downfall of this formidable man who had dominated the Paris market for two decades, gave him the money, saying,"
+    ],
+    [
+      "The princesses mounted their majestic elephants. Following Kundavai's subtle suggestion that those embarking on extended travels should depart first, Vandiya Devan reluctantly guided his horse towards the road. Despite his hesitation, he couldn't resist a final glance at her lovely face. Understanding that it was improper, he quickly reoriented his horse and galloped off. The Vaidiyar's son, who was meant to accompany him, had difficulty managing his own horse as he trailed behind. \n",
+      "Oblomov's way of thinking led him to a life of complacency, shielding him from the stresses and expectations of responsibility. He had been raised as an observer, not a participant, in the midst of life's challenges. His passive and easy-going nature couldn't handle the ups and downs that come with living, so he took the path of inaction, neither striving for nor trying to improve himself.",
+      "He followed the countryman\u2019s advice, retraced his steps, and a half hour afterwards he again passed the same place, but at a full trot, with a good extra horse. A stable-boy, who called himself a postillion, was sitting upon the shaft of the carriole.",
+      "The tiny figure halted, and imploringly stretched out towards the phosphorescent intervals between the branches, which formed its body.",
+      "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain.",
+      "As to the man, he was so completely exhausted that he did not even avail himself of the clean white sheets; he blew out the candle with his nostril, after the manner of convicts, and fell on the bed, dressed as he was, into a sound sleep.",
+      "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+      "The horses had gone up to the right, and they now started for the preliminary canter, passing in loose order before the stands. Thereupon there was a passionate fresh burst of talk, and people all spoke at once.",
+      "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here.",
+      "He had given up Simone, his Bosphorus speculation was in danger, and Nana hurried the downfall by the most lavish expenditure. For another month he struggled, he worked miracles. He covered Europe with a colossal publicity, posters, advertisements, prospectuses, and extracted money from the most distant countries, all those savings, the louis of the speculators as well as the sous of the poor; and all that money, stomped up from the most distant countries, all those savings, the louis of the speculators, all those sous of the poor, was swallowed up in the avenue de Villiers. He had also gone into partnership with an iron founder in Alsace; there, in that corner of the country, black with coal dust and bathed in perspiration, were workmen who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana's pleasures. This time she finished Steiner, she sent him back on the pavement, sucked to the bone, so empty that he was even incapable of inventing another fraud, his own that he had been dealing in millions of capital; when his banking house went to the ground, he was crazy, he trembled at the name of the police, he was made bankrupt; and the mere word \"money\" embarrassed him, made him throw himself into a childish embarrassment, he who had handled millions; one evening, when he was with her, he burst out crying, asked her for a hundred francs to pay his servant, and Nana, touched and amused by the end of this dreadful old man who had been skimming the Paris market for twenty years, brought him the money, saying, \u201cIt\u2019s all yours.\u201d"
+    ],
+    [
+      "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him.",
+      "He was not born and brought up, not like a gladiator, for the arena, but as a peaceful spectator of the battle; it was not for his meek and lazy soul to endure either the shock of happiness or the blows of life; consequently, his person expressed one of life's extremes, and he did nothing to reach, to change or to repent. This was the philosophy worked out by Plato of Oblomovka, a philosophy that lulled him in the midst of the thorny issues and strict demands of duty and purpose!",
+      "The horse-handler, who called himself a postilion, sat on the shaft. He took the advice of the road-maker, went back, and half an hour later passed the same spot, but this time at a fast trot, with a good trace-horse.",
+      "The small entity paused and extended itself pleadingly towards the glowing gaps in the branches that made up its form.",
+      "Here is a rewritten version of the text in my own words:\n\nThe emperor's procession marches forward, with a thousand lords carrying jade girdles, and guardsmen holding various flags and arms. They move in perfect harmony, accompanied by the majestic sight of red silk lanterns, a royal incense urn, and dignitaries wearing magnificent robes. The air is filled with the fluttering of dragons, phoenixes, and other mythical creatures, and the distant sounds of music and incense-burning rise into the air.\n\nThe emperor, a wise and just ruler, bows in respect to the Buddha, symbolizing his commitment to seeking wisdom and virtue. The officials and monks gather around him, all dressed in their finest attire, including pearl-encrusted caps, jade belts, and golden sashes. The procession is escorted by rows of heavily armed soldiers, and marshals stand guard at the carriage, ensuring the emperor's safety.\n\nAs the cortege arrives at the temple, the emperor dismounts and leads the officials in a grand ritual, holding incense sticks and bowing three times in reverence. They gaze around in awe at the magnificent architecture and serene surroundings of the temple. Inside, the scene is equally breathtaking, with dancing flags and banners, gleaming sunshades, and a stunning gold statue of Lok\u0101jye\u1e63\u1e6dha.\n\nIn the grand hall, rows of noble priests chant sacred scriptures to save the souls of the orphaned and afflicted. After the ritual, the Master of the Law, Chen Xuanzang, leads the monks to greet the emperor, who receives a proclamation from the priest. The document outlines the benefits of Buddhism and invites the multitudes to seek salvation and return to the path of truth.\n\nTaizong, pleased with the message, thanks the monks and assures them that he will reward them for their devotion and hard work. He urges them to continue their dedication to the Buddha and to seek blessings, promising that their efforts will be fruitful and that they will not labor in vain.",
+      "The man was so utterly exhausted that he didn't even bother to properly appreciate the fresh, clean sheets. He extinguished his candle by pinching it with his nostril, a technique used by prisoners, and collapsed onto the bed, fully clothed, instantly falling into a profound slumber.",
+      "\u201cThanthavarayar, this is not a real horse. It is from the poi kaal kudirai, the fake horse theatre troupe,\u201d said one of the soldiers.",
+      "Then the excited remarks broke out again; every one spoke at the same time. The horses had turned to the right, and they had begun their preliminary canter, passing in front of the grandstand in a disorderly crowd.",
+      "He shared his story with them, though we won't recount it here. His narrative was concise and detached, devoid of emotional detail. He merely stated that he was now less inclined to commit suicide due to \"new circumstances.\" He no longer elaborated on his reasoning or the nuances of his decisions. Furthermore, his questioners rarely interjected, indicating their primary interest lay elsewhere.",
+      "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:"
+    ],
+    [
+      "Kundavai had gone out of her way to imply that those embarking on an extended journey should depart first. Vandiya Devan reluctantly steered his horse towards the road, despite his initial reluctance. Glancing back one last time at Kundavai's lovely face, he then quickly redirected his horse's head and rode off in haste. The Vaidiyar's son, who was to join him, struggled with his own mount and set off in pursuit.",
+      "Such the philosophy which our Plato of Oblomovka elaborated for the purpose of lulling himself to sleep amid the problems and the stern demands of duty and of destiny. He had been bred and nourished to play the part, not of a gladiator in the arena but of a peaceful onlooker at the struggle. Never could his diffident, lethargic spirit have faced either the raptures or the blows of life. Hence he expressed only one of its aspects, and had no mind either to succeed in it, or to change anything in it, or to repent of his decision.",
+      "He followed the road-mender\u2019s advice, retraced his steps, and, half an hour later, he passed the same spot again, but this time at full speed, with a good horse to aid; a stable-boy, who called himself a postilion, was seated on the shaft of the cariole.",
+      "The tiny figure halted and stretched towards the soft, glowing patches between the branches, which seemed to combine to form a translucent, bodily shape.",
+      "Dragons fly and phoenixes dance; Hawks soar and eagles soar, With falcons, eagles, and hawks in pursuit. This virtuous emperor bows to worship Buddha; He sincerely lifts incense to seek blessings. With bludgeons, halberds, and axes, The soldiers march in ranks and files; With spears, swords, and scimitars, The guardsman of the city walks in pairs; The many flags of the guards march in ranks; The halberds, the axes, and the lances, March in pairs; The red silk lanterns, The royal incense urn, Move in solemnity; The hats with the twisted dragons, The gourds of gold, Move in splendor; The swords and scimitars, The curved halberds, Move in celestial splendor; The trays of fruits in season; On colored counters, colored cakes and sweets in season.",
+      "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep.",
+      "\"I doubt this is an actual horse, Thandavaraya. It's likely from the 'false horse' performance troupe,\" a soldier remarked. \"Understood.\"",
+      "As the horses veered to the right, they burst into a preliminary canter, racing past the grandstand in a chaotic, packed formation. The crowd's excited chatter erupted once more, with everyone shouting over each other.",
+      "He told it, but we will not repeat it here. He told the story briefly and impersonally, he did not speak of his love and his feelings; he told only that he was no longer so determined to shoot himself, \u201cin view of certain new developments\u201d; he did not bother to explain the motives of his actions any more, he did not go into the subtleties; besides, his interrogators did not interrupt him very often with questions, it was obvious that this was not what interested them most.",
+      "Nana set her sights on Steiner, tackling him without any sense of compassion, driven instead by a deep-seated hatred that she couldn't fully articulate. She referred to him as a dirty Jew, and it was clear that her words were laced with malice. Steiner's physical appearance - his stout figure and apparent lack of intelligence - only fueled her anger. She turned him around, consuming huge amounts of his things, eager to quickly finish him off, all the while accelerating his financial downfall. Although he put up a valiant effort for a month, Steiner's speculation - a venture involving the Bosphorus - was already on shaky ground. Nana further doomed him by squandering enormous amounts of money. He spent lavishly, plastering Europe with posters and advertisements, and extracting funds from distant lands. Meanwhile, workers in a small Alsatian foundry were toiling day and night to produce the materials that would help finance Nana's extravagant lifestyle. In the end, she consumed everything in her path - from the large sums of the wealthy investors to the tiny savings of the poor. Steiner, hisEstie speculations and bank deal collapsed weighing on him, became helpless and incapable of coming up with a new scheme. He eventually went mad from his financial failure, tremble at the mention of the police, and was declared bankrupt. Even the term \"money\" left him bewildered and childlike. On one occasion, while with Nana, he broke down in tears and begged her to lend him a hundred francs to pay his servant."
+    ],
+    [
+      "But Vandiyadhevan was not able to resist the urge to turn towards her and look at her face one more time, but realized that it was rude to do so, and turned the horse\u2019s head sharply and galloped away. The Vaidiyar who was accompanying him struggled to control his horse and followed him. Since Kundavai had already hinted that those who were going on a long journey should start first, Vandiyathevan turned his horse\u2019s head towards the road with great hesitation.",
+      "This was the outlook developed by the Oblomovka Plato, an outlook that pacified him despite the difficulties and strict requirements of responsibility and ambition. He was not raised to be a gladiator, but rather a calm observer of conflict. His gentle and idle spirit was not meant to withstand either the anxieties of joy or the hardships of life. As a result, his character represented an extreme of life, and he made no effort to accomplish, alter, or atone.",
+      "Following the road-mender's guidance, he returned to the location and a short while later quickly approached the spot on his own horse, riding at a rapid pace this time, with a well-trained horse pulling a two-wheeled cart. Playing the role of a horse handler, a man was sitting on the cart's front axle.",
+      "The figure stopped and reached out in supplication to the phosphorescent intervals between the branches, that formed a body:",
+      "The dragons fly and the phoenixes soar; The falcons soar and the eagles soar. This Son of Heaven is indeed an illustrious sage; These ministers are indeed worthy ministers. They multiply our long life, surpassing Yu and Shun; They secure our peace, equaling that of Yao and Tang. You see Burning incense sticks hung from the roof eaves; Moving golden trays holding incense burn bright, Like thunderclaps resounding.",
+      "He blew out his candle with his nostril, as convicts do, and dropping on to his bed still fully dressed, fell at once into a deep sleep. As for the man, he was so tired that he did not even take advantage of those clean white sheets.",
+      "\"Thandavaraya,\" a soldier remarked, \"I doubt this is an actual horse. It's likely from the false horse performance troupe.\" \"Alright then,\" Thandavaraya responded.",
+      "The horses veered right and began their warm-up canter, a jumbled mass as they went past the grandstand. This immediately reignited the cacophony of excited comments, with everyone speaking at once.",
+      "Without sharing the specifics, he chose to share a concise version of the events with them. He stuck to a straightforward account, focusing on the facts rather than expressing his emotions. There was no mention of his motivations or inner turmoil, as if it didn't matter anymore. His interrogators didn't press him for details, suggesting that their primary focus wasn't on gaining a deeper understanding of his thoughts.",
+      "Nana continued her relentless assault on Steiner, his rival, without displaying any sympathy or affection towards him. Instead, she hurled insults at him, calling him a \"dirty Jew\" and showing no hesitation in betraying an old hatred that seemed to be deep-seated. She was repulsed by his physical appearance and perceived him as a fool. Steiner's failed relationship with Simone had already put him in a precarious position, and Nana's extravagant spending further eroded his financial stability. Despite his initial success, which was fueled by massive advertising efforts and investments from distant lands, Steiner's company was eventually drained of its assets. Nana's lavish lifestyle, financed by the savings of small investors and working-class people alike, ultimately proved to be Steiner's undoing. His partnership with an iron-founder in Alsace had similarly become a burden, with workers laboring tirelessly to provide funds for Nana's indulgences. In the end, she left Steiner financially shattered, unable to muster the cunning and energy to come up with new schemes. His banking business collapsed, and the mere mention of the police sent him into a panic. Declared bankrupt, Steiner was reduced to a state of infantile helplessness when it came to managing money, a far cry from his past glory of handling millions. On one occasion, Steiner broke down in tears and asked Nana for a hundred francs to pay his servant. She, amused and moved by the spectacle of the once-powerful man's downfall, generously handed over the money, adding a parting remark."
+    ]
+  ]
+}

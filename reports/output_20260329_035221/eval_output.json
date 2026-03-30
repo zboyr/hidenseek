@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ]
+  ],
+  "source_texts": [
+    "He stood there a moment, took several deep breaths, shook his head, turned around, and did not notice Semyonych\u2020 flattened against the wall in a shadowy corner of the corridor.",
+    "He was not allowed to finish and persuaded to take his seat. The others implored him to calm down. Ganya, beside himself with rage, withdrew into a corner. Nina Alexandrovna was trembling all over and crying.",
+    "The princesses climbed onto their royal elephants, and since Kundavai had already hinted that those leaving for a long journey must start on their journey first, Vandiya Devan turned the horse\u2019s head towards the road albeit with great hesitation. Even then he couldn\u2019t help but turn towards her and look upon her beautiful face once again, but realizing that it is unmannerly, he turned the horse\u2019s head swiftly and galloped away within a flash. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+    "\u201cI\u2019ll explain everything to you, Olga,\u201d he tried to defend himself. \u201cAn important reason forced me to stay away for two weeks. I was afraid.\u201d",
+    "It was certainly a dark moment, but he would come through it. After all, his fate, however bad it might be, was in his own hands. He was master of it. He clung to this idea.",
+    ". .\u201d To Alyosha\u2019s great distress, her face was beaming with joy. Katerina suddenly reappeared. She held two rainbow-colored hundred-ruble notes in her hand.",
+    "The officer\u2019s comrades noticed in that \u2018neglected\u2019 garden, behind that sorry-looking rococo gate, quite a pretty creature who was almost always there when the handsome lieutenant went by. This lieutenant is not unknown to the reader: his name was Th\u00e9odule Gillenormand.",
+    "\u201cKandanmara, you know very well that I am not scared of these things, and I haven\u2019t done anything inappropriate. In Veeranarayanapuram, when Pazhuvetarayar and his entourage came along, I stood watching along with the crowd. I heard that you sent the entire procession of horses, elephants, and soldiers. Is that true?\u201d",
+    "Leaning over the railing, he shouted something or other in the direction of the vestibule. The shout was answered with silence, and then, a protesting falsetto:",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 3 both render the full passage including: Semyonych pressed into the dark corner, the repeated standing-and-breathing motif, the keyhole with light shining through, the inability to detach from the door, and the closing observation about the young master's curiosity being improper/not barin-like. They share rhythmic, repetitive sentence structure with em-dashes for dramatic effect and a notably close, faithful rendering style that distinguishes them from the truncated outputs (1, 2, 4).",
+    "Outputs 0 and 3 share nearly identical sentence structure, ordering, and phrasing. Both use 'beside himself with [anger/rage], retreated into a corner,' both have 'trembled/trembling and wept/crying,' both use 'not allowed to finish, and was persuaded to [take his seat/go back to his seat],' and both end with 'the others [begged/implored] him to calm down.' The differences are minor synonym swaps, consistent with the same paraphraser producing two slightly varied outputs.",
+    "Outputs 1 and 2 share nearly identical structure, vocabulary, and narrative flow. Both begin with 'The princesses mounted their royal/regal elephants,' both describe Kundavai suggesting that those on a long/lengthy journey should leave first, both use 'couldn't resist' for the final glance at her 'lovely/captivating face,' and both describe the Vaidiyar's son struggling to control his horse while following 'closely behind.' Output 2 appears to be a slightly more polished version of output 1, consistent with the same paraphrasing system producing two similar but slightly varied outputs.",
+    "Outputs 0 and 2 share the most distinctive stylistic fingerprints: both retain the British term 'fortnight' (rather than 'two weeks'), both preserve the direct dialogue format with a narrator interjection, and both maintain the trailing-off fear element at the end of the quote. Their sentence structures and lexical choices are most consistent with each other, suggesting they came from the same paraphrasing system.",
+    "Outputs 1 and 2 both use the distinctive word 'solace' (not found in any other output), both take an interpretive summarizing approach rather than closely following the source structure, and both frame the passage around the concept of 'control over destiny' with similar thematic emphasis. Their sentence construction and vocabulary choices reflect the same paraphrasing style.",
+    "Outputs 1 and 2 share the most distinctive common features: both describe the hundred-rouble/ruble notes with rainbow coloring ('rainbow-colored hundred-rouble bills' vs. 'shimmered with the colors of the rainbow'), both use 'suddenly' for Katerina's reappearance ('suddenly reappeared' vs. 'suddenly rematerialized'), and both frame Alyosha's reaction with 'dismay/distress' in a similar syntactic position. The rainbow detail for the bills is a particularly unique shared fingerprint not found in any other output.",
+    "Outputs 3 and 4 share multiple distinctive linguistic fingerprints: both use 'unkempt garden' (instead of 'neglected' or 'badly kept'), both use 'colleagues' instead of 'comrades', both describe the lieutenant as 'attractive Lieutenant Th\u00e9odule Gillenormand' with similar placement, both maintain the same overall sentence structure and narrative flow, and both use similar hedging/qualifying language. The word choices and structural patterns are consistently aligned between these two outputs.",
+    "Outputs 0 and 3 share consistent spelling of 'Veeranarayanapuram' and 'Pazhuvetarayar', both frame the ending as a clarifying question ('is that really what happened?' / 'is that actually the case?'), both describe the speaker as being among the crowd as a bystander, and both maintain a formal complete-sentence structure throughout. Their overall sentence flow, narrative structure, and word choices (like 'entourage'/'retinue') closely mirror each other compared to the other outputs.",
+    "Outputs 0 and 1 share very similar stylistic patterns and word choices. Both use 'leaned over the railing,' 'yelled something towards/toward the vestibule,' and end with 'a high-pitched, complaining voice.' The sentence structures are nearly identical, with output 1 only adding a slight elaboration ('There was no response to his shout, just silence') while output 0 says 'Silence was the only reply.' These two are clearly from the same paraphraser, as they share the same vocabulary choices (railing, vestibule, high-pitched, complaining voice) and similar sentence-level constructions. The other outputs diverge more significantly: output 2 uses 'falsetto' and restructures sentences, output 3 uses more dramatic language ('unsettling quiet'), and output 4 is much more elaborate with proper names and 'balustrade/entrance-hall/falsetto.'",
+    "Outputs 2 and 4 share the same paraphraser fingerprints: both rewrite the passage into flowing descriptive prose, both avoid the rhetorical question structure, both use vague abstract endings about clarity/direction/conditions, both dilute the chrysanthemum metaphor into a generic flower/moisture image, both use 'Sofia Petrovna Likhutina' (full name), and both describe window condensation with similar softened imagery. Their overall stylistic approach\u2014smooth but generic rewriting with thematic conclusions\u2014is distinctly parallel."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "He had stood there for a bit, breathed deeply, shaken his head, turned round, without noticing Semyonych, who was pressed into the shadowy corner of the corridor; he had stood there, breathed deeply some more, and then\u2014put his face to the keyhole with its shaft of light: and\u2014how he had stuck to it, unable to detach himself from the door! His curiosity wasn\u2019t proper curiosity for the master\u2019s son, something wasn\u2019t nice about it\u2014it wasn\u2019t right.",
+        "Had stood, breathed, shook his head, turned round, not noticing Semyonych, who was pressed up against a shadowy corner of the corridor; had stood, breathed again, and put his head \u2013 to the keyhole that let light through: yes \u2013 he was glued there, could not take his eyes off the door! The young barin\u2019s curiosity was not barin -like, there was something wrong \u2013 something not right \u2026"
+      ],
+      "llama_31_8b": [
+        "For a moment, he remained frozen, then he took a few slow, deep breaths, gave his head a puzzled shake, and turned to leave."
+      ],
+      "gemini_25_flash": [
+        "After a brief pause, he inhaled deeply a few times, then shook his head, pivoted, and walked away, completely missing Semyonych who was pressed against the corridor wall in a dark alcove."
+      ],
+      "dipper_lowmed": [
+        "Then he stood for a while, took several breaths, shook his head, turned round, and did not notice Semyonitch, who was flattening himself against the wall in the dark corner of the corridor."
+      ]
+    },
+    {
+      "human_par3": [
+        "They did not let him finish and sat him down again, began entreating him to calm himself. Ganya went off to a corner in a fury. Nina Alexandrovna trembled and wept."
+      ],
+      "llama_31_8b": [
+        "The speaker was prevented from completing his statement and was instead urged to take his seat, as the others tried to calm him down. Ganya, overcome with fury, retreated to a corner, while Nina Alexandrovna was visibly shaken, shivering and sobbing uncontrollably."
+      ],
+      "gemini_25_flash": [
+        "He was interrupted and convinced to sit down. The other people pleaded with him to compose himself. Ganya, overcome with anger, retreated to a corner. Nina Alexandrovna was shaking uncontrollably and weeping."
+      ],
+      "dipper_lowmed": [
+        "Ganya, beside himself with rage, retreated into a corner. Nina Alexandrovna was trembling and crying. He was not allowed to finish, and was persuaded to go back to his seat; the others implored him to calm down.",
+        "Ganya, beside himself with anger, retreated into a corner. Nina Alexandrovna trembled and wept. He was not allowed to finish, and was persuaded to take his seat; the others begged him to calm down."
+      ]
+    },
+    {
+      "human_par3": [
+        "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him."
+      ],
+      "llama_31_8b": [
+        "The princesses mounted their royal elephants. Kundavai had suggested that those embarking on a long journey should leave first, which prompted Vandiya Devan to reluctantly begin his journey by turning his horse's direction onto the road. Although he hesitated, he couldn't resist glancing back at Kundavai one last time, taking in her lovely face, but quickly turned his horse around and rode away abruptly, feeling it would be unbecoming to linger. The Vaidiyar's son, who was to accompany him, struggled to manage his horse and followed closely behind."
+      ],
+      "gemini_25_flash": [
+        "With the princesses mounted on their regal elephants, and Princess Kundavai having subtly suggested that those embarking on a lengthy journey should set off first, Vandiya Devan reluctantly guided his horse onto the road. Despite his hesitation, he couldn't resist a final glance at her captivating face. However, remembering his manners, he quickly averted his gaze and galloped away. The Vaidiyar's son, who was meant to accompany him, struggled to control his own horse as he followed closely behind."
+      ],
+      "dipper_lowmed": [
+        "However, he couldn\u2019t help looking at her once more, but then he realized that it was improper, so he quickly turned the horse\u2019s head. The Vaidiyar\u2019s son who was accompanying him struggled to control his horse and followed him. The princesses mounted their elephants. Kundavai had already indicated that those who were leaving on a long journey should start first.",
+        "Even then, Vandiyadeva could not help but look at her face again. But he realized that this was unseemly and quickly turned his horse\u2019s head and galloped away. The Vaidiyar\u2019s son who was to accompany him struggled to control his horse and followed him. The princesses climbed on their elephants. And since Kundavai had said that those who had to go on a long journey should leave first, Vandiyathevan turned his horse towards the road, with a jerk, and galloped away."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018I can explain everything, Olga.\u2019 He tried to justify himself. \u2018An important reason forced me to stay away from you for a fortnight \u2013 I was afraid of \u2013 \u2013\u2019",
+        "To-day is the first of May, and you are not going to the Ekaterinhov? Why, every one will be there!\""
+      ],
+      "llama_31_8b": [
+        "He explained to Olga, \"I was practically forced to stay away for two weeks, and it was due to something significant that scared me.\""
+      ],
+      "gemini_25_flash": [
+        "\"Please, Olga, let me explain,\" he pleaded. \"There was a serious reason I had to be gone for a fortnight. I was scared.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cI will explain everything to you, Olga,\u201d he defended himself. - An important reason forced me to stay away for two weeks; I was afraid."
+      ]
+    },
+    {
+      "human_par3": [
+        "That it was, no doubt, a dark moment, but that he should emerge from it; that, after all, he held his destiny, however bad it might be, in his own hand; that he was master of it. He clung to this thought."
+      ],
+      "llama_31_8b": [
+        "This was a particularly bleak time, but he was convinced he would emerge from it. Ultimately, his situation, no matter how dire, was under his control. He held onto the notion that he himself was the one dictating his destiny.",
+        "In the midst of a daunting situation, he found solace in the thought that only he had control over his destiny, no matter how bleak it seemed. This conviction allowed him to hold on to a sense of hope."
+      ],
+      "gemini_25_flash": [
+        "Though the situation was undoubtedly grim, he was confident he would overcome it. He firmly believed he controlled his own destiny, regardless of its difficulties, and this thought provided him solace."
+      ],
+      "dipper_lowmed": [
+        "This idea he clung to. It was a dark moment, but he would overcome it. After all, his fate, however bad it might be, was in his own hands, he was master of it."
+      ]
+    },
+    {
+      "human_par3": [
+        "Her face beamed with delight, to the great distress of Alyosha, but Katerina Ivanovna suddenly returned. She had two hundred-rouble notes in her hand."
+      ],
+      "llama_31_8b": [
+        "Alyosha was shocked and dismayed to see Katerina's face radiant with happiness as she re-entered the scene, two large hundred-ruble bills with colorful designs clutched in her hand.",
+        "The sight of Katerina's elated expression was thoroughly disheartening to Alyosha, as her radiant face was reflecting pure and unadulterated joy."
+      ],
+      "gemini_25_flash": [
+        "Much to Alyosha's dismay, Katerina's face lit up with happiness. She suddenly rematerialized, holding two hundred-ruble notes that shimmered with the colors of the rainbow."
+      ],
+      "dipper_lowmed": [
+        "Katerina suddenly reappeared, with two rainbow-colored hundred-rouble bills in her hand. To Alyosha's extreme distress, her face was beaming with joy."
+      ]
+    },
+    {
+      "human_par3": [
+        "The officer\u2019s comrades perceived that there was, in that \u201cbadly kept\u201d garden, behind that malicious rococo fence, a very pretty creature, who was almost always there when the handsome lieutenant,\u2014who is not unknown to the reader, and whose name was Th\u00e9odule Gillenormand,\u2014passed by."
+      ],
+      "llama_31_8b": [
+        "A pretty young woman was often seen in the neglected garden behind the dilapidated rococo gate. Her presence coincided with the handsome Lieutenant Gillenormand, a character familiar to the reader, whose full name is Th\u00e9odule Gillenormand."
+      ],
+      "gemini_25_flash": [
+        "In the rather unkempt garden, beyond the somewhat dilapidated rococo gate, the officer's colleagues observed a rather attractive young woman who made a habit of being present whenever the attractive Lieutenant Th\u00e9odule Gillenormand, a character already familiar to our readers, passed by.",
+        "In that unkempt garden, behind a rather worn rococo gate, the officer's colleagues observed a charming young woman. She was almost always present when the attractive Lieutenant Th\u00e9odule Gillenormand, a familiar figure to the reader, passed by."
+      ],
+      "dipper_lowmed": [
+        "This lieutenant is not unknown to the reader. His name was Th\u00e9odule Gillenormand. The comrades of this officer had noticed in this \"neglected\" garden, behind this miserable rococo gate, a pretty creature who almost always appeared when the handsome lieutenant passed there."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough."
+      ],
+      "llama_31_8b": [
+        "You're perfectly aware that I'm not someone who scares easily, and I haven't done anything wrong. I was just like the rest of the spectators in Veeranarayanapuram when Pazhuvetarayar and his retinue arrived. I understand that you sent out the entire procession with horses, elephants, and soldiers - is that really what happened?",
+        "Kandanmara, I'm sure you're aware that I'm not intimidated by these circumstances. I have done nothing untoward, and during the events in Veeranarayanapuram, when Pazhuvetarayar and his entourage arrived, I was just a bystander like the rest of the crowd. There's a rumor going around that on their visit, you sent the entire procession of horses, elephants, and soldiers, is that actually the case?"
+      ],
+      "gemini_25_flash": [
+        "\"Kandanmara, you're aware that I don't fear such matters and have behaved appropriately. In Veeranarayanapuram, I observed Pazhuvetarayar and his group from within the crowd. I heard you dispatched the entire cavalry, elephant corps, and infantry; is this accurate?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cKandamara, you know very well that I am not scared of these things, I have not done anything wrong. I was in Veeranarayanapuram when Pazhuvettarayar and his entourage arrived. I was watching the procession along with the crowd. They say that you sent the entire procession of horses, elephants and soldiers. Is it true?\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Leaning over the balustrade, Nikolai Apollonovich called down in the direction of the entrance-hall, but his call was answered first by silence, then, with excessive distinctness, by an unexpected, reluctant falsetto:"
+      ],
+      "llama_31_8b": [
+        "From the railing, he yelled out, his voice carrying into the vestibule. However, his words were met with an unsettling quiet, followed by a high-pitched objection."
+      ],
+      "gemini_25_flash": [
+        "He leaned over the railing and yelled something towards the vestibule. There was no response to his shout, just silence, followed by a high-pitched, complaining voice.",
+        "He leaned over the railing and yelled something toward the vestibule. Silence was the only reply, followed by a high-pitched, complaining voice."
+      ],
+      "dipper_lowmed": [
+        "Leaning over the railing, he shouted something in the direction of the vestibule. This shout was answered by silence, then by a protesting falsetto:"
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The six cramped rooms were heated to such a degree with steam that the air was unbearable, thick with moisture. Condensation covered the windows, leaving them foggy and droopy. Everyone in the apartment was sweating - the visitors, the maid, and even Sofia Petrovna Likhutina. The result was an atmosphere that lacked any sense of clarity or direction.",
+        "The small rooms were steam-heated, trapping a thick, sweltering atmosphere inside, leaving everyone feeling stifled and overheated. The windows coated in a misty sheen, while the visitors, the maid, and Sofia Petrovna Likhutina herself all stood drenched in sweat, like droplets of warm moisture on a flower. It was hard to imagine that anything could be seen clearly under such conditions."
+      ],
+      "gemini_25_flash": [
+        "The apartment was stiflingly hot due to the steam heating in all six small rooms. Everyone inside, including guests, the maid, the husband, and Sofia Petrovna Likhutina herself (who was glistening with sweat like dew on a chrysanthemum), was perspiring, and the windows were fogged up. The oppressive heat made it impossible to think clearly about the future."
+      ],
+      "dipper_lowmed": [
+        "How could there be any perspective? All six tiny little rooms were heated by steam, as a result of which one suffocated in the apartment with its humid heat. The window panes sweated; the visitors sweated; the serving-maid and the husband sweated; Sofya Petrovna Likhutina herself sweated, like warm dew on a chrysanthemum."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Had stood, breathed, shook his head, turned round, not noticing Semyonych, who was pressed up against a shadowy corner of the corridor; had stood, breathed again, and put his head \u2013 to the keyhole that let light through: yes \u2013 he was glued there, could not take his eyes off the door! The young barin\u2019s curiosity was not barin -like, there was something wrong \u2013 something not right \u2026",
+      "Ganya, beside himself with anger, retreated into a corner. Nina Alexandrovna trembled and wept. He was not allowed to finish, and was persuaded to take his seat; the others begged him to calm down.",
+      "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him.",
+      "\u2018I can explain everything, Olga.\u2019 He tried to justify himself. \u2018An important reason forced me to stay away from you for a fortnight \u2013 I was afraid of \u2013 \u2013\u2019",
+      "That it was, no doubt, a dark moment, but that he should emerge from it; that, after all, he held his destiny, however bad it might be, in his own hand; that he was master of it. He clung to this thought.",
+      "Alyosha was shocked and dismayed to see Katerina's face radiant with happiness as she re-entered the scene, two large hundred-ruble bills with colorful designs clutched in her hand.",
+      "The officer\u2019s comrades perceived that there was, in that \u201cbadly kept\u201d garden, behind that malicious rococo fence, a very pretty creature, who was almost always there when the handsome lieutenant,\u2014who is not unknown to the reader, and whose name was Th\u00e9odule Gillenormand,\u2014passed by.",
+      "You're perfectly aware that I'm not someone who scares easily, and I haven't done anything wrong. I was just like the rest of the spectators in Veeranarayanapuram when Pazhuvetarayar and his retinue arrived. I understand that you sent out the entire procession with horses, elephants, and soldiers - is that really what happened?",
+      "He leaned over the railing and yelled something toward the vestibule. Silence was the only reply, followed by a high-pitched, complaining voice.",
+      "The apartment was stiflingly hot due to the steam heating in all six small rooms. Everyone inside, including guests, the maid, the husband, and Sofia Petrovna Likhutina herself (who was glistening with sweat like dew on a chrysanthemum), was perspiring, and the windows were fogged up. The oppressive heat made it impossible to think clearly about the future."
+    ],
+    [
+      "For a moment, he remained frozen, then he took a few slow, deep breaths, gave his head a puzzled shake, and turned to leave.",
+      "They did not let him finish and sat him down again, began entreating him to calm himself. Ganya went off to a corner in a fury. Nina Alexandrovna trembled and wept.",
+      "The princesses mounted their royal elephants. Kundavai had suggested that those embarking on a long journey should leave first, which prompted Vandiya Devan to reluctantly begin his journey by turning his horse's direction onto the road. Although he hesitated, he couldn't resist glancing back at Kundavai one last time, taking in her lovely face, but quickly turned his horse around and rode away abruptly, feeling it would be unbecoming to linger. The Vaidiyar's son, who was to accompany him, struggled to manage his horse and followed closely behind.",
+      "He explained to Olga, \"I was practically forced to stay away for two weeks, and it was due to something significant that scared me.\"",
+      "In the midst of a daunting situation, he found solace in the thought that only he had control over his destiny, no matter how bleak it seemed. This conviction allowed him to hold on to a sense of hope.",
+      "Katerina suddenly reappeared, with two rainbow-colored hundred-rouble bills in her hand. To Alyosha's extreme distress, her face was beaming with joy.",
+      "A pretty young woman was often seen in the neglected garden behind the dilapidated rococo gate. Her presence coincided with the handsome Lieutenant Gillenormand, a character familiar to the reader, whose full name is Th\u00e9odule Gillenormand.",
+      "\"Kandanmara, you're aware that I don't fear such matters and have behaved appropriately. In Veeranarayanapuram, I observed Pazhuvetarayar and his group from within the crowd. I heard you dispatched the entire cavalry, elephant corps, and infantry; is this accurate?\"",
+      "He leaned over the railing and yelled something towards the vestibule. There was no response to his shout, just silence, followed by a high-pitched, complaining voice.",
+      "How could there be any perspective? All six tiny little rooms were heated by steam, as a result of which one suffocated in the apartment with its humid heat. The window panes sweated; the visitors sweated; the serving-maid and the husband sweated; Sofya Petrovna Likhutina herself sweated, like warm dew on a chrysanthemum."
+    ],
+    [
+      "Then he stood for a while, took several breaths, shook his head, turned round, and did not notice Semyonitch, who was flattening himself against the wall in the dark corner of the corridor.",
+      "The speaker was prevented from completing his statement and was instead urged to take his seat, as the others tried to calm him down. Ganya, overcome with fury, retreated to a corner, while Nina Alexandrovna was visibly shaken, shivering and sobbing uncontrollably.",
+      "With the princesses mounted on their regal elephants, and Princess Kundavai having subtly suggested that those embarking on a lengthy journey should set off first, Vandiya Devan reluctantly guided his horse onto the road. Despite his hesitation, he couldn't resist a final glance at her captivating face. However, remembering his manners, he quickly averted his gaze and galloped away. The Vaidiyar's son, who was meant to accompany him, struggled to control his own horse as he followed closely behind.",
+      "\"Please, Olga, let me explain,\" he pleaded. \"There was a serious reason I had to be gone for a fortnight. I was scared.\"",
+      "Though the situation was undoubtedly grim, he was confident he would overcome it. He firmly believed he controlled his own destiny, regardless of its difficulties, and this thought provided him solace.",
+      "Much to Alyosha's dismay, Katerina's face lit up with happiness. She suddenly rematerialized, holding two hundred-ruble notes that shimmered with the colors of the rainbow.",
+      "This lieutenant is not unknown to the reader. His name was Th\u00e9odule Gillenormand. The comrades of this officer had noticed in this \"neglected\" garden, behind this miserable rococo gate, a pretty creature who almost always appeared when the handsome lieutenant passed there.",
+      "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough.",
+      "Leaning over the railing, he shouted something in the direction of the vestibule. This shout was answered by silence, then by a protesting falsetto:",
+      "The six cramped rooms were heated to such a degree with steam that the air was unbearable, thick with moisture. Condensation covered the windows, leaving them foggy and droopy. Everyone in the apartment was sweating - the visitors, the maid, and even Sofia Petrovna Likhutina. The result was an atmosphere that lacked any sense of clarity or direction."
+    ],
+    [
+      "He had stood there for a bit, breathed deeply, shaken his head, turned round, without noticing Semyonych, who was pressed into the shadowy corner of the corridor; he had stood there, breathed deeply some more, and then\u2014put his face to the keyhole with its shaft of light: and\u2014how he had stuck to it, unable to detach himself from the door! His curiosity wasn\u2019t proper curiosity for the master\u2019s son, something wasn\u2019t nice about it\u2014it wasn\u2019t right.",
+      "Ganya, beside himself with rage, retreated into a corner. Nina Alexandrovna was trembling and crying. He was not allowed to finish, and was persuaded to go back to his seat; the others implored him to calm down.",
+      "However, he couldn\u2019t help looking at her once more, but then he realized that it was improper, so he quickly turned the horse\u2019s head. The Vaidiyar\u2019s son who was accompanying him struggled to control his horse and followed him. The princesses mounted their elephants. Kundavai had already indicated that those who were leaving on a long journey should start first.",
+      "To-day is the first of May, and you are not going to the Ekaterinhov? Why, every one will be there!\"",
+      "This was a particularly bleak time, but he was convinced he would emerge from it. Ultimately, his situation, no matter how dire, was under his control. He held onto the notion that he himself was the one dictating his destiny.",
+      "The sight of Katerina's elated expression was thoroughly disheartening to Alyosha, as her radiant face was reflecting pure and unadulterated joy.",
+      "In the rather unkempt garden, beyond the somewhat dilapidated rococo gate, the officer's colleagues observed a rather attractive young woman who made a habit of being present whenever the attractive Lieutenant Th\u00e9odule Gillenormand, a character already familiar to our readers, passed by.",
+      "Kandanmara, I'm sure you're aware that I'm not intimidated by these circumstances. I have done nothing untoward, and during the events in Veeranarayanapuram, when Pazhuvetarayar and his entourage arrived, I was just a bystander like the rest of the crowd. There's a rumor going around that on their visit, you sent the entire procession of horses, elephants, and soldiers, is that actually the case?",
+      "From the railing, he yelled out, his voice carrying into the vestibule. However, his words were met with an unsettling quiet, followed by a high-pitched objection.",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+    ],
+    [
+      "After a brief pause, he inhaled deeply a few times, then shook his head, pivoted, and walked away, completely missing Semyonych who was pressed against the corridor wall in a dark alcove.",
+      "He was interrupted and convinced to sit down. The other people pleaded with him to compose himself. Ganya, overcome with anger, retreated to a corner. Nina Alexandrovna was shaking uncontrollably and weeping.",
+      "Even then, Vandiyadeva could not help but look at her face again. But he realized that this was unseemly and quickly turned his horse\u2019s head and galloped away. The Vaidiyar\u2019s son who was to accompany him struggled to control his horse and followed him. The princesses climbed on their elephants. And since Kundavai had said that those who had to go on a long journey should leave first, Vandiyathevan turned his horse towards the road, with a jerk, and galloped away.",
+      "\u201cI will explain everything to you, Olga,\u201d he defended himself. - An important reason forced me to stay away for two weeks; I was afraid.",
+      "This idea he clung to. It was a dark moment, but he would overcome it. After all, his fate, however bad it might be, was in his own hands, he was master of it.",
+      "Her face beamed with delight, to the great distress of Alyosha, but Katerina Ivanovna suddenly returned. She had two hundred-rouble notes in her hand.",
+      "In that unkempt garden, behind a rather worn rococo gate, the officer's colleagues observed a charming young woman. She was almost always present when the attractive Lieutenant Th\u00e9odule Gillenormand, a familiar figure to the reader, passed by.",
+      "\u201cKandamara, you know very well that I am not scared of these things, I have not done anything wrong. I was in Veeranarayanapuram when Pazhuvettarayar and his entourage arrived. I was watching the procession along with the crowd. They say that you sent the entire procession of horses, elephants and soldiers. Is it true?\u201d",
+      "Leaning over the balustrade, Nikolai Apollonovich called down in the direction of the entrance-hall, but his call was answered first by silence, then, with excessive distinctness, by an unexpected, reluctant falsetto:",
+      "The small rooms were steam-heated, trapping a thick, sweltering atmosphere inside, leaving everyone feeling stifled and overheated. The windows coated in a misty sheen, while the visitors, the maid, and Sofia Petrovna Likhutina herself all stood drenched in sweat, like droplets of warm moisture on a flower. It was hard to imagine that anything could be seen clearly under such conditions."
+    ]
+  ]
+}

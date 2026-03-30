@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ]
+  ],
+  "source_texts": [
+    "\"Then let me go and meet her,\" exclaimed Arkady with another access of \"magnanimity\" as he sprang from his chair. \" Yes, let me go and explain to her why she need not shun me.\"",
+    "As for the man, he truly was so tired that he did not even make the most of those clean white sheets. He snuffed out his candle with his nostril, the way convicts do, and dropping on to the bed fully dressed, immediately fell into a deep sleep.",
+    "\u201cThey\u2019re coming, here they are. And the General is making up the rear. I\u2019ll fling open all the doors and call all my daughters, every single one, now, this minute,\u201d Lebedev mumbled softly in a fluster, dashing from door to door.",
+    "Next, Nana tackled Steiner without disgust, but also without love. She called him a dirty Jew. She seemed to be gratifying an old hatred which she could not very well explain to herself. He was fat, he was stupid, and she turned him about, taking double mouthfuls, wishing to have done with the Prussian all the quicker. He had given up Simone. His Bosphorus speculation was already in jeopardy. Nana hastened his downfall by the most lavish expenditure. For a month still he struggled, performing miracles. He covered Europe with a colossal publicity\u2014posters, advertisements, prospectuses\u2014and extracted money from the most distant countries. All those savings, the louis of the speculators the same as the sous of the poor people, were swallowed up in the Avenue de Villiers. He had also gone into partnership with an iron-founder in Alsace. There were there, in a corner of the country, workmen black with coal dust, bathed with perspiration, who, night and day, tightened their muscles and heard their bones crack, to supply the means for Nana\u2019s pleasures. She devoured all like a great fire\u2014the thefts at the Bourse, the earnings of labour. This time she finished Steiner. She returned him to the pavement, sucked to the bone, so emptied that he remained even incapable of inventing a fresh roguery. In the collapse of his banking establishment he went crazy; he trembled at the name of the police. He was made a bankrupt; and the mere word \u201cmoney\u201d bewildered him, threw him into a childish state of embarrassment\u2014he who had handled millions. One evening when with her, he burst out crying. He asked her to lend him a hundred francs to pay his servant; and Nana, affected and amused by this ending of the terrible old man who for twenty years past had been skimming the Paris market, brought him the money, saying,",
+    "Even on the first day of \u201cmarital bliss,\u201d when Nikolai Apollonovich held the solemn nuptial crown over Sergei Sergeyevich\u2019s head, Sofia Petrovna Likhutina had been struck by the trim, handsome best man, by the color of his eyes, the pallor of his face and the fairness of his hair. His eyes did not peer, as they often did later, from behind the lenses of a pince-nez, and the face was propped up by a gold collar (the likes of which not everybody has). And . . . Nikolai Apollonovich became a regular visitor: at first once every two weeks; then, once a week; and, finally, he began to visit daily. Soon Sofia Petrovna noticed that Nikolai Apollonovich\u2019s face had turned into a mask. The aimless rubbing of his sweaty hands and the froglike look of his smile, alas, screened the face from her. And as soon as Sofia Petrovna noticed that, she understood she had been in love with that face, that other one, not this one. From behind the froglike lips she unconsciously tried to summon up her lost infatuation, and she tormented Ableukhov. But hiding what she was doing from herself, she began dogging his steps, she tried to ascertain his tastes and inclinations, she followed them herself, hoping in them to recover her loss. She started putting on airs: first meloplastics appeared on the scene, and then the cuirassier. Varvara Evgrafovna appeared with the tin box for the collection of \u201cphoophoos.\u201d",
+    "\u201cThandavaraya, I don\u2019t think this is a real horse. It may belong to the poi kaal kudirai (false horse performance) group,\u201d said one of the soldiers. \u201cFine then.",
+    "The wonderful thing about the collision between young minds is that you can never predict the spark or anticipate the flash. What will the next moment bring? No one knows. The burst of laughter succeeds compassion. In the comic instant seriousness comes into play. Impulses are prompted by a chance word. Each individual\u2019s verve is paramount. A joke is enough to create an opening for the unexpected. These are exchanges that take abrupt turns, with sudden realignments of perspective. Fortuitousness is the scene-shifter in such conversations.",
+    "The princesses climbed onto their royal elephants, and since Kundavai had already hinted that those leaving for a long journey must start on their journey first, Vandiya Devan turned the horse\u2019s head towards the road albeit with great hesitation. Even then he couldn\u2019t help but turn towards her and look upon her beautiful face once again, but realizing that it is unmannerly, he turned the horse\u2019s head swiftly and galloped away within a flash. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+    "This was the philosophy worked out by the Oblomovka Plato, a philosophy which lulled him amid the issues and strict demands of duty and purpose! He had been born and reared not like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the alarms of happiness or life\u2019s blows. Consequently, his person expressed one of life\u2019s extremes, and he did nothing to achieve, change, or repent.",
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 4 share nearly identical sentence structure, phrasing patterns, and word choices. Both use 'a renewed surge of [generosity/selflessness]' as a participial phrase, both use 'declared' for the dialogue tag, and both end with 'no reason to avoid me / no reason for her to avoid me.' The differences are minimal synonym substitutions (generosity\u2192selflessness, propelling\u2192moving), which is a hallmark of the same paraphrasing system producing slightly varied outputs.",
+    "Outputs 0 and 1 share highly distinctive and identical phrases: 'extinguished his candle' (vs. 'snuffing out' or 'blew out' in others), 'collapsed onto the bed,' and 'drifted into a profound slumber.' They also follow the same sentence structure and order, and both describe the candle trick as something 'used/employed by prisoners' with parallel phrasing. These overlapping stylistic fingerprints strongly indicate they were produced by the same paraphraser.",
+    "Outputs 0 and 4 share very strong stylistic similarities: both use 'softly' with the speaking verb (mumbled/muttered softly), both describe the character 'rushing/running from one door to another,' both preserve the repetitive exclamation structure ('They are here, they are here' / 'They're coming, here they are'), both use the identical phrase 'now, this minute,' and both place the general's arrival as a separate closing sentence. These consistent structural and lexical choices point to the same paraphraser.",
+    "Outputs 2 and 3 share the most consistent linguistic fingerprints: both use 'dirty Jew' and 'Prussian,' both describe workers 'black with coal-dust' straining their muscles, both employ the 'great/huge fire' metaphor consuming fruits of toil and stock-exchange profits, both structure the bankruptcy scene similarly with the maid payment request, and both end with 'saying:' (trailing incomplete sentence). Their vocabulary, sentence rhythm, and narrative flow are strikingly parallel compared to the other outputs, which diverge more significantly in style and word choice.",
+    "Outputs 3 and 4 share the same paraphraser. Both use 'Sofya/Sofia Petrovna Likhutina,' both describe 'a tin box for collecting poo-poos/poopoos,' both mention meloplastics and the cuirassier in the same order, and both follow a similarly literal, close-to-source translation style. Output 4 shows obvious repetition artifacts (duplicated phrases like the description of the best man and the tin box collection), suggesting the same underlying system generated both but with a glitch causing repeated segments.",
+    "Outputs 0 and 4 both use a narrative/summary style rather than direct dialogue, both begin with 'One of the soldiers,' both include the term 'poi kaal kudirai' with an explanatory clause, and both describe the reaction in a dismissive/understated way. This contrasts with outputs 1, 2, and 3, which use direct quoted dialogue.",
+    "Outputs 0 and 4 share the same paraphraser. Both closely follow the original source structure, preserving the enumerated list of ideas in the same order. Both use similar literary vocabulary choices: 'stage-manager' vs 'scene-shifter' (same theatrical metaphor), 'burst of laughter,' 'impulses prompted by a chance word,' 'a jest/joke is enough to open' the path to the unexpected, and 'verve/spirit is paramount.' Both use short, punchy sentences with semicolons and maintain the formal, literary tone of the original. The other outputs diverge more significantly in structure and interpretation.",
+    "Outputs 0 and 1 share the same paraphraser. Both use nearly identical phrasing and structure: Kundavai's 'hint' about long journeys, Vandiya Devan 'reluctantly' urging his horse, stealing 'one last/final glance' at Kundavai's face, quickly averting eyes due to 'impoliteness/impolite,' then galloping off with the Vaidiyar's son struggling to control his horse following behind. The sentence flow and word choices are very closely mirrored, with Output 1 being a slightly more elaborated version of Output 0, consistent with the same underlying system producing minor variations.",
+    "Outputs 0 and 1 share highly consistent stylistic fingerprints: both use the phrase 'gentle and indolent nature,' both describe Oblomov as an observer of the struggle rather than a fighter, both use 'excitements of joy or the hardships of existence' (or very close variants), both frame his character as representing 'an extreme' of human experience, and both end with a parallel tricolon structure ('accomplish anything, [change], or express remorse'). These shared lexical choices and structural patterns strongly suggest they were produced by the same paraphraser.",
+    "Outputs 1 and 2 share the same distinctive anaphoric 'since the time when/since such time as' repeated clause structure, the same opening line about the goat-footed caryatid torso, the same sequence of events (lathered black horses, court footman, lacquered emblazoned door, parchment-faced statue on granite, gloved hand on top hat, concluding statement about the Institution's power over Russia), and very similar vocabulary throughout. These stylistic fingerprints are absent in outputs 0, 3, and 4."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'"
+      ],
+      "llama_31_8b": [
+        "Overwhelmed by his sudden display of generosity, Arkady leapt out of his chair and cried out, \"Let me go, I'll just go see her!\" His generosity, it seemed, was back in full force as he hastily approached her with the intention of dispelling any reservations she may have had about trusting him."
+      ],
+      "gemini_25_flash": [
+        "\"Fine, I'll go see her myself,\" Arkady declared, a renewed surge of selflessness moving him to leap from his seat. \"I'll make it clear to her that there's no reason for her to avoid me.\"",
+        "\"I'll go see her myself,\" Arkady declared, a renewed surge of generosity propelling him from his seat. \"I'll make it clear to her that there's no reason to avoid me.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThen let me go and see her!\u201d Arkady cried with another burst of magnanimity and sprang from his chair. \u201cYes, let me go and explain to her why she doesn\u2019t have to shun me.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep."
+      ],
+      "llama_31_8b": [
+        "The man was exhausted, and even the luxurious bedding couldn't prompt him to remove a single item of clothing as he collapsed onto the bed. Instead of blowing out the candle like a normal person, he pinched it out with his nose, a habit more commonly seen in prisoners. Fully dressed, he then gave in to a deep and instantaneous sleep."
+      ],
+      "gemini_25_flash": [
+        "The man was so utterly exhausted that he barely noticed the fresh, white sheets. He extinguished his candle using his nose, a trick often employed by prisoners, and then, fully clothed, collapsed onto the bed and instantly drifted into a profound slumber.",
+        "The man was profoundly weary; he didn't even bother to fully appreciate the fresh, white sheets. He extinguished his candle by pinching the wick with his nostril, a technique used by prisoners, then, without undressing, he collapsed onto the bed and instantly drifted into a profound slumber."
+      ],
+      "dipper_lowmed": [
+        "He blew out his candle with his nostril, as convicts do, and, throwing himself on the bed fully dressed, immediately fell into a deep sleep. As for the man, he was really so tired that he did not even take advantage of the clean white sheets."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next."
+      ],
+      "llama_31_8b": [
+        "\"Here they are, and the general is holding back,\" Lebedev stammered, frantically rushing between rooms. \"I'll open all the doors and call for every single one of my daughters right away.\""
+      ],
+      "gemini_25_flash": [
+        "Lebedev, flustered, whispered to himself, \"They're arriving, they're here. The General is bringing up the end of the line. I'll throw open every door and summon all my daughters, each and every one, immediately,\" as he darted between doorways."
+      ],
+      "dipper_lowmed": [
+        "\u201cThey are here, they are here. I\u2019ll throw open every door and call all my daughters, right now, this very minute,\u201d Lebedev mumbled softly, rushing about from one door to the other. \u201cAnd the general is coming up behind them.\u201d",
+        "\u201cThey\u2019re coming, here they are. I\u2019ll rush through all the doors and call my daughters, now, this minute,\u201d Lebedev muttered softly in a panic, running from one door to another. \u201cAnd the general will come at the last moment.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:",
+        "Nana next moved on to Steiner, without repugnance but equally without affection. She called him a dirty Jew, seemingly satisfying an age-old hatred which she hardly realized. He was fat and stupid and she hustled him along, keen to get shot of this Prussian as quickly as possible. He\u2019d given up Simonne. His Bosphorus venture was beginning to look shaky, and Nana\u2019s crazy demands hastened its demise. Miraculously, he managed to hold out for one more month, covering the whole of Europe with notices, prospectuses, and advertisements in a colossal publicity campaign, squeezing money out of the remotest countries. And all these funds, the speculators\u2019 reserves of gold and the tiny nest-eggs of the poor, were engulfed in the Avenue de Villiers. He\u2019d also gone into association with an iron-master in Alsace; in a corner of that province there were miners black with coal-dust and dripping in sweat who were straining their muscles and wrenching their limbs to satisfy Nana\u2019s pleasures. She consumed everything like some great fire, the fruits of honest toil and the dishonest profits of currency sharks. This time she finished Steiner off and put him back on the street after sucking him so dry that he didn\u2019t even have the strength to think up any further skulduggery. His bank collapsed, he went in fear and trembling of the police, he wandered around mumbling incoherently. He\u2019d just been made bankrupt, and at the mere mention of money this man who\u2019d been used to handling millions flew into a panic like a little child. One evening in Nana\u2019s house he burst into tears and asked if she could lend him a hundred francs to pay his maid. Amused to see such an end to this terrible character who\u2019d been ruthlessly exploiting the market for the last twenty years, Nana, out of the kindness of her heart, handed him the money, saying:"
+      ],
+      "llama_31_8b": [
+        "Nana didn\u2019t approach Steiner with disdain, nor with affection, but rather with a long-held indifference. She called him derogatory names, not just because he was odious, but also because of an old hatred that she couldn\u2019t fully articulate. She took pleasure in mocking his physical appearance and his lack of intelligence, turning him around and around, desperate to be rid of him quickly. Steiner had lost Simone and his Bosphorus speculation was facing severe financial difficulties, making him increasingly desperate. Desperate to salvage the situation, he attempted to drum up massive publicity across Europe, placing large orders for posters, advertisements, and prospectuses in an effort to extract money from far-off peoples and places. However, all the money, whether from wealthy speculators or from low-income earners, was drained down the drain on the Avenue de Villiers. Steiner had also partnered with an ironfounder in Alsace, and laborers there toiled day and night, digging and sweating, to gather resources that would ultimately be spent on Nana\u2019s extravagances. She devoured everything in her path, including banker thefts and worker's earnings. Her scheme with Steiner finally went too far, leaving him utterly depleted. She left him broke, shell-shocked, and unable to concoct any further deceit. When his bank failed, he descended into madness, becoming terrified at the mention of the police. Declared bankrupt, the mere mention of the word \"money\" sent him into a state of childish panic, a man who had once mastered millions. One evening, in her presence, he broke down and wept. He begged her to lend him a hundred francs to pay his servant, and Nana, both amused and touched by the decline of the man who had taken millions from Paris for twenty years, handed him the money, saying"
+      ],
+      "gemini_25_flash": [
+        "Nana then approached Steiner, not with revulsion, nor with affection, but rather with a profound disdain. She hurled an anti-Semitic slur at him. It appeared she was indulging a long-held animosity that she herself couldn't quite articulate. He was overweight and unintelligent, and she manipulated him, devouring him figuratively, eager to dispense with the Prussian as swiftly as possible. Steiner had already lost Simone, and his investment in the Bosphorus was failing. Nana accelerated his ruin with her extravagant spending. He fought for another month, performing astonishing feats, covering Europe with immense advertising campaigns\u2014posters, ads, brochures\u2014and drawing funds from remote nations. All those savings, from the gold coins of investors to the pennies of the poor, vanished into Nana's insatiable desires in the Avenue de Villiers. He had also formed a partnership with an iron-founder in Alsace, where workers, stained with coal dust and drenched in sweat, toiled tirelessly, straining their bodies day and night, to finance Nana's lavish lifestyle. She consumed everything like a raging inferno\u2014stolen money from the stock market and the wages of labor. This time, she utterly ruined Steiner. She left him destitute, completely depleted, so empty that he couldn't even conjure up a new scheme. The collapse of his banking firm drove him insane; the mention of the police sent shivers down his spine. He was declared bankrupt, and the mere word \"money\" disoriented him, reducing him to a childlike state of confusion, despite having dealt with millions. One evening, while with Nana, he broke down in tears, asking her for a hundred francs to pay his servant. Nana, both moved and amused by the downfall of this once-fearless man who had successfully manipulated the Parisian market for two decades, gave him the money, saying..."
+      ],
+      "dipper_lowmed": [
+        "He had given up Simone, his Bosphorus speculation was already in danger, and Nana hurried his downfall by the most lavish expenditure; for a month still he struggled, performing miracles, covering Europe with a colossal publicity\u2014posters, advertisements, prospectuses\u2014and raking in money from the most distant countries. All those savings, the louis of the speculators and the poor people\u2019s pennies, were swallowed up in the Avenue de Villiers. He had also gone into partnership with an iron foundry in Alsace, and there were, in that corner of the country, workmen black with coal dust, bathed in sweat, tensing their muscles and hearing their bones crack, to supply the means for Nana\u2019s pleasures. This time she finished off Steiner, she threw him on the pavement, sucked to the bone, so emptied that he remained even incapable of inventing a fresh roguery; and in the collapse of his banking house he went insane, trembled at the mention of the police; he was made bankrupt; and the mere mention of the word \u201cmoney\u201d brought him to a state of bewilderment and childish bewilderment, and he who had handled millions! One evening when she was with him, he burst into tears; he asked her to lend him a hundred francs to pay his servant, and Nana, affected and amused by this end of the terrible old man who had been a shadroker for twenty years, went and brought him the money, saying, \u201cI\u2019m very sorry to have let you down, and I\u2019ll take it myself.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "On the very first day of her \u2018lady-hood\u2019, as it were, during the performance of the sacrament of marriage, when Nikolai Apollonovich held the ceremonial crown over her husband, Sergei Sergeevich, Sofia Petrovna had been painfully struck by the handsome, elegant best man, the colour of his huge, unearthly, dark-blue eyes, the whiteness of his marble face and the godlike quality of his flaxen hair: those eyes were not gazing then, as they often did later, from behind the dull lenses of a pince-nez, and his face was cradled by the gold collar of a smart new uniform (not every student has a collar like that). Well, and \u2026 Nikolai Apollonovich became a regular visitor at the Likhutins\u2019 at first once every two weeks; then\u2014once a week; two, three, four times a week; and in the end, every day. Soon Sofia Petrovna noticed beneath the mask of those everyday visits that Nikolai Apollonovich\u2019s face, godlike, severe, had turned into a mask: grimaces, an aimless rubbing of his sometimes sweaty hands, finally the unpleasant frog-like expression of his smile, arising from the way the most diverse mannerisms played across his face, obscured that face from her forever. And as soon as Sofia Petrovna noticed that, she realised to her horror that she had been in love with that face, that one, but not this. The Angel Peri wished to be an exemplary wife: and the terrible thought that, while faithful, she had already become infatuated with someone other than her husband\u2014 this thought completely shattered her. But things went further: from beneath the mask, the grimaces, the frog-like lips, she tried unconsciously to summon back her irretrievably lost infatuation: she tormented Ableukhov, showered him with insults; but, in secret from herself, she dogged his tracks, discovered his tastes and strivings, unconsciously followed them, trying all the while to recapture in them the genuine, godlike countenance; and so she began to act a part: first meloplastics appeared on the scene, then the cuirassier Baron Ommau-Ommergau, and finally Varvara Evgrafovna appeared with the tin tankard for collecting whiffies."
+      ],
+      "llama_31_8b": [
+        "On the day of Sergei's wedding, Sofia couldn't take her eyes off the handsome best man. His striking features, including his piercing eyes and chiseled facial structure, left a lasting impression on her. But it wasn't the air of confidence he now exuded that drew her in; it was the man he used to be, the one who hadn't yet been reduced to a shell. As the days went by, Nikolai's visits became more frequent, and Sofia began to notice changes in him. His habitual nervous tics and strained smile made him unrecognizable, and Sofia found herself lusting after the person she once knew. Attempting to justify her feelings, she started mimicking his phobias and interests, hoping to recapture the connection they had lost. She acted pretentious, adopting mannerisms she thought would impress him, including donning fashionable hats and accessories. Her friend Varvara even mockingly collected his eccentric habits, laughing and teasing him about his quirks."
+      ],
+      "gemini_25_flash": [
+        "From the very start of their marriage, when Nikolai Apollonovich held the wedding crown over Sergei Sergeyevich's head, Sofia Petrovna Likhutina was captivated by the best man's neat appearance, his striking eye color, pale complexion, and light hair. At that time, his eyes weren't obscured by a pince-nez as they often would be later, and a distinctive gold collar supported his face. Following this initial encounter, Nikolai Apollonovich became a frequent guest, gradually increasing his visits from bi-weekly to weekly, and eventually to daily. Sofia Petrovna soon observed a change in Nikolai Apollonovich's appearance, noting that his face seemed to become an emotionless mask. His habit of idly rubbing his sweaty hands and his unsettling, frog-like smile, unfortunately, obscured his true expression from her. As soon as she realized this, she understood that her affection had been for a different face, not the one before her. She unconsciously tried to evoke her lost feelings through his somewhat repulsive smile, and in doing so, she tormented Ableukhov. Though she tried to conceal her own motivations, she became persistently attentive to his preferences, attempting to understand and even adopt his tastes and inclinations, hoping to rekindle her former affection. This led to her affecting a new persona; first, cosmetic enhancements appeared, followed by a more robust, almost military, style. Soon after, Varvara Evgrafovna arrived with a tin box to collect \"phoophoos.\""
+      ],
+      "dipper_lowmed": [
+        "Even on the first day of the \u201cwedding ring\u201d, when Nikolai Apollonovich held the solemn nuptial crown over Sergei Sergeevich's head, Sofya Petrovna Likhutina was struck by the handsome, slender best man, the color of his eyes, the pallor of his face and the fairness of his hair, so as not to look at the pince-nez, as later, and his face was supported by a gold collar (not everyone has such a collar) , and ... Nikolai Apollonovich became a frequent visitor: first once every two weeks, then once a week, and finally - daily; soon Sofya Petrovna noticed that Nikolai Apollonovich's face turned into a mask: the aimless rubbing of his sweaty hands, and the frog-like expression of his smile, alas, hid the face from her; and as soon as Sofya Petrovna noticed this, she understood that it was not this face, but that other; from behind her frog-like lips she unconsciously tried to revive her lost infatuation, and she tormented Ableukhov; but, hiding what she was doing from herself, she began to follow his steps, to find his tastes and inclinations, following them herself, hoping to recover her loss in them; she began to put on airs: first meloplastics appeared, then a cuirassier; Varvara Evgrafovna appeared with a tin box for collecting \u201cpoo-poos\u201d.",
+        "And ... Nikolai Apollonovich became a regular visitor, first every two weeks, then every week, and finally, every day. Even on the first day of the \"wedding\" when Nikolai Apollonovich held the solemn bridal crown over Sergei Sergeevich's head, the slim and handsome best man, struck by the color of his eyes, the pallor of his face and the blondness of his hair, Sofia Petrovna Likhutina was struck by the slender, handsome best man, by the color of his eyes, the pallor of his face and the blondness of his hair, did not look, as they later often did, from behind the lenses of pince-nez, and the face was held by a gold collar (which is not everyone), and ... Nikolai Apollonovich soon noticed that his face had turned into a mask; the aimless rubbing of his sweaty hands and the froglike expression of his smile hid the face from her, and she, without knowing what she was doing, began to follow him, to determine his tastes and inclinations, to follow them herself, hoping to rehabilitate her loss in them; she slyly, hiding what she was doing, began to follow him, to ascertain his tastes and inclinations, to follow them herself, hoping to find recompense in them. She began to put on airs: first the meloplastics appeared on the scene, then the cuirassier; Varvara Evgrafovna appeared with a tin box for collecting \"poopoos\"; she appeared with a tin box for the collection of \"poopoos\"."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier."
+      ],
+      "llama_31_8b": [
+        "One of the soldiers doubted the horse's authenticity, suggesting it might be part of a troupe that performs fake horse shows, known as poi kaal kudirai.",
+        "One of the soldiers questioned whether the horse was genuine, suggesting it might be part of a group known as poi kaal kudirai, which performs fake horse tricks. The answer was dismissive."
+      ],
+      "gemini_25_flash": [
+        "\"Thandavaraya,\" a soldier remarked, \"I doubt this is an actual horse. It's likely from the poi kaal kudirai (false horse performance) troupe.\" \"Very well,\" came the reply."
+      ],
+      "dipper_lowmed": [
+        "\u201cThanthavarayar, this is not a real horse. It is from the poi kaal kudirai, the fake horse theatre troupe,\u201d said one of the soldiers."
+      ]
+    },
+    {
+      "human_par3": [
+        "The shocks of youthful minds among themselves have this admirable property, that one can never foresee the spark, nor divine the lightning flash. What will dart out presently? No one knows. The burst of laughter starts from a tender feeling. At the moment of jest, the serious makes its entry. Impulses depend on the first chance word. The spirit of each is sovereign, jest suffices to open the field to the unexpected. These are conversations with abrupt turns, in which the perspective changes suddenly. Chance is the stage-manager of such conversations."
+      ],
+      "llama_31_8b": [
+        "When young people with different perspectives come together, it's impossible to anticipate what will happen next. A single moment can inspire a burst of laughter, followed by a display of genuine care and understanding. Even in the most mundane conversations, a well-timed joke can suddenly shift the tone and direction. The outcome is often unpredictable, with perspectives changing quickly as individuals engage with each other. The element of chance plays a significant role in shaping these conversations, leading to surprises and new insights.",
+        "The intersection of young minds is a dynamic and unpredictable force, where unexpected sparks and flashes of insight can occur at any moment. Each conversation is a surprising sequence of events, where laughter can quickly pivot into understanding and empathy. The power of a well-timed joke or phrase can be instrumental in opening up new avenues of thought. In these interactions, the sudden momentum and individual energy of each participant can lead to unexpected realignments of perspective and a shift in the conversation's course. Fortunate coincidences often serve as catalysts, propelling the conversation in new and intriguing directions."
+      ],
+      "gemini_25_flash": [
+        "When young minds meet, the outcome is always unpredictable. You never know what brilliant ideas or surprising insights will emerge. What happens next is a mystery. Laughter can follow an act of kindness, and humor can quickly turn into something serious. A simple word can spark new thoughts and feelings. The energy each person brings is key. Even a joke can open the door to unforeseen possibilities. These conversations are full of unexpected twists and sudden shifts in viewpoint. Chance plays a major role in shaping these discussions. \n"
+      ],
+      "dipper_lowmed": [
+        "The wonderful thing about the collision between young minds is that you can't foresee the spark or anticipate the flash; What will the next minute bring, no one knows. The exchanges in which they happen are sudden, with sudden reversals of perspective; chance is the scene-shifter in such conversations. The burst of laughter follows the moment of compassion; in the comic moment, seriousness enters; impulses are prompted by a chance word; each one's verve is paramount; a joke is enough to open a path for the unexpected."
+      ]
+    },
+    {
+      "human_par3": [
+        "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him."
+      ],
+      "llama_31_8b": [
+        "As the princesses mounted their regal elephants, Kundavai's earlier hint that those embarking on a long journey should leave first became clear. Despite his reservations, Vandiya Devan reluctantly urged his horse onto the road, hesitating as he did so. Before continuing on his way, he couldn't help but steal one final glance at Kundavai's captivating face, but he swiftly looked away, sensing that it was impolite to linger. Vandiya Devan then galloped off quickly, with the Vaidiyar's son following closely behind, struggling to control his own horse as he did so.",
+        "The princesses mounted their royal elephants, and since Kundavai had made it clear that those embarking on a long journey should leave first, Vandiya Devan reluctantly steered his horse towards the road. However, he couldn't resist glancing back at Kundavai one last time, drinking in the beauty of her face. Regretting his fleeting moment of disloyalty, he quickly turned the horse's head and sped away as quickly as possible. Meanwhile, the Vaidiyar's son, who was to accompany him, struggled to gain control of his own horse and hurried to follow."
+      ],
+      "gemini_25_flash": [
+        "With a hint from Kundavai that those embarking on a long journey should depart first, the princesses mounted their royal elephants. Vandiya Devan reluctantly turned his horse's head towards the road, but not without one last gaze at her beautiful face. Realizing his impoliteness, he quickly averted his eyes, spurred his horse, and galloped off. The Vaidiyar's son, who was supposed to accompany him, struggled to control his own horse and followed suit."
+      ],
+      "dipper_lowmed": [
+        "Even then, he could not help but turn around and look at her face one last time. But knowing that it was unbecoming, he quickly turned his horse and galloped away. The son of the Vaidiyar who accompanied him tried to control his horse and followed him. The princesses climbed onto their elephants. Since Kundavai had hinted that those who were going on a long journey should leave first, Vandiyathevan turned his horse's head towards the road, though with much hesitation."
+      ]
+    },
+    {
+      "human_par3": [
+        "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it."
+      ],
+      "llama_31_8b": [
+        "In philosophy, the ideal of Oblomov was one that allowed him to exist in a state of perpetual relaxation, sheltered from the pressure of responsibilities and expectations that come with being a productive member of society. Not bred like a warrior, meant to battle in a world of strife, Oblomov was suited to be a calm observer of life's struggles rather than a participant. His gentle and lethargic nature made him ill-equipped to handle either the thrills of success or the harsh realities of life. Therefore, his life embodied an ultimate form of apathy, where he neither strived to achieve, made an effort to change, nor sought redemption."
+      ],
+      "gemini_25_flash": [
+        "The idle contemplations of the \"Oblomovka Plato\" served to pacify him against the urgent calls and expectations of responsibility and goal-setting. He was not brought up to be a fighter in life's struggles, but rather a calm observer. His gentle and indolent nature was not suited for either the excitements of joy or the hardships of existence. As a result, his character represented an ultimate state of inactivity; he made no effort to accomplish anything, alter his circumstances, or express remorse.",
+        "The guiding principle developed by the contemplative Oblomov was one that fostered a sense of complacency, detaching him from the urgent responsibilities and clear objectives of life. He was raised not as a fighter destined for the arena, but as a detached observer of the struggle. His gentle and indolent nature was ill-equipped to handle the excitements of joy or the hardships of existence. As a result, his character represented an extreme of human experience, and he made no effort to accomplish anything, initiate change, or express remorse."
+      ],
+      "dipper_lowmed": [
+        "He was not born, and brought up, like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the shocks of happiness or life's thorns; consequently, his person expressed one of life's extremes, and he did nothing to achieve, change, or repent. This is the philosophy of the Plato of Oblomovka, a philosophy that lulled him in the midst of the issues and strict demands of duty and purpose!"
+      ]
+    },
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+        "And \u2013 the torso of a goat-footed caryatid. Since the time when a carriage drawn by a pair of lathered black horses flew up to its front steps, since the time when a court lackey in a tricorne hat donned obliquely on his head and a winged greatcoat opened wide, for the first time the lacquered, embossed flank and, with a click, the door threw aside its coat of arms adorned with crown (a unicorn goring a knight); since the time when out of the funereal cushions of the carriage a parchment-faced statue placed its shoe on the entrance-porch granite; since the time when, for the first time, returning bows, a hand invested in the leather of a glove touched the brim of a top hat: \u2013 since that time the Institution that cast over Russia its mighty power had weighed down with a power even mightier."
+      ],
+      "llama_31_8b": [
+        "A figure from a mythical creature's body stood at the entrance of a carriage. A carriage, pulled by two horses, came to a stop in front of it, and a servant opened the door with a click of a handle. The door swung open, revealing a coat of arms on the side panel, which featured a small, intricate design of a unicorn attacking a knight. In response to a greeting from someone, a gloved hand reached up and tipped a gentleman's hat."
+      ],
+      "gemini_25_flash": [
+        "A capriped caryatid's upper body. A two-horse carriage swiftly ascended to the carriage porch. A liveried servant, wearing a tricorne hat, expertly clicked open the carriage door, revealing a coat of arms emblazoned with small crowns: a unicorn impaling a knight. A gloved hand acknowledged the greetings by touching the brim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage harnessed to a pair of steeds flew up to the porte-coch\u00e8re, and a lackey with a tricorn on his head gave the handle a click, and the door flew open, flinging back a coat of arms adorned with small crowns (a unicorn goring a knight). In response to greetings, a hand invested in leather touched the brim of a top hat. The torso of a capripede caryatid."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "\"I'll go see her myself,\" Arkady declared, a renewed surge of generosity propelling him from his seat. \"I'll make it clear to her that there's no reason to avoid me.\"",
+      "The man was profoundly weary; he didn't even bother to fully appreciate the fresh, white sheets. He extinguished his candle by pinching the wick with his nostril, a technique used by prisoners, then, without undressing, he collapsed onto the bed and instantly drifted into a profound slumber.",
+      "\u201cThey are here, they are here. I\u2019ll throw open every door and call all my daughters, right now, this very minute,\u201d Lebedev mumbled softly, rushing about from one door to the other. \u201cAnd the general is coming up behind them.\u201d",
+      "He had given up Simone, his Bosphorus speculation was already in danger, and Nana hurried his downfall by the most lavish expenditure; for a month still he struggled, performing miracles, covering Europe with a colossal publicity\u2014posters, advertisements, prospectuses\u2014and raking in money from the most distant countries. All those savings, the louis of the speculators and the poor people\u2019s pennies, were swallowed up in the Avenue de Villiers. He had also gone into partnership with an iron foundry in Alsace, and there were, in that corner of the country, workmen black with coal dust, bathed in sweat, tensing their muscles and hearing their bones crack, to supply the means for Nana\u2019s pleasures. This time she finished off Steiner, she threw him on the pavement, sucked to the bone, so emptied that he remained even incapable of inventing a fresh roguery; and in the collapse of his banking house he went insane, trembled at the mention of the police; he was made bankrupt; and the mere mention of the word \u201cmoney\u201d brought him to a state of bewilderment and childish bewilderment, and he who had handled millions! One evening when she was with him, he burst into tears; he asked her to lend him a hundred francs to pay his servant, and Nana, affected and amused by this end of the terrible old man who had been a shadroker for twenty years, went and brought him the money, saying, \u201cI\u2019m very sorry to have let you down, and I\u2019ll take it myself.\u201d",
+      "On the very first day of her \u2018lady-hood\u2019, as it were, during the performance of the sacrament of marriage, when Nikolai Apollonovich held the ceremonial crown over her husband, Sergei Sergeevich, Sofia Petrovna had been painfully struck by the handsome, elegant best man, the colour of his huge, unearthly, dark-blue eyes, the whiteness of his marble face and the godlike quality of his flaxen hair: those eyes were not gazing then, as they often did later, from behind the dull lenses of a pince-nez, and his face was cradled by the gold collar of a smart new uniform (not every student has a collar like that). Well, and \u2026 Nikolai Apollonovich became a regular visitor at the Likhutins\u2019 at first once every two weeks; then\u2014once a week; two, three, four times a week; and in the end, every day. Soon Sofia Petrovna noticed beneath the mask of those everyday visits that Nikolai Apollonovich\u2019s face, godlike, severe, had turned into a mask: grimaces, an aimless rubbing of his sometimes sweaty hands, finally the unpleasant frog-like expression of his smile, arising from the way the most diverse mannerisms played across his face, obscured that face from her forever. And as soon as Sofia Petrovna noticed that, she realised to her horror that she had been in love with that face, that one, but not this. The Angel Peri wished to be an exemplary wife: and the terrible thought that, while faithful, she had already become infatuated with someone other than her husband\u2014 this thought completely shattered her. But things went further: from beneath the mask, the grimaces, the frog-like lips, she tried unconsciously to summon back her irretrievably lost infatuation: she tormented Ableukhov, showered him with insults; but, in secret from herself, she dogged his tracks, discovered his tastes and strivings, unconsciously followed them, trying all the while to recapture in them the genuine, godlike countenance; and so she began to act a part: first meloplastics appeared on the scene, then the cuirassier Baron Ommau-Ommergau, and finally Varvara Evgrafovna appeared with the tin tankard for collecting whiffies.",
+      "One of the soldiers doubted the horse's authenticity, suggesting it might be part of a troupe that performs fake horse shows, known as poi kaal kudirai.",
+      "The shocks of youthful minds among themselves have this admirable property, that one can never foresee the spark, nor divine the lightning flash. What will dart out presently? No one knows. The burst of laughter starts from a tender feeling. At the moment of jest, the serious makes its entry. Impulses depend on the first chance word. The spirit of each is sovereign, jest suffices to open the field to the unexpected. These are conversations with abrupt turns, in which the perspective changes suddenly. Chance is the stage-manager of such conversations.",
+      "With a hint from Kundavai that those embarking on a long journey should depart first, the princesses mounted their royal elephants. Vandiya Devan reluctantly turned his horse's head towards the road, but not without one last gaze at her beautiful face. Realizing his impoliteness, he quickly averted his eyes, spurred his horse, and galloped off. The Vaidiyar's son, who was supposed to accompany him, struggled to control his own horse and followed suit.",
+      "The idle contemplations of the \"Oblomovka Plato\" served to pacify him against the urgent calls and expectations of responsibility and goal-setting. He was not brought up to be a fighter in life's struggles, but rather a calm observer. His gentle and indolent nature was not suited for either the excitements of joy or the hardships of existence. As a result, his character represented an ultimate state of inactivity; he made no effort to accomplish anything, alter his circumstances, or express remorse.",
+      "A carriage harnessed to a pair of steeds flew up to the porte-coch\u00e8re, and a lackey with a tricorn on his head gave the handle a click, and the door flew open, flinging back a coat of arms adorned with small crowns (a unicorn goring a knight). In response to greetings, a hand invested in leather touched the brim of a top hat. The torso of a capripede caryatid."
+    ],
+    [
+      "\u201cThen let me go and see her!\u201d Arkady cried with another burst of magnanimity and sprang from his chair. \u201cYes, let me go and explain to her why she doesn\u2019t have to shun me.\u201d",
+      "The man was so utterly exhausted that he barely noticed the fresh, white sheets. He extinguished his candle using his nose, a trick often employed by prisoners, and then, fully clothed, collapsed onto the bed and instantly drifted into a profound slumber.",
+      "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next.",
+      "Nana didn\u2019t approach Steiner with disdain, nor with affection, but rather with a long-held indifference. She called him derogatory names, not just because he was odious, but also because of an old hatred that she couldn\u2019t fully articulate. She took pleasure in mocking his physical appearance and his lack of intelligence, turning him around and around, desperate to be rid of him quickly. Steiner had lost Simone and his Bosphorus speculation was facing severe financial difficulties, making him increasingly desperate. Desperate to salvage the situation, he attempted to drum up massive publicity across Europe, placing large orders for posters, advertisements, and prospectuses in an effort to extract money from far-off peoples and places. However, all the money, whether from wealthy speculators or from low-income earners, was drained down the drain on the Avenue de Villiers. Steiner had also partnered with an ironfounder in Alsace, and laborers there toiled day and night, digging and sweating, to gather resources that would ultimately be spent on Nana\u2019s extravagances. She devoured everything in her path, including banker thefts and worker's earnings. Her scheme with Steiner finally went too far, leaving him utterly depleted. She left him broke, shell-shocked, and unable to concoct any further deceit. When his bank failed, he descended into madness, becoming terrified at the mention of the police. Declared bankrupt, the mere mention of the word \"money\" sent him into a state of childish panic, a man who had once mastered millions. One evening, in her presence, he broke down and wept. He begged her to lend him a hundred francs to pay his servant, and Nana, both amused and touched by the decline of the man who had taken millions from Paris for twenty years, handed him the money, saying",
+      "From the very start of their marriage, when Nikolai Apollonovich held the wedding crown over Sergei Sergeyevich's head, Sofia Petrovna Likhutina was captivated by the best man's neat appearance, his striking eye color, pale complexion, and light hair. At that time, his eyes weren't obscured by a pince-nez as they often would be later, and a distinctive gold collar supported his face. Following this initial encounter, Nikolai Apollonovich became a frequent guest, gradually increasing his visits from bi-weekly to weekly, and eventually to daily. Sofia Petrovna soon observed a change in Nikolai Apollonovich's appearance, noting that his face seemed to become an emotionless mask. His habit of idly rubbing his sweaty hands and his unsettling, frog-like smile, unfortunately, obscured his true expression from her. As soon as she realized this, she understood that her affection had been for a different face, not the one before her. She unconsciously tried to evoke her lost feelings through his somewhat repulsive smile, and in doing so, she tormented Ableukhov. Though she tried to conceal her own motivations, she became persistently attentive to his preferences, attempting to understand and even adopt his tastes and inclinations, hoping to rekindle her former affection. This led to her affecting a new persona; first, cosmetic enhancements appeared, followed by a more robust, almost military, style. Soon after, Varvara Evgrafovna arrived with a tin box to collect \"phoophoos.\"",
+      "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+      "When young people with different perspectives come together, it's impossible to anticipate what will happen next. A single moment can inspire a burst of laughter, followed by a display of genuine care and understanding. Even in the most mundane conversations, a well-timed joke can suddenly shift the tone and direction. The outcome is often unpredictable, with perspectives changing quickly as individuals engage with each other. The element of chance plays a significant role in shaping these conversations, leading to surprises and new insights.",
+      "As the princesses mounted their regal elephants, Kundavai's earlier hint that those embarking on a long journey should leave first became clear. Despite his reservations, Vandiya Devan reluctantly urged his horse onto the road, hesitating as he did so. Before continuing on his way, he couldn't help but steal one final glance at Kundavai's captivating face, but he swiftly looked away, sensing that it was impolite to linger. Vandiya Devan then galloped off quickly, with the Vaidiyar's son following closely behind, struggling to control his own horse as he did so.",
+      "The guiding principle developed by the contemplative Oblomov was one that fostered a sense of complacency, detaching him from the urgent responsibilities and clear objectives of life. He was raised not as a fighter destined for the arena, but as a detached observer of the struggle. His gentle and indolent nature was ill-equipped to handle the excitements of joy or the hardships of existence. As a result, his character represented an extreme of human experience, and he made no effort to accomplish anything, initiate change, or express remorse.",
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+    ],
+    [
+      "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'",
+      "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep.",
+      "Lebedev, flustered, whispered to himself, \"They're arriving, they're here. The General is bringing up the end of the line. I'll throw open every door and summon all my daughters, each and every one, immediately,\" as he darted between doorways.",
+      "Then Nana took up with Steiner without disgust but without love. She called him a dirty Jew; she seemed to be paying back an old grudge, of which she had no distinct recollection. He was fat; he was stupid, and she got him down and took two bites at a time in order the quicker to do for this Prussian. As for him, he had thrown Simonne over. His Bosphorous scheme was getting shaky, and Nana hastened the downfall by wild expenses. For a month he struggled on, doing miracles of finance. He filled Europe with posters, advertisements and prospectuses of a colossal scheme and obtained money from the most distant climes. All these savings, the pounds of speculators and the pence of the poor, were swallowed up in the Avenue de Villiers. Again he was partner in an ironworks in Alsace, where in a small provincial town workmen, blackened with coal dust and soaked with sweat, day and night strained their sinews and heard their bones crack to satisfy Nana's pleasures. Like a huge fire she devoured all the fruits of stock-exchange swindling and the profits of labor. This time she did for Steiner; she brought him to the ground, sucked him dry to the core, left him so cleaned out that he was unable to invent a new roguery. When his bank failed he stammered and trembled at the idea of prosecution. His bankruptcy had just been published, and the simple mention of money flurried him and threw him into a childish embarrassment. And this was he who had played with millions. One evening at Nana's he began to cry and asked her for a loan of a hundred francs wherewith to pay his maidservant. And Nana, much affected and amused at the end of this terrible old man who had squeezed Paris for twenty years, brought it to him and said:",
+      "On the day of Sergei's wedding, Sofia couldn't take her eyes off the handsome best man. His striking features, including his piercing eyes and chiseled facial structure, left a lasting impression on her. But it wasn't the air of confidence he now exuded that drew her in; it was the man he used to be, the one who hadn't yet been reduced to a shell. As the days went by, Nikolai's visits became more frequent, and Sofia began to notice changes in him. His habitual nervous tics and strained smile made him unrecognizable, and Sofia found herself lusting after the person she once knew. Attempting to justify her feelings, she started mimicking his phobias and interests, hoping to recapture the connection they had lost. She acted pretentious, adopting mannerisms she thought would impress him, including donning fashionable hats and accessories. Her friend Varvara even mockingly collected his eccentric habits, laughing and teasing him about his quirks.",
+      "\"Thandavaraya,\" a soldier remarked, \"I doubt this is an actual horse. It's likely from the poi kaal kudirai (false horse performance) troupe.\" \"Very well,\" came the reply.",
+      "When young minds meet, the outcome is always unpredictable. You never know what brilliant ideas or surprising insights will emerge. What happens next is a mystery. Laughter can follow an act of kindness, and humor can quickly turn into something serious. A simple word can spark new thoughts and feelings. The energy each person brings is key. Even a joke can open the door to unforeseen possibilities. These conversations are full of unexpected twists and sudden shifts in viewpoint. Chance plays a major role in shaping these discussions. \n",
+      "The princesses mounted their royal elephants, and since Kundavai had made it clear that those embarking on a long journey should leave first, Vandiya Devan reluctantly steered his horse towards the road. However, he couldn't resist glancing back at Kundavai one last time, drinking in the beauty of her face. Regretting his fleeting moment of disloyalty, he quickly turned the horse's head and sped away as quickly as possible. Meanwhile, the Vaidiyar's son, who was to accompany him, struggled to gain control of his own horse and hurried to follow.",
+      "He was not born, and brought up, like a gladiator, for the arena, but as a peaceful spectator of the battle. It was not for his meek and lazy soul to endure either the shocks of happiness or life's thorns; consequently, his person expressed one of life's extremes, and he did nothing to achieve, change, or repent. This is the philosophy of the Plato of Oblomovka, a philosophy that lulled him in the midst of the issues and strict demands of duty and purpose!",
+      "And \u2013 the torso of a goat-footed caryatid. Since the time when a carriage drawn by a pair of lathered black horses flew up to its front steps, since the time when a court lackey in a tricorne hat donned obliquely on his head and a winged greatcoat opened wide, for the first time the lacquered, embossed flank and, with a click, the door threw aside its coat of arms adorned with crown (a unicorn goring a knight); since the time when out of the funereal cushions of the carriage a parchment-faced statue placed its shoe on the entrance-porch granite; since the time when, for the first time, returning bows, a hand invested in the leather of a glove touched the brim of a top hat: \u2013 since that time the Institution that cast over Russia its mighty power had weighed down with a power even mightier."
+    ],
+    [
+      "Overwhelmed by his sudden display of generosity, Arkady leapt out of his chair and cried out, \"Let me go, I'll just go see her!\" His generosity, it seemed, was back in full force as he hastily approached her with the intention of dispelling any reservations she may have had about trusting him.",
+      "The man was exhausted, and even the luxurious bedding couldn't prompt him to remove a single item of clothing as he collapsed onto the bed. Instead of blowing out the candle like a normal person, he pinched it out with his nose, a habit more commonly seen in prisoners. Fully dressed, he then gave in to a deep and instantaneous sleep.",
+      "\"Here they are, and the general is holding back,\" Lebedev stammered, frantically rushing between rooms. \"I'll open all the doors and call for every single one of my daughters right away.\"",
+      "Nana next moved on to Steiner, without repugnance but equally without affection. She called him a dirty Jew, seemingly satisfying an age-old hatred which she hardly realized. He was fat and stupid and she hustled him along, keen to get shot of this Prussian as quickly as possible. He\u2019d given up Simonne. His Bosphorus venture was beginning to look shaky, and Nana\u2019s crazy demands hastened its demise. Miraculously, he managed to hold out for one more month, covering the whole of Europe with notices, prospectuses, and advertisements in a colossal publicity campaign, squeezing money out of the remotest countries. And all these funds, the speculators\u2019 reserves of gold and the tiny nest-eggs of the poor, were engulfed in the Avenue de Villiers. He\u2019d also gone into association with an iron-master in Alsace; in a corner of that province there were miners black with coal-dust and dripping in sweat who were straining their muscles and wrenching their limbs to satisfy Nana\u2019s pleasures. She consumed everything like some great fire, the fruits of honest toil and the dishonest profits of currency sharks. This time she finished Steiner off and put him back on the street after sucking him so dry that he didn\u2019t even have the strength to think up any further skulduggery. His bank collapsed, he went in fear and trembling of the police, he wandered around mumbling incoherently. He\u2019d just been made bankrupt, and at the mere mention of money this man who\u2019d been used to handling millions flew into a panic like a little child. One evening in Nana\u2019s house he burst into tears and asked if she could lend him a hundred francs to pay his maid. Amused to see such an end to this terrible character who\u2019d been ruthlessly exploiting the market for the last twenty years, Nana, out of the kindness of her heart, handed him the money, saying:",
+      "Even on the first day of the \u201cwedding ring\u201d, when Nikolai Apollonovich held the solemn nuptial crown over Sergei Sergeevich's head, Sofya Petrovna Likhutina was struck by the handsome, slender best man, the color of his eyes, the pallor of his face and the fairness of his hair, so as not to look at the pince-nez, as later, and his face was supported by a gold collar (not everyone has such a collar) , and ... Nikolai Apollonovich became a frequent visitor: first once every two weeks, then once a week, and finally - daily; soon Sofya Petrovna noticed that Nikolai Apollonovich's face turned into a mask: the aimless rubbing of his sweaty hands, and the frog-like expression of his smile, alas, hid the face from her; and as soon as Sofya Petrovna noticed this, she understood that it was not this face, but that other; from behind her frog-like lips she unconsciously tried to revive her lost infatuation, and she tormented Ableukhov; but, hiding what she was doing from herself, she began to follow his steps, to find his tastes and inclinations, following them herself, hoping to recover her loss in them; she began to put on airs: first meloplastics appeared, then a cuirassier; Varvara Evgrafovna appeared with a tin box for collecting \u201cpoo-poos\u201d.",
+      "\u201cThanthavarayar, this is not a real horse. It is from the poi kaal kudirai, the fake horse theatre troupe,\u201d said one of the soldiers.",
+      "The intersection of young minds is a dynamic and unpredictable force, where unexpected sparks and flashes of insight can occur at any moment. Each conversation is a surprising sequence of events, where laughter can quickly pivot into understanding and empathy. The power of a well-timed joke or phrase can be instrumental in opening up new avenues of thought. In these interactions, the sudden momentum and individual energy of each participant can lead to unexpected realignments of perspective and a shift in the conversation's course. Fortunate coincidences often serve as catalysts, propelling the conversation in new and intriguing directions.",
+      "Even then, he could not help but turn around and look at her face one last time. But knowing that it was unbecoming, he quickly turned his horse and galloped away. The son of the Vaidiyar who accompanied him tried to control his horse and followed him. The princesses climbed onto their elephants. Since Kundavai had hinted that those who were going on a long journey should leave first, Vandiyathevan turned his horse's head towards the road, though with much hesitation.",
+      "In philosophy, the ideal of Oblomov was one that allowed him to exist in a state of perpetual relaxation, sheltered from the pressure of responsibilities and expectations that come with being a productive member of society. Not bred like a warrior, meant to battle in a world of strife, Oblomov was suited to be a calm observer of life's struggles rather than a participant. His gentle and lethargic nature made him ill-equipped to handle either the thrills of success or the harsh realities of life. Therefore, his life embodied an ultimate form of apathy, where he neither strived to achieve, made an effort to change, nor sought redemption.",
+      "A figure from a mythical creature's body stood at the entrance of a carriage. A carriage, pulled by two horses, came to a stop in front of it, and a servant opened the door with a click of a handle. The door swung open, revealing a coat of arms on the side panel, which featured a small, intricate design of a unicorn attacking a knight. In response to a greeting from someone, a gloved hand reached up and tipped a gentleman's hat."
+    ],
+    [
+      "\"Fine, I'll go see her myself,\" Arkady declared, a renewed surge of selflessness moving him to leap from his seat. \"I'll make it clear to her that there's no reason for her to avoid me.\"",
+      "He blew out his candle with his nostril, as convicts do, and, throwing himself on the bed fully dressed, immediately fell into a deep sleep. As for the man, he was really so tired that he did not even take advantage of the clean white sheets.",
+      "\u201cThey\u2019re coming, here they are. I\u2019ll rush through all the doors and call my daughters, now, this minute,\u201d Lebedev muttered softly in a panic, running from one door to another. \u201cAnd the general will come at the last moment.\u201d",
+      "Nana then approached Steiner, not with revulsion, nor with affection, but rather with a profound disdain. She hurled an anti-Semitic slur at him. It appeared she was indulging a long-held animosity that she herself couldn't quite articulate. He was overweight and unintelligent, and she manipulated him, devouring him figuratively, eager to dispense with the Prussian as swiftly as possible. Steiner had already lost Simone, and his investment in the Bosphorus was failing. Nana accelerated his ruin with her extravagant spending. He fought for another month, performing astonishing feats, covering Europe with immense advertising campaigns\u2014posters, ads, brochures\u2014and drawing funds from remote nations. All those savings, from the gold coins of investors to the pennies of the poor, vanished into Nana's insatiable desires in the Avenue de Villiers. He had also formed a partnership with an iron-founder in Alsace, where workers, stained with coal dust and drenched in sweat, toiled tirelessly, straining their bodies day and night, to finance Nana's lavish lifestyle. She consumed everything like a raging inferno\u2014stolen money from the stock market and the wages of labor. This time, she utterly ruined Steiner. She left him destitute, completely depleted, so empty that he couldn't even conjure up a new scheme. The collapse of his banking firm drove him insane; the mention of the police sent shivers down his spine. He was declared bankrupt, and the mere word \"money\" disoriented him, reducing him to a childlike state of confusion, despite having dealt with millions. One evening, while with Nana, he broke down in tears, asking her for a hundred francs to pay his servant. Nana, both moved and amused by the downfall of this once-fearless man who had successfully manipulated the Parisian market for two decades, gave him the money, saying...",
+      "And ... Nikolai Apollonovich became a regular visitor, first every two weeks, then every week, and finally, every day. Even on the first day of the \"wedding\" when Nikolai Apollonovich held the solemn bridal crown over Sergei Sergeevich's head, the slim and handsome best man, struck by the color of his eyes, the pallor of his face and the blondness of his hair, Sofia Petrovna Likhutina was struck by the slender, handsome best man, by the color of his eyes, the pallor of his face and the blondness of his hair, did not look, as they later often did, from behind the lenses of pince-nez, and the face was held by a gold collar (which is not everyone), and ... Nikolai Apollonovich soon noticed that his face had turned into a mask; the aimless rubbing of his sweaty hands and the froglike expression of his smile hid the face from her, and she, without knowing what she was doing, began to follow him, to determine his tastes and inclinations, to follow them herself, hoping to rehabilitate her loss in them; she slyly, hiding what she was doing, began to follow him, to ascertain his tastes and inclinations, to follow them herself, hoping to find recompense in them. She began to put on airs: first the meloplastics appeared on the scene, then the cuirassier; Varvara Evgrafovna appeared with a tin box for collecting \"poopoos\"; she appeared with a tin box for the collection of \"poopoos\".",
+      "One of the soldiers questioned whether the horse was genuine, suggesting it might be part of a group known as poi kaal kudirai, which performs fake horse tricks. The answer was dismissive.",
+      "The wonderful thing about the collision between young minds is that you can't foresee the spark or anticipate the flash; What will the next minute bring, no one knows. The exchanges in which they happen are sudden, with sudden reversals of perspective; chance is the scene-shifter in such conversations. The burst of laughter follows the moment of compassion; in the comic moment, seriousness enters; impulses are prompted by a chance word; each one's verve is paramount; a joke is enough to open a path for the unexpected.",
+      "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him.",
+      "Such was the philosophy that the Plato of Oblomovka had worked out and that lulled him to sleep amidst the stern demands of duty and the problems of human existence! He was not born and educated to be a gladiator for the arena, but a peaceful spectator of the battle; his timid and indolent spirit could not have endured either the anxieties of happiness or the blows inflicted by life \u2013 therefore he merely gave expression to one particular aspect of it, and it was no use being sorry or trying to change it or to get more out of it.",
+      "A capriped caryatid's upper body. A two-horse carriage swiftly ascended to the carriage porch. A liveried servant, wearing a tricorne hat, expertly clicked open the carriage door, revealing a coat of arms emblazoned with small crowns: a unicorn impaling a knight. A gloved hand acknowledged the greetings by touching the brim of a top hat."
+    ]
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ]
+  ],
+  "source_texts": [
+    "That comes, I think, from their tiredness. Over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words, and done it badly. And has made their learning difficult with his distractedness, his negligence, his jealousy, which was itself a kind of negligence.",
+    "The vegetation of this desolate landmass seemed extremely limited. A few lichens of the species Usnea melanoxantha covered the black quartzose rocks. The meagre flora of the region was entirely composed of microscopic plantlets called rudimentary diatoms, forms of cells fitted between two quartzose shells, together with long purple and crimson wracks attached to little swimming bladders which the swell threw on to the coast.",
+    "\u201cThandavaraya, I don\u2019t think this is a real horse. It may belong to the poi kaal kudirai (false horse performance) group,\u201d said one of the soldiers. \u201cFine then.",
+    "\u201cSit down, Ivan, please, here on the sofa,\u201d Alyosha said, frightened. \u201cYou\u2019re feverish. Lie down. Put your head on the pillow. Right. Would you like a wet towel on your head? It might help.\u201d",
+    "\u201cAh!\u201d he exclaimed, interrupting himself. \u201cThere come Mignon and Steiner! They are always together. You know that Steiner begins to have had enough of Rose; so the husband sticks to him like a plaster lest he should escape.\u201d",
+    "And the zemstvo official stopped in perplexity, clutching at a tuft of his beard. The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog. The zemstvo official apparently wanted to make a little joke, and grunted: \u201cMm . . .",
+    "\u201cWell, I\u2019d rather put it this way: you and I, we have the same philosophy. That would be a much fairer statement. Je pense, donc je suis, that is something I know for certain. As for the rest\u2014all those worlds, God, and even Satan himself\u2014I\u2019m not sure whether all that exists independently or is merely a passing and subjective emanation of myself .",
+    "The captain offered me a cup of the still-warm milk. I could not stop myself showing repugnance at this brew. He assured me that the milk was excellent, and no different from cows\u2019 milk.",
+    "\"Then let me go and meet her,\" exclaimed Arkady with another access of \"magnanimity\" as he sprang from his chair. \" Yes, let me go and explain to her why she need not shun me.\"",
+    "A thousand lords with girdle-jade walk in front and rear. The many flags of guardsmen stand both left and right. Those holding gilt bludgeons, And halberds and axes, March in pairs and pairs; The red silk lanterns, The royal incense urn, Move in solemnity. The dragons fly and the phoenixes dance; The falcons soar and the eagles take wing. This Son of Heaven\u2019s an upright sage; The righteous ministers are good. They increase our bliss by a thousand years, surpassing Yu and Shun; They secure peace of ten thousand ages, rivaling Yao and Tang. We also see the curve-handled umbrella, And robes with rolling dragons\u2014 Their glare lighting up each other; The jade joined-rings, The phoenix fans, Waving through holy mist. Those caps of pearls and belts of jade; The purple sashes and medals of gold. A thousand rows of soldiers protect the Throne; Two lines of marshals uphold the carriage. This emperor, cleansed and sincere, bows to the Buddha, Glad to raise incense and seek virtue\u2019s fruit. The grand cortege of the Tang emperor soon arrived in front of the temple. The emperor ordered a halt to the music, left the carriages, and led many officials in the worship of Buddha by taking up burning incense sticks in their hands. After bowing three times holding the incense, they raised their heads and looked around them. This was indeed a splendid religious hall. You see Dancing flags and banners; Bright, gleaming sunshades. Dancing flags and banners Fill the air with strands of flashing colored mists. Bright, gleaming sunshades Glow in the sun as fiery bolts. Imposing, the gold image of Lok\u0101jye\u1e63\u1e6dha;14 Most awesome, the jade features of the arhats. Divine flowers fill the vases. Sandalwood incense burn in the urns. The divine flowers filling the vases Adorn the temple with a brilliant forest of brocade. The sandalwood incense burning in the urns Covers the clear sky with waves of fragrant clouds. Piled high on red trays are fruits in season. On colored counters, mounds of cakes and sweets rest. Rows of noble priests chant the holy s\u016btras To save from their travails those orphaned souls. Taizong and his officials each lifted the incense; they also worshipped the golden body of the Buddha and paid homage to the arhats. Thereafter, the Master of the Law, Chen Xuanzang, the Grand Expositor of the Faith, led the various monks to greet the Tang emperor. After the ceremony, they went back to their seats according to their rank and station. The priest then presented Taizong with the proclamation for the deliverance of the orphaned souls. It read: The supreme virtue is vast and endless, for Buddhism is founded upon Nirv\u0101\u1e47a. The spirit of the pure and the clean circulates freely and flows everywhere in the Three Regions. There are a thousand changes and ten thousand transformations, all regulated by the forces of yin and yang. Boundless and vast indeed are the substance, the function, the true nature, and the permanence of such phenomena. But look at those orphaned souls, how worthy they are of our pity and commiseration! Now by the holy command of Taizong, we have selected and assembled various priests, who will engage in meditation and in the proclamation of the Law. Flinging wide the gates of salvation and setting in motion many vessels of mercy, we would deliver you, the multitudes, from the Sea of Woe and save you from perdition and from the Sixfold Path. You will be led to return to the way of truth and to enjoy the bliss of Heaven. Whether it be by motion, rest, or nonactivity, you will be united with, and become, pure essences. Therefore make use of this noble occasion, for you are invited to the pleasures of the celestial city. Take advantage of our Grand Mass so that you may find release from Hell\u2019s confinement, ascend quickly and freely to ultimate bliss, and travel without restraint in the Region of the West.15 The poem says: An urn of immortal incense. Some scrolls of salvific power. As we proclaim this boundless Law, Receive now Heaven\u2019s endless grace. All your guilt and crime abolished, You lost souls may leave your prison. May our nation be firmly blessed With peace long and all-embracing. Highly pleased by what he read, Taizong said to the monks, \u201cBe firm, all of you, in your devotion, and do not slack in your service to Buddha. After the achievement of merit and after each has received his blessing, we shall reward you handsomely. Be assured that you will not have labored in vain.\u201d"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ]
+  ],
+  "rationales": [
+    "Outputs 1 and 4 share the same paraphraser fingerprint: both use 'exhaustion' (vs. 'weariness'/'fatigue' in others), both significantly restructure and summarize rather than staying close to the source, both adopt a modern, flowing prose style, and both replace specific source phrases with looser equivalents (e.g., 'echoed their words'/'parroted their words', 'inattentiveness/carelessness'). The other outputs (0, 2, 3) stay much closer to the source text's literal phrasing and structure.",
+    "Outputs 1 and 4 share the same modern, explanatory paraphrasing style. Both replace 'fucus' with 'seaweed', use 'crimson' alongside 'purple', describe diatoms with appositive/parenthetical explanations ('encased in two shell-like structures made of quartz' vs 'single-celled organisms encased in two quartz shells'), and adopt a clean contemporary register rather than the archaic/formal tone of the other outputs.",
+    "Outputs 0 and 3 share the same stylistic fingerprints: both omit the Tamil term 'poi kaal kudirai' and instead use only the English translation in quotes ('false horse'/'false horses'), both describe the troupe similarly ('performance troupe'/'troupe that performs with false horses'), both start with 'Thandavaraya' followed by doubt about the horse's authenticity, and both end with a short acknowledgment reply ('Understood'/'Alright then'). These structural and lexical parallels distinguish them from the other outputs.",
+    "Outputs 3 and 4 share distinctive stylistic fingerprints: both use 'forehead' instead of 'head,' both end with the phrase 'provide/offer some relief,' both use modern alternatives for 'wet towel' ('cool compress' and 'damp cloth'), and both follow a similar sentence-by-sentence rhythm breaking Ivan's instructions into short imperative fragments. These parallel structural and lexical choices strongly suggest the same paraphraser produced both.",
+    "Outputs 1 and 3 share nearly identical sentence structure, opening exclamation ('Oh! he blurted out, cutting himself off'), phrasing ('Here come Mignon and Steiner! They're inseparable'), and the closing clause structure ('so her husband is [glued/clinging] to him...making sure/to ensure he doesn't get away'). The differences are only minor word substitutions, strongly suggesting the same paraphraser produced both.",
+    "Outputs 2 and 3 share the same distinctive structural fingerprints: both use the repeated parallel construction 'begged not to be [verb]ed into the Petersburg slush, begged not to be [verb]ed into the [adjective] fog,' and both end with 'And the zemstvo official stopped in perplexity, [verb]ing at a tuft of his beard.' The only differences are minor word swaps (sent/expelled, poisonous/malignant, clutching/grabbing), which is typical of the same paraphraser producing slight variations.",
+    "Outputs 1 and 4 share strong stylistic similarities: both open with a meta-framing introduction ('I'd prefer to phrase it like this' / 'Let me rephrase that for you'), both omit the original French phrase in favor of 'I think, therefore I exist' in plain English, both use modern conversational vocabulary, and both describe the uncertainty about other worlds/God/Satan as possibly being 'fleeting' or 'temporary' personal/subjective manifestations of thought. Neither includes the detail about 'jumping up to beat me.' These consistent choices across vocabulary, structure, and content suggest the same paraphrasing system produced both.",
+    "Outputs 3 and 4 share the most distinctive linguistic fingerprints: both use 'offered me a cup of,' both use the word 'repugnance,' and both include 'excellent' in the captain's assurance. These specific word choices (especially 'repugnance' and 'excellent') appear together only in these two outputs, strongly suggesting they came from the same paraphraser.",
+    "Outputs 0 and 2 share the distinctive phrase 'clarify to her why she shouldn't avoid me,' which is unique to both and not found in any other output. They also both use 'leapt from his seat' and have very similar sentence structures, differing only in minor word-level choices (e.g., quotes around 'generosity' vs. 'a sudden wave of generosity'). These shared stylistic and lexical fingerprints strongly suggest they were produced by the same paraphraser.",
+    "Outputs 1 and 4 both exhibit the same distinctive malfunction pattern: extreme repetition of phrases ('ten thousand' repeated endlessly in output 1; 'precious goblet of immortality' repeated dozens of times in output 4), broken and nonsensical word choices ('girands,' 'unirradiance,' 'cincesces' in output 1; 'girisleeming' in output 4), and a poem-like structure that degenerates into incoherent loops. Both outputs clearly stem from the same paraphrasing system that fails to terminate properly and produces repetitive, nonsensical text artifacts."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect."
+      ],
+      "llama_31_8b": [
+        "It's likely due to their exhaustion, having single-handedly shouldered the burden of love for centuries. They've taken on the role of both partners in the conversation, constantly reiterating the same dialogue. In contrast, men have merely parroted their words without sufficient understanding, complicating their wisdom with their own carelessness, jealousy, and lack of attention."
+      ],
+      "gemini_25_flash": [
+        "I believe this stems from their exhaustion. For centuries, they have solely borne the responsibility of love, carrying the entire conversation themselves. Men have merely echoed their words, and poorly at that. They've also complicated women's understanding through their inattentiveness, carelessness, and envy, which was a form of neglect in itself."
+      ],
+      "dipper_lowmed": [
+        "Over the centuries they have taken on themselves the whole task of love, they have always played the whole dialogue, both parts, for man has only repeated their words, and done it badly. And has made their learning difficult by his distraction, his carelessness, his jealousy, which was itself a kind of carelessness. That comes, I think, from their weariness.",
+        "For man has only repeated their words, and done it badly; and has made their learning difficult by his inattentiveness, his neglect, and his jealousy, which was itself a sort of neglect. For over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue, both parts; and this comes, I think, from their fatigue."
+      ]
+    },
+    {
+      "human_par3": [
+        "The vegetation of this desolate continent seemed to me much restricted. Some lichens of the species usnea melanoxantha lay upon the black rocks; some microscopic plants, rudimentary diatomas, a kind of cells, placed between two quartz shells; long purple and scarlet fucus, supported on little swimming bladders, which the breaking of the waves brought to the shore. These constituted the meager flora of this region.",
+        "The vegetation on this desolate continent struck me as extremely limited. A few lichens from the species Usnea melanoxantha were spread out on the black rocks. The whole meager flora of this locality consisted of certain microscopic seedlings, some rudimentary diatoms, a sort of cell positioned between two quartz shells, plus long purple and crimson fucus plants buoyed by small air bladders and washed ashore by the surf."
+      ],
+      "llama_31_8b": [
+        "The barren landscape was almost devoid of vegetation, with the sole exceptions of small, black rocks covered in a type of lichen. The region's sparse plant life consisted of microscopically small plant organisms called diatoms, which were encased in two shell-like structures made of quartz. Additionally, strings of deep purple and crimson seaweed were visible, held in place by small bladders that were washed up on the shore by the ocean's waves."
+      ],
+      "gemini_25_flash": [
+        "This barren landmass supported very little plant life. Sparse patches of black Usnea melanoxantha lichen clung to the dark quartz rocks. The only other plant matter consisted of tiny, basic diatoms\u2014single-celled organisms encased in two quartz shells\u2014and long, purple and crimson seaweed with small air bladders, which the ocean currents cast ashore."
+      ],
+      "dipper_lowmed": [
+        "The vegetation of this desolate land seemed very limited. The meager flora of the region was composed only of microscopic plants known as diatoms, which are forms of cells between two quartz shells, with long purple and red wracks, armed with small swimming bladders, which the swells threw on the coast. A few lichens of the species of usnea melanoxantha covered the black quartz rocks."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier."
+      ],
+      "llama_31_8b": [
+        "'Is this a genuine horse or part of the fraudulent horse trick I've heard of, poi kaal kudirai?' one of the soldiers wondered aloud. ['The commander simply responded, \"Furthermore\"."
+      ],
+      "gemini_25_flash": [
+        "\"Thandavaraya,\" a soldier stated, \"I suspect this isn't an actual horse. It might be part of a 'false horse' performance troupe.\" \"Understood,\" came the reply.",
+        "One of the soldiers remarked, \"Thandavaraya, I doubt this is a genuine horse. It likely belongs to a troupe that performs with \"false horses.\" \"Alright then,\" he replied."
+      ],
+      "dipper_lowmed": [
+        "\u201cThandavaraya! I don\u2019t think this is a real horse. It seems to be a part of the poi kaal kudirai (false horse) troupe,\u201d one of the soldiers said."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\""
+      ],
+      "llama_31_8b": [
+        "Alyosha nervously gestured for Ivan to sit down on the couch, saying \"Please, come sit down here.\" Noticing Ivan's high temperature, he urged him to lie down, adding \"Put your head on the pillow, okay?\" Alyosha then offered to bring Ivan a cool, wet towel for his head, hoping it might bring some relief."
+      ],
+      "gemini_25_flash": [
+        "Alyosha, visibly distressed, urged Ivan, \"Ivan, please, have a seat here on the sofa. You seem to have a fever. Lie down and rest your head on this pillow. Perfect. Would you like a damp cloth for your forehead? It could offer some relief.\"",
+        "\"Please, Ivan, settle down here on the couch,\" Alyosha urged with concern. \"You have a fever. Recline. Rest your head on the cushion. There. Would you like a cool compress for your forehead? It might provide some relief.\""
+      ],
+      "dipper_lowmed": [
+        "\"Sit down, Ivan, please, on the sofa,\" said Alyosha, frightened, \"you're feverish; lie down, put your head on the pillow. And would you like a wet towel on your head, it would be better."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Tut!\" he cried, breaking off short. \" Mignon and Steiner. Always together. You know, Steiner's getting sick of Rose; that's why the husband dogs his steps now for fear of his slipping away.\""
+      ],
+      "llama_31_8b": [
+        "\"Hold on,\" he interrupted, suddenly noticing someone approaching. \"It's Mignon and Steiner - they always arrive together. As I recall, Steiner's grown tired of Rose, and the husband is shadowing him closely, making sure he doesn't split up with them.\""
+      ],
+      "gemini_25_flash": [
+        "\"Oh!\" he blurted out, cutting himself off. \"Here come Mignon and Steiner! They're inseparable. You know Steiner is growing tired of Rose, so her husband is clinging to him closely to ensure he doesn't get away.\"",
+        "\"Oh!\" he blurted out, cutting himself off. \"Here come Mignon and Steiner! They're inseparable. You know Steiner's getting tired of Rose, so her husband is glued to him, making sure he doesn't get away.\""
+      ],
+      "dipper_lowmed": [
+        "\"Ah!\" he exclaimed, interrupting himself, \"Here are Mignon and Steiner, always together. You know Steiner begins to have enough of Rose, and the husband sticks to him like a plaster, so as not to let him slip away.\""
+      ]
+    },
+    {
+      "human_par3": [
+        "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:"
+      ],
+      "llama_31_8b": [
+        "The zemstvo official was taken aback, gripping his beard in a puzzled expression. A solitary domino player implored not to be forced out into the Petersburg slush and dismal fog that filled the streets. To the domino player's pleas, the official attempted to respond with a lighthearted comment, but only grunted \"Mm...\"."
+      ],
+      "gemini_25_flash": [
+        "The zemstvo official paused, stroking his beard in confusion. The lone domino pleaded not to be cast out into the inclement Petersburg weather, nor into the biting fog. The official, seemingly attempting humor, emitted a small grunt."
+      ],
+      "dipper_lowmed": [
+        "The zemstvo official evidently wanted to make a little joke and grunted: \" M-m-.\" The lonely domino begged not to be expelled into the Petersburg slush, begged not to be expelled into the malignant fog. And the zemstvo official stopped in perplexity, grabbing at a tuft of his beard.",
+        "The lonely domino begged not to be sent out into the Petersburg slush, begged not to be sent out into the poisonous fog. The zemstvo official, apparently, wanted to make a little joke, and he grunted: \"Hm ... \" And the zemstvo official stopped in perplexity, clutching his beard."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Well, if you like, I have the same philosophy as you, that would be true. _Je pense, donc je suis_, I know that for a fact; all the rest, all these worlds, God and even Satan--all that is not proved, to my mind. Does all that exist of itself, or is it only an emanation of myself, a logical development of my ego which alone has existed for ever: but I make haste to stop, for I believe you will be jumping up to beat me directly.\""
+      ],
+      "llama_31_8b": [
+        "Let me rephrase that for you: \"It's more accurate to say that you and I share the same perspective. I'd be more precise if I put it that way. I know for sure that I think, therefore I exist. As for the other things you mentioned \u2013 countless worlds, a higher power, or even the idea of evil \u2013 I question whether they truly exist on their own or if they're just a fleeting product of my own thoughts and imagination.\"",
+        "Here's a rewritten version of the text in my own words:\n\nA more accurate way to put it is that you and I share a common perspective. Let\u2019s say it this way: I think, therefore I exist. That, at least, I have a deep conviction about. As for the rest - the existence of other worlds, God, and even the devil - I'm uncertain whether they have an objective reality or are simply a product of my own subjective thoughts."
+      ],
+      "gemini_25_flash": [
+        "\"I'd prefer to phrase it like this: our philosophies align, which is a more accurate way to put it. I know for sure that 'I think, therefore I am.' However, concerning everything else\u2014the various worlds, God, and even Satan\u2014I'm uncertain if they have an independent existence or are simply temporary and personal manifestations of my own being.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWell, I\u2019d rather say this: You and I have the same philosophy. That would be a fairer statement. I know that je pense, donc je suis. But as for the rest, worlds, gods, and even Satan himself, I\u2019m not sure whether all this exists independently or is only a passing subjective emanation from myself..."
+      ]
+    },
+    {
+      "human_par3": [
+        "The captain offered me a cup of the milk, which was still warm. I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow\u2019s milk."
+      ],
+      "llama_31_8b": [
+        "The captain served me a cup of warm milk, but I couldn't help expressing my disgust at the unappealing liquid. He tried to reassure me that it was of high quality, just like the milk from cows."
+      ],
+      "gemini_25_flash": [
+        "The captain handed me a cup of milk, still warm. I couldn't help but show my disgust for the drink. He insisted the milk was fine, just like cow's milk.",
+        "The captain extended a cup of warm milk, which I instinctively recoiled from. He insisted it was perfectly fine and indistinguishable from cow's milk."
+      ],
+      "dipper_lowmed": [
+        "The captain offered me a cup of still warm milk. He assured me that it was excellent, and no different from cow milk. I could not refrain from showing repugnance at this brew."
+      ]
+    },
+    {
+      "human_par3": [
+        "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'"
+      ],
+      "llama_31_8b": [
+        "Arkady suddenly leapt from his chair, overflowing with generosity, and declared, \"I'll go meet her right now!\" Eager to make things clear, he exclaimed, \"I'll go talk to her and show her that she has no reason to avoid me.\""
+      ],
+      "gemini_25_flash": [
+        "\"Let me go see her,\" Arkady declared, a sudden wave of generosity propelling him from his seat. \"I must go and clarify to her why she shouldn't avoid me.\"",
+        "\"Allow me to go speak with her,\" Arkady declared, once again filled with a sense of \"generosity,\" as he leapt from his seat. \"Indeed, I must go and clarify to her why she shouldn't avoid me.\""
+      ],
+      "dipper_lowmed": [
+        "- Well, then let me go to her, \u201dArkady exclaimed with another fit of \u201cmagnanimity\u201d, leaping from his chair. - Yes, let me go and explain to her why she should not be afraid of me."
+      ]
+    },
+    {
+      "human_par3": [
+        "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain."
+      ],
+      "llama_31_8b": [
+        "In a grand procession, a thousand attendants wore girdles adorned with jade as they marched in front and rear of the ceremony. Flags and banners of guardsmen stood tall on either side, while those carrying gleaming halberds, axes, and bludgeons walked in pairs. Red lanterns and an incense urn illuminated the procession. Dragons and phoenixes danced, and birds took to the skies. The emperor, a just and honest man, took his place alongside his ministers, who were equally virtuous. Together, they brought about a thousand years of bliss, surpassing the achievements of Yu and Shun, and securing a peace that would last for ten thousand ages, rivaling that of Yao and Tang.\n\nThe procession continued, featuring elegant umbrellas and robes adorned with rolling dragons, as well as jade rings, phoenix fans, and sparkling accessories. Soldiers formed rows to protect the emperor, while marshals stood ready to support the imperial carriage. When the emperor dismounted and approached the Buddha, he bowed in worship, glad to offer incense and seek spiritual growth.\n\nThe grand procession of the emperor eventually arrived at a magnificent temple, where he led many officials in a ceremony to honor the Buddha. Once the music stopped, the emperor stepped down from his carriage and joined the group in offering incense sticks. The officials, led by the emperor, then bowed three times, looked around in wonder, and praised the beauty of the temple.\n\nInside the temple, there were vibrant flags and banners, along with shining sunshades that refracted sunlight like fiery bolts. Central to the temple was a magnificent gold statue, flanked by jade statues of arhats, symbolizing the divine and the sacred. Scents of sandalwood incense wafted through the air, mingling with divine flowers and brocade. Fresh fruits, treats, and sweets adorned red trays and colorful counters.\n\nAs part of the ceremony, Taizong and his officials took turns holding incense sticks, paying homage to the golden statue of the Buddha, and bowing to the arhats. Following the ceremony, the renowned monk Chen Xuanzang presented Taizong with a call to deliver the orphaned souls, proclaiming the virtues of Buddhism and its power to bring about immense benefit.\n\nThe text, a narrative that details a grand ceremony, cites from the proclamation a call to action: invoking the mercy of the divine to bring peace and liberation to all beings. There is an emphasis on the power of living a virtuous life, circulating spiritual energies for the benefit of all, transcending the limitations of convention and achieving ultimate bliss.\n\nThe Grand Mass, an occasion to find release from suffering and attain ultimate bliss, took place, with monks reciting sacred texts and chanting, endeavoring to liberate the immigrant souls. The scroll introduced amidst the poem was recognized as a representation of Nirv\u0101\u1e47a, boundless and unchanging. Filled with devotion, Taizong encouraged the monks to persevere in their devotion to the Buddha and ensure their dedication was unwavering, emphasizing the gratitude he felt towards their efforts."
+      ],
+      "gemini_25_flash": [
+        "A grand procession, featuring numerous nobles in ornate attire and guards carrying a variety of weapons and banners, makes its solemn way, accompanied by red silk lanterns and a royal incense urn. The scene is one of majestic celebration, with symbolic creatures like dragons and phoenixes implying divine favor. This emperor is depicted as a wise and just ruler, surrounded by virtuous officials who are credited with bringing lasting peace and prosperity, surpassing legendary ancient leaders. The emperor's impressive retinue includes a curve-handled umbrella and dragon-embroidered robes that gleam, along with joined jade rings and phoenix fans that stir up a sacred mist. Caps of pearls, jade belts, purple sashes, and gold medals further emphasize the grandeur. Thousands of soldiers protect the emperor, whose carriage is flanked by marshals.\n\nThe emperor, Taizong, in an act of devotion, stops the procession to worship Buddha. He, along with his officials, approaches the temple, lays down their weapons, and offers burning incense. They observe the magnificent temple, adorned with vibrant flags and gleaming sunshades that create a dazzling, colorful display. Inside, an imposing gold statue of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade arhats are surrounded by vases filled with divine flowers and urns burning sandalwood incense. These embellishments fill the temple with a luxurious \"forest of brocade\" and the sky with fragrant clouds. Offerings of seasonal fruits and an array of cakes and sweets are arranged on tables. Noble priests chant holy scriptures to provide solace to the souls of the deceased.\n\nAfter participating in the worship, Taizong and his officials are greeted by Master Chen Xuanzang and other monks. Following the formal greetings and a return to their designated places, the priest presents Taizong with a proclamation for the spiritual liberation of orphaned souls.\n\nThe proclamation emphasizes the immense and eternal nature of Buddhist virtue, describing it as a pervasive force that governs all changes and transformations in the world. It expresses deep compassion for orphaned souls and announces that, by Taizong's decree, priests will meditate and preach the Law to guide these souls away from suffering and towards enlightenment and heavenly bliss. It encourages them to seize this opportunity for salvation, to be released from the torments of hell, and to reach ultimate happiness in the Western Region. A poem concludes this message, promising that this \"boundless Law\" will absolve all guilt, free imprisoned souls, and bring lasting peace to the nation.\n\nHighly impressed by the proclamation, Taizong assures the monks of his continued support, promising generous rewards for their dedication to Buddha and their efforts in achieving merit. He guarantees that their hard work will not go unnoticed or unrewarded."
+      ],
+      "dipper_lowmed": [
+        "This emperor is sincere and pure, raising incense to seek blessings, For he has been cleansed and purified, He may ascend to the ten thousand ascended to the ten thousand; He may ascend to the ten thousand ascended to the ten thousand; He may ascend to the ten thousand beyond the Milky Way, And attain to the ten thousand beyond the ten thousand, As he passes beyond the ten thousand, He may ascend beyond the ten thousand, He who enters by the heavenly way, He approaches with majestic majesty; He leads an immense assembly of officials, Each holding a jade bludgeon, Each carrying a halberd; Each carries a pair of axes, Each a pair of bludgeons; Each pair of halberds, Each pair of battle-axes, Each pair of war-axes. The many flags and banners are carried in due order; The red silk lanterns, The royal incense urn, Move in solemn unirradiance. The dragons soar; The phoenix soar; The girands soar, The precious root, The sacred gold; The rotted iron is bright with yellow luster; The tortois soar, the sacred iron is bright and golden; The russet brocade screens are hung with pearls and precious metals; The horns of pheasants are hung with iron; The golden cincesces on the doors are rusted with bright iron; The phoenix stalks are rippt and swiftly renewed; The dharmadh, the gods of old, the heavenly kingdom of mercy and grace are opened wide; benedictions and blessings come down from the sky; the rain gusheaves of blessed clouds float in the bright sun; the heavenly dragons perch in honor of the morning; the phoens of spring hovering about merrily; the owls of happiness dance and graze the waves of bright gold.",
+        "The Dragon\u2019s head and the phoenix\u2019s plumes Refreshing the clouds of bright rays, Dazzling amid the countless stars. The curved umbrella and the rolling palanquin Illuminating the firmament; The girdle of jade and the buckle of gold, Brilliant in the sun\u2019s rays. The scepter and the emerald ring; The golden wheel and the cloud-tortoise; The pearl cap and the double loop; The jade waistband and the purple girdle, Rich in precious essence; The purple belt and the crown of gold, Rich in royal treasure; The curved buckle, The precious jewel, The precious treasure; The cloud and the precious tree, Sublime in rank and age; The horn of the yaks, Preserving the imperial purple; The cloud and the purple horn, Subverting the majestic airs; The phoenix fan, The pearl and coral ring, The crystal goblet, The pearl and coral goblet; The purple girdle, The jade joined-ring, The phoenix fan, The pearl and coral goblet; The pearl and coral goblet, The precious ring, The divine sabrettower of transgression, The precious goblet of liberation, The precious goblet of deliverance, The precious goblet of immortality, The precious goblet of eternal blessings, The precious goblet of immortality, The precious goblet of immortality, The precious treasure of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious treasure of immortality, The precious goblet of immortality, The precious treasure of immortality, The precious goblet of immortality, The precious treasure of immortality, The precious treasure of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious girisleeming treasures of immortality, The profound mystery of immortality, the golden body of immortality of immortality, immortality."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect.",
+      "The vegetation of this desolate continent seemed to me much restricted. Some lichens of the species usnea melanoxantha lay upon the black rocks; some microscopic plants, rudimentary diatomas, a kind of cells, placed between two quartz shells; long purple and scarlet fucus, supported on little swimming bladders, which the breaking of the waves brought to the shore. These constituted the meager flora of this region.",
+      "\"Thandavaraya,\" a soldier stated, \"I suspect this isn't an actual horse. It might be part of a 'false horse' performance troupe.\" \"Understood,\" came the reply.",
+      "\"Sit down, Ivan, please, on the sofa,\" said Alyosha, frightened, \"you're feverish; lie down, put your head on the pillow. And would you like a wet towel on your head, it would be better.",
+      "\"Hold on,\" he interrupted, suddenly noticing someone approaching. \"It's Mignon and Steiner - they always arrive together. As I recall, Steiner's grown tired of Rose, and the husband is shadowing him closely, making sure he doesn't split up with them.\"",
+      "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:",
+      "\"Well, if you like, I have the same philosophy as you, that would be true. _Je pense, donc je suis_, I know that for a fact; all the rest, all these worlds, God and even Satan--all that is not proved, to my mind. Does all that exist of itself, or is it only an emanation of myself, a logical development of my ego which alone has existed for ever: but I make haste to stop, for I believe you will be jumping up to beat me directly.\"",
+      "The captain handed me a cup of milk, still warm. I couldn't help but show my disgust for the drink. He insisted the milk was fine, just like cow's milk.",
+      "\"Allow me to go speak with her,\" Arkady declared, once again filled with a sense of \"generosity,\" as he leapt from his seat. \"Indeed, I must go and clarify to her why she shouldn't avoid me.\"",
+      "In a grand procession, a thousand attendants wore girdles adorned with jade as they marched in front and rear of the ceremony. Flags and banners of guardsmen stood tall on either side, while those carrying gleaming halberds, axes, and bludgeons walked in pairs. Red lanterns and an incense urn illuminated the procession. Dragons and phoenixes danced, and birds took to the skies. The emperor, a just and honest man, took his place alongside his ministers, who were equally virtuous. Together, they brought about a thousand years of bliss, surpassing the achievements of Yu and Shun, and securing a peace that would last for ten thousand ages, rivaling that of Yao and Tang.\n\nThe procession continued, featuring elegant umbrellas and robes adorned with rolling dragons, as well as jade rings, phoenix fans, and sparkling accessories. Soldiers formed rows to protect the emperor, while marshals stood ready to support the imperial carriage. When the emperor dismounted and approached the Buddha, he bowed in worship, glad to offer incense and seek spiritual growth.\n\nThe grand procession of the emperor eventually arrived at a magnificent temple, where he led many officials in a ceremony to honor the Buddha. Once the music stopped, the emperor stepped down from his carriage and joined the group in offering incense sticks. The officials, led by the emperor, then bowed three times, looked around in wonder, and praised the beauty of the temple.\n\nInside the temple, there were vibrant flags and banners, along with shining sunshades that refracted sunlight like fiery bolts. Central to the temple was a magnificent gold statue, flanked by jade statues of arhats, symbolizing the divine and the sacred. Scents of sandalwood incense wafted through the air, mingling with divine flowers and brocade. Fresh fruits, treats, and sweets adorned red trays and colorful counters.\n\nAs part of the ceremony, Taizong and his officials took turns holding incense sticks, paying homage to the golden statue of the Buddha, and bowing to the arhats. Following the ceremony, the renowned monk Chen Xuanzang presented Taizong with a call to deliver the orphaned souls, proclaiming the virtues of Buddhism and its power to bring about immense benefit.\n\nThe text, a narrative that details a grand ceremony, cites from the proclamation a call to action: invoking the mercy of the divine to bring peace and liberation to all beings. There is an emphasis on the power of living a virtuous life, circulating spiritual energies for the benefit of all, transcending the limitations of convention and achieving ultimate bliss.\n\nThe Grand Mass, an occasion to find release from suffering and attain ultimate bliss, took place, with monks reciting sacred texts and chanting, endeavoring to liberate the immigrant souls. The scroll introduced amidst the poem was recognized as a representation of Nirv\u0101\u1e47a, boundless and unchanging. Filled with devotion, Taizong encouraged the monks to persevere in their devotion to the Buddha and ensure their dedication was unwavering, emphasizing the gratitude he felt towards their efforts."
+    ],
+    [
+      "I believe this stems from their exhaustion. For centuries, they have solely borne the responsibility of love, carrying the entire conversation themselves. Men have merely echoed their words, and poorly at that. They've also complicated women's understanding through their inattentiveness, carelessness, and envy, which was a form of neglect in itself.",
+      "The barren landscape was almost devoid of vegetation, with the sole exceptions of small, black rocks covered in a type of lichen. The region's sparse plant life consisted of microscopically small plant organisms called diatoms, which were encased in two shell-like structures made of quartz. Additionally, strings of deep purple and crimson seaweed were visible, held in place by small bladders that were washed up on the shore by the ocean's waves.",
+      "'Is this a genuine horse or part of the fraudulent horse trick I've heard of, poi kaal kudirai?' one of the soldiers wondered aloud. ['The commander simply responded, \"Furthermore\".",
+      "\"Brother, sit down,\" said Alyosha in alarm. \" For goodness' sake, sit down on the sofa! You are delirious; put your head on the pillow, that's right. Would you like a wet towel on your head? Perhaps it will do you good.\"",
+      "\"Oh!\" he blurted out, cutting himself off. \"Here come Mignon and Steiner! They're inseparable. You know Steiner's getting tired of Rose, so her husband is glued to him, making sure he doesn't get away.\"",
+      "The zemstvo official was taken aback, gripping his beard in a puzzled expression. A solitary domino player implored not to be forced out into the Petersburg slush and dismal fog that filled the streets. To the domino player's pleas, the official attempted to respond with a lighthearted comment, but only grunted \"Mm...\".",
+      "\"I'd prefer to phrase it like this: our philosophies align, which is a more accurate way to put it. I know for sure that 'I think, therefore I am.' However, concerning everything else\u2014the various worlds, God, and even Satan\u2014I'm uncertain if they have an independent existence or are simply temporary and personal manifestations of my own being.\"",
+      "The captain served me a cup of warm milk, but I couldn't help expressing my disgust at the unappealing liquid. He tried to reassure me that it was of high quality, just like the milk from cows.",
+      "'In that case I will go to her,' cried Arkady, with a fresh rush of magnanimous feeling, and he jumped up from his seat. ' I will explain to her that she has no need to be ashamed before me.'",
+      "This emperor is sincere and pure, raising incense to seek blessings, For he has been cleansed and purified, He may ascend to the ten thousand ascended to the ten thousand; He may ascend to the ten thousand ascended to the ten thousand; He may ascend to the ten thousand beyond the Milky Way, And attain to the ten thousand beyond the ten thousand, As he passes beyond the ten thousand, He may ascend beyond the ten thousand, He who enters by the heavenly way, He approaches with majestic majesty; He leads an immense assembly of officials, Each holding a jade bludgeon, Each carrying a halberd; Each carries a pair of axes, Each a pair of bludgeons; Each pair of halberds, Each pair of battle-axes, Each pair of war-axes. The many flags and banners are carried in due order; The red silk lanterns, The royal incense urn, Move in solemn unirradiance. The dragons soar; The phoenix soar; The girands soar, The precious root, The sacred gold; The rotted iron is bright with yellow luster; The tortois soar, the sacred iron is bright and golden; The russet brocade screens are hung with pearls and precious metals; The horns of pheasants are hung with iron; The golden cincesces on the doors are rusted with bright iron; The phoenix stalks are rippt and swiftly renewed; The dharmadh, the gods of old, the heavenly kingdom of mercy and grace are opened wide; benedictions and blessings come down from the sky; the rain gusheaves of blessed clouds float in the bright sun; the heavenly dragons perch in honor of the morning; the phoens of spring hovering about merrily; the owls of happiness dance and graze the waves of bright gold."
+    ],
+    [
+      "Over the centuries they have taken on themselves the whole task of love, they have always played the whole dialogue, both parts, for man has only repeated their words, and done it badly. And has made their learning difficult by his distraction, his carelessness, his jealousy, which was itself a kind of carelessness. That comes, I think, from their weariness.",
+      "The vegetation on this desolate continent struck me as extremely limited. A few lichens from the species Usnea melanoxantha were spread out on the black rocks. The whole meager flora of this locality consisted of certain microscopic seedlings, some rudimentary diatoms, a sort of cell positioned between two quartz shells, plus long purple and crimson fucus plants buoyed by small air bladders and washed ashore by the surf.",
+      "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+      "Alyosha nervously gestured for Ivan to sit down on the couch, saying \"Please, come sit down here.\" Noticing Ivan's high temperature, he urged him to lie down, adding \"Put your head on the pillow, okay?\" Alyosha then offered to bring Ivan a cool, wet towel for his head, hoping it might bring some relief.",
+      "\"Tut!\" he cried, breaking off short. \" Mignon and Steiner. Always together. You know, Steiner's getting sick of Rose; that's why the husband dogs his steps now for fear of his slipping away.\"",
+      "The lonely domino begged not to be sent out into the Petersburg slush, begged not to be sent out into the poisonous fog. The zemstvo official, apparently, wanted to make a little joke, and he grunted: \"Hm ... \" And the zemstvo official stopped in perplexity, clutching his beard.",
+      "\u201cWell, I\u2019d rather say this: You and I have the same philosophy. That would be a fairer statement. I know that je pense, donc je suis. But as for the rest, worlds, gods, and even Satan himself, I\u2019m not sure whether all this exists independently or is only a passing subjective emanation from myself...",
+      "The captain extended a cup of warm milk, which I instinctively recoiled from. He insisted it was perfectly fine and indistinguishable from cow's milk.",
+      "\"Let me go see her,\" Arkady declared, a sudden wave of generosity propelling him from his seat. \"I must go and clarify to her why she shouldn't avoid me.\"",
+      "A grand procession, featuring numerous nobles in ornate attire and guards carrying a variety of weapons and banners, makes its solemn way, accompanied by red silk lanterns and a royal incense urn. The scene is one of majestic celebration, with symbolic creatures like dragons and phoenixes implying divine favor. This emperor is depicted as a wise and just ruler, surrounded by virtuous officials who are credited with bringing lasting peace and prosperity, surpassing legendary ancient leaders. The emperor's impressive retinue includes a curve-handled umbrella and dragon-embroidered robes that gleam, along with joined jade rings and phoenix fans that stir up a sacred mist. Caps of pearls, jade belts, purple sashes, and gold medals further emphasize the grandeur. Thousands of soldiers protect the emperor, whose carriage is flanked by marshals.\n\nThe emperor, Taizong, in an act of devotion, stops the procession to worship Buddha. He, along with his officials, approaches the temple, lays down their weapons, and offers burning incense. They observe the magnificent temple, adorned with vibrant flags and gleaming sunshades that create a dazzling, colorful display. Inside, an imposing gold statue of Lok\u0101jye\u1e63\u1e6dha and awe-inspiring jade arhats are surrounded by vases filled with divine flowers and urns burning sandalwood incense. These embellishments fill the temple with a luxurious \"forest of brocade\" and the sky with fragrant clouds. Offerings of seasonal fruits and an array of cakes and sweets are arranged on tables. Noble priests chant holy scriptures to provide solace to the souls of the deceased.\n\nAfter participating in the worship, Taizong and his officials are greeted by Master Chen Xuanzang and other monks. Following the formal greetings and a return to their designated places, the priest presents Taizong with a proclamation for the spiritual liberation of orphaned souls.\n\nThe proclamation emphasizes the immense and eternal nature of Buddhist virtue, describing it as a pervasive force that governs all changes and transformations in the world. It expresses deep compassion for orphaned souls and announces that, by Taizong's decree, priests will meditate and preach the Law to guide these souls away from suffering and towards enlightenment and heavenly bliss. It encourages them to seize this opportunity for salvation, to be released from the torments of hell, and to reach ultimate happiness in the Western Region. A poem concludes this message, promising that this \"boundless Law\" will absolve all guilt, free imprisoned souls, and bring lasting peace to the nation.\n\nHighly impressed by the proclamation, Taizong assures the monks of his continued support, promising generous rewards for their dedication to Buddha and their efforts in achieving merit. He guarantees that their hard work will not go unnoticed or unrewarded."
+    ],
+    [
+      "For man has only repeated their words, and done it badly; and has made their learning difficult by his inattentiveness, his neglect, and his jealousy, which was itself a sort of neglect. For over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue, both parts; and this comes, I think, from their fatigue.",
+      "The vegetation of this desolate land seemed very limited. The meager flora of the region was composed only of microscopic plants known as diatoms, which are forms of cells between two quartz shells, with long purple and red wracks, armed with small swimming bladders, which the swells threw on the coast. A few lichens of the species of usnea melanoxantha covered the black quartz rocks.",
+      "One of the soldiers remarked, \"Thandavaraya, I doubt this is a genuine horse. It likely belongs to a troupe that performs with \"false horses.\" \"Alright then,\" he replied.",
+      "\"Please, Ivan, settle down here on the couch,\" Alyosha urged with concern. \"You have a fever. Recline. Rest your head on the cushion. There. Would you like a cool compress for your forehead? It might provide some relief.\"",
+      "\"Oh!\" he blurted out, cutting himself off. \"Here come Mignon and Steiner! They're inseparable. You know Steiner is growing tired of Rose, so her husband is clinging to him closely to ensure he doesn't get away.\"",
+      "The zemstvo official evidently wanted to make a little joke and grunted: \" M-m-.\" The lonely domino begged not to be expelled into the Petersburg slush, begged not to be expelled into the malignant fog. And the zemstvo official stopped in perplexity, grabbing at a tuft of his beard.",
+      "Here's a rewritten version of the text in my own words:\n\nA more accurate way to put it is that you and I share a common perspective. Let\u2019s say it this way: I think, therefore I exist. That, at least, I have a deep conviction about. As for the rest - the existence of other worlds, God, and even the devil - I'm uncertain whether they have an objective reality or are simply a product of my own subjective thoughts.",
+      "The captain offered me a cup of still warm milk. He assured me that it was excellent, and no different from cow milk. I could not refrain from showing repugnance at this brew.",
+      "- Well, then let me go to her, \u201dArkady exclaimed with another fit of \u201cmagnanimity\u201d, leaping from his chair. - Yes, let me go and explain to her why she should not be afraid of me.",
+      "There was no thunder and no lightning after this. This made the Wizard still more anxious, and he burnt more incense and charms and recited more incantations and struck the table as his fourth signal. Instantly the dragons from the four oceans appeared. Sun cried out above their heads, \u201cAoguang, where do you think you are going?\u201d Aoguang and his companions came forward and bowed. Then Sun told them what he had told the other helpers before, and added, \u201cYou helped me before though not successfully. Today I hope you will help me with success.\u201d The Dragon King replied, \u201cI gladly obey your orders.\u201d Sun said, \u201cI beg of you to give me a helping hand. The Wizard\u2019s signal of the fourth performance is now finished. It is now my turn, and I expect you all to help me. I burn no incense and have no signal but my club. When I lift up my spear the first time, I want the wind to blow.\u201d The Mistress of the Wind said, \u201cThe wind shall blow.\u201d \u201cWhen I lift up my spear the second time, I want the clouds to gather.\u201d The Master of the Clouds said, \u201cThe clouds shall gather.\u201d \u201cWhen I lift up my spear the third time, I want thunder and lightning.\u201d The Master of Thunder and Mistress of Lightning said, \u201cYou shall have them in abundance.\u201d \u201cWhen I lift up my spear the fourth time, I want rain.\u201d The Dragon replied, \u201cYour orders shall be obeyed.\u201d \u201cWhen I lift up my spear the fifth time, I want a clear sky without fail.\u201d Having arranged this, he restored the false Sun and took his place. He shouted out, \u201cMaster Wizard, your fourth signal for performance is now over and there has been neither wind, clouds, thunder, lightning, nor rain. Now it is my time to try.\u201d The Wizard came down from his platform altar and went to the gallery by the king, and the Monkey followed him. The king asked the wizard how it was that none of his four attempts were successful. The wizard replied, \u201cThe rain king was not at home today.\u201d The Monkey angrily replied, \u201cThe dragon gods were all at home, but your Royal Wizard is not sufficiently skilful.\u201d The king then ordered the Buddhist monks to mount the platform. Sun invited the Master to go, but he said he could not command rain."
+    ],
+    [
+      "It's likely due to their exhaustion, having single-handedly shouldered the burden of love for centuries. They've taken on the role of both partners in the conversation, constantly reiterating the same dialogue. In contrast, men have merely parroted their words without sufficient understanding, complicating their wisdom with their own carelessness, jealousy, and lack of attention.",
+      "This barren landmass supported very little plant life. Sparse patches of black Usnea melanoxantha lichen clung to the dark quartz rocks. The only other plant matter consisted of tiny, basic diatoms\u2014single-celled organisms encased in two quartz shells\u2014and long, purple and crimson seaweed with small air bladders, which the ocean currents cast ashore.",
+      "\u201cThandavaraya! I don\u2019t think this is a real horse. It seems to be a part of the poi kaal kudirai (false horse) troupe,\u201d one of the soldiers said.",
+      "Alyosha, visibly distressed, urged Ivan, \"Ivan, please, have a seat here on the sofa. You seem to have a fever. Lie down and rest your head on this pillow. Perfect. Would you like a damp cloth for your forehead? It could offer some relief.\"",
+      "\"Ah!\" he exclaimed, interrupting himself, \"Here are Mignon and Steiner, always together. You know Steiner begins to have enough of Rose, and the husband sticks to him like a plaster, so as not to let him slip away.\"",
+      "The zemstvo official paused, stroking his beard in confusion. The lone domino pleaded not to be cast out into the inclement Petersburg weather, nor into the biting fog. The official, seemingly attempting humor, emitted a small grunt.",
+      "Let me rephrase that for you: \"It's more accurate to say that you and I share the same perspective. I'd be more precise if I put it that way. I know for sure that I think, therefore I exist. As for the other things you mentioned \u2013 countless worlds, a higher power, or even the idea of evil \u2013 I question whether they truly exist on their own or if they're just a fleeting product of my own thoughts and imagination.\"",
+      "The captain offered me a cup of the milk, which was still warm. I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow\u2019s milk.",
+      "Arkady suddenly leapt from his chair, overflowing with generosity, and declared, \"I'll go meet her right now!\" Eager to make things clear, he exclaimed, \"I'll go talk to her and show her that she has no reason to avoid me.\"",
+      "The Dragon\u2019s head and the phoenix\u2019s plumes Refreshing the clouds of bright rays, Dazzling amid the countless stars. The curved umbrella and the rolling palanquin Illuminating the firmament; The girdle of jade and the buckle of gold, Brilliant in the sun\u2019s rays. The scepter and the emerald ring; The golden wheel and the cloud-tortoise; The pearl cap and the double loop; The jade waistband and the purple girdle, Rich in precious essence; The purple belt and the crown of gold, Rich in royal treasure; The curved buckle, The precious jewel, The precious treasure; The cloud and the precious tree, Sublime in rank and age; The horn of the yaks, Preserving the imperial purple; The cloud and the purple horn, Subverting the majestic airs; The phoenix fan, The pearl and coral ring, The crystal goblet, The pearl and coral goblet; The purple girdle, The jade joined-ring, The phoenix fan, The pearl and coral goblet; The pearl and coral goblet, The precious ring, The divine sabrettower of transgression, The precious goblet of liberation, The precious goblet of deliverance, The precious goblet of immortality, The precious goblet of eternal blessings, The precious goblet of immortality, The precious goblet of immortality, The precious treasure of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious treasure of immortality, The precious goblet of immortality, The precious treasure of immortality, The precious goblet of immortality, The precious treasure of immortality, The precious treasure of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious goblet of immortality, The precious girisleeming treasures of immortality, The profound mystery of immortality, the golden body of immortality of immortality, immortality."
+    ]
+  ]
+}

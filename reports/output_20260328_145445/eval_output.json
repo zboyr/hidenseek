@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "He told them. But we shall not repeat it here. He told the story briefly and impersonally. He did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself \u201cin view of certain new developments.\u201d He did not bother to explain the motives behind his actions anymore, did not go into subtleties. Besides, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most.",
+    "\u201cThandavaraya, I don\u2019t think this is a real horse. It may belong to the poi kaal kudirai (false horse performance) group,\u201d said one of the soldiers. \u201cFine then.",
+    "\u201cShe\u2019s not here,\u201d Ivan said irritatedly. \u201cYou\u2019re really a crazy old man! Hey, he\u2019s fainted again . . . Smerdyakov, get me some water and a towel. Move!\u201d Smerdyakov hurried out to get some water.",
+    "And the zemstvo official stopped in perplexity, clutching at a tuft of his beard. The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog. The zemstvo official apparently wanted to make a little joke, and grunted: \u201cMm . . .",
+    "The captain offered me a cup of the still-warm milk. I could not stop myself showing repugnance at this brew. He assured me that the milk was excellent, and no different from cows\u2019 milk.",
+    "\u201cAh!\u201d he exclaimed, interrupting himself. \u201cThere come Mignon and Steiner! They are always together. You know that Steiner begins to have had enough of Rose; so the husband sticks to him like a plaster lest he should escape.\u201d",
+    "\u201cThat\u2019s precisely what he\u2019s missing!\u201d Razumikhin interrupted. \u201cThat\u2019s what\u2019s leading you all astray. I maintain that he was inept and inexperienced, and this was probably his first endeavor! If you assume he was a calculating and cunning rogue, then the whole thing turns out improbably. Assume an inexperienced fellow, and it turns out that it was chance alone that saved him from disaster, and what can\u2019t chance do? He might not even have foreseen the obstacles he\u2019d encounter! How did this affair proceed? He took items worth ten or twenty rubles, stuffed them into his pocket, searched around in the old woman\u2019s trunk, among her clothes\u2014but later, in her dresser, in a box in the top drawer, they find fifteen hundred rubles in cash, plus some notes! He didn\u2019t know how to rob; he only knew how to murder! It was his first endeavor, I tell you, his first. He lost his head! It wasn\u2019t calculation, but chance that saved him.\u201d",
+    "Now these men, or these women, who live behind these four walls, they dress in rough homespun, they are equals, they call each other brothers. That is all very well. But do they do anything else?",
+    "As for the man, he truly was so tired that he did not even make the most of those clean white sheets. He snuffed out his candle with his nostril, the way convicts do, and dropping on to the bed fully dressed, immediately fell into a deep sleep.",
+    "Of course, I hated them all in our office, from first to last, and despised them all, but at the same time I was also as if afraid of them. It happened that I would suddenly set them above myself. Things were somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes before almost everyone I met. I even made experiments: will I be able to endure so-and-so's glance on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury. I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything to do with externals; I loved falling into the common rut, and feared any eccentricity in myself with all my soul. But how could I hold out? I was morbidly developed, as a man of our time ought to be developed. And they were all dull-witted and as like one another as a flock of sheep. Perhaps to me alone in the whole office did it constantly seem that I was a coward and a slave; it seemed so to me precisely because I was developed. But it not only seemed, in fact it really was so: I was a coward and a slave. I say it without any embarrassment. Every decent man of our time is and must be a coward and a slave. That is his normal condition. I am deeply convinced of it. He's made that way, and arranged for it. And not in the present time, owing to some sort of chance circumstances, but generally in all times a decent man must be a coward and a slave. That is the natural law of all decent people on earth. If one of them does happen to get up a bit of pluck in something, let him not be eased or pleased by that: he'll still quail before something else. Such is the sole and everlasting outcome. Only asses and their mongrels show pluck, and even then only up to that certain wall. It's not worth paying any attention to them, because they mean precisely nothing."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 0 and 2 share nearly identical structural patterns and word choices: both begin with 'He shared the information with them, [but/though] we won't detail it here,' both describe the account as 'concise and [neutral/detached],' both use 'omitted' when referring to emotions, both use 'interrogators' in the closing sentence, and both end with a similar explanation that the interrogators' interest lay elsewhere. These consistent stylistic fingerprints across multiple sentences indicate they were produced by the same paraphraser.",
+    "Outputs 2 and 3 share the same paraphrasing style: both use direct quotes, both preserve the Tamil cultural term 'Poi Kal Kudirai' (rather than paraphrasing it), both use nearly identical sentence structure ('This is not a real horse. It is [perhaps] a false horse belonging to Poi Kal Kudirai'), and both end with 'said one of the soldiers.' The only minor differences are capitalization of the term and the inclusion of a footnote marker [108] in Output 2, suggesting they come from the same paraphraser working with slightly different formatting settings.",
+    "Outputs 1 and 4 share distinctive stylistic fingerprints: both use 'shouted at him' followed by an adverb ('angrily' vs 'maliciously'), both employ British-flavored exclamatory commands ('Make haste, Smerdyakov!' vs 'Look lively, Smerdyakov!'), and both maintain a similar dialogue structure with the exclamation directed at Smerdyakov placed at the end of the passage.",
+    "Outputs 3 and 4 share extremely similar structure, sentence length, and linguistic choices. Both include: the zemstvo official/member 'established/acclimatised to the ballroom,' clutching 'a tuft of his beard in one hand,' the repeated parallel pleading structure ('begging/imploring him not to drive him/it from this house back into the Petersburg slush... back into the [cruel and dense/dense, malevolent] fog/mist'), and both end with the joke assuming 'a rather/somewhat incoherent form.' These hallmarks \u2014 the repetition, the parenthetical phrasing, the overall sentence architecture \u2014 are consistent with the same paraphrasing system producing both outputs.",
+    "Outputs 2 and 3 share several distinctive linguistic fingerprints: both invert the typical phrasing to 'milk from cows' (rather than 'cow's milk'), both use a 'but' clause structure to introduce the narrator's negative reaction, both expand the captain's assurance into a more elaborate description of quality, and both use similar moderate-informal register. These parallel choices suggest they came from the same paraphraser.",
+    "Outputs 2 and 3 share multiple identical or near-identical phrases: 'interrupting himself,' 'beginning to have (had) enough of Rose,' 'sticks to him like a plaster,' and 'prevent him from (getting/escaping) away.' These highly specific lexical and idiomatic choices, along with nearly identical sentence structure and ordering, strongly indicate they came from the same paraphraser, differing only in minor punctuation and negligible word-level variations.",
+    "Outputs 3 and 4 share the same paraphraser's fingerprint. Both use nearly identical sentence structures: 'his first crime/time, I'm telling you, his first crime/time,' 'chance can do anything,' 'he lost his head,' 'rags,' 'trunk,' and 'it wasn't [planning], it was [chance/luck] that saved him.' Both maintain a faithful, literary translation style with minimal expansion or interpretive commentary, and both use very similar phrasing throughout (e.g., 'off the scent'/'getting wrong,' 'interposed'/'interrupted'). The structural and lexical parallels are far stronger between 3 and 4 than any other pair.",
+    "Outputs 0 and 3 both stay very close to the original source text with minimal transformation. They both preserve identical key phrases ('coarse homespun,' 'they are equals,' 'call each other brothers') and maintain the same rhetorical question structure. The only notable difference is that Output 3 reorders the question to the beginning, while Output 0 keeps it at the end \u2014 a minor structural variation consistent with the same paraphrasing system producing slightly varied outputs.",
+    "Outputs 0 and 3 share very similar paraphrasing style: both open with 'the man was [extremely/utterly] exhausted,' both describe the sheets as 'crisp/fresh white sheets,' both use the phrase 'pinching with his nostril(s)' to describe extinguishing the candle, and both end with 'immediately/instantly' falling into a 'deep and sound/profound sleep' while 'fully clothed.' Their sentence restructuring approach, vocabulary choices, and overall tone are distinctly parallel compared to the other outputs.",
+    "Outputs 0 and 4 share numerous distinctive parallel choices: both use 'herd of sheep' (not 'flock'), 'coward and a subservient individual' (instead of 'slave'), 'fools and their followers' (instead of 'asses/donkeys'), 'slavishly conform to...norms in all outward matters', 'scorn...revere' pairing, 'conducted personal tests/experiments', 'filled with intense frustration/tormented me immensely', and nearly identical closing phrases about courage being 'inescapable/inevitable and enduring/permanent' and 'not worth any consideration'. Their paragraph structures and reformulation strategies are also closely aligned."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+      ],
+      "llama_31_8b": [
+        "He shared the events that had taken place, but the details won't be shared here. He delivered a concise and matter-of-fact account, omitting personal emotions. His words revealed that, given recent events, his desire to take his own life had wavered. He refrained from explaining his thought process or delving into underlying factors. It was clear that his interrogators were more focused on getting to the heart of the matter, as they rarely interrupted him with questions.",
+        "He shared the information with them, but we won't detail it here. He gave a concise, neutral account, omitting any personal details about his emotional state. He only mentioned that his previous desire to take his own life had lessened due to new circumstances. He didn't elaborate on the reasons behind his actions or delve into complexities. It was also clear that his questioners weren't really interested in the specifics of his story, so they didn't interrupt him often to ask questions."
+      ],
+      "gemini_25_flash": [
+        "He shared the information with them, though we won't detail it here. His account was concise and detached. He omitted any mention of his affections or emotions, simply stating that he had reconsidered his intent to end his life \"due to recent changes.\" He no longer felt compelled to elaborate on his reasons or delve into complex explanations. Furthermore, his interrogators rarely interjected with questions, suggesting their primary interest lay elsewhere."
+      ],
+      "dipper_lowmed": [
+        "But we shall not repeat it here. He told them briefly and impersonally; he did not speak of his love and his feelings, he merely said that he was no longer so determined to shoot himself, \u201cin view of certain new developments.\u201d He did not bother any more to explain the motives of his action, did not go into subtleties; besides, his interrogators did not interrupt him very often with questions; it was obvious that this was not what interested them most."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier."
+      ],
+      "llama_31_8b": [
+        "One soldier thought that Thandavaraya was actually a prop, possibly used in a performance group known for pretending to have a horse, and not an actual animal. The other soldier's response was to agree and continue with the situation."
+      ],
+      "gemini_25_flash": [
+        "\"Thandavaraya,\" a soldier remarked, \"I doubt this is an actual horse. It likely belongs to a troupe that performs with fake horses.\" \"Very well then,\" was the reply."
+      ],
+      "dipper_lowmed": [
+        "\u201cIt\u2019s not a real horse, Thandavarayan. It is a part of the poi kal kudirai [108] group, said one of the soldiers.",
+        "\u201cThantavarayan! This is not a real horse. It is perhaps a false horse belonging to Poi Kal Kudirai,\u201d said one of the soldiers."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"No, she's not here, you old lunatic! \" Ivan shouted at him angrily. \" Here, he's fainting! Water! A towel! Make haste, Smerdyakov!\"",
+        "\u2018She isn\u2019t here, I tell you, you crazy old man,\u2019 Ivan shouted at him, maliciously. \u2018 Well, now he\u2019s passed out. Bring some water and a towel! Look lively, Smerdyakov!\u2019"
+      ],
+      "llama_31_8b": [
+        "Ivan cut him off, his voice laced with frustration. \"She's not present,\" he said sharply. Two trainers were nearby, trying to revive their boxer who had collapsed again. Again. One of them, a wiry man, was summoned to fetch a glass of water and a towel."
+      ],
+      "gemini_25_flash": [
+        "\"She's gone,\" Ivan snapped. \"You're a truly insane old man! Look, he's passed out again... Smerdyakov, bring me water and a towel. Now!\" Smerdyakov rushed off to retrieve the water."
+      ],
+      "dipper_lowmed": [
+        "\u201cShe\u2019s not here,\u201d Ivan said irritably, \u201cyou are an old fool. Smerdyakov, get me some water and a towel! He\u2019s fainted again ... move!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:",
+        "The zemstvo official, who had now become firmly established in the ballroom, stopped in perplexity, clutching with one hand at a tuft of his beard; meanwhile the lonely domino seemed to be imploring him not to drive him out of this house back into the Petersburg slush, imploring him not to drive him out of this house back into the cruel and dense fog. The zemstvo official evidently wanted to make a joke, because he hemmed and hawed; but when he tried to express his joke in words, that joke assumed a rather incoherent form:"
+      ],
+      "llama_31_8b": [
+        "The zemstvo official stood frozen, grasping his beard in consternation. The single domino holder pleaded to be spared the bitter cold and misery of being kicked out into the Petersburg slush, where a dense, unforgiving fog was no doubt waiting. Trying to make a wry comment, the zemstvo official grunted in response."
+      ],
+      "gemini_25_flash": [
+        "The local administrator paused, stroking his beard in confusion. The lone figure, disguised in a domino, pleaded to avoid being sent out into the harsh Petersburg weather, to be spared from the biting fog. The official, seemingly attempting a jest, let out a grunt of amusement: \"Hmm...\""
+      ],
+      "dipper_lowmed": [
+        "The lonely domino begged not to be thrown out into the Petersburg slush, begged not to be thrown out into the malicious fog. The zemstvo official, apparently wanting to have a little fun, grunted: \u201cMm ... \u201d And the zemstvo official stopped in perplexity, clutching a tuft of his beard."
+      ]
+    },
+    {
+      "human_par3": [
+        "The captain offered me a cup of the milk, which was still warm. I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow\u2019s milk."
+      ],
+      "llama_31_8b": [
+        "The captain handed me a cup of still-warm milk, but my reaction was instantly one of distaste. He assured me that the quality was actually very good and that it tasted identical to milk from cows.",
+        "The captain served me a mug of warm milk, but I was immediately put off by its unappealing taste and smell. He tried to persuade me that it was actually of high quality, just like the milk from cows."
+      ],
+      "gemini_25_flash": [
+        "The captain extended a cup of warm milk to me, and I couldn't help but register my disgust at the beverage. He insisted the milk was perfectly fine, just like cow's milk."
+      ],
+      "dipper_lowmed": [
+        "The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk. I could not help showing repugnance at this brew."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Tut!\" he cried, breaking off short. \" Mignon and Steiner. Always together. You know, Steiner's getting sick of Rose; that's why the husband dogs his steps now for fear of his slipping away.\""
+      ],
+      "llama_31_8b": [
+        "He suddenly broke in, exclaiming, \"Look, there's Mignon and Steiner! Those two are always inseparable. As you're aware, Steiner is getting tired of Rose, and so he keeps close to her husband to prevent her from slipping away.\""
+      ],
+      "gemini_25_flash": [
+        "\"Oh!\" he blurted out, cutting himself off. \"Here come Mignon and Steiner! They're inseparable. You know Steiner is getting tired of Rose, so her husband is clinging to him like glue to prevent him from leaving.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cAh!\u201d he exclaimed, interrupting himself, \u201cthere come Steiner and Mignon. They are always together. You know that Steiner is beginning to have had enough of Rose, and so the husband sticks to him like a plaster, so that he does not get away.\u201d",
+        "- Oh! he exclaimed, interrupting himself, here come Mignon and Steiner; they are always together. You know that Steiner is beginning to have enough of Rose; and the husband sticks to him like a plaster to prevent him from escaping."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018That\u2019s just the point\u2014it isn\u2019t!\u2019 interrupted Razumikhin. \u2018 That\u2019s just what you\u2019re all getting wrong. What I say is that he\u2019s not clever, not experienced, and probably this was his first time! If you imagine it being planned by a clever villain, it doesn\u2019t make sense. But if you imagine someone inexperienced, then it\u2019s quite clear that there was just one lucky chance that saved him from disaster\u2014and chance can do anything. I mean, perhaps he never foresaw any difficulties! And how does he set about it? He takes some things worth ten or twenty roubles apiece and fills his pockets with them, he burrows in the old woman\u2019s trunk, amongst all her rags, and all the while there\u2019s a box in the top drawer of her chest of drawers where they\u2019ve found fifteen hundred roubles in cash, not to mention banknotes! He didn\u2019t even manage to rob her\u2014all he managed to do was kill her! It was his first time , I\u2019m telling you, his first time, and he lost his head! And it wasn\u2019t any planning on his part, it was pure luck that saved him!\u2019",
+        "\u201cThat\u2019s just what it wasn\u2019t!\u201d interposed Razumikhin. \u201cThat\u2019s what throws you all off the scent. I don\u2019t think he\u2019s cunning or experienced; this was probably his first crime! Assuming the criminal planned it all out doesn\u2019t work. Suppose he\u2019s inexperienced: it\u2019s clear that the only thing which saved him was chance\u2014and chance can do anything. Perhaps he didn\u2019t even foresee any obstacles! What did he do? He took jewels worth ten or twenty rubles, stuffed his pockets with them, ransacked the old woman\u2019s trunk, her rags\u2014and they found fifteen hundred rubles, besides notes, in a box in the top drawer of the chest! He didn\u2019t know how to rob anyone; he could only carry out the murder. It was his first crime , I\u2019m telling you, his first crime; he lost his head. He got off because he was lucky, not because he was experienced!\u201d"
+      ],
+      "llama_31_8b": [
+        "Razumikhin cut in, \"That's exactly the point - he was incompetent and green. That's what's causing you to misunderstand the situation. If you assume he was a skilled and cunning thief, then the whole story becomes far-fetched. But if you think he was a novice, it's entirely plausible that luck was on his side and prevented him from making a total mess of things. He might not have even realized the challenges he'd face. Look at the details: he stole items worth around ten or twenty rubles and put them in his pocket, but then he stumbled upon a hidden stash of fifteen hundred rubles in the old woman's dresser. It's clear he didn't know what he was doing. He knew how to commit murder, but not how to rob. This was his first attempt, and he made a hash of it. It was luck, not skill, that saved him.\""
+      ],
+      "gemini_25_flash": [
+        "\"Exactly what he's lacking!\" Razumikhin cut in. \"That's where you're all going wrong. I insist he was clumsy and green, and this was likely his very first attempt! If you picture him as a shrewd and crafty criminal, the whole scenario becomes implausible. But imagine an amateur, and then it makes sense that only luck saved him from ruin \u2013 and luck can accomplish anything, right? He might not have even anticipated the difficulties he'd face! How did this whole thing unfold? He grabbed a few items, worth perhaps ten or twenty rubles, shoved them into his pocket, rummaged through the old woman's chest and her clothes \u2013 and then, later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, plus promissory notes! He wasn't skilled enough to steal; he only knew how to kill! It was his first try, I tell you, his very first. He panicked! It wasn't clever planning, but pure chance that got him out of it.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cBut that is precisely what he lacks,\u201d Razumikhin interrupted, \u201cand that is precisely what is misleading you all. I maintain that he was inept and inexperienced, and that this was probably his first attempt! He did not know how to rob, he only knew how to murder; it was his first attempt, I tell you, his first, he lost his head, and it was not calculation, but chance that saved him; how did the thing go - he took things worth ten or twenty rubles, put them in his pocket, rummaged around in the old woman's trunk, among her clothes, and then, they say later, in the chest, in the upper drawer, they found fifteen hundred rubles in cash, and even bills, and then he was a thief, how did he know how to steal? He knew how to murder, but not how to steal; it was his first, I tell you, his first attempt, and it was chance, not calculation, that saved him."
+      ]
+    },
+    {
+      "human_par3": [
+        "But these men, or these women who are behind these four walls. They dress themselves in coarse woollen, they are equals, they call each other brothers, that is well; but they do something else?"
+      ],
+      "llama_31_8b": [
+        "Living inside these communal buildings, they wear simple, homemade clothing. They consider each other peers and use the term \"brother\" to address one another. That's an appealing arrangement, but the question remains: what else do they actually accomplish beyond their seemingly egalitarian relationships?"
+      ],
+      "gemini_25_flash": [
+        "The individuals residing within these confined spaces, regardless of their gender, wear coarse, homemade clothes and consider themselves equals, addressing each other as siblings. That's all well and good, but is there anything more to their lives?"
+      ],
+      "dipper_lowmed": [
+        "Now, these men or these women who live behind these four walls, they dress in coarse homespun, they are equals, they call each other brothers; that is all very well. But do they do anything else?",
+        "All this is very well, but what else do they do? Now these men, or these women, who live behind these four walls, they dress in coarse homespun, they are equals, they call each other brothers."
+      ]
+    },
+    {
+      "human_par3": [
+        "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep."
+      ],
+      "llama_31_8b": [
+        "The man was extremely exhausted, too exhausted to even appreciate the comfort of the crisp, clean sheets. He blew out the candle by pinching it with his nostrils, a habit commonly associated with convicts, and dropped fully clothed onto the bed, immediately succumbing to a deep and sound sleep.",
+        "The man was extremely exhausted and didn't even appreciate the fresh, white linens. He extinguished the candle in a rather uncouth manner, typical of prisoners, and collapsed onto the bed fully clothed, promptly sinking into a deep slumber."
+      ],
+      "gemini_25_flash": [
+        "The man was so utterly exhausted that he barely noticed the fresh, white sheets. Like a convict, he extinguished his candle by pinching it with his nostril and, still fully clothed, collapsed onto the bed, instantly falling into a profound sleep."
+      ],
+      "dipper_lowmed": [
+        "He blew out his candle with his nostril, as prisoners do, and, dropping on to the bed, fully dressed, fell immediately into a profound sleep. As for the man, he was truly so tired that he did not even take advantage of the clean white sheets."
+      ]
+    },
+    {
+      "human_par3": [
+        "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing."
+      ],
+      "llama_31_8b": [
+        "I harbored a strong dislike for everyone in my workplace, and at times I despised them intensely. However, I also found myself inexplicably intimidated by them, which often led to a sudden reversal in my feelings, where I'd elevate them above myself. This emotional rollercoaster was a hallmark of my time - one moment I'd despise them, the next I'd put them on a pedestal.\n\nIt's natural for someone with a strong sense of self to experience moments of disdain or even hatred towards themselves, a quality that developed individuals should possess. Yet, regardless of whether I was feeling superior or inferior, I continued to display a peculiar behavior: I would hastily avert my gaze whenever I encountered almost anyone. I even conducted personal experiments to test my resolve, but I ultimately proved my own words hollow by promptly lowering my eyes. This back-and-forth verdict was maddening and made me furious.\n\nThe fear of appearing ridiculous was paramount, and to avoid any semblance of uniqueness, I devoted myself to conformity. Unwilling to deviate from the norm, I suppressed my individuality and craved to blend into the crowd. Every typical, decent person of our era is trapped in this web of conformity - we're conditioned to be cowards and slaves, constantly weakening in the face of adversity.\n\nIt's nothing to apologize for; in fact, it's a fundamental aspect of how decent individuals are wired. Through the ages, the human condition has dictated that we must accommodate this natural tendency towards submission. So strong is this candid mantra that not even a glimpse of courage would prevent one from retreating from an intimidating force. While beasts might exhibit courage before a fixed point, it's insufficient to garner any significance, as they are above the fray and meant to have no worth."
+      ],
+      "gemini_25_flash": [
+        "I held a deep contempt for all my colleagues at the office, from the highest to the lowest. Yet, paradoxically, an underlying fear also gnawed at me, causing me to sometimes elevate them above myself. My feelings were erratic back then; one moment I'd scorn them, the next I'd revere them. A truly refined and introspective person cannot be complacent without also having immense self-criticism and periodically loathing themselves. Regardless of whether I held them in contempt or respect, I would instinctively avert my gaze when encountering almost anyone. I even conducted personal tests, wondering if I could meet someone's eyes, only to always be the first to look away. This filled me with intense frustration. I was also consumed by a pathological dread of appearing foolish, which led me to slavishly conform to established norms in all outward matters. I yearned to blend in and detested any hint of individuality within myself.\n\nYet, how could I truly conform? I was, as is expected of a person of my era, overly introspective. My colleagues, however, were all simple-minded and indistinguishable, like a herd of sheep. Perhaps I was the only one in the entire office who constantly felt like a coward and a subservient individual; this feeling arose precisely because of my overdeveloped self-awareness. And it wasn't just a feeling; it was the truth: I was indeed a coward and a slave. I state this without shame. Every respectable person in our time is, and must be, a coward and a slave. This is their inherent state, how they are made and designed. And this isn't just a recent phenomenon due to chance circumstances, but rather, throughout history, a respectable person has always been a coward and a slave. This is the fundamental truth for all respectable people on Earth. If one of them happens to show a glimmer of courage, they shouldn't feel either relief or satisfaction, for they will inevitably cower before something else. This is the inescapable and enduring reality. Only fools and their followers display courage, and even that only goes so far. They are inconsequential and not worth any consideration.",
+        "I loathed and looked down on everyone in our office, from the top down, yet paradoxically, I also felt a sense of fear towards them. There were moments when I would elevate them above myself. My feelings were always extreme back then; one moment I'd scorn them, the next I'd revere them. A truly complex and honorable individual can only be arrogant if they constantly demand perfection from themselves and, at times, self-loathe to the point of hatred. Regardless of whether I despised or admired them, I would invariably avert my gaze when encountering almost anyone. I even conducted tests, wondering if I could meet someone's stare, only to always be the first to look away. This tormented me immensely. I was also terrified of appearing foolish, to the point of sickness, which led me to slavishly conform to all external norms. I preferred the commonplace and dreaded any uniqueness in myself. But how could I maintain this facade? I was, in my opinion, excessively sophisticated, as a modern man should be. In contrast, they were all dull and indistinguishable, like a herd of sheep. Perhaps I was the only one in the office who constantly felt like a coward and a subservient individual, and this feeling stemmed precisely from my perceived sophistication. And it wasn't just a feeling; it was the truth. I was a coward and a subservient individual, and I admit it without hesitation. I firmly believe that every respectable person in our era is inevitably a coward and a subservient individual; it is their inherent state. This isn't just a modern phenomenon but a timeless truth. It's the intrinsic nature of all respectable people. If one of them occasionally displays courage, they shouldn't take comfort in it, as they will still falter in other situations. That is the inevitable and permanent outcome. Only fools and their followers exhibit bravery, and even then, only to a certain extent. They are insignificant and not worth considering."
+      ],
+      "dipper_lowmed": [
+        "Of course, I hated everyone in our office, from the first to the last, and despised everyone, but at the same time I was as if afraid of them, it happened that I suddenly set them above myself. A developed and decent person cannot be vain without a boundless requirement of himself and without despising himself at moments to the point of hatred. But whether I despised or set them above me, I looked down on almost everyone I met; I even made experiments: would I be able to bear such and such a glance upon me? - and I was always the first to drop my eyes. But how could I hold out? I was morbidly developed, as a man of our time should be developed; and they were all stupid and as alike as a flock of sheep. Perhaps only to me in the entire office did it constantly seem that I was a coward and a slave; I say it without embarrassment: it is not only so; it is in fact: I was a coward and a slave; but not only seemed, but actually was: I was a coward and a slave. And if one of them happens to achieve a certain intrepidity in something, do not be happy or reassured by that: he will still quail before something else; that is the only and eternal outcome. Only asses and their hybrids show courage, and even then only up to some sort of limit; they are not worth paying attention to, because they mean precisely nothing."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "He shared the information with them, but we won't detail it here. He gave a concise, neutral account, omitting any personal details about his emotional state. He only mentioned that his previous desire to take his own life had lessened due to new circumstances. He didn't elaborate on the reasons behind his actions or delve into complexities. It was also clear that his questioners weren't really interested in the specifics of his story, so they didn't interrupt him often to ask questions.",
+      "\u201cThandavaraya, you'd better make sure this animal really is a horse, and not a false-legged prop, brought for the temple festivities,\u201d mocked another soldier.",
+      "\"She's gone,\" Ivan snapped. \"You're a truly insane old man! Look, he's passed out again... Smerdyakov, bring me water and a towel. Now!\" Smerdyakov rushed off to retrieve the water.",
+      "The local administrator paused, stroking his beard in confusion. The lone figure, disguised in a domino, pleaded to avoid being sent out into the harsh Petersburg weather, to be spared from the biting fog. The official, seemingly attempting a jest, let out a grunt of amusement: \"Hmm...\"",
+      "The captain offered me a cup of still warm milk. He assured me that the milk was excellent, and no different from cow's milk. I could not help showing repugnance at this brew.",
+      "\"Oh!\" he blurted out, cutting himself off. \"Here come Mignon and Steiner! They're inseparable. You know Steiner is getting tired of Rose, so her husband is clinging to him like glue to prevent him from leaving.\"",
+      "\u201cBut that is precisely what he lacks,\u201d Razumikhin interrupted, \u201cand that is precisely what is misleading you all. I maintain that he was inept and inexperienced, and that this was probably his first attempt! He did not know how to rob, he only knew how to murder; it was his first attempt, I tell you, his first, he lost his head, and it was not calculation, but chance that saved him; how did the thing go - he took things worth ten or twenty rubles, put them in his pocket, rummaged around in the old woman's trunk, among her clothes, and then, they say later, in the chest, in the upper drawer, they found fifteen hundred rubles in cash, and even bills, and then he was a thief, how did he know how to steal? He knew how to murder, but not how to steal; it was his first, I tell you, his first attempt, and it was chance, not calculation, that saved him.",
+      "Now, these men or these women who live behind these four walls, they dress in coarse homespun, they are equals, they call each other brothers; that is all very well. But do they do anything else?",
+      "The man was extremely exhausted, too exhausted to even appreciate the comfort of the crisp, clean sheets. He blew out the candle by pinching it with his nostrils, a habit commonly associated with convicts, and dropped fully clothed onto the bed, immediately succumbing to a deep and sound sleep.",
+      "I loathed and looked down on everyone in our office, from the top down, yet paradoxically, I also felt a sense of fear towards them. There were moments when I would elevate them above myself. My feelings were always extreme back then; one moment I'd scorn them, the next I'd revere them. A truly complex and honorable individual can only be arrogant if they constantly demand perfection from themselves and, at times, self-loathe to the point of hatred. Regardless of whether I despised or admired them, I would invariably avert my gaze when encountering almost anyone. I even conducted tests, wondering if I could meet someone's stare, only to always be the first to look away. This tormented me immensely. I was also terrified of appearing foolish, to the point of sickness, which led me to slavishly conform to all external norms. I preferred the commonplace and dreaded any uniqueness in myself. But how could I maintain this facade? I was, in my opinion, excessively sophisticated, as a modern man should be. In contrast, they were all dull and indistinguishable, like a herd of sheep. Perhaps I was the only one in the office who constantly felt like a coward and a subservient individual, and this feeling stemmed precisely from my perceived sophistication. And it wasn't just a feeling; it was the truth. I was a coward and a subservient individual, and I admit it without hesitation. I firmly believe that every respectable person in our era is inevitably a coward and a subservient individual; it is their inherent state. This isn't just a modern phenomenon but a timeless truth. It's the intrinsic nature of all respectable people. If one of them occasionally displays courage, they shouldn't take comfort in it, as they will still falter in other situations. That is the inevitable and permanent outcome. Only fools and their followers exhibit bravery, and even then, only to a certain extent. They are insignificant and not worth considering."
+    ],
+    [
+      "But we shall not repeat it here. He told them briefly and impersonally; he did not speak of his love and his feelings, he merely said that he was no longer so determined to shoot himself, \u201cin view of certain new developments.\u201d He did not bother any more to explain the motives of his action, did not go into subtleties; besides, his interrogators did not interrupt him very often with questions; it was obvious that this was not what interested them most.",
+      "One soldier thought that Thandavaraya was actually a prop, possibly used in a performance group known for pretending to have a horse, and not an actual animal. The other soldier's response was to agree and continue with the situation.",
+      "\"No, she's not here, you old lunatic! \" Ivan shouted at him angrily. \" Here, he's fainting! Water! A towel! Make haste, Smerdyakov!\"",
+      "The zemstvo official stood frozen, grasping his beard in consternation. The single domino holder pleaded to be spared the bitter cold and misery of being kicked out into the Petersburg slush, where a dense, unforgiving fog was no doubt waiting. Trying to make a wry comment, the zemstvo official grunted in response.",
+      "The captain extended a cup of warm milk to me, and I couldn't help but register my disgust at the beverage. He insisted the milk was perfectly fine, just like cow's milk.",
+      "\"Tut!\" he cried, breaking off short. \" Mignon and Steiner. Always together. You know, Steiner's getting sick of Rose; that's why the husband dogs his steps now for fear of his slipping away.\"",
+      "Razumikhin cut in, \"That's exactly the point - he was incompetent and green. That's what's causing you to misunderstand the situation. If you assume he was a skilled and cunning thief, then the whole story becomes far-fetched. But if you think he was a novice, it's entirely plausible that luck was on his side and prevented him from making a total mess of things. He might not have even realized the challenges he'd face. Look at the details: he stole items worth around ten or twenty rubles and put them in his pocket, but then he stumbled upon a hidden stash of fifteen hundred rubles in the old woman's dresser. It's clear he didn't know what he was doing. He knew how to commit murder, but not how to rob. This was his first attempt, and he made a hash of it. It was luck, not skill, that saved him.\"",
+      "Living inside these communal buildings, they wear simple, homemade clothing. They consider each other peers and use the term \"brother\" to address one another. That's an appealing arrangement, but the question remains: what else do they actually accomplish beyond their seemingly egalitarian relationships?",
+      "He blew out his candle with his nostril, as prisoners do, and, dropping on to the bed, fully dressed, fell immediately into a profound sleep. As for the man, he was truly so tired that he did not even take advantage of the clean white sheets.",
+      "Of course, I hated everyone in our office, from the first to the last, and despised everyone, but at the same time I was as if afraid of them, it happened that I suddenly set them above myself. A developed and decent person cannot be vain without a boundless requirement of himself and without despising himself at moments to the point of hatred. But whether I despised or set them above me, I looked down on almost everyone I met; I even made experiments: would I be able to bear such and such a glance upon me? - and I was always the first to drop my eyes. But how could I hold out? I was morbidly developed, as a man of our time should be developed; and they were all stupid and as alike as a flock of sheep. Perhaps only to me in the entire office did it constantly seem that I was a coward and a slave; I say it without embarrassment: it is not only so; it is in fact: I was a coward and a slave; but not only seemed, but actually was: I was a coward and a slave. And if one of them happens to achieve a certain intrepidity in something, do not be happy or reassured by that: he will still quail before something else; that is the only and eternal outcome. Only asses and their hybrids show courage, and even then only up to some sort of limit; they are not worth paying attention to, because they mean precisely nothing."
+    ],
+    [
+      "He shared the information with them, though we won't detail it here. His account was concise and detached. He omitted any mention of his affections or emotions, simply stating that he had reconsidered his intent to end his life \"due to recent changes.\" He no longer felt compelled to elaborate on his reasons or delve into complex explanations. Furthermore, his interrogators rarely interjected with questions, suggesting their primary interest lay elsewhere.",
+      "\u201cIt\u2019s not a real horse, Thandavarayan. It is a part of the poi kal kudirai [108] group, said one of the soldiers.",
+      "Ivan cut him off, his voice laced with frustration. \"She's not present,\" he said sharply. Two trainers were nearby, trying to revive their boxer who had collapsed again. Again. One of them, a wiry man, was summoned to fetch a glass of water and a towel.",
+      "The lonely domino begged not to be thrown out into the Petersburg slush, begged not to be thrown out into the malicious fog. The zemstvo official, apparently wanting to have a little fun, grunted: \u201cMm ... \u201d And the zemstvo official stopped in perplexity, clutching a tuft of his beard.",
+      "The captain handed me a cup of still-warm milk, but my reaction was instantly one of distaste. He assured me that the quality was actually very good and that it tasted identical to milk from cows.",
+      "\u201cAh!\u201d he exclaimed, interrupting himself, \u201cthere come Steiner and Mignon. They are always together. You know that Steiner is beginning to have had enough of Rose, and so the husband sticks to him like a plaster, so that he does not get away.\u201d",
+      "\"Exactly what he's lacking!\" Razumikhin cut in. \"That's where you're all going wrong. I insist he was clumsy and green, and this was likely his very first attempt! If you picture him as a shrewd and crafty criminal, the whole scenario becomes implausible. But imagine an amateur, and then it makes sense that only luck saved him from ruin \u2013 and luck can accomplish anything, right? He might not have even anticipated the difficulties he'd face! How did this whole thing unfold? He grabbed a few items, worth perhaps ten or twenty rubles, shoved them into his pocket, rummaged through the old woman's chest and her clothes \u2013 and then, later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, plus promissory notes! He wasn't skilled enough to steal; he only knew how to kill! It was his first try, I tell you, his very first. He panicked! It wasn't clever planning, but pure chance that got him out of it.\"",
+      "The individuals residing within these confined spaces, regardless of their gender, wear coarse, homemade clothes and consider themselves equals, addressing each other as siblings. That's all well and good, but is there anything more to their lives?",
+      "As for the man, he was actually so fatigued that he did not even profit by the nice white sheets. Snuffing out his candle with his nostrils after the manner of convicts, he dropped, all dressed as he was, upon the bed, where he immediately fell into a profound sleep.",
+      "I harbored a strong dislike for everyone in my workplace, and at times I despised them intensely. However, I also found myself inexplicably intimidated by them, which often led to a sudden reversal in my feelings, where I'd elevate them above myself. This emotional rollercoaster was a hallmark of my time - one moment I'd despise them, the next I'd put them on a pedestal.\n\nIt's natural for someone with a strong sense of self to experience moments of disdain or even hatred towards themselves, a quality that developed individuals should possess. Yet, regardless of whether I was feeling superior or inferior, I continued to display a peculiar behavior: I would hastily avert my gaze whenever I encountered almost anyone. I even conducted personal experiments to test my resolve, but I ultimately proved my own words hollow by promptly lowering my eyes. This back-and-forth verdict was maddening and made me furious.\n\nThe fear of appearing ridiculous was paramount, and to avoid any semblance of uniqueness, I devoted myself to conformity. Unwilling to deviate from the norm, I suppressed my individuality and craved to blend into the crowd. Every typical, decent person of our era is trapped in this web of conformity - we're conditioned to be cowards and slaves, constantly weakening in the face of adversity.\n\nIt's nothing to apologize for; in fact, it's a fundamental aspect of how decent individuals are wired. Through the ages, the human condition has dictated that we must accommodate this natural tendency towards submission. So strong is this candid mantra that not even a glimpse of courage would prevent one from retreating from an intimidating force. While beasts might exhibit courage before a fixed point, it's insufficient to garner any significance, as they are above the fray and meant to have no worth."
+    ],
+    [
+      "He shared the events that had taken place, but the details won't be shared here. He delivered a concise and matter-of-fact account, omitting personal emotions. His words revealed that, given recent events, his desire to take his own life had wavered. He refrained from explaining his thought process or delving into underlying factors. It was clear that his interrogators were more focused on getting to the heart of the matter, as they rarely interrupted him with questions.",
+      "\u201cThantavarayan! This is not a real horse. It is perhaps a false horse belonging to Poi Kal Kudirai,\u201d said one of the soldiers.",
+      "\u201cShe\u2019s not here,\u201d Ivan said irritably, \u201cyou are an old fool. Smerdyakov, get me some water and a towel! He\u2019s fainted again ... move!\u201d",
+      "The zemstvo official, who had now become firmly established in the ballroom, stopped in perplexity, clutching with one hand at a tuft of his beard; meanwhile the lonely domino seemed to be imploring him not to drive him out of this house back into the Petersburg slush, imploring him not to drive him out of this house back into the cruel and dense fog. The zemstvo official evidently wanted to make a joke, because he hemmed and hawed; but when he tried to express his joke in words, that joke assumed a rather incoherent form:",
+      "The captain served me a mug of warm milk, but I was immediately put off by its unappealing taste and smell. He tried to persuade me that it was actually of high quality, just like the milk from cows.",
+      "- Oh! he exclaimed, interrupting himself, here come Mignon and Steiner; they are always together. You know that Steiner is beginning to have enough of Rose; and the husband sticks to him like a plaster to prevent him from escaping.",
+      "\u201cThat\u2019s just what it wasn\u2019t!\u201d interposed Razumikhin. \u201cThat\u2019s what throws you all off the scent. I don\u2019t think he\u2019s cunning or experienced; this was probably his first crime! Assuming the criminal planned it all out doesn\u2019t work. Suppose he\u2019s inexperienced: it\u2019s clear that the only thing which saved him was chance\u2014and chance can do anything. Perhaps he didn\u2019t even foresee any obstacles! What did he do? He took jewels worth ten or twenty rubles, stuffed his pockets with them, ransacked the old woman\u2019s trunk, her rags\u2014and they found fifteen hundred rubles, besides notes, in a box in the top drawer of the chest! He didn\u2019t know how to rob anyone; he could only carry out the murder. It was his first crime , I\u2019m telling you, his first crime; he lost his head. He got off because he was lucky, not because he was experienced!\u201d",
+      "All this is very well, but what else do they do? Now these men, or these women, who live behind these four walls, they dress in coarse homespun, they are equals, they call each other brothers.",
+      "The man was so utterly exhausted that he barely noticed the fresh, white sheets. Like a convict, he extinguished his candle by pinching it with his nostril and, still fully clothed, collapsed onto the bed, instantly falling into a profound sleep.",
+      "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing."
+    ],
+    [
+      "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here.",
+      "\"Thandavaraya,\" a soldier remarked, \"I doubt this is an actual horse. It likely belongs to a troupe that performs with fake horses.\" \"Very well then,\" was the reply.",
+      "\u2018She isn\u2019t here, I tell you, you crazy old man,\u2019 Ivan shouted at him, maliciously. \u2018 Well, now he\u2019s passed out. Bring some water and a towel! Look lively, Smerdyakov!\u2019",
+      "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:",
+      "The captain offered me a cup of the milk, which was still warm. I could not help showing my repugnance to the drink; but he assured me that it was excellent, and not to be distinguished from cow\u2019s milk.",
+      "He suddenly broke in, exclaiming, \"Look, there's Mignon and Steiner! Those two are always inseparable. As you're aware, Steiner is getting tired of Rose, and so he keeps close to her husband to prevent her from slipping away.\"",
+      "\u2018That\u2019s just the point\u2014it isn\u2019t!\u2019 interrupted Razumikhin. \u2018 That\u2019s just what you\u2019re all getting wrong. What I say is that he\u2019s not clever, not experienced, and probably this was his first time! If you imagine it being planned by a clever villain, it doesn\u2019t make sense. But if you imagine someone inexperienced, then it\u2019s quite clear that there was just one lucky chance that saved him from disaster\u2014and chance can do anything. I mean, perhaps he never foresaw any difficulties! And how does he set about it? He takes some things worth ten or twenty roubles apiece and fills his pockets with them, he burrows in the old woman\u2019s trunk, amongst all her rags, and all the while there\u2019s a box in the top drawer of her chest of drawers where they\u2019ve found fifteen hundred roubles in cash, not to mention banknotes! He didn\u2019t even manage to rob her\u2014all he managed to do was kill her! It was his first time , I\u2019m telling you, his first time, and he lost his head! And it wasn\u2019t any planning on his part, it was pure luck that saved him!\u2019",
+      "But these men, or these women who are behind these four walls. They dress themselves in coarse woollen, they are equals, they call each other brothers, that is well; but they do something else?",
+      "The man was extremely exhausted and didn't even appreciate the fresh, white linens. He extinguished the candle in a rather uncouth manner, typical of prisoners, and collapsed onto the bed fully clothed, promptly sinking into a deep slumber.",
+      "I held a deep contempt for all my colleagues at the office, from the highest to the lowest. Yet, paradoxically, an underlying fear also gnawed at me, causing me to sometimes elevate them above myself. My feelings were erratic back then; one moment I'd scorn them, the next I'd revere them. A truly refined and introspective person cannot be complacent without also having immense self-criticism and periodically loathing themselves. Regardless of whether I held them in contempt or respect, I would instinctively avert my gaze when encountering almost anyone. I even conducted personal tests, wondering if I could meet someone's eyes, only to always be the first to look away. This filled me with intense frustration. I was also consumed by a pathological dread of appearing foolish, which led me to slavishly conform to established norms in all outward matters. I yearned to blend in and detested any hint of individuality within myself.\n\nYet, how could I truly conform? I was, as is expected of a person of my era, overly introspective. My colleagues, however, were all simple-minded and indistinguishable, like a herd of sheep. Perhaps I was the only one in the entire office who constantly felt like a coward and a subservient individual; this feeling arose precisely because of my overdeveloped self-awareness. And it wasn't just a feeling; it was the truth: I was indeed a coward and a slave. I state this without shame. Every respectable person in our time is, and must be, a coward and a slave. This is their inherent state, how they are made and designed. And this isn't just a recent phenomenon due to chance circumstances, but rather, throughout history, a respectable person has always been a coward and a slave. This is the fundamental truth for all respectable people on Earth. If one of them happens to show a glimmer of courage, they shouldn't feel either relief or satisfaction, for they will inevitably cower before something else. This is the inescapable and enduring reality. Only fools and their followers display courage, and even that only goes so far. They are inconsequential and not worth any consideration."
+    ]
+  ]
+}

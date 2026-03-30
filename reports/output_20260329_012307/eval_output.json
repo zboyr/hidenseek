@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ]
+  ],
+  "source_texts": [
+    "We started laughing and joking, we talked without stopping the whole time, I didn't know what I was saying, I was happy. She told me she had seen me one time earlier, a long time ago, in the theater. I was with three friends and had behaved like a lunatic; no question, I had been drunk that time too, that was naughty.",
+    "She had on her feet a man\u2019s heavy shoes spattered with mud that had reached right up to her reddened ankles, and she was wrapped in a tattered old cloak that Marius had not seen her with an hour earlier but that she had probably left outside his door to make him feel sorrier for her, and that she must have collected when she went out. She came in, pushed the door shut behind her, paused to catch her breath, for she was panting, then cried with an expression of triumph and joy, \u2018He\u2019s coming!\u2019",
+    "That comes, I think, from their tiredness. Over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words, and done it badly. And has made their learning difficult with his distractedness, his negligence, his jealousy, which was itself a kind of negligence.",
+    "the young woman thought with a proud flutter. She had waited for this moment to illuminate her entire life and wanted to rise high up where she could gaze upon that dark path she had walked along yesterday, all alone and inconspicuous.",
+    "\u201cThey\u2019re coming, here they are. And the General is making up the rear. I\u2019ll fling open all the doors and call all my daughters, every single one, now, this minute,\u201d Lebedev mumbled softly in a fluster, dashing from door to door.",
+    "He told them. But we shall not repeat it here. He told the story briefly and impersonally. He did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself \u201cin view of certain new developments.\u201d He did not bother to explain the motives behind his actions anymore, did not go into subtleties. Besides, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most.",
+    "Kundavai Devi had arranged for a special pooja [92] and yagna [93] to be conducted in Pazhaiarai Palace, on the day he left. The womenfolk in the palace and the other elders came out to the courtyard, to bid farewell to their dear prince.",
+    "\u201cYes,\u201d said Rose Mignon, \u201chis foot caught in a trap-door and he has sprained his ankle most abominably. If you had only heard him swear, with his leg all tied up and stretched out on a chair! \u201d",
+    "The princesses climbed onto their royal elephants, and since Kundavai had already hinted that those leaving for a long journey must start on their journey first, Vandiya Devan turned the horse\u2019s head towards the road albeit with great hesitation. Even then he couldn\u2019t help but turn towards her and look upon her beautiful face once again, but realizing that it is unmannerly, he turned the horse\u2019s head swiftly and galloped away within a flash. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+    "\u201cWhat about that!\u201d Lizaveta Prokofyevna thought to herself. \u201cMost of the time she just eats and sleeps and shows no sign of life, and then about once a year she\u2019ll get up and say something that\u2019ll leave everyone speechless.\u201d"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "dipper_lowmed"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 4 share nearly identical sentence structure, ordering, and phrasing. Both begin with 'We began to laugh and joke/jest,' followed by 'talking/talked incessantly all the time,' then 'I didn't/do not know what I said/was saying, I was happy,' followed by 'She told me she had seen me once before, a long time ago in the theatre/theater,' and conclude with the madman/drunk reference. These structural and lexical parallels strongly indicate they come from the same paraphraser.",
+    "Outputs 2 and 3 share nearly identical archaic/formal phrasing including 'inspire the more pity,' 'pushed the door to behind her,' the description of depositing the cloak at the door for sympathy, and 'expression of joy and triumph/triumph and joy.' These distinctive shared phrases and sentence structures strongly indicate they were produced by the same paraphrasing system, which appears to stay very close to the original source text.",
+    "Outputs 1 and 2 share striking linguistic similarities: both begin with the identical phrase 'I believe this stems from their weariness,' both use 'shouldered' to describe the burden of love, and both use the phrase 'echoed their sentiments, and poorly at that.' Their overall modern paraphrasing style, sentence rhythm, and word choices are highly consistent with each other, indicating they were produced by the same paraphraser.",
+    "Outputs 3 and 4 share very similar stylistic patterns: both use 'alone and inconspicuous,' both preserve 'illuminate her whole life,' both describe wanting to 'rise up' and look down on the 'dark path/road,' and both end with the young woman's proud internal thought (flutter vs. flush). Their sentence structure and word choices are closely aligned, distinguishing them from the more expansive paraphrases in outputs 1 and 2, and the more archaic phrasing of output 0.",
+    "Outputs 0 and 1 share the same structural pattern (direct speech followed by narrator tag), both use 'muttered' combined with 'in a flurry,' both end with the identical phrase 'bringing up the rear,' and both preserve nearly the same sequence of content within the quote (doors, daughters, general). The word choices and sentence organization are strikingly similar, differing only in minor variations like 'softly' and 'one door to another' vs 'door to door.'",
+    "Outputs 3 and 4 share nearly identical structure, phrasing, and clause order: both use 'briefly and impersonally,' 'did not speak/talk about love and feelings,' 'in view of certain new circumstances/developments,' 'did not bother to explain,' 'did not interrupt him often/very often to ask him questions,' and 'it was obvious/evident that it was not this that interested them most.' The correspondence is too close to be coincidental, indicating the same paraphraser with only minor lexical substitutions.",
+    "Outputs 0 and 4 share nearly identical sentence structure, word order, and phrasing. Both end with 'gathered in the courtyard to see off their beloved prince,' both mention 'Pazhaiarai Palace' in the same structural position, and both describe Kundavai organizing a religious ceremony and fire ritual in very similar terms. The only differences are minor word substitutions ('organized'/'orchestrated,' 'particular'/'special,' 'women and older members'/'women of the palace and the other venerable figures'), which is consistent with outputs from the same paraphrasing system.",
+    "Outputs 0 and 4 share the same conditional phrasing 'If [only] you had/could heard him swear/swearing,' both retain 'his foot caught in a trap-door,' and both describe the leg as 'tied up and [laid out/stretched out] on a chair.' This structural and lexical similarity \u2014 especially the conditional construction versus the declarative 'You should have heard' used by outputs 1 and 2 \u2014 strongly suggests they originated from the same paraphraser.",
+    "Outputs 0 and 2 share the same spelling of 'Vandiya Devan' (vs 'Vandhiyathevan' in others), 'Vaidiyar's son' (same spelling), 'lovely face,' 'embarking on a long journey,' 'depart first,' and nearly identical narrative structure and flow. Both describe the companion struggling with his horse in the same way and use similar phrasing throughout, indicating they were produced by the same paraphraser.",
+    "Outputs 1 and 4 share nearly identical sentence structure and phrasing: both use em-dash quotation marks, both describe the daughter eating and sleeping while showing 'no sign(s) of life,' and both follow the same pattern of 'once a year she gets up and says something that makes/leaves everyone [stunned].' The internal sentence construction is a very close match compared to the other outputs, suggesting the same paraphrasing system produced both."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        1
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "We began to laugh and jest; we talked incessantly all the time. I do not know what I said, I was so happy. She told me that she had seen me once before, a long time ago, in the theatre. I had then comrades with me, and I behaved like a madman; I must certainly have been tipsy that time too, more's the shame.",
+        "We began to laugh and joke, talking incessantly all the time; I didn\u2019t know what I was saying, I was happy. She told me she had seen me once before, a long time ago in the theater. I was with three friends and I had behaved like a madman; I must have been drunk that time too, she was afraid."
+      ],
+      "llama_31_8b": [
+        "It wasn't long before we were chatting away nonstop, oblivious to everything else around us. I was completely in my element, and my words just flowed freely. She mentioned that we'd crossed paths before, years ago, at a theater. I was with a group of friends at the time and had gotten a bit carried away \u2013 I'd been quite drunk, and that wasn't exactly my best behavior."
+      ],
+      "gemini_25_flash": [
+        "Our conversation was filled with laughter and jokes, flowing freely without a break, and I felt such joy that I barely registered my own words. She then revealed that she had seen me before, many years ago, at the theater. Apparently, I was with three friends and acting wildly, no doubt in a drunken state, which was quite mischievous of me."
+      ],
+      "dipper_lowmed": [
+        "She told me that she had seen me once before, long ago, in the theatre, with three friends, behaving like a madman. Obviously, I\u2019d been drunk that time too, that was bad enough. We began laughing and joking, we talked without let-up the whole time, I didn\u2019t know what I was saying, I was happy."
+      ]
+    },
+    {
+      "human_par3": [
+        "On her feet, she had large, coarse, men\u2019s shoes, bespattered with mud, which had splashed even to her red ankles, and she was wrapped in an old mantle which hung in tatters. Marius had not seen it on her an hour previously, but she had probably deposited it at his door, in order that she might inspire the more pity, and had picked it up again on emerging. She entered, pushed the door to behind her, paused to take breath, for she was completely breathless, then exclaimed with an expression of triumph and joy:\u2014",
+        "On her feet she had coarse men\u2019s shoes, covered with mud, which had been spattered as high as her red ankles, and she was wrapped in a ragged old gown which Marius had not seen upon her an hour before, but which she had probably left at his door that she might inspire the more pity, and which she must have put on upon going out. She came in, pushed the door to behind her, stopped to take breath, for she was quite breathless, then cried with an expression of joy and triumph:"
+      ],
+      "llama_31_8b": [
+        "She entered the room, closing the door behind her, and paused to collect herself as she struggled to catch her breath. Her clothes were a testament to her hurried exit: mud-stained men's shoes on her feet and a worn, tattered cloak draped over her shoulders, likely taken from a previous outing. The change in her attire was a clear attempt to garner sympathy, though it seemed her efforts were aimed more at announcing some welcome news. With a look of unbridled joy and relief, she exclaimed, \"He's on his way!\""
+      ],
+      "gemini_25_flash": [
+        "She wore muddy men's boots that covered her\u0e41\u0e14\u0e07 ankles, and a ragged cloak, which Marius hadn't seen her in before, but she had likely put it on to gain his sympathy. She entered, slammed the door, and after a moment to catch her breath, exclaimed triumphantly, \"He's coming!\""
+      ],
+      "dipper_lowmed": [
+        "She entered, closed the door behind her, paused to get her breath, for she was panting, then cried, with an expression of triumph and joy: \u2014 He is coming! \u2014 She had on her feet a man's heavy shoes spattered with mud which had reached to her red ankles, and was enveloped in a torn old cloak which Marius had not seen her with an hour before, but which she had probably left outside his door to make him feel sorrier for her, and which she must have collected when she came out."
+      ]
+    },
+    {
+      "human_par3": [
+        "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect."
+      ],
+      "llama_31_8b": [
+        "Their exhaustion stems from shouldering the weight of love for centuries, taking on the entire burden of a relationship. Historically, they've been the sole participants in the conversation, playing both roles simultaneously. Meanwhile, men have simply echoed their words, but poorly. They've also complicated the process with their own carelessness, jealousy, and lack of attention, which are all forms of neglect."
+      ],
+      "gemini_25_flash": [
+        "I believe this stems from their weariness. Throughout history, they have shouldered the entire burden of love, always leading the conversation and fulfilling both roles. Men have merely echoed their sentiments, and poorly at that. Furthermore, men's inattentiveness, carelessness, and envy\u2014a form of neglect in itself\u2014have hindered women's understanding.",
+        "I believe this stems from their weariness. Throughout history, they have exclusively shouldered the responsibility of love, carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. They have also hindered women's growth with their inattentiveness, carelessness, and envy, which was a form of neglect in itself."
+      ],
+      "dipper_lowmed": [
+        "Over the centuries they have taken the whole task of love upon themselves; they have always played the whole dialogue\u2014both parts; for man has only repeated their words and done it badly; and has made their learning difficult by his distraction, his negligence, and his jealousy, which was itself a kind of negligence. This comes, I think, from their fatigue."
+      ]
+    },
+    {
+      "human_par3": [
+        "a girl thinks with a proud tremor, having at last reached the moment which sheds a radiance over the whole of her life, and looking down upon the dark path along which she walked alone and unnoticed only yesterday."
+      ],
+      "llama_31_8b": [
+        "As she stood there with a sense of triumph, she couldn't help but feel a surge of pride. This moment had been her ultimate goal, and it had finally brought her the fulfillment she had been seeking. She longed to stand at a great height, where she could look back and reflect on the difficult journey she had taken just the day before, one that had been marked by solitude and obscurity."
+      ],
+      "gemini_25_flash": [
+        "A surge of proud anticipation filled the young woman. This was the pinnacle she had envisioned, the turning point that would cast light upon her past. She yearned to ascend, to look down from a new height upon the solitary, unremarkable journey she had just completed."
+      ],
+      "dipper_lowmed": [
+        "She had waited for this moment to illuminate her whole life, and she wanted to rise up high, to gaze down on the dark road she had taken yesterday, alone and inconspicuous. \u201cSo that's it!\u201d the young woman thought with a proud flush.",
+        "She had waited for this moment, which was to illuminate her whole life, and wished to rise to a point where she could look down upon that dark path along which she had walked yesterday alone and inconspicuous. The young woman thought with a proud flutter."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next."
+      ],
+      "llama_31_8b": [
+        "Lebedev whispered in a state of distress, \"They're approaching, they're here already. And the General is lagging behind.\" He rapidly opened multiple doors, exclaiming loudly to gather all his daughters at once."
+      ],
+      "gemini_25_flash": [
+        "Rushing frantically from one door to another, Lebedev softly and excitedly muttered, \"They're arriving, they're here. And the General is bringing up the end. I'm going to throw open every door and summon all my daughters, each and every one, immediately.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThey are coming, they are coming. I\u2019ll open all the doors and call all the daughters, each of them, this very minute,\u201d Lebedev muttered softly in a flurry, running from one door to another. \u201cAnd the general is bringing up the rear.\u201d",
+        "\u201cThey\u2019re coming, they\u2019re coming. I\u2019m going to open all the doors and call all my daughters, every one of them, now, this minute,\u201d Lebedev muttered in a flurry, running from door to door. \u201cAnd the general is at the back, bringing up the rear.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+      ],
+      "llama_31_8b": [
+        "He shared the details of his situation, but their account will not be relayed here. He provided a concise and matter-of-fact summary of what happened, omitting any emotional tone or personal feelings. He mentioned that, given recent changes, his motivation to take drastic action had diminished. He didn't elaborate on the reasoning behind his initial plan; neither did he delve into nuances. It was also clear that his inquisitors weren't focused on that aspect, as they rarely interrupted him to ask questions."
+      ],
+      "gemini_25_flash": [
+        "He shared some information with them, which we will not disclose. His account was concise and detached, devoid of any personal emotions or expressions of love. He simply stated that he was no longer set on taking his own life \"due to recent changes.\" He refrained from elaborating on his reasons or delving into intricate details. Furthermore, his interrogators rarely interjected with questions, suggesting their primary interest lay elsewhere."
+      ],
+      "dipper_lowmed": [
+        "He told them the story, briefly and impersonally; he did not speak of his love and his feelings; he only said that he was not so anxious to shoot himself, \u2018in view of certain new circumstances\u2019. He did not bother any more to explain his motives, nor did he go into the subtleties of his situation, and his interrogators did not interrupt him often to ask him questions; it was obvious that they were not most interested in this. But we will not repeat it here.",
+        "He told them. But we shall not tell it here. He told them, briefly and impersonally; he did not talk about love and feelings; he only said that he was no longer so determined to shoot himself, in view of certain new developments; he did not bother to explain the reasons for his actions, he did not go into subtleties; besides, his interrogators did not interrupt him very often to ask him questions; it was evident that it was not this that interested them most."
+      ]
+    },
+    {
+      "human_par3": [
+        "Princess Kundhavai made sure that her brother departed Pazhaiyarai in pomp and splendour: she had organized quite a few events in the principal palace, for his edification. When Arulmozhi stepped out of the palace confines, conches blew deafeningly, drums thundered victoriously, accompanied by the smaller siru parai beats, in the courtyard; while chants of triumph cleaved the very skies. Every one of the royal mothers blessed their favourite son, applied sacred ash on his forehead, uttered many blessings to ward off evil spirits and gave him leave to return to battle."
+      ],
+      "llama_31_8b": [
+        "On the day of his departure, Kundavai Devi organized a special prayer ceremony and sacred fire ritual at Pazhaiarai Palace. People gathered in the palace courtyard to bid a final farewell to the prince."
+      ],
+      "gemini_25_flash": [
+        "On the day of his departure, Kundavai Devi orchestrated a special religious ceremony and fire ritual at Pazhaiarai Palace. The women of the palace and the other venerable figures gathered in the courtyard to see off their beloved prince.",
+        "On the day of his departure, Kundavai Devi organized a particular religious ceremony and a sacrificial ritual at Pazhaiarai Palace. The women and older members of the palace gathered in the courtyard to see off their beloved prince."
+      ],
+      "dipper_lowmed": [
+        "The womenfolk and the elders of the palace came out to the courtyard to say goodbye to the prince. Kundavai had arranged for a special pooja and yagna at the palace on the day he left."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"Yes,\" said Rose Mignon, \"his foot caught in a trap door, and he's got a fearful sprain. If only you could hear him swearing, with his leg tied up and laid out on a chair!\"",
+        "\u2018Yes\u2019, said Rose, \u2018he got his foot caught in a trapdoor and gave himself a nasty sprain\u2026 You should have heard him swearing, with his leg bandaged up and stretched out on a chair.\u2019"
+      ],
+      "llama_31_8b": [
+        "Rose Mignon nodded in agreement, \"He was injured badly enough to have sprained his ankle when his foot got caught in a hidden trap door. I've never heard him curse so loudly, lying there on a chair with his leg immobilized and throbbing.\""
+      ],
+      "gemini_25_flash": [
+        "\"Yes,\" replied Rose Mignon, \"he tripped on a trap-door and severely twisted his ankle. You should have heard the language that came out of his mouth while his leg was propped up and bandaged!\""
+      ],
+      "dipper_lowmed": [
+        "\u201cYes,\u201d said Rose Mignon, \u201chis foot was caught in a trap-door, and he has sprained his ankle most abominably. If you had heard him swear with his leg all tied up and stretched out on a chair!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him."
+      ],
+      "llama_31_8b": [
+        "As the princesses mounted their royal elephants, Vandiya Devan reluctantly steered his horse towards the road, taking a cue from Kundavai's earlier hint that those embarking on a long journey should depart first. Despite his hesitation, he cast a final longing glance at Kundavai's lovely face before quickly looking away and urging his horse into a swift gallop. His companion, the Vaidiyar's son, struggled to rein in his own horse as he followed closely behind."
+      ],
+      "gemini_25_flash": [
+        "With a hint from Kundavai that those embarking on a long journey should depart first, the princesses mounted their majestic elephants. Though reluctant, Vandiya Devan steered his horse towards the road. He couldn't resist a final glance at Kundavai's lovely face, but quickly turned his horse away, realizing his action was improper, and galloped off instantly. The Vaidiyar's son, who was meant to accompany him, struggled to manage his own horse as he followed close behind."
+      ],
+      "dipper_lowmed": [
+        "He still turned towards her to look at her face once more but, realizing that it was impolite, he turned the horse's head and galloped away. The veterinary surgeon who had to accompany him struggled to control his horse and followed him. The princesses climbed on their royal elephants and since Kundavai hinted that the long-distance travellers must start first, Vandiyathevan turned the horse towards the road, albeit with great hesitation.",
+        "And though he tried not to turn towards her, Vandhiyathevan looked at her face again and swung the horse's head rapidly. The ayya, who was to accompany him, struggled to control his horse and followed him. The princesses climbed on to the elephants. Since Kundavai had already hinted that those who were to leave on a long journey should leave first, Vandiyathevan turned his horse's head towards the road."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Just look at her,\u2019 Lizaveta Prokofyevna thought to herself, \u2018she spends all her time sleeping and eating, you can\u2019t budge her, and then once a year she suddenly gets up and says something that makes you simply throw up your hands in horror.\u2019"
+      ],
+      "llama_31_8b": [
+        "It struck Lizaveta Prokofyevna as puzzling; her daughter spent most of her time sleeping and eating with little display of vitality, yet occasionally, almost as an annual event, she would suddenly come to life and utter a statement that would leave everyone stunned and bewildered."
+      ],
+      "gemini_25_flash": [
+        "\"Well, I\u2019ll be!\" Lizaveta Prokofyevna mused. \"She spends most of her days just eating and sleeping, completely lifeless, and then, without fail, about once a year she'll utter something that completely stuns everyone.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWell, what if I tell you what she\u2019s like?\u201d Lizaveta Prokofyevna thought to herself. \u201cShe just eats and sleeps for most of the time and shows no signs of life, but then once a year she gets up and says something that makes everyone speechless.\u201d",
+        "\u201cThat\u2019s the way it is!\u201d Lizaveta Prokofyevna thought to herself. \u201cShe eats and sleeps most of the time and shows no sign of life, but once a year she\u2019ll get up and start saying things that leave everyone dumbfounded.\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Our conversation was filled with laughter and jokes, flowing freely without a break, and I felt such joy that I barely registered my own words. She then revealed that she had seen me before, many years ago, at the theater. Apparently, I was with three friends and acting wildly, no doubt in a drunken state, which was quite mischievous of me.",
+      "She entered the room, closing the door behind her, and paused to collect herself as she struggled to catch her breath. Her clothes were a testament to her hurried exit: mud-stained men's shoes on her feet and a worn, tattered cloak draped over her shoulders, likely taken from a previous outing. The change in her attire was a clear attempt to garner sympathy, though it seemed her efforts were aimed more at announcing some welcome news. With a look of unbridled joy and relief, she exclaimed, \"He's on his way!\"",
+      "Over the centuries they have taken the whole task of love upon themselves; they have always played the whole dialogue\u2014both parts; for man has only repeated their words and done it badly; and has made their learning difficult by his distraction, his negligence, and his jealousy, which was itself a kind of negligence. This comes, I think, from their fatigue.",
+      "a girl thinks with a proud tremor, having at last reached the moment which sheds a radiance over the whole of her life, and looking down upon the dark path along which she walked alone and unnoticed only yesterday.",
+      "\u201cThey\u2019re coming, they\u2019re coming. I\u2019m going to open all the doors and call all my daughters, every one of them, now, this minute,\u201d Lebedev muttered in a flurry, running from door to door. \u201cAnd the general is at the back, bringing up the rear.\u201d",
+      "He shared some information with them, which we will not disclose. His account was concise and detached, devoid of any personal emotions or expressions of love. He simply stated that he was no longer set on taking his own life \"due to recent changes.\" He refrained from elaborating on his reasons or delving into intricate details. Furthermore, his interrogators rarely interjected with questions, suggesting their primary interest lay elsewhere.",
+      "On the day of his departure, Kundavai Devi organized a particular religious ceremony and a sacrificial ritual at Pazhaiarai Palace. The women and older members of the palace gathered in the courtyard to see off their beloved prince.",
+      "\"Yes,\" said Rose Mignon, \"his foot caught in a trap door, and he's got a fearful sprain. If only you could hear him swearing, with his leg tied up and laid out on a chair!\"",
+      "With a hint from Kundavai that those embarking on a long journey should depart first, the princesses mounted their majestic elephants. Though reluctant, Vandiya Devan steered his horse towards the road. He couldn't resist a final glance at Kundavai's lovely face, but quickly turned his horse away, realizing his action was improper, and galloped off instantly. The Vaidiyar's son, who was meant to accompany him, struggled to manage his own horse as he followed close behind.",
+      "It struck Lizaveta Prokofyevna as puzzling; her daughter spent most of her time sleeping and eating with little display of vitality, yet occasionally, almost as an annual event, she would suddenly come to life and utter a statement that would leave everyone stunned and bewildered."
+    ],
+    [
+      "It wasn't long before we were chatting away nonstop, oblivious to everything else around us. I was completely in my element, and my words just flowed freely. She mentioned that we'd crossed paths before, years ago, at a theater. I was with a group of friends at the time and had gotten a bit carried away \u2013 I'd been quite drunk, and that wasn't exactly my best behavior.",
+      "She wore muddy men's boots that covered her\u0e41\u0e14\u0e07 ankles, and a ragged cloak, which Marius hadn't seen her in before, but she had likely put it on to gain his sympathy. She entered, slammed the door, and after a moment to catch her breath, exclaimed triumphantly, \"He's coming!\"",
+      "I believe this stems from their weariness. Throughout history, they have shouldered the entire burden of love, always leading the conversation and fulfilling both roles. Men have merely echoed their sentiments, and poorly at that. Furthermore, men's inattentiveness, carelessness, and envy\u2014a form of neglect in itself\u2014have hindered women's understanding.",
+      "A surge of proud anticipation filled the young woman. This was the pinnacle she had envisioned, the turning point that would cast light upon her past. She yearned to ascend, to look down from a new height upon the solitary, unremarkable journey she had just completed.",
+      "\u201cThey are coming, they are coming. I\u2019ll open all the doors and call all the daughters, each of them, this very minute,\u201d Lebedev muttered softly in a flurry, running from one door to another. \u201cAnd the general is bringing up the rear.\u201d",
+      "He shared the details of his situation, but their account will not be relayed here. He provided a concise and matter-of-fact summary of what happened, omitting any emotional tone or personal feelings. He mentioned that, given recent changes, his motivation to take drastic action had diminished. He didn't elaborate on the reasoning behind his initial plan; neither did he delve into nuances. It was also clear that his inquisitors weren't focused on that aspect, as they rarely interrupted him to ask questions.",
+      "Princess Kundhavai made sure that her brother departed Pazhaiyarai in pomp and splendour: she had organized quite a few events in the principal palace, for his edification. When Arulmozhi stepped out of the palace confines, conches blew deafeningly, drums thundered victoriously, accompanied by the smaller siru parai beats, in the courtyard; while chants of triumph cleaved the very skies. Every one of the royal mothers blessed their favourite son, applied sacred ash on his forehead, uttered many blessings to ward off evil spirits and gave him leave to return to battle.",
+      "\u2018Yes\u2019, said Rose, \u2018he got his foot caught in a trapdoor and gave himself a nasty sprain\u2026 You should have heard him swearing, with his leg bandaged up and stretched out on a chair.\u2019",
+      "And though he tried not to turn towards her, Vandhiyathevan looked at her face again and swung the horse's head rapidly. The ayya, who was to accompany him, struggled to control his horse and followed him. The princesses climbed on to the elephants. Since Kundavai had already hinted that those who were to leave on a long journey should leave first, Vandiyathevan turned his horse's head towards the road.",
+      "\u201cThat\u2019s the way it is!\u201d Lizaveta Prokofyevna thought to herself. \u201cShe eats and sleeps most of the time and shows no sign of life, but once a year she\u2019ll get up and start saying things that leave everyone dumbfounded.\u201d"
+    ],
+    [
+      "We began to laugh and jest; we talked incessantly all the time. I do not know what I said, I was so happy. She told me that she had seen me once before, a long time ago, in the theatre. I had then comrades with me, and I behaved like a madman; I must certainly have been tipsy that time too, more's the shame.",
+      "On her feet, she had large, coarse, men\u2019s shoes, bespattered with mud, which had splashed even to her red ankles, and she was wrapped in an old mantle which hung in tatters. Marius had not seen it on her an hour previously, but she had probably deposited it at his door, in order that she might inspire the more pity, and had picked it up again on emerging. She entered, pushed the door to behind her, paused to take breath, for she was completely breathless, then exclaimed with an expression of triumph and joy:\u2014",
+      "I believe this stems from their weariness. Throughout history, they have exclusively shouldered the responsibility of love, carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. They have also hindered women's growth with their inattentiveness, carelessness, and envy, which was a form of neglect in itself.",
+      "As she stood there with a sense of triumph, she couldn't help but feel a surge of pride. This moment had been her ultimate goal, and it had finally brought her the fulfillment she had been seeking. She longed to stand at a great height, where she could look back and reflect on the difficult journey she had taken just the day before, one that had been marked by solitude and obscurity.",
+      "Lebedev whispered in a state of distress, \"They're approaching, they're here already. And the General is lagging behind.\" He rapidly opened multiple doors, exclaiming loudly to gather all his daughters at once.",
+      "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here.",
+      "The womenfolk and the elders of the palace came out to the courtyard to say goodbye to the prince. Kundavai had arranged for a special pooja and yagna at the palace on the day he left.",
+      "\"Yes,\" replied Rose Mignon, \"he tripped on a trap-door and severely twisted his ankle. You should have heard the language that came out of his mouth while his leg was propped up and bandaged!\"",
+      "As the princesses mounted their royal elephants, Vandiya Devan reluctantly steered his horse towards the road, taking a cue from Kundavai's earlier hint that those embarking on a long journey should depart first. Despite his hesitation, he cast a final longing glance at Kundavai's lovely face before quickly looking away and urging his horse into a swift gallop. His companion, the Vaidiyar's son, struggled to rein in his own horse as he followed closely behind.",
+      "\"Well, I\u2019ll be!\" Lizaveta Prokofyevna mused. \"She spends most of her days just eating and sleeping, completely lifeless, and then, without fail, about once a year she'll utter something that completely stuns everyone.\""
+    ],
+    [
+      "She told me that she had seen me once before, long ago, in the theatre, with three friends, behaving like a madman. Obviously, I\u2019d been drunk that time too, that was bad enough. We began laughing and joking, we talked without let-up the whole time, I didn\u2019t know what I was saying, I was happy.",
+      "On her feet she had coarse men\u2019s shoes, covered with mud, which had been spattered as high as her red ankles, and she was wrapped in a ragged old gown which Marius had not seen upon her an hour before, but which she had probably left at his door that she might inspire the more pity, and which she must have put on upon going out. She came in, pushed the door to behind her, stopped to take breath, for she was quite breathless, then cried with an expression of joy and triumph:",
+      "Their exhaustion stems from shouldering the weight of love for centuries, taking on the entire burden of a relationship. Historically, they've been the sole participants in the conversation, playing both roles simultaneously. Meanwhile, men have simply echoed their words, but poorly. They've also complicated the process with their own carelessness, jealousy, and lack of attention, which are all forms of neglect.",
+      "She had waited for this moment, which was to illuminate her whole life, and wished to rise to a point where she could look down upon that dark path along which she had walked yesterday alone and inconspicuous. The young woman thought with a proud flutter.",
+      "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next.",
+      "He told them the story, briefly and impersonally; he did not speak of his love and his feelings; he only said that he was not so anxious to shoot himself, \u2018in view of certain new circumstances\u2019. He did not bother any more to explain his motives, nor did he go into the subtleties of his situation, and his interrogators did not interrupt him often to ask him questions; it was obvious that they were not most interested in this. But we will not repeat it here.",
+      "On the day of his departure, Kundavai Devi organized a special prayer ceremony and sacred fire ritual at Pazhaiarai Palace. People gathered in the palace courtyard to bid a final farewell to the prince.",
+      "Rose Mignon nodded in agreement, \"He was injured badly enough to have sprained his ankle when his foot got caught in a hidden trap door. I've never heard him curse so loudly, lying there on a chair with his leg immobilized and throbbing.\"",
+      "He still turned towards her to look at her face once more but, realizing that it was impolite, he turned the horse's head and galloped away. The veterinary surgeon who had to accompany him struggled to control his horse and followed him. The princesses climbed on their royal elephants and since Kundavai hinted that the long-distance travellers must start first, Vandiyathevan turned the horse towards the road, albeit with great hesitation.",
+      "\u2018Just look at her,\u2019 Lizaveta Prokofyevna thought to herself, \u2018she spends all her time sleeping and eating, you can\u2019t budge her, and then once a year she suddenly gets up and says something that makes you simply throw up your hands in horror.\u2019"
+    ],
+    [
+      "We began to laugh and joke, talking incessantly all the time; I didn\u2019t know what I was saying, I was happy. She told me she had seen me once before, a long time ago in the theater. I was with three friends and I had behaved like a madman; I must have been drunk that time too, she was afraid.",
+      "She entered, closed the door behind her, paused to get her breath, for she was panting, then cried, with an expression of triumph and joy: \u2014 He is coming! \u2014 She had on her feet a man's heavy shoes spattered with mud which had reached to her red ankles, and was enveloped in a torn old cloak which Marius had not seen her with an hour before, but which she had probably left outside his door to make him feel sorrier for her, and which she must have collected when she came out.",
+      "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect.",
+      "She had waited for this moment to illuminate her whole life, and she wanted to rise up high, to gaze down on the dark road she had taken yesterday, alone and inconspicuous. \u201cSo that's it!\u201d the young woman thought with a proud flush.",
+      "Rushing frantically from one door to another, Lebedev softly and excitedly muttered, \"They're arriving, they're here. And the General is bringing up the end. I'm going to throw open every door and summon all my daughters, each and every one, immediately.\"",
+      "He told them. But we shall not tell it here. He told them, briefly and impersonally; he did not talk about love and feelings; he only said that he was no longer so determined to shoot himself, in view of certain new developments; he did not bother to explain the reasons for his actions, he did not go into subtleties; besides, his interrogators did not interrupt him very often to ask him questions; it was evident that it was not this that interested them most.",
+      "On the day of his departure, Kundavai Devi orchestrated a special religious ceremony and fire ritual at Pazhaiarai Palace. The women of the palace and the other venerable figures gathered in the courtyard to see off their beloved prince.",
+      "\u201cYes,\u201d said Rose Mignon, \u201chis foot was caught in a trap-door, and he has sprained his ankle most abominably. If you had heard him swear with his leg all tied up and stretched out on a chair!\u201d",
+      "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him.",
+      "\u201cWell, what if I tell you what she\u2019s like?\u201d Lizaveta Prokofyevna thought to herself. \u201cShe just eats and sleeps for most of the time and shows no signs of life, but then once a year she gets up and says something that makes everyone speechless.\u201d"
+    ]
+  ]
+}

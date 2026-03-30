@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "openai/gpt-4.1",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "\u201cThat is not right, it\u2019s a mistake!\u201d Nina Alexandrovna intervened suddenly, looking almost ruefully at the Prince. \u201cMon mari se trompe.\u201d *",
+    "He followed the road-mender\u2019s advice, went back, and half an hour later drove past the same spot but this time at a fast trot with a good trace horse. The horse-handler, who called himself a postilion, sat on the cart shaft.",
+    "\"Evgenii Vasilitch,\" he said, \"I would beg of you to attend my brother until a doctor can be procured from the town.\"",
+    "K. had just reached the door again when there was a knock. It was the maid, who reported that Fr\u00e4ulein Montag would like a few words with Herr K. and requested that he join her for that purpose in the dining room, where she was awaiting him. K. listened pensively to the maid, then turned with an almost scornful look to a startled Frau Grubach. His look seemed to say he\u2019d long since expected Fr\u00e4ulein Montag\u2019s invitation and that it fit in quite well with the general annoyance he was being forced to suffer at the hands of Frau Grubach\u2019s boarders this Sunday morning. He sent the maid back to say that he would come at once, then went to his wardrobe to change his jacket, responding to Frau Grubach, who was complaining under her breath about the irksome young woman, merely by asking her to please clear away the breakfast dishes. \u201cBut you\u2019ve hardly touched anything,\u201d said Frau Grubach. \u201cOh, just take it away,\u201d cried K; it seemed to him as if Fr\u00e4ulein Montag were somehow mixed up with it all, making it disgusting.",
+    "\u201cThey\u2019re coming, here they are. And the General is making up the rear. I\u2019ll fling open all the doors and call all my daughters, every single one, now, this minute,\u201d Lebedev mumbled softly in a fluster, dashing from door to door.",
+    "\u201cWhat about that!\u201d Lizaveta Prokofyevna thought to herself. \u201cMost of the time she just eats and sleeps and shows no sign of life, and then about once a year she\u2019ll get up and say something that\u2019ll leave everyone speechless.\u201d",
+    "Anyone who saw him now, bundled up and strangely unsure of himself, would have found it hard to believe that this really was Gian-Battista Colonna, who had the beauty and the slender limbs of a young girl. It was so cold that he was shivering; the air was stiff with the night frost; the snow crunched underfoot like the grinding of teeth.",
+    "He escorted his mother to her hotel. Afterwards, he turned onto the Moika. There was gloom in the windows of the little apartment. The Likhutins were not there. Nothing to be done: he turned and went home.",
+    "\u201cKandanmara, you know very well that I am not scared of these things, and I haven\u2019t done anything inappropriate. In Veeranarayanapuram, when Pazhuvetarayar and his entourage came along, I stood watching along with the crowd. I heard that you sent the entire procession of horses, elephants, and soldiers. Is that true?\u201d",
+    "We were soon enclosed in rubber garments up to our necks, with air equipment fastened on with shoulder straps. There was no sign of the Ruhmkorff lighting devices. Before placing my head in the copper helmet I mentioned this to the captain."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 4 share distinctive features: both begin the quoted speech with a variation of 'That\u2019s not true, it\u2019s a mistake!'/'It\u2019s not like that, it\u2019s a mistake!'; both present the intervening action as 'Nina Alexandrovna suddenly interjected/said, turning to him suddenly' with similar sentence structure. Both also include the French phrase 'Mon mari se trompe.' at the end, which is unique to these outputs and not present in others.",
+    "Outputs 1 and 2 share several distinctive similarities in both sentence structure and word choice. For example, both use the phrase 'who called himself a postilion, was/sat on the shaft,' and both describe the timeline as 'half an hour later passed/drove past the same spot, but this time at a fast trot, with a good trace horse/trace-horse.' These strong overlaps in specific phrasing and sequencing strongly suggest they come from the same paraphraser.",
+    "Outputs 3 and 4 both use the name 'Evgenii Vasilitch' instead of Nikolai Petrovitch, and both begin with a similar request phrasing, using the word 'please' and the structure 'look after my brother until...'. Additionally, both outputs have a similar syntactic structure and word choice for the conditional clause ('until a physician can be brought from the town' and 'until we can get a doctor from town'). This consistency in naming and style suggests these two paraphrases are from the same paraphraser.",
+    "Paraphrases 2 and 3 stand out as being produced by the same paraphraser. Both renditions include unusual phrases such as 'to say that Miss Montag would like to have a few words with Mr. K.' and 'K. heard the maid out thoughtfully'. The sentence structures and sequencing are extremely close, with similar ordering of events and dialogue. They both translate 'Fr\u00e4ulein Montag' as 'Miss Montag' and 'Herr K.' as 'Mr. K.', which is distinct from other outputs. Furthermore, both carry a slightly formal tone and antiquated language choices ('gentle whining', 'confirmed the suffering', 'importunate'). This shared linguistic style and identical translation decisions make it highly likely that the same paraphrasing system produced both outputs.",
+    "Outputs 0 and 3 exhibit similar stylistic and structural features: both describe Lebedev as 'flustered' and 'muttering/softly muttered,' include direct speech with similar phrasing, and note him 'darting' or 'frantically' moving between doors. The sentence structure, the inclusion of the General 'bringing up the rear,' and the general flow of narration are highly alike, suggesting they were produced by the same paraphraser.",
+    "Outputs 1 and 3 both use a similar narrative style by placing Lizaveta Prokofyevna's reflection in the third person, and both open with a directive phrase ('Look at that', 'Just look at her'). They summarize the character's regular inactivity, focusing on 'lounging', 'doing nothing', 'sleeping, and eating', and then emphasize a rare, surprising outburst that 'leaves everyone stunned' or in 'stunned silence.' The structure and tone are very similar\u2014condensing the original quote into a direct observation with a sequential contrast\u2014unlike the others, which either stick closer to the original phrasing or introduce notable reinterpretations (e.g., 'throw up your hands in horror' in 4, or 'I'd be damned!' in 2).",
+    "Outputs 0 and 4 have very similar sentence structure and word choices. Both begin with nearly the same phrases about the cold, the stiff air, and the snow crunching 'like the grinding of teeth.' Both mention the person being wrapped up and unsure of himself, and both conclude with a remark about having the 'slender limbs of a young girl.' These patterns, in addition to their overall structure and use of phrases like 'wrapped up/strangely unsure of himself' (0) and 'swaddled/frightfully ill at ease' (4), indicate they stem from the same paraphraser.",
+    "Outputs 3 and 4 both have a distinctive, semi-colon-heavy sentence structure, with short, related clauses separated by punctuation. Both start by identifying the protagonist and his action (taking his mother to the hotel), then mention turning onto or off to the Moika, and then offer details about the apartment's windows and the absence of the Likhutins, finishing with a concluding statement about returning home. They retain the original order of events, preserve a somewhat formal or literary tone, and use a minimalistic style with fragment-like elements. These consistent stylistic similarities strongly indicate they come from the same paraphraser.",
+    "Outputs 1 and 3 both use very similar, simple, and direct phrasing: 'Kandamara, you know I am not afraid of such things' vs. 'Kandamara, you know very well that I am not afraid of these things', and both explicitly mention 'I haven\u2019t done anything wrong/inappropriate.' They also ask a yes/no question at the end about whether Kandamara sent the procession, using similar sentence structure: 'Is it true?' vs. 'isn\u2019t it? I heard that you had sent them all.' The arrangement of ideas, choice of direct address, and overall concise style suggest both were produced by the same paraphraser.",
+    "Outputs 0 and 4 share several stylistic similarities: both begin with 'Quickly' and follow very similar sentence structures. They both mention being clad/donned in rubber suits that reach to our chins/necks, specify the air apparatus being secured by/with shoulder straps, note the absence of Ruhmkorff lamps, and use similar phrasing when mentioning informing the captain before donning the copper helmet. Other outputs differ more in vocabulary, sentence structure, or the order of observations."
+  ],
+  "results_blocks": [
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        1,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        1
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\u2018That\u2019s not true, it\u2019s a mistake!\u2019 Nina Alexandrovna said, turning to him suddenly, looking at him almost with anguish. \u2018Mon mari se trompe. \u20194"
+      ],
+      "llama_31_8b": [
+        "Nina Alexandrovna's voice causes the atmosphere to shift, as she speaks up firmly, her expression tinged with a touch of regret. \"He's mistaken,\" she says, closely inspecting the Prince."
+      ],
+      "gemini_25_flash": [
+        "Nina Alexandrovna abruptly interrupted, gazing at the Prince with a somewhat regretful expression. \"My husband is mistaken,\" she declared."
+      ],
+      "dipper_lowmed": [
+        "\u201cIt\u2019s not like that, it\u2019s a mistake!\u201d Nina Alexandrovna suddenly interjected, looking at the prince almost ruefully. \u201cMon mari se trompe.",
+        "Nina Alexandrovna suddenly intervened, looking almost sadly at the prince. \u201cIt\u2019s not true, it\u2019s a mistake!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "He followed the road-mender\u2019s advice, retraced his steps, and, half an hour later, he passed the same spot again, but this time at full speed, with a good horse to aid; a stable-boy, who called himself a postilion, was seated on the shaft of the cariole."
+      ],
+      "llama_31_8b": [
+        "Thoroughly ignoring the road-mender's instructions, he returned and, half an hour later, rode by the exact same spot at a rapid pace with a well-muscled horse, with the horse's handler, who referred to himself as a postilion, perched on the cart pole."
+      ],
+      "gemini_25_flash": [
+        "Heeded the road-worker's suggestion, turned back, and about thirty minutes later, he passed the same location again, but this time at a quick pace with a strong extra horse. The person managing the horses, who referred to himself as a postilion, was seated on the cart's shaft."
+      ],
+      "dipper_lowmed": [
+        "The horse-handler, who called himself a postilion, sat on the shaft. He took the advice of the road-maker, went back, and half an hour later passed the same spot, but this time at a fast trot, with a good trace-horse.",
+        "The horseman, who called himself a postilion, was sitting on the shaft. He followed the road-mender\u2019s advice, turned round, and half an hour later drove past the same spot, but this time at a fast trot, with a good trace horse."
+      ]
+    },
+    {
+      "human_par3": [
+        "'I must ask you to look after my brother,' Nikolai Petrovitch said to him, 'till we get another doctor from the town.'"
+      ],
+      "llama_31_8b": [
+        "\"He's asking me to take care of his brother until we can get a doctor from town,\" he said."
+      ],
+      "gemini_25_flash": [
+        "He requested, \"Evgenii Vasilitch, please look after my brother until we can get a doctor from town.\"",
+        "\"Evgenii Vasilitch,\" he requested, \"please look after my brother until a physician can be brought from the town.\""
+      ],
+      "dipper_lowmed": [
+        "\u2018Evgeny Vasilyevich,\u2019 he said, \u2018I beg you to look after my brother until a doctor can be got from the town.\u2019"
+      ]
+    },
+    {
+      "human_par3": [
+        "K. had just reached the door again when there was a knock. It was the maid, who announced that Fr\u00e4ulein Montag would like a word or two with Herr K. and that she accordingly begged him to come to the dining room, where she was waiting for him. K. listened pensively to the message, then he turned an almost mocking eye on the startled Frau Grubach. His look seemed to say that he had long foreseen this invitation of Fr\u00e4ulein Montag's, and that it accorded very well with all the persecution he had had to endure that Sunday morning from Frau Grubach's boarders. He sent the maid back with the information that he would come at once, then went to his wardrobe to change his coat, and in answer to Frau Grubach, who was softly lamenting over the behavior of the importunate Fr\u00e4ulein Montag, had nothing to say but to request her to remove his breakfast tray. \"Why, you've scarcely touched anything,\" said Frau Grubach. \" Oh, do take it away,\" cried K., it seemed to him as if Fr\u00e4ulein Montag were somehow mixed up with the food and made it nauseating.",
+        "Just as K. once more reached the door, someone knocked at it. It was the maid, to say that Miss Montag would like to have a few words with Mr. K., and therefore requested that he come to the dining room where she was waiting for him. K. heard the maid out thoughtfully, and then looked back at the shocked Mrs. Grubach in a way that was almost contemptuous. His look seemed to be saying that K. had been expecting this invitation for Miss Montag for a long time, and that it was confirmation of the suffering he had been made to endure that Sunday morning from Mrs. Grubach's tenants. He sent the maid back with the reply that he was on his way, then he went to the wardrobe to change his coat, and in answer to Mrs. Grubach's gentle whining about the nuisance Miss Montag was causing merely asked her to clear away the breakfast things. \u201cBut you've hardly touched it,\u201d said Mrs. Grubach. \u201cOh just take it away!\u201d shouted K. It seemed to him that Miss Montag was mixed up in everything and made it repulsive to him."
+      ],
+      "llama_31_8b": [
+        "Just as K had reached the door, he heard a knock. It was the maid, who told him that Fr\u00e4ulein Montag wanted to speak with him. She invited him to join her in the dining room, where she was already waiting. K listened thoughtfully, but his expression changed when he turned to Frau Grubach. It seemed like he'd been expecting Fr\u00e4ulein Montag's request and was simply annoyed by the whole situation. He sent the maid back to confirm that he'd be right there, then went to change into a different jacket. While he did this, Frau Grubach grumbled about the bother caused by their boarders on this particular Sunday morning. K responded to her complaints by asking her to clear the breakfast dishes, as if trying to distance himself from the unpleasant atmosphere."
+      ],
+      "gemini_25_flash": [
+        "Just as K. got back to the door, a knock sounded. The maid announced that Fr\u00e4ulein Montag wished to speak with Herr K. and invited him to meet her in the dining room where she was waiting. K. listened thoughtfully to the maid, then cast a nearly contemptuous glance at a surprised Frau Grubach. His expression suggested he had been anticipating Fr\u00e4ulein Montag's request and that it conveniently aligned with the general irritation he was enduring from Frau Grubach\u2019s tenants that Sunday morning. He instructed the maid to tell her he would be right there, then headed to his closet to change his jacket. To Frau Grubach, who was grumbling quietly about the bothersome young woman, he only replied by asking her to clear the breakfast dishes. \u201cBut you\u2019ve barely eaten,\u201d Frau Grubach observed. \u201cJust take it away,\u201d K. exclaimed; it seemed to him that Fr\u00e4ulein Montag's involvement somehow tainted everything, making it unappetizing."
+      ],
+      "dipper_lowmed": [
+        "K. listened pensively to the maid, then turned with an almost scornful look to a startled Frau Grubach, as if to say that he had long been expecting Fr\u00e4ulein Montag\u2019s invitation and that it fitted into the general annoyance he was forced to endure at the hands of Frau Grubach\u2019s boarders this Sunday morning. He sent the maid back to say that he would come at once, then went to his wardrobe to change his jacket, responding to Frau Grubach, who was complaining in a low voice about the irksome young woman, by asking her to please clear away the breakfast dishes. Frau Grubach said: \u201cBut you hardly touched anything, Herr K.,\u201d \u201cYes, take it away,\u201d cried K. It seemed to him as if Fr\u00e4ulein Montag were somehow mixed in with the food, which was revolting."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next."
+      ],
+      "llama_31_8b": [
+        "The soldiers are approaching. The general is bringing up the rear. Lebedev hastily makes his way from one door to the next, intending to call for all his daughters to assemble instantly."
+      ],
+      "gemini_25_flash": [
+        "Lebedev, flustered and mumbling, darted between doors, announcing, \"They're arriving, they're here. And the General is bringing up the back. I'll open all the doors and summon all my daughters, every single one, right away.\"",
+        "In a flustered state, Lebedev softly muttered, \"Here they come! The General is bringing up the rear. I'm going to throw open every door and summon all my daughters right away,\" as he darted frantically between doorways."
+      ],
+      "dipper_lowmed": [
+        "\u201cThey\u2019re coming, they\u2019re coming. I\u2019m going to open all the doors and call all my daughters, every one of them, now, this minute,\u201d Lebedev muttered in a flurry, running from door to door. \u201cAnd the general is at the back, bringing up the rear.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018Just look at her,\u2019 Lizaveta Prokofyevna thought to herself, \u2018she spends all her time sleeping and eating, you can\u2019t budge her, and then once a year she suddenly gets up and says something that makes you simply throw up your hands in horror.\u2019"
+      ],
+      "llama_31_8b": [
+        "Lizaveta Prokofyevna couldn't help but think, \"Look at that: she spends most of her days lounging, only occasionally breaking the monotony with a remark so profound it leaves everyone stunned.\"",
+        "Lizaveta Prokofyevna thought to herself, 'Just look at her - she spends most of her days doing nothing, sleeping, and eating, giving no indication that she's truly alive. But occasionally, every year or so, she'll come to life, utter something that leaves everyone in stunned silence.'"
+      ],
+      "gemini_25_flash": [
+        "\u201cWell, I'd be damned!\u201d Lizaveta Prokofyevna reflected. \u201cShe typically just eats and sleeps, appearing lifeless, but then, roughly once a year, she'll awaken and utter something that utterly astounds everyone.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWell, that\u2019s just like her!\u201d Lizaveta Prokofyevna thought to herself. \u201cFor the most part she sleeps and eats and shows no sign of life, and then once a year she rises and says something that leaves everybody speechless.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Those who saw him, muffled and oddly unsure of himself, found it hard to believe that this was in fact Gian-Battista Colonna, who had the beauty and slender limbs of a girl. The cold made him shiver; the air was stiff with night frost; the crunching underfoot was like the grinding of teeth."
+      ],
+      "llama_31_8b": [
+        "Colonna's recent appearance was a far cry from the elegant, slender figure he was used to being, as he now bundled up and looked uncertain. His beauty and delicate features, normally reminiscent of a young girl's, were masked by his chill-induced shivering. The night air was bitterly cold, with a biting frost that made every step crunch through the snow like the grinding of teeth."
+      ],
+      "gemini_25_flash": [
+        "To anyone who saw him that moment, wrapped in layers of clothing and appearing uncharacteristically hesitant, it would have been difficult to accept that this was indeed Gian-Battista Colonna, a man renowned for his youthful, feminine grace. The biting cold caused him to tremble; the air was rigid from the overnight freeze; and the snow under his feet made a sound like teeth clenching."
+      ],
+      "dipper_lowmed": [
+        "The cold was so great that he was shivering; the air was stiff with the night frost; the snow crunched under his feet like the grinding of teeth. One who saw him now, all wrapped up and strangely unsure of himself, would have been disconcerted to see in him the handsome, slender limbs of a young girl.",
+        "It was so cold that he was shivering; the air was stiff with the night frost; the snow crunched beneath his feet like the grinding of teeth. Anyone who saw him now, swaddled and frightfully ill at ease, would not have believed that it was Gian-Battista Colonna, a man of beauty and with the slender limbs of a young girl."
+      ]
+    },
+    {
+      "human_par3": [
+        "Nikolai Apollonovich took his mother to her hotel; then\u2014he turned off to the Moika; in the windows of the apartment was darkness: the Likhutins were not at home; nothing for it: he turned back home."
+      ],
+      "llama_31_8b": [
+        "He walked his mother to her hotel before heading back onto the Moika. The windows of the tiny apartment were dark, empty, and had an air of desolation. The Likhutins didn't appear to be home, leaving him with no choice but to head back to his own place.",
+        "After taking his mother to her hotel, he headed onto the Moika, only to find the little apartment in a somber state with no signs of the Likhutins. So, he simply turned back and went back home."
+      ],
+      "gemini_25_flash": [
+        "After taking his mother to her hotel, he walked along the Moika. The small apartment's windows were dark, indicating the Likhutins were out. Since there was nothing he could do, he went back home."
+      ],
+      "dipper_lowmed": [
+        "There was nothing to be done: he turned and went home. He brought his mother to her hotel; then he turned on the Moika: in the windows of the little apartment there was gloom; the Likhutins were not there."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough."
+      ],
+      "llama_31_8b": [
+        "You are well aware that I'm not one to be intimidated and I've done nothing untoward. I watched the crowd from where I stood in Veeranarayanapuram as Pazhuvetarayar and his retinue arrived, and I've heard that you sent all the troops, including horses and elephants, to greet him."
+      ],
+      "gemini_25_flash": [
+        "\"Kandanmara, you're aware that I'm not easily frightened and I've done nothing wrong. In Veeranarayanapuram, I observed the procession of Pazhuvetarayar and his group from among the crowd. I heard that you were responsible for arranging the entire parade of horses, elephants, and soldiers. Is that accurate?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cKandamara, you know I am not afraid of such things, and I have not done anything inappropriate. In Veeranarayanapuram, when Pazhuvettarayar and his entourage passed by, I stood watching along with the crowd. I heard that you sent a large army of horses, elephants and soldiers. Is it true?\u201d",
+        "\u201cKandamara, you know very well that I am not afraid of these things and I haven\u2019t done anything wrong. You sent the entire procession of horses, elephants and soldiers, isn\u2019t it? I heard that you had sent them all.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "Soon we were enveloped to the throat in India-rubber clothing; the air apparatus fixed to our backs by braces. As to the Ruhmkorff apparatus, there was no necessity for it. Before putting my head into the copper cap, I had asked the question of the captain."
+      ],
+      "llama_31_8b": [
+        "We were quickly fitted with special full-body rubber suits that reached up to our chins. We also had breathing equipment attached to our chests with shoulder straps. There was no sign of the Ruhmkorff induction coils when I noticed this and brought it to the attention of the captain before putting on the copper helmet."
+      ],
+      "gemini_25_flash": [
+        "Quickly, we donned rubber suits that reached our necks, and secured air apparatus with shoulder straps. I noticed the absence of Ruhmkorff lamps. Before my head was sealed in the copper helmet, I brought this to the captain's attention.",
+        "Quickly, we were clad in waterproof suits that reached our chins, with breathing apparatus secured by shoulder straps. I noticed the absence of the Ruhmkorff lamps and pointed this out to the captain before donning my copper helmet."
+      ],
+      "dipper_lowmed": [
+        "I mentioned this to the captain before putting my head in the copper helmet. We soon found ourselves encased in rubber clothes up to our necks, with the air equipment fastened on with shoulder straps. There was no sign of the Ruhmkorff lighting devices."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "Nina Alexandrovna abruptly interrupted, gazing at the Prince with a somewhat regretful expression. \"My husband is mistaken,\" she declared.",
+      "Heeded the road-worker's suggestion, turned back, and about thirty minutes later, he passed the same location again, but this time at a quick pace with a strong extra horse. The person managing the horses, who referred to himself as a postilion, was seated on the cart's shaft.",
+      "'I must ask you to look after my brother,' Nikolai Petrovitch said to him, 'till we get another doctor from the town.'",
+      "K. listened pensively to the maid, then turned with an almost scornful look to a startled Frau Grubach, as if to say that he had long been expecting Fr\u00e4ulein Montag\u2019s invitation and that it fitted into the general annoyance he was forced to endure at the hands of Frau Grubach\u2019s boarders this Sunday morning. He sent the maid back to say that he would come at once, then went to his wardrobe to change his jacket, responding to Frau Grubach, who was complaining in a low voice about the irksome young woman, by asking her to please clear away the breakfast dishes. Frau Grubach said: \u201cBut you hardly touched anything, Herr K.,\u201d \u201cYes, take it away,\u201d cried K. It seemed to him as if Fr\u00e4ulein Montag were somehow mixed in with the food, which was revolting.",
+      "Lebedev, flustered and mumbling, darted between doors, announcing, \"They're arriving, they're here. And the General is bringing up the back. I'll open all the doors and summon all my daughters, every single one, right away.\"",
+      "\u201cWell, that\u2019s just like her!\u201d Lizaveta Prokofyevna thought to herself. \u201cFor the most part she sleeps and eats and shows no sign of life, and then once a year she rises and says something that leaves everybody speechless.\u201d",
+      "The cold was so great that he was shivering; the air was stiff with the night frost; the snow crunched under his feet like the grinding of teeth. One who saw him now, all wrapped up and strangely unsure of himself, would have been disconcerted to see in him the handsome, slender limbs of a young girl.",
+      "He walked his mother to her hotel before heading back onto the Moika. The windows of the tiny apartment were dark, empty, and had an air of desolation. The Likhutins didn't appear to be home, leaving him with no choice but to head back to his own place.",
+      "\u201cYou know me, Kandamara \u2014I'm hardly the man to be terrified about such things. In any case, it wasn't what you think. I was part of the crowd at Veera Narayanapuram, watching the Pazhuvettarayar cavalcade as it passed by me. By the way, I did hear that the elephants, horses, palanquins and everything else were part of your welcoming committee.\u201d \u201cTrue enough.",
+      "Quickly, we were clad in waterproof suits that reached our chins, with breathing apparatus secured by shoulder straps. I noticed the absence of the Ruhmkorff lamps and pointed this out to the captain before donning my copper helmet."
+    ],
+    [
+      "Nina Alexandrovna's voice causes the atmosphere to shift, as she speaks up firmly, her expression tinged with a touch of regret. \"He's mistaken,\" she says, closely inspecting the Prince.",
+      "The horseman, who called himself a postilion, was sitting on the shaft. He followed the road-mender\u2019s advice, turned round, and half an hour later drove past the same spot, but this time at a fast trot, with a good trace horse.",
+      "\"He's asking me to take care of his brother until we can get a doctor from town,\" he said.",
+      "Just as K. got back to the door, a knock sounded. The maid announced that Fr\u00e4ulein Montag wished to speak with Herr K. and invited him to meet her in the dining room where she was waiting. K. listened thoughtfully to the maid, then cast a nearly contemptuous glance at a surprised Frau Grubach. His expression suggested he had been anticipating Fr\u00e4ulein Montag's request and that it conveniently aligned with the general irritation he was enduring from Frau Grubach\u2019s tenants that Sunday morning. He instructed the maid to tell her he would be right there, then headed to his closet to change his jacket. To Frau Grubach, who was grumbling quietly about the bothersome young woman, he only replied by asking her to clear the breakfast dishes. \u201cBut you\u2019ve barely eaten,\u201d Frau Grubach observed. \u201cJust take it away,\u201d K. exclaimed; it seemed to him that Fr\u00e4ulein Montag's involvement somehow tainted everything, making it unappetizing.",
+      "\u2018They\u2019re coming, sir, they\u2019re coming. And even the general is coming, after them. I\u2019m going open all the doors, and summon all my daughters, all of them, right now, right now,\u2019 Lebedev whispered in fear, waving his arms and lunging from one door to the next.",
+      "Lizaveta Prokofyevna couldn't help but think, \"Look at that: she spends most of her days lounging, only occasionally breaking the monotony with a remark so profound it leaves everyone stunned.\"",
+      "To anyone who saw him that moment, wrapped in layers of clothing and appearing uncharacteristically hesitant, it would have been difficult to accept that this was indeed Gian-Battista Colonna, a man renowned for his youthful, feminine grace. The biting cold caused him to tremble; the air was rigid from the overnight freeze; and the snow under his feet made a sound like teeth clenching.",
+      "After taking his mother to her hotel, he headed onto the Moika, only to find the little apartment in a somber state with no signs of the Likhutins. So, he simply turned back and went back home.",
+      "\u201cKandamara, you know I am not afraid of such things, and I have not done anything inappropriate. In Veeranarayanapuram, when Pazhuvettarayar and his entourage passed by, I stood watching along with the crowd. I heard that you sent a large army of horses, elephants and soldiers. Is it true?\u201d",
+      "Soon we were enveloped to the throat in India-rubber clothing; the air apparatus fixed to our backs by braces. As to the Ruhmkorff apparatus, there was no necessity for it. Before putting my head into the copper cap, I had asked the question of the captain."
+    ],
+    [
+      "\u2018That\u2019s not true, it\u2019s a mistake!\u2019 Nina Alexandrovna said, turning to him suddenly, looking at him almost with anguish. \u2018Mon mari se trompe. \u20194",
+      "The horse-handler, who called himself a postilion, sat on the shaft. He took the advice of the road-maker, went back, and half an hour later passed the same spot, but this time at a fast trot, with a good trace-horse.",
+      "\u2018Evgeny Vasilyevich,\u2019 he said, \u2018I beg you to look after my brother until a doctor can be got from the town.\u2019",
+      "K. had just reached the door again when there was a knock. It was the maid, who announced that Fr\u00e4ulein Montag would like a word or two with Herr K. and that she accordingly begged him to come to the dining room, where she was waiting for him. K. listened pensively to the message, then he turned an almost mocking eye on the startled Frau Grubach. His look seemed to say that he had long foreseen this invitation of Fr\u00e4ulein Montag's, and that it accorded very well with all the persecution he had had to endure that Sunday morning from Frau Grubach's boarders. He sent the maid back with the information that he would come at once, then went to his wardrobe to change his coat, and in answer to Frau Grubach, who was softly lamenting over the behavior of the importunate Fr\u00e4ulein Montag, had nothing to say but to request her to remove his breakfast tray. \"Why, you've scarcely touched anything,\" said Frau Grubach. \" Oh, do take it away,\" cried K., it seemed to him as if Fr\u00e4ulein Montag were somehow mixed up with the food and made it nauseating.",
+      "The soldiers are approaching. The general is bringing up the rear. Lebedev hastily makes his way from one door to the next, intending to call for all his daughters to assemble instantly.",
+      "\u201cWell, I'd be damned!\u201d Lizaveta Prokofyevna reflected. \u201cShe typically just eats and sleeps, appearing lifeless, but then, roughly once a year, she'll awaken and utter something that utterly astounds everyone.\"",
+      "Colonna's recent appearance was a far cry from the elegant, slender figure he was used to being, as he now bundled up and looked uncertain. His beauty and delicate features, normally reminiscent of a young girl's, were masked by his chill-induced shivering. The night air was bitterly cold, with a biting frost that made every step crunch through the snow like the grinding of teeth.",
+      "After taking his mother to her hotel, he walked along the Moika. The small apartment's windows were dark, indicating the Likhutins were out. Since there was nothing he could do, he went back home.",
+      "You are well aware that I'm not one to be intimidated and I've done nothing untoward. I watched the crowd from where I stood in Veeranarayanapuram as Pazhuvetarayar and his retinue arrived, and I've heard that you sent all the troops, including horses and elephants, to greet him.",
+      "We were quickly fitted with special full-body rubber suits that reached up to our chins. We also had breathing equipment attached to our chests with shoulder straps. There was no sign of the Ruhmkorff induction coils when I noticed this and brought it to the attention of the captain before putting on the copper helmet."
+    ],
+    [
+      "Nina Alexandrovna suddenly intervened, looking almost sadly at the prince. \u201cIt\u2019s not true, it\u2019s a mistake!\u201d",
+      "Thoroughly ignoring the road-mender's instructions, he returned and, half an hour later, rode by the exact same spot at a rapid pace with a well-muscled horse, with the horse's handler, who referred to himself as a postilion, perched on the cart pole.",
+      "\"Evgenii Vasilitch,\" he requested, \"please look after my brother until a physician can be brought from the town.\"",
+      "Just as K. once more reached the door, someone knocked at it. It was the maid, to say that Miss Montag would like to have a few words with Mr. K., and therefore requested that he come to the dining room where she was waiting for him. K. heard the maid out thoughtfully, and then looked back at the shocked Mrs. Grubach in a way that was almost contemptuous. His look seemed to be saying that K. had been expecting this invitation for Miss Montag for a long time, and that it was confirmation of the suffering he had been made to endure that Sunday morning from Mrs. Grubach's tenants. He sent the maid back with the reply that he was on his way, then he went to the wardrobe to change his coat, and in answer to Mrs. Grubach's gentle whining about the nuisance Miss Montag was causing merely asked her to clear away the breakfast things. \u201cBut you've hardly touched it,\u201d said Mrs. Grubach. \u201cOh just take it away!\u201d shouted K. It seemed to him that Miss Montag was mixed up in everything and made it repulsive to him.",
+      "In a flustered state, Lebedev softly muttered, \"Here they come! The General is bringing up the rear. I'm going to throw open every door and summon all my daughters right away,\" as he darted frantically between doorways.",
+      "Lizaveta Prokofyevna thought to herself, 'Just look at her - she spends most of her days doing nothing, sleeping, and eating, giving no indication that she's truly alive. But occasionally, every year or so, she'll come to life, utter something that leaves everyone in stunned silence.'",
+      "Those who saw him, muffled and oddly unsure of himself, found it hard to believe that this was in fact Gian-Battista Colonna, who had the beauty and slender limbs of a girl. The cold made him shiver; the air was stiff with night frost; the crunching underfoot was like the grinding of teeth.",
+      "There was nothing to be done: he turned and went home. He brought his mother to her hotel; then he turned on the Moika: in the windows of the little apartment there was gloom; the Likhutins were not there.",
+      "\u201cKandamara, you know very well that I am not afraid of these things and I haven\u2019t done anything wrong. You sent the entire procession of horses, elephants and soldiers, isn\u2019t it? I heard that you had sent them all.\u201d",
+      "I mentioned this to the captain before putting my head in the copper helmet. We soon found ourselves encased in rubber clothes up to our necks, with the air equipment fastened on with shoulder straps. There was no sign of the Ruhmkorff lighting devices."
+    ],
+    [
+      "\u201cIt\u2019s not like that, it\u2019s a mistake!\u201d Nina Alexandrovna suddenly interjected, looking at the prince almost ruefully. \u201cMon mari se trompe.",
+      "He followed the road-mender\u2019s advice, retraced his steps, and, half an hour later, he passed the same spot again, but this time at full speed, with a good horse to aid; a stable-boy, who called himself a postilion, was seated on the shaft of the cariole.",
+      "He requested, \"Evgenii Vasilitch, please look after my brother until we can get a doctor from town.\"",
+      "Just as K had reached the door, he heard a knock. It was the maid, who told him that Fr\u00e4ulein Montag wanted to speak with him. She invited him to join her in the dining room, where she was already waiting. K listened thoughtfully, but his expression changed when he turned to Frau Grubach. It seemed like he'd been expecting Fr\u00e4ulein Montag's request and was simply annoyed by the whole situation. He sent the maid back to confirm that he'd be right there, then went to change into a different jacket. While he did this, Frau Grubach grumbled about the bother caused by their boarders on this particular Sunday morning. K responded to her complaints by asking her to clear the breakfast dishes, as if trying to distance himself from the unpleasant atmosphere.",
+      "\u201cThey\u2019re coming, they\u2019re coming. I\u2019m going to open all the doors and call all my daughters, every one of them, now, this minute,\u201d Lebedev muttered in a flurry, running from door to door. \u201cAnd the general is at the back, bringing up the rear.\u201d",
+      "\u2018Just look at her,\u2019 Lizaveta Prokofyevna thought to herself, \u2018she spends all her time sleeping and eating, you can\u2019t budge her, and then once a year she suddenly gets up and says something that makes you simply throw up your hands in horror.\u2019",
+      "It was so cold that he was shivering; the air was stiff with the night frost; the snow crunched beneath his feet like the grinding of teeth. Anyone who saw him now, swaddled and frightfully ill at ease, would not have believed that it was Gian-Battista Colonna, a man of beauty and with the slender limbs of a young girl.",
+      "Nikolai Apollonovich took his mother to her hotel; then\u2014he turned off to the Moika; in the windows of the apartment was darkness: the Likhutins were not at home; nothing for it: he turned back home.",
+      "\"Kandanmara, you're aware that I'm not easily frightened and I've done nothing wrong. In Veeranarayanapuram, I observed the procession of Pazhuvetarayar and his group from among the crowd. I heard that you were responsible for arranging the entire parade of horses, elephants, and soldiers. Is that accurate?\"",
+      "Quickly, we donned rubber suits that reached our necks, and secured air apparatus with shoulder straps. I noticed the absence of Ruhmkorff lamps. Before my head was sealed in the copper helmet, I brought this to the captain's attention."
+    ]
+  ]
+}

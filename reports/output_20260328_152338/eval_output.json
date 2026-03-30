@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "correct_pairs": [
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "anthropic/claude-sonnet-4.6",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ]
+  ],
+  "source_texts": [
+    "\u201cI mean those clubs, those Dussot\u2019s, and those spits of land,\u00a7 perhaps, that\u2019s progress for you\u2014well, that\u2019ll all be without me,\u201d he continued, once more taking no note of the question. \u201cBesides, who wants to be a cardsharp?\u201d",
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "He told them. But we shall not repeat it here. He told the story briefly and impersonally. He did not speak of his love and his feelings; he told them only that he was no longer so determined to shoot himself \u201cin view of certain new developments.\u201d He did not bother to explain the motives behind his actions anymore, did not go into subtleties. Besides, his interrogators did not interrupt him very often to ask him questions; it was obvious that this was not what interested them most.",
+    "All six tiny little rooms were steam heated, as a result of which you were suffocated by moist heat in the apartment. The window panes sweated; the visitors sweated; the maid and the husband sweated; Sofia Petrovna Likhutina herself was covered with perspiration, like warm dew on a chrysanthemum. How could there possibly be any perspective?",
+    "\u201cWhat? A priest? It\u2019s not necessary. . . . Where would we get the money to pay him? I have no sins! Even without that God should forgive me. . . . He knows how I\u2019ve suffered! And if He doesn\u2019t forgive me, so be it!\u201d",
+    "And the zemstvo official stopped in perplexity, clutching at a tuft of his beard. The lonely domino begged not to be driven out into the Petersburg slush, begged not to be driven out into the malignant fog. The zemstvo official apparently wanted to make a little joke, and grunted: \u201cMm . . .",
+    "The tiny figure stopped, and imploringly stretched out toward the phosphorescent intervals between the branches, which were forming the body.",
+    "In the vestibule Nikolai Apollonovich stopped in front of the lackey, trying to catch a thought that had scampered off.",
+    "\u201cWait, you didn\u2019t get that from me!\u201d Ivan suddenly stopped, struck by this fact. \u201cIt never even occurred to me . . . Strange!\u201d",
+    "The truth is that no one has ever really explained how Joseph Buquet met his death. The verdict at the inquest was \u2018suicide under natural circumstances\u2019. In his Memoirs of a Theatre Director, Armand Moncharmin, one of the co-directors who succeeded Messrs Debienne and Poligny, relates the incident as follows: A most unfortunate accident ruined the little party that Messrs Debienne and Poligny were giving to mark their departure."
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 3 share the same spelling 'Dussauts' (vs 'Dussots' in others) and both use scholarly annotation markers for proper nouns (a superscript '37' in output 2 and an asterisk '*' in output 3), indicating the same paraphrasing system that preserves translation footnote references. Both also maintain the phrase about 'ignoring/noticing the question' and use closely related terms for cheating at cards ('card-cheat' vs 'card sharp'), reflecting a consistent translation-fidelity style.",
+    "Outputs 1 and 4 share nearly identical structure, vocabulary, and phrasing throughout: both open with 'A caryatid, with a goat-like' construction, both describe the carriage 'drawn by two horses' approaching the entrance, both mention a footman/servant with a 'three-cornered hat' who 'clicked' the door open, both describe the coat of arms as featuring 'small crowns and a unicorn impaling a knight,' and both end with 'a gloved hand briefly touched the brim of a top hat.' The sentence-level parallelism and shared lexical choices strongly suggest the same paraphraser produced both.",
+    "Outputs 0 and 4 share highly similar phrasing and vocabulary: both use 'briefly and impersonally,' 'love and his feelings,' 'interrogators,' 'subtleties,' and nearly identical sentence structures. Output 4 even repeats the content twice, suggesting a system glitch, but the core phrasing is clearly from the same paraphraser as Output 0.",
+    "Outputs 1 and 2 share highly distinctive stylistic fingerprints: both use 'suffocated' to describe the humidity, both repeat 'sweated' for the windows, visitors, maid, and husband in sequence, both reference 'warm dew on a chrysanthemum,' and both include a rhetorical question about 'perspective.' These parallel structural and lexical choices strongly suggest they came from the same paraphrasing system.",
+    "Outputs 1 and 3 share similar paraphrasing patterns: both use a question format about affording a priest ('How would we afford one?' vs 'How would we even afford to pay him?'), both frame God's forgiveness conditionally with 'God should forgive me,' and both adopt a modern, explanatory tone that expands on the original rather than translating it closely. Their sentence structures and word choices reflect the same underlying paraphrasing approach.",
+    "Outputs 0 and 3 share highly distinctive structural and stylistic features: both include the detail about the zemstvo official being established/acclimatised in the ballroom, both repeat the imploring phrase twice ('not to drive him out of this house back into the Petersburg slush... not to drive him out of this house back into the fog'), both conclude with the joke taking an 'incoherent form:', and both are significantly longer and more literal than the other outputs. These parallels point strongly to the same paraphrasing system.",
+    "Outputs 0 and 2 both use the distinctive phrase 'phosphorescent intervals' (an unusual and specific word choice not seen in the others), both use 'stopped' rather than 'paused' or 'halted', and both end with a reference to the branches 'forming/formed a body' in a structurally similar way. These shared rare lexical choices strongly suggest they came from the same paraphraser.",
+    "Outputs 0 and 4 share the same distinctive stylistic fingerprints: both begin with 'In the [adjective] [entrance hall term]' (sumptuous vestibule / magnificent entrance-hall), both include 'old' as a modifier before the servant word (old lackey / old servant), and both use an escape metaphor for the thought (run away / escaping thought). Their sentence structures are nearly identical, differing only in word choice synonyms.",
+    "Outputs 0 and 4 both convert the original dialogue entirely into third-person narrative prose, avoiding quotation marks and direct speech. Both use a two-sentence structure describing Ivan's realization indirectly, with similar phrasing strategies ('dawned on him'/'realized', 'even more puzzled by not having considered it'/'entirely passed him by'). This consistent approach of transforming dialogue into narration, along with similar sentence rhythm and descriptive style, indicates they come from the same paraphraser.",
+    "Outputs 1 and 3 share nearly identical sentence structures, information ordering, and phrasing patterns. Both begin with 'no one has ever [adverb] [verb] how Joseph Buquet died,' both use the same structure for the inquest ruling with only minor synonym substitution ('circumstances' vs 'causes'), both identify Moncharmin the same way as 'one of the co-directors who took over from Messrs. Debienne and Poligny,' both reference the same book title 'Memoirs of a Theatre Director,' and both describe the gathering with the same sentence structure with only minor word swaps ('terribly unlucky incident disrupted' vs 'truly regrettable mishap spoiled' and 'farewell' vs 'exit'). This consistent pattern of near-identical structure with minor synonym substitutions is a clear fingerprint of the same paraphrasing system."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        3
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        2
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        1,
+        3
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+        "\u201cBut as for these clubs, Dussauts,37 parades, or progress, indeed, may be\u2014well, all that can go on without me,\u201d he went on, again without noticing the question. \u201cBesides, who wants to be a card-cheat?\u201d"
+      ],
+      "llama_31_8b": [
+        "\"You might call those upscale clubs and fancy establishments progress, but I'll have no part in it. As for the idea of becoming a skilled card player, why would anyone want that?\""
+      ],
+      "gemini_25_flash": [
+        "\"Those fancy clubs, the Dussots, and those little plots of land\u2014maybe that's what you call progress, but I won't be a part of it,\" he went on, again ignoring the question. \"Anyway, who would want to be a professional gambler?\""
+      ],
+      "dipper_lowmed": [
+        "\u201cAnyway, who wants to be a cardsharp?\u201d \u201cI mean, those clubs, those Dussots, and those spits of land (if that\u2019s progress for you), well, that\u2019s all without me,\u201d he continued, again ignoring the question."
+      ]
+    },
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia."
+      ],
+      "llama_31_8b": [
+        "A decorative pillar from a distant land surrounded by the image of an animal with goat-like features displayed the emblem of an aristocratic family. A sleek horse-drawn vehicle came to a stop at the entrance of the carriage, and the liveried servant operating its door tipped his hat in greeting by touching the band, his own head adorned with a fancy hat. In response, a gentleman raised a gloved hand to acknowledge the servant's greeting by lightly touching the brim of his own hat."
+      ],
+      "gemini_25_flash": [
+        "A caryatid, with a goat-like torso, stood as a carriage pulled by two horses sped towards the porch. A footman, wearing a three-cornered hat, clicked the door handle, causing the door to swing open. On the door was a coat of arms featuring small crowns and a unicorn impaling a knight. In response to greetings, a gloved hand briefly touched the brim of a top hat.",
+        "A caryatid, with a goat-like lower body, stood prominently. A carriage, pulled by two horses, rapidly approached the entrance. A uniformed servant, wearing a three-cornered hat, clicked the carriage door open. The door, decorated with a coat of arms featuring small crowns and a unicorn impaling a knight, swung wide. In response to the greetings, a gloved hand briefly touched the brim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of steeds flew up to the portico, and a lackey, with a tricorne on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with little crowns (a unicorn goring a knight). A hand clad in leather responded to greetings by touching the brim of a top hat. The torso of a capripede caryatid."
+      ]
+    },
+    {
+      "human_par3": [
+        "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here."
+      ],
+      "llama_31_8b": [
+        "He shared his information with them, but we won't share it here. His account was concise and matter-of-fact. He didn't express his emotions or personal feelings, instead simply stating that his initial intentions had changed \"due to recent events.\" He didn't elaborate on his reasoning, and his interrogators didn't press for details, suggesting that wasn't the main focus of their interest."
+      ],
+      "gemini_25_flash": [
+        "He shared his account, which we won't detail here. His telling was concise and detached, devoid of emotional content. He merely stated that he was less inclined to take his own life due to \"new circumstances.\" He no longer elaborated on his reasons or intricate motivations. Furthermore, his questioners rarely interjected, indicating their lack of primary interest in these specifics."
+      ],
+      "dipper_lowmed": [
+        "But we do not repeat it here: he told the story briefly and impersonally; he did not speak of his love and his feelings; he only said that he was no longer so decided to shoot himself \"in view of certain new developments.\" He did not bother to explain the motives of his actions, he did not go into the subtleties; besides, his interrogators did not interrupt him very often to ask him questions; it was evident that this was not what interested them most.",
+        "He told them, but we do not want to repeat the story here, he told the story briefly and impersonally, he did not bother to explain the motives behind his actions, he did not get into subtleties; moreover, his interrogators did not interrupt him very often to ask him questions; it was obvious that they were not interested in it. He told them, but we do not want to repeat it here: he told the story briefly and impersonally, he did not speak about his love and his feelings, he only said that he was no longer so firmly resolved to shoot himself \"in view of certain new events\"."
+      ]
+    },
+    {
+      "human_par3": [
+        "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?"
+      ],
+      "llama_31_8b": [
+        "The cramped six tiny rooms were warm and humid, making the air feel oppressive and heavy. The steam heating system resulted in water droplets beading on the windows, leaving everyone in the apartment - visitors, the maid, and even Sofia Petrovna Likhutina - feeling damp and sweaty. The scene lacked any sense of breath or perspective."
+      ],
+      "gemini_25_flash": [
+        "The six compact rooms were all warmed by steam, causing the apartment to be oppressively humid. The windows were fogged with condensation; guests were perspiring; the maid and the husband were sweating; and Sofia Petrovna Likhutina herself was drenched in sweat, like dew on a chrysanthemum. Under such conditions, how could anything be accomplished?",
+        "The six small rooms were overheated by the steam heating, making the apartment stiflingly humid. Condensation covered the windows, and everyone \u2013 guests, the maid, the husband, and even Sofia Petrovna Likhutina herself \u2013 was sweating profusely, like chrysanthemums covered in warm dew. It was impossible to think clearly in such conditions. \n"
+      ],
+      "dipper_lowmed": [
+        "How could any perspective be possible? All six tiny rooms were heated with steam, as a result of which one suffocated in the apartment from the humidity. The panes of the windows sweated; the visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+        "\u201cWhat, the priest? I don\u2019t want him. You haven\u2019t got a ruble to spare. I have no sins. God must forgive me without that. He knows how I have suffered . . . And if He won\u2019t forgive me, I don\u2019t care!\u201d"
+      ],
+      "llama_31_8b": [
+        "\"I don't see the point of hiring a priest. How would we even afford to pay him? I'm a good person, I haven't done anything wrong. God should forgive me anyway, considering all I've been through. And if he doesn't, I'm not too concerned.\""
+      ],
+      "gemini_25_flash": [
+        "\"A priest? That's not needed. How would we afford one? I haven't sinned! God should forgive me regardless, considering my suffering. If not, then so be it!\""
+      ],
+      "dipper_lowmed": [
+        "\u201cA priest! What a ridiculous thing to say! Where would we get the money to pay him? I have no sins, and even without that God should forgive me, He knows how I have suffered. And if He doesn\u2019t forgive me, so be it!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:",
+        "The zemstvo official, who had now become firmly established in the ballroom, stopped in perplexity, clutching with one hand at a tuft of his beard; meanwhile the lonely domino seemed to be imploring him not to drive him out of this house back into the Petersburg slush, imploring him not to drive him out of this house back into the cruel and dense fog. The zemstvo official evidently wanted to make a joke, because he hemmed and hawed; but when he tried to express his joke in words, that joke assumed a rather incoherent form:"
+      ],
+      "llama_31_8b": [
+        "The zemstvo official stood frozen in confusion, grasping at his beard. The solitary domino implored him not to be sent out into the frozen Petersburg streets or forced into the cold, damp fog, and the zemstvo official, who had apparently been trying to lighten the mood with a joke, grunted in response."
+      ],
+      "gemini_25_flash": [
+        "The zemstvo official paused, twirling his beard, clearly unsure of how to proceed. The solitary domino piece pleaded not to be cast out into the inclement Petersburg weather\u2014the slush and the biting fog. The official, seemingly attempting a lighthearted remark, responded with a little grumbling sound."
+      ],
+      "dipper_lowmed": [
+        "The zemstvo official evidently wanted to make a little joke and grunted: \" M-m-.\" The lonely domino begged not to be expelled into the Petersburg slush, begged not to be expelled into the malignant fog. And the zemstvo official stopped in perplexity, grabbing at a tuft of his beard."
+      ]
+    },
+    {
+      "human_par3": [
+        "The figure stopped and reached out in supplication to the phosphorescent intervals between the branches, that formed a body:"
+      ],
+      "llama_31_8b": [
+        "The tiny figure halted, stretching out in a pleading gesture towards the glowing gaps between the tree branches, which were slowly coming together to form a shape.",
+        "The small figure paused and extended its body toward the eerie, glowing gaps between the skeletal branches that surrounded it."
+      ],
+      "gemini_25_flash": [
+        "The small shape paused, reaching out beseechingly towards the glowing spaces between the branches that made up the form."
+      ],
+      "dipper_lowmed": [
+        "The little figure stopped and stretched imploringly towards the phosphorescent intervals between the branches forming its body."
+      ]
+    },
+    {
+      "human_par3": [
+        "In the magnificent entrance-hall Nikolai Apollonovich stopped in front of the old servant, trying to catch his escaping thought.",
+        "In the sumptuous vestibule Nikolai Apollonovich stopped before the old lackey, trying to catch one of his own thoughts that had run away."
+      ],
+      "llama_31_8b": [
+        "Nikolai Apollonovich paused in the vestibule, standing before the doorman as he struggled to recall a fleeting idea that had slipped his mind."
+      ],
+      "gemini_25_flash": [
+        "Nikolai Apollonovich paused in the entryway, facing the servant, as he attempted to grasp a fleeting thought."
+      ],
+      "dipper_lowmed": [
+        "Nikolai Apollonovich stopped in front of the lackey in the vestibule trying to catch a thought which had scampered away."
+      ]
+    },
+    {
+      "human_par3": [
+        "\"But you didn't get that from me.\" Ivan stopped suddenly, seeming struck. \"That never entered my head, that's strange.\""
+      ],
+      "llama_31_8b": [
+        "Ivan's expression changed abruptly as he suddenly realized he wasn't the original source of that information. The thought had entirely passed him by, and now it stood out as peculiar.",
+        "Ivan suddenly froze, his eyes widening in surprise, as it dawned on him that he hadn't been the source of the information. He was even more puzzled by not having considered it before."
+      ],
+      "gemini_25_flash": [
+        "Ivan paused abruptly, realizing, \"Hold on, that information didn't come from me!\" He mused, \"It honestly never crossed my mind... How odd!\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWait, you didn\u2019t get it from me!\u201d Ivan suddenly stopped, struck by this fact. \u201cIt never even occurred to me... Strange!\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "The fact is, no one ever discovered how Joseph Buquet died. The investigation into it was brief and its verdict was straightforward: suicide. In his Memoirs of a Theatre Manager, M. Moncharmin, one of the two Directors who succeeded Messrs Debienne and Poligny, gave his own version of this business of the hanged man: \u2018A most disagreeable incident cast a pall over the modest party organized by Messrs Debienne and Poligny to mark their departure."
+      ],
+      "llama_31_8b": [
+        "Despite much speculation, the circumstances of Joseph Buquet's demise have never been fully accounted for. Officially, an inquest concluded that he took his own life in natural circumstances. In his memoirs, Armand Moncharmin described the events surrounding Buquet's death after a charity party hosted by Messrs Debienne and Poligny to celebrate their departure turned tragic, resulting in an unfortunate accident."
+      ],
+      "gemini_25_flash": [
+        "Actually, no one has ever accurately described how Joseph Buquet died. The official ruling at the inquiry was \"suicide by natural causes.\" Armand Moncharmin, one of the co-directors who took over from Messrs. Debienne and Poligny, recounts the event in his book, Memoirs of a Theatre Director, stating that a truly regrettable mishap spoiled the small gathering Messrs. Debienne and Poligny were hosting to commemorate their exit.",
+        "No one has ever truly clarified how Joseph Buquet died. The official ruling at the inquest was \"suicide under natural circumstances.\" In his book, \"Memoirs of a Theatre Director,\" Armand Moncharmin, one of the new co-directors following Messrs. Debienne and Poligny, describes the event like this: A terribly unlucky incident disrupted the small gathering Messrs. Debienne and Poligny were hosting to commemorate their farewell."
+      ],
+      "dipper_lowmed": [
+        "A most unfortunate accident ruined the little party given by Messieurs Debienne and Poligny on the occasion of their departure. The truth is that nobody ever really explained how Joseph Buquet met his death. The verdict in the inquest was a suicide under natural conditions."
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "\"Those fancy clubs, the Dussots, and those little plots of land\u2014maybe that's what you call progress, but I won't be a part of it,\" he went on, again ignoring the question. \"Anyway, who would want to be a professional gambler?\"",
+      "A decorative pillar from a distant land surrounded by the image of an animal with goat-like features displayed the emblem of an aristocratic family. A sleek horse-drawn vehicle came to a stop at the entrance of the carriage, and the liveried servant operating its door tipped his hat in greeting by touching the band, his own head adorned with a fancy hat. In response, a gentleman raised a gloved hand to acknowledge the servant's greeting by lightly touching the brim of his own hat.",
+      "But we do not repeat it here: he told the story briefly and impersonally; he did not speak of his love and his feelings; he only said that he was no longer so decided to shoot himself \"in view of certain new developments.\" He did not bother to explain the motives of his actions, he did not go into the subtleties; besides, his interrogators did not interrupt him very often to ask him questions; it was evident that this was not what interested them most.",
+      "The six compact rooms were all warmed by steam, causing the apartment to be oppressively humid. The windows were fogged with condensation; guests were perspiring; the maid and the husband were sweating; and Sofia Petrovna Likhutina herself was drenched in sweat, like dew on a chrysanthemum. Under such conditions, how could anything be accomplished?",
+      "\u201cWhat, the priest? I don\u2019t want him. You haven\u2019t got a ruble to spare. I have no sins. God must forgive me without that. He knows how I have suffered . . . And if He won\u2019t forgive me, I don\u2019t care!\u201d",
+      "The zemstvo member, now more acclimatised to the ballroom, stood still in perplexity, grasping a tuft of his beard in one hand; meanwhile the lonely domino seemed to be begging him mutely not to drive it from this house back into the Petersburg slush, begging him not to drive it from this house back into the dense, malevolent mist. The zemstvo member evidently had it in mind to make a joke, because he cleared his throat; but when he attempted to express his joke verbally, the joke assumed a somewhat incoherent form:",
+      "The little figure stopped and stretched imploringly towards the phosphorescent intervals between the branches forming its body.",
+      "In the sumptuous vestibule Nikolai Apollonovich stopped before the old lackey, trying to catch one of his own thoughts that had run away.",
+      "Ivan suddenly froze, his eyes widening in surprise, as it dawned on him that he hadn't been the source of the information. He was even more puzzled by not having considered it before.",
+      "Despite much speculation, the circumstances of Joseph Buquet's demise have never been fully accounted for. Officially, an inquest concluded that he took his own life in natural circumstances. In his memoirs, Armand Moncharmin described the events surrounding Buquet's death after a charity party hosted by Messrs Debienne and Poligny to celebrate their departure turned tragic, resulting in an unfortunate accident."
+    ],
+    [
+      "\"You might call those upscale clubs and fancy establishments progress, but I'll have no part in it. As for the idea of becoming a skilled card player, why would anyone want that?\"",
+      "A caryatid, with a goat-like torso, stood as a carriage pulled by two horses sped towards the porch. A footman, wearing a three-cornered hat, clicked the door handle, causing the door to swing open. On the door was a coat of arms featuring small crowns and a unicorn impaling a knight. In response to greetings, a gloved hand briefly touched the brim of a top hat.",
+      "He proceeded to do so, but we won't repeat his story. He told it dryly and curtly. Of the raptures of his love he said nothing, but told them that he abandoned his determination to shoot himself, owing to \"new factors in the case.\" He told the story without going into motives or details. And this time the lawyers did not worry him much. It was obvious that there was no essential point of interest to them here.",
+      "How could any perspective be possible? All six tiny rooms were heated with steam, as a result of which one suffocated in the apartment from the humidity. The panes of the windows sweated; the visitors sweated; the maid and the husband sweated; Sofya Petrovna Likhutina herself was covered with sweat, like warm dew on a chrysanthemum.",
+      "\"A priest? That's not needed. How would we afford one? I haven't sinned! God should forgive me regardless, considering my suffering. If not, then so be it!\"",
+      "The zemstvo official evidently wanted to make a little joke and grunted: \" M-m-.\" The lonely domino begged not to be expelled into the Petersburg slush, begged not to be expelled into the malignant fog. And the zemstvo official stopped in perplexity, grabbing at a tuft of his beard.",
+      "The small shape paused, reaching out beseechingly towards the glowing spaces between the branches that made up the form.",
+      "Nikolai Apollonovich paused in the vestibule, standing before the doorman as he struggled to recall a fleeting idea that had slipped his mind.",
+      "\"But you didn't get that from me.\" Ivan stopped suddenly, seeming struck. \"That never entered my head, that's strange.\"",
+      "No one has ever truly clarified how Joseph Buquet died. The official ruling at the inquest was \"suicide under natural circumstances.\" In his book, \"Memoirs of a Theatre Director,\" Armand Moncharmin, one of the new co-directors following Messrs. Debienne and Poligny, describes the event like this: A terribly unlucky incident disrupted the small gathering Messrs. Debienne and Poligny were hosting to commemorate their farewell."
+    ],
+    [
+      "\u201cBut as for these clubs, Dussauts,37 parades, or progress, indeed, may be\u2014well, all that can go on without me,\u201d he went on, again without noticing the question. \u201cBesides, who wants to be a card-cheat?\u201d",
+      "A carriage drawn by a pair of steeds flew up to the portico, and a lackey, with a tricorne on his head, gave a click to the handle, and the door flew open, flinging back a coat of arms adorned with little crowns (a unicorn goring a knight). A hand clad in leather responded to greetings by touching the brim of a top hat. The torso of a capripede caryatid.",
+      "He shared his account, which we won't detail here. His telling was concise and detached, devoid of emotional content. He merely stated that he was less inclined to take his own life due to \"new circumstances.\" He no longer elaborated on his reasons or intricate motivations. Furthermore, his questioners rarely interjected, indicating their lack of primary interest in these specifics.",
+      "All six tiny rooms were heated by steam, for which reason you were suffocated in the little flat by a damp, greenhouse heat; the panes of the windows sweated; Sofia Petrovna\u2019s visitor sweated; the chambermaid and the husband sweated endlessly; and Sofia Petrovna herself was covered in perspiration like a Japanese chrysanthemum in warm dew. So where would any perspective come from in such a hothouse?",
+      "\u2018What\u2019s that? A priest?\u2026 Don\u2019t bother\u2026 Where are you going to find a spare rouble? \u2026 I\u2019ve no sins on me!\u2026 God will have to forgive me without that\u2026 He knows how I\u2019ve suffered!\u2026 And if he won\u2019t forgive me, too bad!\u2026\u2019",
+      "The zemstvo official stood frozen in confusion, grasping at his beard. The solitary domino implored him not to be sent out into the frozen Petersburg streets or forced into the cold, damp fog, and the zemstvo official, who had apparently been trying to lighten the mood with a joke, grunted in response.",
+      "The figure stopped and reached out in supplication to the phosphorescent intervals between the branches, that formed a body:",
+      "Nikolai Apollonovich paused in the entryway, facing the servant, as he attempted to grasp a fleeting thought.",
+      "\u201cWait, you didn\u2019t get it from me!\u201d Ivan suddenly stopped, struck by this fact. \u201cIt never even occurred to me... Strange!\u201d",
+      "A most unfortunate accident ruined the little party given by Messieurs Debienne and Poligny on the occasion of their departure. The truth is that nobody ever really explained how Joseph Buquet met his death. The verdict in the inquest was a suicide under natural conditions."
+    ],
+    [
+      "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "He shared his information with them, but we won't share it here. His account was concise and matter-of-fact. He didn't express his emotions or personal feelings, instead simply stating that his initial intentions had changed \"due to recent events.\" He didn't elaborate on his reasoning, and his interrogators didn't press for details, suggesting that wasn't the main focus of their interest.",
+      "The six small rooms were overheated by the steam heating, making the apartment stiflingly humid. Condensation covered the windows, and everyone \u2013 guests, the maid, the husband, and even Sofia Petrovna Likhutina herself \u2013 was sweating profusely, like chrysanthemums covered in warm dew. It was impossible to think clearly in such conditions. \n",
+      "\"I don't see the point of hiring a priest. How would we even afford to pay him? I'm a good person, I haven't done anything wrong. God should forgive me anyway, considering all I've been through. And if he doesn't, I'm not too concerned.\"",
+      "The zemstvo official, who had now become firmly established in the ballroom, stopped in perplexity, clutching with one hand at a tuft of his beard; meanwhile the lonely domino seemed to be imploring him not to drive him out of this house back into the Petersburg slush, imploring him not to drive him out of this house back into the cruel and dense fog. The zemstvo official evidently wanted to make a joke, because he hemmed and hawed; but when he tried to express his joke in words, that joke assumed a rather incoherent form:",
+      "The small figure paused and extended its body toward the eerie, glowing gaps between the skeletal branches that surrounded it.",
+      "Nikolai Apollonovich stopped in front of the lackey in the vestibule trying to catch a thought which had scampered away.",
+      "Ivan paused abruptly, realizing, \"Hold on, that information didn't come from me!\" He mused, \"It honestly never crossed my mind... How odd!\"",
+      "Actually, no one has ever accurately described how Joseph Buquet died. The official ruling at the inquiry was \"suicide by natural causes.\" Armand Moncharmin, one of the co-directors who took over from Messrs. Debienne and Poligny, recounts the event in his book, Memoirs of a Theatre Director, stating that a truly regrettable mishap spoiled the small gathering Messrs. Debienne and Poligny were hosting to commemorate their exit."
+    ],
+    [
+      "\u201cAnyway, who wants to be a cardsharp?\u201d \u201cI mean, those clubs, those Dussots, and those spits of land (if that\u2019s progress for you), well, that\u2019s all without me,\u201d he continued, again ignoring the question.",
+      "A caryatid, with a goat-like lower body, stood prominently. A carriage, pulled by two horses, rapidly approached the entrance. A uniformed servant, wearing a three-cornered hat, clicked the carriage door open. The door, decorated with a coat of arms featuring small crowns and a unicorn impaling a knight, swung wide. In response to the greetings, a gloved hand briefly touched the brim of a top hat.",
+      "He told them, but we do not want to repeat the story here, he told the story briefly and impersonally, he did not bother to explain the motives behind his actions, he did not get into subtleties; moreover, his interrogators did not interrupt him very often to ask him questions; it was obvious that they were not interested in it. He told them, but we do not want to repeat it here: he told the story briefly and impersonally, he did not speak about his love and his feelings, he only said that he was no longer so firmly resolved to shoot himself \"in view of certain new events\".",
+      "The cramped six tiny rooms were warm and humid, making the air feel oppressive and heavy. The steam heating system resulted in water droplets beading on the windows, leaving everyone in the apartment - visitors, the maid, and even Sofia Petrovna Likhutina - feeling damp and sweaty. The scene lacked any sense of breath or perspective.",
+      "\u201cA priest! What a ridiculous thing to say! Where would we get the money to pay him? I have no sins, and even without that God should forgive me, He knows how I have suffered. And if He doesn\u2019t forgive me, so be it!\u201d",
+      "The zemstvo official paused, twirling his beard, clearly unsure of how to proceed. The solitary domino piece pleaded not to be cast out into the inclement Petersburg weather\u2014the slush and the biting fog. The official, seemingly attempting a lighthearted remark, responded with a little grumbling sound.",
+      "The tiny figure halted, stretching out in a pleading gesture towards the glowing gaps between the tree branches, which were slowly coming together to form a shape.",
+      "In the magnificent entrance-hall Nikolai Apollonovich stopped in front of the old servant, trying to catch his escaping thought.",
+      "Ivan's expression changed abruptly as he suddenly realized he wasn't the original source of that information. The thought had entirely passed him by, and now it stood out as peculiar.",
+      "The fact is, no one ever discovered how Joseph Buquet died. The investigation into it was brief and its verdict was straightforward: suicide. In his Memoirs of a Theatre Manager, M. Moncharmin, one of the two Directors who succeeded Messrs Debienne and Poligny, gave his own version of this business of the hanged man: \u2018A most disagreeable incident cast a pall over the modest party organized by Messrs Debienne and Poligny to mark their departure."
+    ]
+  ]
+}

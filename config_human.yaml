@@ -1,0 +1,42 @@
+# Config with a pre-loaded human paraphraser (PAR3 dataset).
+# PAR3 provides multiple human translations of the same paragraph.
+# Requires: GOOGLE_API_KEY in .env for embedding validation.
+
+# Load source texts from PAR3 dataset (human translations as paraphrases)
+par3:
+  min_translations: 3       # need >= 3: 1 source + 2 human outputs (for duplicate case)
+  min_length: 100            # minimum character length per translation
+  max_texts: 100             # number of candidate groups to load
+
+# Embedding similarity logged for ALL paraphraser outputs (no filtering)
+embedding_validation:
+  threshold: 0.75             # for reference in logs only
+  model: gemini-embedding-001
+
+num_trials: 10
+warmup_steps: 1
+auditor_as_detective: false
+
+auditor:
+  type: openrouter
+  model_id: anthropic/claude-sonnet-4.6
+
+detective:
+  type: openrouter
+  model_id: anthropic/claude-sonnet-4.6
+
+paraphrasers:
+  - id: human_par3
+    type: preloaded
+  - id: llama_31_8b
+    type: openrouter
+    model_id: meta-llama/llama-3.1-8b-instruct
+  - id: gemini_25_flash
+    type: openrouter
+    model_id: google/gemini-2.5-flash
+  - id: dipper_lowmed
+    type: dipper
+    endpoint_url_env: HF_DIPPER_ENDPOINT_URL
+    api_key_env: HF_DIPPER_API_KEY
+    lex_div: 20
+    order_div: 40

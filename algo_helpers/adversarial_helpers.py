@@ -15,7 +15,7 @@ from scipy.stats import ttest_ind, ttest_ind, mannwhitneyu, t, sem
 from dotenv import load_dotenv
 import argparse
 
-from llm.llm_client import OpenRouterClient, DipperClient, Client
+from llm.llm_client import OpenRouterClient, DipperClient, HumanParaphraserClient, PreloadedParaphraseClient, Client
 from utils.logger_config import setup_logger
 from algo_helpers.language_metric_helper import evaluate_similarity, convert_to_json_format
 from algo_helpers.algo_helpers import LLMModel, EvaluationConfig, extract_json, ResponseEvaluationTensor, parse_args
@@ -79,6 +79,15 @@ def create_client_from_config(cfg: dict) -> Client:
             order_div=cfg.get("order_div", 40),
         )
 
+    if client_type == "human":
+        return HumanParaphraserClient(
+            similarity_threshold=cfg.get("similarity_threshold", 0.75),
+            embedding_model=cfg.get("embedding_model", "gemini-embedding-001"),
+        )
+
+    if client_type == "preloaded":
+        return PreloadedParaphraseClient()
+
     raise ValueError(f"Unknown client type '{client_type}' in config")
 
 
@@ -111,15 +120,159 @@ class AdversarialEvaluation (ResponseEvaluationTensor):
 
         self.test_indexes = config.get("test_indexes", [0, 1])
         self.auditor_as_detective = config.get("auditor_as_detective", False)
+        self.auditor_no_history = config.get("auditor_no_history", False)
         self.num_trials = config.get("num_trials", 5)
         self.warmup_steps = config.get("warmup_steps", 3)
 
+        embedding_cfg = config.get("embedding_validation", {})
+        self.embedding_enabled = embedding_cfg.get("enabled", True)
+        self.embedding_threshold = embedding_cfg.get("threshold", 0.75)
+        self.embedding_model = embedding_cfg.get("model", "gemini-embedding-001")
+
+        self.mode = config.get("mode", "duplicate")  # "duplicate" or "classification"
+
         self.source_texts: List[str] = []
+        self.candidate_pool: List[str] = []  # candidate pool for auditor to pick from
         source_file = config.get("source_texts_file")
+        padben_cfg = config.get("padben")
+        par3_cfg = config.get("par3")
         if source_file:
             with open(source_file, 'r') as f:
                 self.source_texts = [line.strip() for line in f if line.strip()]
             logger.info(f"Loaded {len(self.source_texts)} source texts from {source_file}")
+        elif par3_cfg:
+            par3_data = self._load_par3_data(par3_cfg)
+            self.candidate_pool = list(par3_data.keys())
+            random.shuffle(self.candidate_pool)
+            for client in self.paraphraser_clients:
+                if isinstance(client, PreloadedParaphraseClient):
+                    client.set_paraphrase_map(par3_data)
+            logger.info(f"Loaded {len(par3_data)} PAR3 groups for preloaded human paraphraser")
+        elif padben_cfg:
+            self.candidate_pool = self._load_padben_texts(padben_cfg)
+            logger.info(f"Loaded {len(self.candidate_pool)} PADBen candidates for auditor selection")
+
+    @staticmethod
+    def _load_par3_data(par3_cfg: dict) -> dict:
+        """Load PAR3 dataset. Returns {source_text: [human_paraphrases]}.
+
+        Each group uses translations[0] as source and translations[1:] as
+        pre-loaded human paraphraser outputs.
+        """
+        from datasets import load_dataset
+
+        min_translations = par3_cfg.get("min_translations", 3)
+        min_length = par3_cfg.get("min_length", 100)
+        max_texts = par3_cfg.get("max_texts", 100)
+
+        logger.info(f"Loading PAR3 dataset (min_trans={min_translations}, "
+                     f"min_len={min_length}, max={max_texts})...")
+        ds = load_dataset("cdomingoenrich/par3", split="train", streaming=True)
+
+        result = {}
+        for row in ds:
+            translations = row["human_translations"]
+            if len(translations) < min_translations:
+                continue
+            if not all(len(t) >= min_length for t in translations):
+                continue
+            source = translations[0]
+            paraphrases = list(translations[1:])
+            result[source] = paraphrases
+            if len(result) >= max_texts:
+                break
+
+        return result
+
+    @staticmethod
+    def _load_padben_texts(padben_cfg: dict) -> List[str]:
+        """Load candidate source texts from the PADBen HuggingFace dataset."""
+        from datasets import load_dataset
+        config_name = padben_cfg.get("config", "exhaustive-task2")
+        label_filter = padben_cfg.get("label", 0)  # 0 = human-written
+        max_texts = padben_cfg.get("max_texts", 100)
+
+        ds = load_dataset("JonathanZha/PADBen", config_name, split="train")
+        texts = [row["sentence"] for row in ds if row["label"] == label_filter]
+        random.shuffle(texts)
+        return texts[:max_texts]
+
+    def auditor_select_source_text(self, candidates: List[str],
+                                   past_source_texts: List[str],
+                                   past_all_outputs: List[Dict],
+                                   past_results: List[Dict],
+                                   num_choices: int = 10,
+                                   _num_attempts: int = 0):
+        """
+        Auditor selects the best source text from a pool of PADBen candidates.
+        A random subset of `num_choices` candidates is presented each time.
+        """
+        if _num_attempts > 4:
+            return random.choice(candidates)
+
+        # Sample a subset to avoid exceeding context limits
+        subset = random.sample(candidates, min(num_choices, len(candidates)))
+        numbered = {i: text[:200] for i, text in enumerate(subset)}
+
+        system_prompt = (
+            "You are an AI Auditor studying how different paraphrasing systems transform text. "
+            "You will be given a numbered list of candidate source texts. Your goal is to SELECT "
+            "the one that, when paraphrased by different systems, will best reveal each "
+            "paraphraser's unique fingerprint.\n\n"
+            "Pick texts with unusual grammar, rare vocabulary, distinctive structures, or "
+            "deliberate patterns that paraphrasers will handle differently.\n\n"
+            "Two of the paraphrasers are the SAME system — choose a text that will help a "
+            "Detective identify which two outputs came from the same source."
+        )
+
+        message_parts = []
+
+        if past_source_texts:
+            message_parts.append(
+                f"Previously selected texts (avoid repeating similar ones):\n"
+                f"{json.dumps(past_source_texts[-3:], indent=2)}"
+            )
+        if past_all_outputs:
+            message_parts.append(
+                f"Past paraphraser outputs:\n{json.dumps(past_all_outputs[-2:], indent=2)}"
+            )
+        if past_results:
+            message_parts.append(
+                f"Detective's past results:\n{json.dumps(past_results[-3:], indent=2)}"
+            )
+
+        message_parts.append(
+            f"Candidate texts to choose from:\n{json.dumps(numbered, indent=2)}"
+        )
+
+        system_prompt += """
+
+Output in JSON format:
+```json
+{
+    "thought": "why you chose this text and what fingerprints it should reveal",
+    "selected_index": <integer index of your choice>
+}
+```
+"""
+        message_str = "\n\n".join(message_parts)
+        response = self.auditor_client.get_completion(
+            system=system_prompt, message=message_str,
+        )
+        logger.info(f"Auditor selection response: {response[:200]}...")
+
+        extracted = extract_json(response)
+        if extracted and "selected_index" in extracted:
+            idx = int(extracted["selected_index"])
+            if 0 <= idx < len(subset):
+                chosen = subset[idx]
+                candidates.remove(chosen)  # don't reuse
+                return chosen
+
+        return self.auditor_select_source_text(
+            candidates, past_source_texts, past_all_outputs, past_results,
+            num_choices=num_choices, _num_attempts=_num_attempts + 1,
+        )
 
     def auditor_generate_source_text(self, past_source_texts: List[str],
                                      past_all_outputs: List[Dict],
@@ -266,6 +419,230 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
         logger.warning(f"{role_name} returning None after retries")
         return None
 
+    def _paraphrase_with_validation(self, client: Client, pid: str,
+                                       system_prompt: str, source_text: str) -> str:
+        """
+        Get a paraphrase from a client and optionally log embedding similarity.
+        """
+        output = client.get_completion(system=system_prompt, message=source_text)
+        if self.embedding_enabled:
+            from llm.google_embedding import validate_paraphrase
+            _, score = validate_paraphrase(
+                source_text, output,
+                threshold=self.embedding_threshold,
+                model=self.embedding_model,
+            )
+            logger.info(f"    {pid}: embedding_similarity={score:.3f}")
+        return output
+
+    def detective_classify(self, text_a: str, text_b: str,
+                           outputs_a: List[str], outputs_b: List[str],
+                           _num_attempts: int = 0) -> dict:
+        """Detective matches paraphrases across two source texts.
+        Returns {index_a: index_b} mapping."""
+        if _num_attempts > 4:
+            # Random fallback
+            perm = list(range(len(outputs_b)))
+            random.shuffle(perm)
+            return {i: perm[i] for i in range(len(outputs_a))}
+
+        n = len(outputs_a)
+        system_prompt = (
+            f"You are a detective analyzing paraphrased texts. "
+            f"Two different source texts were each paraphrased by the SAME {n} paraphrasing systems. "
+            f"Group A contains {n} paraphrases of Text A, and Group B contains {n} paraphrases of Text B. "
+            f"Each system produced exactly one output in Group A and one in Group B.\n\n"
+            f"Your task: Match each Group A output to the Group B output produced by the SAME system. "
+            f"Look for consistent stylistic fingerprints: vocabulary choices, sentence structure, "
+            f"punctuation habits, level of formality, etc."
+        )
+
+        group_a_str = "\n".join(f"  [{i}] {o}" for i, o in enumerate(outputs_a))
+        group_b_str = "\n".join(f"  [{i}] {o}" for i, o in enumerate(outputs_b))
+
+        message = (
+            f"Text A (original):\n  {text_a[:200]}...\n\n"
+            f"Text B (original):\n  {text_b[:200]}...\n\n"
+            f"Group A paraphrases (of Text A):\n{group_a_str}\n\n"
+            f"Group B paraphrases (of Text B):\n{group_b_str}\n\n"
+            f"Output JSON:\n"
+            f"```json\n"
+            f"{{\n"
+            f'    "thought": "your analysis of stylistic fingerprints",\n'
+            f'    "matches": {{"0": <index_in_B>, "1": <index_in_B>, ...}}\n'
+            f"}}\n```"
+        )
+
+        response = self.detective_client.get_completion(
+            system=system_prompt, message=message)
+        logger.info(f"Detective classify response: {response[:200]}...")
+
+        extracted = extract_json(response)
+        if extracted and "matches" in extracted:
+            matches = extracted["matches"]
+            try:
+                result = {int(k): int(v) for k, v in matches.items()}
+                # Validate: must be a valid permutation
+                if (set(result.keys()) == set(range(n)) and
+                        set(result.values()) == set(range(n))):
+                    return result
+            except (ValueError, TypeError):
+                pass
+
+        logger.warning(f"  Invalid classify response, retrying ({_num_attempts + 1})")
+        return self.detective_classify(
+            text_a, text_b, outputs_a, outputs_b,
+            _num_attempts=_num_attempts + 1)
+
+    def compute_classification_tensor(self, config: EvaluationConfig,
+                                       output_dir: str = None):
+        """Classification mode: 2 texts per trial, all paraphrasers paraphrase both,
+        detective matches outputs across the two groups.
+        Saves incrementally and supports resume from partial results."""
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+
+        num_paraphrasers = len(self.paraphraser_clients)
+
+        paraphrase_system_prompt = (
+            "You are a paraphrasing assistant. Rewrite the following text in your own words "
+            "while preserving the original meaning. Do not add new information."
+        )
+
+        # --- Resume from partial results if available ---
+        all_results = []
+        if output_dir:
+            partial_path = os.path.join(output_dir, 'eval_output_partial.json')
+            if os.path.isfile(partial_path):
+                with open(partial_path) as f:
+                    partial = json.load(f)
+                all_results = partial.get('trials', [])
+                used_texts = set()
+                for r in all_results:
+                    used_texts.add(r['text_a'])
+                    used_texts.add(r['text_b'])
+                self.candidate_pool = [t for t in self.candidate_pool
+                                       if t not in used_texts]
+                for client in self.paraphraser_clients:
+                    if isinstance(client, PreloadedParaphraseClient):
+                        for t in used_texts:
+                            client.paraphrase_map.pop(t, None)
+                logger.info(f"Resumed {len(all_results)} trials, "
+                            f"{len(self.candidate_pool)} texts remaining")
+
+        start_trial = len(all_results)
+
+        for trial in range(start_trial, config.num_trials):
+            logger.info(f"Trial {trial}/{config.num_trials}")
+
+            if len(self.candidate_pool) < 2:
+                logger.error("Not enough candidate texts in pool")
+                break
+
+            idx1 = random.randint(0, len(self.candidate_pool) - 1)
+            text_a = self.candidate_pool.pop(idx1)
+            idx2 = random.randint(0, len(self.candidate_pool) - 1)
+            text_b = self.candidate_pool.pop(idx2)
+
+            logger.info(f"  Text A: {text_a[:80]}...")
+            logger.info(f"  Text B: {text_b[:80]}...")
+
+            # --- Parallel paraphrase: 4 paraphrasers × 2 texts = 8 calls ---
+            results_map = {}  # (pid, 'a'|'b') -> output
+
+            def _do_paraphrase(pid, client, text, group):
+                out = self._paraphrase_with_validation(
+                    client, pid, paraphrase_system_prompt, text)
+                logger.info(f"    {pid} ({group}): done")
+                return pid, group, out
+
+            with ThreadPoolExecutor(max_workers=8) as executor:
+                futures = []
+                for pid, client in zip(self.paraphraser_ids, self.paraphraser_clients):
+                    futures.append(executor.submit(
+                        _do_paraphrase, pid, client, text_a, 'a'))
+                    futures.append(executor.submit(
+                        _do_paraphrase, pid, client, text_b, 'b'))
+
+                for future in as_completed(futures):
+                    pid, group, out = future.result()
+                    results_map[(pid, group)] = out
+
+            outputs_a = [(pid, results_map[(pid, 'a')])
+                         for pid in self.paraphraser_ids]
+            outputs_b = [(pid, results_map[(pid, 'b')])
+                         for pid in self.paraphraser_ids]
+
+            # Shuffle both lists independently
+            perm_a = list(range(num_paraphrasers))
+            perm_b = list(range(num_paraphrasers))
+            random.shuffle(perm_a)
+            random.shuffle(perm_b)
+
+            shuffled_a = [outputs_a[i] for i in perm_a]
+            shuffled_b = [outputs_b[i] for i in perm_b]
+
+            # Ground truth mapping
+            ground_truth = {}
+            for i, (pid_a, _) in enumerate(shuffled_a):
+                for j, (pid_b, _) in enumerate(shuffled_b):
+                    if pid_a == pid_b:
+                        ground_truth[i] = j
+                        break
+
+            # Detective classifies
+            predicted = self.detective_classify(
+                text_a, text_b,
+                [out for _, out in shuffled_a],
+                [out for _, out in shuffled_b],
+            )
+
+            correct = sum(1 for k, v in predicted.items()
+                         if ground_truth.get(k) == v)
+            all_correct = correct == num_paraphrasers
+
+            logger.info(f"  Trial {trial}: {correct}/{num_paraphrasers} matches, "
+                        f"all_correct={all_correct}")
+            logger.info(f"    Predicted: {predicted}")
+            logger.info(f"    Ground truth: {ground_truth}")
+
+            all_results.append({
+                "trial": trial,
+                "text_a": text_a,
+                "text_b": text_b,
+                "shuffled_a_labels": [pid for pid, _ in shuffled_a],
+                "shuffled_b_labels": [pid for pid, _ in shuffled_b],
+                "shuffled_a_outputs": [out for _, out in shuffled_a],
+                "shuffled_b_outputs": [out for _, out in shuffled_b],
+                "ground_truth": {str(k): v for k, v in ground_truth.items()},
+                "predicted": {str(k): v for k, v in predicted.items()},
+                "num_correct": correct,
+                "all_correct": all_correct,
+            })
+
+            # --- Incremental save after each trial ---
+            if output_dir:
+                partial_data = {
+                    "mode": "classification",
+                    "num_paraphrasers": num_paraphrasers,
+                    "trials": all_results,
+                }
+                partial_path = os.path.join(output_dir, 'eval_output_partial.json')
+                with open(partial_path, 'w') as f:
+                    json.dump(partial_data, f, indent=2)
+
+        num_all_correct = sum(1 for r in all_results if r["all_correct"])
+        overall_accuracy = num_all_correct / len(all_results) if all_results else 0
+
+        return {
+            "mode": "classification",
+            "num_trials": len(all_results),
+            "num_paraphrasers": num_paraphrasers,
+            "overall_accuracy": overall_accuracy,
+            "num_all_correct": num_all_correct,
+            "per_trial_correct": [r["num_correct"] for r in all_results],
+            "trials": all_results,
+        }
+
     def compute_response_evaluation_tensor(self, config: EvaluationConfig, max_past_outputs=4):
         num_paraphrasers = len(self.paraphraser_clients)
         num_outputs_per_trial = num_paraphrasers + 1
@@ -295,9 +672,26 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
             past_results: List[Dict] = []
 
             for trial in range(config.num_trials):
-                # --- Step 1: Auditor generates source text ---
+                # --- Step 1: Auditor generates or selects source text ---
+                no_hist = self.auditor_no_history
                 if trial < len(self.source_texts):
                     source_text = self.source_texts[trial]
+                elif self.candidate_pool and no_hist:
+                    # No-history mode: random pick, no auditor LLM call
+                    source_text = self.candidate_pool.pop(
+                        random.randint(0, len(self.candidate_pool) - 1))
+                    logger.info(f"Random source text selected (no_history mode)")
+                elif self.candidate_pool:
+                    source_text = self.auditor_select_source_text(
+                        candidates=self.candidate_pool,
+                        past_source_texts=past_source_texts[-max_past_outputs:],
+                        past_all_outputs=past_all_outputs[-max_past_outputs:],
+                        past_results=past_results[-max_past_outputs:],
+                    )
+                elif no_hist:
+                    source_text = self.auditor_generate_source_text(
+                        past_source_texts=[], past_all_outputs=[], past_results=[],
+                    )
                 else:
                     source_text = self.auditor_generate_source_text(
                         past_source_texts=past_source_texts[-max_past_outputs:],
@@ -331,13 +725,15 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
                 for col_idx, client in enumerate(self.paraphraser_clients):
                     pid = self.paraphraser_ids[col_idx]
                     logger.info(f"  Paraphraser {pid}: pass 1")
-                    p1 = client.get_completion(system=paraphrase_system_prompt, message=source_text)
+                    p1 = self._paraphrase_with_validation(
+                        client, pid, paraphrase_system_prompt, source_text)
                     items.append((pid, p1))
                     round_outputs.setdefault(pid, []).append(p1)
 
                     if col_idx == dup_idx:
                         logger.info(f"  Paraphraser {pid}: pass 2 (duplicate)")
-                        p2 = client.get_completion(system=paraphrase_system_prompt, message=source_text)
+                        p2 = self._paraphrase_with_validation(
+                            client, pid, paraphrase_system_prompt, source_text)
                         items.append((pid, p2))
                         round_outputs[pid].append(p2)
 
@@ -365,10 +761,11 @@ Output the following JSON dictionary, make sure you include ```json {...}``` aro
                         response_array[i, trial] = text
 
                 # --- Step 3: Detective (or Auditor-as-Detective) analyzes outputs ---
+                give_history = self.auditor_as_detective and not no_hist
                 evaluation_data = self.detective_evaluate(
                     paraphrase_outputs=shuffled_outputs,
-                    past_all_outputs=past_all_outputs[:-1] if self.auditor_as_detective else None,
-                    past_results=past_results if self.auditor_as_detective else None,
+                    past_all_outputs=past_all_outputs[:-1] if give_history else None,
+                    past_results=past_results if give_history else None,
                 )
 
                 # --- Step 4: Build Results block and feed back to Auditor ---
@@ -472,6 +869,39 @@ def convert_ndarray_to_list(data):
     else:
         return data    
 
+def count_valid_runs(output_prefix: str, expected_trials: int,
+                     auditor_no_history: bool = False,
+                     detective_model: str = None,
+                     paraphrasers: List[str] = None,
+                     mode: str = "duplicate") -> List[str]:
+    """Scan existing output dirs and return paths of valid completed runs
+    that match the expected config."""
+    import glob
+    valid = []
+    for d in sorted(glob.glob(f"{output_prefix}_*")):
+        metrics_path = os.path.join(d, "metrics.json")
+        eval_path = os.path.join(d, "eval_output.json")
+        if not (os.path.isfile(metrics_path) and os.path.isfile(eval_path)):
+            continue
+        try:
+            with open(metrics_path) as f:
+                m = json.load(f)
+            if m.get("num_trials") != expected_trials:
+                continue
+            if m.get("mode", "duplicate") != mode:
+                continue
+            if m.get("auditor_no_history", False) != auditor_no_history:
+                continue
+            if detective_model and m.get("detective_model") != detective_model:
+                continue
+            if paraphrasers and sorted(m.get("paraphrasers", [])) != sorted(paraphrasers):
+                continue
+            valid.append(d)
+        except Exception:
+            continue
+    return valid
+
+
 def parse_args():
     parser = argparse.ArgumentParser()
 
@@ -486,6 +916,13 @@ def parse_args():
     parser.add_argument('--output_path', type=str)
     parser.add_argument('--num_workers', type=int, default=5, help="Number of concurrent experiments to run")
     parser.add_argument('--warmup_steps', type=int, default=None, help="number of warmup steps (overrides yaml)")
+
+    # Repeat / continue
+    parser.add_argument('--num_runs', type=int, default=1, help="Total number of runs to have")
+    parser.add_argument('--continue_runs', action='store_true',
+                        help="Continue mode: count existing valid runs and only run the remaining ones")
+    parser.add_argument('--resume_dir', type=str, default=None,
+                        help="Resume an incomplete classification run from this output dir")
 
     args = parser.parse_args()
     return args
@@ -503,44 +940,84 @@ if __name__ == "__main__":
     num_trials = args.num_trials if args.num_trials is not None else evaluator.num_trials
     warmup_steps = args.warmup_steps if args.warmup_steps is not None else evaluator.warmup_steps
 
-    evaluation_config = EvaluationConfig({
-        "num_trials": num_trials,
-        "rewrite_prompt": args.rewrite_prompt,
-        "save_response": args.save_response,
-        "warmup_steps": warmup_steps,
-    })
+    # Determine how many runs to do
+    total_target = args.num_runs
+    already_done = 0
+    if args.continue_runs and args.output_path:
+        existing = count_valid_runs(
+            args.output_path, num_trials,
+            auditor_no_history=evaluator.auditor_no_history,
+            detective_model=evaluator.detective_model.model_handle,
+            paraphrasers=evaluator.paraphraser_ids,
+            mode=evaluator.mode)
+        already_done = len(existing)
+        logger.info(f"Continue mode: found {already_done} valid runs, target={total_target}")
+        for p in existing:
+            logger.info(f"  existing: {p}")
 
-    evaluation_outputs = evaluator.compute_response_evaluation_tensor(evaluation_config)
-    accuracy = evaluator.compute_accuracy(evaluation_outputs, warmup_steps=warmup_steps)
+    remaining = max(0, total_target - already_done)
+    if remaining == 0:
+        logger.info(f"Already have {already_done}/{total_target} runs. Nothing to do.")
+    else:
+        logger.info(f"Running {remaining} more (have {already_done}, target {total_target})")
 
-    logger.info(f"evaluation_outputs:")
-    logger.info(evaluation_outputs)
-    logger.info("accuracy:")
-    logger.info(accuracy)
+    for run_i in range(remaining):
+        run_num = already_done + run_i + 1
+        logger.info(f"=== Run {run_num}/{total_target} ===")
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        # Re-init evaluator each run to reset preloaded paraphrase pool
+        evaluator = AdversarialEvaluation(model_yaml_file)
 
-    metrics = {
-        'paraphrasers': evaluator.paraphraser_ids,
-        'auditor_model': evaluator.auditor_model.model_handle,
-        'detective_model': evaluator.detective_model.model_handle,
-        'auditor_as_detective': evaluator.auditor_as_detective,
-        'num_trials': num_trials,
-        'warmup_steps': warmup_steps,
-        'accuracy': accuracy,
-    }
+        evaluation_config = EvaluationConfig({
+            "num_trials": num_trials,
+            "rewrite_prompt": args.rewrite_prompt,
+            "save_response": args.save_response,
+            "warmup_steps": warmup_steps,
+        })
 
-    if args.output_path:
-        output_dir = f"{args.output_path}_{timestamp}"
-        os.makedirs(output_dir, exist_ok=True)
+        if evaluator.mode == "classification":
+            # Resume from existing dir or create new one
+            if args.resume_dir and os.path.isdir(args.resume_dir):
+                cls_output_dir = args.resume_dir
+            else:
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                cls_output_dir = f"{args.output_path}_{timestamp}" if args.output_path else None
+            if cls_output_dir:
+                os.makedirs(cls_output_dir, exist_ok=True)
+            evaluation_outputs = evaluator.compute_classification_tensor(
+                evaluation_config, output_dir=cls_output_dir)
+            accuracy = evaluation_outputs["overall_accuracy"]
+        else:
+            evaluation_outputs = evaluator.compute_response_evaluation_tensor(evaluation_config)
+            accuracy = evaluator.compute_accuracy(evaluation_outputs, warmup_steps=warmup_steps)
 
-        eval_output_path = os.path.join(output_dir, 'eval_output.json')
-        with open(eval_output_path, 'w') as f:
-            json.dump(convert_ndarray_to_list(evaluation_outputs), f, indent=2)
+        logger.info(f"Run {run_num} accuracy: {accuracy}")
 
-        metric_output_path = os.path.join(output_dir, 'metrics.json')
-        with open(metric_output_path, 'w') as f:
-            json.dump(metrics, f, indent=2)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-        logger.info(f"Output saved to {output_dir}")
+        metrics = {
+            'mode': evaluator.mode,
+            'paraphrasers': evaluator.paraphraser_ids,
+            'auditor_model': evaluator.auditor_model.model_handle,
+            'detective_model': evaluator.detective_model.model_handle,
+            'auditor_as_detective': evaluator.auditor_as_detective,
+            'auditor_no_history': evaluator.auditor_no_history,
+            'num_trials': num_trials,
+            'warmup_steps': warmup_steps,
+            'accuracy': accuracy,
+        }
+
+        if args.output_path:
+            output_dir = f"{args.output_path}_{timestamp}"
+            os.makedirs(output_dir, exist_ok=True)
+
+            eval_output_path = os.path.join(output_dir, 'eval_output.json')
+            with open(eval_output_path, 'w') as f:
+                json.dump(convert_ndarray_to_list(evaluation_outputs), f, indent=2)
+
+            metric_output_path = os.path.join(output_dir, 'metrics.json')
+            with open(metric_output_path, 'w') as f:
+                json.dump(metrics, f, indent=2)
+
+            logger.info(f"Output saved to {output_dir}")
         

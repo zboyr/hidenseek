@@ -1,0 +1,600 @@
+{
+  "evaluations": [
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "correct_pairs": [
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "auditor_model": "anthropic/claude-sonnet-4.6",
+  "detective_model": "openai/gpt-4.1",
+  "paraphrasers": [
+    "human_par3",
+    "llama_31_8b",
+    "gemini_25_flash",
+    "dipper_lowmed"
+  ],
+  "similar_models": [
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "dipper_lowmed"
+    ],
+    [
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "gemini_25_flash",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "gemini_25_flash",
+      "gemini_25_flash"
+    ],
+    [
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed"
+    ]
+  ],
+  "source_texts": [
+    "The torso of a capripede caryatid. A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, tricorne on his head, gave the handle a click, and the door flew open, flinging back a coat of arms adorned with tiny crowns (a unicorn goring a knight). Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+    "\u201cI mean those clubs, those Dussot\u2019s, and those spits of land,\u00a7 perhaps, that\u2019s progress for you\u2014well, that\u2019ll all be without me,\u201d he continued, once more taking no note of the question. \u201cBesides, who wants to be a cardsharp?\u201d",
+    "\u201cThat\u2019s precisely what he\u2019s missing!\u201d Razumikhin interrupted. \u201cThat\u2019s what\u2019s leading you all astray. I maintain that he was inept and inexperienced, and this was probably his first endeavor! If you assume he was a calculating and cunning rogue, then the whole thing turns out improbably. Assume an inexperienced fellow, and it turns out that it was chance alone that saved him from disaster, and what can\u2019t chance do? He might not even have foreseen the obstacles he\u2019d encounter! How did this affair proceed? He took items worth ten or twenty rubles, stuffed them into his pocket, searched around in the old woman\u2019s trunk, among her clothes\u2014but later, in her dresser, in a box in the top drawer, they find fifteen hundred rubles in cash, plus some notes! He didn\u2019t know how to rob; he only knew how to murder! It was his first endeavor, I tell you, his first. He lost his head! It wasn\u2019t calculation, but chance that saved him.\u201d",
+    "The princesses climbed onto their royal elephants, and since Kundavai had already hinted that those leaving for a long journey must start on their journey first, Vandiya Devan turned the horse\u2019s head towards the road albeit with great hesitation. Even then he couldn\u2019t help but turn towards her and look upon her beautiful face once again, but realizing that it is unmannerly, he turned the horse\u2019s head swiftly and galloped away within a flash. The Vaidiyar\u2019s son, who was to accompany him, struggled to control his horse and followed him.",
+    "Of course, I hated them all in our office, from first to last, and despised them all, but at the same time I was also as if afraid of them. It happened that I would suddenly set them above myself. Things were somehow sudden with me in those days: now I despised them, now I set them above me. A developed and decent man cannot be vain without a boundless exactingness towards himself and without despising himself at moments to the point of hatred. But whether I despised them or set them above me, I used to drop my eyes before almost everyone I met. I even made experiments: will I be able to endure so-and-so's glance on me? \u2013 and I was always the first to drop my eyes. This tormented me to the point of fury. I was also afraid to the point of illness of being ridiculous, and therefore slavishly worshiped routine in everything to do with externals; I loved falling into the common rut, and feared any eccentricity in myself with all my soul. But how could I hold out? I was morbidly developed, as a man of our time ought to be developed. And they were all dull-witted and as like one another as a flock of sheep. Perhaps to me alone in the whole office did it constantly seem that I was a coward and a slave; it seemed so to me precisely because I was developed. But it not only seemed, in fact it really was so: I was a coward and a slave. I say it without any embarrassment. Every decent man of our time is and must be a coward and a slave. That is his normal condition. I am deeply convinced of it. He's made that way, and arranged for it. And not in the present time, owing to some sort of chance circumstances, but generally in all times a decent man must be a coward and a slave. That is the natural law of all decent people on earth. If one of them does happen to get up a bit of pluck in something, let him not be eased or pleased by that: he'll still quail before something else. Such is the sole and everlasting outcome. Only asses and their mongrels show pluck, and even then only up to that certain wall. It's not worth paying any attention to them, because they mean precisely nothing.",
+    "The famous doctor said his goodbyes with a serious expression, but one that hadn\u2019t given up hope. And to the timid question Ivan Ilyich put to him, raising eyes that were shining with fear and hope\u2014is there any possibility of recovery?\u2014he answered that though one couldn\u2019t guarantee it, there was a possibility. The look of hope with which Ivan Ilyich said goodbye to the doctor was so pitiful that, when she saw it, Praskovya Fyodorovna burst into tears as she went through the study doors to give the famous doctor his fee.",
+    "\u201cThat is not right, it\u2019s a mistake!\u201d Nina Alexandrovna intervened suddenly, looking almost ruefully at the Prince. \u201cMon mari se trompe.\u201d *",
+    "That comes, I think, from their tiredness. Over the centuries they have taken upon themselves the entire task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words, and done it badly. And has made their learning difficult with his distractedness, his negligence, his jealousy, which was itself a kind of negligence.",
+    "He stood there a moment, took several deep breaths, shook his head, turned around, and did not notice Semyonych\u2020 flattened against the wall in a shadowy corner of the corridor.",
+    "\u2018When I wished to determine the increase in weight the Nautilus would require to dive, my only concern was the progressive reduction in volume that sea water experiences as it becomes deeper.\u2019"
+  ],
+  "dup_info": [
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 3,
+      "dup_paraphraser": "dipper_lowmed"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 2,
+      "dup_paraphraser": "gemini_25_flash"
+    },
+    {
+      "dup_index": 1,
+      "dup_paraphraser": "llama_31_8b"
+    },
+    {
+      "dup_index": 0,
+      "dup_paraphraser": "human_par3"
+    }
+  ],
+  "shuffled_labels": [
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "human_par3",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "dipper_lowmed"
+    ],
+    [
+      "human_par3",
+      "dipper_lowmed",
+      "gemini_25_flash",
+      "human_par3",
+      "llama_31_8b"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "dipper_lowmed",
+      "human_par3"
+    ],
+    [
+      "llama_31_8b",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "human_par3",
+      "human_par3"
+    ],
+    [
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "llama_31_8b",
+      "dipper_lowmed"
+    ],
+    [
+      "llama_31_8b",
+      "human_par3",
+      "gemini_25_flash",
+      "dipper_lowmed",
+      "gemini_25_flash"
+    ],
+    [
+      "dipper_lowmed",
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "llama_31_8b"
+    ],
+    [
+      "human_par3",
+      "gemini_25_flash",
+      "llama_31_8b",
+      "human_par3",
+      "dipper_lowmed"
+    ]
+  ],
+  "rationales": [
+    "Outputs 2 and 3 both begin with 'And\u2014the torso of a goat-footed caryatid' and share a distinctive structure of multiple 'since the time as' or 'since such time as' clauses. They both employ elevated or archaic diction ('lathery', 'lacquered, emblazoned orifice', 'parchment-faced statue', 'set foot upon the granite', etc.), and both use similar phrases like 'funereal cushions', 'cast aside a coat of arms', and 'touched the brim of a top hat as it returned other people's bows.' These stylistic similarities and the mirrored sentence progression strongly suggest the same paraphrasing system.",
+    "Outputs 3 and 4 both retain the unique words 'Dussauts/Dussots' and 'Pointes/spits of land', suggesting a strong literal translation from a source text. Both use a similar structure: a mention of clubs, unique proper nouns, and mention of 'progress', followed by a statement about not being involved and ignoring the question. The phrase 'what\u2019s the fun of being a card sharp again?' in 3 and 'who wants to be a cardsharp?' in 4 are also very close in meaning and style. Both outputs split the paraphrase into two sections, the first being a comment about the clubs/locations/progress, and the second about card-sharping. These shared lexical and structural choices are not found in the other outputs, signaling that 3 and 4 were likely produced by the same paraphraser.",
+    "Indexes 2 and 4 share notable stylistic similarities: both use a structure repeatedly emphasizing 'he did not know how to rob/steal, he only knew how to murder,' and both repeat phrases like 'he was a first-time thief,' or 'his first attempt, I tell you,' in very close succession. This repetition and the use of phrases like 'it was not calculation, but chance that saved him' appear in both, and both omit the lengthy details present in other versions about the sequence of searching through boxes and the rubles found, though they do mention similar amounts and specifics without as much narrative embellishment. Their sentence structures, language choices, and focus on concise restatement of the main argument show significant overlap, suggesting the same paraphrasing system.",
+    "Outputs 1 and 2 both start with the princesses mounting elephants and mention Kundavai's suggestion that those leaving on a long journey should depart first. They also use similar phrasing such as 'reluctantly steered his horse' and focus on Vandiya Devan's struggle with his feelings and manners. Additionally, both mention the Vaidiyar's son struggling to control his horse and following behind. The structure and flow of ideas are notably close, as are some word choices ('reluctantly steered his horse,' 'quickly turned his horse,' etc.) and narrative order.",
+    "Outputs 1 and 4 share multiple unique stylistic and structural similarities that strongly suggest they come from the same paraphraser. Both are especially lengthy and detailed, incorporating extended philosophical musings and almost identical rhetorical flourishes. For example, both use variations of 'a decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred' and meditate at length on the concept that 'every decent man in this age is, and must be, a coward and a slave.' The sentence structure, transitions, and even phrasing (\u2018I say this without shame.\u2019 / \u2018I state this without shame.\u2019, \u2018every respectable person in our era\u2019/\u2019every decent man in this age\u2019) are highly alike. They also both specifically include rhetorical statements about this being a universal law, not limited to present circumstances. The structure and sequencing of ideas, as well as the repeated clause constructs, provide strong evidence that these came from the same paraphraser.",
+    "Outputs 3 and 4 share highly similar sentence structure and specific phrases such as 'celebrated specialist took... with a serious though not hopeless look', 'in reply to the timid question Ivan Ilych, with eyes glistening with fear and hope', and the phrase 'there was a possibility.' Additionally, both contain the nearly identical sentiment and sequence regarding Praskovya weeping 'as she left the room/study to hand/give the doctor/specialist his fee.' The lexical choices, syntax, and distribution of clauses follow an almost parallel pattern, making it clear they originate from the same paraphraser.",
+    "Outputs 2 and 4 both include the phrase in French 'Mon mari se trompe', while none of the others do. They both use very similar sentence structures as well: both start with 'That is not true, it is a mistake!' or a closely matching variation, and both note Nina Alexandrovna's action as she turns or interposes 'suddenly', looking at the Prince 'almost regretfully' or 'almost with anguish'. This combination of translating part of the line while leaving the French intact and similar descriptive choices suggests the same paraphrasing system.",
+    "Outputs 2 and 4 display notable stylistic and structural similarities. Both start with a similar phrasing about exhaustion being the root cause/source, follow with 'Throughout history, they've shouldered the entire burden of love,' and describe women as performing both sides of the conversation. They each use similar constructions like 'Men have merely echoed their [sentiments/words], and poorly at that.' Furthermore, both mention 'inattentiveness, carelessness, and envy (which was a form of neglect),' using nearly identical words and parenthetical structure. These patterns point to the same paraphraser.",
+    "Outputs 3 and 4 both begin with 'He paused,' use similar compact structures, and proceed with a similar description of breathing ('drew a few sharp breaths' vs. 'took a few deep inhalations'). Both use a participle to describe Semyonych's action ('hiding in the shadows' / 'concealed himself in the darkness'), and focus on the unawareness of the main character using comparable wording ('seemingly unaware of Semyonych' / 'seeming to be unaware that Semyonych'). The stylistic patterns are more closely matched compared to the other outputs.",
+    "Outputs 0 and 4 share several close similarities in phrasing and structure, such as 'When I wanted to calculate/determine the increase in weight the Nautilus needed/would need to [submerge/dive]', both reference 'the progressive reduction in volume that [salt] water experiences [in deeper and deeper strata/as it goes deeper]'. The structure and word choices are highly parallel, suggesting they are from the same paraphraser."
+  ],
+  "results_blocks": [
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        3
+      ],
+      "correct_indexes": [
+        2,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        2
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        1,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        2
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        2,
+        4
+      ],
+      "correct_indexes": [
+        2,
+        4
+      ]
+    },
+    {
+      "Correct": true,
+      "predicted_indexes": [
+        3,
+        4
+      ],
+      "correct_indexes": [
+        3,
+        4
+      ]
+    },
+    {
+      "Correct": false,
+      "predicted_indexes": [
+        0,
+        4
+      ],
+      "correct_indexes": [
+        0,
+        3
+      ]
+    }
+  ],
+  "round_outputs": [
+    {
+      "human_par3": [
+        "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+        "And \u2013 the torso of a goat-footed caryatid. Since the time when a carriage drawn by a pair of lathered black horses flew up to its front steps, since the time when a court lackey in a tricorne hat donned obliquely on his head and a winged greatcoat opened wide, for the first time the lacquered, embossed flank and, with a click, the door threw aside its coat of arms adorned with crown (a unicorn goring a knight); since the time when out of the funereal cushions of the carriage a parchment-faced statue placed its shoe on the entrance-porch granite; since the time when, for the first time, returning bows, a hand invested in the leather of a glove touched the brim of a top hat: \u2013 since that time the Institution that cast over Russia its mighty power had weighed down with a power even mightier."
+      ],
+      "llama_31_8b": [
+        "A detailed figurine of a mythological creature adorns the entrance of an extravagant carriage. The vehicle ascends to the carriage porch, and a liveried attendant with a tricorn on his head swiftly opens the door. The carriage's coat of arms, featuring a mythical unicorn attacking a knight, is briefly revealed. An upper-class gentleman, handed a rich leather-gloved hand, doffs his top hat in response to a greeting."
+      ],
+      "gemini_25_flash": [
+        "A capripede caryatid's upper body. A carriage pulled by two horses pulled up to the entrance, and a footman, wearing a three-cornered hat, opened the door with a click, revealing a coat of arms featuring small crowns (a unicorn impaling a knight). In response to greetings, a gloved hand touched the brim of a top hat."
+      ],
+      "dipper_lowmed": [
+        "A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, with a cocked hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). A torso of a capripede caryatid. Responding to greetings, a hand invested in leather touched the brim of a top hat."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019"
+      ],
+      "llama_31_8b": [
+        "He seems to be making a comment about certain types of establishments he's familiar with, such as boutiques or isolated areas, implying that he won't be a part of them going forward. He's not paying attention to the original question and is instead mentioning that he wouldn't want to engage in cheating at cards anyway.",
+        "\"Clubs, billiard halls, and little islands of land - I suppose that's progress. Well, I'll have no part in that. And who would want to be a professional card cheat, anyway?\""
+      ],
+      "gemini_25_flash": [
+        "\"Those establishments, those fancy shops, and those small plots of land, I suppose that's what you call progress \u2013 but it will all happen without me,\" he went on, again ignoring the question. \"Anyway, who would want to be a professional gambler?\""
+      ],
+      "dipper_lowmed": [
+        "Besides, who wants to be a cardsharp? \u201cI mean these clubs, these Dussots, and these spits of land,\u2014well, that\u2019s progress for you,\u2014well, all that\u2019s without me,\u201d he continued, once more ignoring the question."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018That\u2019s just the point\u2014it isn\u2019t!\u2019 interrupted Razumikhin. \u2018 That\u2019s just what you\u2019re all getting wrong. What I say is that he\u2019s not clever, not experienced, and probably this was his first time! If you imagine it being planned by a clever villain, it doesn\u2019t make sense. But if you imagine someone inexperienced, then it\u2019s quite clear that there was just one lucky chance that saved him from disaster\u2014and chance can do anything. I mean, perhaps he never foresaw any difficulties! And how does he set about it? He takes some things worth ten or twenty roubles apiece and fills his pockets with them, he burrows in the old woman\u2019s trunk, amongst all her rags, and all the while there\u2019s a box in the top drawer of her chest of drawers where they\u2019ve found fifteen hundred roubles in cash, not to mention banknotes! He didn\u2019t even manage to rob her\u2014all he managed to do was kill her! It was his first time , I\u2019m telling you, his first time, and he lost his head! And it wasn\u2019t any planning on his part, it was pure luck that saved him!\u2019"
+      ],
+      "llama_31_8b": [
+        "Razumikhin burst in, emphasizing the point that they were all mistaken. He insisted that the person behind the incident was incompetent and inexperienced, and that this was likely their first-time effort. If they assumed the individual was skilled and cunning, then the entire thing would be implausible. However, if they considered them an inexperienced person, it made sense that luck was the primary factor that prevented them from getting caught. This person might not even have anticipated the obstacles they'd face. The whole sequence of events played out like this: they took small items, stuffed them into their pocket, and rummaged through the old woman's trunk and clothes. But then, they stumbled upon a large sum of money - around fifteen hundred rubles - in a box within a drawer. It was clear that they didn't know how to rob properly; they only knew how to commit murder. Razumikhin firmly believed that this was the person's first attempt, and that they lost control and were saved by chance."
+      ],
+      "gemini_25_flash": [
+        "\"Exactly what he lacks!\" Razumikhin cut in. \"That's where you're all mistaken. I insist he was clumsy and green, and that this was likely his very first attempt! If you picture him as a shrewd and sly criminal, the whole situation becomes unbelievable. Imagine him as a novice, and it becomes clear that only luck kept him from utter failure, and what can't luck achieve? He might not have even considered the difficulties he'd face! How did this whole thing unfold? He grabbed a few items, worth perhaps ten or twenty rubles, shoved them into his pocket, rummaged through the old woman's trunk, through her clothes\u2014yet later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, plus some promissory notes! He wasn't skilled enough to steal; he only knew how to kill! This was his initial try, I'm telling you, his maiden effort. He panicked! It wasn't clever planning, but pure coincidence that rescued him.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThat\u2019s exactly what he lacked,\u201d interrupted Razumikhin, \u201cand that\u2019s what misleads you; I maintain that he was an inept and inexperienced fellow, and that it was probably his first attempt. If he had been a clever and cunning rogue, the whole thing would turn out improbably; but if an inexperienced fellow, then it turns out that it was chance alone that saved him from misfortune, and what can't chance do? He only knew how to murder; he knew nothing about robbery; he knew only how to murder, he only knew how to murder; it was his first attempt, I tell you, his first, he lost his head! It was not calculation, but chance, that saved him.\u201d",
+        "\u201cThat\u2019s just what he lacks,\u201d Razumikhin interrupted, \u201cthat\u2019s what misleads you all; I maintain that he was inept and inexperienced, and that it was probably his first attempt! He did not know how to steal, he only knew how to murder; he was trying for the first time, and it was a first try, I tell you, he lost his head; it was not calculation, but chance that saved him. He took articles worth twenty or ten rubles, stuffed them into his pocket, ransacked the old woman\u2019s trunk, ransacked her linen closet, but there they found, in a box in the top drawer, fifteen hundred rubles in cash, with tickets! He did not know how to rob, he knew only how to murder; he was a first-time thief, I tell you, he was a first-time thief, but he had lost his head!"
+      ]
+    },
+    {
+      "human_par3": [
+        "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him.",
+        "Unwillingly, Vandiyathevan turned his horse. He looked at Kundavai, his eyes full of desire. Then he lashed his horse as though he was angry with it. The touchy animal galloped away. The physician\u2019s son struggled to keep up with him."
+      ],
+      "llama_31_8b": [
+        "The princesses mounted their elephant escort, and Vandiya Devan, taking a cue from Kundavai's earlier suggestion, reluctantly steered his horse towards the road, despite visibly struggling with the decision. A final, lingering glance in Kundavai's direction only to quickly avert his gaze and canter away, as propriety dictated. His companion, the Vaidiyar's son, had some difficulty controlling his own horse but managed to follow Vandiya Devan."
+      ],
+      "gemini_25_flash": [
+        "The princesses mounted their royal elephants. Following Kundavai's subtle suggestion that those embarking on a lengthy voyage should depart first, Vandiya Devan reluctantly steered his horse onto the road. He couldn't resist a final glance at her lovely face, but quickly, and with some embarrassment regarding his manners, he sharply turned his horse and galloped off. The Vaidiyar's son, who was meant to travel with him, had difficulty managing his own horse but managed to pursue him."
+      ],
+      "dipper_lowmed": [
+        "Even then, Vandiyadeva could not help but look at her face again. But he realized that this was unseemly and quickly turned his horse\u2019s head and galloped away. The Vaidiyar\u2019s son who was to accompany him struggled to control his horse and followed him. The princesses climbed on their elephants. And since Kundavai had said that those who had to go on a long journey should leave first, Vandiyathevan turned his horse towards the road, with a jerk, and galloped away."
+      ]
+    },
+    {
+      "human_par3": [
+        "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing."
+      ],
+      "llama_31_8b": [
+        "In our office, I couldn't stand any of my colleagues, but at times I also felt intimidated by them. This is how I constantly oscillated between feelings of disdain and submission. I was a man of intense self-criticism, always striving to live up to my own expectations, which sometimes led to self-loathing. I was preoccupied with not making a fool of myself in front of others and was excessively concerned with adhering to conventions. I conducted experiments to see how long I could endure the gaze of certain colleagues, and predictably, I would be the first to look away. This self-consciousness consumed me with frustration. I lived in fear of being ridiculed, so I put in extra effort to conform and avoid any sign of originality. My hypersensitivity made this struggle nearly unbearable. I knew I was wavering between feeling cowardly and enslaved, because I was prone to overthinking every situation. It's true that my excessively developed self-awareness revealed my frailty; being honest, I acknowledge that I was trapped in this state. But I assert that this is the natural condition of every respectable individual. Every well-advised person is bound to be uncertain and timid. History confirms this condition, and it doesn't result from a specific time period or chance events.",
+        "I used to have a tumultuous relationship with my coworkers, switching between feelings of disdain and admiration without warning. There was a lingering sense of fear within me, as if I felt intimidated by their presence. To cope with this, I went to great lengths to blend in and follow the norm, fearing ridicule or standing out in any way. I even conducted experiments on myself, dropping my gaze before others to gauge my tolerance for their attention. However, this only led to feelings of frustration and anxiety about being seen as weak. Ashamed but resigned, I recognized that I, like many others of my kind, was indeed a coward and a slave to societal expectations. This I saw as a fundamental aspect of being a \"decent\" man in our time. It was as if we were bred and trained to be complacent and timid, never really capable of mustering genuine courage or taking risks. Those who tried to prove their pluck were ultimately just delaying their inevitable collapse under the weight of pressure. The only ones who truly seemed to show bravery were those without real substance or influence - empty displays meant to garner attention rather than achieve anything meaningful."
+      ],
+      "gemini_25_flash": [
+        "I loathed and looked down on everyone in the office, without exception, yet paradoxically, I also felt a sense of fear and even put them on a pedestal at times. My emotions were erratic back then; one moment I'd scorn them, the next I'd elevate them. A refined and morally upright person can't truly be arrogant without having incredibly high standards for themselves and occasionally despising themselves to the point of self-hatred. Regardless of whether I held them in contempt or respect, I almost always averted my gaze when encountering someone. I even tested myself, wondering if I could meet someone's stare, but I invariably looked away first. This constant failure infuriated me. I was also terrified of appearing absurd, so I meticulously adhered to conventional behavior in all outward matters. I embraced conformity and abhorred any personal peculiarity. But how could I maintain this facade? I was, in a sense, excessively aware and sensitive, as a modern person should be. Meanwhile, my colleagues were all dull-witted and indistinguishable from one another. Perhaps I was the only one in the office who constantly believed I was a coward and a slave, and this conviction stemmed precisely from my elevated sensitivity. It wasn't just a feeling; it was the truth: I was a coward and a slave, and I state this without shame. Every respectable person in our era is, and is meant to be, a coward and a slave. This is their inherent state, I am profoundly convinced. They are structured and designed this way. And this isn't just a temporary condition due to current circumstances, but a universal truth: a decent person in any age must be a coward and a slave. This is the fundamental law for all respectable individuals. If one of them briefly displays courage, they shouldn't take comfort in it; they will inevitably back down from something else. This is the inescapable and enduring outcome. Only fools and their followers truly show bravery, and even then, only up to a certain point. They are not worth considering, as their actions hold no real significance."
+      ],
+      "dipper_lowmed": [
+        "I was sickly developed, as a man of our time should be, and they were all stupid and similar to one another as a flock of sheep. Of course, I hated everyone in our office, from the first to the last, and despised everyone, but at the same time I was somehow afraid of them; sometimes I suddenly put them above me. A developed and decent man cannot be vain without a boundless demand on himself and without despising himself at moments to the point of hatred. But whether I despised them or put them above me, I looked down on them almost everyone I met; I even made experiments: would I be able to stand the gaze of such-and-such a person?\u2014and I was always the first to drop my eyes. But, having found no way out, how could I stand it: I was morbidly developed, as a man of our time should be developed, and they were stupid and as like each other as a flock of sheep."
+      ]
+    },
+    {
+      "human_par3": [
+        "The celebrated specialist took his leave looking serious but not hopeless. And in answer to the question put to him diffidently by Ivan Ilyich, whose eyes were glistening with fear and hope, as to whether there was any possibility of recovery, he replied that nothing could be guaranteed but there was a possibility. The look of hope on Ivan Ilyich\u2019s face as he watched the doctor leave was so pathetic that when she saw it Praskovya actually burst into tears as she walked out of the study to give the celebrated specialist his fee.",
+        "The celebrated specialist took leave of him with a serious though not hopeless look, and in reply to the timid question Ivan Ilych, with eyes glistening with fear and hope, put to him as to whether there was a chance of recovery, said that he could not vouch for it but there was a possibility. The look of hope with which Ivan Ilych watched the doctor out was so pathetic that Praskovya Fedorovna, seeing it, even wept as she left the room to hand the doctor his fee."
+      ],
+      "llama_31_8b": [
+        "As the renowned doctor bid Ivan Ilyich farewell, his expression was one of solemn seriousness, yet it held a spark of unyielding optimism. When Ivan Ilyich asked the doctor, his eyes aglow with both fear and hope, if there was any chance of recovery, the doctor replied that while no promises could be made, there was a glimmer of hope. The look of longing with which Ivan Ilyich parted ways with the doctor was so heartbreaking that it moved Praskovya Fyodorovna to tears, and she rushed out of the study to hand the doctor his payment."
+      ],
+      "gemini_25_flash": [
+        "With a grave but not hopeless expression, the renowned physician bid farewell. To Ivan Ilyich's hesitant query, his eyes wide with a mix of dread and optimism\u2014\"Is there any chance of getting better?\"\u2014the doctor replied that while he couldn't promise a full recovery, it was a possibility. Ivan Ilyich's hopeful gaze as he said goodbye to the doctor was so heart-wrenching that Praskovya Fyodorovna began to cry as she exited the study to pay the celebrated doctor."
+      ],
+      "dipper_lowmed": [
+        "The expression of hope with which Ivan Ilyich said goodbye to the doctor was so pitiful that when she saw it, Praskovya Fyodorovna burst into tears as she went through the study doors to pay the famous doctor. The famous doctor said goodbye with a serious but not hopeless look. And to the timid question Ivan Ilyich put to him, raising his eyes, which shone with fear and hope, whether there was any possibility of recovery, he answered that although there was no guarantee, there was a possibility."
+      ]
+    },
+    {
+      "human_par3": [
+        "\u2018That\u2019s not true, it\u2019s a mistake!\u2019 Nina Alexandrovna said, turning to him suddenly, looking at him almost with anguish. \u2018Mon mari se trompe. \u20194"
+      ],
+      "llama_31_8b": [
+        "\"No, that's incorrect, it's a mistake!\" exclaimed Nina Alexandrovna, looking at the Prince with seeming regret.",
+        "\"Yes, that's incorrect, it's an error,\" Nina intervened suddenly, gazing at the Prince with a hint of regret."
+      ],
+      "gemini_25_flash": [
+        "\"No, that's incorrect, it's an error!\" Nina Alexandrovna sharply interjected, her gaze at the Prince almost regretful. \"My husband is mistaken.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cThat is not true, it is a mistake!\u201d Nina Alexandrovna interposed suddenly, looking at the prince almost regretfully. \u201cMon mari se trompe.\u201d"
+      ]
+    },
+    {
+      "human_par3": [
+        "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect."
+      ],
+      "llama_31_8b": [
+        "This marks a turning point due to their exhaustion. Women have burdened themselves with the weight of love over the centuries, and have always carried the responsibility of the entire romantic relationship. Men have merely echoed their words, often with poor results. To make matters worse, men's inattention, carelessness, and possessiveness have made women's experiences with love more complicated."
+      ],
+      "gemini_25_flash": [
+        "Their exhaustion, I believe, is the source. Throughout history, they've shouldered the entire burden of love, always performing both sides of the conversation. Men have merely echoed their words, and poorly at that. Their inattentiveness, carelessness, and envy\u2014which was a form of neglect itself\u2014have made their education a struggle.",
+        "I believe their exhaustion is the root cause. Throughout history, they've shouldered the entire burden of love, carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. Furthermore, men's inattentiveness, carelessness, and envy (which was a form of neglect) have hindered women's understanding."
+      ],
+      "dipper_lowmed": [
+        "Over the centuries they have taken upon themselves the whole task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words and done it badly, and has made their learning difficult by his distractions, by his negligences, by his jealousy, which itself was a kind of negligence. I think it is their fatigue."
+      ]
+    },
+    {
+      "human_par3": [
+        "He had stood there for a bit, breathed deeply, shaken his head, turned round, without noticing Semyonych, who was pressed into the shadowy corner of the corridor; he had stood there, breathed deeply some more, and then\u2014put his face to the keyhole with its shaft of light: and\u2014how he had stuck to it, unable to detach himself from the door! His curiosity wasn\u2019t proper curiosity for the master\u2019s son, something wasn\u2019t nice about it\u2014it wasn\u2019t right."
+      ],
+      "llama_31_8b": [
+        "He paused, took a few deep inhalations, and then turned around, seeming to be unaware that Semyonych concealed himself in the darkness of the adjacent corner.",
+        "He paused briefly, drew a few sharp breaths, and then abruptly turned around, seemingly unaware of Semyonych, who was quietly hiding in the shadows nearby."
+      ],
+      "gemini_25_flash": [
+        "For a brief moment, he paused, inhaling deeply multiple times before shaking his head. He then turned and walked away, completely missing Semyonych, who was pressed against the wall in a dimly lit part of the hallway."
+      ],
+      "dipper_lowmed": [
+        "He remained standing for a while, took a few deep breaths, shook his head, turned around and did not notice Semyonitch flattening himself against the wall in the shadowy corner of the corridor."
+      ]
+    },
+    {
+      "human_par3": [
+        "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d",
+        "\u201cWhen I wanted to determine what increase in weight the Nautilus needed to have in order to submerge, all I had to do was take note of the progressive reduction in volume that salt water experiences in deeper and deeper strata.\u201d"
+      ],
+      "llama_31_8b": [
+        "My main concern in calculating the increase in the Nautilus' weight was how sea water's volume decreases as it is pushed deeper."
+      ],
+      "gemini_25_flash": [
+        "\"My sole focus when calculating the additional weight needed for the Nautilus to submerge was the gradual decrease in seawater's volume as it reaches greater depths.\""
+      ],
+      "dipper_lowmed": [
+        "\u201cWhen I wanted to calculate the increase in weight that the Nautilus would need to dive, I was only concerned with the progressive reduction in volume that water experiences as it goes deeper.\u201d"
+      ]
+    }
+  ],
+  "responses": [
+    [
+      "A detailed figurine of a mythological creature adorns the entrance of an extravagant carriage. The vehicle ascends to the carriage porch, and a liveried attendant with a tricorn on his head swiftly opens the door. The carriage's coat of arms, featuring a mythical unicorn attacking a knight, is briefly revealed. An upper-class gentleman, handed a rich leather-gloved hand, doffs his top hat in response to a greeting.",
+      "He seems to be making a comment about certain types of establishments he's familiar with, such as boutiques or isolated areas, implying that he won't be a part of them going forward. He's not paying attention to the original question and is instead mentioning that he wouldn't want to engage in cheating at cards anyway.",
+      "Razumikhin burst in, emphasizing the point that they were all mistaken. He insisted that the person behind the incident was incompetent and inexperienced, and that this was likely their first-time effort. If they assumed the individual was skilled and cunning, then the entire thing would be implausible. However, if they considered them an inexperienced person, it made sense that luck was the primary factor that prevented them from getting caught. This person might not even have anticipated the obstacles they'd face. The whole sequence of events played out like this: they took small items, stuffed them into their pocket, and rummaged through the old woman's trunk and clothes. But then, they stumbled upon a large sum of money - around fifteen hundred rubles - in a box within a drawer. It was clear that they didn't know how to rob properly; they only knew how to commit murder. Razumikhin firmly believed that this was the person's first attempt, and that they lost control and were saved by chance.",
+      "Left with no further pretext to dawdle, Vandhiyathevan turned his horse\u2014with a great deal of reluctance, it must be admitted. He craned his neck and gazed at Kundhavai one last time, eyes fairly brimming with eagerness and yearning. Then, abruptly, he delivered a slap to his horse, as though furious with it; that well-bred animal sprang forward, quite unused to such cavalier treatment. It sped away, kicking up a cloud of dust; the Vaidhyar's son had to gather all his considerable inexperience just to follow him.",
+      "I used to have a tumultuous relationship with my coworkers, switching between feelings of disdain and admiration without warning. There was a lingering sense of fear within me, as if I felt intimidated by their presence. To cope with this, I went to great lengths to blend in and follow the norm, fearing ridicule or standing out in any way. I even conducted experiments on myself, dropping my gaze before others to gauge my tolerance for their attention. However, this only led to feelings of frustration and anxiety about being seen as weak. Ashamed but resigned, I recognized that I, like many others of my kind, was indeed a coward and a slave to societal expectations. This I saw as a fundamental aspect of being a \"decent\" man in our time. It was as if we were bred and trained to be complacent and timid, never really capable of mustering genuine courage or taking risks. Those who tried to prove their pluck were ultimately just delaying their inevitable collapse under the weight of pressure. The only ones who truly seemed to show bravery were those without real substance or influence - empty displays meant to garner attention rather than achieve anything meaningful.",
+      "As the renowned doctor bid Ivan Ilyich farewell, his expression was one of solemn seriousness, yet it held a spark of unyielding optimism. When Ivan Ilyich asked the doctor, his eyes aglow with both fear and hope, if there was any chance of recovery, the doctor replied that while no promises could be made, there was a glimmer of hope. The look of longing with which Ivan Ilyich parted ways with the doctor was so heartbreaking that it moved Praskovya Fyodorovna to tears, and she rushed out of the study to hand the doctor his payment.",
+      "\"No, that's incorrect, it's an error!\" Nina Alexandrovna sharply interjected, her gaze at the Prince almost regretful. \"My husband is mistaken.\"",
+      "This marks a turning point due to their exhaustion. Women have burdened themselves with the weight of love over the centuries, and have always carried the responsibility of the entire romantic relationship. Men have merely echoed their words, often with poor results. To make matters worse, men's inattention, carelessness, and possessiveness have made women's experiences with love more complicated.",
+      "He remained standing for a while, took a few deep breaths, shook his head, turned around and did not notice Semyonitch flattening himself against the wall in the shadowy corner of the corridor.",
+      "\u201cWhen I wanted to determine what increase in weight the Nautilus needed to have in order to submerge, all I had to do was take note of the progressive reduction in volume that salt water experiences in deeper and deeper strata.\u201d"
+    ],
+    [
+      "A capripede caryatid's upper body. A carriage pulled by two horses pulled up to the entrance, and a footman, wearing a three-cornered hat, opened the door with a click, revealing a coat of arms featuring small crowns (a unicorn impaling a knight). In response to greetings, a gloved hand touched the brim of a top hat.",
+      "\"Those establishments, those fancy shops, and those small plots of land, I suppose that's what you call progress \u2013 but it will all happen without me,\" he went on, again ignoring the question. \"Anyway, who would want to be a professional gambler?\"",
+      "\u2018That\u2019s just the point\u2014it isn\u2019t!\u2019 interrupted Razumikhin. \u2018 That\u2019s just what you\u2019re all getting wrong. What I say is that he\u2019s not clever, not experienced, and probably this was his first time! If you imagine it being planned by a clever villain, it doesn\u2019t make sense. But if you imagine someone inexperienced, then it\u2019s quite clear that there was just one lucky chance that saved him from disaster\u2014and chance can do anything. I mean, perhaps he never foresaw any difficulties! And how does he set about it? He takes some things worth ten or twenty roubles apiece and fills his pockets with them, he burrows in the old woman\u2019s trunk, amongst all her rags, and all the while there\u2019s a box in the top drawer of her chest of drawers where they\u2019ve found fifteen hundred roubles in cash, not to mention banknotes! He didn\u2019t even manage to rob her\u2014all he managed to do was kill her! It was his first time , I\u2019m telling you, his first time, and he lost his head! And it wasn\u2019t any planning on his part, it was pure luck that saved him!\u2019",
+      "Even then, Vandiyadeva could not help but look at her face again. But he realized that this was unseemly and quickly turned his horse\u2019s head and galloped away. The Vaidiyar\u2019s son who was to accompany him struggled to control his horse and followed him. The princesses climbed on their elephants. And since Kundavai had said that those who had to go on a long journey should leave first, Vandiyathevan turned his horse towards the road, with a jerk, and galloped away.",
+      "I loathed and looked down on everyone in the office, without exception, yet paradoxically, I also felt a sense of fear and even put them on a pedestal at times. My emotions were erratic back then; one moment I'd scorn them, the next I'd elevate them. A refined and morally upright person can't truly be arrogant without having incredibly high standards for themselves and occasionally despising themselves to the point of self-hatred. Regardless of whether I held them in contempt or respect, I almost always averted my gaze when encountering someone. I even tested myself, wondering if I could meet someone's stare, but I invariably looked away first. This constant failure infuriated me. I was also terrified of appearing absurd, so I meticulously adhered to conventional behavior in all outward matters. I embraced conformity and abhorred any personal peculiarity. But how could I maintain this facade? I was, in a sense, excessively aware and sensitive, as a modern person should be. Meanwhile, my colleagues were all dull-witted and indistinguishable from one another. Perhaps I was the only one in the office who constantly believed I was a coward and a slave, and this conviction stemmed precisely from my elevated sensitivity. It wasn't just a feeling; it was the truth: I was a coward and a slave, and I state this without shame. Every respectable person in our era is, and is meant to be, a coward and a slave. This is their inherent state, I am profoundly convinced. They are structured and designed this way. And this isn't just a temporary condition due to current circumstances, but a universal truth: a decent person in any age must be a coward and a slave. This is the fundamental law for all respectable individuals. If one of them briefly displays courage, they shouldn't take comfort in it; they will inevitably back down from something else. This is the inescapable and enduring outcome. Only fools and their followers truly show bravery, and even then, only up to a certain point. They are not worth considering, as their actions hold no real significance.",
+      "With a grave but not hopeless expression, the renowned physician bid farewell. To Ivan Ilyich's hesitant query, his eyes wide with a mix of dread and optimism\u2014\"Is there any chance of getting better?\"\u2014the doctor replied that while he couldn't promise a full recovery, it was a possibility. Ivan Ilyich's hopeful gaze as he said goodbye to the doctor was so heart-wrenching that Praskovya Fyodorovna began to cry as she exited the study to pay the celebrated doctor.",
+      "\"No, that's incorrect, it's a mistake!\" exclaimed Nina Alexandrovna, looking at the Prince with seeming regret.",
+      "It comes, I believe, of their weariness. For centuries they have performed all of love; they have always played the entire dialogue, both parts. For man merely repeated what they said, and did it badly. And made it difficult for them to learn, with his inattention, his neglect, his jealousy, which was itself a form of neglect.",
+      "He had stood there for a bit, breathed deeply, shaken his head, turned round, without noticing Semyonych, who was pressed into the shadowy corner of the corridor; he had stood there, breathed deeply some more, and then\u2014put his face to the keyhole with its shaft of light: and\u2014how he had stuck to it, unable to detach himself from the door! His curiosity wasn\u2019t proper curiosity for the master\u2019s son, something wasn\u2019t nice about it\u2014it wasn\u2019t right.",
+      "\"My sole focus when calculating the additional weight needed for the Nautilus to submerge was the gradual decrease in seawater's volume as it reaches greater depths.\""
+    ],
+    [
+      "And \u2013 the torso of a goat-footed caryatid. Since the time when a carriage drawn by a pair of lathered black horses flew up to its front steps, since the time when a court lackey in a tricorne hat donned obliquely on his head and a winged greatcoat opened wide, for the first time the lacquered, embossed flank and, with a click, the door threw aside its coat of arms adorned with crown (a unicorn goring a knight); since the time when out of the funereal cushions of the carriage a parchment-faced statue placed its shoe on the entrance-porch granite; since the time when, for the first time, returning bows, a hand invested in the leather of a glove touched the brim of a top hat: \u2013 since that time the Institution that cast over Russia its mighty power had weighed down with a power even mightier.",
+      "\"Clubs, billiard halls, and little islands of land - I suppose that's progress. Well, I'll have no part in that. And who would want to be a professional card cheat, anyway?\"",
+      "\u201cThat\u2019s exactly what he lacked,\u201d interrupted Razumikhin, \u201cand that\u2019s what misleads you; I maintain that he was an inept and inexperienced fellow, and that it was probably his first attempt. If he had been a clever and cunning rogue, the whole thing would turn out improbably; but if an inexperienced fellow, then it turns out that it was chance alone that saved him from misfortune, and what can't chance do? He only knew how to murder; he knew nothing about robbery; he knew only how to murder, he only knew how to murder; it was his first attempt, I tell you, his first, he lost his head! It was not calculation, but chance, that saved him.\u201d",
+      "The princesses mounted their royal elephants. Following Kundavai's subtle suggestion that those embarking on a lengthy voyage should depart first, Vandiya Devan reluctantly steered his horse onto the road. He couldn't resist a final glance at her lovely face, but quickly, and with some embarrassment regarding his manners, he sharply turned his horse and galloped off. The Vaidiyar's son, who was meant to travel with him, had difficulty managing his own horse but managed to pursue him.",
+      "In our office, I couldn't stand any of my colleagues, but at times I also felt intimidated by them. This is how I constantly oscillated between feelings of disdain and submission. I was a man of intense self-criticism, always striving to live up to my own expectations, which sometimes led to self-loathing. I was preoccupied with not making a fool of myself in front of others and was excessively concerned with adhering to conventions. I conducted experiments to see how long I could endure the gaze of certain colleagues, and predictably, I would be the first to look away. This self-consciousness consumed me with frustration. I lived in fear of being ridiculed, so I put in extra effort to conform and avoid any sign of originality. My hypersensitivity made this struggle nearly unbearable. I knew I was wavering between feeling cowardly and enslaved, because I was prone to overthinking every situation. It's true that my excessively developed self-awareness revealed my frailty; being honest, I acknowledge that I was trapped in this state. But I assert that this is the natural condition of every respectable individual. Every well-advised person is bound to be uncertain and timid. History confirms this condition, and it doesn't result from a specific time period or chance events.",
+      "The expression of hope with which Ivan Ilyich said goodbye to the doctor was so pitiful that when she saw it, Praskovya Fyodorovna burst into tears as she went through the study doors to pay the famous doctor. The famous doctor said goodbye with a serious but not hopeless look. And to the timid question Ivan Ilyich put to him, raising his eyes, which shone with fear and hope, whether there was any possibility of recovery, he answered that although there was no guarantee, there was a possibility.",
+      "\u2018That\u2019s not true, it\u2019s a mistake!\u2019 Nina Alexandrovna said, turning to him suddenly, looking at him almost with anguish. \u2018Mon mari se trompe. \u20194",
+      "I believe their exhaustion is the root cause. Throughout history, they've shouldered the entire burden of love, carrying both sides of the conversation. Men have merely echoed their sentiments, and poorly at that. Furthermore, men's inattentiveness, carelessness, and envy (which was a form of neglect) have hindered women's understanding.",
+      "For a brief moment, he paused, inhaling deeply multiple times before shaking his head. He then turned and walked away, completely missing Semyonych, who was pressed against the wall in a dimly lit part of the hallway.",
+      "My main concern in calculating the increase in the Nautilus' weight was how sea water's volume decreases as it is pushed deeper."
+    ],
+    [
+      "And\u2014the torso of a goat-footed caryatid. Since such time as a carriage drawn by a pair of lathery black horses came hurtling up to the entrance-porch, since such time as a court footman in a loose-flowing cape with a tricorn askew on his head first threw open the lacquered, emblazoned orifice, and the door, with a click, cast aside a coat of arms (a unicorn, striking a knight) embellished with crowns; since such time as a statue with a face of parchment, rising from the coach\u2019s funereal cushions, set foot upon the granite of the entrance-porch; since such time as a suede-gloved hand touched the rim of a top hat as it returned other people\u2019s bows:\u2014since such time a yet more mighty power had subdued the Establishment which cast its own mighty power all across Russia.",
+      "\u2018And as for those clubs, those Dussauts, those Pointes* of yours, or even just progress\u2014I want no part of all that,\u2019 he went on, again ignoring the question. \u2018And what\u2019s the fun of being a card sharp again?\u2019",
+      "\"Exactly what he lacks!\" Razumikhin cut in. \"That's where you're all mistaken. I insist he was clumsy and green, and that this was likely his very first attempt! If you picture him as a shrewd and sly criminal, the whole situation becomes unbelievable. Imagine him as a novice, and it becomes clear that only luck kept him from utter failure, and what can't luck achieve? He might not have even considered the difficulties he'd face! How did this whole thing unfold? He grabbed a few items, worth perhaps ten or twenty rubles, shoved them into his pocket, rummaged through the old woman's trunk, through her clothes\u2014yet later, in her dresser, in a box in the top drawer, they discover fifteen hundred rubles in cash, plus some promissory notes! He wasn't skilled enough to steal; he only knew how to kill! This was his initial try, I'm telling you, his maiden effort. He panicked! It wasn't clever planning, but pure coincidence that rescued him.\"",
+      "Unwillingly, Vandiyathevan turned his horse. He looked at Kundavai, his eyes full of desire. Then he lashed his horse as though he was angry with it. The touchy animal galloped away. The physician\u2019s son struggled to keep up with him.",
+      "I was sickly developed, as a man of our time should be, and they were all stupid and similar to one another as a flock of sheep. Of course, I hated everyone in our office, from the first to the last, and despised everyone, but at the same time I was somehow afraid of them; sometimes I suddenly put them above me. A developed and decent man cannot be vain without a boundless demand on himself and without despising himself at moments to the point of hatred. But whether I despised them or put them above me, I looked down on them almost everyone I met; I even made experiments: would I be able to stand the gaze of such-and-such a person?\u2014and I was always the first to drop my eyes. But, having found no way out, how could I stand it: I was morbidly developed, as a man of our time should be developed, and they were stupid and as like each other as a flock of sheep.",
+      "The celebrated specialist took leave of him with a serious though not hopeless look, and in reply to the timid question Ivan Ilych, with eyes glistening with fear and hope, put to him as to whether there was a chance of recovery, said that he could not vouch for it but there was a possibility. The look of hope with which Ivan Ilych watched the doctor out was so pathetic that Praskovya Fedorovna, seeing it, even wept as she left the room to hand the doctor his fee.",
+      "\"Yes, that's incorrect, it's an error,\" Nina intervened suddenly, gazing at the Prince with a hint of regret.",
+      "Over the centuries they have taken upon themselves the whole task of love; they have always played the whole dialogue\u2014both parts. For man has only repeated their words and done it badly, and has made their learning difficult by his distractions, by his negligences, by his jealousy, which itself was a kind of negligence. I think it is their fatigue.",
+      "He paused briefly, drew a few sharp breaths, and then abruptly turned around, seemingly unaware of Semyonych, who was quietly hiding in the shadows nearby.",
+      "When I wanted to find out the necessary increase of weight required to sink the Nautilus, I had only to calculate the reduction of volume that sea-water acquires according to the depth.\u201d"
+    ],
+    [
+      "A carriage drawn by a pair of steeds flew up to the carriage porch, and a lackey, with a cocked hat on his head, gave the handle a click, and the door flew open, throwing back a coat of arms adorned with little crowns (a unicorn goring a knight). A torso of a capripede caryatid. Responding to greetings, a hand invested in leather touched the brim of a top hat.",
+      "Besides, who wants to be a cardsharp? \u201cI mean these clubs, these Dussots, and these spits of land,\u2014well, that\u2019s progress for you,\u2014well, all that\u2019s without me,\u201d he continued, once more ignoring the question.",
+      "\u201cThat\u2019s just what he lacks,\u201d Razumikhin interrupted, \u201cthat\u2019s what misleads you all; I maintain that he was inept and inexperienced, and that it was probably his first attempt! He did not know how to steal, he only knew how to murder; he was trying for the first time, and it was a first try, I tell you, he lost his head; it was not calculation, but chance that saved him. He took articles worth twenty or ten rubles, stuffed them into his pocket, ransacked the old woman\u2019s trunk, ransacked her linen closet, but there they found, in a box in the top drawer, fifteen hundred rubles in cash, with tickets! He did not know how to rob, he knew only how to murder; he was a first-time thief, I tell you, he was a first-time thief, but he had lost his head!",
+      "The princesses mounted their elephant escort, and Vandiya Devan, taking a cue from Kundavai's earlier suggestion, reluctantly steered his horse towards the road, despite visibly struggling with the decision. A final, lingering glance in Kundavai's direction only to quickly avert his gaze and canter away, as propriety dictated. His companion, the Vaidiyar's son, had some difficulty controlling his own horse but managed to follow Vandiya Devan.",
+      "Needless to say, I hated all the members of my department from the first to the last, and despised them, and yet somehow feared them as well. At times I would even rate them above myself. This quite often happened to me at that time; at one moment I despised them, at the next I felt they were superior to me. A decent and intelligent man cannot be vain without making inordinate demands on himself and at times despising himself to the point of hatred. But whether I despised them or rated them above myself, I dropped my eyes before almost everybody I came across. I even tried experiments: \u2018Shall I be able to bear so-and-so\u2019s eyes upon me?\u2019 \u2013 and I was always the first to lower my eyes. This drove me to frenzy. I was also morbidly afraid of being ridiculous and therefore slavishly observed the ordinary conventions in every outward appearance; I enthusiastically followed the common rut and was terrified of developing any eccentricity. But how was I to keep it up? I was painfully advanced, as a man of our time should be. But they were dullards, as like one another as a flock of sheep. Perhaps I was the only one in the whole office who always seemed to myself a slave and a coward precisely because I also seemed (to myself) civilized. But I not only seemed, I really was a coward and a slave. I say this without shame. Every decent man in this age is, and must be, a coward and a slave. That is his normal condition. I am profoundly certain of this. That is how he is made and what he was made for. And not only at the present time, because of what may be accidental circumstances, but at all times, a decent man must be a coward and a slave. This is a law of the nature of all decent people on the earth. Even if one of them puts on a show of bravery before somebody else, he ought not to take comfort from that or let himself be carried away by it: he is only showing off to the other person. This is the only and the eternal solution. Only donkeys and mules make a show of bravery, and they only to a limited extent. It is not worth while paying any attention to them, because they count for exactly nothing.",
+      "The celebrated specialist took his leave looking serious but not hopeless. And in answer to the question put to him diffidently by Ivan Ilyich, whose eyes were glistening with fear and hope, as to whether there was any possibility of recovery, he replied that nothing could be guaranteed but there was a possibility. The look of hope on Ivan Ilyich\u2019s face as he watched the doctor leave was so pathetic that when she saw it Praskovya actually burst into tears as she walked out of the study to give the celebrated specialist his fee.",
+      "\u201cThat is not true, it is a mistake!\u201d Nina Alexandrovna interposed suddenly, looking at the prince almost regretfully. \u201cMon mari se trompe.\u201d",
+      "Their exhaustion, I believe, is the source. Throughout history, they've shouldered the entire burden of love, always performing both sides of the conversation. Men have merely echoed their words, and poorly at that. Their inattentiveness, carelessness, and envy\u2014which was a form of neglect itself\u2014have made their education a struggle.",
+      "He paused, took a few deep inhalations, and then turned around, seeming to be unaware that Semyonych concealed himself in the darkness of the adjacent corner.",
+      "\u201cWhen I wanted to calculate the increase in weight that the Nautilus would need to dive, I was only concerned with the progressive reduction in volume that water experiences as it goes deeper.\u201d"
+    ]
+  ]
+}
